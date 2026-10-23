@@ -24,4 +24,4 @@ Select shorts for event `$ARGUMENTS`. This command ENDS with a table and waits f
    `broll_hint`: a keyword that matches a file in the `broll` folders from `event.yaml`, or null.
 7. Print a table: `id | panel | duration | speaker | hook`, then the opening line of each short.
 
-STOP. Do not run `/cut` or touch Resolve. Wait for me to approve or edit.
+STOP. Do not run `/cut` or render anything. Wait for me to approve or edit.

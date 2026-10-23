@@ -1,24 +1,35 @@
 # One file per event. Raw footage stays in `content`; this folder holds only
-# pipeline files (transcripts/, shorts.json, renders/).
+# pipeline files (transcripts/, stills/, shorts.json, renders/).
 event: _template
 date:            # YYYY-MM-DD
 content: content/EVENT_FOLDER      # raw footage folder, relative to the repo root
-fps:             # optional override; /cut reads fps from each master otherwise
+fps:             # optional output fps override; default is the first camera's fps
 
-# Media paths below are relative to `content`.
+# Every camera and mic on the shared timeline. Paths are relative to `content`.
+# `align.py sync` fills start (timeline second of the file's t=0), duration, sync_z.
+reference: mic1                    # source whose t=0 is timeline 0
+sources:
+  cam1:
+    file: "Angle 1.MP4"
+    kind: camera
+  mic1:
+    file: "Audio Recordings/Mic 1-1.WAV"
+    kind: mic
+    speaker: ""
+    # sync_to: cam1                # align against this instead of `reference`
+                                   # (for files that don't overlap the reference)
+
+# Who is framed how. crop is [x, y, w, h] in the camera's pixels, ideally 9:16.
+# Set once per event from the stills (scripts/stills.py).
+speakers: {}
+  # "Speaker Name": {camera: cam1, crop: [1200, 80, 540, 960]}
+
 broll:                             # folders and/or files searched for broll_hint matches
   - B-roll
 
 panels:
-  - id: panel1                       # short slug, used in transcripts/<id>.json and short ids
-    master: "panel1 master.mov"      # synced master exported from Resolve
-    granola_meeting: ""              # exact Granola meeting title
-    mics:                            # one entry per raw mic track
-      - file: "Audio Recordings/Mic 1-1.wav"
-        speaker: ""
-      - file: "Audio Recordings/Mic 2-1.wav"
-        speaker: ""
-    # Static 9:16 framing per speaker, filled in on the first /cut.
-    # Values are Resolve timeline-item properties on a 1080x1920 timeline.
-    crops: {}
-      # "Speaker Name": {zoom: 1.0, pan: 0, tilt: 0}
+  - id: panel1                     # short slug, used in transcripts/<id>.json and short ids
+    granola_meeting: ""            # exact Granola meeting title
+    mics: [mic1]                   # sources mixed for this panel's audio
+    start:                         # timeline seconds; empty = span where all its mics record
+    end:
