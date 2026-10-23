@@ -12,10 +12,13 @@ for files that don't overlap the reference, e.g. per-panel mic files). Two passe
 Writes `start` (timeline second of the file's t=0), `duration` and `sync_peak`
 (coarse peak over the next-best peak >0.5 s away; below ~1.3 is suspect) into each source.
 
-label: for each word, RMS of every panel mic at that moment, each normalised by
-its own loud-frame level (95th percentile) so a hot gain doesn't win every word.
-Highest wins; the word gets that mic's `speaker`. If even the loudest mic is
-below SILENCE of its loud level, nobody was talking: whisper hallucinated the
+label: for each word, the level (dB) of every panel mic at that moment, relative to
+that mic's owner speaking (its loudest 1% of words, with the correction capped at
+MAX_GAIN_DB so a mic that mostly hears bleed isn't scaled up). A Viterbi pass picks one mic per word with a
+SWITCH_DB cost per change, which removes flicker but keeps real turns, even one-word
+ones. The word gets that mic's speaker for the panel (`mic_speakers` on the panel,
+else the source's `speaker`, else the mic id as a placeholder). If every mic is
+SILENCE_DB below its speaking level, nobody was talking: whisper hallucinated the
 word, so it gets `speaker: null` and `silent: true` (cut.py skips those).
 """
 import argparse
@@ -32,8 +35,10 @@ ENV_HOP = 80  # samples per envelope frame at SR -> 100 Hz
 FINE_WINDOW = 60.0
 FINE_SEARCH = 0.25
 LABEL_SR = 4000
-FRAME = 0.05
-SILENCE = 0.1
+SPEECH_PERCENTILE = 99
+MAX_GAIN_DB = 6.0
+SWITCH_DB = 6.0    # evidence (dB, summed over words) needed to change speaker; stops flicker
+SILENCE_DB = 25.0  # every mic this far below its owner's level = nobody is talking
 MIN_WINDOW = 0.25  # whisper sometimes emits zero-length words; measure at least this much
 MIN_PEAK_RATIO = 1.3
 PEAK_EXCLUSION = 50  # envelope frames (0.5 s) around the peak ignored for the runner-up
@@ -144,10 +149,42 @@ def window_rms(x: np.ndarray, t0: float, t1: float) -> float:
     return float(np.sqrt((x[a:b] ** 2).mean())) if b > a else 0.0
 
 
-def reference_level(x: np.ndarray) -> float:
-    f = int(FRAME * LABEL_SR)
-    frames = x[: len(x) // f * f].reshape(-1, f)
-    return float(np.percentile(np.sqrt((frames ** 2).mean(axis=1)), 95)) + 1e-9
+def speech_gains(levels: np.ndarray) -> np.ndarray:
+    """Per-mic offsets (dB) that put each mic's owner speaking near 0 dB.
+
+    A mic's 99th-percentile word level is usually its owner talking. When the owner
+    barely speaks it's bleed instead, so the correction is capped at MAX_GAIN_DB from
+    the median mic: similar mics at similar distance differ by a few dB, not 15.
+    Picked on oss-week against known self-introductions (100% right) and label
+    flicker, and on the synthetic test (a one-word speaker).
+    """
+    g = -np.percentile(levels, SPEECH_PERCENTILE, axis=0)
+    mid = np.median(g)
+    return np.clip(g, mid - MAX_GAIN_DB, mid + MAX_GAIN_DB)
+
+
+def viterbi(scores: np.ndarray, switch: float) -> np.ndarray:
+    """Most likely mic per word, given per-word scores (dB) and a cost per speaker switch."""
+    n, k = scores.shape
+    best = scores[0].copy()
+    back = np.zeros((n, k), dtype=int)
+    for t in range(1, n):
+        stay = best
+        move = best.max() - switch
+        from_move = np.full(k, int(best.argmax()))
+        take_move = move > stay
+        back[t] = np.where(take_move, from_move, np.arange(k))
+        best = np.where(take_move, move, stay) + scores[t]
+    path = np.zeros(n, dtype=int)
+    path[-1] = int(best.argmax())
+    for t in range(n - 1, 0, -1):
+        path[t - 1] = back[t, path[t]]
+    return path
+
+
+def mic_speaker(ev: dict, panel: dict, sid: str) -> str:
+    """Who is on a mic in this panel: panel `mic_speakers`, else the source's `speaker`, else the mic id."""
+    return (panel.get("mic_speakers") or {}).get(sid) or ev["sources"][sid].get("speaker") or sid
 
 
 def label(ev: dict, edir, only: str | None) -> None:
@@ -157,19 +194,23 @@ def label(ev: dict, edir, only: str | None) -> None:
         start, end = panel_range(ev, p)
         tpath = edir / "transcripts" / f"{p['id']}.json"
         transcript = json.loads(tpath.read_text())
-        mics = []
+        words = transcript["words"]
+        names, audio = [], []
         for sid in p["mics"]:
-            a = decode_timeline(ev, sid, start, end - start, LABEL_SR)
-            mics.append((ev["sources"][sid].get("speaker"), a, reference_level(a)))
+            audio.append(decode_timeline(ev, sid, start, end - start, LABEL_SR))
+            names.append(mic_speaker(ev, p, sid))
+        rms = np.array([[window_rms(a, w["start"], max(w["end"], w["start"] + MIN_WINDOW)) for a in audio]
+                        for w in words])
+        levels = 20 * np.log10(rms + 1e-6)
+        scores = np.clip(levels + speech_gains(levels), -40, 10)  # dB relative to each mic's owner
+        silent = scores.max(axis=1) < -SILENCE_DB
+        path = viterbi(scores, SWITCH_DB)
         counts = {}
-        for w in transcript["words"]:
-            t1 = max(w["end"], w["start"] + MIN_WINDOW)
-            scores = [window_rms(a, w["start"], t1) / ref for _, a, ref in mics]
-            best = int(np.argmax(scores))
-            if scores[best] < SILENCE:
+        for w, m, quiet in zip(words, path, silent):
+            if quiet:
                 w["speaker"], w["silent"] = None, True
             else:
-                w["speaker"] = mics[best][0]
+                w["speaker"] = names[m]
                 w.pop("silent", None)
             counts[w["speaker"]] = counts.get(w["speaker"], 0) + 1
         tpath.write_text(json.dumps(transcript, indent=1))

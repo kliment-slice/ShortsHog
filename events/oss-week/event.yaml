@@ -12,45 +12,114 @@ sources:
   cam1:
     file: "10_21_2026 Posthog Angle 1.MP4"   # 1920x1080, 25 fps, 70.8 min
     kind: camera
+    start: 0.0
+    duration: 4249.44
   cam2:
     file: "10_21_2026 Posthog Angle 2.MP4"   # 1920x1080, 23.976 fps, 70.3 min
     kind: camera
+    start: -37.1819
+    sync_peak: 5.51
+    duration: 4216.212
   mic1:                            # one recording split into 30-min files
     kind: mic
-    speaker: ""
     parts:
-      - file: "Audio Recordings/Mic 1-1.WAV"
-      - file: "Audio Recordings/Mic 1-2.WAV"
-      - file: "Audio Recordings/Mic 1-3.WAV"
+    - file: "Audio Recordings/Mic 1-1.WAV"
+      start: -73.8365
+      sync_peak: 2.77
+      duration: 1814.665
+    - file: "Audio Recordings/Mic 1-2.WAV"
+      start: 1742.7365
+      sync_peak: 5.57
+      duration: 1849.571
+    - file: "Audio Recordings/Mic 1-3.WAV"
+      start: 3592.3156
+      sync_peak: 2.53
+      duration: 609.359
   mic2:
     kind: mic
-    speaker: ""
     parts:
-      - file: "Audio Recordings/Mic 2-1.wav"
-      - file: "Audio Recordings/Mic 2-2.wav"
-      - file: "Audio Recordings/Mic 2-3.wav"
+    - file: "Audio Recordings/Mic 2-1.wav"
+      start: -260.9058
+      sync_peak: 3.35
+      duration: 1800.153
+    - file: "Audio Recordings/Mic 2-2.wav"
+      start: 1539.2505
+      sync_peak: 8.07
+      duration: 1800.15
+    - file: "Audio Recordings/Mic 2-3.wav"
+      start: 3339.4034
+      sync_peak: 6.51
+      duration: 891.0
   mic3:
     kind: mic
-    speaker: ""
     parts:
-      - file: "Audio Recordings/Mic 3-1.wav"
-      - file: "Audio Recordings/Mic 3-2.wav"
-      - file: "Audio Recordings/Mic 3-3.wav"
+    - file: "Audio Recordings/Mic 3-1.wav"
+      start: -235.4445
+      sync_peak: 5.49
+      duration: 1800.151
+    - file: "Audio Recordings/Mic 3-2.wav"
+      start: 1564.7093
+      sync_peak: 5.77
+      duration: 1800.15
+    - file: "Audio Recordings/Mic 3-3.wav"
+      start: 3364.863
+      sync_peak: 5.7
+      duration: 850.19
   speaker_feed:                    # 69.8 min; synced for reference, not in the mix
     file: "Audio Recordings/Directly from speaker.m4a"
     kind: audio
 
 # Who is framed how. crop is [x, y, w, h] in the camera's pixels, ideally 9:16.
 # Set once per event from the stills (scripts/stills.py).
+    start: -52.1962
+    sync_peak: 7.59
+    duration: 4188.949
 speakers: {}
 
 broll:                             # folders and/or files searched for broll_hint matches
-  - B-roll
-  - B-roll 2
+- B-roll
+- B-roll 2
 
+# Three panels back to back in one recording; one Granola note covers the evening.
+# Times are on the shared timeline, which is cam1's own clock (cam1 is the reference),
+# read off cam1 frames: seated after the intro -> people stand up.
+# mic_speakers: who held each mic in that panel (mics were handed on between panels).
+# Until filled, words are labelled with the mic id.
 panels:
-  - id: oss
-    granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
-    mics: [mic1, mic2, mic3]       # sources mixed for this panel's audio
-    start:                         # timeline seconds; empty = span where all its mics record
-    end:
+- id: gtm
+  title: "Open Source as a GTM Strategy"
+  granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
+  people:
+  - "Will Wang (host; creator & founder, Clova)"
+  - "Tim Glaser (co-founder and CEO, PostHog)"
+  - "John Simone (VP Engineering, Cline)"
+  - "Alex Jung (co-founder, Unikraft)"
+  mics: [mic1, mic2, mic3]
+  mic_speakers: {}
+  start: 80                        # 1:20
+  end: 1655                        # 27:35
+- id: ai-security
+  title: "Open Source in AI and Cybersecurity"
+  granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
+  people:
+  - "Kliment Minchev (host, PostHog)"
+  - "Mark Percival (host, 1984.vc)"
+  - "Tom Piccirello (head of Cybersecurity, PostHog)"
+  - "Justin D'Souza (co-founder and CEO, Asymptote Labs)"
+  - "Matt Lenhard (founder, Vectoral)"
+  mics: [mic1, mic2, mic3]
+  mic_speakers: {}
+  start: 1675                      # 27:55, hosts' intro
+  end: 2965                        # 49:25
+- id: pmf
+  title: "Finding PMF through Open Source"
+  granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
+  people:
+  - "Konstantine Gugunava (host, KokaBuildSF)"
+  - "Yonas Beshawred (co-founder and CEO, StarSling)"
+  - "Hang Huang (co-founder and CEO, InsForge)"
+  - "Shengkun Ye (co-founder, Monid)"
+  mics: [mic1, mic2, mic3]
+  mic_speakers: {}
+  start: 2985                      # 49:45, host's intro
+  end: 4125                        # 68:45
