@@ -104,15 +104,27 @@ def panel(ev: dict, pid: str) -> dict:
     sys.exit(f"unknown panel `{pid}`")
 
 
+DEFAULT_FPS = 24000 / 1001
+
+
+def output_fps(ev: dict) -> float:
+    """Render and timeline frame rate: event.yaml `fps`, else 23.976."""
+    return float(ev.get("fps") or DEFAULT_FPS)
+
+
 def probe(path: Path) -> dict:
-    """Duration, and for video the frame rate and size, via ffprobe."""
+    """Duration, embedded timecode, and for video the frame rate and size, via ffprobe."""
     out = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries",
-         "format=duration:stream=codec_type,width,height,avg_frame_rate",
+         "format=duration:format_tags=timecode:stream=codec_type,width,height,avg_frame_rate"
+         ":stream_tags=timecode",
          "-of", "json", str(path)], check=True, capture_output=True, text=True).stdout
     data = json.loads(out)
-    info = {"duration": float(data["format"]["duration"])}
+    info = {"duration": float(data["format"]["duration"]),
+            "timecode": (data["format"].get("tags") or {}).get("timecode")}
     for s in data.get("streams", []):
+        if not info["timecode"] and (s.get("tags") or {}).get("timecode"):
+            info["timecode"] = s["tags"]["timecode"]
         if s.get("codec_type") == "video" and "width" not in info:
             num, den = (int(x) for x in s["avg_frame_rate"].split("/"))
             info.update(width=s["width"], height=s["height"], fps=num / den if den else 0.0)

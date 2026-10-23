@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShortsHog review</title>
+<style>
+  :root {
+    --bg: #f4f3ef; --panel: #ffffff; --ink: #1d1f24; --muted: #6b6f78; --line: #e2e0d9;
+    --accent: #1d4aff; --ok: #1f8a4c; --bad: #c4352b; --warn: #b26b00; --resolve: #7a3fd1;
+    --chip: #efeee9; --word-in: #fff1c2; --word-in-ink: #4a3b00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141518; --panel: #1d1f24; --ink: #ecebe6; --muted: #9a9ea8; --line: #2e3138;
+      --accent: #7d97ff; --ok: #4cc27f; --bad: #ff7a6e; --warn: #f0b24a; --resolve: #b48cff;
+      --chip: #272a31; --word-in: #4a3d10; --word-in-ink: #ffe9a8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
+           padding: 12px 20px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; font-weight: 650; }
+  header .counts { color: var(--muted); }
+  .filters { display: flex; gap: 6px; margin-left: auto; flex-wrap: wrap; }
+  button { font: inherit; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
+           border-radius: 7px; padding: 4px 10px; cursor: pointer; }
+  button:hover { border-color: var(--muted); }
+  button:disabled { opacity: .5; cursor: default; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  main { padding: 20px; display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 640px), 1fr)); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px;
+          display: grid; grid-template-columns: 240px 1fr; gap: 16px; }
+  @media (max-width: 700px) { .card { grid-template-columns: 1fr; } main { padding: 12px; } }
+  .card.dirty { border-color: var(--warn); }
+  video { width: 100%; aspect-ratio: 9 / 16; background: #000; border-radius: 8px; display: block; }
+  .norender { width: 100%; aspect-ratio: 9 / 16; border-radius: 8px; background: var(--chip); color: var(--muted);
+              display: grid; place-items: center; text-align: center; padding: 12px; }
+  .meta { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .id { font-weight: 650; font-variant-numeric: tabular-nums; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 1px 9px; color: var(--muted); font-size: 12px; }
+  .chip.warn { color: var(--warn); }
+  .chip.bad { color: var(--bad); }
+  input[type=text], textarea { font: inherit; width: 100%; padding: 6px 8px; border-radius: 7px;
+           border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+  label.small { font-size: 12px; color: var(--muted); display: block; margin-bottom: 3px; }
+  .status button[data-s=approved].on { background: var(--ok); border-color: var(--ok); color: #fff; }
+  .status button[data-s=rejected].on { background: var(--bad); border-color: var(--bad); color: #fff; }
+  .status button[data-s=edited-in-resolve].on { background: var(--resolve); border-color: var(--resolve); color: #fff; }
+  .trim { display: grid; grid-template-columns: auto 1fr; gap: 6px 10px; align-items: center; }
+  .trim .t { font-variant-numeric: tabular-nums; min-width: 64px; display: inline-block; }
+  .nudge { display: flex; gap: 4px; flex-wrap: wrap; align-items: center; }
+  .nudge button { padding: 2px 7px; font-size: 12px; }
+  .scrub { position: relative; height: 28px; }
+  .scrub input[type=range] { position: absolute; inset: 0; width: 100%; margin: 0; pointer-events: none;
+           background: none; -webkit-appearance: none; appearance: none; }
+  .scrub input[type=range]::-webkit-slider-thumb { pointer-events: auto; -webkit-appearance: none;
+           width: 12px; height: 26px; border-radius: 3px; background: var(--accent); cursor: ew-resize; }
+  .scrub input[type=range]::-moz-range-thumb { pointer-events: auto; width: 12px; height: 26px;
+           border-radius: 3px; background: var(--accent); cursor: ew-resize; border: 0; }
+  .scrub .track { position: absolute; top: 11px; left: 0; right: 0; height: 6px; background: var(--chip); border-radius: 3px; }
+  .scrub .sel { position: absolute; top: 11px; height: 6px; background: var(--accent); opacity: .35; border-radius: 3px; }
+  .words { max-height: 120px; overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px;
+           line-height: 1.9; font-size: 13px; }
+  .words span { cursor: pointer; padding: 1px 2px; border-radius: 3px; color: var(--muted); }
+  .words span.in { background: var(--word-in); color: var(--word-in-ink); }
+  .words span.silent { text-decoration: line-through; opacity: .5; }
+  .words span:hover { outline: 1px solid var(--accent); }
+  .words .spk { font-size: 11px; font-weight: 650; color: var(--ink); margin: 0 3px 0 6px; cursor: default; }
+  .captions { display: flex; flex-direction: column; gap: 4px; max-height: 220px; overflow-y: auto; }
+  .captions .cl { display: grid; grid-template-columns: 92px 1fr; gap: 6px; align-items: center; }
+  .captions .ct { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .captions .cl.out { opacity: .4; }
+  .captions input { padding: 3px 6px; }
+  details summary { cursor: pointer; color: var(--muted); font-size: 12px; }
+  .log { white-space: pre-wrap; font: 12px ui-monospace, Menlo, monospace; color: var(--bad); }
+  .actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: auto; }
+  .hint { color: var(--muted); font-size: 12px; }
+  .empty { color: var(--muted); padding: 40px; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">ShortsHog review</h1>
+  <span class="counts" id="counts"></span>
+  <div class="filters" id="filters"></div>
+</header>
+<main id="grid"><div class="empty">Loading…</div></main>
+<audio id="player" preload="none"></audio>
+
+<script>
+const state = { data: null, filter: "all", drafts: {} };
+const $ = (sel, el = document) => el.querySelector(sel);
+const fmt = t => (Math.round(t * 100) / 100).toFixed(2);
+
+async function api(path, body) {
+  const r = await fetch(path, body === undefined ? {} : {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+}
+
+async function load() {
+  state.data = await api("/api/state");
+  render();
+}
+
+function draft(s) {
+  if (!state.drafts[s.id]) {
+    state.drafts[s.id] = { in: s.in, out: s.out, hook: s.hook || "",
+      captions: s.caption_lines.map(c => ({ ...c })), captionsTouched: false };
+  }
+  return state.drafts[s.id];
+}
+
+function isDirty(s) {
+  const d = state.drafts[s.id];
+  return !!d && (d.in !== s.in || d.out !== s.out || d.hook !== (s.hook || "") || d.captionsTouched);
+}
+
+function render() {
+  const { data } = state;
+  $("#title").textContent = `ShortsHog review · ${data.event}`;
+  const counts = {};
+  data.shorts.forEach(s => counts[s.status] = (counts[s.status] || 0) + 1);
+  $("#counts").textContent = data.statuses.filter(k => counts[k]).map(k => `${counts[k]} ${k}`).join(" · ");
+  const filters = $("#filters");
+  filters.innerHTML = "";
+  ["all", ...data.statuses].forEach(f => {
+    const b = document.createElement("button");
+    b.textContent = f; b.className = state.filter === f ? "on" : "";
+    b.onclick = () => { state.filter = f; render(); };
+    filters.appendChild(b);
+  });
+  const grid = $("#grid");
+  const shorts = data.shorts.filter(s => state.filter === "all" || s.status === state.filter);
+  grid.innerHTML = shorts.length ? "" : `<div class="empty">No shorts${state.filter === "all" ? "" : " with status " + state.filter}.</div>`;
+  shorts.forEach(s => grid.appendChild(card(s)));
+}
+
+function card(s) {
+  const d = draft(s);
+  const el = document.createElement("section");
+  el.className = "card" + (isDirty(s) ? " dirty" : "");
+  const dur = d.out - d.in;
+  const durClass = dur > 75 ? "bad" : (dur < 30 || dur > 60) ? "warn" : "";
+  const job = s.render_job || { state: "idle" };
+  el.innerHTML = `
+    <div>${s.render ? `<video controls playsinline preload="metadata" src="${s.render}"></video>`
+                    : `<div class="norender">Not rendered yet</div>`}</div>
+    <div class="meta">
+      <div class="row">
+        <span class="id">${s.id}</span>
+        <span class="chip">${s.speaker || "?"}</span>
+        <span class="chip ${durClass}">${fmt(dur)}s</span>
+        ${s.stale ? `<span class="chip warn">render out of date</span>` : ""}
+        ${s.captions_edited ? `<span class="chip">captions edited</span>` : ""}
+      </div>
+      <div class="row status">${state.data.statuses.map(st =>
+        `<button data-s="${st}" class="${s.status === st ? "on" : ""}">${st}</button>`).join("")}</div>
+      <div><label class="small">Hook</label><input type="text" class="hook" value=""></div>
+      ${s.why ? `<div class="hint">${escapeHtml(s.why)}</div>` : ""}
+      <div class="trim">
+        <span>In <span class="t tin">${fmt(d.in)}</span></span>
+        <div class="nudge" data-k="in">${nudges()}<button class="play" data-at="in">▶ hear</button></div>
+        <span>Out <span class="t tout">${fmt(d.out)}</span></span>
+        <div class="nudge" data-k="out">${nudges()}<button class="play" data-at="out">▶ hear</button></div>
+      </div>
+      <div class="scrub"><div class="track"></div><div class="sel"></div>
+        <input type="range" class="rin" step="0.01"><input type="range" class="rout" step="0.01"></div>
+      <div class="words"></div>
+      <div class="hint">Click a word to start there, shift-click to end there (0.2s padding). Struck-through words are silent (whisper hallucinations).</div>
+      <details ${d.captionsTouched || s.captions_edited ? "open" : ""}>
+        <summary>Captions (${d.captions.length} lines)</summary>
+        <div class="captions"></div>
+        <div class="row" style="margin-top:6px"><button class="resetcap">Reset to auto</button>
+          <span class="hint">Timing follows the words; edit the text only.</span></div>
+      </details>
+      <div class="actions">
+        <button class="save primary" ${isDirty(s) ? "" : "disabled"}>Save</button>
+        <button class="rerender">${job.state === "running" ? "Rendering…" : "Re-render"}</button>
+        <span class="hint jobmsg">${job.state === "done" ? "Rendered." : job.state === "error" ? "Render failed:" : ""}</span>
+      </div>
+      ${job.state === "error" ? `<div class="log">${escapeHtml(job.log || "")}</div>` : ""}
+    </div>`;
+  $(".hook", el).value = d.hook;
+  $(".hook", el).oninput = e => { d.hook = e.target.value; markDirty(el, s); };
+  el.querySelectorAll(".status button").forEach(b => b.onclick = () => setStatus(s, b.dataset.s));
+  el.querySelectorAll(".nudge").forEach(n => n.querySelectorAll("button[data-d]").forEach(b =>
+    b.onclick = () => { d[n.dataset.k] = Math.max(0, Math.round((d[n.dataset.k] + +b.dataset.d) * 100) / 100); refreshTrim(el, s); }));
+  el.querySelectorAll(".play").forEach(b => b.onclick = () => hear(s, b.dataset.at === "in" ? d.in : d.out - 3, 3));
+  const ctx = s.context, lo = ctx.length ? Math.min(ctx[0].start, d.in) - 1 : d.in - 15,
+        hi = ctx.length ? Math.max(ctx[ctx.length - 1].end, d.out) + 1 : d.out + 15;
+  [".rin", ".rout"].forEach(c => { const r = $(c, el); r.min = Math.max(0, lo); r.max = hi; });
+  $(".rin", el).oninput = e => { d.in = Math.min(+e.target.value, d.out - 0.5); refreshTrim(el, s); };
+  $(".rout", el).oninput = e => { d.out = Math.max(+e.target.value, d.in + 0.5); refreshTrim(el, s); };
+  $(".resetcap", el).onclick = () => { d.captions = []; d.captionsTouched = true; saveShort(s, true); };
+  $(".save", el).onclick = () => saveShort(s);
+  $(".rerender", el).onclick = () => rerender(s);
+  refreshTrim(el, s);
+  return el;
+}
+
+function nudges() {
+  return [-1, -0.1, 0.1, 1].map(v => `<button data-d="${v}">${v > 0 ? "+" : "−"}${Math.abs(v)}</button>`).join("");
+}
+
+function refreshTrim(el, s) {
+  const d = draft(s);
+  $(".tin", el).textContent = fmt(d.in);
+  $(".tout", el).textContent = fmt(d.out);
+  const rin = $(".rin", el), rout = $(".rout", el);
+  rin.value = d.in; rout.value = d.out;
+  const span = rin.max - rin.min;
+  const sel = $(".sel", el);
+  sel.style.left = `${(d.in - rin.min) / span * 100}%`;
+  sel.style.width = `${(d.out - d.in) / span * 100}%`;
+  const dur = d.out - d.in;
+  const chip = el.querySelectorAll(".row .chip")[1];
+  chip.textContent = `${fmt(dur)}s`;
+  chip.className = "chip " + (dur > 75 ? "bad" : (dur < 30 || dur > 60) ? "warn" : "");
+  const words = $(".words", el);
+  words.innerHTML = "";
+  let last = null;
+  s.context.forEach(w => {
+    if (w.speaker && w.speaker !== last) {
+      const t = document.createElement("span"); t.className = "spk"; t.textContent = w.speaker; words.appendChild(t);
+      last = w.speaker;
+    }
+    const sp = document.createElement("span");
+    sp.textContent = w.w;
+    sp.title = `${fmt(w.start)}–${fmt(w.end)}`;
+    sp.className = (w.start >= d.in - 0.05 && w.end <= d.out + 0.05 ? "in" : "") + (w.silent ? " silent" : "");
+    sp.onclick = e => {
+      if (e.shiftKey) d.out = Math.round((w.end + 0.2) * 100) / 100;
+      else d.in = Math.max(0, Math.round((w.start - 0.2) * 100) / 100);
+      refreshTrim(el, s);
+    };
+    words.appendChild(sp); words.appendChild(document.createTextNode(" "));
+  });
+  const first = words.querySelector("span.in");
+  if (first && !words.dataset.scrolled) { words.scrollTop = first.offsetTop - words.offsetTop - 20; words.dataset.scrolled = 1; }
+  const caps = $(".captions", el);
+  caps.innerHTML = "";
+  d.captions.forEach(c => {
+    const row = document.createElement("div");
+    const inside = c.end > d.in && c.start < d.out;
+    row.className = "cl" + (inside ? "" : " out");
+    row.innerHTML = `<span class="ct">${fmt(c.start - d.in)}–${fmt(c.end - d.in)}</span><input type="text">`;
+    const inp = $("input", row);
+    inp.value = c.text;
+    inp.oninput = () => { c.text = inp.value; d.captionsTouched = true; markDirty(el, s); };
+    caps.appendChild(row);
+  });
+  markDirty(el, s);
+}
+
+function markDirty(el, s) {
+  const dirty = isDirty(s);
+  el.classList.toggle("dirty", dirty);
+  $(".save", el).disabled = !dirty;
+}
+
+async function saveShort(s, quiet) {
+  const d = draft(s);
+  const patch = { in: d.in, out: d.out, hook: d.hook };
+  if (d.captionsTouched) patch.captions = d.captions.length ? d.captions : null;
+  try {
+    state.data = await api(`/api/short/${s.id}`, patch);
+    delete state.drafts[s.id];
+    render();
+  } catch (e) { alert(`Save failed: ${e.message}`); }
+}
+
+async function setStatus(s, status) {
+  try { state.data = await api(`/api/short/${s.id}`, { status }); render(); }
+  catch (e) { alert(`Couldn't set status: ${e.message}`); }
+}
+
+async function rerender(s) {
+  if (isDirty(s)) await saveShort(s);
+  const short = state.data.shorts.find(x => x.id === s.id);
+  short.render_job = { state: "running" };
+  render();
+  await api(`/api/render/${s.id}`, {});
+  poll();
+}
+
+let polling = null;
+function poll() {
+  if (polling) return;
+  polling = setInterval(async () => {
+    const fresh = await api("/api/state");
+    const running = fresh.shorts.some(x => x.render_job.state === "running");
+    const changed = fresh.shorts.some(x => {
+      const old = state.data.shorts.find(o => o.id === x.id);
+      return !old || old.render_job.state !== x.render_job.state || old.render !== x.render;
+    });
+    if (changed) { state.data = fresh; render(); }
+    if (!running) { clearInterval(polling); polling = null; }
+  }, 1000);
+}
+
+function hear(s, from, secs) {
+  const player = $("#player");
+  const src = `/audio/${s.panel}.wav`;
+  if (!player.src.endsWith(src)) player.src = src;
+  const go = () => {
+    player.currentTime = Math.max(0, from);
+    player.play();
+    clearTimeout(player._stop);
+    player._stop = setTimeout(() => player.pause(), secs * 1000);
+  };
+  if (player.readyState >= 1) go(); else { player.onloadedmetadata = () => { player.onloadedmetadata = null; go(); }; player.load(); }
+}
+
+function escapeHtml(t) {
+  return String(t).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+load().catch(e => { $("#grid").innerHTML = `<div class="empty">Couldn't load: ${escapeHtml(e.message)}</div>`; });
+</script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 event: oss-week
 date: 2026-10-21
 content: content/OSS_WEEK          # raw footage folder, relative to the repo root
-fps:             # optional output fps override; default is the first camera's fps
+fps:             # output fps for renders and Resolve timelines; default 23.976
 
 # Every camera and mic on the shared timeline. Paths are relative to `content`.
 # `align.py sync` fills start (timeline second of the file's t=0), duration, sync_peak.

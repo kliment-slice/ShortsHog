@@ -21,3 +21,7 @@ __pycache__/
 
 # frame grabs for crops
 events/*/stills/
+
+# exports reference absolute media paths; synthetic test event is regenerated
+events/*/exports/
+events/synth-test/

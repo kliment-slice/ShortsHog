@@ -25,13 +25,18 @@ Each step is a slash command in `.claude/commands/`.
 3. `/select <event>` — Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
 4. `/cut <event>` — `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
+5. `/review <event>` — `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
+   re-render one short. Writes shorts.json (keeps shorts.json.bak)
+6. `/export <event> [ids]` — `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
+   for hand editing in Resolve. Only for shorts that need it. One-way; marks them `edited-in-resolve`
 
 ## Time
 - **Shared timeline:** every source has `start`, the timeline second where the file's own t=0 sits.
   The `reference` source has start 0. `file_time = timeline_time - start`.
 - **Panel time:** transcripts and `shorts.json` use seconds from the panel's start.
   `timeline_time = panel.start + t`. A panel's start/end default to the span where all its mics record.
-- Frames only appear inside `cut.py`.
+- Frames only appear inside `cut.py` and `export_fcpxml.py`. Output fps is event.yaml `fps`,
+  default 23.976, for both renders and Resolve timelines.
 
 ## Rules
 - Timestamps come ONLY from the whisper transcript (`transcripts/<panel>.json`).
@@ -55,9 +60,16 @@ Each step is a slash command in `.claude/commands/`.
   "broll_hint": "B-roll 16",   // substring of a file name in event.yaml `broll`, or null
   "broll_at": 3.5,             // optional: seconds into the short (>= 3), default 3.5
   "broll_dur": 3.0,            // optional: 2-4 s, default 3
-  "broll_in": 0                // optional: seconds into the b-roll clip
+  "broll_in": 0,               // optional: seconds into the b-roll clip
+  "status": "pending",         // pending | approved | rejected | edited-in-resolve (set in /review, /export)
+  "captions": [                // optional: caption lines edited in /review, panel time; replaces auto lines
+    {"start": 812.5, "end": 813.9, "text": "We deleted 40% of"}
+  ]
 }]
 ```
+`cut.py` and `export_fcpxml.py` share one plan (`cut.plan_short`), so a Resolve export
+matches the render. Don't re-render a short marked `edited-in-resolve` unless asked:
+its final version lives in Resolve.
 
 ## Transcript schema (`transcripts/<panel>.json`)
 `{panel, audio, words: [{w, start, end, p, speaker, silent?}], segments: [{start, end, text}]}`
@@ -69,7 +81,14 @@ Each step is a slash command in `.claude/commands/`.
 `align.py sync` writes `sync_peak` per source: the best correlation peak over the runner-up
 more than 0.5s away. Around 1.9 on clean synthetic speech; below 1.3 is suspect. Report it.
 
-## Legacy: DaVinci Resolve
+## Resolve
+Resolve is an editor the user opens by hand, fed by `/export` (FCPXML 1.9). FCPXML
+positions are in percent of timeline height, y up; scale is relative to "fit" conform.
+That mapping is unverified in Resolve until the user imports `events/synth-test/exports/panel1-01.fcpxml`
+(from `tests/run_synth.py`): every V1 clip must be one flat colour. If transforms are dropped,
+`<id>.resolve.txt` has the Inspector values.
+
+### Legacy: Resolve automation
 Rendering used to go through the `davinci-resolve` MCP (samuelgursky/davinci-resolve-mcp v4.15.3)
 and its free-edition in-app bridge. It's no longer used. What's still on this machine:
 - managed install in `~/Library/Application Support/davinci-resolve-mcp`

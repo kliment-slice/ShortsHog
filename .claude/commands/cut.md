@@ -4,6 +4,9 @@ argument-hint: <event-name> [short ids...]
 ---
 Render event `$ARGUMENTS` (first word: event; any further words: only those short ids).
 
+A full run skips shorts with status `rejected` or `edited-in-resolve` (their final version lives
+in Resolve). Only render those if I name them.
+
 Preconditions, check before anything else:
 - I approved the `/select` table in this conversation (or explicitly said `shorts.json` is approved). If not, stop and ask.
 - Every speaker who talks in an approved short has `camera` and `crop` in `event.yaml`. If not,

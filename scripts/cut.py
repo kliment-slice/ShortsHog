@@ -15,6 +15,7 @@ Per short (times in shorts.json are seconds from the panel start):
   - Captions: ASS from the whisper words, styled by the yaml block under
     "## Captions" in FORMAT.md, burned in with libass.
 Writes renders/<id>.mp4 (H.264 crf 20), plus <id>.ass and <id>.plan.json.
+Without --id, shorts marked rejected or edited-in-resolve are skipped.
 """
 import argparse
 import json
@@ -25,13 +26,15 @@ from pathlib import Path
 
 from ruamel.yaml import YAML
 
-from common import (REPO, event_dir, ffmpeg_with_libass, load_event, media, panel,
-                    panel_range, probe, synced)
+from common import (REPO, event_dir, ffmpeg_with_libass, load_event, media, output_fps, panel,
+                    panel_range, synced)
 
 W, H = 1080, 1920
 MIN_SEGMENT = 1.5   # seconds; shorter speaker turns keep the previous camera
 SWITCH_LEAD = 0.1   # cut to the new speaker this long before their first word
 BROLL_AT, BROLL_DUR = 3.5, 3.0
+SKIP_STATUSES = ("rejected", "edited-in-resolve")  # a full run leaves these alone
+RENDER_KEYS = ("in", "out", "captions", "broll_hint", "broll_at", "broll_dur", "broll_in")
 VIDEO_EXT = {".mp4", ".mov", ".mxf", ".m4v"}
 
 
@@ -111,9 +114,36 @@ def caption_lines(words: list, t_in: float, t_out: float, style: dict) -> list:
     return out
 
 
-def write_ass(path: Path, words: list, t_in: float, t_out: float) -> int:
+def caption_events(words: list, short: dict) -> list:
+    """[(start, end, text)] in seconds from the short's start.
+
+    Uses short["captions"] when present: lines edited in /review, stored in panel
+    time ({start, end, text}) so a later trim keeps them in place. Otherwise
+    lines come from the whisper words.
+    """
+    t_in, t_out = float(short["in"]), float(short["out"])
     st = caption_style()
-    lines = caption_lines(words, t_in, t_out, st)
+    if short.get("captions"):
+        raw = [(c["start"], c["end"], c["text"]) for c in short["captions"]
+               if c["end"] > t_in and c["start"] < t_out and c["text"].strip()]
+    else:
+        lines = caption_lines(words, t_in, t_out, st)
+        raw = []
+        for i, line in enumerate(lines):
+            end = line[-1]["end"] + st["hold"]
+            if i + 1 < len(lines):
+                end = min(end, lines[i + 1][0]["start"])
+            raw.append((line[0]["start"], max(end, line[0]["start"] + 0.2), " ".join(w["w"] for w in line)))
+    out = []
+    for start, end, text in raw:
+        start, end = max(0.0, start - t_in), min(end, t_out) - t_in
+        if end > start:
+            out.append((round(start, 3), round(end, 3), text.upper() if st.get("uppercase") else text))
+    return out
+
+
+def write_ass(path: Path, events: list) -> None:
+    st = caption_style()
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -128,20 +158,18 @@ Style: Default,{st['font']},{st['size']},{ass_color(st['color'])},{ass_color(st[
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
-    events = []
-    for i, line in enumerate(lines):
-        start = line[0]["start"] - t_in
-        end = line[-1]["end"] - t_in + st["hold"]
-        if i + 1 < len(lines):
-            end = min(end, lines[i + 1][0]["start"] - t_in)
-        end = min(max(end, start + 0.2), t_out - t_in)
-        text = " ".join(w["w"] for w in line)
-        if st.get("uppercase"):
-            text = text.upper()
+    lines = []
+    for start, end, text in events:
         text = text.replace("\\", "").replace("{", "(").replace("}", ")")
-        events.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Default,,0,0,0,,{text}")
-    path.write_text(head + "\n".join(events) + "\n")
-    return len(events)
+        lines.append(f"Dialogue: 0,{ass_time(start)},{ass_time(end)},Default,,0,0,0,,{text}")
+    path.write_text(head + "\n".join(lines) + "\n")
+
+
+def write_srt(path: Path, events: list) -> None:
+    def ts(t):
+        ms = int(round(t * 1000))
+        return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
+    path.write_text("".join(f"{i}\n{ts(a)} --> {ts(b)}\n{text}\n\n" for i, (a, b, text) in enumerate(events, 1)))
 
 
 def find_broll(ev: dict, hint: str | None) -> Path | None:
@@ -161,72 +189,87 @@ def filter_path(p: Path) -> str:
     return str(p).replace("\\", "\\\\").replace(":", "\\:").replace("'", "\\'")
 
 
-def cut_short(ev: dict, edir: Path, short: dict, dry_run: bool) -> dict:
+def plan_short(ev: dict, edir: Path, short: dict) -> dict:
+    """Everything a render or an FCPXML export needs, in output frames.
+
+    segments: [{speaker, camera, crop, f0, f1 (output frames), camera_time (s in the camera file)}]
+    broll: {file, at, dur, src_in} when it fits, else None plus a reason in broll_info.
+    """
     p = panel(ev, short["panel"])
     pstart, _ = panel_range(ev, p)
     words = json.loads((edir / "transcripts" / f"{p['id']}.json").read_text())["words"]
     t_in, t_out = float(short["in"]), float(short["out"])
     dur = t_out - t_in
-    segs = speaker_segments(words, t_in, t_out)
-
+    fps = output_fps(ev)
     speakers = ev.get("speakers") or {}
-    cams, probes = {}, {}
-    for spk, _, _ in segs:
+
+    segs = speaker_segments(words, t_in, t_out)
+    # Snap segment boundaries to output frames so the segments add up to the short.
+    bounds = [round((t0 - t_in) * fps) for _, t0, _ in segs] + [round(dur * fps)]
+    segments = []
+    for i, (spk, _, _) in enumerate(segs):
         conf = speakers.get(spk) or {}
         if not conf.get("camera") or not conf.get("crop"):
             sys.exit(f"speaker `{spk}` needs camera and crop in event.yaml")
-        cams[spk] = conf
-        if conf["camera"] not in probes:
-            probes[conf["camera"]] = probe(media(ev, synced(ev, conf["camera"])["file"]))
-    fps = float(ev.get("fps") or probes[cams[segs[0][0]]["camera"]]["fps"])
-
-    renders = edir / "renders"
-    renders.mkdir(exist_ok=True)
-    inputs, chains, plan = [], [], []
-    # Snap segment boundaries to output frames so the concat adds up to the short.
-    bounds = [round((t0 - t_in) * fps) for _, t0, _ in segs] + [round(dur * fps)]
-    for i, (spk, t0, t1) in enumerate(segs):
-        cam_id = cams[spk]["camera"]
-        cam = synced(ev, cam_id)
-        d = (bounds[i + 1] - bounds[i]) / fps
+        cam = synced(ev, conf["camera"])
         file_t = pstart + t_in + bounds[i] / fps - cam["start"]
-        if file_t < 0 or file_t + d > cam["duration"] + 0.01:
-            sys.exit(f"{short['id']}: camera {cam_id} isn't rolling at {file_t:.2f}s")
-        x, y, w, h = cams[spk]["crop"]
-        inputs += ["-ss", f"{file_t:.4f}", "-t", f"{d + 1 / fps:.4f}", "-i", str(media(ev, cam["file"]))]
-        chains.append(f"[{i}:v]crop={w}:{h}:{x}:{y},scale={W}:{H}:force_original_aspect_ratio=increase,"
-                      f"crop={W}:{H},setsar=1,fps={fps},format=yuv420p,"
-                      f"trim=end_frame={bounds[i + 1] - bounds[i]},setpts=PTS-STARTPTS[v{i}]")
-        plan.append({"speaker": spk, "camera": cam_id, "t0": round(bounds[i] / fps, 3),
-                     "t1": round(bounds[i + 1] / fps, 3), "camera_time": round(file_t, 3)})
-    n = len(segs)
-    chains.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[base]")
+        if file_t < 0 or file_t + (bounds[i + 1] - bounds[i]) / fps > cam["duration"] + 0.01:
+            sys.exit(f"{short['id']}: camera {conf['camera']} isn't rolling at {file_t:.2f}s")
+        segments.append({"speaker": spk, "camera": conf["camera"], "crop": list(conf["crop"]),
+                         "f0": bounds[i], "f1": bounds[i + 1], "camera_time": round(file_t, 4)})
 
-    mix = edir / "transcripts" / f"{p['id']}.wav"
-    inputs += ["-ss", f"{t_in:.4f}", "-t", f"{dur:.4f}", "-i", str(mix)]
-    audio_idx = n
-    video = "base"
-
-    broll = find_broll(ev, short.get("broll_hint"))
-    broll_info = None
-    if short.get("broll_hint") and not broll:
-        broll_info = {"hint": short["broll_hint"], "used": False, "reason": "no matching file"}
-    elif broll:
+    broll, broll_info = None, None
+    hint = short.get("broll_hint")
+    found = find_broll(ev, hint)
+    if hint and not found:
+        broll_info = {"hint": hint, "used": False, "reason": "no matching file"}
+    elif found:
         at = float(short.get("broll_at", BROLL_AT))
         bd = float(short.get("broll_dur", BROLL_DUR))
         if at < 3.0 or at + bd > dur - 0.5:
-            broll_info = {"hint": short["broll_hint"], "used": False,
+            broll_info = {"hint": hint, "used": False,
                           "reason": f"doesn't fit: at {at}s for {bd}s in a {dur:.1f}s short"}
         else:
-            inputs += ["-ss", f"{float(short.get('broll_in', 0)):.4f}", "-t", f"{bd:.4f}", "-i", str(broll)]
-            chains.append(f"[{n + 1}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
-                          f"setsar=1,fps={fps},format=yuv420p,setpts=PTS-STARTPTS+{at}/TB[br]")
-            chains.append(f"[base][br]overlay=enable='between(t,{at},{at + bd})':eof_action=pass[vb]")
-            video = "vb"
-            broll_info = {"hint": short["broll_hint"], "used": True, "file": broll.name, "at": at, "dur": bd}
+            broll = {"file": found, "at": at, "dur": bd, "src_in": float(short.get("broll_in", 0))}
+            broll_info = {"hint": hint, "used": True, "file": found.name, "at": at, "dur": bd}
+
+    return {"id": short["id"], "panel": p["id"], "t_in": t_in, "t_out": t_out, "dur": dur,
+            "frames": bounds[-1], "fps": fps, "segments": segments, "broll": broll,
+            "broll_info": broll_info, "captions": caption_events(words, short),
+            "mix": edir / "transcripts" / f"{p['id']}.wav"}
+
+
+def cut_short(ev: dict, edir: Path, short: dict, dry_run: bool) -> dict:
+    plan = plan_short(ev, edir, short)
+    fps, dur = plan["fps"], plan["dur"]
+    renders = edir / "renders"
+    renders.mkdir(exist_ok=True)
+
+    inputs, chains = [], []
+    for i, seg in enumerate(plan["segments"]):
+        frames = seg["f1"] - seg["f0"]
+        x, y, w, h = seg["crop"]
+        inputs += ["-ss", f"{seg['camera_time']:.4f}", "-t", f"{(frames + 1) / fps:.4f}",
+                   "-i", str(media(ev, ev["sources"][seg["camera"]]["file"]))]
+        chains.append(f"[{i}:v]crop={w}:{h}:{x}:{y},scale={W}:{H}:force_original_aspect_ratio=increase,"
+                      f"crop={W}:{H},setsar=1,fps={fps},format=yuv420p,"
+                      f"trim=end_frame={frames},setpts=PTS-STARTPTS[v{i}]")
+    n = len(plan["segments"])
+    chains.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[base]")
+
+    inputs += ["-ss", f"{plan['t_in']:.4f}", "-t", f"{dur:.4f}", "-i", str(plan["mix"])]
+    audio_idx = n
+    video = "base"
+    if plan["broll"]:
+        b = plan["broll"]
+        inputs += ["-ss", f"{b['src_in']:.4f}", "-t", f"{b['dur']:.4f}", "-i", str(b["file"])]
+        chains.append(f"[{n + 1}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+                      f"setsar=1,fps={fps},format=yuv420p,setpts=PTS-STARTPTS+{b['at']}/TB[br]")
+        chains.append(f"[base][br]overlay=enable='between(t,{b['at']},{b['at'] + b['dur']})':eof_action=pass[vb]")
+        video = "vb"
 
     ass = renders / f"{short['id']}.ass"
-    n_captions = write_ass(ass, words, t_in, t_out)
+    write_ass(ass, plan["captions"])
     chains.append(f"[{video}]subtitles=filename='{filter_path(ass)}'[vout]")
 
     out = renders / f"{short['id']}.mp4"
@@ -235,8 +278,13 @@ def cut_short(ev: dict, edir: Path, short: dict, dry_run: bool) -> dict:
            "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p", "-r", f"{fps}",
            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart",
            "-t", f"{dur:.4f}", str(out)]
-    result = {"id": short["id"], "duration": round(dur, 2), "fps": fps, "segments": plan,
-              "broll": broll_info, "captions": n_captions, "output": str(out.relative_to(edir))}
+    result = {"id": short["id"], "duration": round(dur, 2), "fps": fps,
+              "segments": [{"speaker": s["speaker"], "camera": s["camera"], "t0": round(s["f0"] / fps, 3),
+                            "t1": round(s["f1"] / fps, 3), "camera_time": round(s["camera_time"], 3)}
+                           for s in plan["segments"]],
+              "short": {k: short.get(k) for k in RENDER_KEYS},
+              "broll": plan["broll_info"], "captions": len(plan["captions"]),
+              "output": str(out.relative_to(edir))}
     (renders / f"{short['id']}.plan.json").write_text(json.dumps(result, indent=1))
     if not dry_run:
         subprocess.run(cmd, check=True)
@@ -255,6 +303,9 @@ def main():
     shorts = json.loads((edir / "shorts.json").read_text())
     for short in shorts:
         if args.id and short["id"] not in args.id:
+            continue
+        if not args.id and short.get("status") in SKIP_STATUSES:
+            print(f"{short['id']}: skipped ({short['status']}); pass --id {short['id']} to render it anyway")
             continue
         r = cut_short(ev, edir, short, args.dry_run)
         cams = " > ".join(f"{s['speaker']}@{s['camera']}" for s in r["segments"])
