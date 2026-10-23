@@ -4,9 +4,12 @@ mics/*
 broll/*
 renders/*
 models/*
-*.wav
-*.mp4
-*.mov
+*.[wW][aA][vV]
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM]4[aA]
+*.[mM][xX][fF]
+*.[aA][iI][fF][fF]
 !events/_template/*/.gitkeep
 
 # local env

@@ -63,6 +63,6 @@ connection, ask the user to (re)launch it.
   Use the `knowledge` tool if unsure of an action name.
 - The bridge only accepts paths inside the roots in `~/.config/davinci-resolve-mcp/bridge.json`
   (`allowed_media_roots`, `allowed_output_roots`). Renders go to `events/<e>/renders/`,
-  so `~/shortshog` must be in `allowed_output_roots`. A refusal here is a config issue: report it.
+  so `~/Dev/shortshog` must be in `allowed_output_roots`. A refusal here is a config issue: report it.
 - Resolve 21.1+ free moved Python scripting to Studio, and the Scripts menu may not list
   `.py` files at all (MCP issue #203). If `resolve_bridge` isn't in the menu, that's why.
