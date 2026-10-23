@@ -1,0 +1,18 @@
+# One file per event. Paths are relative to this event folder.
+event: _template
+date:            # YYYY-MM-DD
+fps:             # optional override; /cut reads fps from each master otherwise
+
+panels:
+  - id: panel1                       # short slug, used in transcripts/<id>.json and short ids
+    master: masters/panel1.mov       # synced master exported from Resolve
+    granola_meeting: ""              # exact Granola meeting title
+    mics:                            # one entry per raw mic track
+      - file: mics/panel1_mic1.wav
+        speaker: ""
+      - file: mics/panel1_mic2.wav
+        speaker: ""
+    # Static 9:16 framing per speaker, filled in on the first /cut.
+    # Values are Resolve timeline-item properties on a 1080x1920 timeline.
+    crops: {}
+      # "Speaker Name": {zoom: 1.0, pan: 0, tilt: 0}

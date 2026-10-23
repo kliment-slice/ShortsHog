@@ -1,0 +1,15 @@
+# media and generated output (dir/* so the template's .gitkeep files survive)
+masters/*
+mics/*
+broll/*
+renders/*
+models/*
+*.wav
+*.mp4
+*.mov
+!events/_template/*/.gitkeep
+
+# local env
+.venv/
+__pycache__/
+.DS_Store
