@@ -10,8 +10,8 @@ shorts rendered by DaVinci Resolve (free edition), driven by Claude Code via MCP
 Open Claude Code in this folder, then:
 
 ```
-/new-event sf-ai-panel-2026     # scaffold + fill event.yaml
-                                # drop files into masters/ mics/ broll/
+                                # drop raw footage into content/sf-ai-panel-2026/
+/new-event sf-ai-panel-2026     # scaffold + map the footage in event.yaml
 /transcribe sf-ai-panel-2026    # whisper + speaker labels
 /select sf-ai-panel-2026        # shortlist -> shorts.json, waits for approval
 /cut sf-ai-panel-2026           # Resolve timelines + renders

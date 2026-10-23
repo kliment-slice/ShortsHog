@@ -5,9 +5,11 @@ pipeline; DaVinci Resolve (free edition) renders via the `davinci-resolve` MCP.
 Panel context comes from the `granola` MCP.
 
 ## Layout
-- `events/<name>/` — one folder per event, copied from `events/_template/`
-  - `event.yaml` — panels: master file ↔ Granola meeting title ↔ mic → speaker, plus per-speaker crops
-  - `masters/` synced masters exported from Resolve · `mics/` raw mic tracks · `broll/` b-roll
+- `content/<folder>/` — raw footage per event, laid out however the user dropped it
+  (synced masters, camera angles, mic WAVs, b-roll folders). Gitignored. Never modify or move it.
+- `events/<name>/` — pipeline files per event, copied from `events/_template/`
+  - `event.yaml` — `content:` folder, b-roll folders, panels: master ↔ Granola meeting title ↔
+    mic → speaker, plus per-speaker crops. Media paths are relative to `content:`
   - `transcripts/` whisper output + speaker labels (committed) · `renders/` final mp4s
   - `shorts.json` — the selected shorts
 - `scripts/` — python helpers. Always run with `.venv/bin/python scripts/<x>.py`
@@ -43,7 +45,7 @@ Each step is a slash command in `.claude/commands/`.
   "speaker": "Jane Doe",       // must match a speaker in event.yaml
   "hook": "We deleted 40% of our dashboards and nobody noticed",
   "why": "Concrete number, strong opinion, flagged in Granola notes",
-  "broll_hint": "dashboard"    // keyword matched against broll/ filenames, or null
+  "broll_hint": "dashboard"    // keyword matched against files in event.yaml `broll`, or null
 }]
 ```
 

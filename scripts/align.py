@@ -15,7 +15,7 @@ import json
 
 import numpy as np
 
-from common import decode_audio, event_dir, load_event
+from common import decode_audio, event_dir, load_event, media
 
 ALIGN_SR = 4000
 FRAME = 0.05  # seconds, for the normalisation reference level
@@ -69,11 +69,11 @@ def main():
             continue
         tpath = edir / "transcripts" / f"{panel['id']}.json"
         transcript = json.loads(tpath.read_text())
-        master = decode_audio(edir / panel["master"], ALIGN_SR)
+        master = decode_audio(media(ev, panel["master"]), ALIGN_SR)
 
         mics = []
         for m in panel.get("mics", []):
-            audio = decode_audio(edir / m["file"], ALIGN_SR)
+            audio = decode_audio(media(ev, m["file"]), ALIGN_SR)
             offset, conf = xcorr_offset(master, audio, ALIGN_SR, args.max_lag)
             mics.append({"file": m["file"], "speaker": m["speaker"], "offset": offset,
                          "confidence": conf, "audio": audio,

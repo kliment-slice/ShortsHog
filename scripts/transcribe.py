@@ -17,7 +17,7 @@ import re
 import subprocess
 from pathlib import Path
 
-from common import MODEL, event_dir, load_event
+from common import MODEL, event_dir, load_event, media
 
 SPECIAL = re.compile(r"^\[_.*\]$|^<\|.*\|>$")
 
@@ -71,7 +71,7 @@ def main():
     for panel in ev.get("panels", []):
         if args.panel and panel["id"] != args.panel:
             continue
-        master = edir / panel["master"]
+        master = media(ev, panel["master"])
         out_base = edir / "transcripts" / panel["id"]
         print(f"[{panel['id']}] transcribing {master.name}")
         words, segments = words_from_whisper(run_whisper(master, out_base, args.language))

@@ -24,6 +24,16 @@ def load_event(edir: Path) -> dict:
     return yaml.safe_load((edir / "event.yaml").read_text()) or {}
 
 
+def media(ev: dict, rel: str) -> Path:
+    """Resolve a media path from event.yaml against the event's raw footage folder.
+
+    `content` in event.yaml is relative to the repo root, e.g. content/OSS_WEEK.
+    """
+    if not ev.get("content"):
+        sys.exit("event.yaml has no `content:` folder")
+    return REPO / ev["content"] / rel
+
+
 def decode_audio(path: Path, sr: int) -> np.ndarray:
     """Decode any media file to mono float32 at `sr` Hz via ffmpeg."""
     cmd = ["ffmpeg", "-nostdin", "-v", "error", "-i", str(path),

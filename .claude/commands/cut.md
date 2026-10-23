@@ -12,8 +12,8 @@ If ANY Resolve API call is refused or returns an error: report the tool, the arg
 error, then ask me how to proceed. Don't silently work around it, skip the short, or fall back to ffmpeg.
 
 1. **Project**: open `shortshog-$ARGUMENTS`, or create it if it doesn't exist.
-2. **Media**: import every master used in `shorts.json`, and all files in `broll/`, into the media pool
-   (absolute paths under `events/$ARGUMENTS/`).
+2. **Media**: import every master used in `shorts.json`, and the b-roll files listed under `broll`
+   in `event.yaml`, into the media pool. Paths are relative to `content:`; pass absolute paths.
 3. **fps**: read each master's frame rate (`event.yaml` `fps` overrides; else from the clip's properties,
    or `ffprobe` if Resolve doesn't expose it).
 4. **Crops**: for each speaker in `shorts.json` without an entry in that panel's `crops` in `event.yaml`,

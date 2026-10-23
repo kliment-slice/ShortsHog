@@ -4,7 +4,7 @@ argument-hint: <event-name>
 ---
 Transcribe event `$ARGUMENTS`.
 
-1. Check every `master` and mic `file` in `events/$ARGUMENTS/event.yaml` exists. If any is missing, stop and list them.
+1. Check every `master` and mic `file` in `events/$ARGUMENTS/event.yaml` exists (paths are relative to its `content:` folder). If any is missing, stop and list them.
 2. Run `.venv/bin/python scripts/transcribe.py $ARGUMENTS` (run in the background; long masters take a while).
    Per master it extracts 16 kHz mono wav, runs whisper-cli (large-v3-turbo, word timestamps via DTW),
    and writes `transcripts/<panel>.json` + `.srt`.

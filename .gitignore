@@ -1,16 +1,18 @@
-# media and generated output (dir/* so the template's .gitkeep files survive)
-masters/*
-mics/*
-broll/*
+# raw footage, one folder per event
+content/
+
+# generated output (dir/* so the template's .gitkeep files survive)
 renders/*
 models/*
+!events/_template/*/.gitkeep
+
+# media anywhere else, any extension case
 *.[wW][aA][vV]
 *.[mM][pP]4
 *.[mM][oO][vV]
 *.[mM]4[aA]
 *.[mM][xX][fF]
 *.[aA][iI][fF][fF]
-!events/_template/*/.gitkeep
 
 # local env
 .venv/

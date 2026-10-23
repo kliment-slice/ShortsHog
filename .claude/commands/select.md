@@ -21,7 +21,7 @@ Select shorts for event `$ARGUMENTS`. This command ENDS with a table and waits f
    self-contained, sentence-boundary cuts. Trim or drop candidates that fail.
 6. Rank, keep at most 5 per panel. Write `events/$ARGUMENTS/shorts.json` as
    `[{id, panel, in, out, speaker, hook, why, broll_hint}]` (schema in CLAUDE.md).
-   `broll_hint`: a keyword that matches a file in `broll/`, or null.
+   `broll_hint`: a keyword that matches a file in the `broll` folders from `event.yaml`, or null.
 7. Print a table: `id | panel | duration | speaker | hook`, then the opening line of each short.
 
 STOP. Do not run `/cut` or touch Resolve. Wait for me to approve or edit.
