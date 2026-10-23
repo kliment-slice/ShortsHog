@@ -4,6 +4,9 @@ Shared timeline: every source in event.yaml has `start`, the timeline second at
 which the file's own t=0 sits (filled by `align.py sync`). The reference source
 has start 0. So file_time = timeline_time - source.start.
 
+A mic recorded as several consecutive files (recorders that split every 30 min)
+is one source with `parts: [{file: ...}, ...]`; each part gets its own start.
+
 Panel times: transcripts and shorts.json use seconds from the panel's start,
 so timeline_time = panel.start + t.
 """
@@ -62,22 +65,33 @@ def source(ev: dict, sid: str) -> dict:
         sys.exit(f"unknown source `{sid}` in event.yaml")
 
 
+def parts(s: dict) -> list:
+    """The files that make up a source: its `parts`, or the source itself."""
+    return list(s["parts"]) if s.get("parts") else [s]
+
+
 def synced(ev: dict, sid: str) -> dict:
     s = source(ev, sid)
-    if s.get("start") is None:
+    if any(p.get("start") is None for p in parts(s)):
         sys.exit(f"source `{sid}` has no `start`; run `align.py sync` first")
     return s
 
 
+def coverage(s: dict) -> tuple[float, float]:
+    """First and last timeline second any part of a synced source covers."""
+    ps = parts(s)
+    return min(p["start"] for p in ps), max(p["start"] + p["duration"] for p in ps)
+
+
 def panel_range(ev: dict, panel: dict) -> tuple[float, float]:
     """Panel start/end on the shared timeline. Defaults to the span where all its mics record."""
-    mics = [synced(ev, m) for m in panel["mics"]]
+    spans = [coverage(synced(ev, m)) for m in panel["mics"]]
     start = panel.get("start")
     end = panel.get("end")
     if start is None:
-        start = max(m["start"] for m in mics)
+        start = max(a for a, _ in spans)
     if end is None:
-        end = min(m["start"] + m["duration"] for m in mics)
+        end = min(b for _, b in spans)
     if end <= start:
         sys.exit(f"panel {panel['id']}: empty range {start}..{end}")
     return float(start), float(end)
@@ -118,17 +132,18 @@ def decode_audio(path: Path, sr: int, start: float = 0.0, duration: float | None
 
 
 def decode_timeline(ev: dict, sid: str, t0: float, duration: float, sr: int) -> np.ndarray:
-    """A source's audio for timeline [t0, t0+duration], zero-padded where the file isn't rolling."""
-    s = synced(ev, sid)
+    """A source's audio for timeline [t0, t0+duration], zero-padded where no file is rolling."""
     n = int(round(duration * sr))
     out = np.zeros(n, dtype=np.float32)
-    file_t0 = t0 - s["start"]
-    skip = max(0.0, -file_t0)  # timeline time before the file starts
-    if skip >= duration:
-        return out
-    audio = decode_audio(media(ev, s["file"]), sr, max(0.0, file_t0), duration - skip)
-    a = int(round(skip * sr))
-    out[a:a + len(audio)] = audio[: n - a]
+    for p in parts(synced(ev, sid)):
+        file_t0 = t0 - p["start"]
+        skip = max(0.0, -file_t0)  # timeline time before this file starts
+        take = min(duration - skip, p["duration"] - max(0.0, file_t0))
+        if take <= 0:
+            continue
+        audio = decode_audio(media(ev, p["file"]), sr, max(0.0, file_t0), take)
+        a = int(round(skip * sr))
+        out[a:a + len(audio)] = audio[: n - a]
     return out
 
 

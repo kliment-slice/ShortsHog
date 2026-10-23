@@ -18,6 +18,12 @@ sources:
     speaker: ""
     # sync_to: cam1                # align against this instead of `reference`
                                    # (for files that don't overlap the reference)
+  # mic2:                          # a recorder that splits files: one source, several parts
+  #   kind: mic
+  #   speaker: ""
+  #   parts:
+  #     - file: "Audio Recordings/Mic 2-1.wav"
+  #     - file: "Audio Recordings/Mic 2-2.wav"
 
 # Who is framed how. crop is [x, y, w, h] in the camera's pixels, ideally 9:16.
 # Set once per event from the stills (scripts/stills.py).

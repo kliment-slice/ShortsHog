@@ -25,7 +25,7 @@ import sys
 import numpy as np
 
 from common import (decode_audio, decode_timeline, event_dir, load_event, media,
-                    panel_range, probe, save_event, source)
+                    panel_range, parts, probe, save_event, source)
 
 SR = 8000
 ENV_HOP = 80  # samples per envelope frame at SR -> 100 Hz
@@ -96,12 +96,14 @@ def sync(ev: dict) -> None:
     ref = ev.get("reference")
     if ref not in sources:
         sys.exit("event.yaml `reference` must name a source")
-    audio = {}
+    targets = {}  # decoded audio of sources other files sync against, kept for reuse
 
-    def load(sid):
-        if sid not in audio:
-            audio[sid] = decode_audio(media(ev, sources[sid]["file"]), SR)
-        return audio[sid]
+    def target_audio(tid):
+        if parts(sources[tid]) != [sources[tid]]:
+            sys.exit(f"`{tid}` has parts; sync against a single-file source instead")
+        if tid not in targets:
+            targets[tid] = decode_audio(media(ev, sources[tid]["file"]), SR)
+        return targets[tid]
 
     resolving = set()
 
@@ -109,22 +111,31 @@ def sync(ev: dict) -> None:
         s = sources[sid]
         if sid == ref:
             s["start"] = 0.0
-        elif s.get("start") is None:
-            if sid in resolving:
-                sys.exit(f"sync_to cycle at `{sid}`")
-            resolving.add(sid)
-            target = s.get("sync_to") or ref
-            source(ev, target)
-            resolve(target)
-            k, ratio = offset(load(target), load(sid))
-            s["start"] = round(sources[target]["start"] - k, 4)
-            s["sync_peak"] = round(ratio, 2)
-            flag = "" if ratio >= MIN_PEAK_RATIO else "  <-- LOW CONFIDENCE, check manually"
-            print(f"{sid}: start {s['start']:+.3f}s on the timeline (vs {target}, peak ratio {ratio:.2f}){flag}")
-        s["duration"] = round(probe(media(ev, s["file"]))["duration"], 3)
+            s["duration"] = round(probe(media(ev, s["file"]))["duration"], 3)
+            return
+        if sid in resolving:
+            sys.exit(f"sync_to cycle at `{sid}`")
+        resolving.add(sid)
+        target = s.get("sync_to") or ref
+        source(ev, target)
+        resolve(target)
+        for i, part in enumerate(parts(s)):
+            label = sid if part is s else f"{sid} part {i + 1}"
+            if part.get("start") is None:
+                k, ratio = offset(target_audio(target), decode_audio(media(ev, part["file"]), SR))
+                part["start"] = round(sources[target]["start"] - k, 4)
+                part["sync_peak"] = round(ratio, 2)
+                flag = "" if ratio >= MIN_PEAK_RATIO else "  <-- LOW CONFIDENCE, check manually"
+                print(f"{label}: start {part['start']:+.3f}s on the timeline "
+                      f"(vs {target}, peak ratio {ratio:.2f}){flag}")
+            part["duration"] = round(probe(media(ev, part["file"]))["duration"], 3)
+        resolving.discard(sid)
+        done.add(sid)
 
+    done = set()
     for sid in list(sources):
-        resolve(sid)
+        if sid not in done:
+            resolve(sid)
     print(f"{ref}: reference, start 0")
 
 
@@ -178,8 +189,8 @@ def main():
     if args.cmd == "sync":
         if args.force:
             for s in ev["sources"].values():
-                s["start"] = None
-                s.pop("sync_z", None)
+                for part in parts(s):
+                    part["start"] = None
         sync(ev)
         save_event(edir, ev)
     else:
