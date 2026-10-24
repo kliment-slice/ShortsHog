@@ -1,0 +1,41 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tim Glaser (PostHog)
+Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Giving away Nintendo 64s
+Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}flopped. You can't bribe
+Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}your customers.”
+Dialogue: 0,0:00:00.10,0:00:00.70,Caption,,0,0,0,,The stuff that didn't
+Dialogue: 0,0:00:00.70,0:00:01.05,Caption,,0,0,0,,work well
+Dialogue: 0,0:00:00.94,0:00:01.66,Caption,,0,0,0,,there was actually a
+Dialogue: 0,0:00:01.66,0:00:02.38,Caption,,0,0,0,,previous pivot
+Dialogue: 0,0:00:02.48,0:00:04.12,Caption,,0,0,0,,but we were building
+Dialogue: 0,0:00:04.12,0:00:05.00,Caption,,0,0,0,,another type of dev
+Dialogue: 0,0:00:05.00,0:00:06.45,Caption,,0,0,0,,tool, And we literally
+Dialogue: 0,0:00:06.45,0:00:07.47,Caption,,0,0,0,,were trying to give away
+Dialogue: 0,0:00:07.47,0:00:09.93,Caption,,0,0,0,,like Nintendo 64s as
+Dialogue: 0,0:00:09.93,0:00:10.83,Caption,,0,0,0,,like a weird kind of
+Dialogue: 0,0:00:10.83,0:00:11.67,Caption,,0,0,0,,marketing gimmick and it
+Dialogue: 0,0:00:11.67,0:00:12.75,Caption,,0,0,0,,literally did not work.
+Dialogue: 0,0:00:12.75,0:00:13.65,Caption,,0,0,0,,So it turns out like you
+Dialogue: 0,0:00:13.65,0:00:14.49,Caption,,0,0,0,,can't actually bribe
+Dialogue: 0,0:00:14.49,0:00:15.13,Caption,,0,0,0,,your customers.
+Dialogue: 0,0:00:15.13,0:00:15.95,Caption,,0,0,0,,You do actually have to
+Dialogue: 0,0:00:15.95,0:00:17.63,Caption,,0,0,0,,like provide some value
+Dialogue: 0,0:00:17.63,0:00:18.42,Caption,,0,0,0,,of some sort.
+Dialogue: 0,0:00:18.42,0:00:22.16,Caption,,0,0,0,,{\c&H00B3DA43}Will: {\c&H00FFFFFF}Do the best bus ads that
+Dialogue: 0,0:00:22.16,0:00:24.66,Caption,,0,0,0,,have ever existed work
+Dialogue: 0,0:00:24.66,0:00:25.53,Caption,,0,0,0,,well?
+Dialogue: 0,0:00:25.59,0:00:26.53,Caption,,0,0,0,,Yeah, they work pretty
+Dialogue: 0,0:00:26.53,0:00:27.73,Caption,,0,0,0,,well.

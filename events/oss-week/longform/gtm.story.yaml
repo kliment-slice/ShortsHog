@@ -59,3 +59,24 @@ cuts:
   - {from: "Yeah, so...check?", to: "Alright.", why: "mic check"}
   - {from: "Give it a second.", to: "should have read the manual.", why: "mic help"}
   - {from: "You may be entitled", to: "You may be entitled, yeah.", why: "aside"}
+
+# shorts: anchor cards turned into 3:4 shorts (shortform.py). `from` / `to` are transcript text and
+#         cover the speaker's whole thought; `skip` phrases inside the range are cut too.
+shorts:
+  - id: gtm-nintendo-64s
+    speaker: Tim Glaser
+    anchor: "Giving away Nintendo 64s flopped. You can't bribe your customers."
+    from: "The stuff that didn't work well"
+    to: "Yeah, they work pretty well."
+    skip: ["Cool, cool."]
+  - id: gtm-issues-over-prs
+    speaker: Alex Jung
+    anchor: "Issues are worth more than pull requests"
+    from: "I think definitely the most valuable thing"
+    to: "even if you might have substantial tests."
+    skip: ["So this is very, I think, very continuing."]
+  - id: gtm-claude-in-a-day
+    speaker: Tim Glaser
+    anchor: "If Claude can build it in a day, why would anyone pay you for it?"
+    from: "It's maybe not even like go-to-market"
+    to: "what software makes sense to kind of try to sell."

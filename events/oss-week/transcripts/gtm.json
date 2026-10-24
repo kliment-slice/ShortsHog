@@ -7015,8 +7015,7 @@
    "start": 367.17,
    "end": 367.35,
    "p": 0.205,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "We'd"
   },
   {
@@ -7024,8 +7023,7 @@
    "start": 367.35,
    "end": 367.47,
    "p": 0.98,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "have"
   },
   {
@@ -7033,8 +7031,7 @@
    "start": 367.47,
    "end": 367.57,
    "p": 0.973,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "to"
   },
   {
@@ -7042,8 +7039,7 @@
    "start": 367.57,
    "end": 367.83,
    "p": 0.971,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "do"
   },
   {
@@ -7051,8 +7047,7 @@
    "start": 367.83,
    "end": 368.83,
    "p": 0.157,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "linear."
   },
   {
@@ -7060,8 +7055,7 @@
    "start": 369.25,
    "end": 370.25,
    "p": 0.55,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "Sure."
   },
   {
@@ -7069,8 +7063,7 @@
    "start": 370.43,
    "end": 371.43,
    "p": 0.963,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "So"
   },
   {
@@ -7078,8 +7071,7 @@
    "start": 371.61,
    "end": 371.71,
    "p": 0.59,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "let"
   },
   {
@@ -7087,8 +7079,7 @@
    "start": 371.71,
    "end": 371.93,
    "p": 0.999,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "me"
   },
   {
@@ -7096,8 +7087,7 @@
    "start": 371.93,
    "end": 372.2,
    "p": 0.853,
-   "speaker": null,
-   "silent": true,
+   "speaker": "Alex Jung",
    "heard": "think."
   },
   {
@@ -18398,7 +18388,7 @@
    "start": 915.31,
    "end": 915.43,
    "p": 0.76,
-   "speaker": "Tim Glaser"
+   "speaker": "Alex Jung"
   },
   {
    "w": "think",

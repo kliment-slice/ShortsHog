@@ -125,3 +125,34 @@ caption_text: "#FFFFFF"
 # speaker name colours, given out in seat order
 name_colors: ["#FF5C1C", "#FFCE1C", "#2BB3DF", "#43DAB3", "#A0CA21", "#FF474D", "#FFA81C"]   # bright ones only: readable on the dark band
 ```
+
+## Short form
+3:4 portrait shorts from anchor cards (`/shortform`, `scripts/shortform.py`). Same look as the
+long form (grade, RoundHog, brand colours, wipe), tighter pacing, speaker-first framing.
+```yaml
+size: [1080, 1440]
+# --- framing: speaker fills ~2/3 of the frame, eyes on the upper third line
+close_face_mult: 6.0        # close-up height = face height x this
+medium_mult: 1.6            # a looser cutaway on the same speaker = close-up height x this
+eye_line: 0.36              # eyes this far down the frame (rule of thirds)
+max_zoom: 1.8               # 1080p source: crop never smaller than 1/max_zoom of its height
+punch: 1.1                  # jump cut inside a shot: step out by this
+# --- pacing: faster than long form
+shot_max: 2.8
+cutaway_for: 1.4
+react_for: 1.2
+min_shot: 1.0
+snap: 0.8
+pad_start: 0.1
+pad_end: 0.45
+# --- hook (the anchor) at the top, all the way through
+hook_y: 54
+hook_name_size: 34
+hook_size: 54
+hook_wrap: 28               # characters per line
+# --- captions: a few words at a time, lower third
+caption_size: 62
+caption_max_chars: 24
+caption_margin_v: 210
+wipe_seconds: 0.45          # one wipe opens the short
+```

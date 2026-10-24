@@ -129,7 +129,7 @@ def main():
         start, end, name = float(args.rest[0]), float(args.rest[1]), args.rest[2]
         ranges = json.loads(store.read_text()) if store.exists() else []
         ranges.append({"start": start, "end": end, "speaker": name, "from": "set"})
-        changed = apply_ranges(words, ranges[-1:])
+        changed = apply_ranges(words, ranges)  # all of them: later ranges win, and the join step needs to know what's covered
         store.write_text(json.dumps(ranges, indent=1) + "\n")
         path.write_text(json.dumps(transcript, indent=1))
         print(f"[{args.panel}] {start}-{end}s -> {name}: {changed} words relabelled")

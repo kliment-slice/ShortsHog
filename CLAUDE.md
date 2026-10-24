@@ -34,12 +34,16 @@ Each step is a slash command in `.claude/commands/`.
    speaker close-up, reaction, group and wide, a PostHog stripe wipe on every shot change, punch-ins
    on jump cuts, graded footage, title card, progress bar, RoundHog captions "Name (Company): ...".
    → `longform/<panel>.mp4`
-4. `/select <event>`: Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
-5. `/cut <event>`: `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
+4. `/shortform <event> <panel> [ids]`: anchor cards become 3:4 portrait shorts (1080x1440):
+   `shortform.py`, specs under `shorts:` in the story file, each covering the speaker's whole thought.
+   Speaker fills ~2/3 of the frame, eyes on the upper third; fast cuts; the anchor as the hook on top.
+   → `shortform/<id>.mp4`. (The older 9:16 path, `/select` + `/cut`, predates this.)
+5. `/select <event>`: Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
+6. `/cut <event>`: `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
-6. `/review <event>`: `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
+7. `/review <event>`: `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
    re-render one short. Writes shorts.json (keeps shorts.json.bak)
-7. `/export <event> [ids]`: `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
+8. `/export <event> [ids]`: `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
    for hand editing in Resolve. Only for shorts that need it. One-way; marks them `edited-in-resolve`
 
 ## Time

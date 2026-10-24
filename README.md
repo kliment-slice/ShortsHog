@@ -15,6 +15,7 @@ Drop raw footage into `content/<event>/`, open Claude Code in this folder, then:
 /new-event oss-week content/OSS_WEEK   # map cameras/mics/panels, set crops from stills
 /transcribe oss-week                   # sync -> mic mix -> whisper -> speaker labels
 /longform oss-week                     # full panels, 16:9: tight, fast cuts, PostHog look
+/shortform oss-week gtm                # anchor cards as 3:4 portrait shorts
 /select oss-week                       # shortlist -> shorts.json, waits for approval
 /cut oss-week                          # render renders/<id>.mp4
 /review oss-week                       # browser: approve/reject, trim, fix captions, re-render
@@ -51,6 +52,7 @@ Zoom / Position values for each clip are in `<id>.resolve.txt`.
 | `edit.py` | tightens speech: mutes ums, cuts long pauses, long ums and stutters (used by every output) |
 | `faces.py` | finds panelists' faces on cam2 and follows each seat (zoom targets) |
 | `longform.py` | full panel edit, 16:9: close-up/group/wide by speaker, wipes, RoundHog captions |
+| `shortform.py` | anchor cards as 3:4 portrait shorts: speaker-first framing, fast cuts, hook on top |
 | `cut.py` | renders shorts: camera per speaker, mix audio, b-roll, ASS captions |
 | `review.py` | local review page (127.0.0.1:8765): status, trim, captions, re-render |
 | `export_fcpxml.py` | FCPXML + SRT per short for hand editing in Resolve |
