@@ -24,6 +24,27 @@ anchors:
   - {t: 215.6, speaker: Alex Jung, text: "The first users were students, found through university workshops"}
   - {t: 280.0, speaker: Alex Jung, text: "Kernel-grade code reviews won partners like ARM and Microsoft"}
   - {t: 324.5, speaker: John Simone, text: "In dev tools, unique gets tried. The work is keeping the buzz."}
+  # Q2: biggest win, and the flop
+  - {t: 372.2, speaker: Alex Jung, text: "Launch often: every new feature and every raise got its own launch"}
+  - {t: 443.2, speaker: John Simone, text: "Blog content and an AI University series drove the early traction"}
+  - {t: 497.3, speaker: John Simone, text: "Selling into the Fortune 500 as a small company was an uphill battle"}
+  - {t: 547.6, speaker: Tim Glaser, text: "Giving away Nintendo 64s flopped. You can't bribe your customers."}
+  # Q3: is open source still worth it for GTM
+  - {t: 640.4, speaker: Tim Glaser, text: "Few people self-host PostHog, but knowing they can builds trust"}
+  - {t: 721.4, speaker: Alex Jung, text: "Open core: the kernel is open, the cloud stays closed for security"}
+  # Q4: wisdom they disagree with
+  - {t: 824.5, speaker: Tim Glaser, text: "Contributions aren't the value of open source. Feedback is."}
+  - {t: 839.2, speaker: Tim Glaser, text: "Open core failed for PostHog. Charging only for the cloud worked."}
+  - {t: 915.4, speaker: Alex Jung, text: "Issues are worth more than pull requests"}
+  - {t: 1030.1, speaker: Alex Jung, text: "In-person events beat AI-written outbound"}
+  # Q5: where open source goes
+  - {t: 1164.6, speaker: Alex Jung, text: "Maintaining software isn't free, and AI makes it cost real money"}
+  - {t: 1253.7, speaker: John Simone, text: "Shared foundations like the Linux kernel matter more, not less"}
+  # Q6: first 100 users, starting today
+  - {t: 1350.5, speaker: Tim Glaser, text: "If Claude can build it in a day, why would anyone pay you for it?"}
+  - {t: 1390.2, speaker: Tim Glaser, text: "Distribution is a moat. Find a hook that stands out."}
+  - {t: 1435.3, speaker: Tim Glaser, text: "Be a forward-deployed engineer: solve people's problems for them"}
+  - {t: 1537.1, speaker: John Simone, text: "Find the line between what's free and what people will pay for"}
 
 # cuts: moments that don't serve the story (mic checks, setup chatter, stray asides), removed
 #       with their captions. `from` / `to` are transcript text: the cut runs from the first word of
