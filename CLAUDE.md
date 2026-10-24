@@ -23,12 +23,15 @@ Each step is a slash command in `.claude/commands/`.
 1. `/new-event <name> [folder]` — inventory the footage, fill `event.yaml`, set crops from stills
 2. `/transcribe <event>` — `align.py sync` → `mix.py` → `transcribe.py` → `align.py label` →
    `speakers.py` (people assigned from the transcript where mics were shared)
-3. `/select <event>` — Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
-4. `/cut <event>` — `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
+3. `/longform <event>` — the full panel as a 16:9 video: `faces.py` tracks each panelist on cam2,
+   `longform.py` cuts close-up / group / wide by who's talking, PostHog wipes between cameras,
+   RoundHog captions "Name (Company): ...". → `longform/<panel>.mp4`
+4. `/select <event>` — Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
+5. `/cut <event>` — `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
-5. `/review <event>` — `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
+6. `/review <event>` — `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
    re-render one short. Writes shorts.json (keeps shorts.json.bak)
-6. `/export <event> [ids]` — `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
+7. `/export <event> [ids]` — `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
    for hand editing in Resolve. Only for shorts that need it. One-way; marks them `edited-in-resolve`
 
 ## Time
@@ -38,6 +41,14 @@ Each step is a slash command in `.claude/commands/`.
   `timeline_time = panel.start + t`. A panel's start/end default to the span where all its mics record.
 - Frames only appear inside `cut.py` and `export_fcpxml.py`. Output fps is event.yaml `fps`,
   default 23.976, for both renders and Resolve timelines.
+
+The goal is a PostHog-style editor: long form first, then chopped into mobile shorts.
+
+## Who is where
+`seats.<camera>` (left → right) per panel is decided from footage by who holds the mic up while
+the transcript says they talk, never by recognising faces. `faces.py` only finds faces (OpenCV
+YuNet) and follows seats over time; `framing.<camera>` lists camera reframes it should restart at
+(with `init` positions when a seat is out of frame). Always check `faces.py preview` images.
 
 ## Rules
 - Timestamps come ONLY from the whisper transcript (`transcripts/<panel>.json`).

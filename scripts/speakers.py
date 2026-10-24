@@ -45,11 +45,12 @@ def sentences(words: list) -> list:
 
 
 def person_names(edir: Path, panel: str) -> list:
-    """Names from the panel's `people` in event.yaml ("Name (role)" -> "Name")."""
+    """Names from the panel's `people` in event.yaml ({name, company, role} or "Name (role)")."""
     from common import load_event
     for p in load_event(edir).get("panels", []):
         if p["id"] == panel:
-            return [re.sub(r"\s*\(.*", "", x).strip() for x in p.get("people", [])]
+            return [x["name"] if isinstance(x, dict) else re.sub(r"\s*\(.*", "", x).strip()
+                    for x in p.get("people", [])]
     return []
 
 

@@ -56,3 +56,32 @@ hold: 0.3               # s a line stays up after its last word, unless the next
 - Direct and specific: say the claim, the number, or the disagreement
 - No clickbait ("You won't believe…", "This changes everything")
 - No exclamation marks
+
+## Long form
+One 16:9 video per panel (`/longform`). Colours are PostHog brand colours
+(https://brand.posthog.com/colors), the font is RoundHog (https://brand.posthog.com/fonts).
+`scripts/longform.py` reads this block; edit the values.
+```yaml
+size: [1920, 1080]
+font: RoundHog
+font_name_weight: RoundHog SemiBold   # speaker name
+font_text_weight: RoundHog Medium     # what they say
+caption_size: 46            # px
+caption_margin_v: 54        # px from the bottom edge
+caption_max_chars: 78       # per line, including the name
+caption_box: "#151515"      # band behind the text
+caption_box_alpha: 0.82
+caption_text: "#FFFFFF"
+# speaker name colours, given out in seat order
+name_colors: ["#FF5C1C", "#FFCE1C", "#1490E8", "#43DAB3", "#A737D2", "#47C861", "#FF474D"]
+# stripe wipe on camera switches: tangerine, lemon, blue
+wipe_colors: ["#FF5C1C", "#FFCE1C", "#1490E8"]
+wipe_seconds: 0.55
+move_seconds: 0.6           # virtual camera move between people on the same camera
+close_face_mult: 4.0        # close-up height = face height x this (head and shoulders)
+max_zoom: 2.4               # never crop smaller than 1/max_zoom of the frame (sharpness)
+min_shot: 2.5               # seconds
+wide_every: 15              # in a long answer, cut away to a wide or group shot about this often
+wide_for: 4                 # seconds the cutaway holds
+push_in: 0.06               # slow zoom over a wide or group shot
+```

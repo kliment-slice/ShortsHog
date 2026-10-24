@@ -90,13 +90,23 @@ panels:
   title: "Open Source as a GTM Strategy"
   granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
   people:
-  - Kliment Minchev (emcee, PostHog; introduces the panel)
-  - "Will Wang (host; creator & founder, Clova)"
-  - "Tim Glaser (co-founder and CEO, PostHog)"
-  - "John Simone (VP Engineering, Cline)"
-  - "Alex Jung (co-founder, Unikraft)"
+  - {name: Kliment Minchev, company: PostHog, role: emcee}
+  - {name: Will Wang, company: Clova, role: host}
+  - {name: Tim Glaser, company: PostHog, role: co-founder and CEO}
+  - {name: John Simone, company: Cline, role: VP Engineering}
+  - {name: Alex Jung, company: Unikraft, role: co-founder}
   mics: [mic1, mic2, mic3]
   mix: sum  # plain sum sounds right here (approved)
+  seats:    # left -> right in each camera; from who holds the mic up while the transcript says they talk
+    cam2: [John Simone, Alex Jung, Tim Glaser, Will Wang]
+  framing:  # cam2 reframes at 13:10 (scene cut); the tight framing doesn't show Will
+    cam2:
+    - start: 0
+      init:
+        John Simone: [324, 360]
+        Alex Jung: [900, 360]
+        Tim Glaser: [1344, 336]
+    - start: 710
   mic_speakers: {}
   start: 80                        # 1:20
   end: 1655                        # 27:35
@@ -104,14 +114,16 @@ panels:
   title: "Open Source in AI and Cybersecurity"
   granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
   people:
-  - "Kliment Minchev (host, PostHog)"
-  - "Mark Percival (host, 1984.vc)"
-  - "Tom Piccirello (head of Cybersecurity, PostHog)"
-  - "Justin D'Souza (co-founder and CEO, Asymptote Labs)"
-  - "Matt Lenhard (founder, Vectoral)"
+  - {name: Kliment Minchev, company: PostHog, role: host}
+  - {name: Mark Percival, company: 1984.vc, role: host}
+  - {name: Tom Piccirello, company: PostHog, role: head of Cybersecurity}
+  - {name: Justin D'Souza, company: Asymptote Labs, role: co-founder and CEO}
+  - {name: Matt Lenhard, company: Vectoral, role: founder}
   mics: [mic1, mic2, mic3]
   mix: sum  # dead mic1 only hears the room (31% of the old mix): left out
   mix_mics: [mic2, mic3]
+  seats:  # left -> right in each camera; from who holds the mic up while the transcript says they talk
+    cam2: [Mark Percival, Justin D'Souza, Tom Piccirello, Matt Lenhard, Kliment Minchev]
   mic_speakers: {}
   start: 1675                      # 27:55, hosts' intro
   end: 2965                        # 49:25
@@ -119,13 +131,15 @@ panels:
   title: "Finding PMF through Open Source"
   granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
   people:
-  - Kliment Minchev (emcee, PostHog; introduces the panel)
-  - "Konstantine Gugunava (host, KokaBuildSF)"
-  - "Yonas Beshawred (co-founder and CEO, StarSling)"
-  - "Hang Huang (co-founder and CEO, InsForge)"
-  - "Shengkun Ye (co-founder, Monid)"
+  - {name: Kliment Minchev, company: PostHog, role: emcee}
+  - {name: Konstantine Gugunava, company: KokaBuildSF, role: 'host, creator and founder'}
+  - {name: Yonas Beshawred, company: StarSling, role: co-founder and CEO}
+  - {name: Hang Huang, company: InsForge, role: co-founder and CEO}
+  - {name: Shengkun Ye, company: Monid, role: co-founder}
   mics: [mic1, mic2, mic3]
   mix: sum  # plain sum sounds right here (approved)
+  seats:    # left -> right in each camera; from who holds the mic up while the transcript says they talk
+    cam2: [Yonas Beshawred, Hang Huang, Shengkun Ye, Konstantine Gugunava]
   mic_speakers: {}
   start: 2985                      # 49:45, host's intro
   end: 4125                        # 68:45

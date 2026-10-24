@@ -1,0 +1,611 @@
+[
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Kliment Minchev",
+  "t0": 0.0,
+  "t1": 96.8
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 96.8,
+  "t1": 118.8
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Matt Lenhard",
+  "t0": 118.8,
+  "t1": 125.065
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 125.065,
+  "t1": 146.63
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 146.63,
+  "t1": 150.54000000000002
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 150.54000000000002,
+  "t1": 174.95
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Matt Lenhard",
+  "t0": 174.95,
+  "t1": 180.07999999999998
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 180.07999999999998,
+  "t1": 185.48
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 185.48,
+  "t1": 209.695
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Tom Piccirello",
+  "t0": 209.695,
+  "t1": 214.695
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 214.695,
+  "t1": 236.695
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 236.695,
+  "t1": 241.695
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 241.695,
+  "t1": 251.73999999999998
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 251.73999999999998,
+  "t1": 273.74
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Justin D'Souza",
+  "t0": 273.74,
+  "t1": 278.485
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 278.485,
+  "t1": 300.725
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 300.725,
+  "t1": 304.80499999999995
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 304.80499999999995,
+  "t1": 328.93
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Justin D'Souza",
+  "t0": 328.93,
+  "t1": 334.23
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 334.23,
+  "t1": 337.20000000000005
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Mark Percival",
+  "t0": 337.20000000000005,
+  "t1": 358.80999999999995
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Mark Percival",
+  "t0": 358.80999999999995,
+  "t1": 363.80999999999995
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Mark Percival",
+  "t0": 363.80999999999995,
+  "t1": 375.92
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 375.92,
+  "t1": 397.45000000000005
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Justin D'Souza",
+  "t0": 397.45000000000005,
+  "t1": 402.58
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 402.58,
+  "t1": 424.58
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 424.58,
+  "t1": 428.33
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 428.33,
+  "t1": 449.90999999999997
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Justin D'Souza",
+  "t0": 449.90999999999997,
+  "t1": 454.26
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 454.26,
+  "t1": 459.94
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 459.94,
+  "t1": 483.06
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Tom Piccirello",
+  "t0": 483.06,
+  "t1": 488.395
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 488.395,
+  "t1": 508.745
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 508.745,
+  "t1": 514.385
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 514.385,
+  "t1": 538.23
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Tom Piccirello",
+  "t0": 538.23,
+  "t1": 543.23
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 543.23,
+  "t1": 546.8000000000001
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 546.8000000000001,
+  "t1": 568.1949999999999
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Matt Lenhard",
+  "t0": 568.1949999999999,
+  "t1": 574.035
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 574.035,
+  "t1": 596.035
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 596.035,
+  "t1": 599.75
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 599.75,
+  "t1": 621.75
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Matt Lenhard",
+  "t0": 621.75,
+  "t1": 625.935
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 625.935,
+  "t1": 630.38
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Kliment Minchev",
+  "t0": 630.38,
+  "t1": 655.0600000000001
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 655.0600000000001,
+  "t1": 680.26
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 680.26,
+  "t1": 701.06
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Tom Piccirello",
+  "t0": 701.06,
+  "t1": 706.125
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 706.125,
+  "t1": 728.76
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 728.76,
+  "t1": 733.76
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 733.76,
+  "t1": 737.02
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 737.02,
+  "t1": 759.8
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Justin D'Souza",
+  "t0": 759.8,
+  "t1": 763.7349999999999
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 763.7349999999999,
+  "t1": 785.7349999999999
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 785.7349999999999,
+  "t1": 791.63
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 791.63,
+  "t1": 810.24
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Mark Percival",
+  "t0": 810.24,
+  "t1": 832.58
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 832.58,
+  "t1": 854.58
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Justin D'Souza",
+  "t0": 854.58,
+  "t1": 859.58
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 859.58,
+  "t1": 878.79
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 878.79,
+  "t1": 886.49
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 886.49,
+  "t1": 910.54
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Justin D'Souza",
+  "t0": 910.54,
+  "t1": 915.54
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 915.54,
+  "t1": 928.84
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 928.84,
+  "t1": 949.575
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Tom Piccirello",
+  "t0": 949.575,
+  "t1": 954.575
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 954.575,
+  "t1": 976.575
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 976.575,
+  "t1": 980.48
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 980.48,
+  "t1": 1004.26
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 1004.26,
+  "t1": 1027.93
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Matt Lenhard",
+  "t0": 1027.93,
+  "t1": 1033.195
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 1033.195,
+  "t1": 1056.3049999999998
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 1056.3049999999998,
+  "t1": 1061.3049999999998
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 1061.3049999999998,
+  "t1": 1084.575
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Matt Lenhard",
+  "t0": 1084.575,
+  "t1": 1090.19
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 1090.19,
+  "t1": 1103.36
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Kliment Minchev",
+  "t0": 1103.36,
+  "t1": 1125.1599999999999
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Justin D'Souza",
+  "t0": 1125.1599999999999,
+  "t1": 1146.6
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 1146.6,
+  "t1": 1168.6
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Matt Lenhard",
+  "t0": 1168.6,
+  "t1": 1173.7150000000001
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Matt Lenhard",
+  "t0": 1173.7150000000001,
+  "t1": 1202.7199999999998
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 1202.7199999999998,
+  "t1": 1228.02
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Mark Percival",
+  "t0": 1228.02,
+  "t1": 1233.6799999999998
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 1233.6799999999998,
+  "t1": 1255.6799999999998
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Tom Piccirello",
+  "t0": 1255.6799999999998,
+  "t1": 1260.6799999999998
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Tom Piccirello",
+  "t0": 1260.6799999999998,
+  "t1": 1287.36
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Kliment Minchev",
+  "t0": 1287.36,
+  "t1": 1290.0
+ }
+]

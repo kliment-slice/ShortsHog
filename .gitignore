@@ -28,3 +28,8 @@ events/synth-test/
 
 # raw whisper output (regenerable; the cleaned <panel>.json is kept)
 *.whisper.json
+
+# face detections and previews (regenerable); tracks.json is kept
+events/*/faces/*.cam*.json
+!events/*/faces/*.tracks.json
+events/*/faces/*.jpg

@@ -14,6 +14,7 @@ Drop raw footage into `content/<event>/`, open Claude Code in this folder, then:
 ```
 /new-event oss-week content/OSS_WEEK   # map cameras/mics/panels, set crops from stills
 /transcribe oss-week                   # sync -> mic mix -> whisper -> speaker labels
+/longform oss-week                     # full panels, 16:9: speaker zooms, PostHog wipes, captions
 /select oss-week                       # shortlist -> shorts.json, waits for approval
 /cut oss-week                          # render renders/<id>.mp4
 /review oss-week                       # browser: approve/reject, trim, fix captions, re-render
@@ -47,6 +48,8 @@ Zoom / Position values for each clip are in `<id>.resolve.txt`.
 | `speakers.py` | assign sentences to people where mics were shared; kept across relabels |
 | `find_quote.py` | finds a quote in the transcript, snapped to sentences, padded |
 | `stills.py` | frame grab per camera with a grid, and with crops drawn once set |
+| `faces.py` | finds panelists' faces on cam2 and follows each seat (zoom targets) |
+| `longform.py` | full panel edit, 16:9: close-up/group/wide by speaker, wipes, RoundHog captions |
 | `cut.py` | renders shorts: camera per speaker, mix audio, b-roll, ASS captions |
 | `review.py` | local review page (127.0.0.1:8765): status, trim, captions, re-render |
 | `export_fcpxml.py` | FCPXML + SRT per short for hand editing in Resolve |
@@ -62,7 +65,9 @@ Already done on this machine; for a fresh one:
 ```bash
 brew install ffmpeg ffmpeg-full whisper-cpp uv   # ffmpeg-full (keg-only) has libass for captions
 curl -L -o models/ggml-large-v3-turbo.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin
-uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python numpy pyyaml ruamel.yaml
+uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python numpy pyyaml ruamel.yaml opencv-python-headless
+curl -L -o models/face_detection_yunet_2023mar.onnx https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx
+# RoundHog (https://brand.posthog.com/fonts) installed in ~/Library/Fonts
 claude mcp add --scope project --transport http granola https://mcp.granola.ai/mcp
 ```
 
