@@ -21,7 +21,8 @@ cuts and renders. Panel context comes from the `granola` MCP.
 Each step is a slash command in `.claude/commands/`.
 
 1. `/new-event <name> [folder]` — inventory the footage, fill `event.yaml`, set crops from stills
-2. `/transcribe <event>` — `align.py sync` → `mix.py` → `transcribe.py` → `align.py label`
+2. `/transcribe <event>` — `align.py sync` → `mix.py` → `transcribe.py` → `align.py label` →
+   `speakers.py` (people assigned from the transcript where mics were shared)
 3. `/select <event>` — Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
 4. `/cut <event>` — `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
@@ -76,6 +77,19 @@ its final version lives in Resolve.
 - Times are panel time. Word starts come from whisper's DTW timing, shifted 0.15s earlier.
 - `silent: true` with `speaker: null` means no mic had energy: whisper hallucinated it.
   `cut.py` leaves those out of captions and camera choices.
+
+## Speakers
+Mic labels (`align.py label`) identify the mic, not the person. Panels pass mics around,
+so who said what is assigned from the transcript with `speakers.py` and stored in
+`transcripts/<panel>.speakers.json` (time ranges, applied after the mic labels on every
+relabel). Speaker names must match `people` in event.yaml and the keys of `speakers`
+(camera + crop). Words with a `note` were fixed by hand (e.g. a speaker label whisper
+inserted) and are left alone by relabelling.
+
+## Mixing
+`mix.py` sums each panel's `mix_mics` (default: its `mics`). A dead mic left in the sum adds
+the room's reverb as echo: leave it out of `mix_mics` but keep it in `mics` (labels use all).
+`mix: automix` (gain-sharing) exists but whisper did worse on it.
 
 ## Sync quality
 `align.py sync` writes `sync_peak` per source: the best correlation peak over the runner-up

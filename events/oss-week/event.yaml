@@ -95,6 +95,7 @@ panels:
   - "John Simone (VP Engineering, Cline)"
   - "Alex Jung (co-founder, Unikraft)"
   mics: [mic1, mic2, mic3]
+  mix: sum  # plain sum sounds right here (approved)
   mic_speakers: {}
   start: 80                        # 1:20
   end: 1655                        # 27:35
@@ -108,6 +109,8 @@ panels:
   - "Justin D'Souza (co-founder and CEO, Asymptote Labs)"
   - "Matt Lenhard (founder, Vectoral)"
   mics: [mic1, mic2, mic3]
+  mix: sum  # dead mic1 only hears the room (31% of the old mix): left out
+  mix_mics: [mic2, mic3]
   mic_speakers: {}
   start: 1675                      # 27:55, hosts' intro
   end: 2965                        # 49:25
@@ -120,6 +123,7 @@ panels:
   - "Hang Huang (co-founder and CEO, InsForge)"
   - "Shengkun Ye (co-founder, Monid)"
   mics: [mic1, mic2, mic3]
+  mix: sum  # plain sum sounds right here (approved)
   mic_speakers: {}
   start: 2985                      # 49:45, host's intro
   end: 4125                        # 68:45

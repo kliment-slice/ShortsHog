@@ -27,6 +27,7 @@ import sys
 
 import numpy as np
 
+from speakers import apply_ranges
 from common import (decode_audio, decode_timeline, event_dir, load_event, media,
                     panel_range, parts, probe, save_event, source)
 
@@ -207,14 +208,22 @@ def label(ev: dict, edir, only: str | None) -> None:
         path = viterbi(scores, SWITCH_DB)
         counts = {}
         for w, m, quiet in zip(words, path, silent):
+            if w.get("note"):  # fixed by hand (e.g. a speaker label whisper made up): leave it
+                continue
             if quiet:
                 w["speaker"], w["silent"] = None, True
             else:
                 w["speaker"] = names[m]
                 w.pop("silent", None)
             counts[w["speaker"]] = counts.get(w["speaker"], 0) + 1
+        manual = edir / "transcripts" / f"{p['id']}.speakers.json"
+        if manual.exists():  # people assigned from the transcript (speakers.py) win over mic labels
+            apply_ranges(words, json.loads(manual.read_text()))
+            counts = {}
+            for w in words:
+                counts[w["speaker"]] = counts.get(w["speaker"], 0) + 1
         tpath.write_text(json.dumps(transcript, indent=1))
-        print(f"[{p['id']}] words per speaker: {counts}")
+        print(f"[{p['id']}] words per speaker: {counts}{' (with speakers.json)' if manual.exists() else ''}")
 
 
 def main():

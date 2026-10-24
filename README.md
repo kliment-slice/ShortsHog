@@ -43,7 +43,8 @@ Zoom / Position values for each clip are in `<id>.resolve.txt`.
 | `align.py sync` | puts every camera and mic on one timeline (`start` per source in event.yaml) |
 | `mix.py` | per panel: gain-matched, loudness-normalised mix of its mics → `transcripts/<panel>.wav` |
 | `transcribe.py` | whisper on the mix, word timestamps → `transcripts/<panel>.json` + `.srt` |
-| `align.py label` | speaker per word from mic levels; flags hallucinated words in silence |
+| `align.py label` | mic per word from levels (Viterbi-smoothed); flags hallucinated words in silence |
+| `speakers.py` | assign sentences to people where mics were shared; kept across relabels |
 | `find_quote.py` | finds a quote in the transcript, snapped to sentences, padded |
 | `stills.py` | frame grab per camera with a grid, and with crops drawn once set |
 | `cut.py` | renders shorts: camera per speaker, mix audio, b-roll, ASS captions |
