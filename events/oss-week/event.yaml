@@ -1,6 +1,7 @@
 # One file per event. Raw footage stays in `content`; this folder holds only
 # pipeline files (transcripts/, stills/, shorts.json, renders/).
 event: oss-week
+name: Open Source Week · SF  # shown on title cards
 date: 2026-10-21
 content: content/OSS_WEEK          # raw footage folder, relative to the repo root
 fps:             # output fps for renders and Resolve timelines; default 23.976

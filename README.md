@@ -14,7 +14,7 @@ Drop raw footage into `content/<event>/`, open Claude Code in this folder, then:
 ```
 /new-event oss-week content/OSS_WEEK   # map cameras/mics/panels, set crops from stills
 /transcribe oss-week                   # sync -> mic mix -> whisper -> speaker labels
-/longform oss-week                     # full panels, 16:9: speaker zooms, PostHog wipes, captions
+/longform oss-week                     # full panels, 16:9: tight, fast cuts, PostHog look
 /select oss-week                       # shortlist -> shorts.json, waits for approval
 /cut oss-week                          # render renders/<id>.mp4
 /review oss-week                       # browser: approve/reject, trim, fix captions, re-render
@@ -48,6 +48,7 @@ Zoom / Position values for each clip are in `<id>.resolve.txt`.
 | `speakers.py` | assign sentences to people where mics were shared; kept across relabels |
 | `find_quote.py` | finds a quote in the transcript, snapped to sentences, padded |
 | `stills.py` | frame grab per camera with a grid, and with crops drawn once set |
+| `edit.py` | tightens speech: mutes ums, cuts long pauses, long ums and stutters (used by every output) |
 | `faces.py` | finds panelists' faces on cam2 and follows each seat (zoom targets) |
 | `longform.py` | full panel edit, 16:9: close-up/group/wide by speaker, wipes, RoundHog captions |
 | `cut.py` | renders shorts: camera per speaker, mix audio, b-roll, ASS captions |

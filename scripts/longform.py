@@ -1,41 +1,43 @@
-"""Edit a full panel as a 16:9 video: camera per speaker, zooms, PostHog wipes, captions.
+"""Edit a full panel as a dynamic 16:9 video in the ShortsHog look.
 
     .venv/bin/python scripts/longform.py <event> <panel> [--start S] [--duration D] [--plan-only]
 
-Shots (style in the "## Long form" block of FORMAT.md):
-  close  cam2 cropped on whoever is talking, following their tracked face
-         (faces.py track); head and shoulders, never more than max_zoom
-  group  cam2 full frame, slow push-in
-  wide   cam1 full frame, slow push-in
-Who talks comes from the labelled transcript. Each speaker turn opens on a close-up
-when their face is tracked there, otherwise on the wide shot (the emcee, people
-walking in). Long answers cut away to the wide or group shot every `wide_every`
-seconds, at a pause. Cuts between people on cam2 are a short virtual camera move;
-cuts between cameras get a PostHog stripe wipe. Captions run along the bottom as
-"Name (Company): what they say", in RoundHog, name in the speaker's brand colour.
+Core tenet: make the output content dynamic. Style and pacing live in FORMAT.md
+("## Dynamic edit" and "## Long form").
 
-Frames are composited in Python (both cameras decoded in sync at the output fps)
-and piped to ffmpeg with the panel's mic mix and the captions burned in.
-Output: events/<event>/longform/<panel>.mp4 (+ .plan.json, .ass).
---start/--duration (panel seconds) render an excerpt: <panel>.<start>-<end>.mp4.
+  1. Tighten (edit.py): ums muted, long pauses / long ums / stutters cut. Everything
+     below runs on that tightened timeline; the cameras skip what was cut.
+  2. Shots, by who's talking (labelled transcript): a close-up on the speaker
+     (cam2, following their tracked face), with cutaways every few seconds that cycle
+     through the cam1 wide, a reaction close-up of someone listening, and the cam2
+     group shot. Cuts prefer the points where audio was removed, which hides them.
+  3. Every shot change gets the PostHog stripe wipe. A jump cut inside a shot
+     (a removed pause) punches the framing in or out a little instead.
+  4. The look: camera footage graded per `grade`; a title card that wipes into the
+     panel; RoundHog captions "Name (Company): ..." with the name in the speaker's
+     brand colour; a thin progress bar in tangerine.
+
+Frames are composited in Python and piped to ffmpeg with the tightened audio and
+captions. Output: events/<event>/longform/<panel>.mp4 (+ .plan.json, .ass).
+--start/--duration are seconds of the *output*; an excerpt is <panel>.<start>-<end>.mp4.
 """
 import argparse
 import json
-import math
 import re
 import subprocess
 import sys
+import tempfile
 import time
+from bisect import bisect_right
 from pathlib import Path
 
 import cv2
 import numpy as np
 from ruamel.yaml import YAML
 
+import edit as tighten
 from common import REPO, event_dir, ffmpeg_with_libass, load_event, media, output_fps, panel, panel_range, probe, synced
 
-PAUSE = 0.25        # s of silence between words that counts as a place to cut
-SNAP = 3.0          # s either side of a planned cut to look for a pause
 CUT_LEAD = 0.15     # cut to the next speaker this long before their first word
 FACE_Y = 0.40       # face centre sits this far down a close-up
 
@@ -64,8 +66,6 @@ def turns(words: list, dur: float, min_len: float) -> list:
     """[(speaker, t0, t1)] covering [0, dur]; turns shorter than min_len fold into the previous one."""
     out = []
     for w in words:
-        if w.get("silent") or not w.get("speaker"):
-            continue
         if not out or out[-1][0] != w["speaker"]:
             out.append([w["speaker"], max(0.0, w["start"] - CUT_LEAD), w["end"]])
         out[-1][2] = w["end"]
@@ -77,106 +77,122 @@ def turns(words: list, dur: float, min_len: float) -> list:
             merged[-1][2] = b
         else:
             merged.append([spk, a, b])
-    segs = []
-    for i, (spk, a, _) in enumerate(merged):
-        end = merged[i + 1][1] if i + 1 < len(merged) else dur
-        segs.append((spk, 0.0 if i == 0 else a, end))
-    return segs
-
-
-def pauses(words: list) -> list:
-    live = [w for w in words if not w.get("silent")]
-    return [(a["end"] + b["start"]) / 2 for a, b in zip(live, live[1:]) if b["start"] - a["end"] >= PAUSE]
-
-
-def snap(t: float, gaps: list, lo: float, hi: float) -> float:
-    near = [g for g in gaps if abs(g - t) <= SNAP and lo < g < hi]
-    return min(near, key=lambda g: abs(g - t)) if near else t
+    return [(spk, 0.0 if i == 0 else a, merged[i + 1][1] if i + 1 < len(merged) else dur)
+            for i, (spk, a, _) in enumerate(merged)]
 
 
 class Tracks:
+    """Face tracks (source panel time) from faces.py."""
+
     def __init__(self, path: Path):
         d = json.loads(path.read_text()) if path.exists() else {"t": [], "seats": {}, "width": 1920, "height": 1080}
         self.t = np.array(d["t"])
-        self.w, self.h = d["width"], d["height"]
         self.seats = d["seats"]
 
-    def has(self, name: str) -> bool:
+    def has(self, name) -> bool:
         return name in self.seats
 
-    def seen_share(self, name: str, a: float, b: float) -> float:
+    def seen_share(self, name, a: float, b: float) -> float:
         if name not in self.seats or not len(self.t):
             return 0.0
-        sel = (self.t >= a) & (self.t <= b)
+        sel = (self.t >= a - 0.5) & (self.t <= b + 0.5)
         return float(np.mean(np.array(self.seats[name]["seen"])[sel])) if sel.any() else 0.0
 
-    def at(self, name: str, t: float) -> tuple:
+    def at(self, name, t: float) -> tuple:
         s = self.seats[name]
         return tuple(float(np.interp(t, self.t, s[k])) for k in ("cx", "cy", "h"))
 
 
-def plan(words: list, dur: float, tracks: Tracks, st: dict) -> list:
-    """[{kind, cam, person, t0, t1}] covering [0, dur]."""
-    gaps = pauses(words)
-    shots = []
+def plan(words: list, dur: float, tracks: Tracks, st: dict, chops: list, to_src, hosts: set) -> list:
+    """[{kind, cam, person, speaker, t0, t1}] on the output timeline, covering [0, dur]."""
+    live = words
+    pauses = [(a["end"] + b["start"]) / 2 for a, b in zip(live, live[1:]) if b["start"] - a["end"] >= 0.15]
+    points = sorted(set([round(c, 3) for c in chops] + [round(p, 3) for p in pauses]))
+    chop_set = set(round(c, 3) for c in chops)
+
+    def snap(t, lo, hi):
+        """Nearest cut point to t within snap seconds, preferring removed-audio points; else t."""
+        i = bisect_right(points, t)
+        near = [p for p in points[max(0, i - 40):i + 40] if abs(p - t) <= st["snap"] and lo < p < hi]
+        if not near:
+            return t
+        return min(near, key=lambda p: abs(p - t) - (0.4 if p in chop_set else 0))
+
+    def seen(name, a, b):
+        return tracks.seen_share(name, to_src(a), to_src(b))
+
+    shots, k, last_speaker = [], 0, None
     for spk, a, b in turns(words, dur, st["min_shot"]):
-        # a close-up needs the face really found, both over the turn and right where it opens
-        # (people walking in at the start can be tracked later in the same turn)
-        close = (spk is not None and tracks.has(spk) and tracks.seen_share(spk, a, b) >= 0.6
-                 and tracks.seen_share(spk, a, min(b, a + 15)) >= 0.75)
-        if not close:
-            shots.append({"kind": "wide", "cam": "cam1", "person": spk, "t0": a, "t1": b})
-            continue
-        t, k = a, 0
-        while True:
-            nxt = t + st["wide_every"]
-            if nxt + st["wide_for"] + st["min_shot"] > b:
-                shots.append({"kind": "close", "cam": "cam2", "person": spk, "t0": t, "t1": b})
+        close_ok = (spk is not None and tracks.has(spk) and seen(spk, a, b) >= 0.6
+                    and seen(spk, a, min(b, a + 10)) >= 0.75)
+        t = a
+        while t < b - 1e-3:
+            nxt = t + st["shot_max"]
+            if nxt + st["cutaway_for"] + st["min_shot"] > b:
+                shots.append({"kind": "close" if close_ok else "wide", "cam": "cam2" if close_ok else "cam1",
+                              "person": spk if close_ok else None, "speaker": spk, "t0": t, "t1": b})
                 break
-            c0 = snap(nxt, gaps, t + st["min_shot"], b - st["min_shot"] - st["wide_for"])
-            c1 = snap(c0 + st["wide_for"], gaps, c0 + st["min_shot"], b - st["min_shot"])
-            shots.append({"kind": "close", "cam": "cam2", "person": spk, "t0": t, "t1": c0})
-            away = ("wide", "cam1") if k % 2 == 0 else ("group", "cam2")
-            shots.append({"kind": away[0], "cam": away[1], "person": spk, "t0": c0, "t1": c1})
-            t, k = c1, k + 1
-    merged = []  # neighbours with the same framing become one shot
+            c0 = snap(nxt, t + st["min_shot"], b - st["min_shot"] - st["cutaway_for"])
+            shots.append({"kind": "close" if close_ok else "wide", "cam": "cam2" if close_ok else "cam1",
+                          "person": spk if close_ok else None, "speaker": spk, "t0": t, "t1": c0})
+            kind = st["cutaways"][k % len(st["cutaways"])]
+            k += 1
+            who = None
+            if kind == "react":
+                cands = [n for n in tracks.seats if n != spk and seen(n, c0, c0 + st["react_for"]) >= 0.8]
+                pref = [n for n in cands if (n in hosts) != (spk in hosts)] or \
+                       [n for n in cands if n == last_speaker] or cands
+                who = pref[k % len(pref)] if pref else None
+                if who is None:
+                    kind = "wide"
+            hold = st["react_for"] if kind == "react" else st["cutaway_for"]
+            c1 = snap(c0 + hold, c0 + st["min_shot"] * 0.6, b - st["min_shot"])
+            if not close_ok and kind in ("wide", "react"):
+                kind = "group" if shots[-1]["kind"] == "wide" else "wide"
+                who = None
+            cam = "cam1" if kind == "wide" else "cam2"
+            shots.append({"kind": kind, "cam": cam, "person": who, "speaker": spk, "t0": c0, "t1": c1})
+            t = c1
+        last_speaker = spk
+    merged = []
     for s in shots:
-        if merged and (merged[-1]["kind"], merged[-1]["cam"]) == (s["kind"], s["cam"]) and \
-                (s["kind"] != "close" or merged[-1]["person"] == s["person"]):
+        if s["t1"] - s["t0"] < 0.05:
+            continue
+        if merged and (merged[-1]["kind"], merged[-1]["cam"], merged[-1]["person"]) == (s["kind"], s["cam"], s["person"]):
             merged[-1]["t1"] = s["t1"]
         else:
             merged.append(dict(s))
     return merged
 
 
-# ---------------------------------------------------------------- framing
+# ---------------------------------------------------------------- framing and graphics
 
 def full_rect(w: int, h: int, zoom: float) -> tuple:
     cw, ch = w / zoom, h / zoom
     return ((w - cw) / 2, (h - ch) / 2, cw, ch)
 
 
-def shot_rect(shot: dict, t: float, tracks: Tracks, sizes: dict, st: dict) -> tuple:
+def shot_rect(shot: dict, T: float, t_src: float, punched: bool, tracks: Tracks, sizes: dict, st: dict) -> tuple:
     w, h = sizes[shot["cam"]]
-    if shot["kind"] == "close":
-        cx, cy, fh = tracks.at(shot["person"], t)
+    if shot["kind"] in ("close", "react"):
+        cx, cy, fh = tracks.at(shot["person"], t_src)
         ch = min(h, max(h / st["max_zoom"], fh * st["close_face_mult"]))
+        if punched:  # jump cut inside a close-up: step out a little (never tighter than max_zoom)
+            ch = min(h, ch * st["punch"])
         cw = ch * 16 / 9
+        if cw > w:
+            cw, ch = w, w * 9 / 16
         x0 = min(max(0.0, cx - cw / 2), w - cw)
         y0 = min(max(0.0, cy - FACE_Y * ch), h - ch)
         return (x0, y0, cw, ch)
-    u = (t - shot["t0"]) / max(0.1, shot["t1"] - shot["t0"])
-    return full_rect(w, h, 1 + st["push_in"] * u)
-
-
-def lerp_rect(a: tuple, b: tuple, u: float) -> tuple:
-    return tuple(x + (y - x) * u for x, y in zip(a, b))
+    u = (T - shot["t0"]) / max(0.1, shot["t1"] - shot["t0"])
+    zoom = (1 + st["push_in"] * u) * (st["punch"] if punched else 1.0)
+    return full_rect(w, h, zoom)
 
 
 def warp(src: np.ndarray, rect: tuple, out_w: int, out_h: int) -> np.ndarray:
     x0, y0, cw, ch = rect
-    s = out_w / cw
-    m = np.float32([[s, 0, -x0 * s], [0, out_h / ch, -y0 * out_h / ch]])
+    m = np.float32([[out_w / cw, 0, -x0 * out_w / cw], [0, out_h / ch, -y0 * out_h / ch]])
     return cv2.warpAffine(src, m, (out_w, out_h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
 
 
@@ -185,8 +201,7 @@ def draw_wipe(img: np.ndarray, u: float, colors: list) -> None:
     h, w = img.shape[:2]
     band = 0.55 * w
     slant = 0.25 * h
-    group = band * len(colors)
-    lead = -slant + ease(u) * (w + group + 2 * slant)
+    lead = -slant + ease(u) * (w + band * len(colors) + 2 * slant)
     for k, c in enumerate(colors):
         r = lead - k * band
         l = r - band
@@ -194,6 +209,27 @@ def draw_wipe(img: np.ndarray, u: float, colors: list) -> None:
             continue
         pts = np.array([[l + slant, 0], [r + slant, 0], [r, h], [l, h]], dtype=np.int32)
         cv2.fillPoly(img, [pts], bgr(c), lineType=cv2.LINE_AA)
+
+
+def title_card(w: int, h: int, st: dict) -> np.ndarray:
+    """Tangerine card with brand stripes down the right; the text is drawn by the captions (RoundHog)."""
+    img = np.zeros((h, w, 3), np.uint8)
+    img[:] = bgr(st["title_bg"])
+    slant = 0.25 * h
+    x = w * 0.70
+    for c in st["title_stripes"]:
+        pts = np.array([[x + slant, 0], [x + slant + 0.075 * w, 0], [x + 0.075 * w, h], [x, h]], dtype=np.int32)
+        cv2.fillPoly(img, [pts], bgr(c), lineType=cv2.LINE_AA)
+        x += 0.075 * w
+    return img
+
+
+def draw_progress(img: np.ndarray, frac: float, st: dict) -> None:
+    h, w = img.shape[:2]
+    bh = st["progress_height"]
+    track = img[h - bh:h]
+    track[:] = (track * 0.45).astype(np.uint8)
+    img[h - bh:h, :int(w * min(1.0, frac))] = bgr(st["progress_color"])
 
 
 # ---------------------------------------------------------------- captions
@@ -208,12 +244,15 @@ def ass_time(t: float) -> str:
     return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
 
 
+def label(name: str, people: dict) -> str:
+    company = people.get(name, {}).get("company")
+    return f"{name} ({company})" if company else name
+
+
 def caption_lines(words: list, people: dict, st: dict) -> list:
-    """[(start, end, speaker, text)] in panel time: phrases that fit one line with the name."""
+    """[(start, end, speaker, text)]: phrases that fit one line with the name."""
     lines, cur = [], None
     for w in words:
-        if w.get("silent") or not w.get("speaker"):
-            continue
         prefix = len(label(w["speaker"], people)) + 2
         if cur is not None:
             gap = w["start"] - cur["end"]
@@ -234,20 +273,17 @@ def caption_lines(words: list, people: dict, st: dict) -> list:
     out = []
     for i, ln in enumerate(lines):
         end = ln["end"] + 0.4
-        if i + 1 < len(lines):
-            end = min(end, lines[i + 1]["start"]) if lines[i + 1]["start"] - ln["end"] < 0.8 else end
+        if i + 1 < len(lines) and lines[i + 1]["start"] - ln["end"] < 0.8:
+            end = min(end, lines[i + 1]["start"])
         out.append((ln["start"], max(end, ln["start"] + 0.6), ln["speaker"], ln["text"]))
     return out
 
 
-def label(name: str, people: dict) -> str:
-    company = people.get(name, {}).get("company")
-    return f"{name} ({company})" if company else name
-
-
-def write_ass(path: Path, lines: list, people: dict, colors: dict, st: dict, offset: float) -> None:
+def write_ass(path: Path, lines: list, people: dict, colors: dict, st: dict, offset: float,
+              title: tuple | None) -> None:
     w, h = st["size"]
     box = ass_color(st["caption_box"], st["caption_box_alpha"])
+    dark = ass_color(st["title_text"])
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {w}
@@ -258,19 +294,28 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,{st['font_text_weight']},{st['caption_size']},{ass_color(st['caption_text'])},{ass_color(st['caption_text'])},{box},{box},0,0,0,0,100,100,0,0,3,16,0,2,150,150,{st['caption_margin_v']},1
+Style: Title,{st['font_title_weight']},{st['title_size']},{dark},{dark},{dark},{dark},0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = []
+    title_end = 0.0
+    if title:
+        text, sub, title_end = title
+        if title_end - offset > 0:
+            events.append(f"Dialogue: 1,{ass_time(0)},{ass_time(title_end - offset)},Title,,0,0,0,,"
+                          f"{{\\pos(140,{h * 0.36:.0f})\\fad(0,120)}}{text}")
+            events.append(f"Dialogue: 1,{ass_time(0)},{ass_time(title_end - offset)},Title,,0,0,0,,"
+                          f"{{\\pos(144,{h * 0.36 + st['title_size'] * 1.45:.0f})\\fn{st['font_text_weight']}"
+                          f"\\fs{st['title_size'] * 0.42:.0f}\\fad(0,120)}}{sub}")
     for a, b, spk, text in lines:
-        a, b = a - offset, b - offset
-        if b <= 0:
+        a, b = max(a, title_end) - offset, b - offset
+        if b <= max(0.0, a):
             continue
         text = text.replace("\\", "").replace("{", "(").replace("}", ")")
-        name = label(spk, people)
         events.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Caption,,0,0,0,,"
-                      f"{{\\fn{st['font_name_weight']}\\c{ass_color(colors[spk])}}}{name}: "
+                      f"{{\\fn{st['font_name_weight']}\\c{ass_color(colors[spk])}}}{label(spk, people)}: "
                       f"{{\\fn{st['font_text_weight']}\\c{ass_color(st['caption_text'])}}}{text}")
     path.write_text(head + "\n".join(events) + "\n")
 
@@ -278,22 +323,31 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 # ---------------------------------------------------------------- render
 
 class Decoder:
-    """Raw BGR frames of one camera from timeline time t0, at the output fps."""
+    """Graded BGR frames of one camera, read forward to any (increasing) source time."""
 
-    def __init__(self, ev: dict, cam_id: str, t0: float, dur: float, fps: float, size: tuple):
+    def __init__(self, ev: dict, cam_id: str, t0: float, dur: float, fps: float, size: tuple, grade: str):
         cam = synced(ev, cam_id)
         self.w, self.h = size
+        self.t0, self.fps = t0, fps
         file_t = t0 - cam["start"]
+        vf = f"fps={fps}" + (f",{grade}" if grade else "")
         self.proc = subprocess.Popen(
-            ["ffmpeg", "-nostdin", "-v", "error", "-ss", f"{max(0.0, file_t):.4f}", "-i", str(media(ev, cam["file"])),
-             "-t", f"{dur + 1:.3f}", "-vf", f"fps={fps}", "-f", "rawvideo", "-pix_fmt", "bgr24", "-"],
+            [str(Path(ffmpeg_with_libass())), "-nostdin", "-v", "error", "-ss", f"{max(0.0, file_t):.4f}",
+             "-i", str(media(ev, cam["file"])), "-t", f"{dur + 2:.3f}", "-vf", vf,
+             "-f", "rawvideo", "-pix_fmt", "bgr24", "-"],
             stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, bufsize=self.w * self.h * 3 * 2)
+        self.n = -1
         self.last = np.zeros((self.h, self.w, 3), np.uint8)
 
-    def read(self) -> np.ndarray:
-        buf = self.proc.stdout.read(self.w * self.h * 3)
-        if len(buf) == self.w * self.h * 3:
+    def at(self, t: float) -> np.ndarray:
+        target = int(round((t - self.t0) * self.fps))
+        size = self.w * self.h * 3
+        while self.n < target:
+            buf = self.proc.stdout.read(size)
+            if len(buf) < size:
+                break
             self.last = np.frombuffer(buf, np.uint8).reshape(self.h, self.w, 3)
+            self.n += 1
         return self.last
 
     def close(self):
@@ -306,82 +360,105 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     out_w, out_h = st["size"]
     fps = output_fps(ev)
     pstart, pend = panel_range(ev, p)
-    total = pend - pstart
+    words_src = json.loads((edir / "transcripts" / f"{p['id']}.json").read_text())["words"]
+    ed = tighten.build(edir, p, words_src, pend - pstart)
+    words = ed.words_out(words_src)
+    total = ed.out_dur
     dur = min(dur, total - start) if dur else total - start
-    words = json.loads((edir / "transcripts" / f"{p['id']}.json").read_text())["words"]
     tracks = Tracks(edir / "faces" / f"{p['id']}.cam2.tracks.json")
     people = {x["name"]: x for x in p.get("people", []) if isinstance(x, dict)}
-    order = list(((p.get("seats") or {}).get("cam2")) or []) + [n for n in people if n not in ((p.get("seats") or {}).get("cam2") or [])]
+    hosts = {n for n, x in people.items() if re.search(r"host|emcee", x.get("role") or "")}
+    seats = list(((p.get("seats") or {}).get("cam2")) or [])
+    order = seats + [n for n in people if n not in seats]
     colors = {n: st["name_colors"][i % len(st["name_colors"])] for i, n in enumerate(order)}
     for w in words:
-        if w.get("speaker") and w["speaker"] not in colors:
-            colors[w["speaker"]] = st["name_colors"][len(colors) % len(st["name_colors"])]
-    shots = plan(words, total, tracks, st)
+        colors.setdefault(w["speaker"], st["name_colors"][len(colors) % len(st["name_colors"])])
+    title_end = st["title_seconds"] if st.get("title_seconds") else 0.0
+    shots = plan(words, total, tracks, st, ed.chops(), ed.to_src, hosts)
+    if title_end:  # the opening is the title card, then the first shot
+        shots = [s for s in shots if s["t1"] > title_end]
+        shots[0]["t0"] = 0.0
+        shots.insert(0, {"kind": "title", "cam": None, "person": None, "speaker": None, "t0": 0.0, "t1": title_end})
+        shots[1]["t0"] = title_end
 
     out_dir = edir / "longform"
     out_dir.mkdir(exist_ok=True)
     tag = p["id"] if start == 0 and dur >= total - 0.01 else f"{p['id']}.{int(start)}-{int(start + dur)}"
-    (out_dir / f"{tag}.plan.json").write_text(json.dumps(shots, indent=1))
+    (out_dir / f"{tag}.plan.json").write_text(json.dumps({"edit": ed.summary(), "shots": shots}, indent=1))
     ass = out_dir / f"{tag}.ass"
-    write_ass(ass, caption_lines(words, people, st), people, colors, st, start)
+    date = ev.get("date")
+    sub = " · ".join(x for x in (ev.get("name") or ev.get("event"), date.strftime("%b %-d") if hasattr(date, "strftime") else str(date or "")) if x)
+    write_ass(ass, caption_lines(words, people, st), people, colors, st, start,
+              (p.get("title") or p["id"], sub, title_end) if title_end else None)
     counts = {}
     for s in shots:
         counts[s["kind"]] = counts.get(s["kind"], 0) + 1
-    switches = sum(1 for a, b in zip(shots, shots[1:]) if a["cam"] != b["cam"])
+    print(f"[{p['id']}] edit: {ed.summary()}")
     print(f"[{p['id']}] {len(shots)} shots ({', '.join(f'{v} {k}' for k, v in counts.items())}), "
-          f"{switches} camera switches, median shot {np.median([s['t1'] - s['t0'] for s in shots]):.1f}s")
+          f"median shot {np.median([s['t1'] - s['t0'] for s in shots]):.1f}s, {len(ed.chops())} jump cuts")
     if plan_only:
         return out_dir / f"{tag}.plan.json"
 
-    sizes = {c: (probe(media(ev, synced(ev, c)["file"]))["width"], probe(media(ev, synced(ev, c)["file"]))["height"])
-             for c in ("cam1", "cam2")}
-    dec = {c: Decoder(ev, c, pstart + start, dur, fps, sizes[c]) for c in ("cam1", "cam2")}
-    out = out_dir / f"{tag}.mp4"
-    mix = edir / "transcripts" / f"{p['id']}.wav"
-    enc = subprocess.Popen(
-        [ffmpeg_with_libass(), "-nostdin", "-v", "error", "-y",
-         "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{out_w}x{out_h}", "-r", f"{fps}", "-i", "-",
-         "-ss", f"{start:.4f}", "-t", f"{dur:.4f}", "-i", str(mix),
-         "-filter_complex", f"[0:v]subtitles=filename='{str(ass).replace(':', chr(92) + ':')}'[v]",
-         "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", str(out)],
-        stdin=subprocess.PIPE)
-    wipe = st["wipe_seconds"]
-    move = st["move_seconds"]
-    frames = int(round(dur * fps))
-    si = 0
-    began = time.time()
-    try:
-        for n in range(frames):
-            t = start + n / fps
-            src = {c: d.read() for c, d in dec.items()}
-            while si + 1 < len(shots) and shots[si + 1]["t0"] <= t:
-                si += 1
-            shot = shots[si]
-            prev = shots[si - 1] if si > 0 else None
-            nxt = shots[si + 1] if si + 1 < len(shots) else None
-            # Wipes straddle camera switches: the old shot shows until the frame is covered.
-            in_wipe_out = nxt is not None and nxt["cam"] != shot["cam"] and t > nxt["t0"] - wipe / 2
-            in_wipe_in = prev is not None and prev["cam"] != shot["cam"] and t < shot["t0"] + wipe / 2
-            rect = shot_rect(shot, t, tracks, sizes, st)
-            if prev is not None and prev["cam"] == shot["cam"] and t < shot["t0"] + move:
-                u = ease((t - shot["t0"]) / move)
-                rect = lerp_rect(shot_rect(prev, min(t, prev["t1"]), tracks, sizes, st), rect, u)
-            frame = warp(src[shot["cam"]], rect, out_w, out_h)
-            if in_wipe_out:
-                draw_wipe(frame, (t - (nxt["t0"] - wipe / 2)) / wipe, st["wipe_colors"])
-            elif in_wipe_in:
-                draw_wipe(frame, (t - (shot["t0"] - wipe / 2)) / wipe, st["wipe_colors"])
-            enc.stdin.write(frame.tobytes())
-            if n and n % int(fps * 60) == 0:
-                done = n / frames
-                eta = (time.time() - began) / done * (1 - done)
-                print(f"[{p['id']}] {n / fps / 60:.0f}/{dur / 60:.0f} min rendered, ~{eta / 60:.0f} min left", flush=True)
-    finally:
-        enc.stdin.close()
-        enc.wait()
-        for d in dec.values():
-            d.close()
+    sizes = {}
+    for c in ("cam1", "cam2"):
+        info = probe(media(ev, synced(ev, c)["file"]))
+        sizes[c] = (info["width"], info["height"])
+    src0 = ed.to_src(start)
+    span = ed.to_src(min(total, start + dur)) - src0
+    dec = {c: Decoder(ev, c, pstart + src0, span, fps, sizes[c], st.get("grade") or "") for c in sizes}
+    card = title_card(out_w, out_h, st) if title_end else None
+    chops = ed.chops()
+    with tempfile.TemporaryDirectory() as tmp:
+        audio = ed.audio()[int(start * tighten.SR):int((start + dur) * tighten.SR)]
+        wav = Path(tmp) / "audio.wav"
+        subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-f", "f32le", "-ar", str(tighten.SR), "-ac", "1",
+                        "-i", "-", "-c:a", "pcm_f32le", str(wav)], input=audio.astype(np.float32).tobytes(), check=True)
+        out = out_dir / f"{tag}.mp4"
+        enc = subprocess.Popen(
+            [ffmpeg_with_libass(), "-nostdin", "-v", "error", "-y",
+             "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{out_w}x{out_h}", "-r", f"{fps}", "-i", "-",
+             "-i", str(wav),
+             "-filter_complex", f"[0:v]subtitles=filename='{str(ass).replace(':', chr(92) + ':')}'[v]",
+             "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", str(out)],
+            stdin=subprocess.PIPE)
+        wipe = st["wipe_seconds"]
+        frames = int(round(dur * fps))
+        si = 0
+        began = time.time()
+        try:
+            for n in range(frames):
+                T = start + n / fps
+                t_src = ed.to_src(T)
+                src = {c: d.at(pstart + t_src) for c, d in dec.items()}
+                while si + 1 < len(shots) and shots[si + 1]["t0"] <= T:
+                    si += 1
+                shot = shots[si]
+                nxt = shots[si + 1] if si + 1 < len(shots) else None
+                prev = shots[si - 1] if si > 0 else None
+                if shot["kind"] == "title":
+                    frame = card.copy()
+                else:
+                    jumps = bisect_right(chops, T) - bisect_right(chops, shot["t0"])
+                    rect = shot_rect(shot, T, t_src, jumps % 2 == 1, tracks, sizes, st)
+                    frame = warp(src[shot["cam"]], rect, out_w, out_h)
+                # every shot change is a wipe: the old shot shows until the stripes cover the frame
+                if nxt is not None and T > nxt["t0"] - wipe / 2:
+                    draw_wipe(frame, (T - (nxt["t0"] - wipe / 2)) / wipe, st["wipe_colors"])
+                elif prev is not None and T < shot["t0"] + wipe / 2:
+                    draw_wipe(frame, (T - (shot["t0"] - wipe / 2)) / wipe, st["wipe_colors"])
+                if st.get("progress_height") and shot["kind"] != "title":
+                    draw_progress(frame, T / total, st)
+                enc.stdin.write(frame.tobytes())
+                if n and n % int(fps * 60) == 0:
+                    done = n / frames
+                    eta = (time.time() - began) / done * (1 - done)
+                    print(f"[{p['id']}] {n / fps / 60:.0f}/{dur / 60:.0f} min rendered, ~{eta / 60:.0f} min left", flush=True)
+        finally:
+            enc.stdin.close()
+            enc.wait()
+            for d in dec.values():
+                d.close()
     if enc.returncode:
         sys.exit(f"ffmpeg failed ({enc.returncode})")
     print(f"[{p['id']}] {dur / 60:.1f} min in {(time.time() - began) / 60:.1f} min -> {out.relative_to(edir)}")
@@ -392,7 +469,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("event")
     ap.add_argument("panel")
-    ap.add_argument("--start", type=float, default=0.0, help="panel seconds")
+    ap.add_argument("--start", type=float, default=0.0, help="output seconds")
     ap.add_argument("--duration", type=float, default=0.0, help="seconds (default: to the end)")
     ap.add_argument("--plan-only", action="store_true")
     args = ap.parse_args()

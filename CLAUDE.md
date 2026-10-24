@@ -1,6 +1,11 @@
 # ShortsHog
 
-Turns PostHog panel recordings into vertical 9:16 shorts with burned captions.
+Turns PostHog panel recordings into long-form 16:9 edits and vertical 9:16 shorts,
+in a look that should be recognisable at first glance.
+
+**Core tenet: make the output content dynamic.** Fast cuts, no dead air or ums,
+movement in every shot, PostHog colours on every transition. When in doubt, cut
+more. Every output (long form and shorts) goes through `edit.py` first.
 Everything runs locally: whisper-cpp transcribes, numpy syncs the audio, ffmpeg
 cuts and renders. Panel context comes from the `granola` MCP.
 
@@ -23,9 +28,11 @@ Each step is a slash command in `.claude/commands/`.
 1. `/new-event <name> [folder]` — inventory the footage, fill `event.yaml`, set crops from stills
 2. `/transcribe <event>` — `align.py sync` → `mix.py` → `transcribe.py` → `align.py label` →
    `speakers.py` (people assigned from the transcript where mics were shared)
-3. `/longform <event>` — the full panel as a 16:9 video: `faces.py` tracks each panelist on cam2,
-   `longform.py` cuts close-up / group / wide by who's talking, PostHog wipes between cameras,
-   RoundHog captions "Name (Company): ...". → `longform/<panel>.mp4`
+3. `/longform <event>` — the full panel as a 16:9 video: `edit.py` mutes ums and cuts pauses and
+   stutters; `faces.py` tracks each panelist on cam2; `longform.py` cuts every few seconds between
+   speaker close-up, reaction, group and wide, a PostHog stripe wipe on every shot change, punch-ins
+   on jump cuts, graded footage, title card, progress bar, RoundHog captions "Name (Company): ...".
+   → `longform/<panel>.mp4`
 4. `/select <event>` — Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
 5. `/cut <event>` — `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
@@ -43,6 +50,13 @@ Each step is a slash command in `.claude/commands/`.
   default 23.976, for both renders and Resolve timelines.
 
 The goal is a PostHog-style editor: long form first, then chopped into mobile shorts.
+
+## The ShortsHog look (FORMAT.md "## Long form")
+PostHog brand colours (brand.posthog.com/colors) and RoundHog (brand.posthog.com/fonts).
+Stripe wipe in tangerine / lemon / blue on every shot change; tangerine title card with
+stripes; tangerine progress bar; dark caption band with the speaker's name in a bright
+brand colour; footage graded cleaner and punchier than the warm room light. Brand colours
+are drawn after the grade, so they stay exact.
 
 ## Who is where
 `seats.<camera>` (left → right) per panel is decided from footage by who holds the mic up while

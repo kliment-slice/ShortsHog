@@ -13,12 +13,15 @@ Needs `/transcribe` done, with people assigned (`speakers.py dump ... --todo` em
    each box must sit on the right person in seated frames. If a camera reframe isn't caught
    (positions shift by a seat), add a `framing.cam2` entry with `start` and, if some seat is out of
    frame there, `init` positions. Re-track until the previews are right.
-3. **Plan**: `.venv/bin/python scripts/longform.py <event> <panel> --plan-only` for each panel; report
+3. **Tighten**: `.venv/bin/python scripts/edit.py <event> <panel>` reports what gets cut and muted
+   (ums, long pauses, stutters). Spot-check a few muted gaps if a panel's numbers look off.
+4. **Plan**: `.venv/bin/python scripts/longform.py <event> <panel> --plan-only` for each panel; report
    shot counts and camera switches.
-4. **Preview**: render 2 minutes (`--start <s> --duration 120`) of one panel, grab frames at a
+5. **Preview**: render 2 minutes (`--start <s> --duration 120`) of one panel, grab frames at a
    close-up, a camera move, a wipe and the captions, and look at them. Fix framing or style first.
-5. **Render**: `.venv/bin/python scripts/longform.py <event> <panel>` for each panel, in the background,
+6. **Render**: `.venv/bin/python scripts/longform.py <event> <panel>` for each panel, in the background,
    one at a time. Output `events/<event>/longform/<panel>.mp4`.
-6. Report per panel: path, duration, shot counts, and anything that looked off.
+7. Report per panel: path, duration, shot counts, and anything that looked off.
 
-Style (colours, font weights, caption size, pacing, zoom limits) is the "## Long form" block in FORMAT.md.
+Core tenet: make the output content dynamic. Pacing, look and tightening are the "## Dynamic edit"
+and "## Long form" blocks in FORMAT.md.
