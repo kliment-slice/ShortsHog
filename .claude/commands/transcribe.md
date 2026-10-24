@@ -14,7 +14,9 @@ Transcribe event `$ARGUMENTS`. Run each step in the background if it may take mo
    each panel's `mix_mics` (default: its `mics`), loudness-normalised. Leave a dead mic out of
    `mix_mics`: it only hears the room and makes the mix echo. Ask me to listen before transcribing.
 4. **Transcribe**: `.venv/bin/python scripts/transcribe.py $ARGUMENTS` → whisper (large-v3-turbo,
-   DTW word timing) on each mix → `transcripts/<panel>.json` + `.srt`.
+   DTW word timing) on each mix in ≤28 s chunks cut at pauses, then a refill pass over any remaining
+   gaps → `transcripts/<panel>.json` + `.srt`. (One long pass skipped a 27 s question and piled words
+   onto one timestamp; chunking fixed both.)
 5. **Label**: `.venv/bin/python scripts/align.py label $ARGUMENTS` → each word gets the speaker whose mic
    is loudest at that moment; words with no mic energy are marked `silent` (whisper hallucinations).
 6. **People**: mic labels say which mic, not who held it. For each panel, run
@@ -23,7 +25,8 @@ Transcribe event `$ARGUMENTS`. Run each step in the background if it may take mo
    panelist talks about their own company. Mic labels are a strong hint (one person per mic unless it
    was shared). Write `[[first_id, last_id, "Name"], ...]` to a scratch file and run
    `speakers.py apply $ARGUMENTS <panel> <file>`; it's saved as `transcripts/<panel>.speakers.json`
-   and `align.py label` keeps it. Then cross-check: each person should land almost entirely on one mic.
+   and `align.py label` keeps it. Fix single stretches with `speakers.py set <event> <panel> <start> <end> <name>`
+   and check `speakers.py dump <event> <panel> --todo` is empty. Then cross-check: each person should land almost entirely on one mic.
    Show me the assignment per panel and flag the lines you weren't sure about.
 7. Report per panel: range on the timeline and duration, word count, words per speaker, silent words.
    Flag any speaker with suspiciously few words. Show 3 short excerpts per panel with speaker

@@ -1,1188 +1,980 @@
 1
-00:00:00,000 --> 00:00:25,000
- And now for our last panel of the night, finding credit market fit as an outcome of all your hard work through finding your GTM Motions, figuring out your cyber security and internal.
+00:00:03,610 --> 00:00:18,250
+And now, for our last panel of the night, finding permanent market fit as an outcome of all your hard work through finding your GTM motions.
 
 2
-00:00:25,000 --> 00:00:42,000
- So I would like to invite Konstantin, who will lead our panel, the local creator and the founder.
+00:00:19,690 --> 00:00:25,810
+Through finding your GTM motions, figuring out your cyber security and internal...
 
 3
-00:00:42,000 --> 00:00:49,000
- Jonas, co-founder of Scarcey.
+00:00:26,410 --> 00:00:34,440
+And finally, see that in something as beautiful as Infinite Adoption.
 
 4
-00:00:49,000 --> 00:00:53,000
- Han, co-founder of Sierra Isporch.
+00:00:34,690 --> 00:00:42,000
+So I would like to invite Konstantin, who will lead our panel, the local creator and the founder.
 
 5
-00:00:53,000 --> 00:01:00,000
- And Stephanie, take it away.
+00:00:42,870 --> 00:00:45,620
+Jonas, co-founder of Starsling.
 
 6
-00:01:00,000 --> 00:01:00,000
- Hello everybody, hope you guys are doing well.
+00:00:46,070 --> 00:00:47,550
+You know this?
 
 7
-00:01:00,000 --> 00:01:01,000
- It's an amazing day to be honest today.
+00:00:48,250 --> 00:00:50,810
+Han, co-founder of Sierra Esporch.
 
 8
-00:01:01,000 --> 00:01:07,000
- So welcome on our last panel, how to go with PNF.
+00:00:53,770 --> 00:00:56,510
+And Sheffern, co-founder of London.
 
 9
-00:01:07,000 --> 00:01:22,000
- So, at first point, I want to, you know, I want to let all these amazing founders to be introduced themselves, what they are building and if they are open source or not.
+00:00:58,710 --> 00:01:01,010
+And Constantine, take it away.
 
 10
-00:01:22,000 --> 00:01:37,000
- And after I will ask some questions.
+00:01:02,130 --> 00:01:03,430
+Thank you guys.
 
 11
-00:01:37,000 --> 00:01:42,000
- So, whoever wants to start.
+00:01:10,470 --> 00:01:18,570
+Hello everybody, hope you guys are doing well, it's an amazing day to be honest today.
 
 12
-00:01:42,000 --> 00:01:43,000
- Sure.
+00:01:18,490 --> 00:01:23,970
+So welcome on our last panel, how to go in PNF.
 
 13
-00:01:43,000 --> 00:01:47,000
- My name is Jonas, co-founder and CEO at StarSling.
+00:01:24,310 --> 00:01:30,820
+So at first point I want to let all these amazing founders to be introduced.
 
 14
-00:01:47,000 --> 00:01:51,000
- We make your GitHub actions up to 10x faster.
+00:01:31,030 --> 00:01:35,280
+themselves, what they are building, and if they are open source or not.
 
 15
-00:01:51,000 --> 00:02:06,000
- So we have fast hardware, like everyone else that does CI, but we also have AI agents that speed up your CI by opening up PRs to optimize your tests, make sure you're sharding, caching properly.
+00:01:35,190 --> 00:01:37,680
+And after I will ask some questions.
 
 16
-00:02:06,000 --> 00:02:11,000
- So, if anyone out here has slow CI, check out StarSling.
+00:01:37,750 --> 00:01:42,160
+So whoever wants to start.
 
 17
-00:02:13,000 --> 00:02:14,000
- Hey everyone.
+00:01:42,250 --> 00:01:42,960
+Sure.
 
 18
-00:02:14,000 --> 00:02:16,000
- I'm Han, founder of Inksforge.
+00:01:42,970 --> 00:01:46,490
+My name's Jonas, co-founder and CEO at StarSling.
 
 19
-00:02:16,000 --> 00:02:20,000
- And that's actually a funny story.
+00:01:47,670 --> 00:01:51,280
+We make your GitHub actions up to 10x faster.
 
 20
-00:02:20,000 --> 00:02:28,000
- Like, last Wednesday, before last Wednesday, we were working on Inksforge and Instacloud.
+00:01:51,710 --> 00:02:06,360
+So we have fast hardware, like everyone else that does CI, but we also have AI agents that speed up your CI by opening up PRs to optimize your tests, make sure you're sharding, caching properly.
 
 21
-00:02:28,000 --> 00:02:31,000
- It's open source back in the cloud infrastructure.
+00:02:06,970 --> 00:02:11,220
+So if anyone out here has slow CI, check out StarSlay.
 
 22
-00:02:31,000 --> 00:02:37,000
- But we'll just say something really quickly last Wednesday and it went viral, which is our sandbox offering.
+00:02:13,530 --> 00:02:16,580
+Hey everyone, I'm Han, founder of Inksforge.
 
 23
-00:02:37,000 --> 00:02:39,000
- And then we don't have time to open source it yet.
+00:02:17,130 --> 00:02:18,130
+And...
 
 24
-00:02:39,000 --> 00:02:41,000
- So it's still closed source.
+00:02:18,770 --> 00:02:26,780
+That's actually a funny story, like last Wednesday, before last Wednesday, we were working on
 
 25
-00:02:41,000 --> 00:02:48,000
- But, yeah, having to share more about my experience of finding PMF with my previous products.
+00:02:26,830 --> 00:02:32,820
+InstaCloud, it's open source back in the cloud infrastructure, but we just tested something
 
 26
-00:02:50,000 --> 00:02:51,000
- Hey everyone.
+00:02:33,050 --> 00:02:38,020
+really quickly last Wednesday and it went viral, which is our sandbox offering, and we
 
 27
-00:02:51,000 --> 00:02:53,000
- I'm Shen Kun, co-founder and CEO of Monet.
+00:02:37,970 --> 00:02:42,800
+don't have time to open source it yet, so it's still closed source, but yeah, happy to
 
 28
-00:02:54,000 --> 00:02:57,000
- We are building the open router for agent tools.
+00:02:42,870 --> 00:02:44,600
+share more about my...
 
 29
-00:02:57,000 --> 00:03:00,000
- We connect your agent to all the tools and API they need.
+00:02:45,410 --> 00:02:48,930
+experience of finding PMF with my previous products.
 
 30
-00:03:00,000 --> 00:03:05,000
- And, as a human, you don't need to, like, sign up for accounts or pay for a subscription for those services anymore.
+00:02:50,570 --> 00:02:55,740
+Hey everyone, I'm Shengkun, Co-Founder and CEO of Monit, and we are building the open
 
 31
-00:03:05,000 --> 00:03:12,000
- Since your agent can easily discover and use all the tools and API right away and pay for them directly.
+00:02:55,850 --> 00:02:57,240
+router for agent tools.
 
 32
-00:03:12,000 --> 00:03:20,000
- And, for example, we have the Cdance API, ICO, Apollo, Samrush, and all different APIs that can directly help you work.
+00:02:57,130 --> 00:03:01,620
+We connect your agent to all the tools and API they need, and as a human, you don't need
 
 33
-00:03:20,000 --> 00:03:21,000
- Yeah.
+00:03:01,570 --> 00:03:05,980
+to sign up for accounts or pay for subscription for those services anymore, since your agent
 
 34
-00:03:21,000 --> 00:03:23,000
- And, yes, we are open source.
+00:03:05,950 --> 00:03:10,020
+can easily discover and use all the tools and API right away.
 
 35
-00:03:23,000 --> 00:03:24,000
- I forgot to mention.
+00:03:10,530 --> 00:03:17,720
+pay for them directly. For example, we have the Cdance API, ICO, Apollo, Samrush, and all
 
 36
-00:03:24,000 --> 00:03:30,000
- So, technically, we are open core because the GitHub Actions runner is open source.
+00:03:17,810 --> 00:03:22,600
+different APIs that can directly help you work. And yes, we are open source.
 
 37
-00:03:30,000 --> 00:03:32,000
- But, no, we are not open source.
+00:03:23,910 --> 00:03:29,520
+I forgot to mention. So technically, we are open core because the GitHub Actions runner
 
 38
-00:03:32,000 --> 00:03:37,000
- But we do have a bunch of skills and cool things that you can use without the host approach.
+00:03:29,630 --> 00:03:30,740
+is open source.
 
 39
-00:03:37,000 --> 00:03:46,000
- So, I will ask you my first question, actually.
+00:03:31,230 --> 00:03:36,600
+But no, we are not open source, but we do have a bunch of skills and cool things that
 
 40
-00:03:46,000 --> 00:03:52,000
- You know, for every single founder, like PMF, it's something that everyone, every single founder is looking for.
+00:03:36,550 --> 00:03:39,350
+you can use without the host of program.
 
 41
-00:03:52,000 --> 00:03:58,000
- What was, like, the exact moment for you guys when you say, like, yes, I get it.
+00:03:41,370 --> 00:03:48,660
+So I will ask you my first question, actually, you know, for every single founder, like PMF,
 
 42
-00:03:58,000 --> 00:03:59,000
- I know it.
+00:03:49,030 --> 00:03:52,140
+it's something that everyone, every single founder is looking for.
 
 43
-00:03:59,000 --> 00:04:07,000
- Besides the metrics, besides the GitHub stars that can be buying somewhere, what was the exact moment?
+00:03:52,250 --> 00:03:59,040
+What was like the exact moment for you guys when you say like, yes, I get it, I know it.
 
 44
-00:04:07,000 --> 00:04:08,000
- Yeah.
+00:03:59,430 --> 00:04:06,410
+Besides the metrics, besides the GitHub stars that can be buying somewhere, what was the exact moment?
 
 45
-00:04:08,000 --> 00:04:13,000
- I feel like for us, like, it was the moment that our users were so mad at us.
+00:04:07,230 --> 00:04:13,140
+Yeah, I feel like for us, it was the moment that our users were so mad at us.
 
 46
-00:04:13,000 --> 00:04:17,000
- Like, it means that your users really care about the problem you're solving.
+00:04:13,330 --> 00:04:16,980
+Like, it means that your users really care about the problem you're solving.
 
 47
-00:04:17,000 --> 00:04:20,000
- And you probably are solving the way they don't really like it.
+00:04:17,110 --> 00:04:19,880
+And you probably are solving it in a way they don't really like it.
 
 48
-00:04:20,000 --> 00:04:22,000
- But they still need the solution you provide.
+00:04:19,990 --> 00:04:25,240
+but they still need the solution you provide so they become so mad at you and uh we got really
 
 49
-00:04:22,000 --> 00:04:24,000
- So, they become so mad at you.
+00:04:25,470 --> 00:04:31,010
+long like a user email like talking about like why you really suck at the product and why you cannot
 
 50
-00:04:24,000 --> 00:04:30,000
- And we got really long, like, user email, like, talking about, like, why you really suck at the product.
+00:04:31,110 --> 00:04:35,880
+really solve that problem really well and at all like i know they're really mad at us like
 
 51
-00:04:30,000 --> 00:04:33,000
- And why you cannot really solve that problem really well.
+00:04:35,970 --> 00:04:40,360
+but i know exactly that we are solving a problem people people really care about
 
 52
-00:04:33,000 --> 00:04:40,000
- And, like, I know they are really mad at us, like, but I know exactly that we are solving a problem people really care about.
+00:04:40,470 --> 00:04:46,700
+But before that, like, we actually have at least one month that we could not get any user
 
 53
-00:04:40,000 --> 00:04:47,000
- But before that, like, we actually have at least one month that we could not get any user feedback.
+00:04:46,890 --> 00:04:47,700
+feedback.
 
 54
-00:04:47,000 --> 00:04:53,000
- Like, since, like, after, like, after user first sign up, we have, like, 24 hours clock.
+00:04:47,590 --> 00:04:54,380
+Since, like, after user first sign up, we have, like, 24 hours clock, and right after
 
 55
-00:04:53,000 --> 00:04:57,000
- And right after 24 hours, we're going to, like, send an email to ask for feedback.
+00:04:54,550 --> 00:04:57,880
+24 hours, we're going to, like, send an email to ask for feedback.
 
 56
-00:04:57,000 --> 00:05:01,000
- And then for a month, like, we haven't got back, like, any feedback from the email.
+00:04:57,730 --> 00:05:01,640
+And then for a month, like, we haven't got back, like, any feedback from the email, and
 
 57
-00:05:01,000 --> 00:05:03,000
- And we will kind of really stress out.
+00:05:01,550 --> 00:05:02,960
+we were kind of really stressed out.
 
 58
-00:05:03,000 --> 00:05:07,000
- And after that, we make some changes and make the product positioning much clearer.
+00:05:03,110 --> 00:05:07,880
+And after that, we make some changes and make the product positioning much clearer.
 
 59
-00:05:07,000 --> 00:05:09,000
- And then we start receiving those emails.
+00:05:07,710 --> 00:05:09,780
+And then we start receiving those emails.
 
 60
-00:05:09,000 --> 00:05:13,000
- And that was the point that we know, oh, we are solving a real problem.
+00:05:09,590 --> 00:05:13,540
+And that was the point that we know, oh, we are solving a real problem.
 
 61
-00:05:13,000 --> 00:05:14,000
- Nice.
+00:05:14,270 --> 00:05:14,540
+Nice.
 
 62
-00:05:14,000 --> 00:05:22,000
- Yeah, for us was probably in the moment I was cooking my first version of product on my local laptop and it's working.
+00:05:15,010 --> 00:05:20,320
+Yeah, for us was probably in the moment I was cooking my first version of the product
 
 63
-00:05:22,000 --> 00:05:28,000
- I know this is going to be -- I'm going to find someone out there using this in exactly this use case.
+00:05:20,290 --> 00:05:22,760
+on my local laptop and it's working.
 
 64
-00:05:28,000 --> 00:05:31,000
- I know that, so I just, like, open source it.
+00:05:22,770 --> 00:05:27,620
+I know this is going to be, I'm going to find someone out there using this in exactly
 
 65
-00:05:31,000 --> 00:05:36,000
- And then we're having some initial GitHub stars.
+00:05:27,710 --> 00:05:28,600
+this use case.
 
 66
-00:05:36,000 --> 00:05:41,000
- But the most important is also we have some user inbounds, asking about, hey, can I try this?
+00:05:29,190 --> 00:05:32,920
+know I know that so I just like open source it and then we had in some
 
 67
-00:05:41,000 --> 00:05:48,000
- Or your read me instruction on how to reproduce or self-hosting really bad.
+00:05:34,030 --> 00:05:38,380
+initial github stars but the most important is also we have some user
 
 68
-00:05:48,000 --> 00:05:49,000
- I cannot use it.
+00:05:38,430 --> 00:05:43,720
+inbounds asking about hey can we try this or your read me instruction on how
 
 69
-00:05:49,000 --> 00:05:50,000
- Can you tell me how to use it?
+00:05:43,830 --> 00:05:49,840
+to replicate reproduce or self-hosting really bad I cannot use it can you tell
 
 70
-00:05:50,000 --> 00:05:51,000
- Something like that.
+00:05:49,790 --> 00:05:54,420
+me how to use it something like that so give us very initial signals all this
 
 71
-00:05:51,000 --> 00:05:58,000
- So give us very initial signals how this product somehow is working.
+00:05:54,510 --> 00:05:56,180
+product somehow is working
 
 72
-00:05:58,000 --> 00:05:59,000
- Yeah.
+00:05:58,510 --> 00:06:05,820
+Yeah, so for us, we actually started off with a very different product that was similar
 
 73
-00:05:59,000 --> 00:06:08,000
- So for us, we actually start off with a very different product that was similar to another open source project called Backstage.
+00:06:05,870 --> 00:06:08,650
+to another open source project called Backstage.
 
 74
-00:06:08,000 --> 00:06:13,000
- So top of the year, we started with a new product.
+00:06:08,910 --> 00:06:14,880
+So top of the year, we started with a new product and we saw the first signs of product
 
 75
-00:06:13,000 --> 00:06:19,000
- And we saw the first signs of product market fit when we shipped it to our first customer who is an open source project.
+00:06:14,930 --> 00:06:20,650
+market fit when we shipped it to our first customer who is an open source project, it's
 
 76
-00:06:19,000 --> 00:06:23,000
- It's called BetterAuth that is now part of Vercel.
+00:06:21,570 --> 00:06:29,420
+that is now part of Vercel, and he, like the maintainer, the founder, was like, "This is awesome."
 
 77
-00:06:23,000 --> 00:06:29,000
- And he, like the maintainer, the founder, was like, this is awesome.
+00:06:29,510 --> 00:06:37,120
+And he merged in the PR to migrate the runners over, and that was the moment because it's free, right?
 
 78
-00:06:29,000 --> 00:06:33,000
- And he merged in the PR to migrate the runners over.
+00:06:37,030 --> 00:06:39,180
+If you're an open source project, you get CI for free.
 
 79
-00:06:33,000 --> 00:06:37,000
- And that was the moment because it's free, right?
+00:06:39,370 --> 00:06:44,410
+but if you're willing to pay that means it's a pain point um and it's slow enough that you're
 
 80
-00:06:37,000 --> 00:06:39,000
- If you're an open source project, you get CI for free.
+00:06:44,490 --> 00:06:50,140
+willing to pay money for it so that was the moment and then uh yeah that helped us get visibility
 
 81
-00:06:39,000 --> 00:06:42,000
- But if you're willing to pay, that means it's a pain point.
+00:06:50,350 --> 00:06:54,940
+because everyone could see that they were using our runners and so that was the beginning of it
 
 82
-00:06:42,000 --> 00:06:46,000
- And it's slow enough that you're willing to pay money for it.
+00:06:54,990 --> 00:07:02,540
+yeah perfect thanks for your answers so i'll come back what was said before on the different panels
 
 83
-00:06:46,000 --> 00:06:47,000
- So that was the moment.
+00:07:02,590 --> 00:07:08,540
+you know most of users of your users actually are not anymore humans they are agents
 
 84
-00:06:47,000 --> 00:06:53,000
- And then, yeah, that helped us get visibility because everyone could see that they were using our runners.
+00:07:09,370 --> 00:07:16,090
+does actually an agent care you know about like if you're open source or not
 
 85
-00:06:53,000 --> 00:06:55,000
- And so that was the beginning of it.
+00:07:18,510 --> 00:07:23,900
+and so how like the pmf which in pmf change
 
 86
-00:06:55,000 --> 00:06:56,000
- Yeah.
+00:07:24,010 --> 00:07:29,200
+And what's the difference between reaching an agent and reaching a human?
 
 87
-00:06:56,000 --> 00:06:57,000
- Thanks for your answers.
+00:07:31,110 --> 00:07:32,700
+I can answer this first.
 
 88
-00:06:57,000 --> 00:07:02,000
- So I'll come back to what was said before on the different panels.
+00:07:32,630 --> 00:07:34,700
+I think it's actually quite important.
 
 89
-00:07:02,000 --> 00:07:07,000
- You know, most of your users actually are not anymore humans.
+00:07:34,430 --> 00:07:40,700
+It's because people underestimate how good it is by having your products open source
 
 90
-00:07:07,000 --> 00:07:09,000
- They are agents.
+00:07:40,950 --> 00:07:44,670
+as a distribution channel, especially for agents.
 
 91
-00:07:09,000 --> 00:07:17,000
- Does actually an agent care, you know, about, like, if you're open source or not?
+00:07:44,630 --> 00:07:48,700
+So normally you're asking for what's the best product for X, Y, Z.
 
 92
-00:07:17,000 --> 00:07:23,000
- And so, how, like, PMF, reaching PMF change?
+00:07:49,410 --> 00:07:51,800
+And the agents will just give you a list of products.
 
 93
-00:07:23,000 --> 00:07:30,000
- And what's the difference between reaching an agent and reaching a human?
+00:07:52,470 --> 00:07:59,640
+and then how agent give you this answer obviously coming from you know um trainings and the training
 
 94
-00:07:30,000 --> 00:07:32,000
- I can answer this first.
+00:07:59,750 --> 00:08:04,200
+source is coming from the internet every place else so if you have open source product people
 
 95
-00:07:32,000 --> 00:07:34,000
- I think it's actually quite important.
+00:08:04,330 --> 00:08:07,880
+forking your products people contributing to the products you're talking about these products
 
 96
-00:07:34,000 --> 00:07:44,000
- It's because people underestimate how good it is by having your products open source as a distribution channel, especially for agents.
+00:08:08,150 --> 00:08:13,640
+everything go everywhere else and then you're just having so much weight into these training sources
 
 97
-00:07:44,000 --> 00:07:49,000
- So, normally you're asking for what's the best product for X, Y, Z.
+00:08:13,870 --> 00:08:17,680
+So that's how you get baked into the one of the default solutions.
 
 98
-00:07:49,000 --> 00:07:52,000
- And the agents will just give you a list of products.
+00:08:17,530 --> 00:08:23,780
+We have seen over time, our product mentioned more and more, and by those agents, that's
 
 99
-00:07:52,000 --> 00:07:58,000
- And then how agents give you this answer obviously coming from, you know, trainings.
+00:08:23,710 --> 00:08:24,780
+for one.
 
 100
-00:07:58,000 --> 00:08:02,000
- And then the training source is coming from the internet, everybody else.
+00:08:24,370 --> 00:08:28,860
+The second part is actually search, you know, agents starting to search using tools, and
 
 101
-00:08:02,000 --> 00:08:06,000
- So if you have open source product, people forking your products, people contributing to the products.
+00:08:28,830 --> 00:08:33,810
+the more distribution, more places you are, especially GitHub, for example, you will be
 
 102
-00:08:06,000 --> 00:08:10,000
- People talking about these products everywhere else.
+00:08:34,090 --> 00:08:35,600
+much likely to be...
 
 103
-00:08:10,000 --> 00:08:13,000
- And then you're just having so much weight into these training sources.
+00:08:36,050 --> 00:08:39,150
+recommending a solution where agents are actually doing the proactive search?
 
 104
-00:08:13,000 --> 00:08:17,000
- So that's how you get baked into the one of the default solutions.
+00:08:42,130 --> 00:08:48,160
+Yeah. I think that's a good point because when we were starting, we were thinking about DevOps,
 
 105
-00:08:17,000 --> 00:08:21,000
- We have seen over time, our product mentioned more and more.
+00:08:48,270 --> 00:08:54,240
+right, and then CI/CD. And someone put out this report, what Claude picks or what Claude chooses.
 
 106
-00:08:21,000 --> 00:08:24,000
- And by those agents, that's for one.
+00:08:54,290 --> 00:09:00,560
+It was like a report of all the dev tools that Claude will choose, given a specific prompt.
 
 107
-00:08:24,000 --> 00:08:25,000
- The second part is actually search.
+00:09:00,790 --> 00:09:04,220
+and GitHub Actions had like 97% market share,
 
 108
-00:08:25,000 --> 00:08:28,000
- You know, agents starting to search using tools.
+00:09:04,270 --> 00:09:06,500
+so we were thinking like, you know,
 
 109
-00:08:28,000 --> 00:08:32,000
- And the more distribution, more places you are, especially if you have, for example,
+00:09:06,370 --> 00:09:09,880
+the proper way to do CI, you kind of have an engine
 
 110
-00:08:32,000 --> 00:08:42,000
- you will be much likely to be recommending a solution where agents actually doing the proactive search.
+00:09:09,790 --> 00:09:11,980
+that does aggressive caching and test selection,
 
 111
-00:08:42,000 --> 00:08:43,000
- Yeah.
+00:09:11,970 --> 00:09:13,920
+but, you know, we saw that and we were like,
 
 112
-00:08:43,000 --> 00:08:44,000
- I think that's a good point.
+00:09:13,930 --> 00:09:16,680
+okay, well, clearly there's one place you should start,
 
 113
-00:08:44,000 --> 00:08:48,000
- Because when we were starting, we were thinking about DevOps, right?
+00:09:16,590 --> 00:09:20,220
+which is GitHub Actions, so I think even if you're not,
 
 114
-00:08:48,000 --> 00:08:49,000
- And then CI/CD.
+00:09:20,130 --> 00:09:22,040
+if your product isn't meant for agents
 
 115
-00:08:49,000 --> 00:08:54,000
- And someone put out this report, what Claude picks or what Claude chooses.
+00:09:22,090 --> 00:09:25,320
+because of this whole, you know, the training is frozen
 
 116
-00:08:54,000 --> 00:09:01,000
- It was like a report of all the dev tools that Claude will choose given a specific prompt.
+00:09:25,270 --> 00:09:28,540
+and all the things that are baked into the model,
 
 117
-00:09:01,000 --> 00:09:04,000
- And GitHub Actions had like 97% market share.
+00:09:28,650 --> 00:09:33,540
+You're actually building for humans and agents at the same time, so you kind of have to account for both.
 
 118
-00:09:04,000 --> 00:09:10,000
- So we were thinking like, you know, the proper way to do CI, you kind of have an engine that does
+00:09:33,510 --> 00:09:39,540
+But yeah, SEO is ultimately, is like basically the lagging indicator, right?
 
 119
-00:09:10,000 --> 00:09:12,000
- aggressive caching and test selection.
+00:09:39,730 --> 00:09:44,540
+Because if you have SEO, then you'll be in the training set, and then you'll be recommended, and it's just a loop, right?
 
 120
-00:09:12,000 --> 00:09:13,000
- But, you know, we saw that.
+00:09:45,170 --> 00:09:45,540
+Perfect.
 
 121
-00:09:13,000 --> 00:09:17,000
- We were like, okay, well, clearly there's one place you should start, which is GitHub Actions.
+00:09:46,370 --> 00:09:49,400
+Yeah, what we found out from our users is that,
 
 122
-00:09:17,000 --> 00:09:24,000
- So I think even if you're not -- if your product isn't meant for agents because of this whole, you know,
+00:09:50,110 --> 00:09:55,300
+Right now because of the agent, they actually let their agent to compare you with your competitors
 
 123
-00:09:24,000 --> 00:09:30,000
- the training is frozen and all the things that are baked into the model, you're actually building for humans
+00:09:55,370 --> 00:09:58,500
+and let the agent to tell them which one is better.
 
 124
-00:09:30,000 --> 00:09:31,000
- and agents at the same time.
+00:09:59,150 --> 00:10:02,100
+I heard of that from our users all the time.
 
 125
-00:09:31,000 --> 00:09:33,000
- So you kind of have to account for both.
+00:10:02,190 --> 00:10:04,700
+They use us, they also use our competitor.
 
 126
-00:09:33,000 --> 00:09:39,000
- But, yeah, SEO is ultimately -- is like basically the lagging indicator, right?
+00:10:04,950 --> 00:10:07,200
+And when the agent tells them the results,
 
 127
-00:09:39,000 --> 00:09:43,000
- Because if you have SEO, then you'll be in the training set and then you'll be recommended.
+00:10:07,550 --> 00:10:11,780
+actually if you're open source and all, or how much stars you have on a GitLab,
 
 128
-00:09:43,000 --> 00:09:45,000
- And it's just a loop, right?
+00:10:11,870 --> 00:10:17,010
+it's kind of like showing up like in the results and they would tell their human beings that oh
 
 129
-00:09:45,000 --> 00:09:46,000
- Perfect.
+00:10:18,230 --> 00:10:22,740
+monet is open source so you probably can use that oh i got that a lot it was actually we
 
 130
-00:09:46,000 --> 00:09:47,000
- Yeah.
+00:10:22,930 --> 00:10:28,030
+started as a 500 stars whatever people like and the agents were saying uh i wouldn't trust this
 
 131
-00:09:47,000 --> 00:09:52,000
- What we found out from our users is that right now because of the agent, they actually let
+00:10:28,190 --> 00:10:32,420
+product but like one year later we have like uh 10k stars
 
 132
-00:09:52,000 --> 00:09:57,000
- their agent to compare you with your competitors and let the agent to tell them, like, which
+00:10:32,510 --> 00:10:34,620
+And the agent's like, oh, this product is pretty legit.
 
 133
-00:09:57,000 --> 00:09:58,000
- one is better.
+00:10:34,530 --> 00:10:38,680
+We tried to-- it's like, the agents, they're not that smart,
 
 134
-00:09:58,000 --> 00:10:02,000
- And I heard of that from our users all the time.
+00:10:38,710 --> 00:10:38,980
+right?
 
 135
-00:10:02,000 --> 00:10:03,000
- They use us.
+00:10:39,030 --> 00:10:40,730
+So yeah, anyway, just joking.
 
 136
-00:10:03,000 --> 00:10:04,000
- They also use our competitor.
+00:10:40,630 --> 00:10:41,630
+Yeah, exactly.
 
 137
-00:10:04,000 --> 00:10:07,000
- And then the agent tell them the results.
+00:10:42,710 --> 00:10:44,360
+I hope they're going to be better.
 
 138
-00:10:07,000 --> 00:10:12,000
- Actually, if you're open source and all, or how much stars you have on a GitLab, it's kind
+00:10:44,490 --> 00:10:47,110
+Because like, bytecotters like me, they need it.
 
 139
-00:10:12,000 --> 00:10:15,000
- of like showing up, like, in the results.
+00:10:47,830 --> 00:10:51,410
+So my next question is going to be about,
 
 140
-00:10:15,000 --> 00:10:19,000
- And they would tell their human beings that, oh, the money is open source.
+00:10:52,290 --> 00:10:56,080
+does this open source helps to fund PMF,
 
 141
-00:10:19,000 --> 00:10:20,000
- So you probably can't use that.
+00:10:56,070 --> 00:10:58,930
+or it's just for investors and--
 
 142
-00:10:20,000 --> 00:10:21,000
- Oh, I got that a lot.
+00:11:00,850 --> 00:11:06,880
+Oh, I mean, so for us, we've released skills, and that's been a really great way for people
 
 143
-00:10:21,000 --> 00:10:24,000
- It was actually -- we started as 500 stars, whatever.
+00:11:06,810 --> 00:11:07,880
+to discover us.
 
 144
-00:10:24,000 --> 00:10:28,000
- And the agents were saying, I wouldn't trust this product.
+00:11:07,630 --> 00:11:12,540
+So if you just do /CI speedup, you can actually use it without our runners.
 
 145
-00:10:28,000 --> 00:10:32,000
- But, like, one year later, we have, like, 10K stars.
+00:11:12,390 --> 00:11:18,140
+So for us, I think skills have actually become a really interesting entry point because it's
 
 146
-00:10:32,000 --> 00:10:34,000
- And the agents were like, oh, this product is pretty legit.
+00:11:18,130 --> 00:11:20,360
+like low friction, obviously you don't pay.
 
 147
-00:10:34,000 --> 00:10:38,000
- Like, we tried to -- it's like, the agents, they're not that smart, right?
+00:11:21,110 --> 00:11:27,180
+But it's a way for you to get a taste of the product without having to sign up for it necessarily.
 
 148
-00:10:38,000 --> 00:10:39,000
- So, yeah.
+00:11:27,610 --> 00:11:34,600
+So I think that's been really interesting to see now, that that wasn't the case previously, maybe even a year ago, right?
 
 149
-00:10:39,000 --> 00:10:39,000
- Anyway, just joking.
+00:11:34,530 --> 00:11:41,580
+It wasn't really a real go-to-market strategy, but we're finding a lot of people discover us through this skill and then
 
 150
-00:10:39,000 --> 00:10:41,000
- Yeah, exactly.
+00:11:41,610 --> 00:11:46,180
+you know, if you want to speed up your own CI, you can use the skill in your own agent.
 
 151
-00:10:41,000 --> 00:10:43,000
- I hope they're going to be better.
+00:11:46,030 --> 00:11:49,560
+Or if you don't have to do that yourself, we'll do it for you with our own agent.
 
 152
-00:10:43,000 --> 00:10:47,000
- Because, like, white coders like me, they need it.
+00:11:49,470 --> 00:11:52,740
+So I think the skills have been really cool.
 
 153
-00:10:47,000 --> 00:10:55,000
- So, my next question is going to be about, does this, like, open source helps to fund PMF,
+00:11:52,570 --> 00:11:58,700
+And then Vercel, because they have skills.sh, that's been really helpful because it's all
 
 154
-00:10:55,000 --> 00:11:01,000
- or it's just, like, for investors and, you know?
+00:11:58,670 --> 00:11:59,900
+in one place, right?
 
 155
-00:11:01,000 --> 00:11:04,000
- Oh, I mean, so for us, we've released skills.
+00:11:59,710 --> 00:12:03,470
+And you can just do MPX skill add, right?
 
 156
-00:11:04,000 --> 00:11:07,000
- And that's been a really great way for people to discover us.
+00:12:04,990 --> 00:12:07,550
+I think it definitely helps a lot.
 
 157
-00:11:07,000 --> 00:11:12,000
- So, if you just do /CI speedup, you can actually use it without our runners.
+00:12:08,530 --> 00:12:12,880
+joke about like you know having a star is like you have five stars on Google
 
 158
-00:11:12,000 --> 00:11:17,000
- So, for us, I think skills have actually become a really interesting entry point.
+00:12:13,050 --> 00:12:16,980
+review and so you just have much more traffic that's just one thing but the
 
 159
-00:11:17,000 --> 00:11:19,000
- Because it's, like, low friction.
+00:12:17,450 --> 00:12:22,560
+deep down is actually not just stars I personally don't think stars is
 
 160
-00:11:19,000 --> 00:11:20,000
- Obviously, you don't pay.
+00:12:22,690 --> 00:12:28,140
+something beautiful investors or VCs is actually what we look more is about star
 
 161
-00:11:20,000 --> 00:11:27,000
- But it's a way for you to get a taste of the product without having to sign up for it necessarily.
+00:12:28,250 --> 00:12:33,160
+to fork ratio depends on repos or skills like normally people will not forget
 
 162
-00:11:27,000 --> 00:11:30,000
- So, I think that's been really interesting to see now, right?
+00:12:33,290 --> 00:12:36,060
+But for other repos, people will just test it out
 
 163
-00:11:30,000 --> 00:11:33,000
- That, you know, that wasn't the case previously.
+00:12:36,250 --> 00:12:39,460
+It's giving you a real signal how many developers are actually using them
 
 164
-00:11:33,000 --> 00:11:34,000
- Maybe even a year ago, right?
+00:12:39,770 --> 00:12:45,460
+And we're also using some signal check-ins combined with post hoc together to see some analytics
 
 165
-00:11:34,000 --> 00:11:37,000
- It wasn't really a real go-to-market strategy.
+00:12:45,790 --> 00:12:51,460
+How many people are using us, in what version, what's the source they're building us, are they using Kubernetes or whatever
 
 166
-00:11:37,000 --> 00:11:40,000
- But we're finding a lot of people discover us through the skill.
+00:12:51,490 --> 00:12:55,460
+So this graph giving us a real indicator and we're checking heartbeats
 
 167
-00:11:40,000 --> 00:11:45,000
- And then, you know, if you want to speed up your own CI, you can use the skill in your own agent.
+00:12:55,530 --> 00:13:02,300
+how many live self-hosted versions are out there. So those are actual signals or indicators
 
 168
-00:11:45,000 --> 00:11:49,000
- Or, if you don't have to do that yourself, we'll do it for you with our own agent.
+00:13:02,290 --> 00:13:04,960
+if people are actually using our open source products.
 
 169
-00:11:49,000 --> 00:11:52,000
- So, I think the skills have been really cool.
+00:13:05,690 --> 00:13:12,960
+Yeah, open source for us really help us with the PNF. We started as the really closed source
 
 170
-00:11:52,000 --> 00:11:59,000
- And then Vercel, because they have skills.sh, that's been really helpful because it's all in one place, right?
+00:13:13,030 --> 00:13:18,020
+and but if you think of us as the two-sided market, we kind of open router one side that
 
 171
-00:11:59,000 --> 00:12:03,000
- And you can just do MPX skill add, right?
+00:13:18,110 --> 00:13:20,220
+people use us to connect to all the tools.
 
 172
-00:12:03,000 --> 00:12:07,000
- I think it definitely helps a lot.
+00:13:20,370 --> 00:13:22,720
+The other side is the older tool providers.
 
 173
-00:12:07,000 --> 00:12:13,000
- Especially, like I just joked about, like, you know, having a star is like, you have five stars on Google Review.
+00:13:22,810 --> 00:13:28,200
+Like we started as the closed project for our demand side.
 
 174
-00:12:13,000 --> 00:12:15,000
- And so, you just have much more traffic.
+00:13:28,290 --> 00:13:29,620
+There are a lot of people use us.
 
 175
-00:12:15,000 --> 00:12:16,000
- That's just one thing.
+00:13:29,710 --> 00:13:33,620
+But what we are not sure is that like how much leverage
 
 176
-00:12:16,000 --> 00:12:19,000
- But deep down, it's actually not just stars.
+00:13:33,570 --> 00:13:36,460
+we have on our suppliers side.
 
 177
-00:12:19,000 --> 00:12:24,000
- I personally don't think stars is something built for investors or VCs.
+00:13:36,610 --> 00:13:39,000
+Like if you want to let them to do something for us,
 
 178
-00:12:24,000 --> 00:12:29,000
- It's actually, what we look more is about star to fork ratio.
+00:13:39,030 --> 00:13:41,040
+like for example, we want them to self-onboarding
 
 179
-00:12:29,000 --> 00:12:31,000
- Depends on repos or skills that you like.
+00:13:41,150 --> 00:13:44,220
+themselves to us or let them to do more stuff
 
 180
-00:12:31,000 --> 00:12:32,000
- Normally, people will not fork it.
+00:13:44,250 --> 00:13:46,320
+for the integration into our system,
 
 181
-00:12:32,000 --> 00:12:35,000
- But for other repos, people just fork it, test it out.
+00:13:46,330 --> 00:13:47,700
+are they willing to do this?
 
 182
-00:12:35,000 --> 00:12:39,000
- It's giving you a real signal how many developers are actually using them.
+00:13:47,850 --> 00:13:52,960
+I was not sure, since at that time we did all the manual integration for all the providers
 
 183
-00:12:39,000 --> 00:12:45,000
- And we're also using some signal checkings combined with post hoc together to see some analytics.
+00:13:53,010 --> 00:13:54,460
+and get them on board.
 
 184
-00:12:45,000 --> 00:12:47,000
- How many people are using us in what version?
+00:13:54,370 --> 00:13:56,630
+We did all the manual work.
 
 185
-00:12:47,000 --> 00:12:49,000
- What's the source they're building us?
+00:13:56,830 --> 00:14:02,980
+But after the open source Monit, we received a lot of PRs from all the different types of
 
 186
-00:12:49,000 --> 00:12:51,000
- Are they using Kubernetes or whatever?
+00:14:02,930 --> 00:14:03,980
+the providers.
 
 187
-00:12:51,000 --> 00:12:53,000
- So, this graph giving us a real indicator.
+00:14:03,870 --> 00:14:07,740
+They came to us and said, "Oh, I really want to be listed on Monit.
 
 188
-00:12:53,000 --> 00:12:55,000
- And then we're checking in heartbeats.
+00:14:07,730 --> 00:14:10,260
+I already submitted my PR.
 
 189
-00:12:55,000 --> 00:12:58,000
- Like, how many live self-hosted versions out there?
+00:14:10,090 --> 00:14:11,560
+Can you please review it?"
 
 190
-00:12:58,000 --> 00:13:04,000
- So, those are actual signals or indicators that people are actually using our open source products.
+00:14:11,730 --> 00:14:16,870
+and then get it to the hosted version as well please we've got so many requests like that and
 
 191
-00:13:04,000 --> 00:13:09,000
- Yeah, open source for us, like, really help us with the PNF.
+00:14:16,970 --> 00:14:22,280
+that was the point i realized that okay i already have a really strong demand side and suppliers
 
 192
-00:13:09,000 --> 00:13:13,000
- Like, we started as the really closed source.
+00:14:22,470 --> 00:14:29,720
+also love us really well as well perfect my next question gonna just be about you know the revenue
 
 193
-00:13:13,000 --> 00:13:16,000
- And, but if you think of us as the two-sided market.
+00:14:30,690 --> 00:14:34,470
+because when you are like close product it's quite much easier to measure it
 
 194
-00:13:16,000 --> 00:13:17,000
- Like, we kind of open router.
+00:14:35,170 --> 00:14:39,160
+how it is when you have like an open source project because we know that
 
 195
-00:13:17,000 --> 00:13:20,000
- One side is that people use us to connect to all the tools.
+00:14:39,370 --> 00:14:42,450
+Most often, people are not paying.
 
 196
-00:13:20,000 --> 00:13:22,000
- The other side is the older tool providers.
+00:14:43,310 --> 00:14:51,840
+Yeah, for us, it's really about what's the core value of your product.
 
 197
-00:13:22,000 --> 00:13:28,000
- Like, we started from the, as the closed project for our demand side.
+00:14:51,710 --> 00:14:57,000
+For us, especially today, agents are so easy to do all the integration work.
 
 198
-00:13:28,000 --> 00:13:29,000
- There are a lot of people use us.
+00:14:56,870 --> 00:15:00,220
+So that's the most service level of the work for your product.
 
 199
-00:13:29,000 --> 00:13:36,000
- But, what we are not sure is that, like, how much leverage we have on our supplier side.
+00:15:00,370 --> 00:15:06,680
+for us like our values here is not like help you to easily integrate but also about the
 
 200
-00:13:36,000 --> 00:13:39,000
- Like, if you want to let them to do something for us.
+00:15:06,970 --> 00:15:12,360
+pricing and also the unified building behind the scene and that's the part that people
 
 201
-00:13:39,000 --> 00:13:42,000
- Like, for example, we want them to self-onboarding themselves to us.
+00:15:12,350 --> 00:15:18,410
+are not able to get directly from our open source project so our open source project kind
 
 202
-00:13:42,000 --> 00:13:46,000
- Or, like, let them to do more stuff, like, for the integration into our system.
+00:15:18,930 --> 00:15:23,700
+more kind of like, oh, we help, we let people know about, oh, we are providing such a framework.
 
 203
-00:13:46,000 --> 00:13:48,000
- Are they willing to do this?
+00:15:23,530 --> 00:15:27,540
+We let the providers be easily onboarding themselves to the platform.
 
 204
-00:13:48,000 --> 00:13:49,000
- Like, I was not sure.
+00:15:27,370 --> 00:15:31,760
+But if you actually want to use it and fill the values out of it, then you need to use
 
 205
-00:13:49,000 --> 00:13:54,000
- Since at that time, we did all the manual integration for all the providers and get them on board.
+00:15:31,810 --> 00:15:33,160
+the hosted version.
 
 206
-00:13:54,000 --> 00:13:56,000
- We did all the manual work.
+00:15:33,010 --> 00:15:37,870
+So that means that, like, our core value of the product is still within the hosted version.
 
 207
-00:13:56,000 --> 00:14:03,000
- And, but after we open source Monit, a lot of, we received a lot of PRs from all the, like, different types of the providers.
+00:15:38,690 --> 00:15:43,560
+I think there is a clear strategy for monetization for
 
 208
-00:14:03,000 --> 00:14:07,000
- They came to us and said, oh, I really want to be listed on Monit.
+00:15:43,750 --> 00:15:47,800
+open source projects that is making your open source projects
 
 209
-00:14:07,000 --> 00:14:09,000
- I already submitted my PR.
+00:15:47,970 --> 00:15:51,880
+a full experience but if it is actually in production
 
 210
-00:14:09,000 --> 00:14:11,000
- Can you please review it?
+00:15:51,810 --> 00:15:55,240
+you need some productionized protections to make this
 
 211
-00:14:11,000 --> 00:14:14,000
- And then get it to the hosted version as well, please.
+00:15:55,410 --> 00:15:58,610
+working for example we have seen observabilities
 
 212
-00:14:14,000 --> 00:14:16,000
- We got so many requests like that.
+00:15:59,250 --> 00:16:01,350
+replicas availabilities
 
 213
-00:14:16,000 --> 00:14:21,000
- And that was the point I realized that, okay, I already have a really strong demand side.
+00:16:02,250 --> 00:16:07,520
+compliances those are around to make this product so good to use and your
 
 214
-00:14:21,000 --> 00:14:24,000
- And suppliers also love us really well as well.
+00:16:08,050 --> 00:16:13,240
+self-hosted cost is actually higher than the managed cost why wouldn't I use you
 
 215
-00:14:24,000 --> 00:14:25,000
- Perfect.
+00:16:14,070 --> 00:16:22,760
+that's kind of the strategy we've took we've took so far yeah I mean agreed one
 
 216
-00:14:25,000 --> 00:14:30,000
- My next question is going to just be about, you know, the revenue.
+00:16:22,730 --> 00:16:26,540
+of our other customers is also open source Mastra and it's the same thing
 
 217
-00:14:30,000 --> 00:14:34,000
- Because when you are, like, close product, it's quite much easier to measure it.
+00:16:26,630 --> 00:16:27,980
+right you can use it
 
 218
-00:14:34,000 --> 00:14:37,000
- How it is when you have, like, an open source project?
+00:16:28,110 --> 00:16:36,580
+Fork it, it's free, but if you're an enterprise, you typically want some more features.
 
 219
-00:14:37,000 --> 00:14:42,000
- Because we know that most often people are not paying it.
+00:16:36,390 --> 00:16:41,380
+You have security requirements, availability requirements, and so it's a tried and true
 
 220
-00:14:42,000 --> 00:14:43,000
- Yeah.
+00:16:41,490 --> 00:16:47,200
+model and I think it still works today because you'd rather spend your internal resources
 
 221
-00:14:43,000 --> 00:14:44,000
- Yeah.
+00:16:47,390 --> 00:16:49,290
+on other things.
 
 222
-00:14:44,000 --> 00:14:51,000
- For us, like, the, if it's really about the, what's the core value of, of your product.
+00:16:49,670 --> 00:16:56,520
+So to finish and to let people eat some pizzas, what's going to be your hot takes and your
 
 223
-00:14:51,000 --> 00:14:56,000
- For us, like, especially today, like, agents so easy to do all the integration work.
+00:16:56,810 --> 00:17:02,520
+advice for someone who wants to launch something on an open source, he needs to do it or not?
 
 224
-00:14:56,000 --> 00:15:00,000
- So that's the most service level of the work for your product.
+00:17:03,750 --> 00:17:08,520
+I'm going to go first because I do have one thing I want to share is you guys probably
 
 225
-00:15:00,000 --> 00:15:05,000
- For us, like, our values here is not, like, help you to easily integrate.
+00:17:09,290 --> 00:17:14,300
+using something or something REA recently right reverse engineer so it's
 
 226
-00:15:05,000 --> 00:15:10,000
- But also about the pricing and also the unified building behind the scene.
+00:17:14,470 --> 00:17:17,830
+already happening even though if your closed source or opens or doesn't really
 
 227
-00:15:10,000 --> 00:15:15,000
- And that's the part that people are not able to get directly from our open source project.
+00:17:18,030 --> 00:17:21,900
+matter why don't you put your clothes out there so people can just feel some you
 
 228
-00:15:15,000 --> 00:15:20,000
- So our open source project kind of works more kind of like, oh, we help, we let people know
+00:17:21,910 --> 00:17:26,800
+know trust it gave you some initial traction so you can better find a market fit
 
 229
-00:15:20,000 --> 00:15:23,000
- about, oh, we are providing such a framework.
+00:17:26,910 --> 00:17:35,880
+It's like as a developer, if I see this project is open source, I'll give it a try, I'll self-host it, and if it is good, then I'm going to contribute to this project.
 
 230
-00:15:23,000 --> 00:15:27,000
- We let the providers be easily onboarding themselves to the, to the platform.
+00:17:35,950 --> 00:17:52,520
+That's how you get your first few users, so it's much better than a co-source version, that's just like, you know, the 100x, the number 100 or whatever, like the 200 companies, are they doing this database thing, I don't know what it is, I don't even want to try it.
 
 231
-00:15:27,000 --> 00:15:32,000
- But if you actually want to use it and fill the values out of it, then you need to use the
+00:17:52,630 --> 00:17:56,020
+So, I would definitely vouch for open source.
 
 232
-00:15:32,000 --> 00:15:33,000
- hosted version.
+00:17:58,450 --> 00:18:06,020
+Yeah, especially right now, because of the AI agents, even if you're not open source, it's so easy to copy whatever you have.
 
 233
-00:15:33,000 --> 00:15:37,000
- So that means that, like, the, our core value of the product still within the hosted version
+00:18:06,190 --> 00:18:14,720
+So, if that's the case, you just do the right thing for a company, if closed source is the most useful way for you to find a PNF, then just go for it.
 
 234
-00:15:37,000 --> 00:15:38,000
- here.
+00:18:15,030 --> 00:18:17,460
+If you're not sure, you can just do both of them.
 
 235
-00:15:38,000 --> 00:15:46,000
- I think there is a clear strategy for monetization for open source projects that is making your
+00:18:17,550 --> 00:18:22,460
+that I could just do it, so I pretty aligned with the Haas idea on it.
 
 236
-00:15:46,000 --> 00:15:49,000
- open source projects a full experience.
+00:18:22,710 --> 00:18:25,460
+Yeah, well, I think I agree as well.
 
 237
-00:15:49,000 --> 00:15:55,000
- But if it is actually in production, you need some productionized protections to make this
+00:18:25,390 --> 00:18:29,460
+The only exception is if what you're building has to do with compute,
 
 238
-00:15:55,000 --> 00:15:56,000
- product so good to use.
+00:18:29,330 --> 00:18:34,830
+it's probably not something that you want or that you have to open source, right?
 
 239
-00:15:56,000 --> 00:16:02,000
- For example, we have seen observabilities, replicas, availabilities, compliances.
+00:18:34,990 --> 00:18:37,810
+So like for us, anyone can go run CI.
 
 240
-00:16:02,000 --> 00:16:06,000
- Those are around to make this product so good to use.
+00:18:37,870 --> 00:18:39,460
+You can run it on your laptop, right?
 
 241
-00:16:06,000 --> 00:16:11,000
- And your self-hosted cost is actually higher than the managed cost.
+00:18:39,650 --> 00:18:42,460
+But what you really need is you need a lot of servers.
 
 242
-00:16:11,000 --> 00:16:13,000
- Why wouldn't I use you?
+00:18:42,110 --> 00:18:44,370
+You need a lot of vCPUs, right?
 
 243
-00:16:13,000 --> 00:16:18,000
- That's kind of the strategy we've, we've took, we've took so far.
+00:18:44,490 --> 00:18:49,160
+you know inherently you want it to be hosted but you can self-host right so
 
 244
-00:16:18,000 --> 00:16:19,000
- So, finish.
+00:18:49,270 --> 00:18:53,080
+yeah i think compute is still something that you want to pay for
 
 245
-00:16:19,000 --> 00:16:22,000
- Yeah, I mean, agreed.
-
-246
-00:16:22,000 --> 00:16:25,000
- One of our other customers is also open source, Mastra.
-
-247
-00:16:25,000 --> 00:16:27,000
- And it's the same thing, right?
-
-248
-00:16:27,000 --> 00:16:29,000
- You can use it, fork it.
-
-249
-00:16:29,000 --> 00:16:31,000
- You know, it's free.
-
-250
-00:16:31,000 --> 00:16:36,000
- But if you're an enterprise, you, you typically want some more features, right?
-
-251
-00:16:36,000 --> 00:16:39,000
- You have security requirements, availability requirements.
-
-252
-00:16:39,000 --> 00:16:41,000
- And so, it's a tried and true model.
-
-253
-00:16:41,000 --> 00:16:44,000
- And I think it still works today.
-
-254
-00:16:44,000 --> 00:16:49,000
- Because you'd rather spend your internal resources on other things, right?
-
-255
-00:16:49,000 --> 00:16:55,000
- So, to finish and to let people eat some pizzas, what's going to be like your hot takes
-
-256
-00:16:55,000 --> 00:17:00,000
- and like your advice for someone who wants to launch something on open source?
-
-257
-00:17:00,000 --> 00:17:03,000
- He needs, he needs to do it or not?
-
-258
-00:17:03,000 --> 00:17:04,000
- I can go first.
-
-259
-00:17:04,000 --> 00:17:06,000
- Because I do have one thing I want to share.
-
-260
-00:17:06,000 --> 00:17:11,000
- Is you guys probably using something, or something REA recently, right?
-
-261
-00:17:11,000 --> 00:17:12,000
- Reverse engineer.
-
-262
-00:17:12,000 --> 00:17:15,000
- So, it's already happening.
-
-263
-00:17:15,000 --> 00:17:18,000
- Even though if you're closed source or open source, it doesn't really matter.
-
-264
-00:17:18,000 --> 00:17:23,000
- Why don't you put your codes out there so people can just build some, you know, trust.
-
-265
-00:17:23,000 --> 00:17:27,000
- It gave you some initial traction so you can better find a market fit.
-
-266
-00:17:27,000 --> 00:17:31,000
- It's like, as a developer, if I see this product is open source, I will, okay.
-
-267
-00:17:31,000 --> 00:17:32,000
- I'll give it a try.
-
-268
-00:17:32,000 --> 00:17:33,000
- I'll self-host it.
-
-269
-00:17:33,000 --> 00:17:36,000
- And if it is good, and then I'm going to contribute to this product.
-
-270
-00:17:36,000 --> 00:17:38,000
- That's how you get your first few users.
-
-271
-00:17:38,000 --> 00:17:41,000
- So, it's much better than a cold source version.
-
-272
-00:17:41,000 --> 00:17:47,000
- That's just like, you know, the 100X, the number 100 or whatever, like the 200 companies
-
-273
-00:17:47,000 --> 00:17:49,000
- started doing this database thing.
-
-274
-00:17:49,000 --> 00:17:51,000
- I don't know what it is.
-
-275
-00:17:51,000 --> 00:17:52,000
- I don't even want to try it.
-
-276
-00:17:52,000 --> 00:17:56,000
- So, I would definitely vouch for open source.
-
-277
-00:17:56,000 --> 00:17:57,000
- Perfect.
-
-278
-00:17:57,000 --> 00:17:58,000
- Yeah.
-
-279
-00:17:58,000 --> 00:18:03,000
- Especially right now, because of the AI agents that got, even if you're not open source,
-
-280
-00:18:03,000 --> 00:18:06,000
- it's so easy to copy whatever you have.
-
-281
-00:18:06,000 --> 00:18:09,000
- So, if that's the case, you just do the right thing for a company.
-
-282
-00:18:09,000 --> 00:18:14,000
- If, like, closed source is the most useful way for you to find a PNF, then just go for it.
-
-283
-00:18:14,000 --> 00:18:17,000
- If you're not sure, you can just do both of them.
-
-284
-00:18:17,000 --> 00:18:18,000
- Like, just do it.
-
-285
-00:18:18,000 --> 00:18:22,000
- So, I'm pretty aligned with the Hans idea on it.
-
-286
-00:18:22,000 --> 00:18:23,000
- Yeah.
-
-287
-00:18:23,000 --> 00:18:25,000
- Well, I think I agree as well.
-
-288
-00:18:25,000 --> 00:18:30,000
- The only exception is if what you're building has to do with compute, it's probably not something
-
-289
-00:18:30,000 --> 00:18:35,000
- that you want or that you have to open source, right?
-
-290
-00:18:35,000 --> 00:18:37,000
- So, like, for us, anyone can go run CI.
-
-291
-00:18:37,000 --> 00:18:39,000
- You can run it on your laptop, right?
-
-292
-00:18:39,000 --> 00:18:42,000
- But what you really need is you need a lot of servers.
-
-293
-00:18:42,000 --> 00:18:43,000
- You need a lot of vCPUs, right?
-
-294
-00:18:43,000 --> 00:18:48,000
- So, you know, inherently you want it to be hosted, but you can self-host, right?
-
-295
-00:18:48,000 --> 00:18:54,000
- So, yeah, I think compute is still something that you want to pay for, generally, yeah.
-
-296
-00:18:54,000 --> 00:18:56,000
- Thank you, guys.
-
-297
-00:18:56,000 --> 00:19:00,000
- And have a nice night.
+00:18:53,330 --> 00:18:58,590
+generally yeah thank you guys and have a nice night
 

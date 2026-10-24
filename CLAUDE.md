@@ -75,6 +75,8 @@ its final version lives in Resolve.
 ## Transcript schema (`transcripts/<panel>.json`)
 `{panel, audio, words: [{w, start, end, p, speaker, silent?}], segments: [{start, end, text}]}`
 - Times are panel time. Word starts come from whisper's DTW timing, shifted 0.15s earlier.
+  Whisper runs on ≤28 s chunks cut at pauses; `refill: true` marks words a second pass
+  found in a gap the first pass skipped.
 - `silent: true` with `speaker: null` means no mic had energy: whisper hallucinated it.
   `cut.py` leaves those out of captions and camera choices.
 
@@ -82,7 +84,8 @@ its final version lives in Resolve.
 Mic labels (`align.py label`) identify the mic, not the person. Panels pass mics around,
 so who said what is assigned from the transcript with `speakers.py` and stored in
 `transcripts/<panel>.speakers.json` (time ranges, applied after the mic labels on every
-relabel). Speaker names must match `people` in event.yaml and the keys of `speakers`
+relabel; later ranges win, and an uncovered word joins an adjacent assigned word when there's
+no pause between them). Speaker names must match `people` in event.yaml and the keys of `speakers`
 (camera + crop). Words with a `note` were fixed by hand (e.g. a speaker label whisper
 inserted) and are left alone by relabelling.
 

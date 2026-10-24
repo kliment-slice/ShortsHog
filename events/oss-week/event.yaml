@@ -90,6 +90,7 @@ panels:
   title: "Open Source as a GTM Strategy"
   granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
   people:
+  - Kliment Minchev (emcee, PostHog; introduces the panel)
   - "Will Wang (host; creator & founder, Clova)"
   - "Tim Glaser (co-founder and CEO, PostHog)"
   - "John Simone (VP Engineering, Cline)"
@@ -118,6 +119,7 @@ panels:
   title: "Finding PMF through Open Source"
   granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
   people:
+  - Kliment Minchev (emcee, PostHog; introduces the panel)
   - "Konstantine Gugunava (host, KokaBuildSF)"
   - "Yonas Beshawred (co-founder and CEO, StarSling)"
   - "Hang Huang (co-founder and CEO, InsForge)"
