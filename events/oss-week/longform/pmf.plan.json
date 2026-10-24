@@ -4,27 +4,6 @@
   "cam": "cam1",
   "person": "Kliment Minchev",
   "t0": 0.0,
-  "t1": 59.86
- },
- {
-  "kind": "close",
-  "cam": "cam2",
-  "person": "Konstantine Gugunava",
-  "t0": 59.86,
-  "t1": 84.14
- },
- {
-  "kind": "wide",
-  "cam": "cam1",
-  "person": "Konstantine Gugunava",
-  "t0": 84.14,
-  "t1": 87.52000000000001
- },
- {
-  "kind": "close",
-  "cam": "cam2",
-  "person": "Konstantine Gugunava",
-  "t0": 87.52000000000001,
   "t1": 102.1
  },
  {
@@ -32,20 +11,20 @@
   "cam": "cam2",
   "person": "Yonas Beshawred",
   "t0": 102.1,
-  "t1": 122.88
+  "t1": 117.1
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Yonas Beshawred",
-  "t0": 122.88,
-  "t1": 126.66499999999999
+  "t0": 117.1,
+  "t1": 122.88
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 126.66499999999999,
+  "t0": 122.88,
   "t1": 133.38
  },
  {
@@ -53,20 +32,20 @@
   "cam": "cam2",
   "person": "Hang Huang",
   "t0": 133.38,
-  "t1": 155.38
+  "t1": 148.38
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Hang Huang",
-  "t0": 155.38,
-  "t1": 160.38
+  "t0": 148.38,
+  "t1": 152.38
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 160.38,
+  "t0": 152.38,
   "t1": 170.42
  },
  {
@@ -74,20 +53,20 @@
   "cam": "cam2",
   "person": "Shengkun Ye",
   "t0": 170.42,
-  "t1": 192.6
+  "t1": 185.42
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Shengkun Ye",
-  "t0": 192.6,
-  "t1": 197.6
+  "t0": 185.42,
+  "t1": 190.275
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 197.6,
+  "t0": 190.275,
   "t1": 203.76
  },
  {
@@ -102,6 +81,20 @@
   "cam": "cam2",
   "person": "Konstantine Gugunava",
   "t0": 221.22,
+  "t1": 238.86
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Konstantine Gugunava",
+  "t0": 238.86,
+  "t1": 243.57
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Konstantine Gugunava",
+  "t0": 243.57,
   "t1": 247.07999999999998
  },
  {
@@ -109,34 +102,48 @@
   "cam": "cam2",
   "person": "Shengkun Ye",
   "t0": 247.07999999999998,
-  "t1": 269.08
+  "t1": 262.08
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Shengkun Ye",
-  "t0": 269.08,
-  "t1": 274.08
+  "t0": 262.08,
+  "t1": 266.08
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 274.08,
-  "t1": 296.08
+  "t0": 266.08,
+  "t1": 281.08
  },
  {
   "kind": "group",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 296.08,
-  "t1": 301.08
+  "t0": 281.08,
+  "t1": 285.08
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 301.08,
+  "t0": 285.08,
+  "t1": 300.08
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Shengkun Ye",
+  "t0": 300.08,
+  "t1": 304.08
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Shengkun Ye",
+  "t0": 304.08,
   "t1": 314.12
  },
  {
@@ -144,20 +151,34 @@
   "cam": "cam2",
   "person": "Hang Huang",
   "t0": 314.12,
-  "t1": 333.475
+  "t1": 328.895
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Hang Huang",
-  "t0": 333.475,
-  "t1": 338.475
+  "t0": 328.895,
+  "t1": 333.475
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 338.475,
+  "t0": 333.475,
+  "t1": 347.61
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Hang Huang",
+  "t0": 347.61,
+  "t1": 351.61
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Hang Huang",
+  "t0": 351.61,
   "t1": 358.36
  },
  {
@@ -165,34 +186,34 @@
   "cam": "cam2",
   "person": "Yonas Beshawred",
   "t0": 358.36,
-  "t1": 381.11
+  "t1": 373.36
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Yonas Beshawred",
-  "t0": 381.11,
-  "t1": 384.88
+  "t0": 373.36,
+  "t1": 377.36
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 384.88,
-  "t1": 406.88
+  "t0": 377.36,
+  "t1": 392.36
  },
  {
   "kind": "group",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 406.88,
-  "t1": 411.88
+  "t0": 392.36,
+  "t1": 396.36
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 411.88,
+  "t0": 396.36,
   "t1": 414.84000000000003
  },
  {
@@ -200,20 +221,20 @@
   "cam": "cam2",
   "person": "Konstantine Gugunava",
   "t0": 414.84000000000003,
-  "t1": 437.29999999999995
+  "t1": 428.95500000000004
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Konstantine Gugunava",
-  "t0": 437.29999999999995,
-  "t1": 440.82
+  "t0": 428.95500000000004,
+  "t1": 432.95500000000004
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Konstantine Gugunava",
-  "t0": 440.82,
+  "t0": 432.95500000000004,
   "t1": 450.96000000000004
  },
  {
@@ -221,34 +242,48 @@
   "cam": "cam2",
   "person": "Hang Huang",
   "t0": 450.96000000000004,
-  "t1": 472.135
+  "t1": 465.96000000000004
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Hang Huang",
-  "t0": 472.135,
-  "t1": 477.135
+  "t0": 465.96000000000004,
+  "t1": 469.055
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 477.135,
-  "t1": 499.135
+  "t0": 469.055,
+  "t1": 484.055
  },
  {
   "kind": "group",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 499.135,
-  "t1": 504.135
+  "t0": 484.055,
+  "t1": 488.015
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 504.135,
+  "t0": 488.015,
+  "t1": 503.015
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Hang Huang",
+  "t0": 503.015,
+  "t1": 507.015
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Hang Huang",
+  "t0": 507.015,
   "t1": 521.98
  },
  {
@@ -256,34 +291,48 @@
   "cam": "cam2",
   "person": "Yonas Beshawred",
   "t0": 521.98,
-  "t1": 543.98
+  "t1": 539.01
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Yonas Beshawred",
-  "t0": 543.98,
-  "t1": 548.98
+  "t0": 539.01,
+  "t1": 543.01
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 548.98,
-  "t1": 570.98
+  "t0": 543.01,
+  "t1": 558.01
  },
  {
   "kind": "group",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 570.98,
-  "t1": 576.83
+  "t0": 558.01,
+  "t1": 562.01
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
+  "t0": 562.01,
+  "t1": 576.83
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Yonas Beshawred",
   "t0": 576.83,
+  "t1": 580.83
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Yonas Beshawred",
+  "t0": 580.83,
   "t1": 586.22
  },
  {
@@ -291,20 +340,20 @@
   "cam": "cam2",
   "person": "Shengkun Ye",
   "t0": 586.22,
-  "t1": 607.375
+  "t1": 598.825
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Shengkun Ye",
-  "t0": 607.375,
-  "t1": 612.375
+  "t0": 598.825,
+  "t1": 604.825
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 612.375,
+  "t0": 604.825,
   "t1": 620.28
  },
  {
@@ -326,34 +375,48 @@
   "cam": "cam2",
   "person": "Yonas Beshawred",
   "t0": 660.7,
-  "t1": 680.735
+  "t1": 675.7
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Yonas Beshawred",
-  "t0": 680.735,
-  "t1": 687.395
+  "t0": 675.7,
+  "t1": 680.735
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 687.395,
-  "t1": 709.395
+  "t0": 680.735,
+  "t1": 695.735
  },
  {
   "kind": "group",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 709.395,
-  "t1": 716.1700000000001
+  "t0": 695.735,
+  "t1": 699.735
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
+  "t0": 699.735,
+  "t1": 716.1700000000001
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Yonas Beshawred",
   "t0": 716.1700000000001,
+  "t1": 720.1700000000001
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Yonas Beshawred",
+  "t0": 720.1700000000001,
   "t1": 724.84
  },
  {
@@ -361,27 +424,41 @@
   "cam": "cam2",
   "person": "Hang Huang",
   "t0": 724.84,
-  "t1": 746.84
+  "t1": 737.215
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Hang Huang",
-  "t0": 746.84,
-  "t1": 751.84
+  "t0": 737.215,
+  "t1": 741.215
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 751.84,
-  "t1": 773.84
+  "t0": 741.215,
+  "t1": 756.215
  },
  {
   "kind": "group",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 773.84,
+  "t0": 756.215,
+  "t1": 759.615
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Hang Huang",
+  "t0": 759.615,
+  "t1": 774.615
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Hang Huang",
+  "t0": 774.615,
   "t1": 780.9000000000001
  },
  {
@@ -396,34 +473,62 @@
   "cam": "cam2",
   "person": "Shengkun Ye",
   "t0": 785.5400000000001,
-  "t1": 805.48
+  "t1": 800.5400000000001
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Shengkun Ye",
-  "t0": 805.48,
-  "t1": 810.48
+  "t0": 800.5400000000001,
+  "t1": 805.48
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 810.48,
-  "t1": 832.48
+  "t0": 805.48,
+  "t1": 820.48
  },
  {
   "kind": "group",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 832.48,
-  "t1": 839.33
+  "t0": 820.48,
+  "t1": 824.48
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Shengkun Ye",
+  "t0": 824.48,
+  "t1": 839.33
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Shengkun Ye",
   "t0": 839.33,
+  "t1": 843.33
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Shengkun Ye",
+  "t0": 843.33,
+  "t1": 858.33
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Shengkun Ye",
+  "t0": 858.33,
+  "t1": 862.33
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Shengkun Ye",
+  "t0": 862.33,
   "t1": 865.0
  },
  {
@@ -438,20 +543,34 @@
   "cam": "cam2",
   "person": "Shengkun Ye",
   "t0": 883.16,
-  "t1": 906.825
+  "t1": 898.16
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Shengkun Ye",
-  "t0": 906.825,
-  "t1": 911.825
+  "t0": 898.16,
+  "t1": 902.95
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Shengkun Ye",
-  "t0": 911.825,
+  "t0": 902.95,
+  "t1": 918.67
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Shengkun Ye",
+  "t0": 918.67,
+  "t1": 922.67
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Shengkun Ye",
+  "t0": 922.67,
   "t1": 938.5400000000001
  },
  {
@@ -459,20 +578,20 @@
   "cam": "cam2",
   "person": "Hang Huang",
   "t0": 938.5400000000001,
-  "t1": 961.8
+  "t1": 953.81
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Hang Huang",
-  "t0": 961.8,
-  "t1": 967.785
+  "t0": 953.81,
+  "t1": 958.9300000000001
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 967.785,
+  "t0": 958.9300000000001,
   "t1": 979.02
  },
  {
@@ -480,20 +599,20 @@
   "cam": "cam2",
   "person": "Yonas Beshawred",
   "t0": 979.02,
-  "t1": 1001.02
+  "t1": 994.02
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Yonas Beshawred",
-  "t0": 1001.02,
-  "t1": 1006.02
+  "t0": 994.02,
+  "t1": 998.02
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 1006.02,
+  "t0": 998.02,
   "t1": 1009.52
  },
  {
@@ -508,20 +627,34 @@
   "cam": "cam2",
   "person": "Hang Huang",
   "t0": 1023.6,
-  "t1": 1045.6
+  "t1": 1038.6
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Hang Huang",
-  "t0": 1045.6,
-  "t1": 1050.6
+  "t0": 1038.6,
+  "t1": 1042.6
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Hang Huang",
-  "t0": 1050.6,
+  "t0": 1042.6,
+  "t1": 1057.71
+ },
+ {
+  "kind": "group",
+  "cam": "cam2",
+  "person": "Hang Huang",
+  "t0": 1057.71,
+  "t1": 1061.71
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Hang Huang",
+  "t0": 1061.71,
   "t1": 1078.3
  },
  {
@@ -529,6 +662,20 @@
   "cam": "cam2",
   "person": "Shengkun Ye",
   "t0": 1078.3,
+  "t1": 1094.875
+ },
+ {
+  "kind": "wide",
+  "cam": "cam1",
+  "person": "Shengkun Ye",
+  "t0": 1094.875,
+  "t1": 1098.875
+ },
+ {
+  "kind": "close",
+  "cam": "cam2",
+  "person": "Shengkun Ye",
+  "t0": 1098.875,
   "t1": 1102.56
  },
  {
@@ -536,20 +683,20 @@
   "cam": "cam2",
   "person": "Yonas Beshawred",
   "t0": 1102.56,
-  "t1": 1124.56
+  "t1": 1117.56
  },
  {
   "kind": "wide",
   "cam": "cam1",
   "person": "Yonas Beshawred",
-  "t0": 1124.56,
-  "t1": 1129.56
+  "t0": 1117.56,
+  "t1": 1121.56
  },
  {
   "kind": "close",
   "cam": "cam2",
   "person": "Yonas Beshawred",
-  "t0": 1129.56,
+  "t0": 1121.56,
   "t1": 1134.3999999999999
  },
  {

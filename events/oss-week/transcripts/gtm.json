@@ -31,11 +31,12 @@
    "speaker": "Kliment Minchev"
   },
   {
-   "w": "Unicraft.",
+   "w": "Unikraft.",
    "start": 4.41,
    "end": 5.41,
    "p": 0.41,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Unicraft."
   },
   {
    "w": "You",
@@ -780,11 +781,12 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "postdoc",
+   "w": "PostHog",
    "start": 44.01,
    "end": 44.74,
    "p": 0.254,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "postdoc"
   },
   {
    "w": "uh",
@@ -859,37 +861,34 @@
   {
    "w": "open",
    "start": 48.73,
-   "end": 49.07,
+   "end": 49.015,
    "p": 0.998,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "open source i have been"
   },
   {
-   "w": "source",
-   "start": 49.07,
-   "end": 49.33,
-   "p": 0.993,
-   "speaker": "Tim Glaser"
-  },
-  {
-   "w": "i",
-   "start": 49.33,
-   "end": 49.53,
-   "p": 0.69,
-   "speaker": "Tim Glaser"
+   "w": "source,",
+   "start": 49.015,
+   "end": 49.3,
+   "p": 0.998,
+   "speaker": "Tim Glaser",
+   "heard": "open source i have been"
   },
   {
    "w": "have",
-   "start": 49.53,
-   "end": 49.67,
-   "p": 0.994,
-   "speaker": "Tim Glaser"
+   "start": 49.3,
+   "end": 49.585,
+   "p": 0.998,
+   "speaker": "Tim Glaser",
+   "heard": "open source i have been"
   },
   {
    "w": "been",
-   "start": 49.67,
+   "start": 49.585,
    "end": 49.87,
-   "p": 1.0,
-   "speaker": "Tim Glaser"
+   "p": 0.998,
+   "speaker": "Tim Glaser",
+   "heard": "open source i have been"
   },
   {
    "w": "since",
@@ -1249,11 +1248,12 @@
    "speaker": "Alex Jung"
   },
   {
-   "w": "Unicraft.",
+   "w": "Unikraft.",
    "start": 76.71,
    "end": 77.4,
    "p": 0.576,
-   "speaker": "Alex Jung"
+   "speaker": "Alex Jung",
+   "heard": "Unicraft."
   },
   {
    "w": "We're",
@@ -1830,18 +1830,20 @@
    "speaker": "John Simone"
   },
   {
-   "w": "Kline.",
+   "w": "Cline.",
    "start": 117.25,
    "end": 117.74,
    "p": 0.318,
-   "speaker": "John Simone"
+   "speaker": "John Simone",
+   "heard": "Kline."
   },
   {
-   "w": "Kline's",
+   "w": "Cline's",
    "start": 118.35,
    "end": 118.69,
    "p": 0.838,
-   "speaker": "John Simone"
+   "speaker": "John Simone",
+   "heard": "Kline's"
   },
   {
    "w": "been",
@@ -2042,16 +2044,18 @@
   {
    "w": "a",
    "start": 130.71,
-   "end": 130.93,
+   "end": 131.01,
    "p": 0.997,
-   "speaker": "John Simone"
+   "speaker": "John Simone",
+   "heard": "a COI,"
   },
   {
-   "w": "COI,",
-   "start": 130.93,
+   "w": "CLI,",
+   "start": 131.01,
    "end": 131.31,
-   "p": 0.484,
-   "speaker": "John Simone"
+   "p": 0.997,
+   "speaker": "John Simone",
+   "heard": "a COI,"
   },
   {
    "w": "we",
@@ -3139,11 +3143,12 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "postdoc.",
+   "w": "PostHog.",
    "start": 176.75,
    "end": 177.75,
    "p": 0.443,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "postdoc."
   },
   {
    "w": "And",
@@ -5652,11 +5657,12 @@
    "speaker": "John Simone"
   },
   {
-   "w": "Klein",
+   "w": "Cline",
    "start": 298.05,
    "end": 299.05,
    "p": 0.696,
-   "speaker": "John Simone"
+   "speaker": "John Simone",
+   "heard": "Klein"
   },
   {
    "w": "started",
@@ -5708,11 +5714,12 @@
    "speaker": "John Simone"
   },
   {
-   "w": "Saud,",
+   "w": "Saoud,",
    "start": 302.27,
    "end": 302.81,
    "p": 0.767,
-   "speaker": "John Simone"
+   "speaker": "John Simone",
+   "heard": "Saud,"
   },
   {
    "w": "built",
@@ -5743,11 +5750,12 @@
    "speaker": "John Simone"
   },
   {
-   "w": "Klein",
+   "w": "Cline",
    "start": 305.09,
    "end": 305.39,
    "p": 0.55,
-   "speaker": "John Simone"
+   "speaker": "John Simone",
+   "heard": "Klein"
   },
   {
    "w": "had",
@@ -7000,70 +7008,90 @@
    "start": 367.17,
    "end": 367.35,
    "p": 0.205,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "We'd"
   },
   {
    "w": "have",
    "start": 367.35,
    "end": 367.47,
    "p": 0.98,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "have"
   },
   {
    "w": "to",
    "start": 367.47,
    "end": 367.57,
    "p": 0.973,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "to"
   },
   {
    "w": "do",
    "start": 367.57,
    "end": 367.83,
    "p": 0.971,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "do"
   },
   {
    "w": "linear.",
    "start": 367.83,
    "end": 368.83,
    "p": 0.157,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "linear."
   },
   {
    "w": "Sure.",
    "start": 369.25,
    "end": 370.25,
    "p": 0.55,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "Sure."
   },
   {
    "w": "So",
    "start": 370.43,
    "end": 371.43,
    "p": 0.963,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "So"
   },
   {
    "w": "let",
    "start": 371.61,
    "end": 371.71,
    "p": 0.59,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "let"
   },
   {
    "w": "me",
    "start": 371.71,
    "end": 371.93,
    "p": 0.999,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "me"
   },
   {
    "w": "think.",
    "start": 371.93,
    "end": 372.2,
    "p": 0.853,
-   "speaker": "Alex Jung"
+   "speaker": null,
+   "silent": true,
+   "heard": "think."
   },
   {
    "w": "We've",
@@ -9385,23 +9413,26 @@
   {
    "w": "using",
    "start": 478.91,
-   "end": 479.29,
+   "end": 479.33,
    "p": 0.943,
-   "speaker": "John Simone"
+   "speaker": "John Simone",
+   "heard": "using client internally"
   },
   {
-   "w": "client",
-   "start": 479.29,
-   "end": 479.87,
-   "p": 0.566,
-   "speaker": "John Simone"
+   "w": "Cline",
+   "start": 479.33,
+   "end": 479.75,
+   "p": 0.943,
+   "speaker": "John Simone",
+   "heard": "using client internally"
   },
   {
    "w": "internally",
-   "start": 479.87,
+   "start": 479.75,
    "end": 480.17,
-   "p": 0.81,
-   "speaker": "John Simone"
+   "p": 0.943,
+   "speaker": "John Simone",
+   "heard": "using client internally"
   },
   {
    "w": "and",
@@ -10218,16 +10249,26 @@
   {
    "w": "living",
    "start": 525.27,
-   "end": 525.51,
+   "end": 525.59,
    "p": 0.97,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "living NSF"
   },
   {
-   "w": "NSF",
-   "start": 525.51,
+   "w": "in",
+   "start": 525.59,
+   "end": 525.91,
+   "p": 0.97,
+   "speaker": "Tim Glaser",
+   "heard": "living NSF"
+  },
+  {
+   "w": "SF",
+   "start": 525.91,
    "end": 526.23,
-   "p": 0.991,
-   "speaker": "Tim Glaser"
+   "p": 0.97,
+   "speaker": "Tim Glaser",
+   "heard": "living NSF"
   },
   {
    "w": "at",
@@ -10867,123 +10908,92 @@
    "speaker": "Will Wang"
   },
   {
-   "w": "To",
+   "w": "Do",
    "start": 554.77,
-   "end": 554.89,
+   "end": 555.394,
    "p": 0.667,
-   "speaker": "Will Wang"
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "the",
-   "start": 554.89,
-   "end": 555.13,
-   "p": 0.978,
-   "speaker": "Will Wang"
-  },
-  {
-   "w": "bet.",
-   "start": 555.13,
-   "end": 556.09,
-   "p": 0.6,
-   "speaker": "Will Wang"
-  },
-  {
-   "w": "To",
-   "start": 556.09,
-   "end": 556.19,
-   "p": 0.737,
-   "speaker": "Will Wang"
-  },
-  {
-   "w": "the",
-   "start": 556.19,
-   "end": 556.41,
-   "p": 0.999,
-   "speaker": "Will Wang"
-  },
-  {
-   "w": "bet.",
-   "start": 556.41,
-   "end": 557.34,
-   "p": 0.946,
-   "speaker": "Will Wang"
-  },
-  {
-   "w": "To",
-   "start": 557.97,
-   "end": 558.07,
-   "p": 0.258,
-   "speaker": "Will Wang"
-  },
-  {
-   "w": "the",
-   "start": 558.07,
-   "end": 558.29,
-   "p": 0.983,
-   "speaker": "Will Wang"
+   "start": 555.394,
+   "end": 556.017,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "best",
-   "start": 558.29,
-   "end": 558.55,
-   "p": 0.869,
-   "speaker": "Will Wang"
+   "start": 556.017,
+   "end": 556.641,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
-   "w": "boss",
-   "start": 558.55,
-   "end": 558.87,
-   "p": 0.378,
-   "speaker": "Will Wang"
+   "w": "bus",
+   "start": 556.641,
+   "end": 557.265,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "ads",
-   "start": 558.87,
-   "end": 559.11,
-   "p": 0.767,
-   "speaker": "Will Wang"
+   "start": 557.265,
+   "end": 557.888,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "that",
-   "start": 559.11,
-   "end": 559.25,
-   "p": 0.979,
-   "speaker": "Will Wang"
+   "start": 557.888,
+   "end": 558.512,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "have",
-   "start": 559.25,
-   "end": 559.49,
-   "p": 0.967,
-   "speaker": "Will Wang"
+   "start": 558.512,
+   "end": 559.135,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "ever",
-   "start": 559.49,
-   "end": 559.97,
-   "p": 0.984,
-   "speaker": "Will Wang"
+   "start": 559.135,
+   "end": 559.759,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "existed",
-   "start": 559.97,
-   "end": 560.33,
-   "p": 0.98,
-   "speaker": "Will Wang"
+   "start": 559.759,
+   "end": 560.383,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "work",
-   "start": 560.33,
-   "end": 560.63,
-   "p": 0.787,
-   "speaker": "Will Wang"
+   "start": 560.383,
+   "end": 561.006,
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
-   "w": "well.",
-   "start": 560.63,
+   "w": "well?",
+   "start": 561.006,
    "end": 561.63,
-   "p": 0.845,
-   "speaker": "Will Wang"
+   "p": 0.667,
+   "speaker": "Will Wang",
+   "heard": "To the bet. To the bet. To the best bus ads that have ever existed work well."
   },
   {
    "w": "Yeah,",
@@ -12540,11 +12550,12 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "post-hoc,",
+   "w": "PostHog,",
    "start": 646.29,
    "end": 647.29,
    "p": 0.548,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "post-hoc,"
   },
   {
    "w": "people",
@@ -17373,11 +17384,12 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "postdoc",
+   "w": "PostHog",
    "start": 868.75,
    "end": 869.19,
    "p": 0.711,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "postdoc"
   },
   {
    "w": "works",
@@ -17800,11 +17812,12 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "BYAC",
+   "w": "BYOC",
    "start": 889.75,
    "end": 890.49,
    "p": 0.335,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "BYAC"
   },
   {
    "w": "where",
@@ -19776,16 +19789,18 @@
   {
    "w": "GTM",
    "start": 979.75,
-   "end": 980.27,
+   "end": 980.51,
    "p": 0.878,
-   "speaker": "Alex Jung"
+   "speaker": "Alex Jung",
+   "heard": "GTM engineered"
   },
   {
-   "w": "engineered",
-   "start": 980.27,
+   "w": "engineer",
+   "start": 980.51,
    "end": 981.27,
-   "p": 0.466,
-   "speaker": "Alex Jung"
+   "p": 0.878,
+   "speaker": "Alex Jung",
+   "heard": "GTM engineered"
   },
   {
    "w": "existed,",
@@ -23092,18 +23107,20 @@
    "speaker": "Will Wang"
   },
   {
-   "w": "poor",
+   "w": "pull",
    "start": 1141.05,
-   "end": 1141.53,
+   "end": 1141.47,
    "p": 0.082,
-   "speaker": "Will Wang"
+   "speaker": "Will Wang",
+   "heard": "poor requests"
   },
   {
    "w": "requests",
-   "start": 1141.53,
+   "start": 1141.47,
    "end": 1141.89,
-   "p": 0.961,
-   "speaker": "Will Wang"
+   "p": 0.082,
+   "speaker": "Will Wang",
+   "heard": "poor requests"
   },
   {
    "w": "anymore",
@@ -27658,30 +27675,34 @@
   {
    "w": "advice",
    "start": 1339.17,
-   "end": 1339.33,
+   "end": 1339.35,
    "p": 0.997,
-   "speaker": "Will Wang"
+   "speaker": "Will Wang",
+   "heard": "advice from the audience"
   },
   {
-   "w": "from",
-   "start": 1339.33,
-   "end": 1339.39,
-   "p": 0.556,
-   "speaker": "Will Wang"
+   "w": "for",
+   "start": 1339.35,
+   "end": 1339.53,
+   "p": 0.997,
+   "speaker": "Will Wang",
+   "heard": "advice from the audience"
   },
   {
    "w": "the",
-   "start": 1339.39,
-   "end": 1339.67,
-   "p": 0.73,
-   "speaker": "Will Wang"
+   "start": 1339.53,
+   "end": 1339.71,
+   "p": 0.997,
+   "speaker": "Will Wang",
+   "heard": "advice from the audience"
   },
   {
    "w": "audience",
-   "start": 1339.67,
+   "start": 1339.71,
    "end": 1339.89,
-   "p": 0.998,
-   "speaker": "Will Wang"
+   "p": 0.997,
+   "speaker": "Will Wang",
+   "heard": "advice from the audience"
   },
   {
    "w": "about",
@@ -30085,11 +30106,12 @@
    "speaker": "Will Wang"
   },
   {
-   "w": "post-op",
+   "w": "PostHog",
    "start": 1447.57,
    "end": 1448.09,
    "p": 0.462,
-   "speaker": "Will Wang"
+   "speaker": "Will Wang",
+   "heard": "post-op"
   },
   {
    "w": "buses.",
@@ -31128,11 +31150,12 @@
    "speaker": "Alex Jung"
   },
   {
-   "w": "ShipVox,",
+   "w": "Shipfox,",
    "start": 1500.21,
    "end": 1501.05,
    "p": 0.306,
-   "speaker": "Alex Jung"
+   "speaker": "Alex Jung",
+   "heard": "ShipVox,"
   },
   {
    "w": "who",
@@ -32626,17 +32649,17 @@
   {
    "start": 2.83,
    "end": 5.41,
-   "text": "And Alex, Co-Founder of Unicraft."
+   "text": "And Alex, Co-Founder of Unikraft."
   },
   {
    "start": 9.45,
    "end": 13.98,
-   "text": "You guys are some of my favorite people on this planet and founders that I look up to"
+   "text": "You guys are some of my favorite people on this planet and founders that I look up to and"
   },
   {
    "start": 13.95,
    "end": 15.9,
-   "text": "and I've already learned a lot from."
+   "text": "and I've already learned a lot from. So"
   },
   {
    "start": 15.81,
@@ -32651,12 +32674,12 @@
   {
    "start": 20.09,
    "end": 20.78,
-   "text": "Cool, cool."
+   "text": "Cool, cool. So"
   },
   {
    "start": 20.75,
    "end": 22.66,
-   "text": "So I'm going to be the moderator today."
+   "text": "So I'm going to be the moderator today. Great"
   },
   {
    "start": 22.49,
@@ -32681,12 +32704,12 @@
   {
    "start": 38.61,
    "end": 44.74,
-   "text": "is it working um i'm tim uh i'm one of the co-founders and ceo of postdoc"
+   "text": "is it working um i'm tim uh i'm one of the co-founders and ceo of PostHog"
   },
   {
    "start": 44.79,
    "end": 50.9,
-   "text": "uh we are a analytics uh platform uh we are open source i have been since the beginning"
+   "text": "uh we are a analytics uh platform uh we are open source, have been since the beginning"
   },
   {
    "start": 51.65,
@@ -32711,7 +32734,7 @@
   {
    "start": 71.79,
    "end": 72.6,
-   "text": "Testing one, two, three."
+   "text": "Testing one, two, three. All"
   },
   {
    "start": 72.55,
@@ -32721,7 +32744,7 @@
   {
    "start": 73.39,
    "end": 77.4,
-   "text": "I'm Alex. I'm co-founder and chief of product at Unicraft."
+   "text": "I'm Alex. I'm co-founder and chief of product at Unikraft."
   },
   {
    "start": 77.77,
@@ -32756,22 +32779,22 @@
   {
    "start": 111.95,
    "end": 117.74,
-   "text": "Check, check. There we go. Hey, I'm John Simone. I lead engineering at Kline."
+   "text": "Check, check. There we go. Hey, I'm John Simone. I lead engineering at Cline."
   },
   {
    "start": 118.35,
    "end": 123.92,
-   "text": "Kline's been around a little over two years. We've been open source from the"
+   "text": "Cline's been around a little over two years. We've been open source from the"
   },
   {
    "start": 124.11,
    "end": 130.66,
-   "text": "beginning. It's an open source coding agent. We work in VS Code, JetBrains, we"
+   "text": "beginning. It's an open source coding agent. We work in VS Code, JetBrains, we have"
   },
   {
    "start": 130.57,
    "end": 135.19,
-   "text": "have a COI, we have a desktop. Recently we have a cloud platform."
+   "text": "have a CLI, we have a desktop. Recently we have a cloud platform."
   },
   {
    "start": 136.81,
@@ -32791,7 +32814,7 @@
   {
    "start": 154.43,
    "end": 158.02,
-   "text": "And I know I talked to a couple of folks in the crowd, we have a lot of early stage founders."
+   "text": "And I know I talked to a couple of folks in the crowd, we have a lot of early stage founders. To"
   },
   {
    "start": 157.95,
@@ -32816,7 +32839,7 @@
   {
    "start": 171.33,
    "end": 177.75,
-   "text": "We actually did something kind of clever, which is, we were in YC, we just pivoted to just building postdoc."
+   "text": "We actually did something kind of clever, which is, we were in YC, we just pivoted to just building PostHog."
   },
   {
    "start": 178.35,
@@ -32861,27 +32884,27 @@
   {
    "start": 207.37,
    "end": 211.66,
-   "text": "So we started off as research."
+   "text": "So we started off as research. We"
   },
   {
    "start": 211.51,
    "end": 215.76,
-   "text": "We came out of academia, we were in universities and labs."
+   "text": "We came out of academia, we were in universities and labs. So"
   },
   {
    "start": 215.63,
    "end": 219.2,
-   "text": "So some of the first users were students, actually."
+   "text": "So some of the first users were students, actually. And"
   },
   {
    "start": 219.01,
    "end": 222.64,
-   "text": "And we started to grow a community fully distributed."
+   "text": "And we started to grow a community fully distributed. We"
   },
   {
    "start": 222.51,
    "end": 228.06,
-   "text": "We had a Discord server that started to get popular with academics, with students that"
+   "text": "We had a Discord server that started to get popular with academics, with students that were"
   },
   {
    "start": 227.99,
@@ -32926,7 +32949,7 @@
   {
    "start": 266.07,
    "end": 271.18,
-   "text": "typically four, six eyes looking at every single commit before it was being done."
+   "text": "typically four, six eyes looking at every single commit before it was being done. It"
   },
   {
    "start": 271.05,
@@ -32956,12 +32979,12 @@
   {
    "start": 297.53,
    "end": 303.86,
-   "text": "So, Klein started at a hackathon, actually. Our founder, Saud, built it there."
+   "text": "So, Cline started at a hackathon, actually. Our founder, Saoud, built it there."
   },
   {
    "start": 304.55,
    "end": 308.96,
-   "text": "And Klein had an interesting advantage that made things easier up front."
+   "text": "And Cline had an interesting advantage that made things easier up front."
   },
   {
    "start": 309.23,
@@ -32976,12 +32999,12 @@
   {
    "start": 324.47,
    "end": 329.22,
-   "text": "And in developer tools, if you have something unique, people are going to try it."
+   "text": "And in developer tools, if you have something unique, people are going to try it. You don't"
   },
   {
    "start": 329.09,
    "end": 332.0,
-   "text": "You don't really have to work for those first users."
+   "text": "You don't really have to work for those first users. It's"
   },
   {
    "start": 331.79,
@@ -32996,17 +33019,17 @@
   {
    "start": 337.93,
    "end": 338.4,
-   "text": "Cool."
+   "text": "Cool. Great."
   },
   {
    "start": 338.21,
    "end": 339.21,
-   "text": "Great."
+   "text": "Great. Some great answers."
   },
   {
    "start": 338.51,
    "end": 340.11,
-   "text": "Some great answers."
+   "text": "Some great answers. You notice that it's"
   },
   {
    "start": 339.27,
@@ -33016,7 +33039,7 @@
   {
    "start": 341.59,
    "end": 342.4,
-   "text": "You know?"
+   "text": "You know? It's just"
   },
   {
    "start": 342.13,
@@ -33034,44 +33057,29 @@
    "text": "And on the second part of the question, what was one where you were like, I thought that was going to work so well, but it just completely flopped?"
   },
   {
-   "start": 367.17,
-   "end": 368.83,
-   "text": "We'd have to do linear."
-  },
-  {
-   "start": 369.25,
-   "end": 370.25,
-   "text": "Sure."
-  },
-  {
-   "start": 370.43,
-   "end": 372.2,
-   "text": "So let me think."
-  },
-  {
    "start": 372.19,
    "end": 375.56,
-   "text": "We've had-- so we launch often, or at least at the beginning,"
+   "text": "We've had-- so we launch often, or at least at the beginning, we"
   },
   {
    "start": 375.49,
    "end": 376.7,
-   "text": "we were always launching."
+   "text": "we were always launching. I"
   },
   {
    "start": 376.65,
    "end": 378.95,
-   "text": "I mean, we had like launch weeks."
+   "text": "I mean, we had like launch weeks. We"
   },
   {
    "start": 378.93,
    "end": 381.1,
-   "text": "We would just say like, oh, new features?"
+   "text": "We would just say like, oh, new features? It's"
   },
   {
    "start": 381.09,
    "end": 381.78,
-   "text": "It's launch week."
+   "text": "It's launch week. We"
   },
   {
    "start": 381.69,
@@ -33096,47 +33104,47 @@
   {
    "start": 407.27,
    "end": 409.6,
-   "text": "launching often, I think, and having these campaigns,"
+   "text": "launching often, I think, and having these campaigns, they"
   },
   {
    "start": 409.53,
    "end": 411.48,
-   "text": "they work quite well in terms of bringing people in."
+   "text": "they work quite well in terms of bringing people in. I've"
   },
   {
    "start": 411.37,
    "end": 413.52,
-   "text": "I've noticed sending out,"
+   "text": "I've noticed sending out, oh,"
   },
   {
    "start": 413.45,
    "end": 415.85,
-   "text": "oh, this is a special one-time event,"
+   "text": "oh, this is a special one-time event, and"
   },
   {
    "start": 415.83,
    "end": 417.26,
-   "text": "and having people come along,"
+   "text": "and having people come along, maybe"
   },
   {
    "start": 417.23,
    "end": 419.68,
-   "text": "maybe this actual real physical event as well"
+   "text": "maybe this actual real physical event as well that"
   },
   {
    "start": 419.59,
    "end": 420.6,
-   "text": "that kind of complements it,"
+   "text": "that kind of complements it, in"
   },
   {
    "start": 420.49,
    "end": 423.02,
-   "text": "in terms of maybe you're doing something every week,"
+   "text": "in terms of maybe you're doing something every week, and"
   },
   {
    "start": 422.91,
    "end": 424.58,
-   "text": "and then the last Friday, for example,"
+   "text": "and then the last Friday, for example, you're"
   },
   {
    "start": 424.47,
@@ -33161,7 +33169,7 @@
   {
    "start": 434.85,
    "end": 437.96,
-   "text": "money on it but it's like I don't know just did not convert in the same way that"
+   "text": "money on it but it's like I don't know just did not convert in the same way that we"
   },
   {
    "start": 437.85,
@@ -33191,7 +33199,7 @@
   {
    "start": 474.67,
    "end": 498.28,
-   "text": "hearing from Fortune 500 companies that they had 10,000 people using client internally and we were like, wow, this is a lot of uptake here. But then I'd say the negative surprise was we started talking to those companies and said, okay, if we ship an enterprise feature as we have an enterprise offering here, this is a slam dunk. And it's a"
+   "text": "hearing from Fortune 500 companies that they had 10,000 people using Cline internally and we were like, wow, this is a lot of uptake here. But then I'd say the negative surprise was we started talking to those companies and said, okay, if we ship an enterprise feature as we have an enterprise offering here, this is a slam dunk. And it's a"
   },
   {
    "start": 498.45,
@@ -33221,7 +33229,7 @@
   {
    "start": 522.91,
    "end": 526.84,
-   "text": "We had another one just about living NSF at the time,"
+   "text": "We had another one just about living in SF at the time,"
   },
   {
    "start": 528.07,
@@ -33261,12 +33269,12 @@
   {
    "start": 554.77,
    "end": 557.34,
-   "text": "To the bet. To the bet."
+   "text": "Do the best bus ads"
   },
   {
    "start": 557.97,
    "end": 561.63,
-   "text": "To the best boss ads that have ever existed work well."
+   "text": "have ever existed work well?"
   },
   {
    "start": 562.69,
@@ -33286,7 +33294,7 @@
   {
    "start": 579.29,
    "end": 583.1,
-   "text": "is open source still worth it as a go-to-market strategy?"
+   "text": "is open source still worth it as a go-to-market strategy? Like"
   },
   {
    "start": 583.07,
@@ -33296,12 +33304,12 @@
   {
    "start": 585.93,
    "end": 589.3,
-   "text": "- Give it a second."
+   "text": "- Give it a second. - I"
   },
   {
    "start": 589.09,
    "end": 591.42,
-   "text": "- I think it's just the one, one long press,"
+   "text": "- I think it's just the one, one long press, and if it's"
   },
   {
    "start": 591.19,
@@ -33336,7 +33344,7 @@
   {
    "start": 613.45,
    "end": 617.26,
-   "text": "all gone away at this point because it doesn't matter, right?"
+   "text": "all gone away at this point because it doesn't matter, right? It's"
   },
   {
    "start": 617.05,
@@ -33366,7 +33374,7 @@
   {
    "start": 640.43,
    "end": 647.29,
-   "text": "Yeah, I think for us, it's a trust thing, right, I think very few people self-host post-hoc,"
+   "text": "Yeah, I think for us, it's a trust thing, right, I think very few people self-host PostHog,"
   },
   {
    "start": 648.51,
@@ -33416,7 +33424,7 @@
   {
    "start": 716.79,
    "end": 721.52,
-   "text": "that can use this, it can also use Linux, it can use Windows actually these days."
+   "text": "that can use this, it can also use Linux, it can use Windows actually these days. So"
   },
   {
    "start": 721.43,
@@ -33426,12 +33434,12 @@
   {
    "start": 727.23,
    "end": 728.2,
-   "text": "actually security."
+   "text": "actually security. It's a"
   },
   {
    "start": 727.85,
    "end": 730.82,
-   "text": "It's a guard, it's an API endpoint."
+   "text": "It's a guard, it's an API endpoint. And"
   },
   {
    "start": 730.69,
@@ -33451,7 +33459,7 @@
   {
    "start": 748.41,
    "end": 751.16,
-   "text": "and there's equal parts like all the fixes that are coming along, right?"
+   "text": "and there's equal parts like all the fixes that are coming along, right? It's"
   },
   {
    "start": 751.03,
@@ -33526,17 +33534,17 @@
   {
    "start": 821.05,
    "end": 824.72,
-   "text": "Actually, that might be true for some types of software."
+   "text": "Actually, that might be true for some types of software. We've"
   },
   {
    "start": 824.51,
    "end": 830.2,
-   "text": "We've never had really substantial contributions from the community, but for us, it's always"
+   "text": "We've never had really substantial contributions from the community, but for us, it's always been"
   },
   {
    "start": 830.17,
    "end": 831.36,
-   "text": "been more about feedback."
+   "text": "been more about feedback. We'd"
   },
   {
    "start": 831.21,
@@ -33551,7 +33559,7 @@
   {
    "start": 839.17,
    "end": 848.06,
-   "text": "In terms of go to market, it's actually interesting that you're open core, because we tried open"
+   "text": "In terms of go to market, Well, OK, it's so actually interesting that you're open core, because we tried open"
   },
   {
    "start": 848.11,
@@ -33571,7 +33579,7 @@
   {
    "start": 867.07,
    "end": 872.28,
-   "text": "to make sure that like you know postdoc works in every weird iteration of like"
+   "text": "to make sure that like you know PostHog works in every weird iteration of like"
   },
   {
    "start": 872.35,
@@ -33586,27 +33594,27 @@
   {
    "start": 881.21,
    "end": 887.3,
-   "text": "Because their policies were so strict that they weren't allowed to take screenshots."
+   "text": "Because their policies were so strict that they weren't allowed to take screenshots. So it was"
   },
   {
    "start": 887.15,
    "end": 888.3,
-   "text": "So it was really painful."
+   "text": "So it was really painful. And"
   },
   {
    "start": 888.15,
    "end": 892.96,
-   "text": "And I know now people do more like BYAC where they, I guess maybe that's what you do, but"
+   "text": "And I know now people do more like BYOC where they, I guess maybe that's what you do, but"
   },
   {
    "start": 893.17,
    "end": 898.18,
-   "text": "where you kind of bring in, you control it, but you're sort of in an account, so that"
+   "text": "where you kind of bring in, you control it, but you're sort of in an account, so that might"
   },
   {
    "start": 898.15,
    "end": 899.18,
-   "text": "might work better."
+   "text": "might work better. But"
   },
   {
    "start": 898.73,
@@ -33631,17 +33639,17 @@
   {
    "start": 915.31,
    "end": 919.56,
-   "text": "I think definitely the most valuable thing we can get from open source is issues more"
+   "text": "I think definitely the most valuable thing we can get from open source is issues more than"
   },
   {
    "start": 919.53,
    "end": 920.56,
-   "text": "than pull requests."
+   "text": "than pull requests. I think"
   },
   {
    "start": 920.35,
    "end": 922.68,
-   "text": "I think this has been true even before AI."
+   "text": "I think this has been true even before AI. There was"
   },
   {
    "start": 922.53,
@@ -33691,7 +33699,7 @@
   {
    "start": 964.63,
    "end": 966.24,
-   "text": "vibe coding a solution."
+   "text": "vibe coding a solution. It's"
   },
   {
    "start": 966.17,
@@ -33706,12 +33714,12 @@
   {
    "start": 972.23,
    "end": 976.88,
-   "text": "But then on the whole GTM front, I think, I mean, GTM engineering has blown up in terms"
+   "text": "But then on the whole GTM front, I think, I mean, GTM engineering has blown up in terms of"
   },
   {
    "start": 976.85,
    "end": 982.2,
-   "text": "of a whole new space, I don't think even the term GTM engineered existed, what, six months"
+   "text": "of a whole new space, I don't think even the term GTM engineer existed, what, six months"
   },
   {
    "start": 982.21,
@@ -33721,7 +33729,7 @@
   {
    "start": 983.43,
    "end": 988.78,
-   "text": "And now there's GTM engineer meetups and everyone's sharing techniques and I think that's because"
+   "text": "And now there's GTM engineer meetups and everyone's sharing techniques and I think that's because there's"
   },
   {
    "start": 988.75,
@@ -33796,12 +33804,12 @@
   {
    "start": 1088.35,
    "end": 1091.84,
-   "text": "And I mean, we we merge PRs that are internal all the time"
+   "text": "And I mean, we we merge PRs that are internal all the time that"
   },
   {
    "start": 1091.81,
    "end": 1095.04,
-   "text": "that there was a similar community PR that we find a week later."
+   "text": "that there was a similar community PR that we find a week later. And"
   },
   {
    "start": 1095.01,
@@ -33821,12 +33829,12 @@
   {
    "start": 1104.39,
    "end": 1107.94,
-   "text": "And, you know, like you said, it's we have our own software factory"
+   "text": "And, you know, like you said, it's we have our own software factory and"
   },
   {
    "start": 1107.89,
    "end": 1109.46,
-   "text": "and our own way to review this stuff."
+   "text": "and our own way to review this stuff. And"
   },
   {
    "start": 1109.41,
@@ -33836,7 +33844,7 @@
   {
    "start": 1113.07,
    "end": 1119.34,
-   "text": "And on the go-to-market part of the question, I don't know."
+   "text": "And on the go-to-market part of the question, I don't know. I"
   },
   {
    "start": 1119.25,
@@ -33846,7 +33854,7 @@
   {
    "start": 1123.61,
    "end": 1124.4,
-   "text": "Yeah."
+   "text": "Yeah. Kind"
   },
   {
    "start": 1124.31,
@@ -33856,7 +33864,7 @@
   {
    "start": 1127.53,
    "end": 1131.56,
-   "text": "because I can't imagine, it's such a, it's definitely a big issue, I can't imagine since"
+   "text": "because I can't imagine, it's such a, it's definitely a big issue, I can't imagine since you"
   },
   {
    "start": 1131.51,
@@ -33866,17 +33874,17 @@
   {
    "start": 1136.51,
    "end": 1139.74,
-   "text": "How do you guys kind of see the movement going with open source, right?"
+   "text": "How do you guys kind of see the movement going with open source, right? Do"
   },
   {
    "start": 1139.71,
    "end": 1145.48,
-   "text": "Do you think that there won't be poor requests anymore where it would actually just be like people submitting issues?"
+   "text": "Do you think that there won't be pull requests anymore where it would actually just be like people submitting issues?"
   },
   {
    "start": 1146.33,
    "end": 1152.24,
-   "text": "Or is there a middle ground there? Because I do think the recruiting part is very valuable, having people contribute, they kind of buy in on the project, right?"
+   "text": "Or is there a middle ground there? Because I do think the recruiting part is very valuable, having people contribute, they kind of buy in on the project, right? That's"
   },
   {
    "start": 1152.19,
@@ -33896,12 +33904,12 @@
   {
    "start": 1167.95,
    "end": 1172.08,
-   "text": "Both in terms of human hours to look at it previously and now with AI, it literally costs"
+   "text": "Both in terms of human hours to look at it previously and now with AI, it literally costs you"
   },
   {
    "start": 1172.03,
    "end": 1173.08,
-   "text": "you something."
+   "text": "you something. I think"
   },
   {
    "start": 1172.53,
@@ -33916,22 +33924,22 @@
   {
    "start": 1180.71,
    "end": 1182.0,
-   "text": "Who's going to maintain this, right?"
+   "text": "Who's going to maintain this, right? Because"
   },
   {
    "start": 1181.85,
    "end": 1186.16,
-   "text": "Because now there's two, and now, you know, oh, thank you, Theo, and, you know, and T3Chat"
+   "text": "Because now there's two, and now, you know, oh, thank you, Theo, and, you know, and T3Chat and"
   },
   {
    "start": 1186.05,
    "end": 1188.48,
-   "text": "and whatever, and that's all going to be, like, help with that."
+   "text": "and whatever, and that's all going to be, like, help with that. But"
   },
   {
    "start": 1188.35,
    "end": 1192.56,
-   "text": "But does that mean we're going to get to a point where we're actually having, like, converging"
+   "text": "But does that mean we're going to get to a point where we're actually having, like, converging software?"
   },
   {
    "start": 1192.43,
@@ -33941,7 +33949,7 @@
   {
    "start": 1193.51,
    "end": 1195.72,
-   "text": "Are we going to have, like, you know, this, like, staples?"
+   "text": "Are we going to have, like, you know, this, like, staples? We"
   },
   {
    "start": 1195.57,
@@ -33951,7 +33959,7 @@
   {
    "start": 1199.93,
    "end": 1202.3,
-   "text": "that and, like, people are going to trend towards certain ideas?"
+   "text": "that and, like, people are going to trend towards certain ideas? Is,"
   },
   {
    "start": 1202.23,
@@ -34066,12 +34074,12 @@
   {
    "start": 1318.13,
    "end": 1323.06,
-   "text": "So we talked about how did you guys all get started, right? But obviously times change."
+   "text": "So we talked about how did you guys all get started, right? But obviously times change. So"
   },
   {
    "start": 1322.95,
    "end": 1333.06,
-   "text": "So in this day and age, with this current age right now with everything going on, like if you were trying to get your first 100 users, what would you do?"
+   "text": "So in this day and age, with this current age right now with everything going on, like if you were trying to get your first 100 users, what would you do? Is there a"
   },
   {
    "start": 1332.77,
@@ -34081,7 +34089,7 @@
   {
    "start": 1338.65,
    "end": 1342.01,
-   "text": "One piece of advice from the audience about go-to-market with open source."
+   "text": "One piece of advice for the audience about go-to-market with open source."
   },
   {
    "start": 1344.19,
@@ -34116,7 +34124,7 @@
   {
    "start": 1367.83,
    "end": 1370.8,
-   "text": "for, like, good software or software"
+   "text": "for, like, good software or software that's"
   },
   {
    "start": 1370.73,
@@ -34206,7 +34214,7 @@
   {
    "start": 1445.63,
    "end": 1449.09,
-   "text": "Very interesting. I'm sure we all see the post-op buses."
+   "text": "Very interesting. I'm sure we all see the PostHog buses."
   },
   {
    "start": 1450.31,
@@ -34241,12 +34249,12 @@
   {
    "start": 1467.87,
    "end": 1468.94,
-   "text": "as AI gets better?"
+   "text": "as AI gets better? It's"
   },
   {
    "start": 1468.85,
    "end": 1470.48,
-   "text": "It's probably a good way to like look at"
+   "text": "It's probably a good way to like look at how"
   },
   {
    "start": 1470.43,
@@ -34256,7 +34264,7 @@
   {
    "start": 1471.49,
    "end": 1474.24,
-   "text": "because if they can get more value out of it over time,"
+   "text": "because if they can get more value out of it over time, they're"
   },
   {
    "start": 1474.13,
@@ -34271,17 +34279,17 @@
   {
    "start": 1499.53,
    "end": 1502.3,
-   "text": "Shout out to ShipVox, who gave me this."
+   "text": "Shout out to Shipfox, who gave me this."
   },
   {
    "start": 1503.27,
    "end": 1505.5,
-   "text": "And so definitely on this side,"
+   "text": "And so definitely on this side, I"
   },
   {
    "start": 1505.41,
    "end": 1508.38,
-   "text": "I think attention is very important."
+   "text": "I think attention is very important. I"
   },
   {
    "start": 1508.29,
@@ -34316,7 +34324,7 @@
   {
    "start": 1541.73,
    "end": 1546.24,
-   "text": "of value of, you know, people are going to use it for free and that's part of the point,"
+   "text": "of value of, you know, people are going to use it for free and that's part of the point, but"
   },
   {
    "start": 1546.09,
@@ -34326,12 +34334,12 @@
   {
    "start": 1551.93,
    "end": 1552.84,
-   "text": "for it?"
+   "text": "for it? So"
   },
   {
    "start": 1552.71,
    "end": 1556.3,
-   "text": "So I think you've both got great approaches with theirs."
+   "text": "So I think you've both got great approaches with theirs. It's"
   },
   {
    "start": 1556.09,
@@ -34341,12 +34349,12 @@
   {
    "start": 1560.19,
    "end": 1562.74,
-   "text": "and you really want to, you can run it yourself,"
+   "text": "and you really want to, you can run it yourself, do you"
   },
   {
    "start": 1562.65,
    "end": 1564.35,
-   "text": "do you really want to?"
+   "text": "do you really want to? That's"
   },
   {
    "start": 1564.31,
@@ -34356,12 +34364,12 @@
   {
    "start": 1565.41,
    "end": 1569.46,
-   "text": "So the hardest part is the thing that you're doing"
+   "text": "So the hardest part is the thing that you're doing and"
   },
   {
    "start": 1569.37,
    "end": 1570.68,
-   "text": "and that people are paying for."
+   "text": "and that people are paying for. And"
   },
   {
    "start": 1570.61,

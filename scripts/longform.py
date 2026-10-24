@@ -120,7 +120,10 @@ def plan(words: list, dur: float, tracks: Tracks, st: dict) -> list:
     gaps = pauses(words)
     shots = []
     for spk, a, b in turns(words, dur, st["min_shot"]):
-        close = spk is not None and tracks.has(spk) and tracks.seen_share(spk, a, b) >= 0.6
+        # a close-up needs the face really found, both over the turn and right where it opens
+        # (people walking in at the start can be tracked later in the same turn)
+        close = (spk is not None and tracks.has(spk) and tracks.seen_share(spk, a, b) >= 0.6
+                 and tracks.seen_share(spk, a, min(b, a + 15)) >= 0.75)
         if not close:
             shots.append({"kind": "wide", "cam": "cam1", "person": spk, "t0": a, "t1": b})
             continue

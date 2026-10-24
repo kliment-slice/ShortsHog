@@ -1,14 +1,14 @@
 1
 00:00:00,910 --> 00:00:07,890
-Fantastic. And now I would like to invite some of my other favorite people for
+And now I would like to invite some of my other favorite people for
 
 2
 00:00:08,650 --> 00:00:19,430
-open source and AI and cyber security discussion. Tom Picker, head of cyber security at Boswell.
+open source and AI and cyber security discussion. Tom Piccirello, head of cybersecurity at PostHog.
 
 3
 00:00:21,610 --> 00:00:33,170
-Justin DeSouza, co-founder of Asymptom, and Matt Levert, founder of Victron.
+Justin D'Souza, co-founder of Asymptote, and and Matt Lenhard, founder of Vectoral.
 
 4
 00:00:35,250 --> 00:00:42,360
@@ -16,15 +16,15 @@ I'd also like to invite Mark and myself who will join this discussion as it's of
 
 5
 00:00:43,230 --> 00:00:48,900
-for us and I think we can do a good job sharing the microphones just cuz we're
+for us and I think we can do a good job sharing the microphones cuz we're
 
 6
 00:00:49,610 --> 00:00:57,840
-short a little bit. All righty so it's been a packed couple of days of CDEs and
+short a little All righty so it's been a packed couple of days of CVEs and
 
 7
 00:00:58,470 --> 00:01:06,660
-news. The space is definitely undergoing what I consider a bit of a cultural shift.
+news. The space is definitely undergoing what I consider a bit of a cultural
 
 8
 00:01:07,630 --> 00:01:10,460
@@ -48,7 +48,7 @@ Trust is becoming a product but what does that look like
 
 13
 00:01:30,870 --> 00:01:33,580
-from an external collaborator perspective?
+from an external collaborator
 
 14
 00:01:34,510 --> 00:01:42,140
@@ -64,7 +64,7 @@ yeah it's scary times I think the attacks have really ratcheted up and something
 
 17
 00:01:55,390 --> 00:01:59,960
-would encourage people in this like room to do is like go go to get help and look
+would encourage people in this like room to do is like go go to GitHub and look
 
 18
 00:01:59,970 --> 00:02:01,200
@@ -76,7 +76,7 @@ AI tool, whether it's like a coding agent, an AI assistant, whatever.
 
 20
 00:02:05,310 --> 00:02:10,280
-There's probably like three repos set up right now for how to exploit them, how to manage
+There's probably like three repos set up right now for how to exploit them, how to manage an
 
 21
 00:02:10,230 --> 00:02:12,440
@@ -84,7 +84,7 @@ an account pool, how to rotate credentials.
 
 22
 00:02:12,830 --> 00:02:20,120
-Like, it's kind of like your own, I don't know, AI red team in a box for specific agents.
+Like, kind of like your own, I don't know, AI red team in a box for specific agents.
 
 23
 00:02:20,770 --> 00:02:21,700
@@ -116,7 +116,7 @@ And it's sad, but I think ultimately that's where we're headed.
 
 30
 00:03:05,630 --> 00:03:08,370
-Yeah, it's not working.
+Yeah, not working. There
 
 31
 00:03:08,270 --> 00:03:09,490
@@ -140,7 +140,7 @@ Yeah, it's an interesting problem because
 
 36
 00:03:20,230 --> 00:03:23,500
-There are more crap PRs from the public than ever, right?
+There are more crap PRs from the public than ever, right? There
 
 37
 00:03:23,470 --> 00:03:28,280
@@ -148,7 +148,7 @@ There was always crap, but the speed at which you can one-shot crap is incredibl
 
 38
 00:03:31,110 --> 00:03:33,380
-You know, I know there's some clever solutions to this.
+You know, I know there's some clever solutions to this. I
 
 39
 00:03:33,310 --> 00:03:38,160
@@ -160,7 +160,7 @@ to effectively only allow contributors who have a certain trust rating,
 
 41
 00:03:44,590 --> 00:03:46,660
-and I believe he was using that for Ghosty.
+and I believe he was using that for Ghostty.
 
 42
 00:03:47,990 --> 00:03:51,600
@@ -176,7 +176,7 @@ approach because really the problem is like it's easy to put up a PR but now
 
 45
 00:03:58,730 --> 00:04:02,440
-that you're putting work on the maintainers and they need to they need to
+that you're putting work on the maintainers and they need to they need to put
 
 46
 00:04:02,390 --> 00:04:05,360
@@ -184,7 +184,7 @@ put an actual work to to look at it so
 
 47
 00:04:05,490 --> 00:04:09,370
-Yeah, I don't really have an answer for you, but it's definitely a real problem.
+Yeah, I don't really have an answer for you, but it's definitely a real
 
 48
 00:04:11,890 --> 00:04:14,040
@@ -252,7 +252,7 @@ are meaningful issues or PRs. But we're still figuring it out.
 
 64
 00:05:26,650 --> 00:05:32,110
-I think we're pretty constrained with resources as well.
+I think we're pretty constrained with resources as
 
 65
 00:05:39,990 --> 00:05:46,510
@@ -260,11 +260,11 @@ I'll ask the next question here.
 
 66
 00:05:47,290 --> 00:05:51,570
-You know, things like railway get hacked.
+You know, things like Railway get hacked.
 
 67
 00:05:51,730 --> 00:05:55,900
-When you think about this from a small startup perspective or, you know, even post hoc size,
+When you think about this from a small startup perspective or, you know, even PostHog size,
 
 68
 00:05:56,170 --> 00:06:01,900
@@ -280,7 +280,7 @@ or is that a concern?
 
 71
 00:06:12,590 --> 00:06:18,660
-- So for us, when it was just me and my co-founder
+So for us, when it was just me and my co-founder and we
 
 72
 00:06:18,550 --> 00:06:21,520
@@ -292,7 +292,7 @@ a question we'd constantly get asked is like,
 
 74
 00:06:25,130 --> 00:06:26,240
-well, who are you guys?
+well, who are you guys? We've
 
 75
 00:06:26,170 --> 00:06:27,720
@@ -312,7 +312,7 @@ And that helped us build trust and get deployed at large enterprises when they w
 
 79
 00:06:43,730 --> 00:06:46,690
-had no other reason really to trust us.
+had no other reason really to trust us. And
 
 80
 00:06:46,610 --> 00:06:54,430
@@ -320,11 +320,11 @@ And so I think that's still an accruing reason for enterprises to trust small co
 
 81
 00:06:55,850 --> 00:07:02,620
-The attack vector today, though, is more prolific than ever of these supply chain attacks, and
+The attack vector today, though, is more prolific than ever of these supply chain attacks, and we
 
 82
 00:07:02,550 --> 00:07:06,560
-we saw that with LightLM today, which was pretty sophisticated.
+we saw that with LiteLLM today, which was pretty sophisticated. They
 
 83
 00:07:06,470 --> 00:07:15,400
@@ -340,11 +340,11 @@ and then even like hacking another user to approve the release um so i think tha
 
 86
 00:07:27,210 --> 00:07:32,240
-vectors are getting harder and harder to detect at machine speed um but i think from like a go-to
+vectors are getting harder and harder to detect at machine um but i think from like a go-to
 
 87
 00:07:32,390 --> 00:07:37,200
-market selling perspective it's still true that um you can build trust through building open source
+market selling perspective it's still true um you can build trust through building
 
 88
 00:07:40,090 --> 00:07:45,040
@@ -352,7 +352,7 @@ yeah i i appreciated the way you framed that because i think what you said was
 
 89
 00:07:46,470 --> 00:07:51,460
-when you're larger you seem more secure and I think that's right because you're
+when you're larger you seem more and I think that's right because you're
 
 90
 00:07:51,450 --> 00:07:58,840
@@ -372,7 +372,7 @@ dedicated security resources so they're they're able to focus on these problems
 
 94
 00:08:12,830 --> 00:08:16,790
-more um but i do like justin's point that if
+more um but i do like justin's point that if if
 
 95
 00:08:16,710 --> 00:08:20,900
@@ -496,7 +496,7 @@ I mean, continuing this conversation.
 
 125
 00:10:33,670 --> 00:10:36,620
-So what does the long run mean?
+So what does the long run
 
 126
 00:10:37,670 --> 00:10:43,280
@@ -508,11 +508,11 @@ Does, you know, is your first hire a security hire, what does that look like whe
 
 128
 00:10:50,710 --> 00:10:54,570
-growing a project with intent to grow a company around it?
+growing a project with intent to grow a company around
 
 129
 00:10:55,210 --> 00:10:59,020
-I think you can start to use security as like a differentiator, which I actually think is
+I think you can start to use security as like a differentiator, which I actually think is a
 
 130
 00:10:58,950 --> 00:11:00,450
@@ -520,19 +520,19 @@ a great thing.
 
 131
 00:11:02,490 --> 00:11:06,040
-starting to really take this more seriously and so it can almost be part of
+starting to really take this more seriously and so it can almost be part of your
 
 132
 00:11:05,970 --> 00:11:13,180
-your value prop something that can help you win deals so I think yes startups
+your value prop something that can help you win deals so I think yes startups are
 
 133
 00:11:13,110 --> 00:11:21,040
-are gonna take security more seriously but I think that's a good thing I okay
+are gonna take security more seriously but I think that's a good thing I okay so
 
 134
 00:11:20,990 --> 00:11:24,340
-so this is an area where I'm actually extremely optimistic which maybe is
+so this is an area where I'm actually extremely which maybe is
 
 135
 00:11:24,430 --> 00:11:26,410
@@ -608,11 +608,11 @@ So it's not really any more around detection.
 
 153
 00:12:44,050 --> 00:12:50,420
-It's cheaper than ever to have, like, Cloud Code as a security reviewer or to use, like, an open model as a security reviewer.
+It's cheaper than ever to have, like, Claude Code as a security reviewer or to use, like, an open model as a security reviewer.
 
 154
 00:12:51,350 --> 00:12:54,440
-But I think it's inevitable that there's always going to be vulnerabilities that, you know,
+But I think it's inevitable that there's always going to be vulnerabilities that,
 
 155
 00:12:54,670 --> 00:12:59,670
@@ -620,7 +620,7 @@ whether they're low severity or high severity, get merged in at some point and d
 
 156
 00:12:59,710 --> 00:13:04,370
-And so for every enterprise, I think it's a lot more about investing in infrastructure
+And so for every enterprise, I think it's a lot more about investing in infrastructure to
 
 157
 00:13:03,950 --> 00:13:06,850
@@ -640,11 +640,11 @@ tokens and dollars around building robust infrastructure and response protocols
 
 161
 00:13:23,550 --> 00:13:28,060
-so that when they do detect these these incidents at runtime they can respond a
+so that when they do detect these these incidents at runtime they can respond a lot
 
 162
 00:13:28,010 --> 00:13:32,980
-lot a lot faster I mean going to this point like how do you speed that process
+lot a lot mean going to this point like how do you speed that process
 
 163
 00:13:33,010 --> 00:13:35,920
@@ -652,7 +652,7 @@ up because we have a founder you know talking to a founder recently that had
 
 164
 00:13:35,930 --> 00:13:39,340
-some event happen and then 20 minutes later they had to go rectify they found
+some event happen and then 20 minutes later they had to go rectify they found out
 
 165
 00:13:39,310 --> 00:13:40,980
@@ -664,19 +664,19 @@ but that's a frightening world we live in
 
 167
 00:13:43,530 --> 00:13:45,080
-where you have 20 minutes to solve something
+where you have 20 minutes to solve something or
 
 168
 00:13:44,970 --> 00:13:46,040
-or even less time.
+or even less time. How
 
 169
 00:13:45,990 --> 00:13:48,480
-How do you improve your processes
+How do you improve your processes to
 
 170
 00:13:48,390 --> 00:13:50,100
-to actually catch those bugs faster?
+to actually catch those bugs faster? How
 
 171
 00:13:50,030 --> 00:13:51,680
@@ -684,11 +684,11 @@ How do you remediate them faster?
 
 172
 00:13:52,730 --> 00:13:54,460
-- Yeah, I mean, so for us,
+- Yeah, I mean, so for us, our
 
 173
 00:13:54,410 --> 00:13:56,780
-our focus is around agent security.
+our focus is around agent security. So
 
 174
 00:13:56,750 --> 00:13:59,120
@@ -720,7 +720,7 @@ you actually need to have have visibility like in real time
 
 181
 00:14:26,590 --> 00:14:31,040
-And there just isn't infrastructure out there in the world today to solve for this.
+And there just isn't infrastructure out there in the world today to solve for this. And so
 
 182
 00:14:30,870 --> 00:14:35,840
@@ -732,7 +732,7 @@ out.
 
 184
 00:14:37,170 --> 00:14:44,080
-And so we're at a point now where the way that we show value with our open source and
+And so we're at a point now where the way that we show value with our open source and then
 
 185
 00:14:43,970 --> 00:14:50,560
@@ -744,7 +744,7 @@ get all their agent telemetry streamed into one place.
 
 187
 00:14:53,750 --> 00:15:01,320
-like their sim or their data lake, and then all we're doing is turning on our engine to show them findings.
+like their SIEM or their data lake, and then all we're doing is turning on our engine to show them findings.
 
 188
 00:15:01,430 --> 00:15:05,880
@@ -772,11 +772,11 @@ But I think that's also like an iterative thing.
 
 194
 00:15:28,990 --> 00:15:31,660
-I think there's a couple avenues to speed it up.
+I think there's a couple avenues to speed it up. So
 
 195
 00:15:31,550 --> 00:15:34,000
-So there's the PR side of things, right?
+So there's the PR side of things, right? So you
 
 196
 00:15:33,870 --> 00:15:39,320
@@ -788,7 +788,7 @@ You know, your agent didn't do a good job to begin with, to my last point, like 
 
 198
 00:15:46,270 --> 00:15:48,920
-So you're catching these NPRs before they ship. That's the best time.
+So you're catching these in PRs before they ship. That's the best time.
 
 199
 00:15:50,230 --> 00:16:00,380
@@ -796,7 +796,7 @@ But then the other, the next piece of that, I think, is, you know, in the SRE wo
 
 200
 00:16:00,470 --> 00:16:02,660
-And I think the same is true of vulnerabilities.
+And I think the same is true of vulnerabilities. We
 
 201
 00:16:02,550 --> 00:16:05,920
@@ -804,7 +804,7 @@ We should identify the vulnerabilities before they're reported to us in a bug bo
 
 202
 00:16:06,370 --> 00:16:08,260
-vulnerability disclosure program.
+vulnerability disclosure program. And so
 
 203
 00:16:08,110 --> 00:16:13,500
@@ -816,7 +816,7 @@ test your source code and your network to find these things and combine those fi
 
 205
 00:16:19,250 --> 00:16:22,680
-with automatic remediation, automatic PRs.
+with automatic remediation, automatic PRs. You know,
 
 206
 00:16:22,570 --> 00:16:25,540
@@ -852,19 +852,19 @@ code security side of things pretty well.
 
 214
 00:16:50,890 --> 00:16:54,940
-I want to expand on your point because I saw something pretty interesting recently, kind
+I want to expand on your point because I saw something pretty interesting recently, kind of
 
 215
 00:16:54,850 --> 00:16:58,060
-of more from like the endpoint security angle.
+of more from like the endpoint security angle. So
 
 216
 00:16:57,910 --> 00:17:04,640
-So for context, we stop like inference of abuse and like token fraud.
+So for context, we stop like inference abuse and like token fraud. So
 
 217
 00:17:04,470 --> 00:17:12,560
-So everything from like CSAM, distillation, cyber attacks being proxied through AIM points.
+So everything from like CSAM, distillation, cyber attacks being proxied through AI endpoints.
 
 218
 00:17:13,830 --> 00:17:22,180
@@ -884,7 +884,7 @@ But it shows you...
 
 222
 00:17:39,730 --> 00:17:46,100
-I guess with the power of AI, what's possible where an attack can now be, if they just want
+I guess with the power of AI, what's possible where an attack can now be, if they just want a
 
 223
 00:17:46,050 --> 00:17:50,840
@@ -908,7 +908,7 @@ across a large number of accounts extremely fast.
 
 228
 00:18:11,130 --> 00:18:15,820
-It's a hard problem, like how do you roll up, if you've got 100,000 requests coming in,
+It's a hard problem, like how do you roll up, if you've got 100,000 requests coming in, how do
 
 229
 00:18:15,670 --> 00:18:21,150
@@ -916,15 +916,15 @@ how do you roll up what's normal for those accounts all at once in milliseconds?
 
 230
 00:18:23,510 --> 00:18:24,040
-Fantastic.
+Fantastic. I
 
 231
 00:18:23,990 --> 00:18:26,460
-I think we're out of time almost.
+I think we're out of time almost. If
 
 232
 00:18:26,350 --> 00:18:32,120
-If there's an opportunity for you guys to give out your hot takes, I'll follow Sue with
+If there's an opportunity for you guys to give out your hot takes, I'll follow suit with
 
 233
 00:18:32,930 --> 00:18:38,560
@@ -948,7 +948,7 @@ Because it's just so cheap now to run Strix, for example, out of the box on any 
 
 238
 00:19:00,370 --> 00:19:03,350
-model in Red Team, whatever you want to Red Team.
+model in Red Team, whatever you want to Red
 
 239
 00:19:06,750 --> 00:19:10,590
@@ -956,7 +956,7 @@ I don't know, a hot dog is a sandwich, that's my hot take.
 
 240
 00:19:14,010 --> 00:19:17,090
-I don't know if this is a odd take, but I think we're going to get to the point where
+I don't know if this is a hot take, but I think we're going to get to the point where
 
 241
 00:19:17,570 --> 00:19:22,070
@@ -976,7 +976,7 @@ And then they just become a vector.
 
 245
 00:19:33,950 --> 00:19:41,100
-So I think my hot take is that the open source contributions are coming to an end.
+So I think my hot take is that the open source contributions are coming to an end. And
 
 246
 00:19:41,070 --> 00:19:49,360
@@ -1012,7 +1012,7 @@ i don't know if that's a hot take maybe everyone believes that uh
 
 254
 00:20:25,730 --> 00:20:29,070
-but that's all i got for you but they're also going to get better at
+but that's all i got for but they're also going to get better at
 
 255
 00:20:29,230 --> 00:20:32,500
@@ -1020,7 +1020,7 @@ finding more vulnerabilities right i mean it's or is there a point where it
 
 256
 00:20:32,670 --> 00:20:35,620
-balances out yeah so like i think the challenge is
+balances out yeah so like i think the challenge is that
 
 257
 00:20:35,570 --> 00:20:38,580
@@ -1060,11 +1060,11 @@ so I mean that's a challenge I will say I think it like it gets worse before it
 
 266
 00:21:14,370 --> 00:21:19,020
-gets better it will get better things will get better but I think it maybe it
+gets better it will get better things will get better but I think it maybe it gets
 
 267
 00:21:18,990 --> 00:21:22,620
-gets a little worse before then and like this week is a great example of that and
+gets a little worse before then and like this week is a great example of that and a
 
 268
 00:21:22,530 --> 00:21:25,730

@@ -1,14 +1,14 @@
 1
 00:00:02,830 --> 00:00:05,410
-And Alex, Co-Founder of Unicraft.
+And Alex, Co-Founder of Unikraft.
 
 2
 00:00:09,450 --> 00:00:13,980
-You guys are some of my favorite people on this planet and founders that I look up to
+You guys are some of my favorite people on this planet and founders that I look up to and
 
 3
 00:00:13,950 --> 00:00:15,900
-and I've already learned a lot from.
+and I've already learned a lot from. So
 
 4
 00:00:15,810 --> 00:00:17,730
@@ -20,11 +20,11 @@ Thank you.
 
 6
 00:00:20,090 --> 00:00:20,780
-Cool, cool.
+Cool, cool. So
 
 7
 00:00:20,750 --> 00:00:22,660
-So I'm going to be the moderator today.
+So I'm going to be the moderator today. Great
 
 8
 00:00:22,490 --> 00:00:23,660
@@ -44,11 +44,11 @@ you know of of themselves and we can get started with the questions cool uh i'm 
 
 12
 00:00:38,610 --> 00:00:44,740
-is it working um i'm tim uh i'm one of the co-founders and ceo of postdoc
+is it working um i'm tim uh i'm one of the co-founders and ceo of PostHog
 
 13
 00:00:44,790 --> 00:00:50,900
-uh we are a analytics uh platform uh we are open source i have been since the beginning
+uh we are a analytics uh platform uh we are open source, have been since the beginning
 
 14
 00:00:51,650 --> 00:00:59,100
@@ -68,7 +68,7 @@ Sorry?
 
 18
 00:01:11,790 --> 00:01:12,600
-Testing one, two, three.
+Testing one, two, three. All
 
 19
 00:01:12,550 --> 00:01:13,200
@@ -76,7 +76,7 @@ All right, hi.
 
 20
 00:01:13,390 --> 00:01:17,400
-I'm Alex. I'm co-founder and chief of product at Unicraft.
+I'm Alex. I'm co-founder and chief of product at Unikraft.
 
 21
 00:01:17,770 --> 00:01:19,700
@@ -104,19 +104,19 @@ Test test. I'll hold it down. Check check.
 
 27
 00:01:51,950 --> 00:01:57,740
-Check, check. There we go. Hey, I'm John Simone. I lead engineering at Kline.
+Check, check. There we go. Hey, I'm John Simone. I lead engineering at Cline.
 
 28
 00:01:58,350 --> 00:02:03,920
-Kline's been around a little over two years. We've been open source from the
+Cline's been around a little over two years. We've been open source from the
 
 29
 00:02:04,110 --> 00:02:10,660
-beginning. It's an open source coding agent. We work in VS Code, JetBrains, we
+beginning. It's an open source coding agent. We work in VS Code, JetBrains, we have
 
 30
 00:02:10,570 --> 00:02:15,190
-have a COI, we have a desktop. Recently we have a cloud platform.
+have a CLI, we have a desktop. Recently we have a cloud platform.
 
 31
 00:02:16,810 --> 00:02:25,120
@@ -132,7 +132,7 @@ Cool, cool. I think we have a very strong lineup today, to say the least.
 
 34
 00:02:34,430 --> 00:02:38,020
-And I know I talked to a couple of folks in the crowd, we have a lot of early stage founders.
+And I know I talked to a couple of folks in the crowd, we have a lot of early stage founders. To
 
 35
 00:02:37,950 --> 00:02:40,120
@@ -152,7 +152,7 @@ Or was it like we had to go out and hunt them?
 
 39
 00:02:51,330 --> 00:02:57,750
-We actually did something kind of clever, which is, we were in YC, we just pivoted to just building postdoc.
+We actually did something kind of clever, which is, we were in YC, we just pivoted to just building PostHog.
 
 40
 00:02:58,350 --> 00:03:02,780
@@ -188,23 +188,23 @@ It's totally kind of net new.
 
 48
 00:03:27,370 --> 00:03:31,660
-So we started off as research.
+So we started off as research. We
 
 49
 00:03:31,510 --> 00:03:35,760
-We came out of academia, we were in universities and labs.
+We came out of academia, we were in universities and labs. So
 
 50
 00:03:35,630 --> 00:03:39,200
-So some of the first users were students, actually.
+So some of the first users were students, actually. And
 
 51
 00:03:39,010 --> 00:03:42,640
-And we started to grow a community fully distributed.
+And we started to grow a community fully distributed. We
 
 52
 00:03:42,510 --> 00:03:48,060
-We had a Discord server that started to get popular with academics, with students that
+We had a Discord server that started to get popular with academics, with students that were
 
 53
 00:03:47,990 --> 00:03:50,500
@@ -240,7 +240,7 @@ being very precise and Linux kernel-like, in the sense that lots of reviews, the
 
 61
 00:04:26,070 --> 00:04:31,180
-typically four, six eyes looking at every single commit before it was being done.
+typically four, six eyes looking at every single commit before it was being done. It
 
 62
 00:04:31,050 --> 00:04:35,760
@@ -264,11 +264,11 @@ Yeah, so...check? Alright.
 
 67
 00:04:57,530 --> 00:05:03,860
-So, Klein started at a hackathon, actually. Our founder, Saud, built it there.
+So, Cline started at a hackathon, actually. Our founder, Saoud, built it there.
 
 68
 00:05:04,550 --> 00:05:08,960
-And Klein had an interesting advantage that made things easier up front.
+And Cline had an interesting advantage that made things easier up front.
 
 69
 00:05:09,230 --> 00:05:18,560
@@ -280,11 +280,11 @@ Everything was basically auto-complete, tab auto-complete then, so it was unique
 
 71
 00:05:24,470 --> 00:05:29,220
-And in developer tools, if you have something unique, people are going to try it.
+And in developer tools, if you have something unique, people are going to try it. You don't
 
 72
 00:05:29,090 --> 00:05:32,000
-You don't really have to work for those first users.
+You don't really have to work for those first users. It's
 
 73
 00:05:31,790 --> 00:05:36,400
@@ -296,15 +296,15 @@ doing that.
 
 75
 00:05:37,930 --> 00:05:38,400
-Cool.
+Cool. Great.
 
 76
 00:05:38,210 --> 00:05:39,210
-Great.
+Great. Some great answers.
 
 77
 00:05:38,510 --> 00:05:40,110
-Some great answers.
+Some great answers. You notice that it's
 
 78
 00:05:39,270 --> 00:05:41,400
@@ -312,7 +312,7 @@ You notice that it's really not like one-size-fits-all.
 
 79
 00:05:41,590 --> 00:05:42,400
-You know?
+You know? It's just
 
 80
 00:05:42,130 --> 00:05:46,040
@@ -327,1074 +327,1062 @@ My second question would be, it's kind of like two sides, what was your biggest 
 And on the second part of the question, what was one where you were like, I thought that was going to work so well, but it just completely flopped?
 
 83
-00:06:07,170 --> 00:06:08,830
-We'd have to do linear.
+00:06:12,190 --> 00:06:15,560
+We've had-- so we launch often, or at least at the beginning, we
 
 84
-00:06:09,250 --> 00:06:10,250
-Sure.
+00:06:15,490 --> 00:06:16,700
+we were always launching. I
 
 85
-00:06:10,430 --> 00:06:12,200
-So let me think.
+00:06:16,650 --> 00:06:18,950
+I mean, we had like launch weeks. We
 
 86
-00:06:12,190 --> 00:06:15,560
-We've had-- so we launch often, or at least at the beginning,
+00:06:18,930 --> 00:06:21,100
+We would just say like, oh, new features? It's
 
 87
-00:06:15,490 --> 00:06:16,700
-we were always launching.
+00:06:21,090 --> 00:06:21,780
+It's launch week. We
 
 88
-00:06:16,650 --> 00:06:18,950
-I mean, we had like launch weeks.
-
-89
-00:06:18,930 --> 00:06:21,100
-We would just say like, oh, new features?
-
-90
-00:06:21,090 --> 00:06:21,780
-It's launch week.
-
-91
 00:06:21,690 --> 00:06:23,140
 We would just call it something like, oh,
 
-92
+89
 00:06:23,130 --> 00:06:24,380
 this is what we're doing now.
 
-93
+90
 00:06:24,450 --> 00:06:26,720
 Even though it was like three months had passed,
 
-94
+91
 00:06:26,890 --> 00:06:46,540
 people forget that, you know, you had previously, you don't have to launch once, you don't have to, and we raised multiple times, so every time we raised, we launched again, we had new features to come out, now we're a lot more stable in terms of the features, I mean, very early on, we were still just like, okay, now we landed this because we had the cycles, and whatever, a client comes along, maybe it shifts a little bit the roadmap, but,
 
-95
+92
 00:06:47,270 --> 00:06:49,600
-launching often, I think, and having these campaigns,
+launching often, I think, and having these campaigns, they
+
+93
+00:06:49,530 --> 00:06:51,480
+they work quite well in terms of bringing people in. I've
+
+94
+00:06:51,370 --> 00:06:53,520
+I've noticed sending out, oh,
+
+95
+00:06:53,450 --> 00:06:55,850
+oh, this is a special one-time event, and
 
 96
-00:06:49,530 --> 00:06:51,480
-they work quite well in terms of bringing people in.
+00:06:55,830 --> 00:06:57,260
+and having people come along, maybe
 
 97
-00:06:51,370 --> 00:06:53,520
-I've noticed sending out,
+00:06:57,230 --> 00:06:59,680
+maybe this actual real physical event as well that
 
 98
-00:06:53,450 --> 00:06:55,850
-oh, this is a special one-time event,
+00:06:59,590 --> 00:07:00,600
+that kind of complements it, in
 
 99
-00:06:55,830 --> 00:06:57,260
-and having people come along,
+00:07:00,490 --> 00:07:03,020
+in terms of maybe you're doing something every week, and
 
 100
-00:06:57,230 --> 00:06:59,680
-maybe this actual real physical event as well
+00:07:02,910 --> 00:07:04,580
+and then the last Friday, for example, you're
 
 101
-00:06:59,590 --> 00:07:00,600
-that kind of complements it,
-
-102
-00:07:00,490 --> 00:07:03,020
-in terms of maybe you're doing something every week,
-
-103
-00:07:02,910 --> 00:07:04,580
-and then the last Friday, for example,
-
-104
 00:07:04,470 --> 00:07:05,840
 you're actually hosting an event.
 
-105
+102
 00:07:05,830 --> 00:07:07,040
 That worked really well.
 
-106
+103
 00:07:08,330 --> 00:07:09,860
 Actually, Twitter ads didn't work for us,
 
-107
+104
 00:07:10,930 --> 00:07:14,860
 we maybe just configured it incorrectly I don't know we spent a fair amount of
 
-108
+105
 00:07:14,850 --> 00:07:17,960
-money on it but it's like I don't know just did not convert in the same way that
+money on it but it's like I don't know just did not convert in the same way that we
 
-109
+106
 00:07:17,850 --> 00:07:29,590
 we were hoping no early early on for us blog content got us a lot of traction
 
-110
+107
 00:07:29,810 --> 00:07:36,240
 and that that was a somewhat surprising thing and again it was early days of AI coding
 
-111
+108
 00:07:36,610 --> 00:07:43,210
 and just content about how to use AI coding, what works, what doesn't.
 
-112
+109
 00:07:43,210 --> 00:07:47,170
 We had a whole series called AI University,
 
-113
+110
 00:07:47,230 --> 00:07:54,010
 and those got a lot of uptake, and that turned into getting inbound
 
-114
+111
 00:07:54,670 --> 00:08:18,280
-hearing from Fortune 500 companies that they had 10,000 people using client internally and we were like, wow, this is a lot of uptake here. But then I'd say the negative surprise was we started talking to those companies and said, okay, if we ship an enterprise feature as we have an enterprise offering here, this is a slam dunk. And it's a
+hearing from Fortune 500 companies that they had 10,000 people using Cline internally and we were like, wow, this is a lot of uptake here. But then I'd say the negative surprise was we started talking to those companies and said, okay, if we ship an enterprise feature as we have an enterprise offering here, this is a slam dunk. And it's a
 
-115
+112
 00:08:18,450 --> 00:08:24,470
 Uphill battle selling into fortune 500 and trying to sell at that scale when you're a small company
 
-116
+113
 00:08:25,050 --> 00:08:28,860
 So that that ended up we saw a lot more friction there than we expected
 
-117
+114
 00:08:31,330 --> 00:08:34,540
 I think for us
 
-118
+115
 00:08:34,830 --> 00:08:38,980
 Actually plus one on blog stuff like we wrote a blog about
 
-119
+116
 00:08:39,190 --> 00:08:42,780
 Our experience doing YC, for example, and that went pretty viral.
 
-120
+117
 00:08:42,910 --> 00:08:46,840
-We had another one just about living NSF at the time,
+We had another one just about living in SF at the time,
 
-121
+118
 00:08:48,070 --> 00:08:49,540
 and that one did pretty well.
 
-122
+119
 00:08:49,770 --> 00:08:53,340
 But also, obviously, more technical content and stuff definitely worked well.
 
-123
+120
 00:08:53,790 --> 00:08:55,820
 The stuff that didn't work well, there was actually a previous pivot,
 
-124
+121
 00:08:56,170 --> 00:08:59,220
 but we were building another type of dev tool,
 
-125
+122
 00:08:59,890 --> 00:09:07,380
 And we literally were trying to give away like Nintendo 64s as like a weird kind of marketing gimmick and it literally did not work.
 
-126
+123
 00:09:07,570 --> 00:09:13,180
 So it turns out like you can't actually bribe your customers. You do actually have to like provide some value of some sort.
 
-127
+124
 00:09:13,930 --> 00:09:14,500
 Cool, cool.
 
-128
+125
 00:09:14,770 --> 00:09:17,340
-To the bet. To the bet.
+Do the best bus ads
 
-129
+126
 00:09:17,970 --> 00:09:21,630
-To the best boss ads that have ever existed work well.
+have ever existed work well?
 
-130
+127
 00:09:22,690 --> 00:09:24,630
 Yeah, they work pretty well.
 
-131
+128
 00:09:25,530 --> 00:09:33,620
 Sounds good. For the next question, I'm sure I know the answer already to this, but I'm curious about how you guys articulate the reasoning.
 
-132
+129
 00:09:33,690 --> 00:09:39,020
 So, I hear a lot, like, with AI making it easier than ever to build and replicate software right now, right?
 
-133
+130
 00:09:39,290 --> 00:09:43,100
-is open source still worth it as a go-to-market strategy?
+is open source still worth it as a go-to-market strategy? Like
 
-134
+131
 00:09:43,070 --> 00:09:44,780
 Like why, or why not?
 
-135
+132
 00:09:45,930 --> 00:09:49,300
-- Give it a second.
+- Give it a second. - I
 
-136
+133
 00:09:49,090 --> 00:09:51,420
-- I think it's just the one, one long press,
+- I think it's just the one, one long press, and if it's
 
-137
+134
 00:09:51,190 --> 00:09:52,760
 and if it's on, yeah.
 
-138
+135
 00:09:52,970 --> 00:09:55,960
 - Oh, okay, that's, should have read the manual.
 
-139
+136
 00:09:57,490 --> 00:09:59,180
 Yeah, I think it absolutely is.
 
-140
+137
 00:09:59,250 --> 00:10:02,000
 And I think, you know, there,
 
-141
+138
 00:10:02,530 --> 00:10:09,240
 There's trade-offs with open source, of course, and there's definitely, you know, the concerns
 
-142
+139
 00:10:09,230 --> 00:10:13,440
 about people forking the product and things like that, and if anything, I think those have
 
-143
+140
 00:10:13,450 --> 00:10:17,260
-all gone away at this point because it doesn't matter, right?
+all gone away at this point because it doesn't matter, right? It's
 
-144
+141
 00:10:17,050 --> 00:10:22,570
 It's like you can rebuild it, no one's forking it, no one's stealing your code, right?
 
-145
+142
 00:10:22,910 --> 00:10:26,380
 But on the flip side, you still have all those upsides of it.
 
-146
+143
 00:10:26,630 --> 00:10:31,060
 brings people in, people are more comfortable with it, there's advantages on the security
 
-147
+144
 00:10:31,590 --> 00:10:38,140
 side, advantages on the community side, so I think, yeah, absolutely, it's still very
 
-148
+145
 00:10:38,390 --> 00:10:39,140
 important.
 
-149
+146
 00:10:40,430 --> 00:10:47,290
-Yeah, I think for us, it's a trust thing, right, I think very few people self-host post-hoc,
+Yeah, I think for us, it's a trust thing, right, I think very few people self-host PostHog,
 
-150
+147
 00:10:48,510 --> 00:10:54,320
 people like the fact that they can and that actually increases the trust in our cloud product
 
-151
+148
 00:10:56,110 --> 00:10:59,420
 you know so that i think is really important it also just immediately signals that your
 
-152
+149
 00:10:59,970 --> 00:11:05,540
 product is meant for developers right it's meant for technical people um you know one of the things
 
-153
+150
 00:11:05,590 --> 00:11:10,220
 that our customers really appreciate is like when we do a fix we literally just like
 
-154
+151
 00:11:10,330 --> 00:11:16,920
 Give them a link to the pull request, showing the fix, you know, stuff like that that I think, again, makes a lot of sense if you're building an engineering tool.
 
-155
+152
 00:11:16,930 --> 00:11:23,020
 Now, I think, I often talk to founders who are not building engineering tools, I think the benefit is obviously much, much less.
 
-156
+153
 00:11:23,970 --> 00:11:29,480
 Yeah, exactly. I mean, it really depends on what is the goal of the company, what's the goal of open source for you.
 
-157
+154
 00:11:29,970 --> 00:11:51,100
 We're open core and what that means is like we have a kernel, first of all we started with the kernel, we built that first, it was a signal for people of like the technical prowess of us because you know we're systems researchers, you know it's a mix of C and assembly so it's you know much harder to do and so it was kind of for folks like okay this is a badge these guys know what they're talking about.
 
-158
+155
 00:11:51,670 --> 00:11:56,720
 That's still true, the kernel's there, we built now around it like a cloud platform
 
-159
+156
 00:11:56,790 --> 00:12:01,520
-that can use this, it can also use Linux, it can use Windows actually these days.
+that can use this, it can also use Linux, it can use Windows actually these days. So
 
-160
+157
 00:12:01,430 --> 00:12:07,200
 So you can use it as a traditional fast-performing cloud, but for us there's the question of
 
-161
+158
 00:12:07,230 --> 00:12:08,200
-actually security.
+actually security. It's a
 
-162
+159
 00:12:07,850 --> 00:12:10,820
-It's a guard, it's an API endpoint.
+It's a guard, it's an API endpoint. And
 
-163
+160
 00:12:10,690 --> 00:12:16,900
 And if everything else was open source, people could just dive in and potentially compromise
 
-164
+161
 00:12:17,430 --> 00:12:20,960
 our cloud platform or the cloud platform of our customers as well.
 
-165
+162
 00:12:21,790 --> 00:12:28,400
 So this is one aspect, but it's a balancing act there, because I think there's equal parts adversarial
 
-166
+163
 00:12:28,410 --> 00:12:31,160
-and there's equal parts like all the fixes that are coming along, right?
+and there's equal parts like all the fixes that are coming along, right? It's
 
-167
+164
 00:12:31,030 --> 00:12:36,360
 It's two sides of the game and every time there's something bad that comes in terms of like a CVE from Linux kernel or whatever,
 
-168
+165
 00:12:36,370 --> 00:12:41,200
 there's a fix that immediately comes afterwards. So we're in a steady state between the two.
 
-169
+166
 00:12:41,850 --> 00:12:47,920
 And so it really just depends, it's an operational thing at the end of the day, like what do you believe is best?
 
-170
+167
 00:12:48,050 --> 00:12:53,720
 Yeah, 100%. I think as a developer myself and all my startup friends, I think trust, you know, that's a big thing.
 
-171
+168
 00:12:53,750 --> 00:12:58,320
 When we see something that's open source, I think the community always really get behind it.
 
-172
+169
 00:12:58,350 --> 00:13:05,960
 And I think an interesting one I heard about recruiting too, you know, you get a lot of great talent because it's open source, people get involved and interested in that, right?
 
-173
+170
 00:13:06,010 --> 00:13:09,810
 so that was my spicier question but now i also want to turn it back to you guys
 
-174
+171
 00:13:09,890 --> 00:13:14,600
 get some hot takes so what is the most um what do you believe
 
-175
+172
 00:13:14,750 --> 00:13:17,160
 that the market what do you believe like the most
 
-176
+173
 00:13:17,550 --> 00:13:20,680
 conventional wisdom about open source and go to market
 
-177
+174
 00:13:20,810 --> 00:13:24,440
 that you actually disagree with that's like you hear all the time on twitter you
 
-178
+175
 00:13:24,550 --> 00:13:27,480
 see it and it's just you should strongly disagree with about
 
-179
+176
 00:13:27,630 --> 00:13:29,650
 open source and gtm
 
-180
+177
 00:13:34,730 --> 00:13:40,140
 One that I used to hear more is that the value of open source is getting contributions.
 
-181
+178
 00:13:41,050 --> 00:13:44,720
-Actually, that might be true for some types of software.
+Actually, that might be true for some types of software. We've
 
-182
+179
 00:13:44,510 --> 00:13:50,200
-We've never had really substantial contributions from the community, but for us, it's always
+We've never had really substantial contributions from the community, but for us, it's always been
 
-183
+180
 00:13:50,170 --> 00:13:51,360
-been more about feedback.
+been more about feedback. We'd
 
-184
+181
 00:13:51,210 --> 00:13:55,700
 We'd rather have the feedback and we implement it than other people can implement stuff in
 
-185
+182
 00:13:55,690 --> 00:13:57,010
 our software.
 
-186
+183
 00:13:59,170 --> 00:14:08,060
-In terms of go to market, it's actually interesting that you're open core, because we tried open
+In terms of go to market, Well, OK, it's so actually interesting that you're open core, because we tried open
 
-187
+184
 00:14:08,110 --> 00:14:15,500
 core and it really didn't work for us, and it didn't work because we would sell features
 
-188
+185
 00:14:15,510 --> 00:14:20,920
 in theory, like unlocking the stuff that isn't the open source bit.
 
-189
+186
 00:14:21,030 --> 00:14:27,000
 and then really what customers think they're buying is like 24/7 on-call SRE support
 
-190
+187
 00:14:27,070 --> 00:14:32,280
-to make sure that like you know postdoc works in every weird iteration of like
+to make sure that like you know PostHog works in every weird iteration of like
 
-191
+188
 00:14:32,350 --> 00:14:35,350
 you know infrastructure that people could come up with at one point we were
 
-192
+189
 00:14:35,490 --> 00:14:41,000
 literally debugging people's setups of like through like pictures taken of a screen
 
-193
+190
 00:14:41,210 --> 00:14:47,300
-Because their policies were so strict that they weren't allowed to take screenshots.
+Because their policies were so strict that they weren't allowed to take screenshots. So it was
+
+191
+00:14:47,150 --> 00:14:48,300
+So it was really painful. And
+
+192
+00:14:48,150 --> 00:14:52,960
+And I know now people do more like BYOC where they, I guess maybe that's what you do, but
+
+193
+00:14:53,170 --> 00:14:58,180
+where you kind of bring in, you control it, but you're sort of in an account, so that might
 
 194
-00:14:47,150 --> 00:14:48,300
-So it was really painful.
+00:14:58,150 --> 00:14:59,180
+might work better. But
 
 195
-00:14:48,150 --> 00:14:52,960
-And I know now people do more like BYAC where they, I guess maybe that's what you do, but
-
-196
-00:14:53,170 --> 00:14:58,180
-where you kind of bring in, you control it, but you're sort of in an account, so that
-
-197
-00:14:58,150 --> 00:14:59,180
-might work better.
-
-198
 00:14:58,730 --> 00:15:03,020
 But that, I think, was very hard for us to make work, and actually when we just pivoted
 
-199
+196
 00:15:03,070 --> 00:15:07,110
 to only focusing on cloud for monetization, that went way better.
 
-200
+197
 00:15:07,690 --> 00:15:14,060
 Gave away the open source for free, but that still generated word of mouth and usage for
 
-201
+198
 00:15:14,050 --> 00:15:15,060
 our cloud as well.
 
-202
+199
 00:15:15,310 --> 00:15:19,560
-I think definitely the most valuable thing we can get from open source is issues more
+I think definitely the most valuable thing we can get from open source is issues more than
 
-203
+200
 00:15:19,530 --> 00:15:20,560
-than pull requests.
+than pull requests. I think
 
-204
+201
 00:15:20,350 --> 00:15:22,680
-I think this has been true even before AI.
+I think this has been true even before AI. There was
 
-205
+202
 00:15:22,530 --> 00:15:27,200
 There was a book on building in the open, it's one of the Stripe Press books, and it
 
-206
+203
 00:15:27,290 --> 00:15:31,060
 shows a power curve in terms of contributors to any open source project.
 
-207
+204
 00:15:31,930 --> 00:15:40,060
 Even recently the creator of OpenClaw was telling me they don't actually accept pull requests anymore.
 
-208
+205
 00:15:40,470 --> 00:15:45,060
 They just accept issues because an issue is a prompt basically to fix something.
 
-209
+206
 00:15:45,330 --> 00:15:49,060
 And that's a user actually going through the effort of typing out what they run into.
 
-210
+207
 00:15:49,210 --> 00:15:52,130
 So this is very, I think, very continuing.
 
-211
+208
 00:15:53,350 --> 00:15:56,890
 If you think about where we're going, we're building software factories.
 
-212
+209
 00:15:57,650 --> 00:16:01,600
 We trust more the factory that we've built and all the rules that we've applied,
 
-213
+210
 00:16:01,730 --> 00:16:04,640
 rather than some random person that's coming along and just, I don't know,
 
-214
+211
 00:16:04,630 --> 00:16:06,240
-vibe coding a solution.
+vibe coding a solution. It's
 
-215
+212
 00:16:06,170 --> 00:16:08,560
 It's much harder to know whether that's correct,
 
-216
+213
 00:16:08,730 --> 00:16:11,350
 even if you might have substantial tests.
 
-217
+214
 00:16:12,230 --> 00:16:16,880
-But then on the whole GTM front, I think, I mean, GTM engineering has blown up in terms
+But then on the whole GTM front, I think, I mean, GTM engineering has blown up in terms of
 
-218
+215
 00:16:16,850 --> 00:16:22,200
-of a whole new space, I don't think even the term GTM engineered existed, what, six months
+of a whole new space, I don't think even the term GTM engineer existed, what, six months
 
-219
+216
 00:16:22,210 --> 00:16:23,200
 ago properly?
 
-220
+217
 00:16:23,430 --> 00:16:28,780
-And now there's GTM engineer meetups and everyone's sharing techniques and I think that's because
+And now there's GTM engineer meetups and everyone's sharing techniques and I think that's because there's
 
-221
+218
 00:16:28,750 --> 00:16:33,140
 there's a big power that people are getting in terms of changing roles and we're all architects
 
-222
+219
 00:16:33,150 --> 00:16:35,790
 and accessing more parts of the company, whatever.
 
-223
+220
 00:16:36,350 --> 00:16:45,180
 It's definitely an interesting space, obviously automation, but at the same time, I don't like getting AI slop in my inbox.
 
-224
+221
 00:16:45,290 --> 00:16:59,980
 I don't think anybody does. Even if you remove the EM dashes or whatever, we actually care more about having handwritten, personal, whatever, moments like this where I can talk with real people is so much more important.
 
-225
+222
 00:17:00,270 --> 00:17:05,180
 than getting whatever my inbox, and my inbox, I swear, since this morning, a thousand emails of, like, bullshit.
 
-226
+223
 00:17:05,970 --> 00:17:10,080
 And, like, yeah, that's not going to scale. It's going to continue to grow like that.
 
-227
+224
 00:17:10,110 --> 00:17:17,080
 So I think it's actually more important to have, like, physical, in-present events than actually all this outbound stuff.
 
-228
+225
 00:17:19,230 --> 00:17:25,310
 Yeah, I could not agree more about the unfortunate state of pull requests and contributions.
 
-229
+226
 00:17:25,790 --> 00:17:31,300
 i think they they were more valuable in the past that's where maybe my opinion differs a bit but uh
 
-230
+227
 00:17:31,450 --> 00:17:37,140
 but yeah that that value has unfortunately just tanked at this point it's all just ai and it just
 
-231
+228
 00:17:37,190 --> 00:17:43,140
 it's such a burden to deal with i i like the approach of you know issues are more important
 
-232
+229
 00:17:43,370 --> 00:17:47,650
 because yeah at the end of the day it's you know there's
 
-233
+230
 00:17:49,750 --> 00:18:05,960
 I'm of multiple minds about it because it's, I really like seeing the community PRs, we've hired great engineers that were contributors from the community. But then at the same time, it's like sometimes just the effort of even seeing if there's a PR there.
 
-234
+231
 00:18:06,210 --> 00:18:08,360
 is lower than just fixing it.
 
-235
+232
 00:18:08,350 --> 00:18:11,840
-And I mean, we we merge PRs that are internal all the time
+And I mean, we we merge PRs that are internal all the time that
 
-236
+233
 00:18:11,810 --> 00:18:15,040
-that there was a similar community PR that we find a week later.
+that there was a similar community PR that we find a week later. And
 
-237
+234
 00:18:15,010 --> 00:18:17,140
 And it's like, oh, man, that was there.
 
-238
+235
 00:18:17,190 --> 00:18:20,840
 So it's just so hard to deal with because it's there's such an influx.
 
-239
+236
 00:18:20,890 --> 00:18:24,340
 And so much of it is just one shot AI.
 
-240
+237
 00:18:24,390 --> 00:18:27,940
-And, you know, like you said, it's we have our own software factory
+And, you know, like you said, it's we have our own software factory and
 
-241
+238
 00:18:27,890 --> 00:18:29,460
-and our own way to review this stuff.
+and our own way to review this stuff. And
 
-242
+239
 00:18:29,410 --> 00:18:31,790
 And we really needed to go through that.
 
-243
+240
 00:18:33,070 --> 00:18:39,340
-And on the go-to-market part of the question, I don't know.
+And on the go-to-market part of the question, I don't know. I
 
-244
+241
 00:18:39,250 --> 00:18:43,400
 I don't know that I really have a take that I disagree with there.
 
-245
+242
 00:18:43,610 --> 00:18:44,400
-Yeah.
+Yeah. Kind
 
-246
+243
 00:18:44,310 --> 00:18:47,540
 Kind of following on the question, I'm very curious what's the whole pull request part
 
-247
+244
 00:18:47,530 --> 00:18:51,560
-because I can't imagine, it's such a, it's definitely a big issue, I can't imagine since
+because I can't imagine, it's such a, it's definitely a big issue, I can't imagine since you
 
-248
+245
 00:18:51,510 --> 00:18:54,990
 you know, with AI now, how many more pull requests you're getting.
 
-249
+246
 00:18:56,510 --> 00:18:59,740
-How do you guys kind of see the movement going with open source, right?
+How do you guys kind of see the movement going with open source, right? Do
 
-250
+247
 00:18:59,710 --> 00:19:05,480
-Do you think that there won't be poor requests anymore where it would actually just be like people submitting issues?
+Do you think that there won't be pull requests anymore where it would actually just be like people submitting issues?
 
-251
+248
 00:19:06,330 --> 00:19:12,240
-Or is there a middle ground there? Because I do think the recruiting part is very valuable, having people contribute, they kind of buy in on the project, right?
+Or is there a middle ground there? Because I do think the recruiting part is very valuable, having people contribute, they kind of buy in on the project, right? That's
 
-252
+249
 00:19:12,190 --> 00:19:19,340
 That's why a lot of folks really love open source. How do you guys kind of see open source as a movement, you know, going forward as well?
 
-253
+250
 00:19:20,790 --> 00:19:23,670
 I think there's a big question about maintainability.
 
-254
+251
 00:19:24,590 --> 00:19:27,730
 It's not free to maintain software.
 
-255
+252
 00:19:27,950 --> 00:19:32,080
-Both in terms of human hours to look at it previously and now with AI, it literally costs
+Both in terms of human hours to look at it previously and now with AI, it literally costs you
 
-256
+253
 00:19:32,030 --> 00:19:33,080
-you something.
+you something. I think
 
-257
+254
 00:19:32,530 --> 00:19:39,380
 I think even with the latest TypeScript Rust rewrite, that was a whole section in the Cloudflare
 
-258
+255
 00:19:39,430 --> 00:19:40,600
 blog post about
 
-259
+256
 00:19:40,710 --> 00:19:42,000
-Who's going to maintain this, right?
+Who's going to maintain this, right? Because
+
+257
+00:19:41,850 --> 00:19:46,160
+Because now there's two, and now, you know, oh, thank you, Theo, and, you know, and T3Chat and
+
+258
+00:19:46,050 --> 00:19:48,480
+and whatever, and that's all going to be, like, help with that. But
+
+259
+00:19:48,350 --> 00:19:52,560
+But does that mean we're going to get to a point where we're actually having, like, converging software?
 
 260
-00:19:41,850 --> 00:19:46,160
-Because now there's two, and now, you know, oh, thank you, Theo, and, you know, and T3Chat
-
-261
-00:19:46,050 --> 00:19:48,480
-and whatever, and that's all going to be, like, help with that.
-
-262
-00:19:48,350 --> 00:19:52,560
-But does that mean we're going to get to a point where we're actually having, like, converging
-
-263
 00:19:52,430 --> 00:19:53,430
 software?
 
-264
+261
 00:19:53,510 --> 00:19:55,720
-Are we going to have, like, you know, this, like, staples?
+Are we going to have, like, you know, this, like, staples? We
 
-265
+262
 00:19:55,570 --> 00:19:59,840
 We had, like, staples before, but does that mean we're going to have, continue to have
 
-266
+263
 00:19:59,930 --> 00:20:02,300
-that and, like, people are going to trend towards certain ideas?
+that and, like, people are going to trend towards certain ideas? Is,
 
-267
+264
 00:20:02,230 --> 00:20:05,120
 Is, for example, everything going to be rewritten in Rust?
 
-268
+265
 00:20:05,870 --> 00:20:15,740
 In the case of whatever tool that you're using, it falls into a specific category, and then it just becomes part of a foundation that generally starts to happen a lot.
 
-269
+266
 00:20:16,770 --> 00:20:25,220
 But at the same time, I think we're going to have way more personal software, people are just going to throw something out there and it's going to be for them and they don't care about maintenance.
 
-270
+267
 00:20:25,910 --> 00:20:28,140
 I have a bunch of tools that I use, I don't care about.
 
-271
+268
 00:20:28,330 --> 00:20:31,960
 having people come along and fix bugs if you fix a bug great I'm not going to
 
-272
+269
 00:20:32,110 --> 00:20:41,130
 accept it probably right just because it's my software yeah I think there's
 
-273
+270
 00:20:42,170 --> 00:20:48,320
 there's a lot I think it'll it'll converge on for certain things
 
-274
+271
 00:20:49,070 --> 00:20:55,220
 using similar libraries known battle-tested software is going to return
 
-275
+272
 00:20:55,250 --> 00:20:58,520
 to being more important and there are certain things that we're just going to
 
-276
+273
 00:20:58,530 --> 00:21:02,300
 figure out it's a bad idea for everyone to be rewriting the Linux kernel being
 
-277
+274
 00:21:02,350 --> 00:21:07,250
 one of them you'd just rather like all be kind of working in the same direction
 
-278
+275
 00:21:07,650 --> 00:21:11,500
 and on a stable base there you know there's there's different opinions on
 
-279
+276
 00:21:11,610 --> 00:21:13,880
 how it should work but
 
-280
+277
 00:21:14,230 --> 00:21:18,640
 But it's you know you you want to you want to know that you're building from a solid foundation there
 
-281
+278
 00:21:18,690 --> 00:21:22,110
 And then there's other things that will be more personal and and it will be
 
-282
+279
 00:21:22,650 --> 00:21:27,260
 Yeah, it's just as easy to rewrite it as it is to contribute to what's there and you know
 
-283
+280
 00:21:27,430 --> 00:21:34,060
 Libraries are going this way as well where it used to be you had to find the right library to bring in for a thing because you weren't going to
 
-284
+281
 00:21:34,830 --> 00:21:39,940
 create your own code diff visualizer but now it's like no maybe you should just
 
-285
+282
 00:21:40,050 --> 00:21:44,140
 build the code diff visualizer because it'll be what you want and you know
 
-286
+283
 00:21:44,790 --> 00:21:48,640
 pulling in libraries is not risk-free anymore we're all learning more and more
 
-287
+284
 00:21:48,690 --> 00:21:52,060
 every day so there's there's a balance there
 
-288
+285
 00:21:52,310 --> 00:21:58,060
 Cool, perfect. Yeah, we're nearly out of time. So I'll ask one more question about go-to-market regarding open source.
 
-289
+286
 00:21:58,130 --> 00:22:03,060
-So we talked about how did you guys all get started, right? But obviously times change.
+So we talked about how did you guys all get started, right? But obviously times change. So
 
-290
+287
 00:22:02,950 --> 00:22:13,060
-So in this day and age, with this current age right now with everything going on, like if you were trying to get your first 100 users, what would you do?
+So in this day and age, with this current age right now with everything going on, like if you were trying to get your first 100 users, what would you do? Is there a
 
-291
+288
 00:22:12,770 --> 00:22:18,300
 Is there a method, a channel you would go with or is there a philosophy you want to share? Let's say launch fast, launch over and over again.
 
-292
+289
 00:22:18,650 --> 00:22:22,010
-One piece of advice from the audience about go-to-market with open source.
+One piece of advice for the audience about go-to-market with open source.
 
-293
+290
 00:22:24,190 --> 00:22:30,800
 It's maybe not even like go-to-market, but I was giving a talk yesterday to a sort of
 
-294
+291
 00:22:30,870 --> 00:22:37,760
 full hacker house, and one of the things I said was,
 
-295
+292
 00:22:37,990 --> 00:22:41,300
 Look, if you can build something in a day with Claude,
 
-296
+293
 00:22:41,410 --> 00:22:43,520
 like, why would anyone else pay you for that, right?
 
-297
+294
 00:22:43,550 --> 00:22:45,760
 Like, they can do the same thing.
 
-298
+295
 00:22:45,750 --> 00:22:47,840
 The bar is, like, much, much higher now
 
-299
+296
 00:22:47,830 --> 00:22:50,800
-for, like, good software or software
+for, like, good software or software that's
 
-300
+297
 00:22:50,730 --> 00:22:52,820
 that's valuable enough for people to buy it from you
 
-301
+298
 00:22:52,870 --> 00:22:54,380
 instead of from other people.
 
-302
+299
 00:22:54,390 --> 00:22:57,800
 So, you know, I do think, like, you know,
 
-303
+300
 00:22:57,850 --> 00:22:59,700
 a modicum of sort of effort or, like,
 
-304
+301
 00:23:00,030 --> 00:23:05,480
 how defensible is this thing, I think has raised the bar for what kind of software actually
 
-305
+302
 00:23:05,530 --> 00:23:09,590
 makes sense to build anymore, and what software makes sense to kind of try to sell.
 
-306
+303
 00:23:10,210 --> 00:23:17,020
 I think distribution is a moat, and I think it has gotten much harder, like I think the
 
-307
+304
 00:23:17,050 --> 00:23:20,600
 internet has gotten much noisier, and so you have to find something that makes you stand
 
-308
+305
 00:23:20,630 --> 00:23:24,300
 out, and again, maybe it's blogs, maybe it's, you know,
 
-309
+306
 00:23:26,050 --> 00:23:30,500
 Twitter maybe it's something else, maybe it's the crazy branding stuff that we do.
 
-310
+307
 00:23:31,370 --> 00:23:34,900
 There's kind of a reason why that stuff works, right, because it stands out.
 
-311
+308
 00:23:35,470 --> 00:23:41,500
 And so I think if you're trying to be early, you have to find a hook that kind of makes sense and it's different.
 
-312
+309
 00:23:42,050 --> 00:23:46,500
 And then the last thing I think makes sense, I see a lot of people do now, is, you know,
 
-313
+310
 00:23:46,830 --> 00:23:50,780
 I think it used to be that you could just build some software, put it out there and people would use it.
 
-314
+311
 00:23:50,870 --> 00:23:55,260
 I think now, you know, if you can actually solve people's problems, right, that's way, way more valuable.
 
-315
+312
 00:23:55,330 --> 00:23:59,020
 So can you be like a forward-deployed engineer that just solves problems for people?
 
-316
+313
 00:23:59,730 --> 00:24:05,540
 Yeah, I think that ends up actually being a way that I see a lot of YC companies now get the first couple of customers.
 
-317
+314
 00:24:05,630 --> 00:24:09,090
-Very interesting. I'm sure we all see the post-op buses.
+Very interesting. I'm sure we all see the PostHog buses.
 
-318
+315
 00:24:10,310 --> 00:24:12,230
 You may be entitled, yeah.
 
-319
+316
 00:24:12,550 --> 00:24:15,340
 I think one way I like to look at it is like,
 
-320
+317
 00:24:15,670 --> 00:24:17,710
 AI is obviously on the trend up.
 
-321
+318
 00:24:18,150 --> 00:24:22,720
 What gives more value the longer you're out there with AI?
 
-322
+319
 00:24:22,730 --> 00:24:24,950
 Like do your customers,
 
-323
+320
 00:24:24,950 --> 00:24:27,860
 will they get more empowered using your product
 
-324
+321
 00:24:27,870 --> 00:24:28,940
-as AI gets better?
+as AI gets better? It's
 
-325
+322
 00:24:28,850 --> 00:24:30,480
-It's probably a good way to like look at
+It's probably a good way to like look at how
 
-326
+323
 00:24:30,430 --> 00:24:31,480
 how you're building something
 
-327
+324
 00:24:31,490 --> 00:24:34,240
-because if they can get more value out of it over time,
+because if they can get more value out of it over time, they're
 
-328
+325
 00:24:34,130 --> 00:24:35,040
 they're gonna stick with it.
 
-329
+326
 00:24:36,450 --> 00:24:58,820
 Obviously being unconventional, I think, we live in a town where you see these types of ads and it's not just unique to you, actually, everyone's putting memes on buses or stands or whatever, so even going beyond that, I've seen people put projectors up and spontaneously do things, I even got a floppy disk earlier as a card, this is actually amazing.
 
-330
+327
 00:24:59,530 --> 00:25:02,300
-Shout out to ShipVox, who gave me this.
+Shout out to Shipfox, who gave me this.
 
-331
+328
 00:25:03,270 --> 00:25:05,500
-And so definitely on this side,
+And so definitely on this side, I
 
-332
+329
 00:25:05,410 --> 00:25:08,380
-I think attention is very important.
+I think attention is very important. I
 
-333
+330
 00:25:08,290 --> 00:25:12,680
 I think being able to get out there very quickly and big.
 
-334
+331
 00:25:13,030 --> 00:25:16,900
 And so now you're seeing a lot of big rounds
 
-335
+332
 00:25:17,370 --> 00:25:22,420
 There's a question of things like Series A or Series AI, and it's basically do you raise
 
-336
+333
 00:25:22,450 --> 00:25:28,450
 a fuck ton of money and just basically try and get as much attention on you as possible.
 
-337
+334
 00:25:28,930 --> 00:25:32,470
 And that's kind of a weird world to live in, actually.
 
-338
+335
 00:25:37,090 --> 00:25:41,720
 Yeah, I think with open source, the most important thing is figuring out that line
 
-339
+336
 00:25:41,730 --> 00:25:46,240
-of value of, you know, people are going to use it for free and that's part of the point,
+of value of, you know, people are going to use it for free and that's part of the point, but
 
-340
+337
 00:25:46,090 --> 00:25:51,760
 but then where do you know they're serious and where do you know they're willing to pay
 
-341
+338
 00:25:51,930 --> 00:25:52,840
-for it?
+for it? So
 
-342
+339
 00:25:52,710 --> 00:25:56,300
-So I think you've both got great approaches with theirs.
+So I think you've both got great approaches with theirs. It's
 
-343
+340
 00:25:56,090 --> 00:25:59,820
 It's open source, but yet it's all about the service aspect.
 
-344
+341
 00:26:00,190 --> 00:26:02,740
-and you really want to, you can run it yourself,
+and you really want to, you can run it yourself, do you
 
-345
+342
 00:26:02,650 --> 00:26:04,350
-do you really want to?
+do you really want to? That's
 
-346
+343
 00:26:04,310 --> 00:26:05,300
 That's a lot of work.
 
-347
+344
 00:26:05,410 --> 00:26:09,460
-So the hardest part is the thing that you're doing
+So the hardest part is the thing that you're doing and
 
-348
+345
 00:26:09,370 --> 00:26:10,680
-and that people are paying for.
+and that people are paying for. And
 
-349
+346
 00:26:10,610 --> 00:26:13,460
 And I think it's finding whatever that line is
 
-350
+347
 00:26:13,550 --> 00:26:15,000
 in the niche where you are
 

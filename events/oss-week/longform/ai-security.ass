@@ -45,8 +45,8 @@ Dialogue: 0,0:01:56.25,0:01:59.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:01:59.83,0:02:02.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}look up your favorite AI tool, whether it's like a
 Dialogue: 0,0:02:02.71,0:02:05.22,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}coding agent, an AI assistant, whatever.
 Dialogue: 0,0:02:05.31,0:02:07.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}There's probably like three repos set up right now
-Dialogue: 0,0:02:07.55,0:02:10.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}for how to exploit them, how to manage an account
-Dialogue: 0,0:02:10.85,0:02:12.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}pool, how to rotate credentials.
+Dialogue: 0,0:02:07.55,0:02:11.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}for how to exploit them, how to manage an account pool,
+Dialogue: 0,0:02:11.37,0:02:12.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}how to rotate credentials.
 Dialogue: 0,0:02:12.83,0:02:16.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}Like, kind of like your own, I don't know, AI red
 Dialogue: 0,0:02:16.83,0:02:20.52,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}team in a box for specific agents.
 Dialogue: 0,0:02:20.77,0:02:22.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And I think...
@@ -54,14 +54,12 @@ Dialogue: 0,0:02:22.85,0:02:27.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:02:27.65,0:02:30.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}verify the credentials of the people
 Dialogue: 0,0:02:31.11,0:02:32.44,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}like contributing?
 Dialogue: 0,0:02:34.41,0:02:37.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}It's a really hard problem to solve, and that's why
-Dialogue: 0,0:02:37.43,0:02:40.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}we're seeing kind of these blanket movements to
-Dialogue: 0,0:02:40.63,0:02:41.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}just...
+Dialogue: 0,0:02:37.43,0:02:41.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}we're seeing kind of these blanket movements to just...
 Dialogue: 0,0:02:42.23,0:02:44.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And I think that's what we're going to start to see
-Dialogue: 0,0:02:44.55,0:02:47.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}long term, is people opening up issues with
-Dialogue: 0,0:02:47.77,0:02:51.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}reproductions, maybe some sample AI code, that gets
-Dialogue: 0,0:02:51.23,0:02:53.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}passed off to like the engineering team who
-Dialogue: 0,0:02:53.55,0:02:57.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}implements the fix, puts it through their own
-Dialogue: 0,0:02:57.33,0:02:59.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}internal systems for testing.
+Dialogue: 0,0:02:44.55,0:02:48.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}long term, is people opening up issues with reproductions,
+Dialogue: 0,0:02:48.95,0:02:51.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}maybe some sample AI code, that gets passed off to
+Dialogue: 0,0:02:51.73,0:02:56.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}like the engineering team who implements the fix,
+Dialogue: 0,0:02:56.03,0:02:59.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}puts it through their own internal systems for testing.
 Dialogue: 0,0:03:00.65,0:03:03.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And it's sad, but I think ultimately that's where
 Dialogue: 0,0:03:03.23,0:03:04.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}we're headed.
 Dialogue: 0,0:03:05.63,0:03:09.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, not working. There it doesn't.
@@ -70,9 +68,9 @@ Dialogue: 0,0:03:16.71,0:03:20.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:03:20.69,0:03:23.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}more crap PRs from the public than ever, right?
 Dialogue: 0,0:03:23.47,0:03:25.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}There was always crap, but the speed at which you
 Dialogue: 0,0:03:25.99,0:03:28.68,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}can one-shot crap is incredible.
-Dialogue: 0,0:03:31.11,0:03:33.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}You know, I know there's some clever solutions to
-Dialogue: 0,0:03:33.19,0:03:36.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}this. I know Mitchell Hashimoto has an open source
-Dialogue: 0,0:03:36.41,0:03:39.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}project for exactly this to
+Dialogue: 0,0:03:31.11,0:03:33.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}You know, I know there's some clever solutions to this.
+Dialogue: 0,0:03:33.31,0:03:36.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}I know Mitchell Hashimoto has an open source project
+Dialogue: 0,0:03:36.73,0:03:39.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}for exactly this to
 Dialogue: 0,0:03:41.27,0:03:42.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}effectively only allow contributors who have a
 Dialogue: 0,0:03:42.77,0:03:44.12,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}certain trust rating,
 Dialogue: 0,0:03:44.59,0:03:47.06,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and I believe he was using that for Ghosty.
@@ -82,38 +80,37 @@ Dialogue: 0,0:03:52.53,0:03:54.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:03:54.55,0:03:56.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}interesting approach because really the problem is
 Dialogue: 0,0:03:56.51,0:03:59.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}like it's easy to put up a PR but now that you're
 Dialogue: 0,0:03:59.07,0:04:02.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}putting work on the maintainers and they need to
-Dialogue: 0,0:04:02.03,0:04:05.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}they need to put an actual work to to look at it so
-Dialogue: 0,0:04:05.49,0:04:07.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, I don't really have an answer for you, but
-Dialogue: 0,0:04:07.23,0:04:08.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}it's definitely a real
+Dialogue: 0,0:04:02.03,0:04:05.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}they need to put an actual work to to look at it so Yeah,
+Dialogue: 0,0:04:05.59,0:04:07.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}I don't really have an answer for you, but it's
+Dialogue: 0,0:04:07.63,0:04:08.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}definitely a real
 Dialogue: 0,0:04:11.89,0:04:15.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, I echo that. Yesterday, we did a launch
 Dialogue: 0,0:04:15.17,0:04:17.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}for our open source project, Beacon, and we
 Dialogue: 0,0:04:17.59,0:04:20.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}got like an influx of dozens and dozens of
 Dialogue: 0,0:04:20.47,0:04:23.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}PRs and issues. For what it's worth, like our
-Dialogue: 0,0:04:23.67,0:04:25.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}own for our own setup, we have
-Dialogue: 0,0:04:25.59,0:04:28.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}infrastructure. to basically just get
-Dialogue: 0,0:04:28.87,0:04:31.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}webhooks anytime someone files an issue or a
-Dialogue: 0,0:04:31.13,0:04:35.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}PR. And we have a security agent and kind of
-Dialogue: 0,0:04:35.61,0:04:38.42,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}like a code verification agent
-Dialogue: 0,0:04:38.95,0:04:41.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}try to put out like a remediation for the
-Dialogue: 0,0:04:41.31,0:04:43.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}issue, try to do like a security stress test
-Dialogue: 0,0:04:43.87,0:04:48.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}on the PR content. And then also look at the
-Dialogue: 0,0:04:48.05,0:04:50.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}author of the issue or the PR to understand
-Dialogue: 0,0:04:50.83,0:04:53.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}trustworthiness. A lot of the original
-Dialogue: 0,0:04:53.49,0:04:55.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}external contributors outside of the founding
-Dialogue: 0,0:04:55.67,0:04:57.20,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}team of Asymptote
-Dialogue: 0,0:04:57.85,0:05:00.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}were people we knew through our Discord
-Dialogue: 0,0:05:00.37,0:05:02.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}community, but now just completely random
-Dialogue: 0,0:05:02.29,0:05:04.86,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}people, and some of them are super prolific
-Dialogue: 0,0:05:05.15,0:05:07.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}open source contributors. Some of them have
-Dialogue: 0,0:05:07.01,0:05:10.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}no contributions. Some of them put out slop
-Dialogue: 0,0:05:10.25,0:05:12.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}and it's like very subtle fixes that like
-Dialogue: 0,0:05:12.09,0:05:14.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}don't really do anything for the project.
-Dialogue: 0,0:05:14.79,0:05:16.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}But some of them are like real gaps.
-Dialogue: 0,0:05:16.33,0:05:19.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And so we're trying to build systems to like
-Dialogue: 0,0:05:19.51,0:05:22.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}really automatically determine like what are
-Dialogue: 0,0:05:22.97,0:05:26.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}meaningful issues or PRs. But we're still
-Dialogue: 0,0:05:26.01,0:05:29.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}figuring it out. I think we're pretty
-Dialogue: 0,0:05:29.13,0:05:31.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}constrained with resources as
+Dialogue: 0,0:04:23.67,0:04:26.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}own for our own setup, we have infrastructure.
+Dialogue: 0,0:04:26.95,0:04:29.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}to basically just get webhooks anytime
+Dialogue: 0,0:04:29.83,0:04:31.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}someone files an issue or a PR.
+Dialogue: 0,0:04:31.87,0:04:35.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And we have a security agent and kind of like
+Dialogue: 0,0:04:35.73,0:04:38.42,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}a code verification agent
+Dialogue: 0,0:04:38.95,0:04:42.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}try to put out like a remediation for the issue,
+Dialogue: 0,0:04:42.05,0:04:45.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}try to do like a security stress test on the
+Dialogue: 0,0:04:45.31,0:04:48.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}PR content. And then also look at the author
+Dialogue: 0,0:04:48.49,0:04:51.96,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}of the issue or the PR to understand trustworthiness.
+Dialogue: 0,0:04:52.25,0:04:54.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}A lot of the original external contributors
+Dialogue: 0,0:04:54.43,0:04:57.20,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}outside of the founding team of Asymptote
+Dialogue: 0,0:04:57.85,0:05:00.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}were people we knew through our Discord community,
+Dialogue: 0,0:05:00.93,0:05:02.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}but now just completely random people, and
+Dialogue: 0,0:05:02.79,0:05:06.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}some of them are super prolific open source contributors.
+Dialogue: 0,0:05:06.47,0:05:09.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}Some of them have no contributions.
+Dialogue: 0,0:05:09.07,0:05:11.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}Some of them put out slop and it's like very
+Dialogue: 0,0:05:11.07,0:05:12.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}subtle fixes that like don't really do
+Dialogue: 0,0:05:12.89,0:05:15.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}anything for the project. But some of them
+Dialogue: 0,0:05:15.27,0:05:17.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}are like real gaps. And so we're trying to
+Dialogue: 0,0:05:17.81,0:05:20.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}build systems to like really automatically
+Dialogue: 0,0:05:20.61,0:05:25.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}determine like what are meaningful issues or PRs.
+Dialogue: 0,0:05:25.31,0:05:26.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}But we're still figuring it out.
+Dialogue: 0,0:05:26.65,0:05:30.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}I think we're pretty constrained with
+Dialogue: 0,0:05:30.31,0:05:31.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}resources as
 Dialogue: 0,0:05:37.35,0:05:38.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Mark Percival (1984.vc): {\fnRoundHog Medium\c&H00FFFFFF}I'll
 Dialogue: 0,0:05:39.99,0:05:41.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Mark Percival (1984.vc): {\fnRoundHog Medium\c&H00FFFFFF}I'll
 Dialogue: 0,0:05:44.83,0:05:46.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Mark Percival (1984.vc): {\fnRoundHog Medium\c&H00FFFFFF}ask the next question here.
@@ -130,26 +127,24 @@ Dialogue: 0,0:06:09.11,0:06:11.30,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5
 Dialogue: 0,0:06:16.07,0:06:18.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}So for us, when it was just me and my
 Dialogue: 0,0:06:18.03,0:06:20.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}co-founder and we were pitching some really
 Dialogue: 0,0:06:20.15,0:06:21.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}large enterprises,
-Dialogue: 0,0:06:22.41,0:06:25.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}a question we'd constantly get asked is like,
-Dialogue: 0,0:06:25.13,0:06:26.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}well, who are you guys? We've never heard of
-Dialogue: 0,0:06:26.93,0:06:29.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}your name. And the answer we would have would
-Dialogue: 0,0:06:29.65,0:06:31.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}be, well, we have an open source project, and
-Dialogue: 0,0:06:31.77,0:06:34.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}so like your security team can inspect the
-Dialogue: 0,0:06:34.71,0:06:36.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}code base, you can run it in your own
-Dialogue: 0,0:06:36.29,0:06:39.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}infrastructure. And that helped us build
-Dialogue: 0,0:06:39.23,0:06:42.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}trust and get deployed at large enterprises
-Dialogue: 0,0:06:42.71,0:06:44.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}when they would have had no other reason
-Dialogue: 0,0:06:44.63,0:06:47.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}really to trust us. And so I think that's
-Dialogue: 0,0:06:47.67,0:06:51.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}still an accruing reason for enterprises to
-Dialogue: 0,0:06:51.99,0:06:54.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}trust small companies.
+Dialogue: 0,0:06:22.41,0:06:25.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}a question we'd constantly get asked is like, well,
+Dialogue: 0,0:06:25.31,0:06:28.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}who are you guys? We've never heard of your name.
+Dialogue: 0,0:06:28.11,0:06:30.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And the answer we would have would be, well,
+Dialogue: 0,0:06:30.15,0:06:32.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}we have an open source project, and so like
+Dialogue: 0,0:06:32.39,0:06:35.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}your security team can inspect the code base,
+Dialogue: 0,0:06:35.13,0:06:37.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}you can run it in your own infrastructure.
+Dialogue: 0,0:06:37.61,0:06:40.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And that helped us build trust and get
+Dialogue: 0,0:06:40.23,0:06:43.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}deployed at large enterprises when they would
+Dialogue: 0,0:06:43.55,0:06:46.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}have had no other reason really to trust us.
+Dialogue: 0,0:06:46.61,0:06:50.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And so I think that's still an accruing
+Dialogue: 0,0:06:50.43,0:06:54.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}reason for enterprises to trust small companies.
 Dialogue: 0,0:06:55.85,0:06:59.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}The attack vector today, though, is
-Dialogue: 0,0:07:00.27,0:07:02.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}more prolific than ever of these supply chain
-Dialogue: 0,0:07:02.23,0:07:05.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}attacks, and we saw that with LightLM today,
-Dialogue: 0,0:07:05.25,0:07:06.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}which was pretty sophisticated.
-Dialogue: 0,0:07:06.47,0:07:09.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}They compromised multiple different core
-Dialogue: 0,0:07:09.99,0:07:14.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}contributors to the project by basically
-Dialogue: 0,0:07:14.43,0:07:19.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}getting access to an OAuth CLI token, using
-Dialogue: 0,0:07:19.41,0:07:21.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}that to create a new release.
+Dialogue: 0,0:07:00.27,0:07:02.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}more prolific than ever of these supply chain attacks,
+Dialogue: 0,0:07:02.45,0:07:05.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}and we saw that with LightLM today, which was
+Dialogue: 0,0:07:05.55,0:07:08.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}pretty sophisticated. They compromised
+Dialogue: 0,0:07:08.59,0:07:10.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}multiple different core contributors to the
+Dialogue: 0,0:07:10.81,0:07:16.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}project by basically getting access to an
+Dialogue: 0,0:07:16.19,0:07:21.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}OAuth CLI token, using that to create a new release.
 Dialogue: 0,0:07:21.47,0:07:23.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}and then even like hacking another user to
 Dialogue: 0,0:07:23.67,0:07:26.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}approve the release um so i think that those
 Dialogue: 0,0:07:26.87,0:07:28.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}attack vectors are getting harder and harder
@@ -185,32 +180,32 @@ Dialogue: 0,0:08:55.99,0:08:58.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:08:58.65,0:09:00.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and every company is going to get hacked.
 Dialogue: 0,0:09:00.77,0:09:03.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And so you just kind of need to think through risk
 Dialogue: 0,0:09:03.17,0:09:05.14,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}mitigation more than anything.
-Dialogue: 0,0:09:06.95,0:09:10.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, I would echo that. You want to limit the blast
-Dialogue: 0,0:09:10.63,0:09:14.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}radius. And it is kind of like a funny oxymoron that
-Dialogue: 0,0:09:14.27,0:09:16.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}like I don't necessarily believe that larger
-Dialogue: 0,0:09:16.83,0:09:18.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}companies are more secure because there's more
-Dialogue: 0,0:09:18.73,0:09:20.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}vectors. Like if you look at a lot of the attacks, I
-Dialogue: 0,0:09:20.85,0:09:23.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}mean, they're compromising.
-Dialogue: 0,0:09:23.23,0:09:26.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}an employee you know if you're a large company you
-Dialogue: 0,0:09:26.09,0:09:28.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}have a lot more employees and so there's a lot more
-Dialogue: 0,0:09:28.71,0:09:32.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}people to try and fool um you might have more systems
-Dialogue: 0,0:09:32.39,0:09:35.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}in place to catch it but um there's a lot more ways
-Dialogue: 0,0:09:35.97,0:09:38.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}in i still think like open source is a great way to
-Dialogue: 0,0:09:38.73,0:09:43.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}build that trust with your community so i wouldn't um
-Dialogue: 0,0:09:43.17,0:09:46.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}i don't think we need to like abandon that approach i
-Dialogue: 0,0:09:46.35,0:09:50.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}just think the goal should be to like limit the blast
-Dialogue: 0,0:09:50.71,0:09:54.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}radius and and put the controls in place early so
-Dialogue: 0,0:09:54.55,0:09:57.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}that like a you can identify these things and you
-Dialogue: 0,0:09:57.47,0:10:00.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}have like the correct systems in place so that in
-Dialogue: 0,0:10:00.35,0:10:04.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}worst case scenarios um they're not able to like
-Dialogue: 0,0:10:04.35,0:10:07.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}escalate uh privileges which is what happens a lot of
-Dialogue: 0,0:10:07.35,0:10:10.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}times like they compromise one system and with agents
-Dialogue: 0,0:10:10.67,0:10:14.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}now you can compromise one system and quickly gain
-Dialogue: 0,0:10:14.05,0:10:16.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}access to 10 more. Well, that might have been like a
-Dialogue: 0,0:10:16.49,0:10:19.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}lot of work previously. It's so much, you can iterate
-Dialogue: 0,0:10:19.35,0:10:23.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}so much faster. And so making sure that that, you
-Dialogue: 0,0:10:23.11,0:10:26.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}know, systems are like locked down.
-Dialogue: 0,0:10:26.09,0:10:28.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}They're not able to easily jump between them.
+Dialogue: 0,0:09:06.95,0:09:12.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, I would echo that. You want to limit the blast radius.
+Dialogue: 0,0:09:12.29,0:09:15.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And it is kind of like a funny oxymoron that like I
+Dialogue: 0,0:09:15.11,0:09:17.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}don't necessarily believe that larger companies are
+Dialogue: 0,0:09:17.37,0:09:19.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}more secure because there's more vectors.
+Dialogue: 0,0:09:19.05,0:09:21.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}Like if you look at a lot of the attacks, I mean,
+Dialogue: 0,0:09:21.31,0:09:24.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}they're compromising. an employee you know if you're
+Dialogue: 0,0:09:24.57,0:09:27.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}a large company you have a lot more employees and so
+Dialogue: 0,0:09:27.41,0:09:31.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}there's a lot more people to try and fool um you
+Dialogue: 0,0:09:31.59,0:09:34.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}might have more systems in place to catch it but um
+Dialogue: 0,0:09:34.87,0:09:37.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}there's a lot more ways in i still think like open
+Dialogue: 0,0:09:37.81,0:09:40.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}source is a great way to build that trust with your
+Dialogue: 0,0:09:40.67,0:09:43.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}community so i wouldn't um i don't think we need to
+Dialogue: 0,0:09:43.99,0:09:48.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}like abandon that approach i just think the goal
+Dialogue: 0,0:09:48.27,0:09:51.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}should be to like limit the blast radius and and put
+Dialogue: 0,0:09:51.63,0:09:55.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}the controls in place early so that like a you can
+Dialogue: 0,0:09:55.85,0:09:58.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}identify these things and you have like the correct
+Dialogue: 0,0:09:58.37,0:10:03.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}systems in place so that in worst case scenarios um
+Dialogue: 0,0:10:03.17,0:10:06.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}they're not able to like escalate uh privileges which
+Dialogue: 0,0:10:06.47,0:10:09.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}is what happens a lot of times like they compromise
+Dialogue: 0,0:10:09.03,0:10:12.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}one system and with agents now you can compromise one
+Dialogue: 0,0:10:12.03,0:10:15.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}system and quickly gain access to 10 more.
+Dialogue: 0,0:10:15.25,0:10:17.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}Well, that might have been like a lot of work previously.
+Dialogue: 0,0:10:17.53,0:10:20.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}It's so much, you can iterate so much faster.
+Dialogue: 0,0:10:20.21,0:10:24.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And so making sure that that, you know, systems are
+Dialogue: 0,0:10:24.95,0:10:27.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}like locked down. They're not able to easily jump
+Dialogue: 0,0:10:27.99,0:10:28.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}between them.
 Dialogue: 0,0:10:30.53,0:10:33.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Spot on. I mean, continuing this conversation.
 Dialogue: 0,0:10:33.67,0:10:36.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}So what does the long run
 Dialogue: 0,0:10:37.67,0:10:40.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Manifestation of this look like this, every open
@@ -218,9 +213,8 @@ Dialogue: 0,0:10:40.45,0:10:43.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D23
 Dialogue: 0,0:10:43.37,0:10:47.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Does, you know, is your first hire a security hire,
 Dialogue: 0,0:10:47.93,0:10:51.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}what does that look like when you're growing a
 Dialogue: 0,0:10:51.25,0:10:53.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}project with intent to grow a company around
-Dialogue: 0,0:10:55.21,0:10:57.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}I think you can start to use security as like a
-Dialogue: 0,0:10:57.75,0:10:59.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}differentiator, which I actually think is a great
-Dialogue: 0,0:10:59.45,0:11:00.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}thing.
+Dialogue: 0,0:10:55.21,0:10:58.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}I think you can start to use security as like a differentiator,
+Dialogue: 0,0:10:58.37,0:11:00.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}which I actually think is a great thing.
 Dialogue: 0,0:11:02.49,0:11:04.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}starting to really take this more seriously and so it
 Dialogue: 0,0:11:04.85,0:11:08.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}can almost be part of your value prop something that
 Dialogue: 0,0:11:08.33,0:11:12.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}can help you win deals so I think
@@ -250,9 +244,8 @@ Dialogue: 0,0:12:17.17,0:12:19.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:12:19.61,0:12:23.42,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}think uh it's also true that there's more
 Dialogue: 0,0:12:23.47,0:12:25.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}vulnerabilities than ever before like they're
 Dialogue: 0,0:12:25.29,0:12:28.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}kind of exponentially growing and so While
-Dialogue: 0,0:12:28.65,0:12:30.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}all contributions are going to be
-Dialogue: 0,0:12:30.85,0:12:34.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}AI-generated, all, you know, reviews are
-Dialogue: 0,0:12:34.01,0:12:35.82,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}going to be AI-generated.
+Dialogue: 0,0:12:28.65,0:12:33.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}all contributions are going to be AI-generated, all,
+Dialogue: 0,0:12:33.21,0:12:35.82,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}you know, reviews are going to be AI-generated.
 Dialogue: 0,0:12:36.31,0:12:38.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And I think where the value accrues is really
 Dialogue: 0,0:12:38.67,0:12:41.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}just around remediation. So it's not really
 Dialogue: 0,0:12:41.93,0:12:43.82,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}any more around detection.
@@ -261,15 +254,14 @@ Dialogue: 0,0:12:46.39,0:12:48.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:12:48.93,0:12:50.82,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}an open model as a security reviewer.
 Dialogue: 0,0:12:51.35,0:12:52.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}But I think it's inevitable that there's
 Dialogue: 0,0:12:52.81,0:12:54.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}always going to be vulnerabilities that,
-Dialogue: 0,0:12:54.67,0:12:56.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}whether they're low severity or high
-Dialogue: 0,0:12:56.07,0:12:58.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}severity, get merged in at some point and
-Dialogue: 0,0:12:58.67,0:13:01.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}deployed. And so for every enterprise, I
-Dialogue: 0,0:13:01.25,0:13:03.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}think it's a lot more about investing in
-Dialogue: 0,0:13:03.37,0:13:06.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}infrastructure to remediate a lot faster.
-Dialogue: 0,0:13:06.89,0:13:09.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And so for my own company, that's focused
-Dialogue: 0,0:13:09.03,0:13:13.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}more on runtime security. And I think, yeah,
-Dialogue: 0,0:13:13.75,0:13:16.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}from what I've seen, a lot of companies are
-Dialogue: 0,0:13:16.07,0:13:17.66,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}just spending a lot of
+Dialogue: 0,0:12:54.67,0:12:56.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}whether they're low severity or high severity,
+Dialogue: 0,0:12:56.31,0:12:59.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}get merged in at some point and deployed.
+Dialogue: 0,0:12:59.71,0:13:01.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And so for every enterprise, I think it's a
+Dialogue: 0,0:13:01.65,0:13:04.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}lot more about investing in infrastructure to
+Dialogue: 0,0:13:04.85,0:13:08.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}remediate a lot faster. And so for my own company,
+Dialogue: 0,0:13:08.21,0:13:11.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}that's focused more on runtime security.
+Dialogue: 0,0:13:12.03,0:13:15.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And I think, yeah, from what I've seen, a lot
+Dialogue: 0,0:13:15.01,0:13:17.66,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}of companies are just spending a lot of
 Dialogue: 0,0:13:18.09,0:13:21.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}tokens and dollars around building robust
 Dialogue: 0,0:13:21.31,0:13:23.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}infrastructure and response protocols so that
 Dialogue: 0,0:13:23.81,0:13:26.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}when they do detect these these incidents at
@@ -309,17 +301,15 @@ Dialogue: 0,0:14:52.79,0:14:55.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:14:55.41,0:14:58.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}and then all we're doing is turning on our
 Dialogue: 0,0:14:58.15,0:15:01.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}engine to show them findings.
 Dialogue: 0,0:15:01.43,0:15:03.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}And that could be from an engineering
-Dialogue: 0,0:15:03.31,0:15:05.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}perspective around where tokens are getting
-Dialogue: 0,0:15:05.31,0:15:07.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}wasted, could be from a security perspective
-Dialogue: 0,0:15:07.29,0:15:09.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}where we're finding data leakage or insider
-Dialogue: 0,0:15:09.21,0:15:13.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}threat. But once they buy into that, then I
-Dialogue: 0,0:15:13.57,0:15:15.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}think it's a lot more about working with them
-Dialogue: 0,0:15:15.89,0:15:18.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}around their response, their incident
-Dialogue: 0,0:15:18.01,0:15:20.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}response, Because that's something that's
-Dialogue: 0,0:15:20.27,0:15:22.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}different for every enterprise, how they
-Dialogue: 0,0:15:22.25,0:15:24.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}respond to these incidents.
-Dialogue: 0,0:15:24.01,0:15:25.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}But I think that's also like an iterative
-Dialogue: 0,0:15:25.87,0:15:27.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}thing.
+Dialogue: 0,0:15:03.31,0:15:05.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}perspective around where tokens are getting wasted,
+Dialogue: 0,0:15:05.93,0:15:07.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}could be from a security perspective where
+Dialogue: 0,0:15:07.39,0:15:10.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}we're finding data leakage or insider threat.
+Dialogue: 0,0:15:10.87,0:15:13.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}But once they buy into that, then I think
+Dialogue: 0,0:15:13.67,0:15:15.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}it's a lot more about working with them
+Dialogue: 0,0:15:15.89,0:15:18.88,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}around their response, their incident response,
+Dialogue: 0,0:15:19.09,0:15:20.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}Because that's something that's different for
+Dialogue: 0,0:15:20.61,0:15:24.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}every enterprise, how they respond to these incidents.
+Dialogue: 0,0:15:24.01,0:15:27.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}But I think that's also like an iterative thing.
 Dialogue: 0,0:15:28.99,0:15:31.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}I think there's a couple avenues to speed it up.
 Dialogue: 0,0:15:31.55,0:15:33.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}So there's the PR side of things, right?
 Dialogue: 0,0:15:33.87,0:15:36.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}So you have one agent or multiple agents just
@@ -328,10 +318,10 @@ Dialogue: 0,0:15:39.71,0:15:42.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:15:42.53,0:15:45.14,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}last point, like minimizing vulnerabilities.
 Dialogue: 0,0:15:46.27,0:15:48.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}So you're catching these NPRs before they ship.
 Dialogue: 0,0:15:48.11,0:15:49.32,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}That's the best time.
-Dialogue: 0,0:15:50.23,0:15:52.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}But then the other, the next piece of that, I think,
-Dialogue: 0,0:15:52.45,0:15:54.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}is, you know, in the SRE world pre-AI, there was
-Dialogue: 0,0:15:54.95,0:15:58.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}always this belief that, like, we should find out if
-Dialogue: 0,0:15:58.37,0:16:00.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}we go down before our customers tell us.
+Dialogue: 0,0:15:50.23,0:15:52.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}But then the other, the next piece of that, I think, is,
+Dialogue: 0,0:15:52.81,0:15:55.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}you know, in the SRE world pre-AI, there was always
+Dialogue: 0,0:15:55.13,0:15:58.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}this belief that, like, we should find out if we go
+Dialogue: 0,0:15:58.69,0:16:00.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}down before our customers tell us.
 Dialogue: 0,0:16:00.47,0:16:02.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And I think the same is true of vulnerabilities.
 Dialogue: 0,0:16:02.55,0:16:04.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}We should identify the vulnerabilities before
 Dialogue: 0,0:16:04.15,0:16:06.32,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}they're reported to us in a bug bounty or
@@ -353,15 +343,13 @@ Dialogue: 0,0:16:50.89,0:16:52.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:16:52.99,0:16:55.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}something pretty interesting recently, kind of more
 Dialogue: 0,0:16:55.23,0:16:57.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}from like the endpoint security angle.
 Dialogue: 0,0:16:57.91,0:17:03.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}So for context, we stop like inference of abuse and
-Dialogue: 0,0:17:03.39,0:17:06.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}like token fraud. So everything from like CSAM,
-Dialogue: 0,0:17:06.41,0:17:07.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}distillation,
+Dialogue: 0,0:17:03.39,0:17:07.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}like token fraud. So everything from like CSAM, distillation,
 Dialogue: 0,0:17:08.45,0:17:12.96,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}cyber attacks being proxied through AIM points.
-Dialogue: 0,0:17:13.83,0:17:18.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}So we recently saw an attack that was across probably
-Dialogue: 0,0:17:18.55,0:17:24.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}3,000, 4,000 accounts, 100,000 requests all within
-Dialogue: 0,0:17:24.37,0:17:26.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}100 milliseconds,
+Dialogue: 0,0:17:13.83,0:17:18.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}So we recently saw an attack that was across probably 3,000,
+Dialogue: 0,0:17:18.87,0:17:26.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}4,000 accounts, 100,000 requests all within 100 milliseconds,
 Dialogue: 0,0:17:27.11,0:17:29.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}and this person had been sitting on these accounts
-Dialogue: 0,0:17:29.45,0:17:32.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}for a while. Some were bought up from the underground
-Dialogue: 0,0:17:32.99,0:17:35.68,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}markets, some were probably spun up from automation.
+Dialogue: 0,0:17:29.45,0:17:33.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}for a while. Some were bought up from the underground markets,
+Dialogue: 0,0:17:33.63,0:17:35.68,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}some were probably spun up from automation.
 Dialogue: 0,0:17:37.33,0:17:41.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}But it shows you... I guess with the power of AI,
 Dialogue: 0,0:17:41.65,0:17:45.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}what's possible where an attack can now be, if they
 Dialogue: 0,0:17:45.65,0:17:48.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}just want a few things to slip through, it might be a
@@ -380,8 +368,7 @@ Dialogue: 0,0:18:26.35,0:18:29.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D23
 Dialogue: 0,0:18:29.33,0:18:32.52,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}your hot takes, I'll follow Sue with
 Dialogue: 0,0:18:32.93,0:18:35.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Will's style of hosting the panel, if you have a
 Dialogue: 0,0:18:35.81,0:18:39.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}hot take, now is the time, something that others
-Dialogue: 0,0:18:39.09,0:18:42.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}don't really believe in, but you would die on this
-Dialogue: 0,0:18:42.19,0:18:43.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}hill.
+Dialogue: 0,0:18:39.09,0:18:43.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}don't really believe in, but you would die on this hill.
 Dialogue: 0,0:18:45.31,0:18:47.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}You mentioned bug bounties.
 Dialogue: 0,0:18:47.79,0:18:49.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}Maybe my hot take is that those are also
 Dialogue: 0,0:18:49.65,0:18:51.26,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}going to be dead?
@@ -389,21 +376,20 @@ Dialogue: 0,0:18:51.75,0:18:55.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:18:55.13,0:18:57.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}for example, out of the box
 Dialogue: 0,0:18:58.51,0:19:01.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}on any open source model in Red Team,
 Dialogue: 0,0:19:01.61,0:19:02.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}whatever you want to Red
-Dialogue: 0,0:19:06.75,0:19:09.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}I don't know, a hot dog is a sandwich, that's my hot
-Dialogue: 0,0:19:09.59,0:19:10.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}take.
+Dialogue: 0,0:19:06.75,0:19:10.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}I don't know, a hot dog is a sandwich, that's my hot take.
 Dialogue: 0,0:19:12.02,0:19:15.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}I think I don't know if this is a odd take, but I
 Dialogue: 0,0:19:15.17,0:19:17.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}think we're going to get to the point where people
 Dialogue: 0,0:19:17.99,0:19:20.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}stop accepting open source contributions, which I
 Dialogue: 0,0:19:20.53,0:19:22.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}think is sad.
 Dialogue: 0,0:19:23.79,0:19:26.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}With what I see in account takeovers, I think even if
 Dialogue: 0,0:19:26.59,0:19:28.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}there's a reputation system, those accounts are just
-Dialogue: 0,0:19:28.97,0:19:31.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}going to get bought and sold on the secondary
-Dialogue: 0,0:19:31.03,0:19:33.88,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}markets. And then they just become a vector.
+Dialogue: 0,0:19:28.97,0:19:31.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}going to get bought and sold on the secondary markets.
+Dialogue: 0,0:19:31.89,0:19:33.88,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And then they just become a vector.
 Dialogue: 0,0:19:33.95,0:19:39.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}So I think my hot take is that the open source
 Dialogue: 0,0:19:39.93,0:19:41.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}contributions are coming to an end.
-Dialogue: 0,0:19:41.07,0:19:43.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And it's going to be a way for you to showcase your
-Dialogue: 0,0:19:43.57,0:19:47.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}code, what you're doing, kind of like provide value
-Dialogue: 0,0:19:47.07,0:19:49.76,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}in that sense and as like a go to market tool.
+Dialogue: 0,0:19:41.07,0:19:44.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}And it's going to be a way for you to showcase your code,
+Dialogue: 0,0:19:44.05,0:19:47.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}what you're doing, kind of like provide value in that
+Dialogue: 0,0:19:47.65,0:19:49.76,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}sense and as like a go to market tool.
 Dialogue: 0,0:19:49.97,0:19:54.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}But the days of accepting a PR from somebody who just
 Dialogue: 0,0:19:54.15,0:19:59.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}loves your product. might sadly be coming to an end
 Dialogue: 0,0:20:02.87,0:20:05.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}if you know me you know I have a lot of hot takes

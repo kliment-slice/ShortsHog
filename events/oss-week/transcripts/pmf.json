@@ -114,25 +114,20 @@
    "speaker": "Kliment Minchev"
   },
   {
-   "w": "permanent",
+   "w": "product-market",
    "start": 9.99,
-   "end": 10.33,
+   "end": 10.47,
    "p": 0.012,
-   "speaker": "Kliment Minchev"
-  },
-  {
-   "w": "market",
-   "start": 10.33,
-   "end": 10.61,
-   "p": 0.799,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "permanent market fit"
   },
   {
    "w": "fit",
-   "start": 10.61,
+   "start": 10.47,
    "end": 10.95,
-   "p": 0.745,
-   "speaker": "Kliment Minchev"
+   "p": 0.012,
+   "speaker": "Kliment Minchev",
+   "heard": "permanent market fit"
   },
   {
    "w": "as",
@@ -195,35 +190,45 @@
    "start": 14.53,
    "end": 15.53,
    "p": 0.689,
-   "speaker": "Kliment Minchev"
+   "speaker": null,
+   "silent": true,
+   "heard": "through"
   },
   {
    "w": "finding",
    "start": 15.61,
    "end": 16.05,
    "p": 0.944,
-   "speaker": "Kliment Minchev"
+   "speaker": null,
+   "silent": true,
+   "heard": "finding"
   },
   {
    "w": "your",
    "start": 16.05,
    "end": 16.35,
    "p": 0.971,
-   "speaker": "Kliment Minchev"
+   "speaker": null,
+   "silent": true,
+   "heard": "your"
   },
   {
    "w": "GTM",
    "start": 16.35,
    "end": 17.25,
    "p": 0.861,
-   "speaker": "Kliment Minchev"
+   "speaker": null,
+   "silent": true,
+   "heard": "GTM"
   },
   {
    "w": "motions.",
    "start": 17.25,
    "end": 18.25,
    "p": 0.204,
-   "speaker": "Kliment Minchev"
+   "speaker": null,
+   "silent": true,
+   "heard": "motions."
   },
   {
    "w": "Through",
@@ -373,18 +378,20 @@
    "speaker": "Kliment Minchev"
   },
   {
-   "w": "Infinite",
+   "w": "infinite",
    "start": 33.41,
-   "end": 33.71,
+   "end": 33.925,
    "p": 0.543,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Infinite Adoption."
   },
   {
-   "w": "Adoption.",
-   "start": 33.71,
+   "w": "adoption.",
+   "start": 33.925,
    "end": 34.44,
-   "p": 0.706,
-   "speaker": "Kliment Minchev"
+   "p": 0.543,
+   "speaker": "Kliment Minchev",
+   "heard": "Infinite Adoption."
   },
   {
    "w": "So",
@@ -429,11 +436,12 @@
    "speaker": "Kliment Minchev"
   },
   {
-   "w": "Konstantin,",
+   "w": "Konstantine,",
    "start": 36.91,
    "end": 37.79,
    "p": 0.429,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Konstantin,"
   },
   {
    "w": "who",
@@ -473,51 +481,50 @@
   {
    "w": "the",
    "start": 39.29,
-   "end": 39.91,
+   "end": 39.832,
    "p": 0.754,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "the local creator and the founder."
   },
   {
-   "w": "local",
-   "start": 39.91,
-   "end": 40.33,
-   "p": 0.895,
-   "speaker": "Kliment Minchev"
+   "w": "online",
+   "start": 39.832,
+   "end": 40.374,
+   "p": 0.754,
+   "speaker": "Kliment Minchev",
+   "heard": "the local creator and the founder."
   },
   {
    "w": "creator",
-   "start": 40.33,
-   "end": 40.77,
-   "p": 0.986,
-   "speaker": "Kliment Minchev"
+   "start": 40.374,
+   "end": 40.916,
+   "p": 0.754,
+   "speaker": "Kliment Minchev",
+   "heard": "the local creator and the founder."
   },
   {
    "w": "and",
-   "start": 40.77,
-   "end": 40.91,
-   "p": 0.953,
-   "speaker": "Kliment Minchev"
-  },
-  {
-   "w": "the",
-   "start": 40.91,
-   "end": 41.25,
-   "p": 0.625,
-   "speaker": "Kliment Minchev"
+   "start": 40.916,
+   "end": 41.458,
+   "p": 0.754,
+   "speaker": "Kliment Minchev",
+   "heard": "the local creator and the founder."
   },
   {
    "w": "founder.",
-   "start": 41.25,
+   "start": 41.458,
    "end": 42.0,
-   "p": 0.719,
-   "speaker": "Kliment Minchev"
+   "p": 0.754,
+   "speaker": "Kliment Minchev",
+   "heard": "the local creator and the founder."
   },
   {
-   "w": "Jonas,",
+   "w": "Yonas,",
    "start": 42.87,
    "end": 43.87,
    "p": 0.697,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Jonas,"
   },
   {
    "w": "co-founder",
@@ -534,102 +541,100 @@
    "speaker": "Kliment Minchev"
   },
   {
-   "w": "Starsling.",
+   "w": "StarSling.",
    "start": 44.75,
    "end": 45.62,
    "p": 0.224,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "StarSling."
   },
   {
-   "w": "You",
+   "w": "Hang,",
    "start": 46.07,
-   "end": 46.23,
+   "end": 46.86,
    "p": 0.077,
-   "speaker": "Kliment Minchev"
-  },
-  {
-   "w": "know",
-   "start": 46.23,
-   "end": 46.55,
-   "p": 0.186,
-   "speaker": "Kliment Minchev"
-  },
-  {
-   "w": "this?",
-   "start": 46.55,
-   "end": 47.55,
-   "p": 0.592,
-   "speaker": "Kliment Minchev"
-  },
-  {
-   "w": "Han,",
-   "start": 48.25,
-   "end": 48.51,
-   "p": 0.329,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "You know this? Han, co-founder of Sierra Esporch."
   },
   {
    "w": "co-founder",
-   "start": 48.51,
-   "end": 49.13,
-   "p": 0.398,
-   "speaker": "Kliment Minchev"
+   "start": 46.86,
+   "end": 47.65,
+   "p": 0.077,
+   "speaker": "Kliment Minchev",
+   "heard": "You know this? Han, co-founder of Sierra Esporch."
+  },
+  {
+   "w": "and",
+   "start": 47.65,
+   "end": 48.44,
+   "p": 0.077,
+   "speaker": "Kliment Minchev",
+   "heard": "You know this? Han, co-founder of Sierra Esporch."
+  },
+  {
+   "w": "CEO",
+   "start": 48.44,
+   "end": 49.23,
+   "p": 0.077,
+   "speaker": "Kliment Minchev",
+   "heard": "You know this? Han, co-founder of Sierra Esporch."
   },
   {
    "w": "of",
-   "start": 49.13,
-   "end": 49.45,
-   "p": 0.91,
-   "speaker": "Kliment Minchev"
+   "start": 49.23,
+   "end": 50.02,
+   "p": 0.077,
+   "speaker": "Kliment Minchev",
+   "heard": "You know this? Han, co-founder of Sierra Esporch."
   },
   {
-   "w": "Sierra",
-   "start": 49.45,
-   "end": 49.81,
-   "p": 0.902,
-   "speaker": "Kliment Minchev"
-  },
-  {
-   "w": "Esporch.",
-   "start": 49.81,
+   "w": "InsForge.",
+   "start": 50.02,
    "end": 50.81,
-   "p": 0.193,
-   "speaker": "Kliment Minchev"
+   "p": 0.077,
+   "speaker": "Kliment Minchev",
+   "heard": "You know this? Han, co-founder of Sierra Esporch."
   },
   {
    "w": "And",
    "start": 53.77,
-   "end": 53.99,
+   "end": 54.318,
    "p": 0.663,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "And Sheffern, co-founder of London."
   },
   {
-   "w": "Sheffern,",
-   "start": 53.99,
-   "end": 54.69,
-   "p": 0.235,
-   "speaker": "Kliment Minchev"
+   "w": "Shengkun,",
+   "start": 54.318,
+   "end": 54.866,
+   "p": 0.663,
+   "speaker": "Kliment Minchev",
+   "heard": "And Sheffern, co-founder of London."
   },
   {
    "w": "co-founder",
-   "start": 54.69,
-   "end": 55.21,
-   "p": 0.991,
-   "speaker": "Kliment Minchev"
+   "start": 54.866,
+   "end": 55.414,
+   "p": 0.663,
+   "speaker": "Kliment Minchev",
+   "heard": "And Sheffern, co-founder of London."
   },
   {
    "w": "of",
-   "start": 55.21,
-   "end": 55.51,
-   "p": 0.977,
-   "speaker": "Kliment Minchev"
+   "start": 55.414,
+   "end": 55.962,
+   "p": 0.663,
+   "speaker": "Kliment Minchev",
+   "heard": "And Sheffern, co-founder of London."
   },
   {
-   "w": "London.",
-   "start": 55.51,
+   "w": "Monid.",
+   "start": 55.962,
    "end": 56.51,
-   "p": 0.226,
-   "speaker": "Kliment Minchev"
+   "p": 0.663,
+   "speaker": "Kliment Minchev",
+   "heard": "And Sheffern, co-founder of London."
   },
   {
    "w": "And",
@@ -639,11 +644,12 @@
    "speaker": "Kliment Minchev"
   },
   {
-   "w": "Constantine,",
+   "w": "Konstantine,",
    "start": 59.27,
    "end": 59.73,
    "p": 0.079,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Constantine,"
   },
   {
    "w": "take",
@@ -845,37 +851,42 @@
   {
    "w": "how",
    "start": 81.85,
-   "end": 82.01,
+   "end": 82.274,
    "p": 0.511,
-   "speaker": "Konstantine Gugunava"
+   "speaker": "Konstantine Gugunava",
+   "heard": "how to go in PMF."
   },
   {
    "w": "to",
-   "start": 82.01,
-   "end": 82.19,
-   "p": 0.987,
-   "speaker": "Konstantine Gugunava"
+   "start": 82.274,
+   "end": 82.698,
+   "p": 0.511,
+   "speaker": "Konstantine Gugunava",
+   "heard": "how to go in PMF."
   },
   {
-   "w": "go",
-   "start": 82.19,
-   "end": 82.39,
-   "p": 0.51,
-   "speaker": "Konstantine Gugunava"
+   "w": "get",
+   "start": 82.698,
+   "end": 83.122,
+   "p": 0.511,
+   "speaker": "Konstantine Gugunava",
+   "heard": "how to go in PMF."
   },
   {
-   "w": "in",
-   "start": 82.39,
-   "end": 82.97,
-   "p": 0.382,
-   "speaker": "Konstantine Gugunava"
+   "w": "to",
+   "start": 83.122,
+   "end": 83.546,
+   "p": 0.511,
+   "speaker": "Konstantine Gugunava",
+   "heard": "how to go in PMF."
   },
   {
-   "w": "PNF.",
-   "start": 82.97,
+   "w": "PMF.",
+   "start": 83.546,
    "end": 83.97,
-   "p": 0.571,
-   "speaker": "Konstantine Gugunava"
+   "p": 0.511,
+   "speaker": "Konstantine Gugunava",
+   "heard": "how to go in PMF."
   },
   {
    "w": "So",
@@ -1180,11 +1191,12 @@
    "speaker": "Yonas Beshawred"
   },
   {
-   "w": "Jonas,",
+   "w": "Yonas,",
    "start": 103.45,
    "end": 104.07,
    "p": 0.722,
-   "speaker": "Yonas Beshawred"
+   "speaker": "Yonas Beshawred",
+   "heard": "Jonas,"
   },
   {
    "w": "co-founder",
@@ -1219,7 +1231,8 @@
    "start": 105.49,
    "end": 106.49,
    "p": 0.646,
-   "speaker": "Yonas Beshawred"
+   "speaker": "Yonas Beshawred",
+   "heard": "StarSling."
   },
   {
    "w": "We",
@@ -1607,11 +1620,12 @@
    "speaker": "Yonas Beshawred"
   },
   {
-   "w": "StarSlay.",
+   "w": "StarSling.",
    "start": 130.87,
    "end": 131.22,
    "p": 0.748,
-   "speaker": "Yonas Beshawred"
+   "speaker": "Yonas Beshawred",
+   "heard": "StarSling."
   },
   {
    "w": "Hey",
@@ -1630,37 +1644,42 @@
   {
    "w": "I'm",
    "start": 134.89,
-   "end": 135.13,
+   "end": 135.228,
    "p": 0.999,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "I'm Han, founder of Inksforge."
   },
   {
-   "w": "Han,",
-   "start": 135.13,
-   "end": 135.47,
-   "p": 0.313,
-   "speaker": "Hang Huang"
+   "w": "Hang,",
+   "start": 135.228,
+   "end": 135.566,
+   "p": 0.999,
+   "speaker": "Hang Huang",
+   "heard": "I'm Han, founder of Inksforge."
   },
   {
    "w": "founder",
-   "start": 135.47,
-   "end": 135.71,
-   "p": 0.983,
-   "speaker": "Hang Huang"
+   "start": 135.566,
+   "end": 135.904,
+   "p": 0.999,
+   "speaker": "Hang Huang",
+   "heard": "I'm Han, founder of Inksforge."
   },
   {
    "w": "of",
-   "start": 135.71,
-   "end": 135.83,
-   "p": 1.0,
-   "speaker": "Hang Huang"
+   "start": 135.904,
+   "end": 136.242,
+   "p": 0.999,
+   "speaker": "Hang Huang",
+   "heard": "I'm Han, founder of Inksforge."
   },
   {
-   "w": "Inksforge.",
-   "start": 135.83,
+   "w": "InsForge.",
+   "start": 136.242,
    "end": 136.58,
-   "p": 0.411,
-   "speaker": "Hang Huang"
+   "p": 0.999,
+   "speaker": "Hang Huang",
+   "heard": "I'm Han, founder of Inksforge."
   },
   {
    "w": "And...",
@@ -1803,39 +1822,28 @@
    "speaker": "Hang Huang"
   },
   {
-   "w": "back",
+   "w": "backend",
    "start": 149.61,
-   "end": 149.79,
+   "end": 150.257,
    "p": 0.502,
-   "speaker": "Hang Huang"
-  },
-  {
-   "w": "in",
-   "start": 149.79,
-   "end": 149.93,
-   "p": 0.669,
-   "speaker": "Hang Huang"
-  },
-  {
-   "w": "the",
-   "start": 149.93,
-   "end": 150.13,
-   "p": 0.914,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "back in the cloud infrastructure,"
   },
   {
    "w": "cloud",
-   "start": 150.13,
-   "end": 150.59,
-   "p": 0.903,
-   "speaker": "Hang Huang"
+   "start": 150.257,
+   "end": 150.903,
+   "p": 0.502,
+   "speaker": "Hang Huang",
+   "heard": "back in the cloud infrastructure,"
   },
   {
    "w": "infrastructure,",
-   "start": 150.59,
+   "start": 150.903,
    "end": 151.55,
-   "p": 0.612,
-   "speaker": "Hang Huang"
+   "p": 0.502,
+   "speaker": "Hang Huang",
+   "heard": "back in the cloud infrastructure,"
   },
   {
    "w": "but",
@@ -2237,11 +2245,12 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "Monit,",
+   "w": "Monid,",
    "start": 173.35,
    "end": 174.13,
    "p": 0.213,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "Monit,"
   },
   {
    "w": "and",
@@ -2706,18 +2715,20 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "Cdance",
+   "w": "Seedance",
    "start": 193.59,
-   "end": 194.23,
+   "end": 194.27,
    "p": 0.279,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "Cdance API,"
   },
   {
    "w": "API,",
-   "start": 194.23,
+   "start": 194.27,
    "end": 194.95,
-   "p": 0.915,
-   "speaker": "Shengkun Ye"
+   "p": 0.279,
+   "speaker": "Shengkun Ye",
+   "heard": "Cdance API,"
   },
   {
    "w": "ICO,",
@@ -2734,11 +2745,12 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "Samrush,",
+   "w": "Semrush,",
    "start": 196.61,
    "end": 197.19,
    "p": 0.329,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "Samrush,"
   },
   {
    "w": "and",
@@ -3147,25 +3159,20 @@
    "speaker": "Yonas Beshawred"
   },
   {
-   "w": "host",
+   "w": "hosted",
    "start": 218.09,
-   "end": 218.17,
+   "end": 218.72,
    "p": 0.564,
-   "speaker": "Yonas Beshawred"
+   "speaker": "Yonas Beshawred",
+   "heard": "host of program."
   },
   {
-   "w": "of",
-   "start": 218.17,
-   "end": 218.35,
-   "p": 0.246,
-   "speaker": "Yonas Beshawred"
-  },
-  {
-   "w": "program.",
-   "start": 218.35,
+   "w": "product.",
+   "start": 218.72,
    "end": 219.35,
-   "p": 0.068,
-   "speaker": "Yonas Beshawred"
+   "p": 0.564,
+   "speaker": "Yonas Beshawred",
+   "heard": "host of program."
   },
   {
    "w": "So",
@@ -5797,23 +5804,18 @@
   {
    "w": "your",
    "start": 342.09,
-   "end": 342.37,
+   "end": 342.57,
    "p": 0.723,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "your read me"
   },
   {
-   "w": "read",
-   "start": 342.37,
-   "end": 342.53,
-   "p": 0.15,
-   "speaker": "Hang Huang"
-  },
-  {
-   "w": "me",
-   "start": 342.53,
+   "w": "README",
+   "start": 342.57,
    "end": 343.05,
-   "p": 0.695,
-   "speaker": "Hang Huang"
+   "p": 0.723,
+   "speaker": "Hang Huang",
+   "heard": "your read me"
   },
   {
    "w": "instruction",
@@ -6483,51 +6485,82 @@
   {
    "w": "it's",
    "start": 379.65,
-   "end": 380.65,
+   "end": 380.042,
    "p": 0.747,
-   "speaker": "Yonas Beshawred"
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
+  },
+  {
+   "w": "called",
+   "start": 380.042,
+   "end": 380.434,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
+  },
+  {
+   "w": "Better",
+   "start": 380.434,
+   "end": 380.826,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
+  },
+  {
+   "w": "Auth,",
+   "start": 380.826,
+   "end": 381.218,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
   },
   {
    "w": "that",
-   "start": 381.57,
-   "end": 381.71,
-   "p": 0.628,
-   "speaker": "Yonas Beshawred"
+   "start": 381.218,
+   "end": 381.61,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
   },
   {
    "w": "is",
-   "start": 381.71,
-   "end": 381.85,
-   "p": 0.977,
-   "speaker": "Yonas Beshawred"
+   "start": 381.61,
+   "end": 382.002,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
   },
   {
    "w": "now",
-   "start": 381.85,
-   "end": 382.13,
-   "p": 0.992,
-   "speaker": "Yonas Beshawred"
+   "start": 382.002,
+   "end": 382.394,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
   },
   {
    "w": "part",
-   "start": 382.13,
-   "end": 382.31,
-   "p": 0.932,
-   "speaker": "Yonas Beshawred"
+   "start": 382.394,
+   "end": 382.786,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
   },
   {
    "w": "of",
-   "start": 382.31,
-   "end": 382.57,
-   "p": 0.998,
-   "speaker": "Yonas Beshawred"
+   "start": 382.786,
+   "end": 383.178,
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
   },
   {
    "w": "Vercel,",
-   "start": 382.57,
+   "start": 383.178,
    "end": 383.57,
-   "p": 0.254,
-   "speaker": "Yonas Beshawred"
+   "p": 0.747,
+   "speaker": "Yonas Beshawred",
+   "heard": "it's that is now part of Vercel,"
   },
   {
    "w": "and",
@@ -7615,25 +7648,20 @@
    "speaker": "Konstantine Gugunava"
   },
   {
-   "w": "which",
+   "w": "reaching",
    "start": 442.49,
-   "end": 442.57,
+   "end": 442.99,
    "p": 0.543,
-   "speaker": "Konstantine Gugunava"
+   "speaker": "Konstantine Gugunava",
+   "heard": "which in pmf"
   },
   {
-   "w": "in",
-   "start": 442.57,
-   "end": 442.81,
-   "p": 0.75,
-   "speaker": "Konstantine Gugunava"
-  },
-  {
-   "w": "pmf",
-   "start": 442.81,
+   "w": "PMF",
+   "start": 442.99,
    "end": 443.49,
-   "p": 0.971,
-   "speaker": "Konstantine Gugunava"
+   "p": 0.543,
+   "speaker": "Konstantine Gugunava",
+   "heard": "which in pmf"
   },
   {
    "w": "change",
@@ -11027,23 +11055,18 @@
   {
    "w": "on",
    "start": 610.81,
-   "end": 610.89,
+   "end": 611.295,
    "p": 0.919,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "on a GitLab,"
   },
   {
-   "w": "a",
-   "start": 610.89,
-   "end": 611.07,
-   "p": 0.664,
-   "speaker": "Shengkun Ye"
-  },
-  {
-   "w": "GitLab,",
-   "start": 611.07,
+   "w": "GitHub,",
+   "start": 611.295,
    "end": 611.78,
-   "p": 0.442,
-   "speaker": "Shengkun Ye"
+   "p": 0.919,
+   "speaker": "Shengkun Ye",
+   "heard": "on a GitLab,"
   },
   {
    "w": "it's",
@@ -11179,11 +11202,12 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "monet",
+   "w": "Monid",
    "start": 618.23,
    "end": 618.55,
    "p": 0.4,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "monet"
   },
   {
    "w": "is",
@@ -11795,11 +11819,20 @@
    "speaker": "Konstantine Gugunava"
   },
   {
-   "w": "bytecotters",
+   "w": "vibe",
    "start": 644.97,
+   "end": 645.21,
+   "p": 0.055,
+   "speaker": "Konstantine Gugunava",
+   "heard": "bytecotters"
+  },
+  {
+   "w": "coders",
+   "start": 645.21,
    "end": 645.45,
    "p": 0.055,
-   "speaker": "Konstantine Gugunava"
+   "speaker": "Konstantine Gugunava",
+   "heard": "bytecotters"
   },
   {
    "w": "like",
@@ -11931,30 +11964,34 @@
   {
    "w": "helps",
    "start": 654.37,
-   "end": 654.71,
+   "end": 654.798,
    "p": 0.829,
-   "speaker": "Konstantine Gugunava"
+   "speaker": "Konstantine Gugunava",
+   "heard": "helps to fund PMF,"
   },
   {
    "w": "to",
-   "start": 654.71,
-   "end": 655.01,
-   "p": 0.992,
-   "speaker": "Konstantine Gugunava"
+   "start": 654.798,
+   "end": 655.225,
+   "p": 0.829,
+   "speaker": "Konstantine Gugunava",
+   "heard": "helps to fund PMF,"
   },
   {
-   "w": "fund",
-   "start": 655.01,
-   "end": 655.31,
-   "p": 0.817,
-   "speaker": "Konstantine Gugunava"
+   "w": "find",
+   "start": 655.225,
+   "end": 655.653,
+   "p": 0.829,
+   "speaker": "Konstantine Gugunava",
+   "heard": "helps to fund PMF,"
   },
   {
    "w": "PMF,",
-   "start": 655.31,
+   "start": 655.653,
    "end": 656.08,
-   "p": 0.441,
-   "speaker": "Konstantine Gugunava"
+   "p": 0.829,
+   "speaker": "Konstantine Gugunava",
+   "heard": "helps to fund PMF,"
   },
   {
    "w": "or",
@@ -13350,25 +13387,28 @@
    "speaker": "Yonas Beshawred"
   },
   {
-   "w": "MPX",
+   "w": "npx",
    "start": 720.87,
-   "end": 721.41,
+   "end": 721.403,
    "p": 0.557,
-   "speaker": "Yonas Beshawred"
+   "speaker": "Yonas Beshawred",
+   "heard": "MPX skill add,"
   },
   {
-   "w": "skill",
-   "start": 721.41,
-   "end": 722.01,
-   "p": 0.827,
-   "speaker": "Yonas Beshawred"
+   "w": "skills",
+   "start": 721.403,
+   "end": 721.937,
+   "p": 0.557,
+   "speaker": "Yonas Beshawred",
+   "heard": "MPX skill add,"
   },
   {
    "w": "add,",
-   "start": 722.01,
+   "start": 721.937,
    "end": 722.47,
-   "p": 0.646,
-   "speaker": "Yonas Beshawred"
+   "p": 0.557,
+   "speaker": "Yonas Beshawred",
+   "heard": "MPX skill add,"
   },
   {
    "w": "right?",
@@ -13737,23 +13777,34 @@
   {
    "w": "something",
    "start": 742.69,
-   "end": 742.97,
+   "end": 742.995,
    "p": 0.999,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "something beautiful investors"
   },
   {
-   "w": "beautiful",
-   "start": 742.97,
-   "end": 743.63,
-   "p": 0.812,
-   "speaker": "Hang Huang"
+   "w": "built",
+   "start": 742.995,
+   "end": 743.3,
+   "p": 0.999,
+   "speaker": "Hang Huang",
+   "heard": "something beautiful investors"
+  },
+  {
+   "w": "for",
+   "start": 743.3,
+   "end": 743.605,
+   "p": 0.999,
+   "speaker": "Hang Huang",
+   "heard": "something beautiful investors"
   },
   {
    "w": "investors",
-   "start": 743.63,
+   "start": 743.605,
    "end": 743.91,
-   "p": 0.597,
-   "speaker": "Hang Huang"
+   "p": 0.999,
+   "speaker": "Hang Huang",
+   "heard": "something beautiful investors"
   },
   {
    "w": "or",
@@ -13912,23 +13963,34 @@
   {
    "w": "will",
    "start": 752.05,
-   "end": 752.23,
+   "end": 752.327,
    "p": 0.477,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "will not forget"
   },
   {
    "w": "not",
-   "start": 752.23,
-   "end": 752.63,
-   "p": 0.988,
-   "speaker": "Hang Huang"
+   "start": 752.327,
+   "end": 752.605,
+   "p": 0.477,
+   "speaker": "Hang Huang",
+   "heard": "will not forget"
   },
   {
-   "w": "forget",
-   "start": 752.63,
+   "w": "fork",
+   "start": 752.605,
+   "end": 752.882,
+   "p": 0.477,
+   "speaker": "Hang Huang",
+   "heard": "will not forget"
+  },
+  {
+   "w": "it",
+   "start": 752.882,
    "end": 753.16,
-   "p": 0.63,
-   "speaker": "Hang Huang"
+   "p": 0.477,
+   "speaker": "Hang Huang",
+   "heard": "will not forget"
   },
   {
    "w": "But",
@@ -14155,18 +14217,12 @@
    "speaker": "Hang Huang"
   },
   {
-   "w": "post",
+   "w": "PostHog",
    "start": 763.53,
-   "end": 763.71,
-   "p": 0.159,
-   "speaker": "Hang Huang"
-  },
-  {
-   "w": "hoc",
-   "start": 763.71,
    "end": 764.01,
-   "p": 0.628,
-   "speaker": "Hang Huang"
+   "p": 0.159,
+   "speaker": "Hang Huang",
+   "heard": "post hoc"
   },
   {
    "w": "together",
@@ -14674,11 +14730,12 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "PNF.",
+   "w": "PMF.",
    "start": 788.69,
    "end": 789.69,
    "p": 0.702,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "PNF."
   },
   {
    "w": "We",
@@ -14954,32 +15011,36 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "the",
+   "w": "all",
    "start": 801.13,
-   "end": 801.39,
+   "end": 801.528,
    "p": 0.697,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "the older tool providers."
   },
   {
-   "w": "older",
-   "start": 801.39,
-   "end": 801.61,
-   "p": 0.757,
-   "speaker": "Shengkun Ye"
+   "w": "the",
+   "start": 801.528,
+   "end": 801.925,
+   "p": 0.697,
+   "speaker": "Shengkun Ye",
+   "heard": "the older tool providers."
   },
   {
    "w": "tool",
-   "start": 801.61,
-   "end": 802.09,
-   "p": 0.925,
-   "speaker": "Shengkun Ye"
+   "start": 801.925,
+   "end": 802.322,
+   "p": 0.697,
+   "speaker": "Shengkun Ye",
+   "heard": "the older tool providers."
   },
   {
    "w": "providers.",
-   "start": 802.09,
+   "start": 802.322,
    "end": 802.72,
-   "p": 0.897,
-   "speaker": "Shengkun Ye"
+   "p": 0.697,
+   "speaker": "Shengkun Ye",
+   "heard": "the older tool providers."
   },
   {
    "w": "Like",
@@ -15773,11 +15834,12 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "Monit,",
+   "w": "Monid,",
    "start": 838.19,
    "end": 839.19,
    "p": 0.418,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "Monit,"
   },
   {
    "w": "we",
@@ -15976,11 +16038,12 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "Monit.",
+   "w": "Monid.",
    "start": 846.97,
    "end": 847.74,
    "p": 0.839,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "Monit."
   },
   {
    "w": "I",
@@ -17119,16 +17182,18 @@
   {
    "w": "unified",
    "start": 908.59,
-   "end": 908.97,
+   "end": 908.98,
    "p": 0.983,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "unified building"
   },
   {
-   "w": "building",
-   "start": 908.97,
+   "w": "billing",
+   "start": 908.98,
    "end": 909.37,
-   "p": 0.939,
-   "speaker": "Shengkun Ye"
+   "p": 0.983,
+   "speaker": "Shengkun Ye",
+   "heard": "unified building"
   },
   {
    "w": "behind",
@@ -19415,37 +19480,42 @@
   {
    "w": "closed",
    "start": 1036.31,
-   "end": 1036.51,
+   "end": 1036.53,
    "p": 0.767,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "closed source or opens or"
   },
   {
    "w": "source",
-   "start": 1036.51,
-   "end": 1036.65,
-   "p": 0.734,
-   "speaker": "Hang Huang"
+   "start": 1036.53,
+   "end": 1036.75,
+   "p": 0.767,
+   "speaker": "Hang Huang",
+   "heard": "closed source or opens or"
   },
   {
    "w": "or",
-   "start": 1036.65,
-   "end": 1036.99,
-   "p": 0.441,
-   "speaker": "Hang Huang"
+   "start": 1036.75,
+   "end": 1036.97,
+   "p": 0.767,
+   "speaker": "Hang Huang",
+   "heard": "closed source or opens or"
   },
   {
-   "w": "opens",
-   "start": 1036.99,
-   "end": 1037.23,
-   "p": 0.486,
-   "speaker": "Hang Huang"
+   "w": "open",
+   "start": 1036.97,
+   "end": 1037.19,
+   "p": 0.767,
+   "speaker": "Hang Huang",
+   "heard": "closed source or opens or"
   },
   {
-   "w": "or",
-   "start": 1037.23,
+   "w": "source,",
+   "start": 1037.19,
    "end": 1037.41,
-   "p": 0.858,
-   "speaker": "Hang Huang"
+   "p": 0.767,
+   "speaker": "Hang Huang",
+   "heard": "closed source or opens or"
   },
   {
    "w": "doesn't",
@@ -19492,30 +19562,34 @@
   {
    "w": "put",
    "start": 1038.75,
-   "end": 1038.85,
+   "end": 1038.95,
    "p": 0.944,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "put your clothes out"
   },
   {
    "w": "your",
-   "start": 1038.85,
-   "end": 1039.13,
-   "p": 0.959,
-   "speaker": "Hang Huang"
+   "start": 1038.95,
+   "end": 1039.15,
+   "p": 0.944,
+   "speaker": "Hang Huang",
+   "heard": "put your clothes out"
   },
   {
-   "w": "clothes",
-   "start": 1039.13,
-   "end": 1039.37,
-   "p": 0.529,
-   "speaker": "Hang Huang"
+   "w": "code",
+   "start": 1039.15,
+   "end": 1039.35,
+   "p": 0.944,
+   "speaker": "Hang Huang",
+   "heard": "put your clothes out"
   },
   {
    "w": "out",
-   "start": 1039.37,
+   "start": 1039.35,
    "end": 1039.55,
-   "p": 0.896,
-   "speaker": "Hang Huang"
+   "p": 0.944,
+   "speaker": "Hang Huang",
+   "heard": "put your clothes out"
   },
   {
    "w": "there",
@@ -20023,18 +20097,28 @@
    "speaker": "Hang Huang"
   },
   {
-   "w": "co-source",
+   "w": "closed",
    "start": 1059.51,
-   "end": 1060.11,
+   "end": 1059.91,
    "p": 0.368,
-   "speaker": "Hang Huang"
+   "speaker": "Hang Huang",
+   "heard": "co-source version,"
+  },
+  {
+   "w": "source",
+   "start": 1059.91,
+   "end": 1060.31,
+   "p": 0.368,
+   "speaker": "Hang Huang",
+   "heard": "co-source version,"
   },
   {
    "w": "version,",
-   "start": 1060.11,
+   "start": 1060.31,
    "end": 1060.71,
-   "p": 0.195,
-   "speaker": "Hang Huang"
+   "p": 0.368,
+   "speaker": "Hang Huang",
+   "heard": "co-source version,"
   },
   {
    "w": "that's",
@@ -20688,11 +20772,12 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "PNF,",
+   "w": "PMF,",
    "start": 1093.05,
    "end": 1093.59,
    "p": 0.765,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "PNF,"
   },
   {
    "w": "then",
@@ -20891,18 +20976,20 @@
    "speaker": "Shengkun Ye"
   },
   {
-   "w": "Haas",
+   "w": "Hang's",
    "start": 1100.71,
-   "end": 1101.03,
+   "end": 1101.08,
    "p": 0.085,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "heard": "Haas idea"
   },
   {
    "w": "idea",
-   "start": 1101.03,
+   "start": 1101.08,
    "end": 1101.45,
-   "p": 0.881,
-   "speaker": "Shengkun Ye"
+   "p": 0.085,
+   "speaker": "Shengkun Ye",
+   "heard": "Haas idea"
   },
   {
    "w": "on",
@@ -21693,7 +21780,7 @@
   {
    "start": 3.61,
    "end": 18.25,
-   "text": "And now, for our last panel of the night, finding permanent market fit as an outcome of all your hard work through finding your GTM motions."
+   "text": "And now, for our last panel of the night, finding product-market fit as an outcome of all your hard work"
   },
   {
    "start": 19.69,
@@ -21703,62 +21790,62 @@
   {
    "start": 26.41,
    "end": 34.44,
-   "text": "And finally, see that in something as beautiful as Infinite Adoption."
+   "text": "And finally, see that in something as beautiful as infinite adoption."
   },
   {
    "start": 34.69,
    "end": 42.0,
-   "text": "So I would like to invite Konstantin, who will lead our panel, the local creator and the founder."
+   "text": "So I would like to invite Konstantine, who will lead our panel, the online creator and founder."
   },
   {
    "start": 42.87,
    "end": 45.62,
-   "text": "Jonas, co-founder of Starsling."
+   "text": "Yonas, co-founder of StarSling."
   },
   {
    "start": 46.07,
    "end": 47.55,
-   "text": "You know this?"
+   "text": "Hang, co-founder"
   },
   {
    "start": 48.25,
    "end": 50.81,
-   "text": "Han, co-founder of Sierra Esporch."
+   "text": "CEO of InsForge."
   },
   {
    "start": 53.77,
    "end": 56.51,
-   "text": "And Sheffern, co-founder of London."
+   "text": "And Shengkun, co-founder of Monid."
   },
   {
    "start": 58.71,
    "end": 61.01,
-   "text": "And Constantine, take it away."
+   "text": "And Konstantine, take it away."
   },
   {
    "start": 62.13,
    "end": 63.43,
-   "text": "Thank you guys."
+   "text": "Thank you"
   },
   {
    "start": 70.47,
    "end": 78.57,
-   "text": "Hello everybody, hope you guys are doing well, it's an amazing day to be honest today."
+   "text": "Hello everybody, hope you guys are doing well, it's an amazing day to be honest today. So"
   },
   {
    "start": 78.49,
    "end": 83.97,
-   "text": "So welcome on our last panel, how to go in PNF."
+   "text": "So welcome on our last panel, how to get to PMF."
   },
   {
    "start": 84.31,
    "end": 90.82,
-   "text": "So at first point I want to let all these amazing founders to be introduced."
+   "text": "So first point I want to let all these amazing founders to be introduced."
   },
   {
    "start": 91.03,
    "end": 95.28,
-   "text": "themselves, what they are building, and if they are open source or not."
+   "text": "themselves, what they are building, and if they are open source or not. And"
   },
   {
    "start": 95.19,
@@ -21778,7 +21865,7 @@
   {
    "start": 102.97,
    "end": 106.49,
-   "text": "My name's Jonas, co-founder and CEO at StarSling."
+   "text": "My name's Yonas, co-founder and CEO at StarSling."
   },
   {
    "start": 107.67,
@@ -21793,12 +21880,12 @@
   {
    "start": 126.97,
    "end": 131.22,
-   "text": "So if anyone out here has slow CI, check out StarSlay."
+   "text": "So if anyone out here has slow CI, check out StarSling."
   },
   {
    "start": 133.53,
    "end": 136.58,
-   "text": "Hey everyone, I'm Han, founder of Inksforge."
+   "text": "Hey everyone, I'm Hang, founder of InsForge."
   },
   {
    "start": 137.13,
@@ -21813,12 +21900,12 @@
   {
    "start": 146.83,
    "end": 152.82,
-   "text": "InstaCloud, it's open source back in the cloud infrastructure, but we just tested something"
+   "text": "InstaCloud, it's open source backend cloud infrastructure, but we just tested something"
   },
   {
    "start": 153.05,
    "end": 158.02,
-   "text": "really quickly last Wednesday and it went viral, which is our sandbox offering, and we"
+   "text": "really quickly last Wednesday and it went viral, which is our sandbox offering, and we don't"
   },
   {
    "start": 157.97,
@@ -21838,22 +21925,22 @@
   {
    "start": 170.57,
    "end": 175.74,
-   "text": "Hey everyone, I'm Shengkun, Co-Founder and CEO of Monit, and we are building the open"
+   "text": "Hey everyone, I'm Shengkun, Co-Founder and CEO of Monid, and we are building the open"
   },
   {
    "start": 175.85,
    "end": 177.24,
-   "text": "router for agent tools."
+   "text": "router for agent tools. We"
   },
   {
    "start": 177.13,
    "end": 181.62,
-   "text": "We connect your agent to all the tools and API they need, and as a human, you don't need"
+   "text": "We connect your agent to all the tools and API they need, and as a human, you don't need to"
   },
   {
    "start": 181.57,
    "end": 185.98,
-   "text": "to sign up for accounts or pay for subscription for those services anymore, since your agent"
+   "text": "to sign up for accounts or pay for subscription for those services anymore, since your agent can"
   },
   {
    "start": 185.95,
@@ -21863,7 +21950,7 @@
   {
    "start": 190.53,
    "end": 197.72,
-   "text": "pay for them directly. For example, we have the Cdance API, ICO, Apollo, Samrush, and all"
+   "text": "pay for them directly. For example, we have the Seedance API, ICO, Apollo, Semrush, and all"
   },
   {
    "start": 197.81,
@@ -21883,12 +21970,12 @@
   {
    "start": 211.23,
    "end": 216.6,
-   "text": "But no, we are not open source, but we do have a bunch of skills and cool things that"
+   "text": "But no, we are not open source, but we do have a bunch of skills and cool things that you"
   },
   {
    "start": 216.55,
    "end": 219.35,
-   "text": "you can use without the host of program."
+   "text": "you can use without the hosted product."
   },
   {
    "start": 221.37,
@@ -21898,12 +21985,12 @@
   {
    "start": 229.03,
    "end": 232.14,
-   "text": "it's something that everyone, every single founder is looking for."
+   "text": "it's something that everyone, every single founder is looking"
   },
   {
    "start": 232.25,
    "end": 239.04,
-   "text": "What was like the exact moment for you guys when you say like, yes, I get it, I know it."
+   "text": "What was like the exact moment for you guys when you say like, yes, I get it, I know"
   },
   {
    "start": 239.43,
@@ -21953,7 +22040,7 @@
   {
    "start": 286.89,
    "end": 287.7,
-   "text": "feedback."
+   "text": "feedback. Since,"
   },
   {
    "start": 287.59,
@@ -21963,12 +22050,12 @@
   {
    "start": 294.55,
    "end": 297.88,
-   "text": "24 hours, we're going to, like, send an email to ask for feedback."
+   "text": "24 hours, we're going to, like, send an email to ask for feedback. And"
   },
   {
    "start": 297.73,
    "end": 301.64,
-   "text": "And then for a month, like, we haven't got back, like, any feedback from the email, and"
+   "text": "And then for a month, like, we haven't got back, like, any feedback from the email, and we"
   },
   {
    "start": 301.55,
@@ -21978,12 +22065,12 @@
   {
    "start": 303.11,
    "end": 307.88,
-   "text": "And after that, we make some changes and make the product positioning much clearer."
+   "text": "And after that, we make some changes and make the product positioning much clearer. And then"
   },
   {
    "start": 307.71,
    "end": 309.78,
-   "text": "And then we start receiving those emails."
+   "text": "And then we start receiving those emails. And"
   },
   {
    "start": 309.59,
@@ -21998,7 +22085,7 @@
   {
    "start": 315.01,
    "end": 320.32,
-   "text": "Yeah, for us was probably in the moment I was cooking my first version of the product"
+   "text": "Yeah, for us was probably in the moment I was cooking my first version of the product on"
   },
   {
    "start": 320.29,
@@ -22028,12 +22115,12 @@
   {
    "start": 338.43,
    "end": 343.72,
-   "text": "inbounds asking about hey can we try this or your read me instruction on how"
+   "text": "inbounds asking about hey can we try this or your README instruction on how"
   },
   {
    "start": 343.83,
    "end": 349.84,
-   "text": "to replicate reproduce or self-hosting really bad I cannot use it can you tell"
+   "text": "to replicate reproduce or self-hosting really bad I cannot use it can you tell me"
   },
   {
    "start": 349.79,
@@ -22063,17 +22150,17 @@
   {
    "start": 374.93,
    "end": 380.65,
-   "text": "market fit when we shipped it to our first customer who is an open source project, it's"
+   "text": "market fit when we shipped it to our first customer who is an open source project, it's called Better"
   },
   {
    "start": 381.57,
    "end": 389.42,
-   "text": "that is now part of Vercel, and he, like the maintainer, the founder, was like, \"This is awesome.\""
+   "text": "is now part of Vercel, and he, like the maintainer, the founder, was like, \"This is awesome.\""
   },
   {
    "start": 389.51,
    "end": 397.12,
-   "text": "And he merged in the PR to migrate the runners over, and that was the moment because it's free, right?"
+   "text": "And he merged in the PR to migrate the runners over, and that was the moment because it's free, right? If you're"
   },
   {
    "start": 397.03,
@@ -22113,7 +22200,7 @@
   {
    "start": 438.51,
    "end": 443.9,
-   "text": "and so how like the pmf which in pmf change"
+   "text": "and so how like the pmf reaching PMF change"
   },
   {
    "start": 444.01,
@@ -22123,12 +22210,12 @@
   {
    "start": 451.11,
    "end": 452.7,
-   "text": "I can answer this first."
+   "text": "I can answer this first. I"
   },
   {
    "start": 452.63,
    "end": 454.7,
-   "text": "I think it's actually quite important."
+   "text": "I think it's actually quite important. It's"
   },
   {
    "start": 454.43,
@@ -22138,7 +22225,7 @@
   {
    "start": 460.95,
    "end": 464.67,
-   "text": "as a distribution channel, especially for agents."
+   "text": "as a distribution channel, especially for agents. So"
   },
   {
    "start": 464.63,
@@ -22173,22 +22260,22 @@
   {
    "start": 493.87,
    "end": 497.68,
-   "text": "So that's how you get baked into the one of the default solutions."
+   "text": "So that's how you get baked into the one of the default solutions. We"
   },
   {
    "start": 497.53,
    "end": 503.78,
-   "text": "We have seen over time, our product mentioned more and more, and by those agents, that's"
+   "text": "We have seen over time, our product mentioned more and more, and by those agents, that's for"
   },
   {
    "start": 503.71,
    "end": 504.78,
-   "text": "for one."
+   "text": "for one. The second"
   },
   {
    "start": 504.37,
    "end": 508.86,
-   "text": "The second part is actually search, you know, agents starting to search using tools, and"
+   "text": "The second part is actually search, you know, agents starting to search using tools, and the"
   },
   {
    "start": 508.83,
@@ -22203,7 +22290,7 @@
   {
    "start": 516.05,
    "end": 519.15,
-   "text": "recommending a solution where agents are actually doing the proactive search?"
+   "text": "recommending a solution where agents are actually doing the proactive"
   },
   {
    "start": 522.13,
@@ -22228,12 +22315,12 @@
   {
    "start": 544.27,
    "end": 546.5,
-   "text": "so we were thinking like, you know,"
+   "text": "so we were thinking like, you know, the"
   },
   {
    "start": 546.37,
    "end": 549.88,
-   "text": "the proper way to do CI, you kind of have an engine"
+   "text": "the proper way to do CI, you kind of have an engine that"
   },
   {
    "start": 549.79,
@@ -22248,12 +22335,12 @@
   {
    "start": 553.93,
    "end": 556.68,
-   "text": "okay, well, clearly there's one place you should start,"
+   "text": "okay, well, clearly there's one place you should start, which"
   },
   {
    "start": 556.59,
    "end": 560.22,
-   "text": "which is GitHub Actions, so I think even if you're not,"
+   "text": "which is GitHub Actions, so I think even if you're not, if your"
   },
   {
    "start": 560.13,
@@ -22263,7 +22350,7 @@
   {
    "start": 562.09,
    "end": 565.32,
-   "text": "because of this whole, you know, the training is frozen"
+   "text": "because of this whole, you know, the training is frozen and"
   },
   {
    "start": 565.27,
@@ -22273,7 +22360,7 @@
   {
    "start": 568.65,
    "end": 573.54,
-   "text": "You're actually building for humans and agents at the same time, so you kind of have to account for both."
+   "text": "You're actually building for humans and agents at the same time, so you kind of have to account for both. But"
   },
   {
    "start": 573.51,
@@ -22323,7 +22410,7 @@
   {
    "start": 607.55,
    "end": 611.78,
-   "text": "actually if you're open source and all, or how much stars you have on a GitLab,"
+   "text": "actually if you're open source and all, or how much stars you have on GitHub,"
   },
   {
    "start": 611.87,
@@ -22333,7 +22420,7 @@
   {
    "start": 618.23,
    "end": 622.74,
-   "text": "monet is open source so you probably can use that oh i got that a lot it was actually we"
+   "text": "Monid is open source so you probably can use that oh i got that a lot it was actually we"
   },
   {
    "start": 622.93,
@@ -22348,7 +22435,7 @@
   {
    "start": 632.51,
    "end": 634.62,
-   "text": "And the agent's like, oh, this product is pretty legit."
+   "text": "And the agent's like, oh, this product is pretty legit. We"
   },
   {
    "start": 634.53,
@@ -22363,12 +22450,12 @@
   {
    "start": 639.03,
    "end": 640.73,
-   "text": "So yeah, anyway, just joking."
+   "text": "So yeah, anyway, just joking. Yeah, exactly."
   },
   {
    "start": 640.63,
    "end": 641.63,
-   "text": "Yeah, exactly."
+   "text": "joking. Yeah, exactly."
   },
   {
    "start": 642.71,
@@ -22378,17 +22465,17 @@
   {
    "start": 644.49,
    "end": 647.11,
-   "text": "Because like, bytecotters like me, they need it."
+   "text": "Because like, vibe coders like me, they need it."
   },
   {
    "start": 647.83,
    "end": 651.41,
-   "text": "So my next question is going to be about,"
+   "text": "So my next question is going to be"
   },
   {
    "start": 652.29,
    "end": 656.08,
-   "text": "does this open source helps to fund PMF,"
+   "text": "does this open source helps to find PMF,"
   },
   {
    "start": 656.07,
@@ -22398,17 +22485,17 @@
   {
    "start": 660.85,
    "end": 666.88,
-   "text": "Oh, I mean, so for us, we've released skills, and that's been a really great way for people"
+   "text": "Oh, I mean, so for us, we've released skills, and that's been a really great way for people to"
   },
   {
    "start": 666.81,
    "end": 667.88,
-   "text": "to discover us."
+   "text": "to discover us. So"
   },
   {
    "start": 667.63,
    "end": 672.54,
-   "text": "So if you just do /CI speedup, you can actually use it without our runners."
+   "text": "So if you just do /CI speedup, you can actually use it without our runners. So"
   },
   {
    "start": 672.39,
@@ -22428,7 +22515,7 @@
   {
    "start": 687.61,
    "end": 694.6,
-   "text": "So I think that's been really interesting to see now, that that wasn't the case previously, maybe even a year ago, right?"
+   "text": "So I think that's been really interesting to see now, that that wasn't the case previously, maybe even a year ago, right? It"
   },
   {
    "start": 694.53,
@@ -22438,32 +22525,32 @@
   {
    "start": 701.61,
    "end": 706.18,
-   "text": "you know, if you want to speed up your own CI, you can use the skill in your own agent."
+   "text": "you know, if you want to speed up your own CI, you can use the skill in your own agent. Or"
   },
   {
    "start": 706.03,
    "end": 709.56,
-   "text": "Or if you don't have to do that yourself, we'll do it for you with our own agent."
+   "text": "Or if you don't have to do that yourself, we'll do it for you with our own agent. So"
   },
   {
    "start": 709.47,
    "end": 712.74,
-   "text": "So I think the skills have been really cool."
+   "text": "So I think the skills have been really cool. And then"
   },
   {
    "start": 712.57,
    "end": 718.7,
-   "text": "And then Vercel, because they have skills.sh, that's been really helpful because it's all"
+   "text": "And then Vercel, because they have skills.sh, that's been really helpful because it's all in"
   },
   {
    "start": 718.67,
    "end": 719.9,
-   "text": "in one place, right?"
+   "text": "in one place, right? And you can"
   },
   {
    "start": 719.71,
    "end": 723.47,
-   "text": "And you can just do MPX skill add, right?"
+   "text": "And you can just do npx skills add, right?"
   },
   {
    "start": 724.99,
@@ -22488,12 +22575,12 @@
   {
    "start": 742.69,
    "end": 748.14,
-   "text": "something beautiful investors or VCs is actually what we look more is about star"
+   "text": "something built for investors or VCs is actually what we look more is about star"
   },
   {
    "start": 748.25,
    "end": 753.16,
-   "text": "to fork ratio depends on repos or skills like normally people will not forget"
+   "text": "to fork ratio depends on repos or skills like normally people will not fork it"
   },
   {
    "start": 753.29,
@@ -22508,7 +22595,7 @@
   {
    "start": 759.77,
    "end": 765.46,
-   "text": "And we're also using some signal check-ins combined with post hoc together to see some analytics"
+   "text": "And we're also using some signal check-ins combined with PostHog together to see some analytics"
   },
   {
    "start": 765.79,
@@ -22528,12 +22615,12 @@
   {
    "start": 782.29,
    "end": 784.96,
-   "text": "if people are actually using our open source products."
+   "text": "if people are actually using our open source"
   },
   {
    "start": 785.69,
    "end": 792.96,
-   "text": "Yeah, open source for us really help us with the PNF. We started as the really closed source"
+   "text": "Yeah, open source for us really help us with the PMF. We started as the really closed source"
   },
   {
    "start": 793.03,
@@ -22548,7 +22635,7 @@
   {
    "start": 800.37,
    "end": 802.72,
-   "text": "The other side is the older tool providers."
+   "text": "The other side is all the tool providers."
   },
   {
    "start": 802.81,
@@ -22563,7 +22650,7 @@
   {
    "start": 809.71,
    "end": 813.62,
-   "text": "But what we are not sure is that like how much leverage"
+   "text": "But what we are not sure is that like how much leverage we"
   },
   {
    "start": 813.57,
@@ -22603,7 +22690,7 @@
   {
    "start": 833.01,
    "end": 834.46,
-   "text": "and get them on board."
+   "text": "and get them on board. We"
   },
   {
    "start": 834.37,
@@ -22613,22 +22700,22 @@
   {
    "start": 836.83,
    "end": 842.98,
-   "text": "But after the open source Monit, we received a lot of PRs from all the different types of"
+   "text": "But after the open source Monid, we received a lot of PRs from all the different types of the"
   },
   {
    "start": 842.93,
    "end": 843.98,
-   "text": "the providers."
+   "text": "the providers. They"
   },
   {
    "start": 843.87,
    "end": 847.74,
-   "text": "They came to us and said, \"Oh, I really want to be listed on Monit."
+   "text": "They came to us and said, \"Oh, I really want to be listed on Monid."
   },
   {
    "start": 847.73,
    "end": 850.26,
-   "text": "I already submitted my PR."
+   "text": "I already submitted my PR. Can"
   },
   {
    "start": 850.09,
@@ -22668,12 +22755,12 @@
   {
    "start": 883.31,
    "end": 891.84,
-   "text": "Yeah, for us, it's really about what's the core value of your product."
+   "text": "Yeah, for us, it's really about what's the core value of your product. For"
   },
   {
    "start": 891.71,
    "end": 897.0,
-   "text": "For us, especially today, agents are so easy to do all the integration work."
+   "text": "For us, especially today, agents are so easy to do all the integration work. So"
   },
   {
    "start": 896.87,
@@ -22688,7 +22775,7 @@
   {
    "start": 906.97,
    "end": 912.36,
-   "text": "pricing and also the unified building behind the scene and that's the part that people"
+   "text": "pricing and also the unified billing behind the scene and that's the part that people"
   },
   {
    "start": 912.35,
@@ -22698,12 +22785,12 @@
   {
    "start": 918.93,
    "end": 923.7,
-   "text": "more kind of like, oh, we help, we let people know about, oh, we are providing such a framework."
+   "text": "more kind of like, oh, we help, we let people know about, oh, we are providing such a framework. We"
   },
   {
    "start": 923.53,
    "end": 927.54,
-   "text": "We let the providers be easily onboarding themselves to the platform."
+   "text": "We let the providers be easily onboarding themselves to the platform. But"
   },
   {
    "start": 927.37,
@@ -22713,7 +22800,7 @@
   {
    "start": 931.81,
    "end": 933.16,
-   "text": "the hosted version."
+   "text": "the hosted version. So"
   },
   {
    "start": 933.01,
@@ -22733,7 +22820,7 @@
   {
    "start": 947.97,
    "end": 951.88,
-   "text": "a full experience but if it is actually in production"
+   "text": "a full experience but if it is actually in production you"
   },
   {
    "start": 951.81,
@@ -22763,7 +22850,7 @@
   {
    "start": 974.07,
    "end": 982.76,
-   "text": "that's kind of the strategy we've took we've took so far yeah I mean agreed one"
+   "text": "that's kind of the strategy we've took we've took so far yeah I mean agreed one of"
   },
   {
    "start": 982.73,
@@ -22778,7 +22865,7 @@
   {
    "start": 988.11,
    "end": 996.58,
-   "text": "Fork it, it's free, but if you're an enterprise, you typically want some more features."
+   "text": "Fork it, it's free, but if you're an enterprise, you typically want some more features. You have"
   },
   {
    "start": 996.39,
@@ -22818,12 +22905,12 @@
   {
    "start": 1034.47,
    "end": 1037.83,
-   "text": "already happening even though if your closed source or opens or doesn't really"
+   "text": "already happening even though if your closed source or open source, doesn't really"
   },
   {
    "start": 1038.03,
    "end": 1041.9,
-   "text": "matter why don't you put your clothes out there so people can just feel some you"
+   "text": "matter why don't you put your code out there so people can just feel some you"
   },
   {
    "start": 1041.91,
@@ -22838,7 +22925,7 @@
   {
    "start": 1055.95,
    "end": 1072.52,
-   "text": "That's how you get your first few users, so it's much better than a co-source version, that's just like, you know, the 100x, the number 100 or whatever, like the 200 companies, are they doing this database thing, I don't know what it is, I don't even want to try it."
+   "text": "That's how you get your first few so it's much better than a closed source version, that's just like, you know, the 100x, the number 100 or whatever, like the 200 companies, are they doing this database thing, I don't know what it is, I don't even want to try it."
   },
   {
    "start": 1072.63,
@@ -22853,7 +22940,7 @@
   {
    "start": 1086.19,
    "end": 1094.72,
-   "text": "So, if that's the case, you just do the right thing for a company, if closed source is the most useful way for you to find a PNF, then just go for it."
+   "text": "So, if that's the case, you just do the right thing for a company, if closed source is the most useful way for you to find a PMF, then just go for it."
   },
   {
    "start": 1095.03,
@@ -22863,17 +22950,17 @@
   {
    "start": 1097.55,
    "end": 1102.46,
-   "text": "that I could just do it, so I pretty aligned with the Haas idea on it."
+   "text": "that I could just do it, so I pretty aligned with the Hang's idea on it."
   },
   {
    "start": 1102.71,
    "end": 1105.46,
-   "text": "Yeah, well, I think I agree as well."
+   "text": "Yeah, well, I think I agree as well. The"
   },
   {
    "start": 1105.39,
    "end": 1109.46,
-   "text": "The only exception is if what you're building has to do with compute,"
+   "text": "The only exception is if what you're building has to do with compute, it's"
   },
   {
    "start": 1109.33,
@@ -22893,7 +22980,7 @@
   {
    "start": 1119.65,
    "end": 1122.46,
-   "text": "But what you really need is you need a lot of servers."
+   "text": "But what you really need is you need a lot of servers. You need a lot"
   },
   {
    "start": 1122.11,

@@ -28,6 +28,7 @@ from pathlib import Path
 
 import numpy as np
 
+import fix_words
 from common import MODEL, decode_audio, event_dir, load_event
 
 SPECIAL = re.compile(r"^\[_.*\]$|^<\|.*\|>$")
@@ -61,6 +62,9 @@ def chunk_bounds(pcm: np.ndarray) -> list:
     return bounds
 
 
+PROMPT = ""  # names and terms whisper should expect; set from event.yaml in main()
+
+
 def run_whisper(audio: Path, out_base: Path, language: str) -> tuple[list, list, int]:
     """Transcribe in chunks cut at pauses. Returns (words, segments, chunk count).
 
@@ -80,7 +84,8 @@ def run_whisper(audio: Path, out_base: Path, language: str) -> tuple[list, list,
                            input=pcm[int(a * WHISPER_SR):int(b * WHISPER_SR)].tobytes(), check=True)
             files.append(f)
         subprocess.run(["whisper-cli", "-m", str(MODEL), "-l", language, "-ojf", "-dtw", "large.v3.turbo",
-                        "-nfa", "-np", *[x for f in files for x in ("-f", str(f))]],
+                        "-nfa", "-np", *(["--prompt", PROMPT] if PROMPT else []),
+                        *[x for f in files for x in ("-f", str(f))]],
                        check=True, capture_output=True)
         for f, (a, b) in zip(files, bounds):
             data = json.loads(Path(f"{f}.json").read_text())
@@ -106,6 +111,7 @@ def whisper(wav: Path, base: Path, language: str, srt: bool = False) -> Path:
     # No --vad: it remaps segment times but not token times in this build.
     subprocess.run(["whisper-cli", "-m", str(MODEL), "-f", str(wav), "-l", language,
                     "-ojf", *(["-osrt"] if srt else []), "-dtw", "large.v3.turbo", "-nfa", "-np",
+                    *(["--prompt", PROMPT] if PROMPT else []),
                     "-of", str(base)], check=True, capture_output=True)
     return Path(f"{base}.json")
 
@@ -211,6 +217,8 @@ def main():
 
     edir = event_dir(args.event)
     ev = load_event(edir)
+    global PROMPT
+    PROMPT = fix_words.vocabulary(ev)
     (edir / "transcripts").mkdir(exist_ok=True)
     for panel in ev.get("panels", []):
         if args.panel and panel["id"] != args.panel:
@@ -229,6 +237,11 @@ def main():
         if not args.no_refill:
             out["words"], n = refill_gaps(mix, out["words"], args.language)
             print(f"[{panel['id']}] gap refill: {n} words added")
+        changes = fix_words.apply(out["words"], ev.get("corrections") or [], panel["id"])
+        if changes:
+            print(f"[{panel['id']}] {len(changes)} corrections from event.yaml applied")
+        fix_words.rebuild_segments(out)
+        write_srt(out_base.with_suffix(".srt"), out["segments"])
         out_base.with_suffix(".json").write_text(json.dumps(out, indent=1))
         print(f"[{panel['id']}] {len(out['words'])} words, {len(out['segments'])} segments")
 

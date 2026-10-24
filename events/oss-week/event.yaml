@@ -143,3 +143,81 @@ panels:
   mic_speakers: {}
   start: 2985                      # 49:45, host's intro
   end: 4125                        # 68:45
+
+# Transcript fixes, applied after every transcription (scripts/fix_words.py)
+corrections:
+- {find: postdoc, replace: PostHog}
+- {find: post-hoc, replace: PostHog}
+- {find: post hoc, replace: PostHog}
+- {find: post-op, replace: PostHog}
+- {find: Unicraft, replace: Unikraft}
+- {find: PNF, replace: PMF}
+- {find: Kline, replace: Cline, panel: gtm}
+- {find: Kline's, replace: Cline's, panel: gtm}
+- {find: Klein, replace: Cline, panel: gtm}
+- {find: using client internally, replace: using Cline internally, panel: gtm}
+- {find: best boss ads, replace: best bus ads, panel: gtm}
+- {find: a COI, replace: a CLI, panel: gtm}
+- {find: BYAC, replace: BYOC, panel: gtm}
+- {find: poor requests, replace: pull requests, panel: gtm}
+- {find: GTM engineered, replace: GTM engineer, panel: gtm}
+- {find: advice from the audience, replace: advice for the audience, panel: gtm}
+- {find: open source i have been, replace: 'open source, have been', panel: gtm}
+- {find: Tom Picker head of cyber security at Boswell, replace: 'Tom Piccirello, head of cybersecurity at PostHog', panel: ai-security}
+- {find: Justin DeSouza co-founder of Asymptom, replace: "Justin D'Souza, co-founder of Asymptote", panel: ai-security}
+- {find: Matt Levert founder of Victron, replace: 'Matt Lenhard, founder of Vectoral', panel: ai-security}
+- {find: CDEs, replace: CVEs, panel: ai-security}
+- {find: go to get help, replace: go to GitHub, panel: ai-security}
+- {find: Ghosty, replace: Ghostty, panel: ai-security}
+- {find: LightLM, replace: LiteLLM, panel: ai-security}
+- {find: railway, replace: Railway, panel: ai-security}
+- {find: Cloud Code, replace: Claude Code, panel: ai-security}
+- {find: their sim, replace: their SIEM, panel: ai-security}
+- {find: these NPRs, replace: these in PRs, panel: ai-security}
+- {find: AIM points, replace: AI endpoints, panel: ai-security}
+- {find: follow Sue, replace: follow suit, panel: ai-security}
+- {find: a odd take, replace: a hot take, panel: ai-security}
+- {find: inference of abuse, replace: inference abuse, panel: ai-security}
+- {find: See if it's a, replace: '', panel: pmf, at: 0}
+- {find: through finding your GTM motions, replace: '', panel: pmf, at: 14.5}
+- {find: permanent market fit, replace: product-market fit, panel: pmf}
+- {find: Konstantin, replace: Konstantine, panel: pmf}
+- {find: Constantine, replace: Konstantine, panel: pmf}
+- {find: Jonas, replace: Yonas, panel: pmf}
+- {find: Starsling, replace: StarSling, panel: pmf}
+- {find: StarSlay, replace: StarSling, panel: pmf}
+- {find: And Sheffern co-founder of London, replace: 'And Shengkun, co-founder of Monid', panel: pmf}
+- {find: I'm Han founder of Inksforge, replace: "I'm Hang, founder of InsForge", panel: pmf}
+- {find: Monit, replace: Monid, panel: pmf}
+- {find: monet, replace: Monid, panel: pmf}
+- {find: which in pmf, replace: reaching PMF, panel: pmf}
+- {find: bytecotters, replace: vibe coders, panel: pmf}
+- {find: helps to fund PMF, replace: helps to find PMF, panel: pmf}
+- {find: MPX skill add, replace: npx skills add, panel: pmf}
+- {find: something beautiful investors, replace: something built for investors, panel: pmf}
+- {find: will not forget, replace: will not fork it, panel: pmf}
+- {find: the older tool providers, replace: all the tool providers, panel: pmf}
+- {find: unified building, replace: unified billing, panel: pmf}
+- {find: put your clothes out, replace: put your code out, panel: pmf}
+- {find: co-source version, replace: closed source version, panel: pmf}
+- {find: Haas idea, replace: Hang's idea, panel: pmf}
+- {find: closed source or opens or, replace: 'closed source or open source,', panel: pmf}
+- {find: it's that is now part of Vercel, replace: "it's called Better Auth, that is now part of Vercel", panel: pmf}
+- {find: your read me, replace: your README, panel: pmf}
+- {find: Saud, replace: Saoud, panel: gtm}
+- {find: living NSF, replace: living in SF, panel: gtm}
+- {find: ShipVox, replace: Shipfox, panel: gtm}
+- {find: To the bet To the bet To the best bus ads that have ever existed work well, replace: Do the best bus ads that have ever existed work well?, panel: gtm}
+- {find: We'd have to do linear Sure So let me think, replace: '', panel: gtm}
+- {find: the local creator and the founder, replace: the online creator and founder, panel: pmf}
+- {find: You know this Han co-founder of Sierra Esporch, replace: 'Hang, co-founder and CEO of InsForge.', panel: pmf}
+- {find: back in the cloud infrastructure, replace: backend cloud infrastructure, panel: pmf}
+- {find: Cdance API, replace: Seedance API, panel: pmf}
+- {find: Samrush, replace: Semrush, panel: pmf}
+- {find: host of program, replace: hosted product, panel: pmf}
+- {find: on a GitLab, replace: on GitHub, panel: pmf}
+- {find: how to go in PMF, replace: how to get to PMF, panel: pmf}
+- {find: Infinite Adoption, replace: infinite adoption, panel: pmf}
+
+# Names and terms whisper should expect (passed as its prompt, with every name/company in `people`)
+vocabulary: [PostHog, Unikraft, Cline, Asymptote, Vectoral, StarSling, InsForge, Monid, KokaBuildSF, Clova, 1984.vc, YC, GitHub, GitHub Actions, CVE, LiteLLM, Ghostty, Claude, Claude Code, OpenClaw, Vercel, Better Auth, Mastra, Railway, SIEM, PMF, GTM, BYOC, npx, PRs, Shipfox, Saoud, Seedance, Semrush, Beacon, InstaCloud]

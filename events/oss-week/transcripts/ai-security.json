@@ -167,93 +167,98 @@
   {
    "w": "Tom",
    "start": 13.17,
-   "end": 13.35,
+   "end": 14.064,
    "p": 0.81,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Tom Picker, head of cyber security at Boswell."
   },
   {
-   "w": "Picker,",
-   "start": 13.35,
-   "end": 14.35,
-   "p": 0.215,
-   "speaker": "Kliment Minchev"
+   "w": "Piccirello,",
+   "start": 14.064,
+   "end": 14.959,
+   "p": 0.81,
+   "speaker": "Kliment Minchev",
+   "heard": "Tom Picker, head of cyber security at Boswell."
   },
   {
    "w": "head",
-   "start": 16.77,
-   "end": 16.93,
-   "p": 0.447,
-   "speaker": "Kliment Minchev"
+   "start": 14.959,
+   "end": 15.853,
+   "p": 0.81,
+   "speaker": "Kliment Minchev",
+   "heard": "Tom Picker, head of cyber security at Boswell."
   },
   {
    "w": "of",
-   "start": 16.93,
-   "end": 17.21,
-   "p": 0.985,
-   "speaker": "Kliment Minchev"
+   "start": 15.853,
+   "end": 16.747,
+   "p": 0.81,
+   "speaker": "Kliment Minchev",
+   "heard": "Tom Picker, head of cyber security at Boswell."
   },
   {
-   "w": "cyber",
-   "start": 17.21,
-   "end": 17.73,
-   "p": 0.507,
-   "speaker": "Kliment Minchev"
-  },
-  {
-   "w": "security",
-   "start": 17.73,
-   "end": 18.23,
-   "p": 0.695,
-   "speaker": "Kliment Minchev"
+   "w": "cybersecurity",
+   "start": 16.747,
+   "end": 17.641,
+   "p": 0.81,
+   "speaker": "Kliment Minchev",
+   "heard": "Tom Picker, head of cyber security at Boswell."
   },
   {
    "w": "at",
-   "start": 18.23,
-   "end": 18.43,
-   "p": 0.695,
-   "speaker": "Kliment Minchev"
+   "start": 17.641,
+   "end": 18.536,
+   "p": 0.81,
+   "speaker": "Kliment Minchev",
+   "heard": "Tom Picker, head of cyber security at Boswell."
   },
   {
-   "w": "Boswell.",
-   "start": 18.43,
+   "w": "PostHog.",
+   "start": 18.536,
    "end": 19.43,
-   "p": 0.052,
-   "speaker": "Kliment Minchev"
+   "p": 0.81,
+   "speaker": "Kliment Minchev",
+   "heard": "Tom Picker, head of cyber security at Boswell."
   },
   {
    "w": "Justin",
    "start": 21.61,
-   "end": 22.19,
+   "end": 22.27,
    "p": 0.915,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Justin DeSouza, co-founder of Asymptom,"
   },
   {
-   "w": "DeSouza,",
-   "start": 22.19,
-   "end": 23.15,
-   "p": 0.386,
-   "speaker": "Kliment Minchev"
+   "w": "D'Souza,",
+   "start": 22.27,
+   "end": 22.93,
+   "p": 0.915,
+   "speaker": "Kliment Minchev",
+   "heard": "Justin DeSouza, co-founder of Asymptom,"
   },
   {
    "w": "co-founder",
-   "start": 23.15,
-   "end": 23.67,
-   "p": 0.805,
-   "speaker": "Kliment Minchev"
+   "start": 22.93,
+   "end": 23.59,
+   "p": 0.915,
+   "speaker": "Kliment Minchev",
+   "heard": "Justin DeSouza, co-founder of Asymptom,"
   },
   {
    "w": "of",
-   "start": 23.67,
-   "end": 23.91,
-   "p": 0.715,
-   "speaker": "Kliment Minchev"
+   "start": 23.59,
+   "end": 24.25,
+   "p": 0.915,
+   "speaker": "Kliment Minchev",
+   "heard": "Justin DeSouza, co-founder of Asymptom,"
   },
   {
-   "w": "Asymptom,",
-   "start": 23.91,
+   "w": "Asymptote,",
+   "start": 24.25,
    "end": 24.91,
-   "p": 0.152,
-   "speaker": "Kliment Minchev"
+   "p": 0.915,
+   "speaker": "Kliment Minchev",
+   "heard": "Justin DeSouza, co-founder of Asymptom,"
   },
   {
    "w": "and",
@@ -273,37 +278,42 @@
   {
    "w": "Matt",
    "start": 30.61,
-   "end": 30.77,
+   "end": 31.122,
    "p": 0.848,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "Matt Levert, founder of Victron."
   },
   {
-   "w": "Levert,",
-   "start": 30.77,
-   "end": 31.77,
-   "p": 0.267,
-   "speaker": "Kliment Minchev"
+   "w": "Lenhard,",
+   "start": 31.122,
+   "end": 31.634,
+   "p": 0.848,
+   "speaker": "Kliment Minchev",
+   "heard": "Matt Levert, founder of Victron."
   },
   {
    "w": "founder",
-   "start": 31.83,
-   "end": 31.99,
-   "p": 0.767,
-   "speaker": "Kliment Minchev"
+   "start": 31.634,
+   "end": 32.146,
+   "p": 0.848,
+   "speaker": "Kliment Minchev",
+   "heard": "Matt Levert, founder of Victron."
   },
   {
    "w": "of",
-   "start": 31.99,
-   "end": 32.17,
-   "p": 0.971,
-   "speaker": "Kliment Minchev"
+   "start": 32.146,
+   "end": 32.658,
+   "p": 0.848,
+   "speaker": "Kliment Minchev",
+   "heard": "Matt Levert, founder of Victron."
   },
   {
-   "w": "Victron.",
-   "start": 32.17,
+   "w": "Vectoral.",
+   "start": 32.658,
    "end": 33.17,
-   "p": 0.279,
-   "speaker": "Kliment Minchev"
+   "p": 0.848,
+   "speaker": "Kliment Minchev",
+   "heard": "Matt Levert, founder of Victron."
   },
   {
    "w": "I'd",
@@ -672,11 +682,12 @@
    "speaker": "Kliment Minchev"
   },
   {
-   "w": "CDEs",
+   "w": "CVEs",
    "start": 57.01,
    "end": 57.73,
    "p": 0.354,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "CDEs"
   },
   {
    "w": "and",
@@ -1544,30 +1555,26 @@
   {
    "w": "go",
    "start": 118.39,
-   "end": 119.21,
+   "end": 118.81,
    "p": 0.476,
-   "speaker": "Matt Lenhard"
+   "speaker": "Matt Lenhard",
+   "heard": "go to get help"
   },
   {
    "w": "to",
-   "start": 119.21,
-   "end": 119.35,
-   "p": 0.982,
-   "speaker": "Matt Lenhard"
+   "start": 118.81,
+   "end": 119.23,
+   "p": 0.476,
+   "speaker": "Matt Lenhard",
+   "heard": "go to get help"
   },
   {
-   "w": "get",
-   "start": 119.35,
-   "end": 119.51,
-   "p": 0.562,
-   "speaker": "Matt Lenhard"
-  },
-  {
-   "w": "help",
-   "start": 119.51,
+   "w": "GitHub",
+   "start": 119.23,
    "end": 119.65,
-   "p": 0.837,
-   "speaker": "Matt Lenhard"
+   "p": 0.476,
+   "speaker": "Matt Lenhard",
+   "heard": "go to get help"
   },
   {
    "w": "and",
@@ -3287,11 +3294,12 @@
    "speaker": "Tom Piccirello"
   },
   {
-   "w": "Ghosty.",
+   "w": "Ghostty.",
    "start": 225.91,
    "end": 226.66,
    "p": 0.641,
-   "speaker": "Tom Piccirello"
+   "speaker": "Tom Piccirello",
+   "heard": "Ghosty."
   },
   {
    "w": "I",
@@ -5467,11 +5475,12 @@
    "speaker": "Mark Percival"
   },
   {
-   "w": "railway",
+   "w": "Railway",
    "start": 349.91,
    "end": 350.31,
    "p": 0.337,
-   "speaker": "Mark Percival"
+   "speaker": "Mark Percival",
+   "heard": "Railway"
   },
   {
    "w": "get",
@@ -5586,18 +5595,12 @@
    "speaker": "Mark Percival"
   },
   {
-   "w": "post",
+   "w": "PostHog",
    "start": 355.25,
-   "end": 355.37,
-   "p": 0.918,
-   "speaker": "Mark Percival"
-  },
-  {
-   "w": "hoc",
-   "start": 355.37,
    "end": 355.73,
-   "p": 0.394,
-   "speaker": "Mark Percival"
+   "p": 0.918,
+   "speaker": "Mark Percival",
+   "heard": "post hoc"
   },
   {
    "w": "size,",
@@ -6854,11 +6857,12 @@
    "speaker": "Justin D'Souza"
   },
   {
-   "w": "LightLM",
+   "w": "LiteLLM",
    "start": 423.85,
    "end": 424.51,
    "p": 0.403,
-   "speaker": "Justin D'Souza"
+   "speaker": "Justin D'Souza",
+   "heard": "LightLM"
   },
   {
    "w": "today,",
@@ -13379,18 +13383,20 @@
    "speaker": "Justin D'Souza"
   },
   {
-   "w": "Cloud",
+   "w": "Claude",
    "start": 766.13,
-   "end": 766.39,
+   "end": 766.36,
    "p": 0.546,
-   "speaker": "Justin D'Souza"
+   "speaker": "Justin D'Souza",
+   "heard": "Cloud Code"
   },
   {
    "w": "Code",
-   "start": 766.39,
+   "start": 766.36,
    "end": 766.59,
-   "p": 0.74,
-   "speaker": "Justin D'Souza"
+   "p": 0.546,
+   "speaker": "Justin D'Souza",
+   "heard": "Cloud Code"
   },
   {
    "w": "as",
@@ -16157,16 +16163,18 @@
   {
    "w": "their",
    "start": 893.91,
-   "end": 894.11,
+   "end": 894.07,
    "p": 0.964,
-   "speaker": "Justin D'Souza"
+   "speaker": "Justin D'Souza",
+   "heard": "their sim"
   },
   {
-   "w": "sim",
-   "start": 894.11,
+   "w": "SIEM",
+   "start": 894.07,
    "end": 894.23,
-   "p": 0.404,
-   "speaker": "Justin D'Souza"
+   "p": 0.964,
+   "speaker": "Justin D'Souza",
+   "heard": "their sim"
   },
   {
    "w": "or",
@@ -17214,16 +17222,26 @@
   {
    "w": "these",
    "start": 946.89,
-   "end": 947.01,
+   "end": 947.11,
    "p": 0.996,
-   "speaker": "Tom Piccirello"
+   "speaker": "Tom Piccirello",
+   "heard": "these NPRs"
   },
   {
-   "w": "NPRs",
-   "start": 947.01,
+   "w": "in",
+   "start": 947.11,
+   "end": 947.33,
+   "p": 0.996,
+   "speaker": "Tom Piccirello",
+   "heard": "these NPRs"
+  },
+  {
+   "w": "PRs",
+   "start": 947.33,
    "end": 947.55,
-   "p": 0.707,
-   "speaker": "Tom Piccirello"
+   "p": 0.996,
+   "speaker": "Tom Piccirello",
+   "heard": "these NPRs"
   },
   {
    "w": "before",
@@ -18684,23 +18702,18 @@
   {
    "w": "inference",
    "start": 1021.17,
-   "end": 1021.91,
+   "end": 1022.21,
    "p": 0.958,
-   "speaker": "Matt Lenhard"
-  },
-  {
-   "w": "of",
-   "start": 1021.91,
-   "end": 1022.89,
-   "p": 0.645,
-   "speaker": "Matt Lenhard"
+   "speaker": "Matt Lenhard",
+   "heard": "inference of abuse"
   },
   {
    "w": "abuse",
-   "start": 1022.89,
+   "start": 1022.21,
    "end": 1023.25,
-   "p": 0.991,
-   "speaker": "Matt Lenhard"
+   "p": 0.958,
+   "speaker": "Matt Lenhard",
+   "heard": "inference of abuse"
   },
   {
    "w": "and",
@@ -18808,18 +18821,20 @@
    "speaker": "Matt Lenhard"
   },
   {
-   "w": "AIM",
+   "w": "AI",
    "start": 1031.39,
-   "end": 1031.99,
+   "end": 1031.975,
    "p": 0.707,
-   "speaker": "Matt Lenhard"
+   "speaker": "Matt Lenhard",
+   "heard": "AIM points."
   },
   {
-   "w": "points.",
-   "start": 1031.99,
+   "w": "endpoints.",
+   "start": 1031.975,
    "end": 1032.56,
-   "p": 0.513,
-   "speaker": "Matt Lenhard"
+   "p": 0.707,
+   "speaker": "Matt Lenhard",
+   "heard": "AIM points."
   },
   {
    "w": "So",
@@ -20028,16 +20043,18 @@
   {
    "w": "follow",
    "start": 1110.73,
-   "end": 1110.97,
+   "end": 1110.99,
    "p": 0.99,
-   "speaker": "Kliment Minchev"
+   "speaker": "Kliment Minchev",
+   "heard": "follow Sue"
   },
   {
-   "w": "Sue",
-   "start": 1110.97,
+   "w": "suit",
+   "start": 1110.99,
    "end": 1111.25,
-   "p": 0.907,
-   "speaker": "Kliment Minchev"
+   "p": 0.99,
+   "speaker": "Kliment Minchev",
+   "heard": "follow Sue"
   },
   {
    "w": "with",
@@ -20731,23 +20748,26 @@
   {
    "w": "a",
    "start": 1154.55,
-   "end": 1154.67,
+   "end": 1154.69,
    "p": 0.444,
-   "speaker": "Matt Lenhard"
+   "speaker": "Matt Lenhard",
+   "heard": "a odd take,"
   },
   {
-   "w": "odd",
-   "start": 1154.67,
-   "end": 1154.81,
-   "p": 0.423,
-   "speaker": "Matt Lenhard"
+   "w": "hot",
+   "start": 1154.69,
+   "end": 1154.83,
+   "p": 0.444,
+   "speaker": "Matt Lenhard",
+   "heard": "a odd take,"
   },
   {
    "w": "take,",
-   "start": 1154.81,
+   "start": 1154.83,
    "end": 1154.97,
-   "p": 0.711,
-   "speaker": "Matt Lenhard"
+   "p": 0.444,
+   "speaker": "Matt Lenhard",
+   "heard": "a odd take,"
   },
   {
    "w": "but",
@@ -23758,17 +23778,17 @@
   {
    "start": 0.91,
    "end": 7.89,
-   "text": "Fantastic. And now I would like to invite some of my other favorite people for"
+   "text": "And now I would like to invite some of my other favorite people for"
   },
   {
    "start": 8.65,
    "end": 19.43,
-   "text": "open source and AI and cyber security discussion. Tom Picker, head of cyber security at Boswell."
+   "text": "open source and AI and cyber security discussion. Tom Piccirello, head of cybersecurity at PostHog."
   },
   {
    "start": 21.61,
    "end": 33.17,
-   "text": "Justin DeSouza, co-founder of Asymptom, and Matt Levert, founder of Victron."
+   "text": "Justin D'Souza, co-founder of Asymptote, and and Matt Lenhard, founder of Vectoral."
   },
   {
    "start": 35.25,
@@ -23778,17 +23798,17 @@
   {
    "start": 43.23,
    "end": 48.9,
-   "text": "for us and I think we can do a good job sharing the microphones just cuz we're"
+   "text": "for us and I think we can do a good job sharing the microphones cuz we're"
   },
   {
    "start": 49.61,
    "end": 57.84,
-   "text": "short a little bit. All righty so it's been a packed couple of days of CDEs and"
+   "text": "short a little All righty so it's been a packed couple of days of CVEs and"
   },
   {
    "start": 58.47,
    "end": 66.66,
-   "text": "news. The space is definitely undergoing what I consider a bit of a cultural shift."
+   "text": "news. The space is definitely undergoing what I consider a bit of a cultural"
   },
   {
    "start": 67.63,
@@ -23818,7 +23838,7 @@
   {
    "start": 90.87,
    "end": 93.58,
-   "text": "from an external collaborator perspective?"
+   "text": "from an external collaborator"
   },
   {
    "start": 94.51,
@@ -23838,7 +23858,7 @@
   {
    "start": 115.39,
    "end": 119.96,
-   "text": "would encourage people in this like room to do is like go go to get help and look"
+   "text": "would encourage people in this like room to do is like go go to GitHub and look"
   },
   {
    "start": 119.97,
@@ -23853,7 +23873,7 @@
   {
    "start": 125.31,
    "end": 130.28,
-   "text": "There's probably like three repos set up right now for how to exploit them, how to manage"
+   "text": "There's probably like three repos set up right now for how to exploit them, how to manage an"
   },
   {
    "start": 130.23,
@@ -23863,7 +23883,7 @@
   {
    "start": 132.83,
    "end": 140.12,
-   "text": "Like, it's kind of like your own, I don't know, AI red team in a box for specific agents."
+   "text": "Like, kind of like your own, I don't know, AI red team in a box for specific agents."
   },
   {
    "start": 140.77,
@@ -23903,7 +23923,7 @@
   {
    "start": 185.63,
    "end": 188.37,
-   "text": "Yeah, it's not working."
+   "text": "Yeah, not working. There"
   },
   {
    "start": 188.27,
@@ -23933,7 +23953,7 @@
   {
    "start": 200.23,
    "end": 203.5,
-   "text": "There are more crap PRs from the public than ever, right?"
+   "text": "There are more crap PRs from the public than ever, right? There"
   },
   {
    "start": 203.47,
@@ -23943,7 +23963,7 @@
   {
    "start": 211.11,
    "end": 213.38,
-   "text": "You know, I know there's some clever solutions to this."
+   "text": "You know, I know there's some clever solutions to this. I"
   },
   {
    "start": 213.31,
@@ -23958,7 +23978,7 @@
   {
    "start": 224.59,
    "end": 226.66,
-   "text": "and I believe he was using that for Ghosty."
+   "text": "and I believe he was using that for Ghostty."
   },
   {
    "start": 227.99,
@@ -23978,7 +23998,7 @@
   {
    "start": 238.73,
    "end": 242.44,
-   "text": "that you're putting work on the maintainers and they need to they need to"
+   "text": "that you're putting work on the maintainers and they need to they need to put"
   },
   {
    "start": 242.39,
@@ -23988,7 +24008,7 @@
   {
    "start": 245.49,
    "end": 249.37,
-   "text": "Yeah, I don't really have an answer for you, but it's definitely a real problem."
+   "text": "Yeah, I don't really have an answer for you, but it's definitely a real"
   },
   {
    "start": 251.89,
@@ -24073,7 +24093,7 @@
   {
    "start": 326.65,
    "end": 332.11,
-   "text": "I think we're pretty constrained with resources as well."
+   "text": "I think we're pretty constrained with resources as"
   },
   {
    "start": 339.99,
@@ -24083,12 +24103,12 @@
   {
    "start": 347.29,
    "end": 351.57,
-   "text": "You know, things like railway get hacked."
+   "text": "You know, things like Railway get hacked."
   },
   {
    "start": 351.73,
    "end": 355.9,
-   "text": "When you think about this from a small startup perspective or, you know, even post hoc size,"
+   "text": "When you think about this from a small startup perspective or, you know, even PostHog size,"
   },
   {
    "start": 356.17,
@@ -24108,7 +24128,7 @@
   {
    "start": 372.59,
    "end": 378.66,
-   "text": "- So for us, when it was just me and my co-founder"
+   "text": "So for us, when it was just me and my co-founder and we"
   },
   {
    "start": 378.55,
@@ -24123,7 +24143,7 @@
   {
    "start": 385.13,
    "end": 386.24,
-   "text": "well, who are you guys?"
+   "text": "well, who are you guys? We've"
   },
   {
    "start": 386.17,
@@ -24148,7 +24168,7 @@
   {
    "start": 403.73,
    "end": 406.69,
-   "text": "had no other reason really to trust us."
+   "text": "had no other reason really to trust us. And"
   },
   {
    "start": 406.61,
@@ -24158,12 +24178,12 @@
   {
    "start": 415.85,
    "end": 422.62,
-   "text": "The attack vector today, though, is more prolific than ever of these supply chain attacks, and"
+   "text": "The attack vector today, though, is more prolific than ever of these supply chain attacks, and we"
   },
   {
    "start": 422.55,
    "end": 426.56,
-   "text": "we saw that with LightLM today, which was pretty sophisticated."
+   "text": "we saw that with LiteLLM today, which was pretty sophisticated. They"
   },
   {
    "start": 426.47,
@@ -24183,12 +24203,12 @@
   {
    "start": 447.21,
    "end": 452.24,
-   "text": "vectors are getting harder and harder to detect at machine speed um but i think from like a go-to"
+   "text": "vectors are getting harder and harder to detect at machine um but i think from like a go-to"
   },
   {
    "start": 452.39,
    "end": 457.2,
-   "text": "market selling perspective it's still true that um you can build trust through building open source"
+   "text": "market selling perspective it's still true um you can build trust through building"
   },
   {
    "start": 460.09,
@@ -24198,7 +24218,7 @@
   {
    "start": 466.47,
    "end": 471.46,
-   "text": "when you're larger you seem more secure and I think that's right because you're"
+   "text": "when you're larger you seem more and I think that's right because you're"
   },
   {
    "start": 471.45,
@@ -24223,7 +24243,7 @@
   {
    "start": 492.83,
    "end": 496.79,
-   "text": "more um but i do like justin's point that if"
+   "text": "more um but i do like justin's point that if if"
   },
   {
    "start": 496.71,
@@ -24378,7 +24398,7 @@
   {
    "start": 633.67,
    "end": 636.62,
-   "text": "So what does the long run mean?"
+   "text": "So what does the long run"
   },
   {
    "start": 637.67,
@@ -24393,12 +24413,12 @@
   {
    "start": 650.71,
    "end": 654.57,
-   "text": "growing a project with intent to grow a company around it?"
+   "text": "growing a project with intent to grow a company around"
   },
   {
    "start": 655.21,
    "end": 659.02,
-   "text": "I think you can start to use security as like a differentiator, which I actually think is"
+   "text": "I think you can start to use security as like a differentiator, which I actually think is a"
   },
   {
    "start": 658.95,
@@ -24408,22 +24428,22 @@
   {
    "start": 662.49,
    "end": 666.04,
-   "text": "starting to really take this more seriously and so it can almost be part of"
+   "text": "starting to really take this more seriously and so it can almost be part of your"
   },
   {
    "start": 665.97,
    "end": 673.18,
-   "text": "your value prop something that can help you win deals so I think yes startups"
+   "text": "your value prop something that can help you win deals so I think yes startups are"
   },
   {
    "start": 673.11,
    "end": 681.04,
-   "text": "are gonna take security more seriously but I think that's a good thing I okay"
+   "text": "are gonna take security more seriously but I think that's a good thing I okay so"
   },
   {
    "start": 680.99,
    "end": 684.34,
-   "text": "so this is an area where I'm actually extremely optimistic which maybe is"
+   "text": "so this is an area where I'm actually extremely which maybe is"
   },
   {
    "start": 684.43,
@@ -24518,12 +24538,12 @@
   {
    "start": 764.05,
    "end": 770.42,
-   "text": "It's cheaper than ever to have, like, Cloud Code as a security reviewer or to use, like, an open model as a security reviewer."
+   "text": "It's cheaper than ever to have, like, Claude Code as a security reviewer or to use, like, an open model as a security reviewer."
   },
   {
    "start": 771.35,
    "end": 774.44,
-   "text": "But I think it's inevitable that there's always going to be vulnerabilities that, you know,"
+   "text": "But I think it's inevitable that there's always going to be vulnerabilities that,"
   },
   {
    "start": 774.67,
@@ -24533,7 +24553,7 @@
   {
    "start": 779.71,
    "end": 784.37,
-   "text": "And so for every enterprise, I think it's a lot more about investing in infrastructure"
+   "text": "And so for every enterprise, I think it's a lot more about investing in infrastructure to"
   },
   {
    "start": 783.95,
@@ -24558,12 +24578,12 @@
   {
    "start": 803.55,
    "end": 808.06,
-   "text": "so that when they do detect these these incidents at runtime they can respond a"
+   "text": "so that when they do detect these these incidents at runtime they can respond a lot"
   },
   {
    "start": 808.01,
    "end": 812.98,
-   "text": "lot a lot faster I mean going to this point like how do you speed that process"
+   "text": "lot a lot mean going to this point like how do you speed that process"
   },
   {
    "start": 813.01,
@@ -24573,7 +24593,7 @@
   {
    "start": 815.93,
    "end": 819.34,
-   "text": "some event happen and then 20 minutes later they had to go rectify they found"
+   "text": "some event happen and then 20 minutes later they had to go rectify they found out"
   },
   {
    "start": 819.31,
@@ -24588,22 +24608,22 @@
   {
    "start": 823.53,
    "end": 825.08,
-   "text": "where you have 20 minutes to solve something"
+   "text": "where you have 20 minutes to solve something or"
   },
   {
    "start": 824.97,
    "end": 826.04,
-   "text": "or even less time."
+   "text": "or even less time. How"
   },
   {
    "start": 825.99,
    "end": 828.48,
-   "text": "How do you improve your processes"
+   "text": "How do you improve your processes to"
   },
   {
    "start": 828.39,
    "end": 830.1,
-   "text": "to actually catch those bugs faster?"
+   "text": "to actually catch those bugs faster? How"
   },
   {
    "start": 830.03,
@@ -24613,12 +24633,12 @@
   {
    "start": 832.73,
    "end": 834.46,
-   "text": "- Yeah, I mean, so for us,"
+   "text": "- Yeah, I mean, so for us, our"
   },
   {
    "start": 834.41,
    "end": 836.78,
-   "text": "our focus is around agent security."
+   "text": "our focus is around agent security. So"
   },
   {
    "start": 836.75,
@@ -24658,7 +24678,7 @@
   {
    "start": 866.59,
    "end": 871.04,
-   "text": "And there just isn't infrastructure out there in the world today to solve for this."
+   "text": "And there just isn't infrastructure out there in the world today to solve for this. And so"
   },
   {
    "start": 870.87,
@@ -24673,7 +24693,7 @@
   {
    "start": 877.17,
    "end": 884.08,
-   "text": "And so we're at a point now where the way that we show value with our open source and"
+   "text": "And so we're at a point now where the way that we show value with our open source and then"
   },
   {
    "start": 883.97,
@@ -24688,7 +24708,7 @@
   {
    "start": 893.75,
    "end": 901.32,
-   "text": "like their sim or their data lake, and then all we're doing is turning on our engine to show them findings."
+   "text": "like their SIEM or their data lake, and then all we're doing is turning on our engine to show them findings."
   },
   {
    "start": 901.43,
@@ -24723,12 +24743,12 @@
   {
    "start": 928.99,
    "end": 931.66,
-   "text": "I think there's a couple avenues to speed it up."
+   "text": "I think there's a couple avenues to speed it up. So"
   },
   {
    "start": 931.55,
    "end": 934.0,
-   "text": "So there's the PR side of things, right?"
+   "text": "So there's the PR side of things, right? So you"
   },
   {
    "start": 933.87,
@@ -24743,7 +24763,7 @@
   {
    "start": 946.27,
    "end": 948.92,
-   "text": "So you're catching these NPRs before they ship. That's the best time."
+   "text": "So you're catching these in PRs before they ship. That's the best time."
   },
   {
    "start": 950.23,
@@ -24753,7 +24773,7 @@
   {
    "start": 960.47,
    "end": 962.66,
-   "text": "And I think the same is true of vulnerabilities."
+   "text": "And I think the same is true of vulnerabilities. We"
   },
   {
    "start": 962.55,
@@ -24763,7 +24783,7 @@
   {
    "start": 966.37,
    "end": 968.26,
-   "text": "vulnerability disclosure program."
+   "text": "vulnerability disclosure program. And so"
   },
   {
    "start": 968.11,
@@ -24778,7 +24798,7 @@
   {
    "start": 979.25,
    "end": 982.68,
-   "text": "with automatic remediation, automatic PRs."
+   "text": "with automatic remediation, automatic PRs. You know,"
   },
   {
    "start": 982.57,
@@ -24823,22 +24843,22 @@
   {
    "start": 1010.89,
    "end": 1014.94,
-   "text": "I want to expand on your point because I saw something pretty interesting recently, kind"
+   "text": "I want to expand on your point because I saw something pretty interesting recently, kind of"
   },
   {
    "start": 1014.85,
    "end": 1018.06,
-   "text": "of more from like the endpoint security angle."
+   "text": "of more from like the endpoint security angle. So"
   },
   {
    "start": 1017.91,
    "end": 1024.64,
-   "text": "So for context, we stop like inference of abuse and like token fraud."
+   "text": "So for context, we stop like inference abuse and like token fraud. So"
   },
   {
    "start": 1024.47,
    "end": 1032.56,
-   "text": "So everything from like CSAM, distillation, cyber attacks being proxied through AIM points."
+   "text": "So everything from like CSAM, distillation, cyber attacks being proxied through AI endpoints."
   },
   {
    "start": 1033.83,
@@ -24863,7 +24883,7 @@
   {
    "start": 1059.73,
    "end": 1066.1,
-   "text": "I guess with the power of AI, what's possible where an attack can now be, if they just want"
+   "text": "I guess with the power of AI, what's possible where an attack can now be, if they just want a"
   },
   {
    "start": 1066.05,
@@ -24893,7 +24913,7 @@
   {
    "start": 1091.13,
    "end": 1095.82,
-   "text": "It's a hard problem, like how do you roll up, if you've got 100,000 requests coming in,"
+   "text": "It's a hard problem, like how do you roll up, if you've got 100,000 requests coming in, how do"
   },
   {
    "start": 1095.67,
@@ -24903,17 +24923,17 @@
   {
    "start": 1103.51,
    "end": 1104.04,
-   "text": "Fantastic."
+   "text": "Fantastic. I"
   },
   {
    "start": 1103.99,
    "end": 1106.46,
-   "text": "I think we're out of time almost."
+   "text": "I think we're out of time almost. If"
   },
   {
    "start": 1106.35,
    "end": 1112.12,
-   "text": "If there's an opportunity for you guys to give out your hot takes, I'll follow Sue with"
+   "text": "If there's an opportunity for you guys to give out your hot takes, I'll follow suit with"
   },
   {
    "start": 1112.93,
@@ -24943,7 +24963,7 @@
   {
    "start": 1140.37,
    "end": 1143.35,
-   "text": "model in Red Team, whatever you want to Red Team."
+   "text": "model in Red Team, whatever you want to Red"
   },
   {
    "start": 1146.75,
@@ -24953,7 +24973,7 @@
   {
    "start": 1154.01,
    "end": 1157.09,
-   "text": "I don't know if this is a odd take, but I think we're going to get to the point where"
+   "text": "I don't know if this is a hot take, but I think we're going to get to the point where"
   },
   {
    "start": 1157.57,
@@ -24978,7 +24998,7 @@
   {
    "start": 1173.95,
    "end": 1181.1,
-   "text": "So I think my hot take is that the open source contributions are coming to an end."
+   "text": "So I think my hot take is that the open source contributions are coming to an end. And"
   },
   {
    "start": 1181.07,
@@ -25023,7 +25043,7 @@
   {
    "start": 1225.73,
    "end": 1229.07,
-   "text": "but that's all i got for you but they're also going to get better at"
+   "text": "but that's all i got for but they're also going to get better at"
   },
   {
    "start": 1229.23,
@@ -25033,7 +25053,7 @@
   {
    "start": 1232.67,
    "end": 1235.62,
-   "text": "balances out yeah so like i think the challenge is"
+   "text": "balances out yeah so like i think the challenge is that"
   },
   {
    "start": 1235.57,
@@ -25083,12 +25103,12 @@
   {
    "start": 1274.37,
    "end": 1279.02,
-   "text": "gets better it will get better things will get better but I think it maybe it"
+   "text": "gets better it will get better things will get better but I think it maybe it gets"
   },
   {
    "start": 1278.99,
    "end": 1282.62,
-   "text": "gets a little worse before then and like this week is a great example of that and"
+   "text": "gets a little worse before then and like this week is a great example of that and a"
   },
   {
    "start": 1282.53,
