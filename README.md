@@ -1,88 +1,39 @@
 # ShortsHog
 
-PostHog's signature shorts, from panel recordings to captioned 9:16 renders.
+Turns PostHog panel recordings into a recognizable, dynamic video format: a long-form 16:9 edit
+per panel, then 3:4 portrait shorts from its key moments. Driven by Claude Code slash commands.
 
-Inputs per event: camera angles (with their scratch audio), raw mic tracks,
-b-roll, and the Granola meeting for each panel. No synced master needed: every
-file is lined up by audio cross-correlation. Output: 1080x1920 H.264 shorts
-that cut to whoever is speaking, with burned captions. Everything renders
-locally with ffmpeg, driven by Claude Code.
+## Tools
 
-## Workflow
-Drop raw footage into `content/<event>/`, open Claude Code in this folder, then:
+- **Python 3.12** with NumPy, OpenCV and ruamel.yaml: sync, editing logic, frame compositing
+- **FFmpeg**: decoding, mixing, grading, encoding; `ffmpeg-full` (libass) burns in the captions
+- **whisper.cpp** (`large-v3-turbo`): word-level transcripts, run on-device
+- **OpenCV YuNet**: face detection, so the framing follows whoever is talking
+- **Claude Code**: runs the pipeline, maps speakers, writes chapter tags, anchors and cuts
+- **Granola MCP**: panel notes and summaries for picking moments
+- **RoundHog** and the PostHog brand colors: captions, cards, transitions
+- **DaVinci Resolve** (optional): FCPXML export for hand edits
+
+## Pipeline
 
 ```
-/new-event oss-week content/OSS_WEEK   # map cameras/mics/panels, set crops from stills
-/transcribe oss-week                   # sync -> mic mix -> whisper -> speaker labels
-/longform oss-week                     # full panels, 16:9: tight, fast cuts, PostHog look
-/shortform oss-week gtm                # anchor cards as 3:4 portrait shorts
-/select oss-week                       # shortlist -> shorts.json, waits for approval
-/cut oss-week                          # render renders/<id>.mp4
-/review oss-week                       # browser: approve/reject, trim, fix captions, re-render
-/export oss-week oss-03                # only shorts that need hand editing -> Resolve
+/new-event      map cameras, mics and panels
+/transcribe     sync audio, mix, transcribe, label speakers
+/longform       16:9 edit: tight cuts, question tags, anchor cards, captions
+/shortform      anchor cards as 3:4 shorts
 ```
 
-**Render → review → export only what needs manual work.** Most fixes (a late start,
-a caption typo, a short that doesn't land) happen in `/review` and re-render in
-seconds. `/export` is for what the page can't do: re-framing a shot, swapping a
-camera, placing b-roll by eye, grading. Export is one-way: once a short is edited
-in Resolve, that version is final and shortshog doesn't read it back.
-
-Edit `FORMAT.md` to change the rules shorts are picked and cut by, and the caption style.
-
-## Editing in Resolve
-`/export` writes `events/<event>/exports/<id>.fcpxml`: a 1080x1920 timeline that
-references the original camera files at full resolution, with the speaker
-segments and their crops on V1, b-roll on V2 and the mic mix on A1.
-In Resolve (free works): **File > Import > Timeline** → the `.fcpxml`. Captions
-come as `<id>.srt`: import it into the media pool and drag it onto the timeline.
-If a clip shows the whole camera frame, Resolve dropped the transform: the
-Zoom / Position values for each clip are in `<id>.resolve.txt`.
-
-## Scripts
-| Script | Does |
-|---|---|
-| `align.py sync` | puts every camera and mic on one timeline (`start` per source in event.yaml) |
-| `mix.py` | per panel: gain-matched, loudness-normalised mix of its mics → `transcripts/<panel>.wav` |
-| `transcribe.py` | whisper on the mix, word timestamps → `transcripts/<panel>.json` + `.srt` |
-| `align.py label` | mic per word from levels (Viterbi-smoothed); flags hallucinated words in silence |
-| `speakers.py` | assign sentences to people where mics were shared; kept across relabels |
-| `find_quote.py` | finds a quote in the transcript, snapped to sentences, padded |
-| `stills.py` | frame grab per camera with a grid, and with crops drawn once set |
-| `edit.py` | tightens speech: mutes ums, cuts long pauses, long ums and stutters (used by every output) |
-| `faces.py` | finds panelists' faces on cam2 and follows each seat (zoom targets) |
-| `longform.py` | full panel edit, 16:9: close-up/group/wide by speaker, wipes, RoundHog captions |
-| `shortform.py` | anchor cards as 3:4 portrait shorts: speaker-first framing, fast cuts, hook on top |
-| `cut.py` | renders shorts: camera per speaker, mix audio, b-roll, ASS captions |
-| `review.py` | local review page (127.0.0.1:8765): status, trim, captions, re-render |
-| `export_fcpxml.py` | FCPXML + SRT per short for hand editing in Resolve |
-
-## Tests
-`.venv/bin/python tests/run_synth.py` builds a synthetic event with known answers
-(2 cameras with timecode, 4 mics with bleed, one split into two files) and checks
-sync, speaker labels, camera switches, b-roll, captions, audio and the FCPXML export.
+Style and pacing live in `FORMAT.md`; how it all fits together is in `CLAUDE.md`.
+Run `.venv/bin/python tests/run_synth.py` for the end-to-end test.
 
 ## Setup
-Already done on this machine; for a fresh one:
 
 ```bash
-brew install ffmpeg ffmpeg-full whisper-cpp uv   # ffmpeg-full (keg-only) has libass for captions
+brew install ffmpeg ffmpeg-full whisper-cpp uv
+uv venv .venv --python 3.12
+uv pip install --python .venv/bin/python numpy pyyaml ruamel.yaml opencv-python-headless
 curl -L -o models/ggml-large-v3-turbo.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin
-uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python numpy pyyaml ruamel.yaml opencv-python-headless
 curl -L -o models/face_detection_yunet_2023mar.onnx https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx
-# RoundHog (https://brand.posthog.com/fonts) installed in ~/Library/Fonts
-claude mcp add --scope project --transport http granola https://mcp.granola.ai/mcp
 ```
 
-Then in Claude Code here: approve the `granola` server and sign in via `/mcp`.
-
-## Legacy: Resolve automation
-Resolve is now only an editor you open by hand (see above). An earlier version drove
-it through the DaVinci Resolve MCP and its free-edition in-app bridge. That isn't used
-any more; see the legacy note in `CLAUDE.md` for what's still installed. To reinstall the bridge:
-
-```bash
-npx davinci-resolve-mcp setup --clients claude-code
-cd "$HOME/Library/Application Support/davinci-resolve-mcp" && venv/bin/python scripts/install_resolve_bridge.py
-launchctl setenv PYTHON3HOME "$(python3 -c 'import sys; print(sys.prefix)')"   # resets on reboot
-```
+Raw footage goes in `content/<event>/` (not committed).
