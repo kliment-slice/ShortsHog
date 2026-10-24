@@ -1,0 +1,56 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:46.05,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
+Dialogue: 2,0:00:00.20,0:00:46.05,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Open source got us into
+Dialogue: 2,0:00:00.20,0:00:46.05,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}enterprises that had no
+Dialogue: 2,0:00:00.20,0:00:46.05,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}other reason to trust us”
+Dialogue: 0,0:00:00.06,0:00:01.30,Caption,,0,0,0,,{\c&H001C5CFF}Mark: {\c&H00FFFFFF}Is there going to be a
+Dialogue: 0,0:00:01.30,0:00:01.96,Caption,,0,0,0,,situation where you are
+Dialogue: 0,0:00:01.96,0:00:03.44,Caption,,0,0,0,,going to be viewed as
+Dialogue: 0,0:00:03.44,0:00:04.24,Caption,,0,0,0,,less secure because
+Dialogue: 0,0:00:04.24,0:00:05.26,Caption,,0,0,0,,you're smaller and open
+Dialogue: 0,0:00:05.26,0:00:07.77,Caption,,0,0,0,,source? or is that a
+Dialogue: 0,0:00:07.77,0:00:08.37,Caption,,0,0,0,,concern?
+Dialogue: 0,0:00:08.37,0:00:09.31,Caption,,0,0,0,,So for us
+Dialogue: 0,0:00:09.31,0:00:10.09,Caption,,0,0,0,,when it was just me and
+Dialogue: 0,0:00:10.09,0:00:11.01,Caption,,0,0,0,,my co-founder and we
+Dialogue: 0,0:00:11.01,0:00:12.15,Caption,,0,0,0,,were pitching some
+Dialogue: 0,0:00:12.15,0:00:13.03,Caption,,0,0,0,,really large
+Dialogue: 0,0:00:13.03,0:00:13.95,Caption,,0,0,0,,enterprises
+Dialogue: 0,0:00:13.95,0:00:14.79,Caption,,0,0,0,,a question we'd
+Dialogue: 0,0:00:14.79,0:00:15.93,Caption,,0,0,0,,constantly get asked is
+Dialogue: 0,0:00:15.93,0:00:16.85,Caption,,0,0,0,,like, well
+Dialogue: 0,0:00:16.85,0:00:17.71,Caption,,0,0,0,,who are you guys?
+Dialogue: 0,0:00:17.71,0:00:18.47,Caption,,0,0,0,,We've never heard of
+Dialogue: 0,0:00:18.47,0:00:19.51,Caption,,0,0,0,,your name.
+Dialogue: 0,0:00:19.65,0:00:20.79,Caption,,0,0,0,,And the answer we would
+Dialogue: 0,0:00:20.79,0:00:21.59,Caption,,0,0,0,,have would be
+Dialogue: 0,0:00:21.59,0:00:22.31,Caption,,0,0,0,,well, we have an open
+Dialogue: 0,0:00:22.31,0:00:23.05,Caption,,0,0,0,,source project
+Dialogue: 0,0:00:23.05,0:00:24.29,Caption,,0,0,0,,and so like your
+Dialogue: 0,0:00:24.29,0:00:25.73,Caption,,0,0,0,,security team can
+Dialogue: 0,0:00:25.73,0:00:26.67,Caption,,0,0,0,,inspect the code base
+Dialogue: 0,0:00:26.67,0:00:27.33,Caption,,0,0,0,,you can run it in your
+Dialogue: 0,0:00:27.33,0:00:29.08,Caption,,0,0,0,,own infrastructure.
+Dialogue: 0,0:00:29.15,0:00:30.77,Caption,,0,0,0,,And that helped us build
+Dialogue: 0,0:00:30.77,0:00:32.11,Caption,,0,0,0,,trust and get deployed
+Dialogue: 0,0:00:32.11,0:00:34.24,Caption,,0,0,0,,at large enterprises
+Dialogue: 0,0:00:34.25,0:00:35.45,Caption,,0,0,0,,when they would have had
+Dialogue: 0,0:00:35.45,0:00:36.41,Caption,,0,0,0,,no other reason really
+Dialogue: 0,0:00:36.41,0:00:38.15,Caption,,0,0,0,,to trust us.
+Dialogue: 0,0:00:38.15,0:00:39.21,Caption,,0,0,0,,And so I think that's
+Dialogue: 0,0:00:39.21,0:00:42.37,Caption,,0,0,0,,still an accruing reason
+Dialogue: 0,0:00:42.37,0:00:44.17,Caption,,0,0,0,,for enterprises to trust
+Dialogue: 0,0:00:44.17,0:00:46.05,Caption,,0,0,0,,small companies.

@@ -112,8 +112,9 @@ def rect(shot: dict, t_src: float, punched: bool, tracks: lf.Tracks, size: tuple
         cw = ch * aspect
         return ((w - cw) / 2, 0.0, cw, ch)
     cx, cy, fh = tracks.at(shot["person"], t_src)
-    mult = st["close_face_mult"] * (st["medium_mult"] if shot["kind"] == "medium" else 1.0)
-    ch = min(h, max(h / st["max_zoom"], fh * mult))
+    ch = min(h, max(h / st["max_zoom"], fh * st["close_face_mult"]))
+    if shot["kind"] == "medium":  # measured from the close-up as framed, so it stays distinct at the zoom limit
+        ch = min(h, ch * st["medium_mult"])
     if punched:
         ch = min(h, ch * st["punch"])
     cw = ch * aspect

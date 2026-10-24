@@ -133,7 +133,7 @@ long form (grade, RoundHog, brand colours, wipe), tighter pacing, speaker-first 
 size: [1080, 1440]
 # --- framing: speaker fills ~2/3 of the frame, eyes on the upper third line
 close_face_mult: 6.0        # close-up height = face height x this
-medium_mult: 1.6            # a looser cutaway on the same speaker = close-up height x this
+medium_mult: 2.0            # a looser cutaway on the same speaker = close-up height x this (clearly a different shot)
 eye_line: 0.36              # eyes this far down the frame (rule of thirds)
 max_zoom: 1.8               # 1080p source: crop never smaller than 1/max_zoom of its height
 punch: 1.1                  # jump cut inside a shot: step out by this

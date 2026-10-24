@@ -1,0 +1,61 @@
+# Story beats for the AI & Security long form. Times are panel time (seconds from the panel's start,
+# the same clock as transcripts/ai-security.json), so they survive changes to the edit.
+#
+# questions: a chapter tag that stays on screen until the next question. `t` = when the host
+#            starts asking. A question without `n` is unnumbered (e.g. the introductions).
+# anchors:   a popup summary of a strong point; `t` = when the speaker starts the sentence that makes it,
+#            so the card appears while they're still on screen.
+# Each new question or anchor is a theme change: it gets the PostHog stripe wipe.
+
+questions:
+  - {t: 3.1, label: "Meet the panel", text: "Open source, AI and security"}
+  - {t: 45.1, n: 1, text: "Do contributors now have to earn the right to contribute?"}
+  - {t: 337.4, n: 2, text: "Small and open source: does it look less secure?"}
+  - {t: 630.5, n: 3, text: "Does every open source project now need a security hire?"}
+  - {t: 810.4, n: 4, text: "How do you catch and fix vulnerabilities faster?"}
+  - {t: 1103.5, n: 5, text: "Hot takes"}
+
+anchors:
+  - {t: 125.3, speaker: Matt Lenhard, text: "GitHub already has repos for exploiting your favorite AI tool"}
+  - {t: 162.2, speaker: Matt Lenhard, text: "Expect issues with reproductions instead of outside PRs"}
+  - {t: 196.7, speaker: Tom Piccirello, text: "More junk PRs than ever: AI one-shots them at incredible speed"}
+  - {t: 271.9, speaker: Justin D'Souza, text: "Agents triage every incoming PR and issue for security"}
+  - {t: 376.1, speaker: Justin D'Souza, text: "Open source got us into enterprises that had no other reason to trust us"}
+  - {t: 415.9, speaker: Justin D'Souza, text: "LiteLLM was compromised through a stolen CLI token"}
+  - {t: 531.7, speaker: Tom Piccirello, text: "Every company will get hacked. Plan for risk mitigation."}
+  - {t: 552.3, speaker: Matt Lenhard, text: "Bigger isn't safer: more employees means more ways in"}
+  - {t: 655.2, speaker: Matt Lenhard, text: "Security can be a differentiator that wins deals"}
+  - {t: 699.6, speaker: Tom Piccirello, text: "Agents will ship fewer vulnerabilities than humans ever did"}
+  - {t: 756.3, speaker: Justin D'Souza, text: "The value is in remediation, not detection"}
+  - {t: 982.6, speaker: Tom Piccirello, text: "The annual pen test is dead. Scan weekly, fix automatically."}
+  - {t: 1033.8, speaker: Matt Lenhard, text: "One attack: 100,000 requests from 4,000 accounts in 100 milliseconds"}
+  - {t: 1127.8, speaker: Justin D'Souza, text: "Bug bounties are next to die"}
+  - {t: 1152.0, speaker: Matt Lenhard, text: "Accepting PRs from strangers is coming to an end"}
+  - {t: 1265.5, speaker: Tom Piccirello, text: "Security gets worse before it gets better"}
+
+# cuts: moments that don't serve the story (mic checks, setup chatter, stray asides), removed
+#       with their captions. `from` / `to` are transcript text: the cut runs from the first word of
+#       `from` to the last word of the first `to` after it.
+cuts:
+  - {from: "and I think we can do a good job sharing the microphones", to: "we're short a little", why: "mic logistics"}
+  - {from: "Yeah, not working.", to: "Hello.", why: "mic trouble"}
+  - {from: "I'm struggling to think of one right now", to: "so I don't know", why: "stalling"}
+
+# shorts: anchor cards turned into 3:4 shorts (shortform.py). `from` / `to` are transcript text and
+#         cover the speaker's whole thought; `skip` phrases inside the range are cut too.
+shorts:
+  - id: ai-security-100k-requests
+    speaker: Matt Lenhard
+    anchor: "One attack: 100,000 requests from 4,000 accounts in 100 milliseconds"
+    from: "So for context, we stop like inference abuse"
+    to: "all at once in milliseconds?"
+  - id: ai-security-pen-test-is-dead
+    speaker: Tom Piccirello
+    anchor: "The annual pen test is dead. Scan weekly, fix automatically."
+    from: "But then the other, the next piece of that"
+    to: "automatically remediating what gets found."
+  - id: ai-security-trust-small-companies
+    speaker: Justin D'Souza
+    anchor: "Open source got us into enterprises that had no other reason to trust us"
+    from: "Is there going to be a situation where you are going to be viewed"
+    to: "reason for enterprises to trust small companies."
