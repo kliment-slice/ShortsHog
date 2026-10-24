@@ -1,0 +1,52 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:38.85,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tim Glaser (PostHog)
+Dialogue: 2,0:00:00.20,0:00:38.85,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Few people self-host
+Dialogue: 2,0:00:00.20,0:00:38.85,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}PostHog, but knowing they
+Dialogue: 2,0:00:00.20,0:00:38.85,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}can builds trust”
+Dialogue: 0,0:00:00.10,0:00:01.20,Caption,,0,0,0,,Yeah, I think for us
+Dialogue: 0,0:00:01.20,0:00:03.14,Caption,,0,0,0,,it's a trust thing
+Dialogue: 0,0:00:03.14,0:00:04.46,Caption,,0,0,0,,right, I think very few
+Dialogue: 0,0:00:04.46,0:00:05.46,Caption,,0,0,0,,people self-host
+Dialogue: 0,0:00:05.46,0:00:07.33,Caption,,0,0,0,,PostHog, people like the
+Dialogue: 0,0:00:07.33,0:00:09.85,Caption,,0,0,0,,fact that they can and
+Dialogue: 0,0:00:09.85,0:00:11.17,Caption,,0,0,0,,that actually increases
+Dialogue: 0,0:00:11.17,0:00:12.33,Caption,,0,0,0,,the trust in our cloud
+Dialogue: 0,0:00:12.33,0:00:13.39,Caption,,0,0,0,,product you know so that
+Dialogue: 0,0:00:13.39,0:00:13.93,Caption,,0,0,0,,I think is really
+Dialogue: 0,0:00:13.93,0:00:15.03,Caption,,0,0,0,,important it also just
+Dialogue: 0,0:00:15.03,0:00:15.95,Caption,,0,0,0,,immediately signals that
+Dialogue: 0,0:00:15.95,0:00:16.94,Caption,,0,0,0,,your product is meant
+Dialogue: 0,0:00:16.94,0:00:17.88,Caption,,0,0,0,,for developers right
+Dialogue: 0,0:00:17.88,0:00:19.16,Caption,,0,0,0,,it's meant for technical
+Dialogue: 0,0:00:19.16,0:00:20.96,Caption,,0,0,0,,people you know one of
+Dialogue: 0,0:00:20.96,0:00:22.34,Caption,,0,0,0,,the things that our
+Dialogue: 0,0:00:22.34,0:00:22.90,Caption,,0,0,0,,customers really
+Dialogue: 0,0:00:22.90,0:00:23.94,Caption,,0,0,0,,appreciate is like when
+Dialogue: 0,0:00:23.94,0:00:25.40,Caption,,0,0,0,,we do a fix we literally
+Dialogue: 0,0:00:25.40,0:00:26.44,Caption,,0,0,0,,just like Give them a
+Dialogue: 0,0:00:26.44,0:00:27.24,Caption,,0,0,0,,link to the pull
+Dialogue: 0,0:00:27.24,0:00:27.98,Caption,,0,0,0,,request, showing the
+Dialogue: 0,0:00:27.98,0:00:28.80,Caption,,0,0,0,,fix, you know
+Dialogue: 0,0:00:28.80,0:00:30.67,Caption,,0,0,0,,stuff like that I think
+Dialogue: 0,0:00:30.74,0:00:31.46,Caption,,0,0,0,,again, makes a lot of
+Dialogue: 0,0:00:31.46,0:00:31.88,Caption,,0,0,0,,sense if you're building
+Dialogue: 0,0:00:31.88,0:00:32.60,Caption,,0,0,0,,an engineering tool.
+Dialogue: 0,0:00:32.60,0:00:33.40,Caption,,0,0,0,,Now, I think
+Dialogue: 0,0:00:33.40,0:00:34.72,Caption,,0,0,0,,I often talk to founders
+Dialogue: 0,0:00:34.72,0:00:35.54,Caption,,0,0,0,,who are not building
+Dialogue: 0,0:00:35.54,0:00:36.56,Caption,,0,0,0,,engineering tools
+Dialogue: 0,0:00:36.56,0:00:37.62,Caption,,0,0,0,,I think the benefit is
+Dialogue: 0,0:00:37.62,0:00:38.81,Caption,,0,0,0,,obviously much less.

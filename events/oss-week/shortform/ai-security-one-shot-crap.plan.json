@@ -1,0 +1,145 @@
+{
+ "range_src": [
+  196.71,
+  244.81
+ ],
+ "range_out": [
+  150.10000000000002,
+  191.79
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 150.10000000000002,
+   "t1": 153.605
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Tom Piccirello",
+   "t0": 153.605,
+   "t1": 154.80499999999998
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 154.80499999999998,
+   "t1": 157.605
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 157.605,
+   "t1": 159.005
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 159.005,
+   "t1": 161.95
+  },
+  {
+   "kind": "react",
+   "person": "Mark Percival",
+   "speaker": "Tom Piccirello",
+   "t0": 161.95,
+   "t1": 163.14999999999998
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 163.14999999999998,
+   "t1": 166.1
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 166.1,
+   "t1": 167.5
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 167.5,
+   "t1": 170.49
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Tom Piccirello",
+   "t0": 170.49,
+   "t1": 171.69
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 171.69,
+   "t1": 174.49
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 174.49,
+   "t1": 175.58
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 175.58,
+   "t1": 178.38000000000002
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Tom Piccirello",
+   "t0": 178.38000000000002,
+   "t1": 179.295
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 179.295,
+   "t1": 182.095
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 182.095,
+   "t1": 183.495
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 183.495,
+   "t1": 186.29500000000002
+  },
+  {
+   "kind": "react",
+   "person": "Mark Percival",
+   "speaker": "Tom Piccirello",
+   "t0": 186.29500000000002,
+   "t1": 187.495
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 187.495,
+   "t1": 191.79
+  }
+ ]
+}

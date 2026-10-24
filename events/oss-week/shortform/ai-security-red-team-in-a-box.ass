@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:25.11,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 2,0:00:00.20,0:00:25.11,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“GitHub already has repos
+Dialogue: 2,0:00:00.20,0:00:25.11,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}for exploiting your favorite
+Dialogue: 2,0:00:00.20,0:00:25.11,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}AI tool”
+Dialogue: 0,0:00:00.00,0:00:00.64,Caption,,0,0,0,,something I would
+Dialogue: 0,0:00:00.64,0:00:01.98,Caption,,0,0,0,,encourage people in this
+Dialogue: 0,0:00:01.98,0:00:03.00,Caption,,0,0,0,,like room to do is like
+Dialogue: 0,0:00:03.00,0:00:04.84,Caption,,0,0,0,,go go to GitHub and look
+Dialogue: 0,0:00:04.84,0:00:06.72,Caption,,0,0,0,,up your favorite AI
+Dialogue: 0,0:00:06.72,0:00:07.32,Caption,,0,0,0,,tool, whether it's like
+Dialogue: 0,0:00:07.32,0:00:08.56,Caption,,0,0,0,,a coding agent
+Dialogue: 0,0:00:08.56,0:00:09.50,Caption,,0,0,0,,an AI assistant
+Dialogue: 0,0:00:09.50,0:00:09.94,Caption,,0,0,0,,whatever.
+Dialogue: 0,0:00:09.98,0:00:10.62,Caption,,0,0,0,,There's probably like
+Dialogue: 0,0:00:10.62,0:00:11.94,Caption,,0,0,0,,three repos set up right
+Dialogue: 0,0:00:11.94,0:00:13.94,Caption,,0,0,0,,now for how to exploit
+Dialogue: 0,0:00:13.94,0:00:15.14,Caption,,0,0,0,,them, how to manage an
+Dialogue: 0,0:00:15.14,0:00:16.04,Caption,,0,0,0,,account pool
+Dialogue: 0,0:00:16.04,0:00:16.96,Caption,,0,0,0,,how to rotate
+Dialogue: 0,0:00:16.96,0:00:17.36,Caption,,0,0,0,,credentials.
+Dialogue: 0,0:00:17.50,0:00:18.88,Caption,,0,0,0,,Like, kind of like your
+Dialogue: 0,0:00:18.88,0:00:21.00,Caption,,0,0,0,,own, I don't know
+Dialogue: 0,0:00:21.00,0:00:23.48,Caption,,0,0,0,,AI red team in a box for
+Dialogue: 0,0:00:23.48,0:00:25.04,Caption,,0,0,0,,specific agents.

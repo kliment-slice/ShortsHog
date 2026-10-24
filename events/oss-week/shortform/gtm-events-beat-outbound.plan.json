@@ -1,0 +1,215 @@
+{
+ "range_src": [
+  972.23,
+  1037.08
+ ],
+ "range_out": [
+  835.5500000000005,
+  897.26
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 835.5500000000005,
+   "t1": 838.3500000000005
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 838.3500000000005,
+   "t1": 839.5500000000005
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 839.5500000000005,
+   "t1": 842.3500000000005
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 842.3500000000005,
+   "t1": 843.7500000000005
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 843.7500000000005,
+   "t1": 846.735
+  },
+  {
+   "kind": "react",
+   "person": "John Simone",
+   "speaker": "Alex Jung",
+   "t0": 846.735,
+   "t1": 847.9350000000001
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 847.9350000000001,
+   "t1": 850.735
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 850.735,
+   "t1": 852.135
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 852.135,
+   "t1": 854.935
+  },
+  {
+   "kind": "react",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 854.935,
+   "t1": 856.135
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 856.135,
+   "t1": 859.285
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 859.285,
+   "t1": 860.685
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 860.685,
+   "t1": 863.47
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 863.47,
+   "t1": 864.705
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 864.705,
+   "t1": 867.505
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 867.505,
+   "t1": 869.14
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 869.14,
+   "t1": 872.65
+  },
+  {
+   "kind": "react",
+   "person": "John Simone",
+   "speaker": "Alex Jung",
+   "t0": 872.65,
+   "t1": 873.85
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 873.85,
+   "t1": 876.65
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 876.65,
+   "t1": 878.05
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 878.05,
+   "t1": 881.285
+  },
+  {
+   "kind": "react",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 881.285,
+   "t1": 882.485
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 882.485,
+   "t1": 885.285
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 885.285,
+   "t1": 886.465
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 886.465,
+   "t1": 889.265
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 889.265,
+   "t1": 890.465
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 890.465,
+   "t1": 893.265
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 893.265,
+   "t1": 895.06
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 895.06,
+   "t1": 897.26
+  }
+ ]
+}

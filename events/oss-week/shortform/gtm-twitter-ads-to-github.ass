@@ -1,0 +1,51 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:34.46,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tim Glaser (PostHog)
+Dialogue: 2,0:00:00.20,0:00:34.46,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“A few hundred dollars of
+Dialogue: 2,0:00:00.20,0:00:34.46,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}Twitter ads to GitHub got
+Dialogue: 2,0:00:00.20,0:00:34.46,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}the first 100 stars”
+Dialogue: 0,0:00:00.10,0:00:00.68,Caption,,0,0,0,,We actually did
+Dialogue: 0,0:00:00.68,0:00:01.18,Caption,,0,0,0,,something kind of
+Dialogue: 0,0:00:01.18,0:00:02.62,Caption,,0,0,0,,clever, which is
+Dialogue: 0,0:00:02.62,0:00:03.36,Caption,,0,0,0,,we were in YC
+Dialogue: 0,0:00:03.36,0:00:05.16,Caption,,0,0,0,,we just pivoted to just
+Dialogue: 0,0:00:05.16,0:00:06.75,Caption,,0,0,0,,building PostHog.
+Dialogue: 0,0:00:06.75,0:00:08.39,Caption,,0,0,0,,And we spent
+Dialogue: 0,0:00:08.39,0:00:08.74,Caption,,0,0,0,,I don't know
+Dialogue: 0,0:00:08.61,0:00:10.57,Caption,,0,0,0,,a couple hundred bucks
+Dialogue: 0,0:00:10.57,0:00:12.87,Caption,,0,0,0,,on Twitter ads
+Dialogue: 0,0:00:12.87,0:00:13.91,Caption,,0,0,0,,and honestly it was some
+Dialogue: 0,0:00:13.91,0:00:14.39,Caption,,0,0,0,,of the best
+Dialogue: 0,0:00:14.39,0:00:15.15,Caption,,0,0,0,,we did this for a lot of
+Dialogue: 0,0:00:15.15,0:00:15.93,Caption,,0,0,0,,our pivots
+Dialogue: 0,0:00:15.93,0:00:16.61,Caption,,0,0,0,,but it was some of our
+Dialogue: 0,0:00:16.61,0:00:17.51,Caption,,0,0,0,,best converting ads
+Dialogue: 0,0:00:17.51,0:00:18.49,Caption,,0,0,0,,just like a link to our
+Dialogue: 0,0:00:18.49,0:00:19.49,Caption,,0,0,0,,GitHub, because it
+Dialogue: 0,0:00:19.49,0:00:20.57,Caption,,0,0,0,,didn't feel like an ad
+Dialogue: 0,0:00:20.57,0:00:20.92,Caption,,0,0,0,,do you mean
+Dialogue: 0,0:00:20.87,0:00:22.01,Caption,,0,0,0,,it just felt like kind
+Dialogue: 0,0:00:22.01,0:00:22.73,Caption,,0,0,0,,of an interesting
+Dialogue: 0,0:00:22.73,0:00:23.53,Caption,,0,0,0,,project that someone was
+Dialogue: 0,0:00:23.53,0:00:25.39,Caption,,0,0,0,,sharing. That got us our
+Dialogue: 0,0:00:25.39,0:00:26.27,Caption,,0,0,0,,first like hundred
+Dialogue: 0,0:00:26.27,0:00:27.47,Caption,,0,0,0,,stars, and then when we
+Dialogue: 0,0:00:27.47,0:00:28.39,Caption,,0,0,0,,launched on Hacker News
+Dialogue: 0,0:00:28.39,0:00:29.43,Caption,,0,0,0,,it already felt like a
+Dialogue: 0,0:00:29.43,0:00:30.63,Caption,,0,0,0,,project that had some
+Dialogue: 0,0:00:30.63,0:00:31.41,Caption,,0,0,0,,traction rather than
+Dialogue: 0,0:00:31.41,0:00:32.45,Caption,,0,0,0,,something that was like
+Dialogue: 0,0:00:32.45,0:00:33.33,Caption,,0,0,0,,It's totally kind of net
+Dialogue: 0,0:00:33.33,0:00:34.46,Caption,,0,0,0,,new.

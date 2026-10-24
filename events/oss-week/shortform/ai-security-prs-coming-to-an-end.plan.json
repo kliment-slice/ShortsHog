@@ -1,0 +1,159 @@
+{
+ "range_src": [
+  1152.02,
+  1199.51
+ ],
+ "range_out": [
+  985.05,
+  1029.13
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 985.05,
+   "t1": 987.8499999999999
+  },
+  {
+   "kind": "react",
+   "person": "Tom Piccirello",
+   "speaker": "Matt Lenhard",
+   "t0": 987.8499999999999,
+   "t1": 989.05
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 989.05,
+   "t1": 991.8499999999999
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 991.8499999999999,
+   "t1": 993.2499999999999
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 993.2499999999999,
+   "t1": 996.0499999999998
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Matt Lenhard",
+   "t0": 996.0499999999998,
+   "t1": 997.2499999999999
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 997.2499999999999,
+   "t1": 999.575
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 999.575,
+   "t1": 1000.975
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1000.975,
+   "t1": 1003.775
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Matt Lenhard",
+   "t0": 1003.775,
+   "t1": 1004.66
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1004.66,
+   "t1": 1007.4599999999999
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1007.4599999999999,
+   "t1": 1008.57
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1008.57,
+   "t1": 1011.37
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Matt Lenhard",
+   "t0": 1011.37,
+   "t1": 1012.57
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1012.57,
+   "t1": 1015.37
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1015.37,
+   "t1": 1016.77
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1016.77,
+   "t1": 1020.0
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Matt Lenhard",
+   "t0": 1020.0,
+   "t1": 1021.2
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1021.2,
+   "t1": 1024.0
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1024.0,
+   "t1": 1025.79
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1025.79,
+   "t1": 1029.13
+  }
+ ]
+}

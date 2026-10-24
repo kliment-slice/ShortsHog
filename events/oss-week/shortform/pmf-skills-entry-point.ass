@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:59.67,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001C5CFF}Yonas Beshawred (StarSling)
+Dialogue: 2,0:00:00.20,0:00:59.67,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Skills are a free,
+Dialogue: 2,0:00:00.20,0:00:59.67,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}low-friction way in”
+Dialogue: 0,0:00:00.00,0:00:01.20,Caption,,0,0,0,,so for us
+Dialogue: 0,0:00:01.20,0:00:02.40,Caption,,0,0,0,,we've released skills
+Dialogue: 0,0:00:02.40,0:00:03.98,Caption,,0,0,0,,and that's been a really
+Dialogue: 0,0:00:03.98,0:00:05.44,Caption,,0,0,0,,great way for people to
+Dialogue: 0,0:00:05.44,0:00:05.94,Caption,,0,0,0,,discover us.
+Dialogue: 0,0:00:05.94,0:00:07.76,Caption,,0,0,0,,So if you just do /CI
+Dialogue: 0,0:00:07.76,0:00:09.04,Caption,,0,0,0,,speedup, you can
+Dialogue: 0,0:00:09.04,0:00:09.78,Caption,,0,0,0,,actually use it without
+Dialogue: 0,0:00:09.78,0:00:10.70,Caption,,0,0,0,,our runners.
+Dialogue: 0,0:00:10.70,0:00:11.64,Caption,,0,0,0,,So for us
+Dialogue: 0,0:00:11.64,0:00:12.64,Caption,,0,0,0,,I think skills have
+Dialogue: 0,0:00:12.64,0:00:13.96,Caption,,0,0,0,,actually become a really
+Dialogue: 0,0:00:13.96,0:00:15.50,Caption,,0,0,0,,interesting entry point
+Dialogue: 0,0:00:15.50,0:00:17.02,Caption,,0,0,0,,because it's like low
+Dialogue: 0,0:00:17.02,0:00:17.52,Caption,,0,0,0,,friction
+Dialogue: 0,0:00:17.52,0:00:18.92,Caption,,0,0,0,,obviously you don't pay.
+Dialogue: 0,0:00:18.93,0:00:19.95,Caption,,0,0,0,,But it's a way for you
+Dialogue: 0,0:00:19.95,0:00:21.07,Caption,,0,0,0,,to get a taste of the
+Dialogue: 0,0:00:21.07,0:00:22.29,Caption,,0,0,0,,product without having
+Dialogue: 0,0:00:22.29,0:00:24.19,Caption,,0,0,0,,to sign up for it
+Dialogue: 0,0:00:24.19,0:00:25.25,Caption,,0,0,0,,necessarily.
+Dialogue: 0,0:00:25.43,0:00:26.19,Caption,,0,0,0,,So I think that's been
+Dialogue: 0,0:00:26.19,0:00:27.05,Caption,,0,0,0,,really interesting to
+Dialogue: 0,0:00:27.05,0:00:29.37,Caption,,0,0,0,,see now, that wasn't the
+Dialogue: 0,0:00:29.37,0:00:30.33,Caption,,0,0,0,,case previously
+Dialogue: 0,0:00:30.33,0:00:31.37,Caption,,0,0,0,,maybe even a year ago
+Dialogue: 0,0:00:31.37,0:00:32.95,Caption,,0,0,0,,right? It wasn't really
+Dialogue: 0,0:00:32.95,0:00:34.65,Caption,,0,0,0,,a real go-to-market
+Dialogue: 0,0:00:34.65,0:00:35.00,Caption,,0,0,0,,strategy
+Dialogue: 0,0:00:34.99,0:00:36.03,Caption,,0,0,0,,but we're finding a lot
+Dialogue: 0,0:00:36.03,0:00:37.31,Caption,,0,0,0,,of people discover us
+Dialogue: 0,0:00:37.31,0:00:38.21,Caption,,0,0,0,,through this skill and
+Dialogue: 0,0:00:38.21,0:00:39.07,Caption,,0,0,0,,then you know
+Dialogue: 0,0:00:39.07,0:00:40.17,Caption,,0,0,0,,if you want to speed up
+Dialogue: 0,0:00:40.17,0:00:41.01,Caption,,0,0,0,,your own CI
+Dialogue: 0,0:00:41.01,0:00:42.35,Caption,,0,0,0,,you can use the skill in
+Dialogue: 0,0:00:42.35,0:00:43.19,Caption,,0,0,0,,your own agent.
+Dialogue: 0,0:00:43.19,0:00:44.05,Caption,,0,0,0,,Or if you don't have to
+Dialogue: 0,0:00:44.05,0:00:44.87,Caption,,0,0,0,,do that yourself
+Dialogue: 0,0:00:44.87,0:00:45.97,Caption,,0,0,0,,we'll do it for you with
+Dialogue: 0,0:00:45.97,0:00:46.63,Caption,,0,0,0,,our own agent.
+Dialogue: 0,0:00:46.63,0:00:48.35,Caption,,0,0,0,,So I think the skills
+Dialogue: 0,0:00:48.35,0:00:49.73,Caption,,0,0,0,,have been really cool.
+Dialogue: 0,0:00:49.73,0:00:51.01,Caption,,0,0,0,,And then Vercel
+Dialogue: 0,0:00:51.01,0:00:51.77,Caption,,0,0,0,,because they have
+Dialogue: 0,0:00:51.77,0:00:52.88,Caption,,0,0,0,,skills.sh
+Dialogue: 0,0:00:52.88,0:00:53.58,Caption,,0,0,0,,that's been really
+Dialogue: 0,0:00:53.58,0:00:54.82,Caption,,0,0,0,,helpful because it's all
+Dialogue: 0,0:00:54.82,0:00:55.70,Caption,,0,0,0,,in one place
+Dialogue: 0,0:00:55.70,0:00:56.42,Caption,,0,0,0,,right? And you can just
+Dialogue: 0,0:00:56.42,0:00:58.62,Caption,,0,0,0,,do npx skills add
+Dialogue: 0,0:00:58.62,0:00:59.67,Caption,,0,0,0,,right?

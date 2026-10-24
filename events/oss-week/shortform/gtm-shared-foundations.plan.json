@@ -1,0 +1,103 @@
+{
+ "range_src": [
+  1239.33,
+  1269.73
+ ],
+ "range_out": [
+  1082.2900000000004,
+  1110.24
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1082.2900000000004,
+   "t1": 1085.38
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 1085.38,
+   "t1": 1086.485
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1086.485,
+   "t1": 1089.41
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1089.41,
+   "t1": 1090.8100000000002
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1090.8100000000002,
+   "t1": 1093.6100000000001
+  },
+  {
+   "kind": "react",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 1093.6100000000001,
+   "t1": 1094.8100000000002
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1094.8100000000002,
+   "t1": 1097.6100000000001
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1097.6100000000001,
+   "t1": 1099.0100000000002
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1099.0100000000002,
+   "t1": 1101.8100000000002
+  },
+  {
+   "kind": "react",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1101.8100000000002,
+   "t1": 1103.0100000000002
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1103.0100000000002,
+   "t1": 1105.8100000000002
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1105.8100000000002,
+   "t1": 1107.96
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1107.96,
+   "t1": 1110.24
+  }
+ ]
+}

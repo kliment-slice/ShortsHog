@@ -1,0 +1,117 @@
+{
+ "range_src": [
+  114.03,
+  145.12
+ ],
+ "range_out": [
+  56.7,
+  86.43
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 56.7,
+   "t1": 59.5
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 59.5,
+   "t1": 60.695
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 60.695,
+   "t1": 63.495
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 63.495,
+   "t1": 64.895
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 64.895,
+   "t1": 67.695
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 67.695,
+   "t1": 68.895
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 68.895,
+   "t1": 71.695
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 71.695,
+   "t1": 73.095
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 73.095,
+   "t1": 75.47
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 75.47,
+   "t1": 76.67
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 76.67,
+   "t1": 79.47
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 79.47,
+   "t1": 80.87
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 80.87,
+   "t1": 83.67
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 83.67,
+   "t1": 84.87
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 84.87,
+   "t1": 86.43
+  }
+ ]
+}

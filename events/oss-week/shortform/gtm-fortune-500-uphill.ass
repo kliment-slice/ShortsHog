@@ -1,0 +1,44 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:37.58,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001C5CFF}John Simone (Cline)
+Dialogue: 2,0:00:00.20,0:00:37.58,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Selling into the Fortune
+Dialogue: 2,0:00:00.20,0:00:37.58,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}500 as a small company was
+Dialogue: 2,0:00:00.20,0:00:37.58,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}an uphill battle”
+Dialogue: 0,0:00:00.00,0:00:02.61,Caption,,0,0,0,,that turned into getting
+Dialogue: 0,0:00:02.61,0:00:05.18,Caption,,0,0,0,,inbound hearing from
+Dialogue: 0,0:00:05.18,0:00:06.38,Caption,,0,0,0,,Fortune 500 companies
+Dialogue: 0,0:00:06.38,0:00:07.68,Caption,,0,0,0,,that they had 10,000
+Dialogue: 0,0:00:07.68,0:00:08.96,Caption,,0,0,0,,people using Cline
+Dialogue: 0,0:00:08.96,0:00:09.76,Caption,,0,0,0,,internally and we were
+Dialogue: 0,0:00:09.76,0:00:10.30,Caption,,0,0,0,,like, wow
+Dialogue: 0,0:00:10.30,0:00:12.20,Caption,,0,0,0,,this is a lot of uptake
+Dialogue: 0,0:00:12.20,0:00:14.20,Caption,,0,0,0,,here. But then I'd say
+Dialogue: 0,0:00:14.20,0:00:16.38,Caption,,0,0,0,,the negative surprise
+Dialogue: 0,0:00:16.38,0:00:18.60,Caption,,0,0,0,,was we started talking
+Dialogue: 0,0:00:18.60,0:00:20.06,Caption,,0,0,0,,to those companies and
+Dialogue: 0,0:00:20.06,0:00:20.48,Caption,,0,0,0,,said, okay
+Dialogue: 0,0:00:20.48,0:00:22.38,Caption,,0,0,0,,if we ship an enterprise
+Dialogue: 0,0:00:22.38,0:00:23.22,Caption,,0,0,0,,feature as we have an
+Dialogue: 0,0:00:23.22,0:00:23.94,Caption,,0,0,0,,enterprise offering
+Dialogue: 0,0:00:23.94,0:00:25.06,Caption,,0,0,0,,here, this is a slam
+Dialogue: 0,0:00:25.06,0:00:27.78,Caption,,0,0,0,,dunk. And it's a Uphill
+Dialogue: 0,0:00:27.78,0:00:29.52,Caption,,0,0,0,,battle selling into
+Dialogue: 0,0:00:29.52,0:00:31.30,Caption,,0,0,0,,fortune 500 and trying
+Dialogue: 0,0:00:31.30,0:00:32.40,Caption,,0,0,0,,to sell at that scale
+Dialogue: 0,0:00:32.40,0:00:33.24,Caption,,0,0,0,,when you're a small
+Dialogue: 0,0:00:33.24,0:00:34.90,Caption,,0,0,0,,company So that ended up
+Dialogue: 0,0:00:34.90,0:00:35.96,Caption,,0,0,0,,we saw a lot more
+Dialogue: 0,0:00:35.96,0:00:37.04,Caption,,0,0,0,,friction there than we
+Dialogue: 0,0:00:37.04,0:00:37.54,Caption,,0,0,0,,expected

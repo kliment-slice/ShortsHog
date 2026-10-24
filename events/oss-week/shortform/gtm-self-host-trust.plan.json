@@ -1,0 +1,145 @@
+{
+ "range_src": [
+  640.43,
+  683.02
+ ],
+ "range_out": [
+  527.7700000000001,
+  566.62
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 527.7700000000001,
+   "t1": 529.99
+  },
+  {
+   "kind": "react",
+   "person": "Alex Jung",
+   "speaker": "Tim Glaser",
+   "t0": 529.99,
+   "t1": 531.19
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 531.19,
+   "t1": 534.365
+  },
+  {
+   "kind": "medium",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 534.365,
+   "t1": 535.765
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 535.765,
+   "t1": 538.5649999999999
+  },
+  {
+   "kind": "react",
+   "person": "Alex Jung",
+   "speaker": "Tim Glaser",
+   "t0": 538.5649999999999,
+   "t1": 540.445
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 540.445,
+   "t1": 544.02
+  },
+  {
+   "kind": "medium",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 544.02,
+   "t1": 545.42
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 545.42,
+   "t1": 547.73
+  },
+  {
+   "kind": "react",
+   "person": "Alex Jung",
+   "speaker": "Tim Glaser",
+   "t0": 547.73,
+   "t1": 548.9300000000001
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 548.9300000000001,
+   "t1": 551.73
+  },
+  {
+   "kind": "medium",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 551.73,
+   "t1": 553.13
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 553.13,
+   "t1": 555.93
+  },
+  {
+   "kind": "react",
+   "person": "Alex Jung",
+   "speaker": "Tim Glaser",
+   "t0": 555.93,
+   "t1": 556.95
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 556.95,
+   "t1": 559.75
+  },
+  {
+   "kind": "medium",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 559.75,
+   "t1": 561.15
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 561.15,
+   "t1": 563.9499999999999
+  },
+  {
+   "kind": "react",
+   "person": "Alex Jung",
+   "speaker": "Tim Glaser",
+   "t0": 563.9499999999999,
+   "t1": 565.59
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 565.59,
+   "t1": 566.62
+  }
+ ]
+}

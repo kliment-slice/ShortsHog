@@ -1,0 +1,201 @@
+{
+ "range_src": [
+  724.99,
+  784.09
+ ],
+ "range_out": [
+  650.99,
+  708.7700000000001
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 650.99,
+   "t1": 653.74
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Hang Huang",
+   "t0": 653.74,
+   "t1": 654.94
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 654.94,
+   "t1": 658.215
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 658.215,
+   "t1": 659.615
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 659.615,
+   "t1": 662.325
+  },
+  {
+   "kind": "react",
+   "person": "Yonas Beshawred",
+   "speaker": "Hang Huang",
+   "t0": 662.325,
+   "t1": 663.5250000000001
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 663.5250000000001,
+   "t1": 667.1
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 667.1,
+   "t1": 668.5
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 668.5,
+   "t1": 671.02
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Hang Huang",
+   "t0": 671.02,
+   "t1": 672.22
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 672.22,
+   "t1": 675.02
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 675.02,
+   "t1": 676.42
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 676.42,
+   "t1": 679.2199999999999
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Hang Huang",
+   "t0": 679.2199999999999,
+   "t1": 681.125
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 681.125,
+   "t1": 684.585
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 684.585,
+   "t1": 685.985
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 685.985,
+   "t1": 688.785
+  },
+  {
+   "kind": "react",
+   "person": "Yonas Beshawred",
+   "speaker": "Hang Huang",
+   "t0": 688.785,
+   "t1": 690.595
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 690.595,
+   "t1": 693.395
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 693.395,
+   "t1": 694.795
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 694.795,
+   "t1": 697.5949999999999
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Hang Huang",
+   "t0": 697.5949999999999,
+   "t1": 698.795
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 698.795,
+   "t1": 701.5949999999999
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 701.5949999999999,
+   "t1": 702.9949999999999
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 702.9949999999999,
+   "t1": 705.63
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Hang Huang",
+   "t0": 705.63,
+   "t1": 706.83
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 706.83,
+   "t1": 708.7700000000001
+  }
+ ]
+}

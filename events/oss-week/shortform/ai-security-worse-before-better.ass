@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:55.10,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tom Piccirello (PostHog)
+Dialogue: 2,0:00:00.20,0:00:55.10,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Security gets worse before
+Dialogue: 2,0:00:00.20,0:00:55.10,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}it gets better”
+Dialogue: 0,0:00:00.10,0:00:00.46,Caption,,0,0,0,,{\c&H001C5CFF}Mark: {\c&H00FFFFFF}but they're also going
+Dialogue: 0,0:00:00.46,0:00:01.34,Caption,,0,0,0,,to get better at finding
+Dialogue: 0,0:00:01.34,0:00:02.02,Caption,,0,0,0,,more vulnerabilities
+Dialogue: 0,0:00:02.02,0:00:03.88,Caption,,0,0,0,,right I mean it's or is
+Dialogue: 0,0:00:03.88,0:00:04.60,Caption,,0,0,0,,there a point where it
+Dialogue: 0,0:00:04.60,0:00:05.76,Caption,,0,0,0,,balances out
+Dialogue: 0,0:00:05.76,0:00:07.26,Caption,,0,0,0,,yeah so like I think the
+Dialogue: 0,0:00:07.26,0:00:07.90,Caption,,0,0,0,,challenge is that you
+Dialogue: 0,0:00:07.90,0:00:09.68,Caption,,0,0,0,,have this tech debt
+Dialogue: 0,0:00:09.68,0:00:10.38,Caption,,0,0,0,,effectively of code that
+Dialogue: 0,0:00:10.38,0:00:12.22,Caption,,0,0,0,,was written already
+Dialogue: 0,0:00:12.22,0:00:13.80,Caption,,0,0,0,,right everything from I
+Dialogue: 0,0:00:13.80,0:00:14.58,Caption,,0,0,0,,mean including today
+Dialogue: 0,0:00:14.58,0:00:15.40,Caption,,0,0,0,,because agents are still
+Dialogue: 0,0:00:15.40,0:00:16.83,Caption,,0,0,0,,shipping vulnerabilities
+Dialogue: 0,0:00:16.84,0:00:17.72,Caption,,0,0,0,,so you will have to pay
+Dialogue: 0,0:00:17.72,0:00:18.94,Caption,,0,0,0,,that down so
+Dialogue: 0,0:00:18.94,0:00:19.92,Caption,,0,0,0,,theoretically over time
+Dialogue: 0,0:00:19.92,0:00:20.98,Caption,,0,0,0,,you're gonna you
+Dialogue: 0,0:00:20.98,0:00:21.66,Caption,,0,0,0,,converge on this point
+Dialogue: 0,0:00:21.66,0:00:22.24,Caption,,0,0,0,,where you're not
+Dialogue: 0,0:00:22.24,0:00:22.88,Caption,,0,0,0,,shipping new
+Dialogue: 0,0:00:22.88,0:00:24.38,Caption,,0,0,0,,vulnerabilities mostly
+Dialogue: 0,0:00:24.38,0:00:24.96,Caption,,0,0,0,,and you're paying down
+Dialogue: 0,0:00:24.96,0:00:26.30,Caption,,0,0,0,,the old ones I do think
+Dialogue: 0,0:00:26.30,0:00:26.98,Caption,,0,0,0,,paying down that old
+Dialogue: 0,0:00:26.98,0:00:28.08,Caption,,0,0,0,,ones though I mean I can
+Dialogue: 0,0:00:28.08,0:00:29.32,Caption,,0,0,0,,tell you for an
+Dialogue: 0,0:00:29.32,0:00:30.94,Caption,,0,0,0,,organization with 130
+Dialogue: 0,0:00:30.94,0:00:31.56,Caption,,0,0,0,,engineers that's it's
+Dialogue: 0,0:00:31.56,0:00:33.74,Caption,,0,0,0,,not easy and agents can
+Dialogue: 0,0:00:33.74,0:00:35.32,Caption,,0,0,0,,fix most of them many of
+Dialogue: 0,0:00:35.32,0:00:36.34,Caption,,0,0,0,,them some of them
+Dialogue: 0,0:00:36.34,0:00:37.00,Caption,,0,0,0,,require product
+Dialogue: 0,0:00:37.00,0:00:38.10,Caption,,0,0,0,,decisions so like that
+Dialogue: 0,0:00:38.10,0:00:40.27,Caption,,0,0,0,,can't be automated so I
+Dialogue: 0,0:00:40.27,0:00:41.13,Caption,,0,0,0,,mean that's a challenge
+Dialogue: 0,0:00:41.13,0:00:42.37,Caption,,0,0,0,,I will say I think it
+Dialogue: 0,0:00:42.37,0:00:43.73,Caption,,0,0,0,,like it gets worse
+Dialogue: 0,0:00:43.73,0:00:45.90,Caption,,0,0,0,,before it gets better it
+Dialogue: 0,0:00:45.90,0:00:46.76,Caption,,0,0,0,,will get better things
+Dialogue: 0,0:00:46.76,0:00:47.62,Caption,,0,0,0,,will get better but I
+Dialogue: 0,0:00:47.62,0:00:48.40,Caption,,0,0,0,,think it maybe it gets a
+Dialogue: 0,0:00:48.40,0:00:49.56,Caption,,0,0,0,,little worse before then
+Dialogue: 0,0:00:49.56,0:00:50.92,Caption,,0,0,0,,and like this week is a
+Dialogue: 0,0:00:50.92,0:00:51.66,Caption,,0,0,0,,great example of that
+Dialogue: 0,0:00:51.66,0:00:52.50,Caption,,0,0,0,,and a lot of goods gonna
+Dialogue: 0,0:00:52.50,0:00:53.54,Caption,,0,0,0,,come out of it but it's
+Dialogue: 0,0:00:53.54,0:00:54.46,Caption,,0,0,0,,a shit week that's just
+Dialogue: 0,0:00:54.46,0:00:55.10,Caption,,0,0,0,,how it goes

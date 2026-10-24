@@ -80,3 +80,104 @@ shorts:
     anchor: "If Claude can build it in a day, why would anyone pay you for it?"
     from: "It's maybe not even like go-to-market"
     to: "what software makes sense to kind of try to sell."
+  - id: gtm-posthog-700k
+    speaker: Tim Glaser
+    anchor: "Open source since day one, now ~700,000 users"
+    from: "one of the co-founders and CEO of PostHog"
+    to: "growing really quickly."
+  - id: gtm-unikraft-linux-foundation
+    speaker: Alex Jung
+    anchor: "Micro VMs, open core, born as a Linux Foundation project"
+    from: "I'm co-founder and chief of product at Unikraft."
+    to: "built a cloud platform around that."
+  - id: gtm-cline-11m-downloads
+    speaker: John Simone
+    anchor: "11M downloads, ~500K monthly active users"
+    from: "Hey, I'm John Simone."
+    to: "half a million active users monthly."
+  - id: gtm-twitter-ads-to-github
+    speaker: Tim Glaser
+    anchor: "A few hundred dollars of Twitter ads to GitHub got the first 100 stars"
+    from: "We actually did something kind of clever"
+    to: "It's totally kind of net new."
+  - id: gtm-first-users-students
+    speaker: Alex Jung
+    anchor: "The first users were students, found through university workshops"
+    from: "we started off as research."
+    to: "they were taking that course."
+  - id: gtm-kernel-grade-reviews
+    speaker: Alex Jung
+    anchor: "Kernel-grade code reviews won partners like ARM and Microsoft"
+    from: "At the time, also, before the whole AI takeover"
+    to: "stable, understood, thought-out software."
+  - id: gtm-unique-gets-tried
+    speaker: John Simone
+    anchor: "In dev tools, unique gets tried. The work is keeping the buzz."
+    from: "So, Cline started at a hackathon"
+    to: "we were successful in doing that."
+  - id: gtm-launch-often
+    speaker: Alex Jung
+    anchor: "Launch often: every new feature and every raise got its own launch"
+    from: "so we launch often, or at least at the beginning"
+    to: "That worked really well."
+  - id: gtm-ai-university
+    speaker: John Simone
+    anchor: "Blog content and an AI University series drove the early traction"
+    from: "early early on for us blog content"
+    to: "this is a lot of uptake here."
+  - id: gtm-fortune-500-uphill
+    speaker: John Simone
+    anchor: "Selling into the Fortune 500 as a small company was an uphill battle"
+    from: "that turned into getting inbound hearing from Fortune 500 companies"
+    to: "a lot more friction there than we expected"
+  - id: gtm-self-host-trust
+    speaker: Tim Glaser
+    anchor: "Few people self-host PostHog, but knowing they can builds trust"
+    from: "Yeah, I think for us, it's a trust thing"
+    to: "the benefit is obviously much, much less."
+  - id: gtm-open-core-security
+    speaker: Alex Jung
+    anchor: "Open core: the kernel is open, the cloud stays closed for security"
+    from: "We're open core and what that means"
+    to: "the cloud platform of our customers as well."
+  - id: gtm-feedback-over-contributions
+    speaker: Tim Glaser
+    anchor: "Contributions aren't the value of open source. Feedback is."
+    from: "One that I used to hear more is that the value of open source"
+    to: "other people can implement stuff in our software."
+  - id: gtm-cloud-only-monetization
+    speaker: Tim Glaser
+    anchor: "Open core failed for PostHog. Charging only for the cloud worked."
+    from: "In terms of go to market,"
+    to: "word of mouth and usage for our cloud as well."
+    skip: ["And I know now people do more like BYOC where they, I guess maybe that's what you do, but where you kind of bring in, you control it, but you're sort of in an account, so that might work better."]
+  - id: gtm-events-beat-outbound
+    speaker: Alex Jung
+    anchor: "In-person events beat AI-written outbound"
+    from: "But then on the whole GTM front"
+    to: "than actually all this outbound stuff."
+  - id: gtm-maintenance-costs
+    speaker: Alex Jung
+    anchor: "Maintaining software isn't free, and AI makes it cost real money"
+    from: "I think there's a big question about maintainability."
+    to: "Who's going to maintain this, right?"
+  - id: gtm-shared-foundations
+    speaker: John Simone
+    anchor: "Shared foundations like the Linux kernel matter more, not less"
+    from: "yeah I think there's"
+    to: "on a stable base there"
+  - id: gtm-distribution-moat
+    speaker: Tim Glaser
+    anchor: "Distribution is a moat. Find a hook that stands out."
+    from: "I think distribution is a moat"
+    to: "a hook that kind of makes sense and it's different."
+  - id: gtm-forward-deployed
+    speaker: Tim Glaser
+    anchor: "Be a forward-deployed engineer: solve people's problems for them"
+    from: "And then the last thing I think makes sense"
+    to: "get the first couple of customers."
+  - id: gtm-free-vs-paid
+    speaker: John Simone
+    anchor: "Find the line between what's free and what people will pay for"
+    from: "Yeah, I think with open source, the most important thing"
+    to: "in the niche where you are"

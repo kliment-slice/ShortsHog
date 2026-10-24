@@ -1,0 +1,61 @@
+{
+ "range_src": [
+  1125.31,
+  1142.35
+ ],
+ "range_out": [
+  965.4300000000007,
+  981.13
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 965.4300000000007,
+   "t1": 967.645
+  },
+  {
+   "kind": "react",
+   "person": "Tom Piccirello",
+   "speaker": "Justin D'Souza",
+   "t0": 967.645,
+   "t1": 968.845
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 968.845,
+   "t1": 971.0
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 971.0,
+   "t1": 972.4
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 972.4,
+   "t1": 975.1999999999999
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 975.1999999999999,
+   "t1": 976.985
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 976.985,
+   "t1": 981.13
+  }
+ ]
+}

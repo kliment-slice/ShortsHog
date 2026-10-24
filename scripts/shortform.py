@@ -207,21 +207,24 @@ def render(ev: dict, edir: Path, p: dict, spec: dict, plan_only: bool) -> Path:
     story = lf.load_story(edir / "longform" / f"{p['id']}.story.yaml")
     span = tighten.resolve_cuts(words_src, [{"from": spec["from"], "to": spec["to"]}])
     if not span:
-        sys.exit(f"{spec['id']}: couldn't find the range {spec['from']!r} .. {spec['to']!r}")
+        print(f"[{spec['id']}] SKIPPED: couldn't find the range {spec['from']!r} .. {spec['to']!r}")
+        return None
     a, b = span[0][0], span[0][1]
     skips = [(x, y, "skip", "") for phrase in spec.get("skip") or [] for x, y in find_in(words_src, phrase, a, b)]
     editorial = tighten.resolve_cuts(words_src, story["cuts"]) + skips
     ed = tighten.Edit(words_src, tighten.decode_audio(edir / "transcripts" / f"{p['id']}.wav", tighten.SR),
                       pend - pstart, tighten.settings(), editorial)
     # pad, but never into the words either side (the tightened pauses are short)
-    all_words = ed.words_out(words_src)
+    # (picked by source time: whisper's word timings can overlap at a range edge)
     a_out, b_out = ed.to_out_near(a), ed.to_out_near(b)
-    before = [w["end"] for w in all_words if w["end"] <= a_out + 0.01]
-    after = [w["start"] for w in all_words if w["start"] >= b_out - 0.01]
-    t0 = max(0.0, a_out - st["pad_start"], (before[-1] + 0.03) if before else 0.0)
-    t1 = min(ed.out_dur, b_out + st["pad_end"], (after[0] - 0.05) if after else ed.out_dur)
+    i = next(k for k, w in enumerate(words_src) if abs(w["start"] - a) < 0.005)
+    j = next(k for k in range(i, len(words_src)) if abs(words_src[k]["end"] - b) < 0.005)
+    before = [w["end"] for w in ed.words_out(words_src[:i])]
+    after = [w["start"] for w in ed.words_out(words_src[j + 1:])]
+    t0 = max(0.0, a_out - st["pad_start"], min(a_out, before[-1] + 0.03) if before else 0.0)
+    t1 = min(ed.out_dur, b_out + st["pad_end"], max(b_out, after[0] - 0.05) if after else ed.out_dur)
     dur = t1 - t0
-    words = [w for w in all_words if a_out - 0.05 <= w["start"] < b_out]
+    words = ed.words_out(words_src[i:j + 1])
     tracks = lf.Tracks(edir / "faces" / f"{p['id']}.cam2.tracks.json")
     people = {x["name"]: x for x in p.get("people", []) if isinstance(x, dict)}
     seats = list(((p.get("seats") or {}).get("cam2")) or [])

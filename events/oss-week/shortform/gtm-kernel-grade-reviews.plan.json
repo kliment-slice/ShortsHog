@@ -1,0 +1,131 @@
+{
+ "range_src": [
+  254.83,
+  291.09
+ ],
+ "range_out": [
+  182.54000000000005,
+  218.79
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 182.54000000000005,
+   "t1": 185.34000000000006
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 185.34000000000006,
+   "t1": 186.54000000000005
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 186.54000000000005,
+   "t1": 188.945
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 188.945,
+   "t1": 190.345
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 190.345,
+   "t1": 193.815
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 193.815,
+   "t1": 195.015
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 195.015,
+   "t1": 197.815
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 197.815,
+   "t1": 199.215
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 199.215,
+   "t1": 202.01500000000001
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 202.01500000000001,
+   "t1": 203.215
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 203.215,
+   "t1": 206.01500000000001
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 206.01500000000001,
+   "t1": 207.3
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 207.3,
+   "t1": 210.10000000000002
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 210.10000000000002,
+   "t1": 211.3
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 211.3,
+   "t1": 213.365
+  },
+  {
+   "kind": "medium",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 213.365,
+   "t1": 214.76500000000001
+  },
+  {
+   "kind": "close",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 214.76500000000001,
+   "t1": 218.79
+  }
+ ]
+}

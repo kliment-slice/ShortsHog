@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:21.81,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tim Glaser (PostHog)
+Dialogue: 2,0:00:00.20,0:00:21.81,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Contributions aren't the
+Dialogue: 2,0:00:00.20,0:00:21.81,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}value of open source.
+Dialogue: 2,0:00:00.20,0:00:21.81,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}Feedback is.”
+Dialogue: 0,0:00:00.10,0:00:01.28,Caption,,0,0,0,,One that I used to hear
+Dialogue: 0,0:00:01.28,0:00:03.48,Caption,,0,0,0,,more is that the value
+Dialogue: 0,0:00:03.48,0:00:04.26,Caption,,0,0,0,,of open source is
+Dialogue: 0,0:00:04.26,0:00:05.76,Caption,,0,0,0,,getting contributions.
+Dialogue: 0,0:00:05.80,0:00:06.84,Caption,,0,0,0,,Actually
+Dialogue: 0,0:00:06.84,0:00:08.38,Caption,,0,0,0,,that might be true for
+Dialogue: 0,0:00:08.38,0:00:09.26,Caption,,0,0,0,,some types of software.
+Dialogue: 0,0:00:09.26,0:00:11.44,Caption,,0,0,0,,We've never had really
+Dialogue: 0,0:00:11.44,0:00:12.08,Caption,,0,0,0,,substantial
+Dialogue: 0,0:00:12.08,0:00:12.80,Caption,,0,0,0,,contributions from the
+Dialogue: 0,0:00:12.80,0:00:13.15,Caption,,0,0,0,,community
+Dialogue: 0,0:00:13.14,0:00:14.62,Caption,,0,0,0,,but for us
+Dialogue: 0,0:00:14.62,0:00:15.22,Caption,,0,0,0,,it's always been more
+Dialogue: 0,0:00:15.22,0:00:15.96,Caption,,0,0,0,,about feedback.
+Dialogue: 0,0:00:15.96,0:00:16.84,Caption,,0,0,0,,We'd rather have the
+Dialogue: 0,0:00:16.84,0:00:17.62,Caption,,0,0,0,,feedback and we
+Dialogue: 0,0:00:17.62,0:00:19.44,Caption,,0,0,0,,implement it than other
+Dialogue: 0,0:00:19.44,0:00:20.20,Caption,,0,0,0,,people can implement
+Dialogue: 0,0:00:20.20,0:00:21.81,Caption,,0,0,0,,stuff in our software.

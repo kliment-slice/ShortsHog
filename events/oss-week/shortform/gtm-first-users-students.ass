@@ -1,0 +1,57 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:43.19,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Alex Jung (Unikraft)
+Dialogue: 2,0:00:00.20,0:00:43.19,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“The first users were
+Dialogue: 2,0:00:00.20,0:00:43.19,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}students, found through
+Dialogue: 2,0:00:00.20,0:00:43.19,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}university workshops”
+Dialogue: 0,0:00:00.05,0:00:01.65,Caption,,0,0,0,,we started off as
+Dialogue: 0,0:00:01.65,0:00:02.00,Caption,,0,0,0,,research.
+Dialogue: 0,0:00:01.87,0:00:03.15,Caption,,0,0,0,,We came out of academia
+Dialogue: 0,0:00:03.15,0:00:05.01,Caption,,0,0,0,,we were in universities
+Dialogue: 0,0:00:05.01,0:00:05.99,Caption,,0,0,0,,and labs.
+Dialogue: 0,0:00:05.99,0:00:07.01,Caption,,0,0,0,,So some of the first
+Dialogue: 0,0:00:07.01,0:00:08.85,Caption,,0,0,0,,users were students
+Dialogue: 0,0:00:08.85,0:00:09.37,Caption,,0,0,0,,actually.
+Dialogue: 0,0:00:09.37,0:00:10.99,Caption,,0,0,0,,And we started to grow a
+Dialogue: 0,0:00:10.99,0:00:12.59,Caption,,0,0,0,,community fully
+Dialogue: 0,0:00:12.59,0:00:12.94,Caption,,0,0,0,,distributed.
+Dialogue: 0,0:00:12.87,0:00:14.77,Caption,,0,0,0,,We had a Discord server
+Dialogue: 0,0:00:14.77,0:00:15.61,Caption,,0,0,0,,that started to get
+Dialogue: 0,0:00:15.61,0:00:17.55,Caption,,0,0,0,,popular with academics
+Dialogue: 0,0:00:17.55,0:00:18.59,Caption,,0,0,0,,with students that were
+Dialogue: 0,0:00:18.59,0:00:20.15,Caption,,0,0,0,,trying to learn what we
+Dialogue: 0,0:00:20.15,0:00:21.05,Caption,,0,0,0,,were building.
+Dialogue: 0,0:00:21.05,0:00:22.33,Caption,,0,0,0,,We, as academics
+Dialogue: 0,0:00:22.33,0:00:24.05,Caption,,0,0,0,,were also going around
+Dialogue: 0,0:00:24.05,0:00:25.11,Caption,,0,0,0,,to different
+Dialogue: 0,0:00:25.11,0:00:25.99,Caption,,0,0,0,,universities to present
+Dialogue: 0,0:00:25.99,0:00:27.11,Caption,,0,0,0,,what we were doing
+Dialogue: 0,0:00:27.17,0:00:28.89,Caption,,0,0,0,,which is very typical as
+Dialogue: 0,0:00:28.89,0:00:29.73,Caption,,0,0,0,,a researcher
+Dialogue: 0,0:00:29.73,0:00:30.79,Caption,,0,0,0,,and we would throw
+Dialogue: 0,0:00:30.79,0:00:31.53,Caption,,0,0,0,,workshops and people
+Dialogue: 0,0:00:31.53,0:00:32.72,Caption,,0,0,0,,would come along.
+Dialogue: 0,0:00:32.72,0:00:33.58,Caption,,0,0,0,,That actually led to a
+Dialogue: 0,0:00:33.58,0:00:34.48,Caption,,0,0,0,,little bit of a growth
+Dialogue: 0,0:00:34.48,0:00:35.78,Caption,,0,0,0,,in terms of people
+Dialogue: 0,0:00:35.78,0:00:36.86,Caption,,0,0,0,,learning how to use our
+Dialogue: 0,0:00:36.86,0:00:37.21,Caption,,0,0,0,,software
+Dialogue: 0,0:00:37.04,0:00:38.42,Caption,,0,0,0,,but in context to what
+Dialogue: 0,0:00:38.42,0:00:39.14,Caption,,0,0,0,,they were studying.
+Dialogue: 0,0:00:39.14,0:00:40.10,Caption,,0,0,0,,So we were building a
+Dialogue: 0,0:00:40.10,0:00:41.06,Caption,,0,0,0,,kernel, so people were
+Dialogue: 0,0:00:41.06,0:00:41.78,Caption,,0,0,0,,learning operating
+Dialogue: 0,0:00:41.78,0:00:42.13,Caption,,0,0,0,,systems, they were
+Dialogue: 0,0:00:42.04,0:00:43.19,Caption,,0,0,0,,taking that course.

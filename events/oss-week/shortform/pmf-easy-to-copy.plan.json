@@ -1,0 +1,89 @@
+{
+ "range_src": [
+  1078.45,
+  1102.46
+ ],
+ "range_out": [
+  989.64,
+  1013.94
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 989.64,
+   "t1": 992.4399999999999
+  },
+  {
+   "kind": "react",
+   "person": "Hang Huang",
+   "speaker": "Shengkun Ye",
+   "t0": 992.4399999999999,
+   "t1": 993.64
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 993.64,
+   "t1": 996.4399999999999
+  },
+  {
+   "kind": "medium",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 996.4399999999999,
+   "t1": 997.385
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 997.385,
+   "t1": 1000.185
+  },
+  {
+   "kind": "react",
+   "person": "Yonas Beshawred",
+   "speaker": "Shengkun Ye",
+   "t0": 1000.185,
+   "t1": 1001.385
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 1001.385,
+   "t1": 1004.185
+  },
+  {
+   "kind": "medium",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 1004.185,
+   "t1": 1006.155
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 1006.155,
+   "t1": 1008.9549999999999
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 1008.9549999999999,
+   "t1": 1010.155
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 1010.155,
+   "t1": 1013.94
+  }
+ ]
+}

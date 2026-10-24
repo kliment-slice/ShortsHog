@@ -1,0 +1,159 @@
+{
+ "range_src": [
+  740.53,
+  786.85
+ ],
+ "range_out": [
+  612.0200000000001,
+  655.7700000000002
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 612.0200000000001,
+   "t1": 614.635
+  },
+  {
+   "kind": "react",
+   "person": "Matt Lenhard",
+   "speaker": "Justin D'Souza",
+   "t0": 614.635,
+   "t1": 615.835
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 615.835,
+   "t1": 618.81
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 618.81,
+   "t1": 620.99
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 620.99,
+   "t1": 623.14
+  },
+  {
+   "kind": "react",
+   "person": "Tom Piccirello",
+   "speaker": "Justin D'Souza",
+   "t0": 623.14,
+   "t1": 624.34
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 624.34,
+   "t1": 626.72
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 626.72,
+   "t1": 628.12
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 628.12,
+   "t1": 630.92
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 630.92,
+   "t1": 632.12
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 632.12,
+   "t1": 634.92
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 634.92,
+   "t1": 636.3199999999999
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 636.3199999999999,
+   "t1": 639.1199999999999
+  },
+  {
+   "kind": "react",
+   "person": "Matt Lenhard",
+   "speaker": "Justin D'Souza",
+   "t0": 639.1199999999999,
+   "t1": 640.13
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 640.13,
+   "t1": 643.38
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 643.38,
+   "t1": 644.78
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 644.78,
+   "t1": 647.5799999999999
+  },
+  {
+   "kind": "react",
+   "person": "Tom Piccirello",
+   "speaker": "Justin D'Souza",
+   "t0": 647.5799999999999,
+   "t1": 648.78
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 648.78,
+   "t1": 651.5799999999999
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 651.5799999999999,
+   "t1": 652.9799999999999
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 652.9799999999999,
+   "t1": 655.7700000000002
+  }
+ ]
+}

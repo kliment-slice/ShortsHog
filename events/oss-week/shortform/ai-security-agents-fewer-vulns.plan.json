@@ -1,0 +1,173 @@
+{
+ "range_src": [
+  680.99,
+  733.26
+ ],
+ "range_out": [
+  563.56,
+  609.07
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 563.56,
+   "t1": 565.9
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Tom Piccirello",
+   "t0": 565.9,
+   "t1": 567.1
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 567.1,
+   "t1": 569.9
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 569.9,
+   "t1": 571.3
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 571.3,
+   "t1": 574.0999999999999
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Tom Piccirello",
+   "t0": 574.0999999999999,
+   "t1": 575.45
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 575.45,
+   "t1": 577.86
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 577.86,
+   "t1": 579.26
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 579.26,
+   "t1": 581.56
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Tom Piccirello",
+   "t0": 581.56,
+   "t1": 582.76
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 582.76,
+   "t1": 586.34
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 586.34,
+   "t1": 587.74
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 587.74,
+   "t1": 590.54
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Tom Piccirello",
+   "t0": 590.54,
+   "t1": 591.74
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 591.74,
+   "t1": 594.11
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 594.11,
+   "t1": 595.51
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 595.51,
+   "t1": 598.31
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Tom Piccirello",
+   "t0": 598.31,
+   "t1": 599.51
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 599.51,
+   "t1": 602.22
+  },
+  {
+   "kind": "medium",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 602.22,
+   "t1": 603.62
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 603.62,
+   "t1": 605.75
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Tom Piccirello",
+   "t0": 605.75,
+   "t1": 606.895
+  },
+  {
+   "kind": "close",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 606.895,
+   "t1": 609.07
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:01:00.52,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Hang Huang (InsForge)
+Dialogue: 2,0:00:00.20,0:01:00.52,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Code gets reverse
+Dialogue: 2,0:00:00.20,0:01:00.52,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}engineered anyway. Put it
+Dialogue: 2,0:00:00.20,0:01:00.52,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}out there.”
+Dialogue: 0,0:00:00.00,0:00:01.14,Caption,,0,0,0,,{\c&H00B3DA43}Konstantine: {\c&H00FFFFFF}what's going to be your
+Dialogue: 0,0:00:01.14,0:00:03.14,Caption,,0,0,0,,hot takes and your
+Dialogue: 0,0:00:03.18,0:00:04.58,Caption,,0,0,0,,advice for someone who
+Dialogue: 0,0:00:04.58,0:00:05.44,Caption,,0,0,0,,wants to launch
+Dialogue: 0,0:00:05.44,0:00:06.24,Caption,,0,0,0,,something on an open
+Dialogue: 0,0:00:06.24,0:00:08.46,Caption,,0,0,0,,source, he needs to do
+Dialogue: 0,0:00:08.46,0:00:09.03,Caption,,0,0,0,,it or not?
+Dialogue: 0,0:00:09.03,0:00:09.85,Caption,,0,0,0,,I'm going to go first
+Dialogue: 0,0:00:09.85,0:00:10.93,Caption,,0,0,0,,because I do have one
+Dialogue: 0,0:00:10.93,0:00:12.49,Caption,,0,0,0,,thing I want to share is
+Dialogue: 0,0:00:12.49,0:00:14.42,Caption,,0,0,0,,you guys probably using
+Dialogue: 0,0:00:14.42,0:00:15.30,Caption,,0,0,0,,something or something
+Dialogue: 0,0:00:15.30,0:00:16.82,Caption,,0,0,0,,REA recently right
+Dialogue: 0,0:00:16.82,0:00:19.24,Caption,,0,0,0,,reverse engineer so it's
+Dialogue: 0,0:00:19.24,0:00:20.42,Caption,,0,0,0,,already happening even
+Dialogue: 0,0:00:20.42,0:00:21.30,Caption,,0,0,0,,though if your closed
+Dialogue: 0,0:00:21.30,0:00:22.18,Caption,,0,0,0,,source or open source
+Dialogue: 0,0:00:22.18,0:00:23.06,Caption,,0,0,0,,doesn't really matter
+Dialogue: 0,0:00:23.06,0:00:23.92,Caption,,0,0,0,,why don't you put your
+Dialogue: 0,0:00:23.92,0:00:25.04,Caption,,0,0,0,,code out there so people
+Dialogue: 0,0:00:25.04,0:00:26.68,Caption,,0,0,0,,can just feel some you
+Dialogue: 0,0:00:26.68,0:00:28.46,Caption,,0,0,0,,know trust it gave you
+Dialogue: 0,0:00:28.46,0:00:29.42,Caption,,0,0,0,,some initial traction so
+Dialogue: 0,0:00:29.42,0:00:30.86,Caption,,0,0,0,,you can better find a
+Dialogue: 0,0:00:30.86,0:00:32.84,Caption,,0,0,0,,market fit It's like as
+Dialogue: 0,0:00:32.84,0:00:33.46,Caption,,0,0,0,,a developer
+Dialogue: 0,0:00:33.46,0:00:34.54,Caption,,0,0,0,,if I see this project is
+Dialogue: 0,0:00:34.54,0:00:34.94,Caption,,0,0,0,,open source
+Dialogue: 0,0:00:34.94,0:00:36.50,Caption,,0,0,0,,I'll give it a try
+Dialogue: 0,0:00:36.50,0:00:37.72,Caption,,0,0,0,,I'll self-host it
+Dialogue: 0,0:00:37.72,0:00:38.74,Caption,,0,0,0,,and if it is good
+Dialogue: 0,0:00:38.74,0:00:39.72,Caption,,0,0,0,,then I'm going to
+Dialogue: 0,0:00:39.72,0:00:40.30,Caption,,0,0,0,,contribute to this
+Dialogue: 0,0:00:40.30,0:00:41.20,Caption,,0,0,0,,project. That's how you
+Dialogue: 0,0:00:41.20,0:00:42.68,Caption,,0,0,0,,get your first few so
+Dialogue: 0,0:00:42.68,0:00:43.94,Caption,,0,0,0,,it's much better than a
+Dialogue: 0,0:00:43.94,0:00:45.14,Caption,,0,0,0,,closed source version
+Dialogue: 0,0:00:45.14,0:00:46.08,Caption,,0,0,0,,that's just like
+Dialogue: 0,0:00:46.08,0:00:47.04,Caption,,0,0,0,,you know
+Dialogue: 0,0:00:47.04,0:00:48.54,Caption,,0,0,0,,the 100x
+Dialogue: 0,0:00:48.54,0:00:49.94,Caption,,0,0,0,,the number 100 or
+Dialogue: 0,0:00:49.94,0:00:50.29,Caption,,0,0,0,,whatever
+Dialogue: 0,0:00:50.22,0:00:51.56,Caption,,0,0,0,,like the 200 companies
+Dialogue: 0,0:00:51.56,0:00:52.96,Caption,,0,0,0,,are they doing this
+Dialogue: 0,0:00:52.96,0:00:54.08,Caption,,0,0,0,,database thing
+Dialogue: 0,0:00:54.08,0:00:55.52,Caption,,0,0,0,,I don't know what it is
+Dialogue: 0,0:00:55.52,0:00:56.60,Caption,,0,0,0,,I don't even want to try
+Dialogue: 0,0:00:56.60,0:00:58.22,Caption,,0,0,0,,it. So, I would
+Dialogue: 0,0:00:58.22,0:00:59.60,Caption,,0,0,0,,definitely vouch for
+Dialogue: 0,0:00:59.60,0:01:00.52,Caption,,0,0,0,,open source.

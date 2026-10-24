@@ -12,56 +12,56 @@ Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:01:16.34,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00B3DA43}Matt Lenhard (Vectoral)
-Dialogue: 2,0:00:00.20,0:01:16.34,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“One attack: 100,000
-Dialogue: 2,0:00:00.20,0:01:16.34,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}requests from 4,000 accounts
-Dialogue: 2,0:00:00.20,0:01:16.34,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}in 100 milliseconds”
-Dialogue: 0,0:00:00.10,0:00:01.94,Caption,,0,0,0,,So for context
-Dialogue: 0,0:00:01.94,0:00:04.40,Caption,,0,0,0,,we stop like inference
-Dialogue: 0,0:00:04.40,0:00:06.18,Caption,,0,0,0,,abuse and like token
-Dialogue: 0,0:00:06.18,0:00:07.10,Caption,,0,0,0,,fraud. So everything
-Dialogue: 0,0:00:07.10,0:00:08.60,Caption,,0,0,0,,from like CSAM
-Dialogue: 0,0:00:08.60,0:00:09.85,Caption,,0,0,0,,distillation
-Dialogue: 0,0:00:09.94,0:00:10.78,Caption,,0,0,0,,cyber attacks being
-Dialogue: 0,0:00:10.78,0:00:13.46,Caption,,0,0,0,,proxied through AI
-Dialogue: 0,0:00:13.46,0:00:14.21,Caption,,0,0,0,,endpoints.
-Dialogue: 0,0:00:14.21,0:00:15.69,Caption,,0,0,0,,So we recently saw an
-Dialogue: 0,0:00:15.69,0:00:17.53,Caption,,0,0,0,,attack that was across
-Dialogue: 0,0:00:17.53,0:00:19.25,Caption,,0,0,0,,probably 3,000
-Dialogue: 0,0:00:19.25,0:00:21.50,Caption,,0,0,0,,4,000 accounts
-Dialogue: 0,0:00:21.53,0:00:23.79,Caption,,0,0,0,,100,000 requests all
-Dialogue: 0,0:00:23.79,0:00:26.45,Caption,,0,0,0,,within 100 milliseconds
-Dialogue: 0,0:00:26.45,0:00:28.09,Caption,,0,0,0,,and this person had been
-Dialogue: 0,0:00:28.09,0:00:28.61,Caption,,0,0,0,,sitting on these
-Dialogue: 0,0:00:28.61,0:00:29.41,Caption,,0,0,0,,accounts for a while.
-Dialogue: 0,0:00:29.41,0:00:31.03,Caption,,0,0,0,,Some were bought up from
-Dialogue: 0,0:00:31.03,0:00:32.61,Caption,,0,0,0,,the underground markets
-Dialogue: 0,0:00:32.61,0:00:33.47,Caption,,0,0,0,,some were probably spun
-Dialogue: 0,0:00:33.47,0:00:34.49,Caption,,0,0,0,,up from automation.
-Dialogue: 0,0:00:34.49,0:00:36.89,Caption,,0,0,0,,But it shows you...
-Dialogue: 0,0:00:36.89,0:00:38.19,Caption,,0,0,0,,I guess with the power
-Dialogue: 0,0:00:38.19,0:00:39.65,Caption,,0,0,0,,of AI, what's possible
-Dialogue: 0,0:00:39.65,0:00:41.17,Caption,,0,0,0,,where an attack can now
-Dialogue: 0,0:00:41.17,0:00:43.41,Caption,,0,0,0,,be, if they just want a
-Dialogue: 0,0:00:43.41,0:00:44.27,Caption,,0,0,0,,few things to slip
-Dialogue: 0,0:00:44.27,0:00:45.75,Caption,,0,0,0,,through, it might be a
-Dialogue: 0,0:00:45.75,0:00:47.07,Caption,,0,0,0,,million requests across
-Dialogue: 0,0:00:47.07,0:00:48.21,Caption,,0,0,0,,a large number of
-Dialogue: 0,0:00:48.21,0:00:50.50,Caption,,0,0,0,,accounts all at once.
-Dialogue: 0,0:00:50.61,0:00:52.74,Caption,,0,0,0,,We think of it really as
-Dialogue: 0,0:00:52.83,0:00:54.57,Caption,,0,0,0,,anomaly detection.
-Dialogue: 0,0:00:54.57,0:00:56.49,Caption,,0,0,0,,Can you, specifically in
-Dialogue: 0,0:00:56.49,0:00:57.99,Caption,,0,0,0,,terms of endpoint
-Dialogue: 0,0:00:57.99,0:00:58.75,Caption,,0,0,0,,security
-Dialogue: 0,0:00:58.75,0:01:00.21,Caption,,0,0,0,,can you detect
-Dialogue: 0,0:01:00.21,0:01:01.35,Caption,,0,0,0,,anomalies?
-Dialogue: 0,0:01:01.37,0:01:03.75,Caption,,0,0,0,,across a large number of
-Dialogue: 0,0:01:03.75,0:01:06.16,Caption,,0,0,0,,accounts extremely fast.
-Dialogue: 0,0:01:06.16,0:01:07.08,Caption,,0,0,0,,It's a hard problem
-Dialogue: 0,0:01:07.08,0:01:08.28,Caption,,0,0,0,,like how do you roll up
-Dialogue: 0,0:01:08.28,0:01:09.76,Caption,,0,0,0,,if you've got 100,000
-Dialogue: 0,0:01:09.76,0:01:10.70,Caption,,0,0,0,,requests coming in
-Dialogue: 0,0:01:10.70,0:01:11.42,Caption,,0,0,0,,how do you roll up
-Dialogue: 0,0:01:11.42,0:01:12.62,Caption,,0,0,0,,what's normal for those
-Dialogue: 0,0:01:12.62,0:01:15.18,Caption,,0,0,0,,accounts all at once in
-Dialogue: 0,0:01:15.18,0:01:16.34,Caption,,0,0,0,,milliseconds?
+Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“One attack: 100,000
+Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}requests from 4,000 accounts
+Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}in 100 milliseconds”
+Dialogue: 0,0:00:00.00,0:00:01.84,Caption,,0,0,0,,So for context
+Dialogue: 0,0:00:01.84,0:00:04.30,Caption,,0,0,0,,we stop like inference
+Dialogue: 0,0:00:04.30,0:00:06.08,Caption,,0,0,0,,abuse and like token
+Dialogue: 0,0:00:06.08,0:00:07.00,Caption,,0,0,0,,fraud. So everything
+Dialogue: 0,0:00:07.00,0:00:08.50,Caption,,0,0,0,,from like CSAM
+Dialogue: 0,0:00:08.50,0:00:09.75,Caption,,0,0,0,,distillation
+Dialogue: 0,0:00:09.84,0:00:10.68,Caption,,0,0,0,,cyber attacks being
+Dialogue: 0,0:00:10.68,0:00:13.36,Caption,,0,0,0,,proxied through AI
+Dialogue: 0,0:00:13.36,0:00:14.11,Caption,,0,0,0,,endpoints.
+Dialogue: 0,0:00:14.11,0:00:15.59,Caption,,0,0,0,,So we recently saw an
+Dialogue: 0,0:00:15.59,0:00:17.43,Caption,,0,0,0,,attack that was across
+Dialogue: 0,0:00:17.43,0:00:19.15,Caption,,0,0,0,,probably 3,000
+Dialogue: 0,0:00:19.15,0:00:21.40,Caption,,0,0,0,,4,000 accounts
+Dialogue: 0,0:00:21.43,0:00:23.69,Caption,,0,0,0,,100,000 requests all
+Dialogue: 0,0:00:23.69,0:00:26.35,Caption,,0,0,0,,within 100 milliseconds
+Dialogue: 0,0:00:26.35,0:00:27.99,Caption,,0,0,0,,and this person had been
+Dialogue: 0,0:00:27.99,0:00:28.51,Caption,,0,0,0,,sitting on these
+Dialogue: 0,0:00:28.51,0:00:29.31,Caption,,0,0,0,,accounts for a while.
+Dialogue: 0,0:00:29.31,0:00:30.93,Caption,,0,0,0,,Some were bought up from
+Dialogue: 0,0:00:30.93,0:00:32.51,Caption,,0,0,0,,the underground markets
+Dialogue: 0,0:00:32.51,0:00:33.37,Caption,,0,0,0,,some were probably spun
+Dialogue: 0,0:00:33.37,0:00:34.39,Caption,,0,0,0,,up from automation.
+Dialogue: 0,0:00:34.39,0:00:36.79,Caption,,0,0,0,,But it shows you...
+Dialogue: 0,0:00:36.79,0:00:38.09,Caption,,0,0,0,,I guess with the power
+Dialogue: 0,0:00:38.09,0:00:39.55,Caption,,0,0,0,,of AI, what's possible
+Dialogue: 0,0:00:39.55,0:00:41.07,Caption,,0,0,0,,where an attack can now
+Dialogue: 0,0:00:41.07,0:00:43.31,Caption,,0,0,0,,be, if they just want a
+Dialogue: 0,0:00:43.31,0:00:44.17,Caption,,0,0,0,,few things to slip
+Dialogue: 0,0:00:44.17,0:00:45.65,Caption,,0,0,0,,through, it might be a
+Dialogue: 0,0:00:45.65,0:00:46.97,Caption,,0,0,0,,million requests across
+Dialogue: 0,0:00:46.97,0:00:48.11,Caption,,0,0,0,,a large number of
+Dialogue: 0,0:00:48.11,0:00:50.40,Caption,,0,0,0,,accounts all at once.
+Dialogue: 0,0:00:50.51,0:00:52.64,Caption,,0,0,0,,We think of it really as
+Dialogue: 0,0:00:52.73,0:00:54.47,Caption,,0,0,0,,anomaly detection.
+Dialogue: 0,0:00:54.47,0:00:56.39,Caption,,0,0,0,,Can you, specifically in
+Dialogue: 0,0:00:56.39,0:00:57.89,Caption,,0,0,0,,terms of endpoint
+Dialogue: 0,0:00:57.89,0:00:58.65,Caption,,0,0,0,,security
+Dialogue: 0,0:00:58.65,0:01:00.11,Caption,,0,0,0,,can you detect
+Dialogue: 0,0:01:00.11,0:01:01.25,Caption,,0,0,0,,anomalies?
+Dialogue: 0,0:01:01.27,0:01:03.65,Caption,,0,0,0,,across a large number of
+Dialogue: 0,0:01:03.65,0:01:06.06,Caption,,0,0,0,,accounts extremely fast.
+Dialogue: 0,0:01:06.06,0:01:06.98,Caption,,0,0,0,,It's a hard problem
+Dialogue: 0,0:01:06.98,0:01:08.18,Caption,,0,0,0,,like how do you roll up
+Dialogue: 0,0:01:08.18,0:01:09.66,Caption,,0,0,0,,if you've got 100,000
+Dialogue: 0,0:01:09.66,0:01:10.60,Caption,,0,0,0,,requests coming in
+Dialogue: 0,0:01:10.60,0:01:11.32,Caption,,0,0,0,,how do you roll up
+Dialogue: 0,0:01:11.32,0:01:12.52,Caption,,0,0,0,,what's normal for those
+Dialogue: 0,0:01:12.52,0:01:15.08,Caption,,0,0,0,,accounts all at once in
+Dialogue: 0,0:01:15.08,0:01:16.24,Caption,,0,0,0,,milliseconds?

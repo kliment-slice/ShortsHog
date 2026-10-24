@@ -1,0 +1,103 @@
+{
+ "range_src": [
+  415.85,
+  444.97
+ ],
+ "range_out": [
+  335.84999999999997,
+  362.95000000000005
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 335.84999999999997,
+   "t1": 339.05
+  },
+  {
+   "kind": "react",
+   "person": "Tom Piccirello",
+   "speaker": "Justin D'Souza",
+   "t0": 339.05,
+   "t1": 340.25
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 340.25,
+   "t1": 343.05
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 343.05,
+   "t1": 344.45
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 344.45,
+   "t1": 347.22
+  },
+  {
+   "kind": "react",
+   "person": "Mark Percival",
+   "speaker": "Justin D'Souza",
+   "t0": 347.22,
+   "t1": 348.42
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 348.42,
+   "t1": 350.68
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 350.68,
+   "t1": 352.08
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 352.08,
+   "t1": 354.88
+  },
+  {
+   "kind": "react",
+   "person": "Tom Piccirello",
+   "speaker": "Justin D'Souza",
+   "t0": 354.88,
+   "t1": 356.08
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 356.08,
+   "t1": 358.88
+  },
+  {
+   "kind": "medium",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 358.88,
+   "t1": 360.28
+  },
+  {
+   "kind": "close",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 360.28,
+   "t1": 362.95000000000005
+  }
+ ]
+}

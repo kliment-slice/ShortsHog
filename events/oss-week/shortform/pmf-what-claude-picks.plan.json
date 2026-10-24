@@ -1,0 +1,215 @@
+{
+ "range_src": [
+  523.21,
+  584.54
+ ],
+ "range_out": [
+  461.82,
+  522.76
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 461.82,
+   "t1": 464.62
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Yonas Beshawred",
+   "t0": 464.62,
+   "t1": 465.82
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 465.82,
+   "t1": 468.6
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 468.6,
+   "t1": 470.0
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 470.0,
+   "t1": 472.8
+  },
+  {
+   "kind": "react",
+   "person": "Hang Huang",
+   "speaker": "Yonas Beshawred",
+   "t0": 472.8,
+   "t1": 474.0
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 474.0,
+   "t1": 477.475
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 477.475,
+   "t1": 478.945
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 478.945,
+   "t1": 481.745
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Yonas Beshawred",
+   "t0": 481.745,
+   "t1": 482.945
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 482.945,
+   "t1": 485.745
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 485.745,
+   "t1": 487.145
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 487.145,
+   "t1": 489.945
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Yonas Beshawred",
+   "t0": 489.945,
+   "t1": 491.145
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 491.145,
+   "t1": 493.945
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 493.945,
+   "t1": 495.34499999999997
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 495.34499999999997,
+   "t1": 498.145
+  },
+  {
+   "kind": "react",
+   "person": "Hang Huang",
+   "speaker": "Yonas Beshawred",
+   "t0": 498.145,
+   "t1": 499.34499999999997
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 499.34499999999997,
+   "t1": 502.145
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 502.145,
+   "t1": 503.54499999999996
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 503.54499999999996,
+   "t1": 506.34499999999997
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Yonas Beshawred",
+   "t0": 506.34499999999997,
+   "t1": 507.54499999999996
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 507.54499999999996,
+   "t1": 510.34499999999997
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 510.34499999999997,
+   "t1": 511.74499999999995
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 511.74499999999995,
+   "t1": 514.945
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Yonas Beshawred",
+   "t0": 514.945,
+   "t1": 516.1450000000001
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 516.1450000000001,
+   "t1": 518.945
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 518.945,
+   "t1": 520.345
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 520.345,
+   "t1": 522.76
+  }
+ ]
+}

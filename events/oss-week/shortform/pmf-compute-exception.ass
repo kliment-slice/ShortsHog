@@ -1,0 +1,41 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:31.00,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001C5CFF}Yonas Beshawred (StarSling)
+Dialogue: 2,0:00:00.20,0:00:31.00,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“The exception is compute:
+Dialogue: 2,0:00:00.20,0:00:31.00,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}people pay for servers”
+Dialogue: 0,0:00:00.10,0:00:00.90,Caption,,0,0,0,,Yeah, well
+Dialogue: 0,0:00:00.90,0:00:02.78,Caption,,0,0,0,,I think I agree as well.
+Dialogue: 0,0:00:02.78,0:00:04.34,Caption,,0,0,0,,The only exception is if
+Dialogue: 0,0:00:04.34,0:00:05.36,Caption,,0,0,0,,what you're building has
+Dialogue: 0,0:00:05.36,0:00:06.72,Caption,,0,0,0,,to do with compute
+Dialogue: 0,0:00:06.72,0:00:07.78,Caption,,0,0,0,,it's probably not
+Dialogue: 0,0:00:07.78,0:00:09.36,Caption,,0,0,0,,something that you want
+Dialogue: 0,0:00:09.36,0:00:11.66,Caption,,0,0,0,,or that you have to open
+Dialogue: 0,0:00:11.66,0:00:12.38,Caption,,0,0,0,,source, right?
+Dialogue: 0,0:00:12.38,0:00:13.70,Caption,,0,0,0,,So like for us
+Dialogue: 0,0:00:13.70,0:00:15.26,Caption,,0,0,0,,anyone can go run CI.
+Dialogue: 0,0:00:15.26,0:00:16.00,Caption,,0,0,0,,You can run it on your
+Dialogue: 0,0:00:16.00,0:00:17.04,Caption,,0,0,0,,laptop, right?
+Dialogue: 0,0:00:17.04,0:00:18.28,Caption,,0,0,0,,But what you really need
+Dialogue: 0,0:00:18.28,0:00:19.22,Caption,,0,0,0,,is you need a lot of
+Dialogue: 0,0:00:19.22,0:00:19.90,Caption,,0,0,0,,servers. You need a lot
+Dialogue: 0,0:00:19.90,0:00:20.76,Caption,,0,0,0,,of vCPUs
+Dialogue: 0,0:00:20.76,0:00:22.56,Caption,,0,0,0,,right? you know
+Dialogue: 0,0:00:22.56,0:00:23.22,Caption,,0,0,0,,inherently you want it
+Dialogue: 0,0:00:23.22,0:00:25.02,Caption,,0,0,0,,to be hosted but you can
+Dialogue: 0,0:00:25.02,0:00:26.88,Caption,,0,0,0,,self-host right so yeah
+Dialogue: 0,0:00:26.88,0:00:29.10,Caption,,0,0,0,,I think compute is still
+Dialogue: 0,0:00:29.10,0:00:29.68,Caption,,0,0,0,,something that you want
+Dialogue: 0,0:00:29.68,0:00:31.00,Caption,,0,0,0,,to pay for generally

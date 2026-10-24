@@ -1,0 +1,145 @@
+{
+ "range_src": [
+  443.19,
+  483.99
+ ],
+ "range_out": [
+  355.22,
+  394.77
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 355.22,
+   "t1": 358.53
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 358.53,
+   "t1": 359.72999999999996
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 359.72999999999996,
+   "t1": 362.53
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 362.53,
+   "t1": 363.92999999999995
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 363.92999999999995,
+   "t1": 366.72999999999996
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 366.72999999999996,
+   "t1": 367.755
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 367.755,
+   "t1": 370.555
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 370.555,
+   "t1": 371.955
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 371.955,
+   "t1": 374.755
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 374.755,
+   "t1": 375.955
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 375.955,
+   "t1": 378.755
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 378.755,
+   "t1": 380.155
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 380.155,
+   "t1": 383.63
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 383.63,
+   "t1": 385.2
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 385.2,
+   "t1": 388.0
+  },
+  {
+   "kind": "medium",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 388.0,
+   "t1": 389.4
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 389.4,
+   "t1": 392.2
+  },
+  {
+   "kind": "react",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 392.2,
+   "t1": 393.4
+  },
+  {
+   "kind": "close",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 393.4,
+   "t1": 394.77
+  }
+ ]
+}

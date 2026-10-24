@@ -1,0 +1,60 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:55.85,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001C5CFF}Yonas Beshawred (StarSling)
+Dialogue: 2,0:00:00.20,0:00:55.85,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“CI is free for open source.
+Dialogue: 2,0:00:00.20,0:00:55.85,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}Paying anyway means real
+Dialogue: 2,0:00:00.20,0:00:55.85,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}pain.”
+Dialogue: 0,0:00:00.10,0:00:02.69,Caption,,0,0,0,,Yeah, so for us
+Dialogue: 0,0:00:02.70,0:00:03.62,Caption,,0,0,0,,we actually started off
+Dialogue: 0,0:00:03.62,0:00:04.70,Caption,,0,0,0,,with a very different
+Dialogue: 0,0:00:04.70,0:00:07.12,Caption,,0,0,0,,product that was similar
+Dialogue: 0,0:00:07.12,0:00:08.40,Caption,,0,0,0,,to another open source
+Dialogue: 0,0:00:08.40,0:00:08.90,Caption,,0,0,0,,project called
+Dialogue: 0,0:00:08.90,0:00:10.15,Caption,,0,0,0,,Backstage.
+Dialogue: 0,0:00:10.16,0:00:11.50,Caption,,0,0,0,,So top of the year
+Dialogue: 0,0:00:11.50,0:00:13.04,Caption,,0,0,0,,we started with a new
+Dialogue: 0,0:00:13.04,0:00:15.16,Caption,,0,0,0,,product and we saw the
+Dialogue: 0,0:00:15.16,0:00:16.18,Caption,,0,0,0,,first signs of product
+Dialogue: 0,0:00:16.18,0:00:18.08,Caption,,0,0,0,,market fit when we
+Dialogue: 0,0:00:18.08,0:00:19.30,Caption,,0,0,0,,shipped it to our first
+Dialogue: 0,0:00:19.30,0:00:20.34,Caption,,0,0,0,,customer who is an open
+Dialogue: 0,0:00:20.34,0:00:20.90,Caption,,0,0,0,,source project
+Dialogue: 0,0:00:20.90,0:00:22.47,Caption,,0,0,0,,it's called Better Auth
+Dialogue: 0,0:00:22.47,0:00:24.43,Caption,,0,0,0,,that is now part of
+Dialogue: 0,0:00:24.43,0:00:26.88,Caption,,0,0,0,,Vercel, and he
+Dialogue: 0,0:00:26.88,0:00:27.68,Caption,,0,0,0,,like the maintainer
+Dialogue: 0,0:00:27.68,0:00:29.13,Caption,,0,0,0,,the founder
+Dialogue: 0,0:00:29.14,0:00:29.60,Caption,,0,0,0,,was like
+Dialogue: 0,0:00:29.60,0:00:30.84,Caption,,0,0,0,,"This is awesome." And
+Dialogue: 0,0:00:30.84,0:00:32.42,Caption,,0,0,0,,he merged in the PR to
+Dialogue: 0,0:00:32.42,0:00:33.84,Caption,,0,0,0,,migrate the runners
+Dialogue: 0,0:00:33.84,0:00:36.48,Caption,,0,0,0,,over, and that was the
+Dialogue: 0,0:00:36.48,0:00:37.78,Caption,,0,0,0,,moment because it's
+Dialogue: 0,0:00:37.78,0:00:38.28,Caption,,0,0,0,,free, right?
+Dialogue: 0,0:00:38.28,0:00:39.00,Caption,,0,0,0,,If you're an open source
+Dialogue: 0,0:00:39.00,0:00:39.98,Caption,,0,0,0,,project, you get CI for
+Dialogue: 0,0:00:39.98,0:00:41.52,Caption,,0,0,0,,free. but if you're
+Dialogue: 0,0:00:41.52,0:00:42.32,Caption,,0,0,0,,willing to pay that
+Dialogue: 0,0:00:42.32,0:00:43.71,Caption,,0,0,0,,means it's a pain point
+Dialogue: 0,0:00:43.72,0:00:45.06,Caption,,0,0,0,,and it's slow enough
+Dialogue: 0,0:00:45.06,0:00:46.06,Caption,,0,0,0,,that you're willing to
+Dialogue: 0,0:00:46.06,0:00:47.48,Caption,,0,0,0,,pay money for it so that
+Dialogue: 0,0:00:47.48,0:00:49.02,Caption,,0,0,0,,was the moment and then
+Dialogue: 0,0:00:49.02,0:00:50.68,Caption,,0,0,0,,yeah that helped us get
+Dialogue: 0,0:00:50.68,0:00:51.82,Caption,,0,0,0,,visibility because
+Dialogue: 0,0:00:51.82,0:00:52.56,Caption,,0,0,0,,everyone could see that
+Dialogue: 0,0:00:52.56,0:00:53.54,Caption,,0,0,0,,they were using our
+Dialogue: 0,0:00:53.54,0:00:54.92,Caption,,0,0,0,,runners and so that was
+Dialogue: 0,0:00:54.92,0:00:55.85,Caption,,0,0,0,,the beginning of it

@@ -1,0 +1,117 @@
+{
+ "range_src": [
+  133.53,
+  168.93
+ ],
+ "range_out": [
+  98.78,
+  131.1
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 98.78,
+   "t1": 101.98
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Hang Huang",
+   "t0": 101.98,
+   "t1": 103.23
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 103.23,
+   "t1": 105.725
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 105.725,
+   "t1": 107.01
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 107.01,
+   "t1": 109.81
+  },
+  {
+   "kind": "react",
+   "person": "Yonas Beshawred",
+   "speaker": "Hang Huang",
+   "t0": 109.81,
+   "t1": 110.65
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 110.65,
+   "t1": 113.45
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 113.45,
+   "t1": 115.645
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 115.645,
+   "t1": 118.445
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Hang Huang",
+   "t0": 118.445,
+   "t1": 119.645
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 119.645,
+   "t1": 122.445
+  },
+  {
+   "kind": "medium",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 122.445,
+   "t1": 123.845
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 123.845,
+   "t1": 127.42
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Hang Huang",
+   "t0": 127.42,
+   "t1": 128.62
+  },
+  {
+   "kind": "close",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 128.62,
+   "t1": 131.1
+  }
+ ]
+}

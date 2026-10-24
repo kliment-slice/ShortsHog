@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:53.26,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Alex Jung (Unikraft)
+Dialogue: 2,0:00:00.20,0:00:53.26,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Launch often: every new
+Dialogue: 2,0:00:00.20,0:00:53.26,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}feature and every raise got
+Dialogue: 2,0:00:00.20,0:00:53.26,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}its own launch”
+Dialogue: 0,0:00:00.00,0:00:01.22,Caption,,0,0,0,,so we launch often
+Dialogue: 0,0:00:01.22,0:00:01.96,Caption,,0,0,0,,or at least at the
+Dialogue: 0,0:00:01.96,0:00:02.31,Caption,,0,0,0,,beginning
+Dialogue: 0,0:00:02.12,0:00:03.00,Caption,,0,0,0,,we were always
+Dialogue: 0,0:00:03.00,0:00:03.35,Caption,,0,0,0,,launching.
+Dialogue: 0,0:00:03.28,0:00:04.12,Caption,,0,0,0,,I mean, we had like
+Dialogue: 0,0:00:04.12,0:00:05.56,Caption,,0,0,0,,launch weeks.
+Dialogue: 0,0:00:05.56,0:00:06.62,Caption,,0,0,0,,We would just say like
+Dialogue: 0,0:00:06.62,0:00:07.72,Caption,,0,0,0,,oh, new features?
+Dialogue: 0,0:00:07.72,0:00:08.32,Caption,,0,0,0,,It's launch week.
+Dialogue: 0,0:00:08.32,0:00:09.20,Caption,,0,0,0,,We would just call it
+Dialogue: 0,0:00:09.20,0:00:09.60,Caption,,0,0,0,,something like
+Dialogue: 0,0:00:09.60,0:00:10.24,Caption,,0,0,0,,oh, this is what we're
+Dialogue: 0,0:00:10.24,0:00:11.08,Caption,,0,0,0,,doing now.
+Dialogue: 0,0:00:11.08,0:00:12.16,Caption,,0,0,0,,Even though it was like
+Dialogue: 0,0:00:12.16,0:00:13.52,Caption,,0,0,0,,three months had passed
+Dialogue: 0,0:00:13.52,0:00:14.84,Caption,,0,0,0,,people forget that
+Dialogue: 0,0:00:14.84,0:00:15.19,Caption,,0,0,0,,you know
+Dialogue: 0,0:00:15.16,0:00:15.70,Caption,,0,0,0,,you had previously
+Dialogue: 0,0:00:15.70,0:00:16.92,Caption,,0,0,0,,you don't have to launch
+Dialogue: 0,0:00:16.92,0:00:17.72,Caption,,0,0,0,,once, you don't have to
+Dialogue: 0,0:00:17.72,0:00:18.92,Caption,,0,0,0,,and we raised multiple
+Dialogue: 0,0:00:18.92,0:00:19.96,Caption,,0,0,0,,times, so every time we
+Dialogue: 0,0:00:19.96,0:00:21.08,Caption,,0,0,0,,raised, we launched
+Dialogue: 0,0:00:21.08,0:00:22.24,Caption,,0,0,0,,again, we had new
+Dialogue: 0,0:00:22.24,0:00:23.70,Caption,,0,0,0,,features to come out
+Dialogue: 0,0:00:23.70,0:00:24.36,Caption,,0,0,0,,now we're a lot more
+Dialogue: 0,0:00:24.36,0:00:25.02,Caption,,0,0,0,,stable in terms of the
+Dialogue: 0,0:00:25.02,0:00:25.37,Caption,,0,0,0,,features
+Dialogue: 0,0:00:25.14,0:00:25.90,Caption,,0,0,0,,I mean, very early on
+Dialogue: 0,0:00:25.90,0:00:26.72,Caption,,0,0,0,,we were still just like
+Dialogue: 0,0:00:26.72,0:00:27.90,Caption,,0,0,0,,okay, now we landed this
+Dialogue: 0,0:00:27.90,0:00:28.62,Caption,,0,0,0,,because we had the
+Dialogue: 0,0:00:28.62,0:00:29.42,Caption,,0,0,0,,cycles, and whatever
+Dialogue: 0,0:00:29.42,0:00:30.24,Caption,,0,0,0,,a client comes along
+Dialogue: 0,0:00:30.24,0:00:30.92,Caption,,0,0,0,,maybe it shifts a little
+Dialogue: 0,0:00:30.92,0:00:32.55,Caption,,0,0,0,,bit the roadmap
+Dialogue: 0,0:00:32.60,0:00:34.12,Caption,,0,0,0,,but, launching often
+Dialogue: 0,0:00:34.12,0:00:35.04,Caption,,0,0,0,,I think, and having
+Dialogue: 0,0:00:35.04,0:00:35.66,Caption,,0,0,0,,these campaigns
+Dialogue: 0,0:00:35.66,0:00:36.50,Caption,,0,0,0,,they work quite well in
+Dialogue: 0,0:00:36.50,0:00:37.22,Caption,,0,0,0,,terms of bringing people
+Dialogue: 0,0:00:37.22,0:00:39.34,Caption,,0,0,0,,in. I've noticed sending
+Dialogue: 0,0:00:39.34,0:00:40.20,Caption,,0,0,0,,out, oh, this is a
+Dialogue: 0,0:00:40.20,0:00:41.96,Caption,,0,0,0,,special one-time event
+Dialogue: 0,0:00:41.96,0:00:43.10,Caption,,0,0,0,,and having people come
+Dialogue: 0,0:00:43.10,0:00:44.40,Caption,,0,0,0,,along, maybe this actual
+Dialogue: 0,0:00:44.40,0:00:45.56,Caption,,0,0,0,,real physical event as
+Dialogue: 0,0:00:45.56,0:00:46.08,Caption,,0,0,0,,well that kind of
+Dialogue: 0,0:00:46.08,0:00:46.62,Caption,,0,0,0,,complements it
+Dialogue: 0,0:00:46.62,0:00:48.20,Caption,,0,0,0,,in terms of maybe you're
+Dialogue: 0,0:00:48.20,0:00:48.88,Caption,,0,0,0,,doing something every
+Dialogue: 0,0:00:48.88,0:00:50.06,Caption,,0,0,0,,week, and then the last
+Dialogue: 0,0:00:50.06,0:00:50.60,Caption,,0,0,0,,Friday, for example
+Dialogue: 0,0:00:50.60,0:00:51.20,Caption,,0,0,0,,you're actually hosting
+Dialogue: 0,0:00:51.20,0:00:51.96,Caption,,0,0,0,,an event.
+Dialogue: 0,0:00:51.96,0:00:53.26,Caption,,0,0,0,,That worked really well.

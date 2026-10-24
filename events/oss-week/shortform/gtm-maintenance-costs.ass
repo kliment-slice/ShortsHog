@@ -1,0 +1,36 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:20.63,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Alex Jung (Unikraft)
+Dialogue: 2,0:00:00.20,0:00:20.63,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Maintaining software isn't
+Dialogue: 2,0:00:00.20,0:00:20.63,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}free, and AI makes it cost
+Dialogue: 2,0:00:00.20,0:00:20.63,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}real money”
+Dialogue: 0,0:00:00.10,0:00:00.96,Caption,,0,0,0,,I think there's a big
+Dialogue: 0,0:00:00.96,0:00:01.98,Caption,,0,0,0,,question about
+Dialogue: 0,0:00:01.98,0:00:03.22,Caption,,0,0,0,,maintainability.
+Dialogue: 0,0:00:03.22,0:00:04.78,Caption,,0,0,0,,It's not free to
+Dialogue: 0,0:00:04.78,0:00:06.58,Caption,,0,0,0,,maintain software.
+Dialogue: 0,0:00:06.58,0:00:07.60,Caption,,0,0,0,,Both in terms of human
+Dialogue: 0,0:00:07.60,0:00:08.78,Caption,,0,0,0,,hours to look at it
+Dialogue: 0,0:00:08.78,0:00:09.94,Caption,,0,0,0,,previously and now with
+Dialogue: 0,0:00:09.94,0:00:10.66,Caption,,0,0,0,,AI, it literally costs
+Dialogue: 0,0:00:10.66,0:00:11.16,Caption,,0,0,0,,you something.
+Dialogue: 0,0:00:11.16,0:00:13.38,Caption,,0,0,0,,I think even with the
+Dialogue: 0,0:00:13.38,0:00:15.46,Caption,,0,0,0,,latest TypeScript Rust
+Dialogue: 0,0:00:15.46,0:00:16.36,Caption,,0,0,0,,rewrite, that was a
+Dialogue: 0,0:00:16.36,0:00:17.50,Caption,,0,0,0,,whole section in the
+Dialogue: 0,0:00:17.50,0:00:18.78,Caption,,0,0,0,,Cloudflare blog post
+Dialogue: 0,0:00:18.78,0:00:19.86,Caption,,0,0,0,,about Who's going to
+Dialogue: 0,0:00:19.86,0:00:20.22,Caption,,0,0,0,,maintain this
+Dialogue: 0,0:00:20.22,0:00:20.63,Caption,,0,0,0,,right?

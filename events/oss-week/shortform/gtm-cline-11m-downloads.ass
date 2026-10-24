@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:00:29.73,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001C5CFF}John Simone (Cline)
+Dialogue: 2,0:00:00.20,0:00:29.73,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“11M downloads, ~500K
+Dialogue: 2,0:00:00.20,0:00:29.73,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}monthly active users”
+Dialogue: 0,0:00:00.10,0:00:01.46,Caption,,0,0,0,,Hey, I'm John Simone.
+Dialogue: 0,0:00:01.46,0:00:03.32,Caption,,0,0,0,,I lead engineering at
+Dialogue: 0,0:00:03.32,0:00:05.00,Caption,,0,0,0,,Cline. Cline's been
+Dialogue: 0,0:00:05.00,0:00:07.12,Caption,,0,0,0,,around a little over two
+Dialogue: 0,0:00:07.12,0:00:09.10,Caption,,0,0,0,,years. We've been open
+Dialogue: 0,0:00:09.10,0:00:09.94,Caption,,0,0,0,,source from the
+Dialogue: 0,0:00:09.94,0:00:10.80,Caption,,0,0,0,,beginning.
+Dialogue: 0,0:00:10.80,0:00:12.34,Caption,,0,0,0,,It's an open source
+Dialogue: 0,0:00:12.34,0:00:13.88,Caption,,0,0,0,,coding agent.
+Dialogue: 0,0:00:13.88,0:00:15.64,Caption,,0,0,0,,We work in VS Code
+Dialogue: 0,0:00:15.64,0:00:16.32,Caption,,0,0,0,,JetBrains
+Dialogue: 0,0:00:16.32,0:00:17.14,Caption,,0,0,0,,we have a CLI
+Dialogue: 0,0:00:17.14,0:00:18.86,Caption,,0,0,0,,we have a desktop.
+Dialogue: 0,0:00:18.86,0:00:20.02,Caption,,0,0,0,,Recently we have a cloud
+Dialogue: 0,0:00:20.02,0:00:21.25,Caption,,0,0,0,,platform.
+Dialogue: 0,0:00:21.25,0:00:22.51,Caption,,0,0,0,,And, let's see
+Dialogue: 0,0:00:22.51,0:00:23.21,Caption,,0,0,0,,user volume
+Dialogue: 0,0:00:23.21,0:00:24.63,Caption,,0,0,0,,we have about 11 million
+Dialogue: 0,0:00:24.63,0:00:25.88,Caption,,0,0,0,,downloads
+Dialogue: 0,0:00:26.01,0:00:27.63,Caption,,0,0,0,,do about half a million
+Dialogue: 0,0:00:27.63,0:00:29.73,Caption,,0,0,0,,active users monthly.

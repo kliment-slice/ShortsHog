@@ -1,0 +1,131 @@
+{
+ "range_src": [
+  142.85,
+  184.45
+ ],
+ "range_out": [
+  111.1,
+  147.67999999999998
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 111.1,
+   "t1": 113.27
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Matt Lenhard",
+   "t0": 113.27,
+   "t1": 114.91
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 114.91,
+   "t1": 118.4
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 118.4,
+   "t1": 119.61
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 119.61,
+   "t1": 122.41
+  },
+  {
+   "kind": "react",
+   "person": "Kliment Minchev",
+   "speaker": "Matt Lenhard",
+   "t0": 122.41,
+   "t1": 123.61
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 123.61,
+   "t1": 126.7
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 126.7,
+   "t1": 128.1
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 128.1,
+   "t1": 130.9
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Matt Lenhard",
+   "t0": 130.9,
+   "t1": 132.1
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 132.1,
+   "t1": 134.9
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 134.9,
+   "t1": 137.085
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 137.085,
+   "t1": 139.17
+  },
+  {
+   "kind": "react",
+   "person": "Justin D'Souza",
+   "speaker": "Matt Lenhard",
+   "t0": 139.17,
+   "t1": 140.36999999999998
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 140.36999999999998,
+   "t1": 143.515
+  },
+  {
+   "kind": "medium",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 143.515,
+   "t1": 144.915
+  },
+  {
+   "kind": "close",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 144.915,
+   "t1": 147.67999999999998
+  }
+ ]
+}

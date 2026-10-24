@@ -1,0 +1,89 @@
+{
+ "range_src": [
+  1422.05,
+  1445.54
+ ],
+ "range_out": [
+  1250.26,
+  1273.27
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1250.26,
+   "t1": 1253.06
+  },
+  {
+   "kind": "react",
+   "person": "Alex Jung",
+   "speaker": "Tim Glaser",
+   "t0": 1253.06,
+   "t1": 1254.975
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1254.975,
+   "t1": 1257.7749999999999
+  },
+  {
+   "kind": "medium",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1257.7749999999999,
+   "t1": 1259.175
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1259.175,
+   "t1": 1261.975
+  },
+  {
+   "kind": "react",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 1261.975,
+   "t1": 1262.84
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1262.84,
+   "t1": 1265.6399999999999
+  },
+  {
+   "kind": "medium",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1265.6399999999999,
+   "t1": 1267.38
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1267.38,
+   "t1": 1270.18
+  },
+  {
+   "kind": "react",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 1270.18,
+   "t1": 1271.38
+  },
+  {
+   "kind": "close",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1271.38,
+   "t1": 1273.27
+  }
+ ]
+}

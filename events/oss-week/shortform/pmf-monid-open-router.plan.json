@@ -1,0 +1,117 @@
+{
+ "range_src": [
+  170.57,
+  202.6
+ ],
+ "range_out": [
+  131.08,
+  162.98999999999998
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 131.08,
+   "t1": 133.88000000000002
+  },
+  {
+   "kind": "react",
+   "person": "Hang Huang",
+   "speaker": "Shengkun Ye",
+   "t0": 133.88000000000002,
+   "t1": 135.08
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 135.08,
+   "t1": 137.88000000000002
+  },
+  {
+   "kind": "medium",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 137.88000000000002,
+   "t1": 139.28000000000003
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 139.28000000000003,
+   "t1": 142.08000000000004
+  },
+  {
+   "kind": "react",
+   "person": "Yonas Beshawred",
+   "speaker": "Shengkun Ye",
+   "t0": 142.08000000000004,
+   "t1": 143.28000000000003
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 143.28000000000003,
+   "t1": 146.08000000000004
+  },
+  {
+   "kind": "medium",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 146.08000000000004,
+   "t1": 147.48000000000005
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 147.48000000000005,
+   "t1": 150.695
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 150.695,
+   "t1": 151.89499999999998
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 151.89499999999998,
+   "t1": 154.695
+  },
+  {
+   "kind": "medium",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 154.695,
+   "t1": 156.095
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 156.095,
+   "t1": 158.895
+  },
+  {
+   "kind": "react",
+   "person": "Hang Huang",
+   "speaker": "Shengkun Ye",
+   "t0": 158.895,
+   "t1": 160.095
+  },
+  {
+   "kind": "close",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 160.095,
+   "t1": 162.98999999999998
+  }
+ ]
+}

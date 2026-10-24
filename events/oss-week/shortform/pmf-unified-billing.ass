@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:01:09.66,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Shengkun Ye (Monid)
+Dialogue: 2,0:00:00.20,0:01:09.66,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Agents do the integration.
+Dialogue: 2,0:00:00.20,0:01:09.66,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}The value is pricing and
+Dialogue: 2,0:00:00.20,0:01:09.66,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}unified billing.”
+Dialogue: 0,0:00:00.05,0:00:01.05,Caption,,0,0,0,,{\c&H00B3DA43}Konstantine: {\c&H00FFFFFF}my next question gonna
+Dialogue: 0,0:00:01.05,0:00:02.93,Caption,,0,0,0,,just be about you know
+Dialogue: 0,0:00:02.93,0:00:04.30,Caption,,0,0,0,,the revenue because when
+Dialogue: 0,0:00:04.30,0:00:05.18,Caption,,0,0,0,,you are like close
+Dialogue: 0,0:00:05.18,0:00:06.58,Caption,,0,0,0,,product it's quite much
+Dialogue: 0,0:00:06.58,0:00:07.97,Caption,,0,0,0,,easier to measure it how
+Dialogue: 0,0:00:07.97,0:00:09.19,Caption,,0,0,0,,it is when you have like
+Dialogue: 0,0:00:09.19,0:00:10.59,Caption,,0,0,0,,an open source project
+Dialogue: 0,0:00:10.59,0:00:12.01,Caption,,0,0,0,,because we know that
+Dialogue: 0,0:00:12.01,0:00:13.37,Caption,,0,0,0,,Most often
+Dialogue: 0,0:00:13.37,0:00:15.20,Caption,,0,0,0,,people are not paying.
+Dialogue: 0,0:00:15.20,0:00:17.79,Caption,,0,0,0,,Yeah, for us
+Dialogue: 0,0:00:17.98,0:00:20.68,Caption,,0,0,0,,it's really about what's
+Dialogue: 0,0:00:20.68,0:00:22.96,Caption,,0,0,0,,the core value of your
+Dialogue: 0,0:00:22.96,0:00:24.72,Caption,,0,0,0,,product. For us
+Dialogue: 0,0:00:24.72,0:00:25.92,Caption,,0,0,0,,especially today
+Dialogue: 0,0:00:25.92,0:00:27.52,Caption,,0,0,0,,agents are so easy to do
+Dialogue: 0,0:00:27.52,0:00:28.40,Caption,,0,0,0,,all the integration
+Dialogue: 0,0:00:28.40,0:00:29.76,Caption,,0,0,0,,work. So that's the most
+Dialogue: 0,0:00:29.76,0:00:30.66,Caption,,0,0,0,,service level of the
+Dialogue: 0,0:00:30.66,0:00:32.26,Caption,,0,0,0,,work for your product.
+Dialogue: 0,0:00:32.26,0:00:34.95,Caption,,0,0,0,,for us like our values
+Dialogue: 0,0:00:34.98,0:00:35.92,Caption,,0,0,0,,here is not like help
+Dialogue: 0,0:00:35.92,0:00:37.28,Caption,,0,0,0,,you to easily integrate
+Dialogue: 0,0:00:37.28,0:00:38.82,Caption,,0,0,0,,but also about the
+Dialogue: 0,0:00:38.86,0:00:40.48,Caption,,0,0,0,,pricing and also the
+Dialogue: 0,0:00:40.48,0:00:41.44,Caption,,0,0,0,,unified billing behind
+Dialogue: 0,0:00:41.44,0:00:43.10,Caption,,0,0,0,,the scene and that's the
+Dialogue: 0,0:00:43.10,0:00:44.70,Caption,,0,0,0,,part that people are not
+Dialogue: 0,0:00:44.70,0:00:46.28,Caption,,0,0,0,,able to get directly
+Dialogue: 0,0:00:46.28,0:00:47.44,Caption,,0,0,0,,from our open source
+Dialogue: 0,0:00:47.44,0:00:48.80,Caption,,0,0,0,,project so our open
+Dialogue: 0,0:00:48.80,0:00:50.85,Caption,,0,0,0,,source project kind more
+Dialogue: 0,0:00:50.85,0:00:51.27,Caption,,0,0,0,,kind of like
+Dialogue: 0,0:00:51.27,0:00:52.01,Caption,,0,0,0,,oh, we help
+Dialogue: 0,0:00:52.01,0:00:52.97,Caption,,0,0,0,,we let people know
+Dialogue: 0,0:00:52.97,0:00:53.33,Caption,,0,0,0,,about, oh
+Dialogue: 0,0:00:53.33,0:00:54.67,Caption,,0,0,0,,we are providing such a
+Dialogue: 0,0:00:54.67,0:00:55.25,Caption,,0,0,0,,framework.
+Dialogue: 0,0:00:55.25,0:00:56.83,Caption,,0,0,0,,We let the providers be
+Dialogue: 0,0:00:56.83,0:00:57.47,Caption,,0,0,0,,easily onboarding
+Dialogue: 0,0:00:57.47,0:00:58.45,Caption,,0,0,0,,themselves to the
+Dialogue: 0,0:00:58.45,0:00:59.09,Caption,,0,0,0,,platform.
+Dialogue: 0,0:00:59.09,0:01:00.07,Caption,,0,0,0,,But if you actually want
+Dialogue: 0,0:01:00.07,0:01:01.51,Caption,,0,0,0,,to use it and fill the
+Dialogue: 0,0:01:01.51,0:01:02.71,Caption,,0,0,0,,values out of it
+Dialogue: 0,0:01:02.71,0:01:03.83,Caption,,0,0,0,,then you need to use the
+Dialogue: 0,0:01:03.83,0:01:04.73,Caption,,0,0,0,,hosted version.
+Dialogue: 0,0:01:04.73,0:01:05.65,Caption,,0,0,0,,So that means that
+Dialogue: 0,0:01:05.65,0:01:06.83,Caption,,0,0,0,,like, our core value of
+Dialogue: 0,0:01:06.83,0:01:07.87,Caption,,0,0,0,,the product is still
+Dialogue: 0,0:01:07.87,0:01:08.59,Caption,,0,0,0,,within the hosted
+Dialogue: 0,0:01:08.59,0:01:09.66,Caption,,0,0,0,,version.

@@ -1,0 +1,117 @@
+{
+ "range_src": [
+  1102.71,
+  1133.61
+ ],
+ "range_out": [
+  1013.8899999999993,
+  1044.8899999999992
+ ],
+ "shots": [
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1013.8899999999993,
+   "t1": 1016.6899999999993
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Yonas Beshawred",
+   "t0": 1016.6899999999993,
+   "t1": 1017.8899999999993
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1017.8899999999993,
+   "t1": 1020.6899999999993
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1020.6899999999993,
+   "t1": 1022.0899999999992
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1022.0899999999992,
+   "t1": 1024.8899999999992
+  },
+  {
+   "kind": "react",
+   "person": "Hang Huang",
+   "speaker": "Yonas Beshawred",
+   "t0": 1024.8899999999992,
+   "t1": 1026.19
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1026.19,
+   "t1": 1028.99
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1028.99,
+   "t1": 1030.835
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1030.835,
+   "t1": 1033.635
+  },
+  {
+   "kind": "react",
+   "person": "Konstantine Gugunava",
+   "speaker": "Yonas Beshawred",
+   "t0": 1033.635,
+   "t1": 1034.835
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1034.835,
+   "t1": 1037.635
+  },
+  {
+   "kind": "medium",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1037.635,
+   "t1": 1039.035
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1039.035,
+   "t1": 1041.835
+  },
+  {
+   "kind": "react",
+   "person": "Shengkun Ye",
+   "speaker": "Yonas Beshawred",
+   "t0": 1041.835,
+   "t1": 1043.035
+  },
+  {
+   "kind": "close",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1043.035,
+   "t1": 1044.8899999999992
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:01:01.71,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Alex Jung (Unikraft)
+Dialogue: 2,0:00:00.20,0:01:01.71,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“In-person events beat
+Dialogue: 2,0:00:00.20,0:01:01.71,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}AI-written outbound”
+Dialogue: 0,0:00:00.10,0:00:01.04,Caption,,0,0,0,,But then on the whole
+Dialogue: 0,0:00:01.04,0:00:01.80,Caption,,0,0,0,,GTM front
+Dialogue: 0,0:00:01.80,0:00:02.78,Caption,,0,0,0,,I think, I mean
+Dialogue: 0,0:00:02.78,0:00:03.98,Caption,,0,0,0,,GTM engineering has
+Dialogue: 0,0:00:03.98,0:00:05.06,Caption,,0,0,0,,blown up in terms of a
+Dialogue: 0,0:00:05.06,0:00:06.32,Caption,,0,0,0,,whole new space
+Dialogue: 0,0:00:06.32,0:00:07.36,Caption,,0,0,0,,I don't think even the
+Dialogue: 0,0:00:07.36,0:00:09.26,Caption,,0,0,0,,term GTM engineer
+Dialogue: 0,0:00:09.26,0:00:09.70,Caption,,0,0,0,,existed, what
+Dialogue: 0,0:00:09.70,0:00:11.30,Caption,,0,0,0,,six months ago properly?
+Dialogue: 0,0:00:11.30,0:00:13.23,Caption,,0,0,0,,And now there's GTM
+Dialogue: 0,0:00:13.40,0:00:14.18,Caption,,0,0,0,,engineer meetups and
+Dialogue: 0,0:00:14.18,0:00:15.24,Caption,,0,0,0,,everyone's sharing
+Dialogue: 0,0:00:15.24,0:00:16.22,Caption,,0,0,0,,techniques and I think
+Dialogue: 0,0:00:16.22,0:00:16.88,Caption,,0,0,0,,that's because there's a
+Dialogue: 0,0:00:16.88,0:00:18.04,Caption,,0,0,0,,big power that people
+Dialogue: 0,0:00:18.04,0:00:19.28,Caption,,0,0,0,,are getting in terms of
+Dialogue: 0,0:00:19.28,0:00:20.10,Caption,,0,0,0,,changing roles and we're
+Dialogue: 0,0:00:20.10,0:00:21.42,Caption,,0,0,0,,all architects and
+Dialogue: 0,0:00:21.42,0:00:22.12,Caption,,0,0,0,,accessing more parts of
+Dialogue: 0,0:00:22.12,0:00:22.66,Caption,,0,0,0,,the company
+Dialogue: 0,0:00:22.66,0:00:23.81,Caption,,0,0,0,,whatever.
+Dialogue: 0,0:00:23.81,0:00:24.39,Caption,,0,0,0,,It's definitely an
+Dialogue: 0,0:00:24.39,0:00:25.17,Caption,,0,0,0,,interesting space
+Dialogue: 0,0:00:25.17,0:00:26.09,Caption,,0,0,0,,obviously automation
+Dialogue: 0,0:00:26.09,0:00:28.03,Caption,,0,0,0,,but at the same time
+Dialogue: 0,0:00:28.03,0:00:30.40,Caption,,0,0,0,,I don't like getting AI
+Dialogue: 0,0:00:30.40,0:00:31.60,Caption,,0,0,0,,slop in my inbox.
+Dialogue: 0,0:00:31.60,0:00:32.52,Caption,,0,0,0,,I don't think anybody
+Dialogue: 0,0:00:32.52,0:00:34.90,Caption,,0,0,0,,does. Even if you remove
+Dialogue: 0,0:00:34.90,0:00:36.04,Caption,,0,0,0,,the EM dashes or
+Dialogue: 0,0:00:36.04,0:00:37.16,Caption,,0,0,0,,whatever
+Dialogue: 0,0:00:37.16,0:00:38.28,Caption,,0,0,0,,we actually care more
+Dialogue: 0,0:00:38.28,0:00:39.18,Caption,,0,0,0,,about having
+Dialogue: 0,0:00:39.18,0:00:40.02,Caption,,0,0,0,,handwritten
+Dialogue: 0,0:00:40.02,0:00:40.44,Caption,,0,0,0,,personal
+Dialogue: 0,0:00:40.44,0:00:41.06,Caption,,0,0,0,,whatever
+Dialogue: 0,0:00:41.06,0:00:42.38,Caption,,0,0,0,,moments like this where
+Dialogue: 0,0:00:42.38,0:00:43.52,Caption,,0,0,0,,I can talk with real
+Dialogue: 0,0:00:43.52,0:00:45.22,Caption,,0,0,0,,people is so much more
+Dialogue: 0,0:00:45.22,0:00:45.84,Caption,,0,0,0,,important.
+Dialogue: 0,0:00:45.88,0:00:47.04,Caption,,0,0,0,,than getting whatever my
+Dialogue: 0,0:00:47.04,0:00:47.72,Caption,,0,0,0,,inbox, and my inbox
+Dialogue: 0,0:00:47.72,0:00:48.72,Caption,,0,0,0,,I swear, since this
+Dialogue: 0,0:00:48.72,0:00:49.48,Caption,,0,0,0,,morning, a thousand
+Dialogue: 0,0:00:49.48,0:00:49.92,Caption,,0,0,0,,emails of
+Dialogue: 0,0:00:49.92,0:00:51.04,Caption,,0,0,0,,like, bullshit.
+Dialogue: 0,0:00:51.04,0:00:52.20,Caption,,0,0,0,,And, like
+Dialogue: 0,0:00:52.20,0:00:53.40,Caption,,0,0,0,,yeah, that's not going
+Dialogue: 0,0:00:53.40,0:00:53.78,Caption,,0,0,0,,to scale.
+Dialogue: 0,0:00:53.78,0:00:54.32,Caption,,0,0,0,,It's going to continue
+Dialogue: 0,0:00:54.32,0:00:55.18,Caption,,0,0,0,,to grow like that.
+Dialogue: 0,0:00:55.18,0:00:56.24,Caption,,0,0,0,,So I think it's actually
+Dialogue: 0,0:00:56.24,0:00:57.06,Caption,,0,0,0,,more important to have
+Dialogue: 0,0:00:57.06,0:00:57.68,Caption,,0,0,0,,like, physical
+Dialogue: 0,0:00:57.68,0:00:59.96,Caption,,0,0,0,,in-present events than
+Dialogue: 0,0:00:59.96,0:01:00.64,Caption,,0,0,0,,actually all this
+Dialogue: 0,0:01:00.64,0:01:01.71,Caption,,0,0,0,,outbound stuff.

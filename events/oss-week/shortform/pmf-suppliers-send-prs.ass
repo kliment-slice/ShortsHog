@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.20,0:01:19.19,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Shengkun Ye (Monid)
+Dialogue: 2,0:00:00.20,0:01:19.19,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Open sourcing made
+Dialogue: 2,0:00:00.20,0:01:19.19,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}suppliers send their own
+Dialogue: 2,0:00:00.20,0:01:19.19,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}PRs”
+Dialogue: 0,0:00:00.10,0:00:02.14,Caption,,0,0,0,,Yeah, open source for us
+Dialogue: 0,0:00:02.14,0:00:03.10,Caption,,0,0,0,,really help us with the
+Dialogue: 0,0:00:03.10,0:00:05.86,Caption,,0,0,0,,PMF. We started as the
+Dialogue: 0,0:00:05.86,0:00:08.14,Caption,,0,0,0,,really closed source and
+Dialogue: 0,0:00:08.14,0:00:09.60,Caption,,0,0,0,,but if you think of us
+Dialogue: 0,0:00:09.60,0:00:10.74,Caption,,0,0,0,,as the two-sided market
+Dialogue: 0,0:00:10.74,0:00:11.82,Caption,,0,0,0,,we kind of open router
+Dialogue: 0,0:00:11.82,0:00:13.06,Caption,,0,0,0,,one side that people use
+Dialogue: 0,0:00:13.06,0:00:14.18,Caption,,0,0,0,,us to connect to all the
+Dialogue: 0,0:00:14.18,0:00:15.54,Caption,,0,0,0,,tools. The other side is
+Dialogue: 0,0:00:15.54,0:00:17.22,Caption,,0,0,0,,all the tool providers.
+Dialogue: 0,0:00:17.22,0:00:20.05,Caption,,0,0,0,,Like we started as the
+Dialogue: 0,0:00:20.05,0:00:21.55,Caption,,0,0,0,,closed project for our
+Dialogue: 0,0:00:21.55,0:00:22.35,Caption,,0,0,0,,demand side.
+Dialogue: 0,0:00:22.35,0:00:22.81,Caption,,0,0,0,,There are a lot of
+Dialogue: 0,0:00:22.81,0:00:23.77,Caption,,0,0,0,,people use us.
+Dialogue: 0,0:00:23.77,0:00:24.89,Caption,,0,0,0,,But what we are not sure
+Dialogue: 0,0:00:24.89,0:00:27.41,Caption,,0,0,0,,is that like how much
+Dialogue: 0,0:00:27.41,0:00:29.73,Caption,,0,0,0,,leverage we have on our
+Dialogue: 0,0:00:29.73,0:00:30.67,Caption,,0,0,0,,suppliers side.
+Dialogue: 0,0:00:30.67,0:00:31.97,Caption,,0,0,0,,Like if you want to let
+Dialogue: 0,0:00:31.97,0:00:32.83,Caption,,0,0,0,,them to do something for
+Dialogue: 0,0:00:32.83,0:00:33.73,Caption,,0,0,0,,us, like for example
+Dialogue: 0,0:00:33.73,0:00:34.51,Caption,,0,0,0,,we want them to
+Dialogue: 0,0:00:34.51,0:00:35.21,Caption,,0,0,0,,self-onboarding
+Dialogue: 0,0:00:35.21,0:00:36.75,Caption,,0,0,0,,themselves to us or let
+Dialogue: 0,0:00:36.75,0:00:38.31,Caption,,0,0,0,,them to do more stuff
+Dialogue: 0,0:00:38.31,0:00:39.35,Caption,,0,0,0,,for the integration into
+Dialogue: 0,0:00:39.35,0:00:40.39,Caption,,0,0,0,,our system
+Dialogue: 0,0:00:40.39,0:00:41.41,Caption,,0,0,0,,are they willing to do
+Dialogue: 0,0:00:41.41,0:00:42.97,Caption,,0,0,0,,this? I was not sure
+Dialogue: 0,0:00:42.97,0:00:44.65,Caption,,0,0,0,,since at that time we
+Dialogue: 0,0:00:44.65,0:00:45.79,Caption,,0,0,0,,did all the manual
+Dialogue: 0,0:00:45.79,0:00:46.83,Caption,,0,0,0,,integration for all the
+Dialogue: 0,0:00:46.83,0:00:47.69,Caption,,0,0,0,,providers and get them
+Dialogue: 0,0:00:47.69,0:00:48.43,Caption,,0,0,0,,on board.
+Dialogue: 0,0:00:48.43,0:00:49.69,Caption,,0,0,0,,We did all the manual
+Dialogue: 0,0:00:49.69,0:00:51.95,Caption,,0,0,0,,work. But after the open
+Dialogue: 0,0:00:51.95,0:00:53.50,Caption,,0,0,0,,source Monid
+Dialogue: 0,0:00:53.53,0:00:55.37,Caption,,0,0,0,,we received a lot of PRs
+Dialogue: 0,0:00:55.37,0:00:56.77,Caption,,0,0,0,,from all the different
+Dialogue: 0,0:00:56.77,0:00:57.93,Caption,,0,0,0,,types of the providers.
+Dialogue: 0,0:00:57.93,0:00:58.75,Caption,,0,0,0,,They came to us and
+Dialogue: 0,0:00:58.75,0:00:59.19,Caption,,0,0,0,,said, "Oh
+Dialogue: 0,0:00:59.19,0:01:00.59,Caption,,0,0,0,,I really want to be
+Dialogue: 0,0:01:00.59,0:01:01.79,Caption,,0,0,0,,listed on Monid.
+Dialogue: 0,0:01:01.79,0:01:03.53,Caption,,0,0,0,,I already submitted my
+Dialogue: 0,0:01:03.53,0:01:04.93,Caption,,0,0,0,,PR. Can you please
+Dialogue: 0,0:01:04.93,0:01:06.47,Caption,,0,0,0,,review it?" and then get
+Dialogue: 0,0:01:06.47,0:01:07.61,Caption,,0,0,0,,it to the hosted version
+Dialogue: 0,0:01:07.61,0:01:09.29,Caption,,0,0,0,,as well please we've got
+Dialogue: 0,0:01:09.29,0:01:10.53,Caption,,0,0,0,,so many requests like
+Dialogue: 0,0:01:10.53,0:01:11.63,Caption,,0,0,0,,that and that was the
+Dialogue: 0,0:01:11.63,0:01:12.85,Caption,,0,0,0,,point I realized that
+Dialogue: 0,0:01:12.85,0:01:13.85,Caption,,0,0,0,,okay I already have a
+Dialogue: 0,0:01:13.85,0:01:14.75,Caption,,0,0,0,,really strong demand
+Dialogue: 0,0:01:14.75,0:01:16.87,Caption,,0,0,0,,side and suppliers also
+Dialogue: 0,0:01:16.87,0:01:18.19,Caption,,0,0,0,,love us really well as
+Dialogue: 0,0:01:18.19,0:01:19.19,Caption,,0,0,0,,well

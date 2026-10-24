@@ -59,3 +59,68 @@ shorts:
     anchor: "Open source got us into enterprises that had no other reason to trust us"
     from: "Is there going to be a situation where you are going to be viewed"
     to: "reason for enterprises to trust small companies."
+  - id: ai-security-red-team-in-a-box
+    speaker: Matt Lenhard
+    anchor: "GitHub already has repos for exploiting your favorite AI tool"
+    from: "something I would encourage people in this like room to do"
+    to: "AI red team in a box for specific agents."
+  - id: ai-security-issues-with-repros
+    speaker: Matt Lenhard
+    anchor: "Expect issues with reproductions instead of outside PRs"
+    from: "To your point earlier, like long term"
+    to: "that's where we're headed."
+  - id: ai-security-one-shot-crap
+    speaker: Tom Piccirello
+    anchor: "More junk PRs than ever: AI one-shots them at incredible speed"
+    from: "Yeah, it's an interesting problem because"
+    to: "need to put an actual work to to look at it"
+  - id: ai-security-agent-triage
+    speaker: Justin D'Souza
+    anchor: "Agents triage every incoming PR and issue for security"
+    from: "Yesterday, we did a launch for our open source project"
+    to: "what are meaningful issues or PRs."
+  - id: ai-security-litellm
+    speaker: Justin D'Souza
+    anchor: "LiteLLM was compromised through a stolen CLI token"
+    from: "The attack vector today, though, is"
+    to: "hacking another user to approve the release"
+  - id: ai-security-everyone-gets-hacked
+    speaker: Tom Piccirello
+    anchor: "Every company will get hacked. Plan for risk mitigation."
+    from: "but i do like justin's point that"
+    to: "risk mitigation more than anything."
+  - id: ai-security-bigger-isnt-safer
+    speaker: Matt Lenhard
+    anchor: "Bigger isn't safer: more employees means more ways in"
+    from: "And it is kind of like a funny oxymoron"
+    to: "there's a lot more ways in"
+  - id: ai-security-differentiator
+    speaker: Matt Lenhard
+    anchor: "Security can be a differentiator that wins deals"
+    from: "I think you can start to use security as like a differentiator"
+    to: "but I think that's a good thing"
+  - id: ai-security-agents-fewer-vulns
+    speaker: Tom Piccirello
+    anchor: "Agents will ship fewer vulnerabilities than humans ever did"
+    from: "so this is an area where I'm actually extremely"
+    to: "your risk from day one"
+  - id: ai-security-remediation
+    speaker: Justin D'Souza
+    anchor: "The value is in remediation, not detection"
+    from: "it's also true that there's more vulnerabilities than ever before"
+    to: "infrastructure to remediate a lot faster."
+  - id: ai-security-bug-bounties-dead
+    speaker: Justin D'Souza
+    anchor: "Bug bounties are next to die"
+    from: "You mentioned bug bounties."
+    to: "whatever you want to Red"
+  - id: ai-security-prs-coming-to-an-end
+    speaker: Matt Lenhard
+    anchor: "Accepting PRs from strangers is coming to an end"
+    from: "I think I don't know if this is a hot take"
+    to: "might sadly be coming to an end"
+  - id: ai-security-worse-before-better
+    speaker: Tom Piccirello
+    anchor: "Security gets worse before it gets better"
+    from: "but they're also going to get better at finding more vulnerabilities"
+    to: "that's just how it goes"
