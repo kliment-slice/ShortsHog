@@ -174,7 +174,23 @@ def load_story(path: Path) -> dict:
     if not path.exists():
         return {"questions": [], "anchors": [], "cuts": []}
     d = YAML(typ="safe").load(path.read_text()) or {}
-    return {"questions": d.get("questions") or [], "anchors": d.get("anchors") or [], "cuts": d.get("cuts") or []}
+    return {"questions": d.get("questions") or [], "anchors": d.get("anchors") or [], "cuts": d.get("cuts") or [],
+            "wide_only": d.get("wide_only") or []}
+
+
+def wide_only(shots: list, spans: list, to_out) -> list:
+    """Hold the wide (cam1) through `spans` (panel time), e.g. while people walk past cam2."""
+    out = [(to_out(x["from"]), to_out(x["to"])) for x in spans]
+    for s in shots:
+        if s["cam"] == "cam2" and any(a < s["t1"] and s["t0"] < b for a, b in out):
+            s.update(kind="wide", cam="cam1", person=None)
+    merged = []
+    for s in shots:
+        if merged and (merged[-1]["kind"], merged[-1]["cam"]) == (s["kind"], s["cam"]) == ("wide", "cam1"):
+            merged[-1]["t1"] = s["t1"]
+        else:
+            merged.append(s)
+    return merged
 
 
 def split_at(shots: list, times: list) -> list:
@@ -321,6 +337,7 @@ def clean(text: str) -> str:
     text = re.sub(r"\bi(?=$|\s|'(?:m|ve|ll|d|s)\b)", "I", text)
     text = re.sub(r"\s*[\u2014\u2013]\s*", ", ", text)
     text = re.sub(r"\s*\u00b7\s*", ", ", text)
+    text = re.sub(r"(^|\s)[.,;:!?]+(?=\s|$)", "", text)  # a lone punctuation "word" left by a correction
     return re.sub(r",\s*,", ",", text).strip(" ,")
 
 
@@ -473,6 +490,7 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     themes = sorted(set(round(max(title_end + 0.5, ed.to_out_near(x["t"])), 3)
                         for x in story["questions"] + story["anchors"]))
     shots = plan(words, total, tracks, st, ed.chops() + themes, ed.to_src, hosts)
+    shots = wide_only(shots, story["wide_only"], ed.to_out_near)
     shots = split_at(shots, themes)
     if title_end:  # the opening is the title card, then the first shot
         shots = [s for s in shots if s["t1"] > title_end]

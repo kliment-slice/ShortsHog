@@ -8,7 +8,7 @@
 # Each new question or anchor is a theme change: it gets the PostHog stripe wipe.
 
 questions:
-  - {t: 28.3, label: "Meet the panel", text: "Finding PMF through open source"}
+  - {t: 34.7, label: "Meet the panel", text: "Finding PMF through open source"}
   - {t: 221.4, n: 1, text: "The exact moment you knew you had PMF"}
   - {t: 415.0, n: 2, text: "Your users are agents now: does reaching PMF change?"}
   - {t: 647.8, n: 3, text: "Does open source help find PMF, or is it for investors?"}
@@ -40,7 +40,13 @@ anchors:
 #       with their captions. `from` / `to` are transcript text: the cut runs from the first word of
 #       `from` to the last word of the first `to` after it.
 cuts:
+  - {from: "if it's a .", to: "if it's a .", why: "stray words before the intro"}
+  - {from: "Through finding your GTM motions, figuring out", to: "as beautiful as infinite adoption.", why: "recap of the evening over the walk-on"}
   - {from: "hope you guys are doing well", to: "amazing day to be honest today.", why: "small talk"}
+
+# wide_only: spans (panel time) that stay on the wide camera, e.g. while someone walks right past cam2.
+wide_only:
+  - {from: 9.3, to: 12.7}   # a passer-by fills cam2
 
 # shorts: anchor cards turned into 3:4 shorts (shortform.py). `from` / `to` are transcript text and
 #         cover the speaker's whole thought; `skip` phrases inside the range are cut too.
