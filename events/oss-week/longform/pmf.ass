@@ -13,62 +13,62 @@ Style: Caption,RoundHog Medium,46,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.29,0:00:02.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}if it's a
 Dialogue: 0,0:00:03.05,0:00:08.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}. And now, for our last panel of the night,
-Dialogue: 0,0:00:09.51,0:00:13.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}finding permanent market fit as an outcome of all
-Dialogue: 0,0:00:13.31,0:00:18.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}your hard work through finding your GTM motions.
+Dialogue: 0,0:00:09.51,0:00:13.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}finding product-market fit as an outcome of all
+Dialogue: 0,0:00:13.31,0:00:14.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}your hard work
 Dialogue: 0,0:00:19.69,0:00:23.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Through finding your GTM motions, figuring out your
 Dialogue: 0,0:00:23.43,0:00:26.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}cyber security and internal...
 Dialogue: 0,0:00:26.41,0:00:27.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And
 Dialogue: 0,0:00:28.29,0:00:33.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}finally, see that in something as beautiful as
-Dialogue: 0,0:00:33.41,0:00:37.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Infinite Adoption. So I would like to invite Konstantin,
-Dialogue: 0,0:00:37.79,0:00:42.40,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}who will lead our panel, the local creator and the founder.
-Dialogue: 0,0:00:42.87,0:00:46.02,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Jonas, co-founder of Starsling.
-Dialogue: 0,0:00:46.07,0:00:51.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}You know this? Han, co-founder of Sierra Esporch.
-Dialogue: 0,0:00:53.77,0:00:56.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Sheffern, co-founder of London.
-Dialogue: 0,0:00:58.71,0:01:00.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Constantine, take it
+Dialogue: 0,0:00:33.41,0:00:37.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}infinite adoption. So I would like to invite Konstantine,
+Dialogue: 0,0:00:37.79,0:00:42.40,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}who will lead our panel, the online creator and founder.
+Dialogue: 0,0:00:42.87,0:00:46.02,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yonas, co-founder of StarSling.
+Dialogue: 0,0:00:46.07,0:00:51.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Hang, co-founder and CEO of InsForge.
+Dialogue: 0,0:00:53.77,0:00:56.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Shengkun, co-founder of Monid.
+Dialogue: 0,0:00:58.71,0:01:00.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Konstantine, take it
 Dialogue: 0,0:01:00.01,0:01:01.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}away.
 Dialogue: 0,0:01:02.13,0:01:02.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}Thank you
 Dialogue: 0,0:01:10.47,0:01:13.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}Hello everybody, hope you guys are doing well,
 Dialogue: 0,0:01:14.85,0:01:18.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}it's an amazing day to be honest today.
-Dialogue: 0,0:01:18.49,0:01:24.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}So welcome on our last panel, how to go in PNF.
-Dialogue: 0,0:01:24.31,0:01:29.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}So first point I want to let all these
-Dialogue: 0,0:01:29.23,0:01:31.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}amazing founders to be introduced.
+Dialogue: 0,0:01:18.49,0:01:23.12,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}So welcome on our last panel, how to get
+Dialogue: 0,0:01:23.12,0:01:28.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}to PMF. So first point I want to let all
+Dialogue: 0,0:01:28.71,0:01:31.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}these amazing founders to be introduced.
 Dialogue: 0,0:01:31.03,0:01:33.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}themselves, what they are building, and if
 Dialogue: 0,0:01:33.17,0:01:35.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}they are open source or not.
 Dialogue: 0,0:01:35.19,0:01:37.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}And after I will ask some questions.
 Dialogue: 0,0:01:37.75,0:01:39.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}So
 Dialogue: 0,0:01:40.67,0:01:42.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}whoever wants to start.
-Dialogue: 0,0:01:42.25,0:01:46.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}Sure. My name's Jonas, co-founder and CEO at StarSling.
+Dialogue: 0,0:01:42.25,0:01:46.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}Sure. My name's Yonas, co-founder and CEO at StarSling.
 Dialogue: 0,0:01:47.67,0:01:51.68,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}We make your GitHub actions up to 10x faster.
 Dialogue: 0,0:01:51.71,0:01:55.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}So we have fast hardware, like everyone else that
 Dialogue: 0,0:01:55.21,0:01:59.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}does CI, but we also have AI agents that speed up
 Dialogue: 0,0:01:59.91,0:02:04.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}your CI by opening up PRs to optimize your tests,
 Dialogue: 0,0:02:04.43,0:02:06.76,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}make sure you're sharding, caching properly.
-Dialogue: 0,0:02:06.97,0:02:11.62,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}So if anyone out here has slow CI, check out StarSlay.
-Dialogue: 0,0:02:13.53,0:02:16.98,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}Hey everyone, I'm Han, founder of Inksforge.
+Dialogue: 0,0:02:06.97,0:02:11.62,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}So if anyone out here has slow CI, check out StarSling.
+Dialogue: 0,0:02:13.53,0:02:16.98,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}Hey everyone, I'm Hang, founder of InsForge.
 Dialogue: 0,0:02:17.13,0:02:21.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}And... That's actually a funny story, like
 Dialogue: 0,0:02:22.99,0:02:26.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}last Wednesday, before last Wednesday, we were working
-Dialogue: 0,0:02:26.61,0:02:31.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}on InstaCloud, it's open source back in the cloud infrastructure,
+Dialogue: 0,0:02:26.61,0:02:31.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}on InstaCloud, it's open source backend cloud infrastructure,
 Dialogue: 0,0:02:31.55,0:02:34.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}but we just tested something really quickly last
 Dialogue: 0,0:02:34.65,0:02:37.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}Wednesday and it went viral, which is our sandbox offering,
 Dialogue: 0,0:02:37.67,0:02:40.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}and we don't have time to open source it yet, so it's
 Dialogue: 0,0:02:40.51,0:02:43.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}still closed source, but yeah, happy to share more
 Dialogue: 0,0:02:43.45,0:02:45.00,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}about my...
 Dialogue: 0,0:02:45.41,0:02:49.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}experience of finding PMF with my previous products.
-Dialogue: 0,0:02:50.57,0:02:54.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Hey everyone, I'm Shengkun, Co-Founder and CEO of Monit,
+Dialogue: 0,0:02:50.57,0:02:54.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Hey everyone, I'm Shengkun, Co-Founder and CEO of Monid,
 Dialogue: 0,0:02:54.13,0:02:57.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}and we are building the open router for agent tools.
 Dialogue: 0,0:02:57.13,0:03:00.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}We connect your agent to all the tools and API they need,
 Dialogue: 0,0:03:00.21,0:03:02.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}and as a human, you don't need to sign up for accounts or
 Dialogue: 0,0:03:02.89,0:03:05.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}pay for subscription for those services anymore, since
 Dialogue: 0,0:03:05.47,0:03:09.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}your agent can easily discover and use all the tools and
 Dialogue: 0,0:03:09.03,0:03:12.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}API right away. pay for them directly.
-Dialogue: 0,0:03:12.75,0:03:17.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}For example, we have the Cdance API, ICO, Apollo, Samrush,
+Dialogue: 0,0:03:12.75,0:03:17.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}For example, we have the Seedance API, ICO, Apollo, Semrush,
 Dialogue: 0,0:03:17.19,0:03:20.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}and all different APIs that can directly help you work.
 Dialogue: 0,0:03:20.81,0:03:23.00,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}And yes, we are open source.
 Dialogue: 0,0:03:23.91,0:03:27.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}I forgot to mention. So technically, we are open
 Dialogue: 0,0:03:27.63,0:03:31.14,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}core because the GitHub Actions runner is open source.
 Dialogue: 0,0:03:31.23,0:03:34.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}But no, we are not open source, but we do have a
 Dialogue: 0,0:03:34.11,0:03:37.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}bunch of skills and cool things that you can use
-Dialogue: 0,0:03:37.11,0:03:39.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}without the host of program.
+Dialogue: 0,0:03:37.11,0:03:39.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}without the hosted product.
 Dialogue: 0,0:03:41.37,0:03:45.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}So I will ask you my first question, actually,
 Dialogue: 0,0:03:45.99,0:03:49.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}you know, for every single founder, like PMF,
 Dialogue: 0,0:03:49.03,0:03:50.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}it's something that everyone, every single
@@ -110,7 +110,7 @@ Dialogue: 0,0:05:27.41,0:05:30.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:05:30.87,0:05:33.32,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}open source it and then we had in some
 Dialogue: 0,0:05:34.03,0:05:37.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}initial github stars but the most important is also we
 Dialogue: 0,0:05:37.79,0:05:40.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}have some user inbounds asking about hey can we try
-Dialogue: 0,0:05:40.69,0:05:45.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}this or your read me instruction on how to replicate
+Dialogue: 0,0:05:40.69,0:05:45.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}this or your README instruction on how to replicate
 Dialogue: 0,0:05:45.31,0:05:49.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}reproduce or self-hosting really bad I cannot use it
 Dialogue: 0,0:05:49.43,0:05:51.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}can you tell me how to use it something like that so
 Dialogue: 0,0:05:51.49,0:05:55.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}give us very initial signals all this product somehow
@@ -121,8 +121,8 @@ Dialogue: 0,0:06:06.35,0:06:08.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5
 Dialogue: 0,0:06:08.91,0:06:12.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}So top of the year, we started with a new product
 Dialogue: 0,0:06:12.31,0:06:15.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}and we saw the first signs of product market fit
 Dialogue: 0,0:06:15.65,0:06:18.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}when we shipped it to our first customer who is
-Dialogue: 0,0:06:18.81,0:06:21.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}an open source project, it's
-Dialogue: 0,0:06:21.57,0:06:26.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}that is now part of Vercel, and he, like the maintainer,
+Dialogue: 0,0:06:18.81,0:06:21.22,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}an open source project, it's called Better Auth,
+Dialogue: 0,0:06:21.22,0:06:26.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}that is now part of Vercel, and he, like the maintainer,
 Dialogue: 0,0:06:26.43,0:06:29.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}the founder, was like, "This is awesome." And he
 Dialogue: 0,0:06:29.87,0:06:34.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}merged in the PR to migrate the runners over, and
 Dialogue: 0,0:06:34.33,0:06:37.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}that was the moment because it's free, right?
@@ -141,7 +141,7 @@ Dialogue: 0,0:07:04.65,0:07:07.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:07:07.71,0:07:08.94,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}they are agents
 Dialogue: 0,0:07:09.37,0:07:13.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}does actually an agent care you know about
 Dialogue: 0,0:07:13.77,0:07:16.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}like if you're open source or not
-Dialogue: 0,0:07:18.51,0:07:23.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}and so how like the pmf which in pmf
+Dialogue: 0,0:07:18.51,0:07:23.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}and so how like the pmf reaching PMF
 Dialogue: 0,0:07:23.49,0:07:25.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}change And what's the difference between
 Dialogue: 0,0:07:25.67,0:07:29.60,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}reaching an agent and reaching a human?
 Dialogue: 0,0:07:31.11,0:07:34.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}I can answer this first. I think it's actually quite important.
@@ -198,10 +198,10 @@ Dialogue: 0,0:09:56.57,0:09:58.90,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:09:59.15,0:10:02.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}I heard of that from our users all the time.
 Dialogue: 0,0:10:02.19,0:10:04.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}They use us, they also use our competitor.
 Dialogue: 0,0:10:04.95,0:10:08.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}And when the agent tells them the results, actually if
-Dialogue: 0,0:10:08.03,0:10:10.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}you're open source and all, or how much stars you have on
-Dialogue: 0,0:10:10.89,0:10:14.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}a GitLab, it's kind of like showing up like in the
-Dialogue: 0,0:10:14.53,0:10:17.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}results and they would tell their human beings that oh
-Dialogue: 0,0:10:18.23,0:10:20.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}monet is open source so you probably can use that
+Dialogue: 0,0:10:08.03,0:10:11.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}you're open source and all, or how much stars you have on GitHub,
+Dialogue: 0,0:10:11.87,0:10:15.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}it's kind of like showing up like in the results and they
+Dialogue: 0,0:10:15.45,0:10:17.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}would tell their human beings that oh
+Dialogue: 0,0:10:18.23,0:10:20.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Monid is open source so you probably can use that
 Dialogue: 0,0:10:20.43,0:10:24.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}oh i got that a lot it was actually we started as a 500
 Dialogue: 0,0:10:24.17,0:10:26.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}stars whatever people like and the agents were saying
 Dialogue: 0,0:10:26.79,0:10:29.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}uh i wouldn't trust this product but like one year
@@ -211,10 +211,10 @@ Dialogue: 0,0:10:34.53,0:10:39.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:10:39.03,0:10:39.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}So yeah,
 Dialogue: 0,0:10:39.71,0:10:42.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}anyway, just joking. Yeah, exactly.
 Dialogue: 0,0:10:42.71,0:10:44.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}I hope they're going to be better.
-Dialogue: 0,0:10:44.49,0:10:45.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}Because like, bytecotters like me, they
+Dialogue: 0,0:10:44.49,0:10:45.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}Because like, vibe coders like me, they
 Dialogue: 0,0:10:45.97,0:10:49.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}need it. So my next question is going to
 Dialogue: 0,0:10:49.99,0:10:50.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}be
-Dialogue: 0,0:10:52.29,0:10:56.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}does this open source helps to fund PMF,
+Dialogue: 0,0:10:52.29,0:10:56.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}does this open source helps to find PMF,
 Dialogue: 0,0:10:56.07,0:10:59.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}or it's just for investors and--
 Dialogue: 0,0:11:00.85,0:11:04.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}Oh, I mean, so for us, we've released skills, and
 Dialogue: 0,0:11:04.23,0:11:07.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}that's been a really great way for people to
@@ -237,19 +237,19 @@ Dialogue: 0,0:11:48.23,0:11:49.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5
 Dialogue: 0,0:11:49.47,0:11:52.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}So I think the skills have been really cool.
 Dialogue: 0,0:11:52.57,0:11:56.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}And then Vercel, because they have skills.sh,
 Dialogue: 0,0:11:56.73,0:11:58.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}that's been really helpful because it's all in
-Dialogue: 0,0:11:58.83,0:12:03.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}one place, right? And you can just do MPX skill add, right?
+Dialogue: 0,0:11:58.83,0:12:03.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}one place, right? And you can just do npx skills add, right?
 Dialogue: 0,0:12:04.99,0:12:07.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}I think it definitely helps a lot.
 Dialogue: 0,0:12:08.53,0:12:11.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}joke about like you know having a star is like you have
 Dialogue: 0,0:12:11.77,0:12:14.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}five stars on Google review and so you just have much
 Dialogue: 0,0:12:14.53,0:12:18.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}more traffic that's just one thing but the deep down is
 Dialogue: 0,0:12:18.15,0:12:22.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}actually not just stars I personally don't think stars
-Dialogue: 0,0:12:22.43,0:12:26.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}is something beautiful investors or VCs is actually
+Dialogue: 0,0:12:22.43,0:12:26.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}is something built for investors or VCs is actually
 Dialogue: 0,0:12:26.13,0:12:29.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}what we look more is about star to fork ratio depends
-Dialogue: 0,0:12:29.81,0:12:33.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}on repos or skills like normally people will not forget
-Dialogue: 0,0:12:33.29,0:12:36.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}But for other repos, people will just test it out It's
-Dialogue: 0,0:12:36.47,0:12:38.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}giving you a real signal how many developers are
+Dialogue: 0,0:12:29.81,0:12:32.88,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}on repos or skills like normally people will not fork
+Dialogue: 0,0:12:32.88,0:12:36.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}it But for other repos, people will just test it out
+Dialogue: 0,0:12:36.25,0:12:38.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}It's giving you a real signal how many developers are
 Dialogue: 0,0:12:38.49,0:12:42.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}actually using them And we're also using some signal
-Dialogue: 0,0:12:42.43,0:12:45.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}check-ins combined with post hoc together to see some
+Dialogue: 0,0:12:42.43,0:12:45.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}check-ins combined with PostHog together to see some
 Dialogue: 0,0:12:45.03,0:12:48.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}analytics How many people are using us, in what version,
 Dialogue: 0,0:12:48.35,0:12:50.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}what's the source they're building us, are they using
 Dialogue: 0,0:12:50.35,0:12:53.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}Kubernetes or whatever So this graph giving us a real
@@ -257,11 +257,11 @@ Dialogue: 0,0:12:53.17,0:12:56.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:12:56.77,0:12:58.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}self-hosted versions are out there.
 Dialogue: 0,0:12:58.39,0:13:02.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}So those are actual signals or indicators if people are
 Dialogue: 0,0:13:02.77,0:13:04.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}actually using our open source
-Dialogue: 0,0:13:05.69,0:13:09.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, open source for us really help us with the PNF.
+Dialogue: 0,0:13:05.69,0:13:09.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, open source for us really help us with the PMF.
 Dialogue: 0,0:13:09.77,0:13:14.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}We started as the really closed source and but if you
 Dialogue: 0,0:13:14.27,0:13:17.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}think of us as the two-sided market, we kind of open
 Dialogue: 0,0:13:17.15,0:13:20.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}router one side that people use us to connect to all the tools.
-Dialogue: 0,0:13:20.37,0:13:22.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}The other side is the older tool providers.
+Dialogue: 0,0:13:20.37,0:13:22.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}The other side is all the tool providers.
 Dialogue: 0,0:13:22.81,0:13:28.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Like we started as the closed project for our demand side.
 Dialogue: 0,0:13:28.29,0:13:29.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}There are a lot of people use us.
 Dialogue: 0,0:13:29.71,0:13:33.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}But what we are not sure is that like how much leverage
@@ -273,10 +273,10 @@ Dialogue: 0,0:13:45.05,0:13:47.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:13:47.85,0:13:51.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}I was not sure, since at that time we did all the manual
 Dialogue: 0,0:13:51.73,0:13:54.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}integration for all the providers and get them on board.
 Dialogue: 0,0:13:54.37,0:13:56.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}We did all the manual work.
-Dialogue: 0,0:13:56.83,0:14:01.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}But after the open source Monit, we received a lot of PRs
+Dialogue: 0,0:13:56.83,0:14:01.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}But after the open source Monid, we received a lot of PRs
 Dialogue: 0,0:14:01.31,0:14:03.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}from all the different types of the providers.
 Dialogue: 0,0:14:03.87,0:14:06.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}They came to us and said, "Oh, I really want to be listed
-Dialogue: 0,0:14:06.81,0:14:10.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}on Monit. I already submitted my PR.
+Dialogue: 0,0:14:06.81,0:14:10.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}on Monid. I already submitted my PR.
 Dialogue: 0,0:14:10.09,0:14:13.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Can you please review it?" and then get it to the hosted
 Dialogue: 0,0:14:13.27,0:14:16.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}version as well please we've got so many requests like
 Dialogue: 0,0:14:16.47,0:14:19.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}that and that was the point i realized that okay i
@@ -295,14 +295,14 @@ Dialogue: 0,0:14:54.73,0:14:56.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:14:56.87,0:15:00.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}So that's the most service level of the work for your product.
 Dialogue: 0,0:15:00.37,0:15:04.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}for us like our values here is not like help you to
 Dialogue: 0,0:15:04.43,0:15:08.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}easily integrate but also about the pricing and also the
-Dialogue: 0,0:15:08.59,0:15:11.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}unified building behind the scene and that's the part
-Dialogue: 0,0:15:11.47,0:15:15.17,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}that people are not able to get directly from our open
-Dialogue: 0,0:15:15.17,0:15:19.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}source project so our open source project kind more kind
-Dialogue: 0,0:15:19.21,0:15:21.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}of like, oh, we help, we let people know about, oh, we
-Dialogue: 0,0:15:21.69,0:15:23.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}are providing such a framework.
-Dialogue: 0,0:15:23.53,0:15:26.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}We let the providers be easily onboarding themselves to
-Dialogue: 0,0:15:26.13,0:15:29.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}the platform. But if you actually want to use it and fill
-Dialogue: 0,0:15:29.37,0:15:33.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}the values out of it, then you need to use the hosted version.
+Dialogue: 0,0:15:08.59,0:15:12.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}unified billing behind the scene and that's the part that
+Dialogue: 0,0:15:12.15,0:15:15.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}people are not able to get directly from our open source
+Dialogue: 0,0:15:15.55,0:15:19.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}project so our open source project kind more kind of like, oh,
+Dialogue: 0,0:15:19.77,0:15:22.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}we help, we let people know about, oh, we are providing
+Dialogue: 0,0:15:22.43,0:15:25.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}such a framework. We let the providers be easily
+Dialogue: 0,0:15:25.47,0:15:27.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}onboarding themselves to the platform.
+Dialogue: 0,0:15:27.37,0:15:30.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}But if you actually want to use it and fill the values
+Dialogue: 0,0:15:30.03,0:15:33.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}out of it, then you need to use the hosted version.
 Dialogue: 0,0:15:33.01,0:15:35.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}So that means that, like, our core value of the product
 Dialogue: 0,0:15:35.55,0:15:38.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}is still within the hosted version.
 Dialogue: 0,0:15:38.69,0:15:43.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}I think there is a clear strategy for monetization for
@@ -333,16 +333,16 @@ Dialogue: 0,0:17:01.95,0:17:02.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:17:03.75,0:17:05.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}I'm going to go first because I do have one thing I
 Dialogue: 0,0:17:05.87,0:17:10.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}want to share is you guys probably using something or
 Dialogue: 0,0:17:10.15,0:17:14.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}something REA recently right reverse engineer so it's
-Dialogue: 0,0:17:14.47,0:17:16.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}already happening even though if your closed source or
-Dialogue: 0,0:17:16.99,0:17:19.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}opens or doesn't really matter why don't you put your
-Dialogue: 0,0:17:19.13,0:17:22.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}clothes out there so people can just feel some you know
-Dialogue: 0,0:17:22.41,0:17:25.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}trust it gave you some initial traction so you can
+Dialogue: 0,0:17:14.47,0:17:16.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}already happening even though if your closed source or
+Dialogue: 0,0:17:16.97,0:17:18.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}open source, doesn't really matter why don't you put
+Dialogue: 0,0:17:18.95,0:17:21.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}your code out there so people can just feel some you
+Dialogue: 0,0:17:21.91,0:17:25.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}know trust it gave you some initial traction so you can
 Dialogue: 0,0:17:25.07,0:17:28.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}better find a market fit It's like as a developer, if I
 Dialogue: 0,0:17:28.97,0:17:31.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}see this project is open source, I'll give it a try,
 Dialogue: 0,0:17:31.73,0:17:34.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}I'll self-host it, and if it is good, then I'm going to
 Dialogue: 0,0:17:34.95,0:17:35.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}contribute to this project.
 Dialogue: 0,0:17:35.95,0:17:39.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}That's how you get your first few so it's much better
-Dialogue: 0,0:17:39.05,0:17:42.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}than a co-source version, that's just like, you know,
+Dialogue: 0,0:17:39.05,0:17:42.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}than a closed source version, that's just like, you know,
 Dialogue: 0,0:17:42.61,0:17:47.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}the 100x, the number 100 or whatever, like the 200 companies,
 Dialogue: 0,0:17:47.13,0:17:50.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}are they doing this database thing, I don't know what
 Dialogue: 0,0:17:50.15,0:17:52.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Hang Huang (InsForge): {\fnRoundHog Medium\c&H00FFFFFF}it is, I don't even want to try it.
@@ -351,10 +351,10 @@ Dialogue: 0,0:17:58.45,0:18:02.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:18:02.41,0:18:05.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}even if you're not open source, it's so easy to copy
 Dialogue: 0,0:18:05.09,0:18:07.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}whatever you have. So, if that's the case, you just do
 Dialogue: 0,0:18:07.85,0:18:11.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}the right thing for a company, if closed source is the
-Dialogue: 0,0:18:11.41,0:18:15.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}most useful way for you to find a PNF, then just go for it.
+Dialogue: 0,0:18:11.41,0:18:15.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}most useful way for you to find a PMF, then just go for it.
 Dialogue: 0,0:18:15.03,0:18:17.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}If you're not sure, you can just do both of them.
 Dialogue: 0,0:18:17.55,0:18:20.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}that I could just do it, so I pretty aligned with the
-Dialogue: 0,0:18:20.71,0:18:22.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Haas idea on it.
+Dialogue: 0,0:18:20.71,0:18:22.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Shengkun Ye (Monid): {\fnRoundHog Medium\c&H00FFFFFF}Hang's idea on it.
 Dialogue: 0,0:18:22.71,0:18:25.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, well, I think I agree as well.
 Dialogue: 0,0:18:25.39,0:18:27.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}The only exception is if what you're building has
 Dialogue: 0,0:18:27.97,0:18:30.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}Yonas Beshawred (StarSling): {\fnRoundHog Medium\c&H00FFFFFF}to do with compute, it's probably not something

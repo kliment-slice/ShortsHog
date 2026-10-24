@@ -11,7 +11,7 @@ Style: Caption,RoundHog Medium,46,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.83,0:00:05.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Alex, Co-Founder of Unicraft.
+Dialogue: 0,0:00:02.83,0:00:05.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Alex, Co-Founder of Unikraft.
 Dialogue: 0,0:00:09.45,0:00:11.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}You guys are some of my favorite people on this
 Dialogue: 0,0:00:11.69,0:00:14.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}planet and founders that I look up to and I've
 Dialogue: 0,0:00:14.71,0:00:15.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}already learned a lot from.
@@ -25,15 +25,15 @@ Dialogue: 0,0:00:30.69,0:00:33.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:00:33.53,0:00:34.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}questions
 Dialogue: 0,0:00:34.53,0:00:37.54,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}cool uh i'm tim
 Dialogue: 0,0:00:38.61,0:00:43.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}is it working um i'm tim uh i'm one of the co-founders
-Dialogue: 0,0:00:43.13,0:00:48.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and ceo of postdoc uh we are a analytics uh platform uh
-Dialogue: 0,0:00:48.31,0:00:52.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}we are open source i have been since the beginning And yeah,
+Dialogue: 0,0:00:43.13,0:00:48.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and ceo of PostHog uh we are a analytics uh platform uh
+Dialogue: 0,0:00:48.31,0:00:52.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}we are open source, have been since the beginning And yeah,
 Dialogue: 0,0:00:52.93,0:00:57.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}sort of, I think about 700,000 users across the world,
 Dialogue: 0,0:00:57.75,0:00:59.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}you know, growing really quickly.
 Dialogue: 0,0:00:59.25,0:01:02.30,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And yeah, welcome to our office as well.
 Dialogue: 0,0:01:04.71,0:01:07.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}Is there a button for these?
 Dialogue: 0,0:01:07.29,0:01:08.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}Sorry?
 Dialogue: 0,0:01:11.79,0:01:13.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}Testing one, two, three. All right, hi.
-Dialogue: 0,0:01:13.39,0:01:17.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I'm Alex. I'm co-founder and chief of product at Unicraft.
+Dialogue: 0,0:01:13.39,0:01:17.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I'm Alex. I'm co-founder and chief of product at Unikraft.
 Dialogue: 0,0:01:17.77,0:01:20.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}We're a virtualization company.
 Dialogue: 0,0:01:20.15,0:01:25.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}We do micro VMs, we today actually do something like sandboxes,
 Dialogue: 0,0:01:25.79,0:01:27.30,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}databases, this type of stuff.
@@ -45,11 +45,11 @@ Dialogue: 0,0:01:39.17,0:01:41.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:01:45.17,0:01:49.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Test test. I'll hold it down.
 Dialogue: 0,0:01:49.05,0:01:50.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Check check.
 Dialogue: 0,0:01:51.95,0:01:54.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Check, check. There we go.
-Dialogue: 0,0:01:54.03,0:01:58.14,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Hey, I'm John Simone. I lead engineering at Kline.
-Dialogue: 0,0:01:58.35,0:02:02.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Kline's been around a little over two years.
+Dialogue: 0,0:01:54.03,0:01:58.14,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Hey, I'm John Simone. I lead engineering at Cline.
+Dialogue: 0,0:01:58.35,0:02:02.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Cline's been around a little over two years.
 Dialogue: 0,0:02:02.35,0:02:04.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}We've been open source from the beginning.
 Dialogue: 0,0:02:04.97,0:02:08.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}It's an open source coding agent.
-Dialogue: 0,0:02:08.05,0:02:13.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}We work in VS Code, JetBrains, we have a COI, we have a desktop.
+Dialogue: 0,0:02:08.05,0:02:13.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}We work in VS Code, JetBrains, we have a CLI, we have a desktop.
 Dialogue: 0,0:02:13.03,0:02:15.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Recently we have a cloud platform.
 Dialogue: 0,0:02:16.81,0:02:21.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}And, let's see, user volume, we have about 11 million downloads,
 Dialogue: 0,0:02:21.57,0:02:25.52,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}do about half a million active users monthly.
@@ -64,7 +64,7 @@ Dialogue: 0,0:02:43.67,0:02:45.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:02:45.11,0:02:48.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Did we just launch on open source and then it just started growing?
 Dialogue: 0,0:02:48.19,0:02:51.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Or was it like we had to go out and hunt them?
 Dialogue: 0,0:02:51.33,0:02:53.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}We actually did something kind of clever, which is, we
-Dialogue: 0,0:02:53.97,0:02:58.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}were in YC, we just pivoted to just building postdoc.
+Dialogue: 0,0:02:53.97,0:02:58.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}were in YC, we just pivoted to just building PostHog.
 Dialogue: 0,0:02:58.35,0:03:03.18,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And we spent, I don't know, a couple hundred bucks on
 Dialogue: 0,0:03:03.75,0:03:07.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Twitter ads, and honestly it was some of the best, we
 Dialogue: 0,0:03:07.39,0:03:09.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}did this for a lot of our pivots, but it was some of our
@@ -104,9 +104,9 @@ Dialogue: 0,0:04:42.49,0:04:46.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:04:46.13,0:04:49.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}to kind of look at this as a piece of stable, understood,
 Dialogue: 0,0:04:49.57,0:04:51.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}thought-out software.
 Dialogue: 0,0:04:53.09,0:04:54.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, so...check?
-Dialogue: 0,0:04:56.49,0:05:01.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Alright. So, Klein started at a hackathon, actually.
-Dialogue: 0,0:05:01.37,0:05:04.26,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Our founder, Saud, built it there.
-Dialogue: 0,0:05:04.55,0:05:08.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}And Klein had an interesting advantage that made things
+Dialogue: 0,0:04:56.49,0:05:01.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Alright. So, Cline started at a hackathon, actually.
+Dialogue: 0,0:05:01.37,0:05:04.26,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}Our founder, Saoud, built it there.
+Dialogue: 0,0:05:04.55,0:05:08.05,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}And Cline had an interesting advantage that made things
 Dialogue: 0,0:05:08.05,0:05:14.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}easier up front. It was a developer tool, and it was the
 Dialogue: 0,0:05:14.33,0:05:17.89,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}first real approach at a truly like chat-based agentic
 Dialogue: 0,0:05:17.89,0:05:20.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}coding agent. Everything was basically auto-complete, tab
@@ -126,10 +126,8 @@ Dialogue: 0,0:05:54.79,0:05:58.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:05:58.07,0:06:01.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}And on the second part of the question, what was one where
 Dialogue: 0,0:06:01.07,0:06:03.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}you were like, I thought that was going to work so well,
 Dialogue: 0,0:06:03.67,0:06:05.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}but it just completely flopped?
-Dialogue: 0,0:06:07.17,0:06:10.43,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}We'd have to do linear. Sure.
-Dialogue: 0,0:06:10.43,0:06:14.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}So let me think. We've had-- so we launch often, or at
-Dialogue: 0,0:06:14.85,0:06:16.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}least at the beginning, we were always launching.
-Dialogue: 0,0:06:16.65,0:06:18.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I mean, we had like launch weeks.
+Dialogue: 0,0:06:12.19,0:06:15.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}We've had-- so we launch often, or at least at the beginning,
+Dialogue: 0,0:06:15.49,0:06:18.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}we were always launching. I mean, we had like launch weeks.
 Dialogue: 0,0:06:18.93,0:06:21.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}We would just say like, oh, new features?
 Dialogue: 0,0:06:21.09,0:06:23.13,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}It's launch week. We would just call it something like, oh,
 Dialogue: 0,0:06:23.13,0:06:24.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}this is what we're doing now.
@@ -163,20 +161,20 @@ Dialogue: 0,0:07:39.95,0:07:43.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5
 Dialogue: 0,0:07:43.21,0:07:48.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}We had a whole series called AI University, and those got
 Dialogue: 0,0:07:48.09,0:07:54.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}a lot of uptake, and that turned into getting inbound
 Dialogue: 0,0:07:54.67,0:07:58.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}hearing from Fortune 500 companies that they had 10,000
-Dialogue: 0,0:07:58.47,0:08:01.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}people using client internally and we were like, wow,
-Dialogue: 0,0:08:01.09,0:08:04.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}this is a lot of uptake here.
-Dialogue: 0,0:08:04.45,0:08:09.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}But then I'd say the negative surprise was we started
-Dialogue: 0,0:08:09.49,0:08:12.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}talking to those companies and said, okay, if we ship an
-Dialogue: 0,0:08:12.99,0:08:15.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}enterprise feature as we have an enterprise offering here,
-Dialogue: 0,0:08:15.35,0:08:19.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}this is a slam dunk. And it's a Uphill battle selling
-Dialogue: 0,0:08:19.93,0:08:23.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}into fortune 500 and trying to sell at that scale when
-Dialogue: 0,0:08:23.61,0:08:27.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}you're a small company So that that ended up we saw a lot
-Dialogue: 0,0:08:27.07,0:08:29.26,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}more friction there than we expected
+Dialogue: 0,0:07:58.47,0:08:01.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}people using Cline internally and we were like, wow, this
+Dialogue: 0,0:08:01.37,0:08:06.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}is a lot of uptake here. But then I'd say the negative
+Dialogue: 0,0:08:06.97,0:08:11.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}surprise was we started talking to those companies and said, okay,
+Dialogue: 0,0:08:11.61,0:08:14.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}if we ship an enterprise feature as we have an enterprise
+Dialogue: 0,0:08:14.79,0:08:17.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}offering here, this is a slam dunk.
+Dialogue: 0,0:08:17.27,0:08:22.29,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}And it's a Uphill battle selling into fortune 500 and
+Dialogue: 0,0:08:22.29,0:08:24.87,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}trying to sell at that scale when you're a small company
+Dialogue: 0,0:08:25.05,0:08:28.01,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}So that that ended up we saw a lot more friction there
+Dialogue: 0,0:08:28.01,0:08:29.26,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}than we expected
 Dialogue: 0,0:08:31.33,0:08:32.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}I
 Dialogue: 0,0:08:33.17,0:08:37.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}think for us Actually plus one on blog stuff like we
 Dialogue: 0,0:08:37.81,0:08:41.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}wrote a blog about Our experience doing YC, for example,
 Dialogue: 0,0:08:41.31,0:08:42.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and that went pretty viral.
-Dialogue: 0,0:08:42.91,0:08:47.24,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}We had another one just about living NSF at the time,
+Dialogue: 0,0:08:42.91,0:08:47.24,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}We had another one just about living in SF at the time,
 Dialogue: 0,0:08:48.07,0:08:49.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and that one did pretty well.
 Dialogue: 0,0:08:49.77,0:08:52.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}But also, obviously, more technical content and stuff
 Dialogue: 0,0:08:52.79,0:08:54.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}definitely worked well. The stuff that didn't work well,
@@ -187,8 +185,7 @@ Dialogue: 0,0:09:04.57,0:09:06.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:09:06.49,0:09:08.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}literally did not work. So it turns out like you can't
 Dialogue: 0,0:09:08.75,0:09:09.95,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}actually bribe your customers.
 Dialogue: 0,0:09:09.95,0:09:13.58,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}You do actually have to like provide some value of some sort.
-Dialogue: 0,0:09:13.93,0:09:17.74,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Cool, cool. To the bet. To the bet.
-Dialogue: 0,0:09:17.97,0:09:22.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}To the best boss ads that have ever existed work well.
+Dialogue: 0,0:09:13.93,0:09:22.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Cool, cool. Do the best bus ads that have ever existed work well?
 Dialogue: 0,0:09:22.69,0:09:25.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, they work pretty well.
 Dialogue: 0,0:09:25.53,0:09:28.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Sounds good. For the next question, I'm sure I know the
 Dialogue: 0,0:09:28.99,0:09:32.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}answer already to this, but I'm curious about how you guys
@@ -214,7 +211,7 @@ Dialogue: 0,0:10:29.39,0:10:32.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5
 Dialogue: 0,0:10:32.85,0:10:37.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}the community side, so I think, yeah, absolutely, it's
 Dialogue: 0,0:10:37.69,0:10:39.54,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001C5CFF}John Simone (Cline): {\fnRoundHog Medium\c&H00FFFFFF}still very important.
 Dialogue: 0,0:10:40.43,0:10:44.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, I think for us, it's a trust thing, right, I think
-Dialogue: 0,0:10:44.81,0:10:47.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}very few people self-host post-hoc,
+Dialogue: 0,0:10:44.81,0:10:47.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}very few people self-host PostHog,
 Dialogue: 0,0:10:48.51,0:10:52.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}people like the fact that they can and that actually
 Dialogue: 0,0:10:52.69,0:10:54.72,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}increases the trust in our cloud product
 Dialogue: 0,0:10:56.11,0:10:57.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}you know so that i think is really important it also
@@ -284,14 +281,14 @@ Dialogue: 0,0:14:10.03,0:14:14.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:14:15.31,0:14:19.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}features in theory, like unlocking the stuff that isn't
 Dialogue: 0,0:14:19.81,0:14:23.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}the open source bit. and then really what customers
 Dialogue: 0,0:14:23.35,0:14:27.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}think they're buying is like 24/7 on-call SRE support to
-Dialogue: 0,0:14:27.23,0:14:30.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}make sure that like you know postdoc works in every
+Dialogue: 0,0:14:27.23,0:14:30.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}make sure that like you know PostHog works in every
 Dialogue: 0,0:14:30.51,0:14:33.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}weird iteration of like you know infrastructure that
 Dialogue: 0,0:14:33.63,0:14:36.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}people could come up with at one point we were literally
 Dialogue: 0,0:14:36.07,0:14:39.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}debugging people's setups of like through like pictures
 Dialogue: 0,0:14:39.69,0:14:43.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}taken of a screen Because their policies were so strict
 Dialogue: 0,0:14:43.79,0:14:47.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}that they weren't allowed to take screenshots.
 Dialogue: 0,0:14:47.15,0:14:49.53,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}So it was really painful. And I know now people do more
-Dialogue: 0,0:14:49.53,0:14:52.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}like BYAC where they, I guess maybe that's what you do,
+Dialogue: 0,0:14:49.53,0:14:52.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}like BYOC where they, I guess maybe that's what you do,
 Dialogue: 0,0:14:52.75,0:14:55.85,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}but where you kind of bring in, you control it, but
 Dialogue: 0,0:14:55.85,0:14:58.73,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}you're sort of in an account, so that might work better.
 Dialogue: 0,0:14:58.73,0:15:01.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}But that, I think, was very hard for us to make work,
@@ -322,7 +319,7 @@ Dialogue: 0,0:16:04.63,0:16:07.67,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:16:07.67,0:16:11.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}that's correct, even if you might have substantial tests.
 Dialogue: 0,0:16:12.23,0:16:15.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}But then on the whole GTM front, I think, I mean, GTM
 Dialogue: 0,0:16:15.47,0:16:18.45,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}engineering has blown up in terms of a whole new space,
-Dialogue: 0,0:16:18.45,0:16:21.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I don't think even the term GTM engineered existed, what,
+Dialogue: 0,0:16:18.45,0:16:21.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I don't think even the term GTM engineer existed, what,
 Dialogue: 0,0:16:21.83,0:16:25.83,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}six months ago properly? And now there's GTM engineer
 Dialogue: 0,0:16:25.83,0:16:28.35,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}meetups and everyone's sharing techniques and I think
 Dialogue: 0,0:16:28.35,0:16:30.37,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}that's because there's a big power that people are
@@ -374,7 +371,7 @@ Dialogue: 0,0:18:48.73,0:18:51.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:18:51.31,0:18:53.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}since you know, with AI now, how many more pull requests
 Dialogue: 0,0:18:53.79,0:18:55.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}you're getting.
 Dialogue: 0,0:18:56.51,0:18:59.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}How do you guys kind of see the movement going with open source, right?
-Dialogue: 0,0:18:59.71,0:19:02.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Do you think that there won't be poor requests anymore
+Dialogue: 0,0:18:59.71,0:19:02.21,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Do you think that there won't be pull requests anymore
 Dialogue: 0,0:19:02.21,0:19:05.88,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}where it would actually just be like people submitting issues?
 Dialogue: 0,0:19:06.33,0:19:07.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Or is there a middle ground there?
 Dialogue: 0,0:19:07.41,0:19:09.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Because I do think the recruiting part is very valuable,
@@ -443,7 +440,7 @@ Dialogue: 0,0:22:10.31,0:22:12.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:22:12.77,0:22:14.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Is there a method, a channel you would go with or is there
 Dialogue: 0,0:22:14.77,0:22:16.03,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}a philosophy you want to share?
 Dialogue: 0,0:22:16.03,0:22:18.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Let's say launch fast, launch over and over again.
-Dialogue: 0,0:22:18.65,0:22:20.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}One piece of advice from the audience about go-to-market
+Dialogue: 0,0:22:18.65,0:22:20.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}One piece of advice for the audience about go-to-market
 Dialogue: 0,0:22:20.61,0:22:22.41,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}with open source.
 Dialogue: 0,0:22:24.19,0:22:27.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}It's maybe not even like go-to-market, but I was giving
 Dialogue: 0,0:22:27.93,0:22:34.51,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}a talk yesterday to a sort of full hacker house, and
@@ -479,7 +476,7 @@ Dialogue: 0,0:23:55.33,0:23:57.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89
 Dialogue: 0,0:23:57.81,0:23:59.42,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}solves problems for people?
 Dialogue: 0,0:23:59.73,0:24:01.81,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yeah, I think that ends up actually being a way that I
 Dialogue: 0,0:24:01.81,0:24:05.63,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00E89014}Tim Glaser (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}see a lot of YC companies now get the first couple of customers.
-Dialogue: 0,0:24:05.63,0:24:09.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Very interesting. I'm sure we all see the post-op buses.
+Dialogue: 0,0:24:05.63,0:24:09.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Will Wang (Clova): {\fnRoundHog Medium\c&H00FFFFFF}Very interesting. I'm sure we all see the PostHog buses.
 Dialogue: 0,0:24:10.31,0:24:12.55,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}You may be entitled, yeah.
 Dialogue: 0,0:24:12.55,0:24:16.07,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I think one way I like to look at it is like, AI is
 Dialogue: 0,0:24:16.07,0:24:18.11,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}obviously on the trend up.
@@ -495,7 +492,7 @@ Dialogue: 0,0:24:42.67,0:24:45.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CC
 Dialogue: 0,0:24:45.91,0:24:49.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}buses or stands or whatever, so even going beyond that,
 Dialogue: 0,0:24:49.79,0:24:53.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I've seen people put projectors up and spontaneously do things,
 Dialogue: 0,0:24:53.75,0:24:57.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}I even got a floppy disk earlier as a card, this is
-Dialogue: 0,0:24:57.59,0:25:02.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}actually amazing. Shout out to ShipVox, who gave me this.
+Dialogue: 0,0:24:57.59,0:25:02.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}actually amazing. Shout out to Shipfox, who gave me this.
 Dialogue: 0,0:25:03.27,0:25:07.65,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}And so definitely on this side, I think attention is
 Dialogue: 0,0:25:07.65,0:25:10.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}very important. I think being able to get out there very
 Dialogue: 0,0:25:10.75,0:25:16.31,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Alex Jung (Unikraft): {\fnRoundHog Medium\c&H00FFFFFF}quickly and big. And so now you're seeing a lot of big
