@@ -8,30 +8,30 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,RoundHog Medium,46,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,16,0,2,150,150,54,1
-Style: Title,RoundHog Bold,92,&H00151515,&H00151515,&H00151515,&H00151515,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Title,RoundHog Bold,108,&H00151515,&H00151515,&H00151515,&H00151515,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 1,0:00:00.00,0:00:02.80,Title,,0,0,0,,{\pos(140,389)\fad(0,120)}Open Source in AI and Cybersecurity
-Dialogue: 1,0:00:00.00,0:00:02.80,Title,,0,0,0,,{\pos(144,628)\fnRoundHog Medium\fs39\fad(0,120)}Open Source Week · SF · Oct 21
-Dialogue: 0,0:00:02.80,0:00:03.80,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And now I would like to invite some of my other
-Dialogue: 0,0:00:03.80,0:00:07.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}favorite people for open source and AI and cyber
-Dialogue: 0,0:00:07.10,0:00:12.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}security discussion. Tom Piccirello, head of
-Dialogue: 0,0:00:12.49,0:00:16.66,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}cybersecurity at PostHog. Justin D'Souza,
-Dialogue: 0,0:00:16.66,0:00:21.40,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}co-founder of Asymptote, and and Matt Lenhard,
-Dialogue: 0,0:00:21.40,0:00:24.98,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}founder of Vectoral. I'd also like to invite Mark
-Dialogue: 0,0:00:24.98,0:00:28.80,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and myself who will join this discussion as it's of
-Dialogue: 0,0:00:28.80,0:00:32.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}a lot of interest. for us and I think we can do a
-Dialogue: 0,0:00:32.92,0:00:36.72,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}good job sharing the microphones cuz we're short a
-Dialogue: 0,0:00:36.72,0:00:39.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}little All righty so it's been a packed couple of
-Dialogue: 0,0:00:39.71,0:00:45.56,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}days of CVEs and news. The space is definitely
-Dialogue: 0,0:00:45.56,0:00:49.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}undergoing what I consider a bit of a cultural I
-Dialogue: 0,0:00:49.19,0:00:52.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}just want to test the waters with this audience and
-Dialogue: 0,0:00:52.27,0:00:56.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}see if you guys also believe in this culture shift
-Dialogue: 0,0:00:56.69,0:01:02.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}that you almost need to earn the right to
-Dialogue: 0,0:01:02.23,0:01:05.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}contribute to open source now.
-Dialogue: 0,0:01:05.39,0:01:09.98,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Trust is becoming a product but what does that look
-Dialogue: 0,0:01:09.98,0:01:14.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}like from an external collaborator and yeah
+Dialogue: 1,0:00:00.00,0:00:02.80,Title,,0,0,0,,{\pos(144,545)\fnRoundHog Medium\fs45\fad(0,120)}Open Source Week · SF · Oct 21
+Dialogue: 0,0:00:02.80,0:00:03.80,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And now I would like to invite some of my other
+Dialogue: 0,0:00:03.80,0:00:07.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}favorite people for open source and AI and cyber
+Dialogue: 0,0:00:07.10,0:00:12.49,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}security discussion. Tom Piccirello, head of
+Dialogue: 0,0:00:12.49,0:00:16.66,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}cybersecurity at PostHog. Justin D'Souza,
+Dialogue: 0,0:00:16.66,0:00:21.40,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}co-founder of Asymptote, and and Matt Lenhard,
+Dialogue: 0,0:00:21.40,0:00:24.98,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}founder of Vectoral. I'd also like to invite Mark
+Dialogue: 0,0:00:24.98,0:00:28.80,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}and myself who will join this discussion as it's of
+Dialogue: 0,0:00:28.80,0:00:32.92,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}a lot of interest. for us and I think we can do a
+Dialogue: 0,0:00:32.92,0:00:36.72,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}good job sharing the microphones cuz we're short a
+Dialogue: 0,0:00:36.72,0:00:39.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}little All righty so it's been a packed couple of
+Dialogue: 0,0:00:39.71,0:00:45.56,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}days of CVEs and news. The space is definitely
+Dialogue: 0,0:00:45.56,0:00:49.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}undergoing what I consider a bit of a cultural I
+Dialogue: 0,0:00:49.19,0:00:52.27,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}just want to test the waters with this audience and
+Dialogue: 0,0:00:52.27,0:00:56.69,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}see if you guys also believe in this culture shift
+Dialogue: 0,0:00:56.69,0:01:02.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}that you almost need to earn the right to
+Dialogue: 0,0:01:02.23,0:01:05.39,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}contribute to open source now.
+Dialogue: 0,0:01:05.39,0:01:09.98,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Trust is becoming a product but what does that look
+Dialogue: 0,0:01:09.98,0:01:14.71,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}like from an external collaborator and yeah
 Dialogue: 0,0:01:14.71,0:01:17.79,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}yeah it's certainly been a long week for a lot of
 Dialogue: 0,0:01:17.79,0:01:21.09,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}people I agree we're seeing like a fundamental shift
 Dialogue: 0,0:01:21.09,0:01:27.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}in how people are approaching security and yeah it's
@@ -190,13 +190,13 @@ Dialogue: 0,0:08:38.91,0:08:41.77,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:08:41.77,0:08:46.24,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}so much faster. And so making sure that, you know,
 Dialogue: 0,0:08:46.24,0:08:48.36,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}systems are like locked down.
 Dialogue: 0,0:08:48.36,0:08:50.96,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}They're not able to easily jump between them.
-Dialogue: 0,0:08:50.96,0:08:54.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Spot on. I mean, continuing this conversation.
-Dialogue: 0,0:08:54.10,0:08:58.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}So what does the long run Manifestation of this
-Dialogue: 0,0:08:58.10,0:09:01.40,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}look like this, every open source project now get a
-Dialogue: 0,0:09:01.40,0:09:06.00,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}security team. Does, you know, is your first hire a
-Dialogue: 0,0:09:06.00,0:09:10.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}security hire, what does that look like when you're
-Dialogue: 0,0:09:10.10,0:09:12.74,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}growing a project with intent to grow a company
-Dialogue: 0,0:09:12.74,0:09:13.34,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}around
+Dialogue: 0,0:08:50.96,0:08:54.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Spot on. I mean, continuing this conversation.
+Dialogue: 0,0:08:54.10,0:08:58.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}So what does the long run Manifestation of this
+Dialogue: 0,0:08:58.10,0:09:01.40,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}look like this, every open source project now get a
+Dialogue: 0,0:09:01.40,0:09:06.00,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}security team. Does, you know, is your first hire a
+Dialogue: 0,0:09:06.00,0:09:10.10,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}security hire, what does that look like when you're
+Dialogue: 0,0:09:10.10,0:09:12.74,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}growing a project with intent to grow a company
+Dialogue: 0,0:09:12.74,0:09:13.34,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}around
 Dialogue: 0,0:09:13.09,0:09:16.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}I think you can start to use security as like a differentiator,
 Dialogue: 0,0:09:16.25,0:09:18.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}which I actually think is a great thing.
 Dialogue: 0,0:09:18.61,0:09:20.97,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}starting to really take this more seriously and so it
@@ -342,12 +342,12 @@ Dialogue: 0,0:15:44.11,0:15:47.54,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3D
 Dialogue: 0,0:15:47.54,0:15:50.36,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}how do you roll up, if you've got 100,000 requests
 Dialogue: 0,0:15:50.36,0:15:52.98,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}coming in, how do you roll up what's normal for those
 Dialogue: 0,0:15:52.98,0:15:56.75,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Matt Lenhard (Vectoral): {\fnRoundHog Medium\c&H00FFFFFF}accounts all at once in milliseconds?
-Dialogue: 0,0:15:56.75,0:15:59.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Fantastic. I think we're out of time almost.
-Dialogue: 0,0:15:59.59,0:16:02.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}If there's an opportunity for you guys to give out
-Dialogue: 0,0:16:02.57,0:16:06.38,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}your hot takes, I'll follow suit with Will's style
-Dialogue: 0,0:16:06.38,0:16:09.60,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}of hosting the panel, if you have a hot take, now
-Dialogue: 0,0:16:09.60,0:16:12.54,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}is the time, something that others don't really
-Dialogue: 0,0:16:12.54,0:16:16.18,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}believe in, but you would die on this hill.
+Dialogue: 0,0:15:56.75,0:15:59.59,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Fantastic. I think we're out of time almost.
+Dialogue: 0,0:15:59.59,0:16:02.57,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}If there's an opportunity for you guys to give out
+Dialogue: 0,0:16:02.57,0:16:06.38,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}your hot takes, I'll follow suit with Will's style
+Dialogue: 0,0:16:06.38,0:16:09.60,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}of hosting the panel, if you have a hot take, now
+Dialogue: 0,0:16:09.60,0:16:12.54,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}is the time, something that others don't really
+Dialogue: 0,0:16:12.54,0:16:16.18,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}believe in, but you would die on this hill.
 Dialogue: 0,0:16:16.18,0:16:18.47,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}You mentioned bug bounties.
 Dialogue: 0,0:16:18.47,0:16:20.33,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}Maybe my hot take is that those are also
 Dialogue: 0,0:16:20.33,0:16:22.61,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H001CCEFF}Justin D'Souza (Asymptote Labs): {\fnRoundHog Medium\c&H00FFFFFF}going to be dead? Because it's just so cheap
@@ -399,4 +399,4 @@ Dialogue: 0,0:18:28.85,0:18:30.91,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00DFB
 Dialogue: 0,0:18:30.91,0:18:33.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00DFB32B}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}before then and like this week is a great example of
 Dialogue: 0,0:18:33.23,0:18:35.15,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00DFB32B}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}that and a lot of goods gonna come out of it but
 Dialogue: 0,0:18:35.15,0:18:36.88,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00DFB32B}Tom Piccirello (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}it's a shit week that's just how it goes
-Dialogue: 0,0:18:36.88,0:18:39.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}I couldn't think of a better way
+Dialogue: 0,0:18:36.88,0:18:39.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}I couldn't think of a better way

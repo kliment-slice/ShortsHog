@@ -8,23 +8,23 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,RoundHog Medium,46,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,16,0,2,150,150,54,1
-Style: Title,RoundHog Bold,92,&H00151515,&H00151515,&H00151515,&H00151515,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Title,RoundHog Bold,108,&H00151515,&H00151515,&H00151515,&H00151515,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 1,0:00:00.00,0:00:02.80,Title,,0,0,0,,{\pos(140,389)\fad(0,120)}Finding PMF through Open Source
-Dialogue: 1,0:00:00.00,0:00:02.80,Title,,0,0,0,,{\pos(144,628)\fnRoundHog Medium\fs39\fad(0,120)}Open Source Week · SF · Oct 21
-Dialogue: 0,0:00:02.80,0:00:07.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}if it's a . And now, for our last panel of the night,
-Dialogue: 0,0:00:07.19,0:00:10.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}finding product-market fit as an outcome of all
-Dialogue: 0,0:00:10.99,0:00:14.24,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}your hard work Through finding your GTM motions,
-Dialogue: 0,0:00:14.24,0:00:18.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}figuring out your cyber security and internal...
-Dialogue: 0,0:00:18.93,0:00:25.32,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And finally, see that in something as beautiful as
-Dialogue: 0,0:00:25.32,0:00:29.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}infinite adoption. So I would like to invite Konstantine,
-Dialogue: 0,0:00:29.70,0:00:34.24,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}who will lead our panel, the online creator and founder.
-Dialogue: 0,0:00:34.24,0:00:37.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yonas, co-founder of StarSling.
-Dialogue: 0,0:00:37.23,0:00:42.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Hang, co-founder and CEO of InsForge.
-Dialogue: 0,0:00:42.25,0:00:45.14,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Shengkun, co-founder of Monid.
-Dialogue: 0,0:00:45.14,0:00:46.44,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00D237A7}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Konstantine, take it
+Dialogue: 1,0:00:00.00,0:00:02.80,Title,,0,0,0,,{\pos(144,545)\fnRoundHog Medium\fs45\fad(0,120)}Open Source Week · SF · Oct 21
+Dialogue: 0,0:00:02.80,0:00:07.19,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}if it's a . And now, for our last panel of the night,
+Dialogue: 0,0:00:07.19,0:00:10.99,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}finding product-market fit as an outcome of all
+Dialogue: 0,0:00:10.99,0:00:14.24,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}your hard work Through finding your GTM motions,
+Dialogue: 0,0:00:14.24,0:00:18.93,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}figuring out your cyber security and internal...
+Dialogue: 0,0:00:18.93,0:00:25.32,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And finally, see that in something as beautiful as
+Dialogue: 0,0:00:25.32,0:00:29.70,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}infinite adoption. So I would like to invite Konstantine,
+Dialogue: 0,0:00:29.70,0:00:34.24,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}who will lead our panel, the online creator and founder.
+Dialogue: 0,0:00:34.24,0:00:37.23,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Yonas, co-founder of StarSling.
+Dialogue: 0,0:00:37.23,0:00:42.25,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}Hang, co-founder and CEO of InsForge.
+Dialogue: 0,0:00:42.25,0:00:45.14,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Shengkun, co-founder of Monid.
+Dialogue: 0,0:00:45.14,0:00:46.44,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H0021CAA0}Kliment Minchev (PostHog): {\fnRoundHog Medium\c&H00FFFFFF}And Konstantine, take it
 Dialogue: 0,0:00:46.44,0:00:49.52,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}away. Thank you Hello everybody, hope you
 Dialogue: 0,0:00:49.52,0:00:53.00,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}guys are doing well, it's an amazing day
 Dialogue: 0,0:00:53.00,0:00:58.34,Caption,,0,0,0,,{\fnRoundHog SemiBold\c&H00B3DA43}Konstantine Gugunava (KokaBuildSF): {\fnRoundHog Medium\c&H00FFFFFF}to be honest today. So welcome on our last panel,
