@@ -10,35 +10,35 @@ Everything runs locally: whisper-cpp transcribes, numpy syncs the audio, ffmpeg
 cuts and renders. Panel context comes from the `granola` MCP.
 
 ## Layout
-- `content/<folder>/` — raw footage per event, laid out however the user dropped it
+- `content/<folder>/`: raw footage per event, laid out however the user dropped it
   (camera angles with scratch audio, mic WAVs, b-roll folders). Gitignored. Never modify or move it.
-- `events/<name>/` — pipeline files per event, copied from `events/_template/`
-  - `event.yaml` — sources (cameras + mics) on a shared timeline, speakers → camera + crop,
+- `events/<name>/`: pipeline files per event, copied from `events/_template/`
+  - `event.yaml`: sources (cameras + mics) on a shared timeline, speakers → camera + crop,
     b-roll folders, panels → Granola meeting + mics + time range. Media paths are relative to `content:`
   - `stills/` camera frame grabs for crops (gitignored)
-  - `transcripts/` whisper output + speaker labels (JSON committed, WAVs not) · `renders/` final mp4s
-  - `shorts.json` — the selected shorts
-- `scripts/` — python helpers. Always run with `.venv/bin/python scripts/<x>.py`
-- `models/ggml-large-v3-turbo.bin` — whisper model (gitignored)
-- `FORMAT.md` — the rules every short follows, including caption style. Read it before `/select`
+  - `transcripts/` whisper output + speaker labels (JSON committed, WAVs not), `renders/` final mp4s
+  - `shorts.json`: the selected shorts
+- `scripts/`: python helpers. Always run with `.venv/bin/python scripts/<x>.py`
+- `models/ggml-large-v3-turbo.bin`: whisper model (gitignored)
+- `FORMAT.md`: the rules every short follows, including caption style. Read it before `/select`
 
 ## Pipeline
 Each step is a slash command in `.claude/commands/`.
 
-1. `/new-event <name> [folder]` — inventory the footage, fill `event.yaml`, set crops from stills
-2. `/transcribe <event>` — `align.py sync` → `mix.py` → `transcribe.py` → `align.py label` →
+1. `/new-event <name> [folder]`: inventory the footage, fill `event.yaml`, set crops from stills
+2. `/transcribe <event>`: `align.py sync` → `mix.py` → `transcribe.py` → `align.py label` →
    `speakers.py` (people assigned from the transcript where mics were shared)
-3. `/longform <event>` — the full panel as a 16:9 video: `edit.py` mutes ums and cuts pauses and
+3. `/longform <event>`: the full panel as a 16:9 video: `edit.py` mutes ums and cuts pauses and
    stutters; `faces.py` tracks each panelist on cam2; `longform.py` cuts every few seconds between
    speaker close-up, reaction, group and wide, a PostHog stripe wipe on every shot change, punch-ins
    on jump cuts, graded footage, title card, progress bar, RoundHog captions "Name (Company): ...".
    → `longform/<panel>.mp4`
-4. `/select <event>` — Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
-5. `/cut <event>` — `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
+4. `/select <event>`: Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
+5. `/cut <event>`: `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
-6. `/review <event>` — `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
+6. `/review <event>`: `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
    re-render one short. Writes shorts.json (keeps shorts.json.bak)
-7. `/export <event> [ids]` — `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
+7. `/export <event> [ids]`: `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
    for hand editing in Resolve. Only for shorts that need it. One-way; marks them `edited-in-resolve`
 
 ## Time
@@ -67,6 +67,9 @@ YuNet) and follows seats over time; `framing.<camera>` lists camera reframes it 
 (with `init` positions when a seat is out of frame). Always check `faces.py preview` images.
 
 ## Rules
+- Never use middots (·) or em dashes in anything: on-screen text, story files, docs, messages.
+  On-screen text goes through `longform.clean()`, which strips them if they slip in.
+- Overlays stay clean and simple: plain dark cards, no decorative stripes or logo shapes behind text.
 - Timestamps come ONLY from the whisper transcript (`transcripts/<panel>.json`).
   Granola timing does not align with the cameras; use Granola only for *what* was said.
 - Never run `/cut` without explicit approval of the `/select` table in chat.

@@ -11,7 +11,7 @@ Rules every short must follow. `/select` applies them; edit freely.
 - Frame rate matches the cameras (event.yaml `fps` overrides)
 
 ## Length
-- Target 30–60s
+- Target 30-60s
 - Hard max 75s. Anything longer gets split or dropped, never sped up
 
 ## Hook
@@ -36,7 +36,7 @@ Rules every short must follow. `/select` applies them; edit freely.
 - Each speaker has one camera and one fixed crop (event.yaml `speakers`)
 - The short cuts to the speaker's camera when they start talking
 - Speaker turns under 1.5s stay on the previous camera, so it doesn't flicker
-- B-roll: 2–4s, never in the first 3s, mic audio keeps playing underneath
+- B-roll: 2-4s, never in the first 3s, mic audio keeps playing underneath
 
 ## Captions
 Burned in from the whisper words. `scripts/cut.py` reads this block; edit the values.

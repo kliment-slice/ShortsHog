@@ -16,7 +16,7 @@ Core tenet: make the output content dynamic. Style and pacing live in FORMAT.md
      (a removed pause) punches the framing in or out a little.
   4. Story (events/<e>/longform/<panel>.story.yaml, panel time): a chapter tag for the
      current question, top left, and anchor cards that pop up top right with a
-     speaker's key point right after they make it.
+     speaker's key point. Clean dark cards; on-screen text never uses middots or dashes.
   5. The look: camera footage graded per `grade` (cam1 also levelled by its `rotate`);
      a title card that wipes into the panel; RoundHog captions "Name (Company): ..."
      with the name in the speaker's brand colour; a thin progress bar in tangerine.
@@ -241,11 +241,12 @@ def title_card(w: int, h: int, st: dict) -> np.ndarray:
     img = np.zeros((h, w, 3), np.uint8)
     img[:] = bgr(st["title_bg"])
     slant = 0.25 * h
-    x = w * 0.70
+    band = 0.06 * w
+    x = w * 0.82 - slant / 2  # clear of the title text, which ends well before 0.82 w at the top
     for c in st["title_stripes"]:
-        pts = np.array([[x + slant, 0], [x + slant + 0.075 * w, 0], [x + 0.075 * w, h], [x, h]], dtype=np.int32)
+        pts = np.array([[x + slant, 0], [x + slant + band, 0], [x + band, h], [x, h]], dtype=np.int32)
         cv2.fillPoly(img, [pts], bgr(c), lineType=cv2.LINE_AA)
-        x += 0.075 * w
+        x += band
     return img
 
 
@@ -315,14 +316,11 @@ def wrap(text: str, width: int) -> list:
     return lines + ([cur] if cur else [])
 
 
-def stripes(x: float, y: float, height: float, st: dict, t0: str, t1: str, fade: str) -> list:
-    """The three brand stripes as small parallelograms: the ShortsHog mark."""
-    out = []
-    for k, c in enumerate(st["wipe_colors"]):
-        sx = k * 13
-        out.append(f"Dialogue: 2,{t0},{t1},Story,,0,0,0,,{{\\an7\\pos({x + sx:.0f},{y:.0f})\\bord0\\shad0"
-                   f"\\c{ass_color(c)}{fade}\\p1}}m 6 0 l 15 0 9 {height:.0f} 0 {height:.0f}{{\\p0}}")
-    return out
+def clean(text: str) -> str:
+    """House style for anything drawn on screen: no middots, no em or en dashes."""
+    text = re.sub(r"\s*[\u2014\u2013]\s*", ", ", text)
+    text = re.sub(r"\s*\u00b7\s*", ", ", text)
+    return re.sub(r",\s*,", ",", text).strip(" ,")
 
 
 def story_events(story: dict, to_out, people: dict, colors: dict, st: dict, offset: float, end: float) -> list:
@@ -334,31 +332,29 @@ def story_events(story: dict, to_out, people: dict, colors: dict, st: dict, offs
     lab, txt = st["chapter_label_size"], st["chapter_text_size"]
     for i, q in enumerate(qs):
         a = to_out(q["t"]) - offset
-        b = (to_out(qs[i + 1]["t"]) if i + 1 < len(qs) else end) - offset
-        if b <= 0:
+        b = min((to_out(qs[i + 1]["t"]) if i + 1 < len(qs) else end), end) - offset
+        if b <= 0 or a >= b:  # outside this render (an excerpt); an event ending before it starts breaks libass
             continue
         t0, t1 = ass_time(max(0.0, a + 0.05)), ass_time(b)
-        label = q.get("label") or (f"QUESTION {q['n']}/{total_q}" if q.get("n") else "")
+        tag = clean(q.get("label") or (f"QUESTION {q['n']}/{total_q}" if q.get("n") else ""))
         fade = "\\fad(180,0)"
-        ev += stripes(42, 44, lab + txt + 46, st, t0, t1, fade)
-        ev.append(f"Dialogue: 2,{t0},{t1},Chapter,,0,0,0,,{{\\an7\\pos(86,44){fade}\\fn{st['font_title_weight']}"
-                  f"\\fs{lab}\\c{ass_color(st['chapter_label_color'])}}}{label.upper()}")
-        ev.append(f"Dialogue: 2,{t0},{t1},Chapter,,0,0,0,,{{\\an7\\pos(86,{44 + lab + 22}){fade}}}{q['text']}")
+        ev.append(f"Dialogue: 2,{t0},{t1},Chapter,,0,0,0,,{{\\an7\\pos(60,44){fade}\\fn{st['font_title_weight']}"
+                  f"\\fs{lab}\\c{ass_color(st['chapter_label_color'])}}}{tag.upper()}")
+        ev.append(f"Dialogue: 2,{t0},{t1},Chapter,,0,0,0,,{{\\an7\\pos(60,{44 + lab + 22}){fade}}}{clean(q['text'])}")
     name_size, text_size = st["anchor_name_size"], st["anchor_text_size"]
     for an in story["anchors"]:
         a = to_out(an["t"]) - offset
         later = [t for t in times if t > to_out(an["t"]) + 0.01]
-        b = min([a + st["anchor_hold"]] + [t - offset for t in later[:1]])
-        if b <= 0:
+        b = min([a + st["anchor_hold"], end - offset] + [t - offset for t in later[:1]])
+        if b <= 0 or a >= b:
             continue
         t0, t1 = ass_time(max(0.0, a + 0.05)), ass_time(b)
         spk = an["speaker"]
-        lines = wrap(f"\u201c{an['text']}\u201d", st["anchor_wrap"])
+        lines = wrap(f"\u201c{clean(an['text'])}\u201d", st["anchor_wrap"])
         x, y = st["size"][0] - 90 - st["anchor_width"], 44
         pop = ("\\fad(160,220)\\fscx88\\fscy88\\t(0,170,\\fscx104\\fscy104)\\t(170,280,\\fscx100\\fscy100)")
         height = name_size + 26 + len(lines) * (text_size + 14)
-        ev += stripes(x - 44, y, height, st, t0, t1, "\\fad(160,220)")
-        name = f"{spk} \u00b7 {people.get(spk, {}).get('company', '')}".rstrip(" \u00b7")
+        name = label(spk, people)
         ev.append(f"Dialogue: 3,{t0},{t1},Anchor,,0,0,0,,{{\\an7\\pos({x},{y}){pop}\\fn{st['font_name_weight']}"
                   f"\\fs{name_size}\\c{ass_color(colors.get(spk, st['name_colors'][0]))}}}{name}")
         for k, ln in enumerate(lines):
@@ -394,6 +390,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     title_end = 0.0
     if title:
         text, sub, title_end = title
+        text, sub = clean(text), clean(sub)
         if title_end - offset > 0:
             events.append(f"Dialogue: 1,{ass_time(0)},{ass_time(title_end - offset)},Title,,0,0,0,,"
                           f"{{\\pos(140,{h * 0.36:.0f})\\fad(0,120)}}{text}")
@@ -404,7 +401,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         a, b = max(a, title_end) - offset, b - offset
         if b <= max(0.0, a):
             continue
-        text = text.replace("\\", "").replace("{", "(").replace("}", ")")
+        text = clean(text.replace("\\", "").replace("{", "(").replace("}", ")"))
         events.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Caption,,0,0,0,,"
                       f"{{\\fn{st['font_name_weight']}\\c{ass_color(colors[spk])}}}{label(spk, people)}: "
                       f"{{\\fn{st['font_text_weight']}\\c{ass_color(st['caption_text'])}}}{text}")
@@ -488,7 +485,7 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     (out_dir / f"{tag}.plan.json").write_text(json.dumps({"edit": ed.summary(), "shots": shots}, indent=1))
     ass = out_dir / f"{tag}.ass"
     date = ev.get("date")
-    sub = " · ".join(x for x in (ev.get("name") or ev.get("event"), date.strftime("%b %-d") if hasattr(date, "strftime") else str(date or "")) if x)
+    sub = ", ".join(x for x in (ev.get("name") or ev.get("event"), date.strftime("%b %-d") if hasattr(date, "strftime") else str(date or "")) if x)
     write_ass(ass, caption_lines(words, people, st), people, colors, st, start,
               (p.get("title") or p["id"], sub, title_end) if title_end else None,
               story_events(story, lambda t: max(title_end + 0.5, ed.to_out_near(t)), people, colors, st, start,

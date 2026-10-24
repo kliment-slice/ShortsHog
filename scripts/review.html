@@ -125,10 +125,10 @@ function isDirty(s) {
 
 function render() {
   const { data } = state;
-  $("#title").textContent = `ShortsHog review · ${data.event}`;
+  $("#title").textContent = `ShortsHog review: ${data.event}`;
   const counts = {};
   data.shorts.forEach(s => counts[s.status] = (counts[s.status] || 0) + 1);
-  $("#counts").textContent = data.statuses.filter(k => counts[k]).map(k => `${counts[k]} ${k}`).join(" · ");
+  $("#counts").textContent = data.statuses.filter(k => counts[k]).map(k => `${counts[k]} ${k}`).join(", ");
   const filters = $("#filters");
   filters.innerHTML = "";
   ["all", ...data.statuses].forEach(f => {
