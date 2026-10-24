@@ -24,3 +24,17 @@ anchors:
   - {t: 215.6, speaker: Alex Jung, text: "The first users were students, found through university workshops"}
   - {t: 280.0, speaker: Alex Jung, text: "Kernel-grade code reviews won partners like ARM and Microsoft"}
   - {t: 324.5, speaker: John Simone, text: "In dev tools, unique gets tried. The work is keeping the buzz."}
+
+# cuts: moments that don't serve the story (mic checks, setup chatter, stray asides), removed
+#       with their captions. `from` / `to` are transcript text: the cut runs from the first word of
+#       `from` to the last word of the first `to` after it.
+cuts:
+  - {from: "And Alex, Co-Founder of Unikraft", to: "Thank you. Cool, cool.", why: "handover from the previous intro"}
+  - {from: "Great meeting everybody.", to: "We have a nice crowd here at the nice office.", why: "small talk"}
+  - {from: "cool uh i'm tim is it working", to: "is it working um", why: "mic check"}
+  - {from: "Is there a button for these?", to: "All right, hi.", why: "mic check"}
+  - {from: "Test test.", to: "There we go.", why: "mic check"}
+  - {from: "I think we have a very strong lineup today", to: "we have a lot of early stage founders.", why: "filler before the first question"}
+  - {from: "Yeah, so...check?", to: "Alright.", why: "mic check"}
+  - {from: "Give it a second.", to: "should have read the manual.", why: "mic help"}
+  - {from: "You may be entitled", to: "You may be entitled, yeah.", why: "aside"}

@@ -172,9 +172,9 @@ def plan(words: list, dur: float, tracks: Tracks, st: dict, chops: list, to_src,
 
 def load_story(path: Path) -> dict:
     if not path.exists():
-        return {"questions": [], "anchors": []}
+        return {"questions": [], "anchors": [], "cuts": []}
     d = YAML(typ="safe").load(path.read_text()) or {}
-    return {"questions": d.get("questions") or [], "anchors": d.get("anchors") or []}
+    return {"questions": d.get("questions") or [], "anchors": d.get("anchors") or [], "cuts": d.get("cuts") or []}
 
 
 def split_at(shots: list, times: list) -> list:
@@ -317,7 +317,8 @@ def wrap(text: str, width: int) -> list:
 
 
 def clean(text: str) -> str:
-    """House style for anything drawn on screen: no middots, no em or en dashes."""
+    """House style for anything drawn on screen: no middots, no em or en dashes, "I" capitalised."""
+    text = re.sub(r"\bi(?=$|\s|'(?:m|ve|ll|d|s)\b)", "I", text)
     text = re.sub(r"\s*[\u2014\u2013]\s*", ", ", text)
     text = re.sub(r"\s*\u00b7\s*", ", ", text)
     return re.sub(r",\s*,", ",", text).strip(" ,")
@@ -455,7 +456,8 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     fps = output_fps(ev)
     pstart, pend = panel_range(ev, p)
     words_src = json.loads((edir / "transcripts" / f"{p['id']}.json").read_text())["words"]
-    ed = tighten.build(edir, p, words_src, pend - pstart)
+    story = load_story(edir / "longform" / f"{p['id']}.story.yaml")
+    ed = tighten.build(edir, p, words_src, pend - pstart, story["cuts"])
     words = ed.words_out(words_src)
     total = ed.out_dur
     dur = min(dur, total - start) if dur else total - start
@@ -468,7 +470,6 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     for w in words:
         colors.setdefault(w["speaker"], st["name_colors"][len(colors) % len(st["name_colors"])])
     title_end = st["title_seconds"] if st.get("title_seconds") else 0.0
-    story = load_story(edir / "longform" / f"{p['id']}.story.yaml")
     themes = sorted(set(round(max(title_end + 0.5, ed.to_out_near(x["t"])), 3)
                         for x in story["questions"] + story["anchors"]))
     shots = plan(words, total, tracks, st, ed.chops() + themes, ed.to_src, hosts)

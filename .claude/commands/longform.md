@@ -20,7 +20,11 @@ Needs `/transcribe` done, with people assigned (`speakers.py dump ... --todo` em
      summary as `text` (≤ ~50 chars), `n` numbering them; the introductions as an unnumbered `label`.
    - `anchors`: a speaker's strongest points (a number, a story, a contrarian take), `t` = the start of
      the sentence that makes it, `text` ≤ ~70 chars in plain words, not a quote. Roughly one per answer;
-     each one is a wipe, so don't overdo it. Show me the list before rendering.
+     each one is a wipe, so don't overdo it.
+   - `cuts`: everything that doesn't serve a quick story with maximum relevant information: mic checks
+     and mic trouble, setup chatter, handovers, small talk, stray asides. `{from, to, why}` as transcript
+     text. Check with `.venv/bin/python scripts/edit.py <event> <panel>`, which prints each cut's text.
+   Show me the list before rendering.
 5. **Plan**: `.venv/bin/python scripts/longform.py <event> <panel> --plan-only` for each panel; report
    shot counts and camera switches.
 6. **Preview**: render 2 minutes (`--start <s> --duration 120`) of one panel, grab frames at a

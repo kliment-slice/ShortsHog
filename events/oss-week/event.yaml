@@ -220,6 +220,9 @@ corrections:
 - {find: on a GitLab, replace: on GitHub, panel: pmf}
 - {find: how to go in PMF, replace: how to get to PMF, panel: pmf}
 - {find: Infinite Adoption, replace: infinite adoption, panel: pmf}
+- {find: i'm tim, replace: I'm Tim, panel: gtm}
+- {find: ceo, replace: CEO}
+- {find: a analytics, replace: an analytics, panel: gtm}
 
 # Names and terms whisper should expect (passed as its prompt, with every name/company in `people`)
 vocabulary: [PostHog, Unikraft, Cline, Asymptote, Vectoral, StarSling, InsForge, Monid, KokaBuildSF, Clova, 1984.vc, YC, GitHub, GitHub Actions, CVE, LiteLLM, Ghostty, Claude, Claude Code, OpenClaw, Vercel, Better Auth, Mastra, Railway, SIEM, PMF, GTM, BYOC, npx, PRs, Shipfox, Saoud, Seedance, Semrush, Beacon, InstaCloud]

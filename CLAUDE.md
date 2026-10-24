@@ -3,7 +3,8 @@
 Turns PostHog panel recordings into long-form 16:9 edits and vertical 9:16 shorts,
 in a look that should be recognisable at first glance.
 
-**Core tenet: make the output content dynamic.** Fast cuts, no dead air or ums,
+**Core tenet: make the output content dynamic.** Optimise for a quick story with maximum relevant
+information: anything off-story (mic checks, setup chatter, asides) is cut (`cuts` in the story file). Fast cuts, no dead air or ums,
 movement in every shot, PostHog colours on every transition. When in doubt, cut
 more. Every output (long form and shorts) goes through `edit.py` first.
 Everything runs locally: whisper-cpp transcribes, numpy syncs the audio, ffmpeg

@@ -662,18 +662,20 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "i'm",
+   "w": "I'm",
    "start": 36.71,
-   "end": 37.01,
+   "end": 36.925,
    "p": 0.908,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "i'm tim"
   },
   {
-   "w": "tim",
-   "start": 37.01,
+   "w": "Tim",
+   "start": 36.925,
    "end": 37.14,
-   "p": 0.976,
-   "speaker": "Tim Glaser"
+   "p": 0.908,
+   "speaker": "Tim Glaser",
+   "heard": "i'm tim"
   },
   {
    "w": "is",
@@ -704,18 +706,20 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "i'm",
+   "w": "I'm",
    "start": 40.45,
-   "end": 40.73,
+   "end": 40.78,
    "p": 0.993,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "i'm tim"
   },
   {
-   "w": "tim",
-   "start": 40.73,
+   "w": "Tim",
+   "start": 40.78,
    "end": 41.11,
-   "p": 0.975,
-   "speaker": "Tim Glaser"
+   "p": 0.993,
+   "speaker": "Tim Glaser",
+   "heard": "i'm tim"
   },
   {
    "w": "uh",
@@ -767,11 +771,12 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "ceo",
+   "w": "CEO",
    "start": 43.49,
    "end": 43.73,
    "p": 0.486,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "ceo"
   },
   {
    "w": "of",
@@ -810,18 +815,20 @@
    "speaker": "Tim Glaser"
   },
   {
-   "w": "a",
+   "w": "an",
    "start": 45.69,
-   "end": 46.29,
+   "end": 46.22,
    "p": 0.852,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "heard": "a analytics"
   },
   {
    "w": "analytics",
-   "start": 46.29,
+   "start": 46.22,
    "end": 46.75,
-   "p": 0.995,
-   "speaker": "Tim Glaser"
+   "p": 0.852,
+   "speaker": "Tim Glaser",
+   "heard": "a analytics"
   },
   {
    "w": "uh",
@@ -32699,17 +32706,17 @@
   {
    "start": 30.59,
    "end": 37.14,
-   "text": "you know of of themselves and we can get started with the questions cool uh i'm tim"
+   "text": "you know of of themselves and we can get started with the questions cool uh I'm Tim"
   },
   {
    "start": 38.61,
    "end": 44.74,
-   "text": "is it working um i'm tim uh i'm one of the co-founders and ceo of PostHog"
+   "text": "is it working um I'm Tim uh i'm one of the co-founders and CEO of PostHog"
   },
   {
    "start": 44.79,
    "end": 50.9,
-   "text": "uh we are a analytics uh platform uh we are open source, have been since the beginning"
+   "text": "uh we are an analytics uh platform uh we are open source, have been since the beginning"
   },
   {
    "start": 51.65,

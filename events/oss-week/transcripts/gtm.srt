@@ -40,15 +40,15 @@ so to kind of get started we'd love you know for our panelists to give like a qu
 
 11
 00:00:30,590 --> 00:00:37,140
-you know of of themselves and we can get started with the questions cool uh i'm tim
+you know of of themselves and we can get started with the questions cool uh I'm Tim
 
 12
 00:00:38,610 --> 00:00:44,740
-is it working um i'm tim uh i'm one of the co-founders and ceo of PostHog
+is it working um I'm Tim uh i'm one of the co-founders and CEO of PostHog
 
 13
 00:00:44,790 --> 00:00:50,900
-uh we are a analytics uh platform uh we are open source, have been since the beginning
+uh we are an analytics uh platform uh we are open source, have been since the beginning
 
 14
 00:00:51,650 --> 00:00:59,100

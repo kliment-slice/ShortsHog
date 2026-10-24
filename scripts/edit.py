@@ -10,7 +10,9 @@ panel time (settings: "## Dynamic edit" in FORMAT.md):
          out, found as a short pause with voice in it but no words
   cut    pauses longer than pause_max (shortened to pause_keep), fillers longer
          than filler_cut, stutters (a word or two-word phrase said twice in a row:
-         "we we merge", "you want to you want to") and leading/trailing dead air
+         "we we merge", "you want to you want to") and leading/trailing dead air;
+         plus editorial cuts from the panel's story file (mic checks, setup chatter,
+         asides that don't serve the story)
 Cut edges are nudged to the quietest 10 ms nearby so no word is clipped.
 
 `Edit` maps between source (panel) time and output time, and gives the audio with
@@ -59,8 +61,47 @@ def merge(spans: list) -> list:
     return [tuple(x) for x in out]
 
 
+def resolve_cuts(words: list, specs: list) -> list:
+    """Editorial cuts given as transcript text -> [(start, end, why, text)] in panel time.
+
+    A spec is {from, to, why}: from the first word of `from` to the last word of the first
+    `to` found after it (within two minutes). Unmatched specs are reported, not guessed.
+    """
+    live = [w for w in words if not w.get("silent") and w.get("speaker")]
+    toks = [norm(w["w"]) for w in live]
+
+    def find(phrase, start=0):
+        q = [t for t in (norm(x) for x in phrase.split()) if t]
+        for i in range(start, len(toks) - len(q) + 1):
+            j, k = i, 0
+            while j < len(toks) and k < len(q):
+                if not toks[j]:
+                    j += 1
+                    continue
+                if toks[j] != q[k]:
+                    break
+                j, k = j + 1, k + 1
+            if k == len(q):
+                return i, j - 1
+        return None
+
+    out = []
+    for spec in specs or []:
+        a = find(spec["from"])
+        if a is None:
+            print(f"  cut not found: from {spec['from']!r}")
+            continue
+        b = find(spec["to"], a[0])
+        if b is None or live[b[1]]["end"] - live[a[0]]["start"] > 120:
+            print(f"  cut not found: to {spec['to']!r} after {spec['from']!r}")
+            continue
+        text = " ".join(w["w"] for w in live[a[0]:b[1] + 1])
+        out.append((live[a[0]]["start"], live[b[1]]["end"], spec.get("why", ""), text))
+    return out
+
+
 class Edit:
-    def __init__(self, words: list, pcm: np.ndarray, dur: float, cfg: dict):
+    def __init__(self, words: list, pcm: np.ndarray, dur: float, cfg: dict, editorial: list = ()):
         self.dur = dur
         self.cfg = cfg
         self.pcm = pcm
@@ -72,6 +113,10 @@ class Edit:
 
         live = [w for w in words if not w.get("silent") and w.get("speaker")]
         cuts, mutes, dropped = [], [], set()
+        self.editorial = list(editorial)
+        for a, b, *_ in self.editorial:  # cut with everything said inside
+            cuts.append((a, b))
+            dropped.update(id(w) for w in live if a - 1e-3 <= w["start"] and w["end"] <= b + 1e-3)
         # transcribed fillers
         for w in live:
             if norm(w["w"]) in fillers:
@@ -111,7 +156,18 @@ class Edit:
                 seg = self.env[int(a * ENV_HZ):int(b * ENV_HZ)]
                 if len(seg) and np.mean(seg > speech_db - cfg["um_voice_db"]) > 0.5:
                     mutes.append((a + 0.03, b - 0.03))
-        cuts = [self._snap(a, b) for a, b in merge(cuts)]
+        # snap cut edges to a quiet point, but never into a word that stays
+        keep_words = sorted((w["start"], w["end"]) for w in live if id(w) not in dropped)
+        starts = [a for a, _ in keep_words]
+        snapped = []
+        for a, b in merge(cuts):
+            i = bisect_right(starts, a + 0.05)
+            left = max([e for _, e in keep_words[max(0, i - 3):i] if e <= a + 0.05] or [0.0])
+            j = bisect_right(starts, b - 0.05)
+            right = keep_words[j][0] if j < len(keep_words) else dur
+            sa, sb = self._snap(a, b)
+            snapped.append((min(max(sa, left), b), max(min(sb, right), a)))
+        cuts = snapped
         cuts = [(a, b) for a, b in merge(cuts) if b - a >= MIN_CUT]
         keeps, t = [], 0.0
         for a, b in cuts:
@@ -192,13 +248,15 @@ class Edit:
 
     def summary(self) -> str:
         muted = sum(b - a for a, b in self.mutes)
+        ed = sum(b - a for a, b, *_ in self.editorial)
         return (f"{self.dur / 60:.1f} -> {self.out_dur / 60:.1f} min ({self.dur - self.out_dur:.0f}s cut in "
-                f"{len(self.keeps) - 1} places), {len(self.mutes)} ums muted ({muted:.0f}s)")
+                f"{len(self.keeps) - 1} places, {len(self.editorial)} editorial cuts = {ed:.0f}s), "
+                f"{len(self.mutes)} ums muted ({muted:.0f}s)")
 
 
-def build(edir: Path, p: dict, words: list, dur: float) -> Edit:
+def build(edir: Path, p: dict, words: list, dur: float, cut_specs: list = ()) -> Edit:
     pcm = decode_audio(edir / "transcripts" / f"{p['id']}.wav", SR)
-    return Edit(words, pcm, dur, settings())
+    return Edit(words, pcm, dur, settings(), resolve_cuts(words, cut_specs))
 
 
 def main():
@@ -212,7 +270,11 @@ def main():
     words = json.loads((edir / "transcripts" / f"{p['id']}.json").read_text())["words"]
     from common import panel_range
     a, b = panel_range(ev, p)
-    e = build(edir, p, words, b - a)
+    story = edir / "longform" / f"{p['id']}.story.yaml"
+    specs = (YAML(typ="safe").load(story.read_text()) or {}).get("cuts") if story.exists() else []
+    e = build(edir, p, words, b - a, specs or [])
+    for s0, s1, why, text in e.editorial:
+        print(f"  cut {int(s0 // 60)}:{s0 % 60:04.1f}-{int(s1 // 60)}:{s1 % 60:04.1f} ({why}): {text}")
     print(f"[{p['id']}] {e.summary()}")
 
 
