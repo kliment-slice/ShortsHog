@@ -53,7 +53,9 @@ The goal is a PostHog-style editor: long form first, then chopped into mobile sh
 
 ## The ShortsHog look (FORMAT.md "## Long form")
 PostHog brand colours (brand.posthog.com/colors) and RoundHog (brand.posthog.com/fonts).
-Stripe wipe in tangerine / lemon / blue on every shot change; tangerine title card with
+Hard cuts every few seconds; the stripe wipe in tangerine / lemon / blue only on a theme
+change: a new question (chapter tag, top left) or a new anchor (a speaker's key point, popup
+top right), written per panel in `longform/<panel>.story.yaml` from the transcript; tangerine title card with
 stripes; tangerine progress bar; dark caption band with the speaker's name in a bright
 brand colour; footage graded cleaner and punchier than the warm room light. Brand colours
 are drawn after the grade, so they stay exact.

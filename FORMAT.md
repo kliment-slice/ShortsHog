@@ -95,7 +95,7 @@ punch: 1.12                 # jump cut inside a shot: framing steps out (close-u
 push_in: 0.05               # slow zoom over a wide or group shot
 # --- PostHog look
 grade: "colortemperature=temperature=5600:mix=0.6,eq=contrast=1.14:saturation=1.28:gamma=0.98,colorbalance=rs=-0.03:bs=0.07:rh=0.03:gh=0.03,unsharp=5:5:0.5,vignette=angle=PI/6"
-wipe_colors: ["#FF5C1C", "#FFCE1C", "#1490E8"]   # tangerine, lemon, blue; every shot change
+wipe_colors: ["#FF5C1C", "#FFCE1C", "#1490E8"]   # tangerine, lemon, blue; only on theme changes
 wipe_seconds: 0.4
 title_seconds: 2.8          # title card at the start (0 = none)
 title_bg: "#FF5C1C"
@@ -104,6 +104,17 @@ title_text: "#151515"
 title_size: 108
 progress_height: 8          # tangerine progress bar along the bottom (0 = none)
 progress_color: "#FF5C1C"
+# --- story: chapter tag per question (top left), anchor popups (top right)
+# the content lives in events/<event>/longform/<panel>.story.yaml; each new one is a theme wipe
+chapter_label_size: 28
+chapter_text_size: 42
+chapter_label_color: "#FFCE1C"
+anchor_name_size: 32
+anchor_text_size: 52
+anchor_width: 780           # px; the card's left edge sits this far in from the right margin
+anchor_wrap: 28             # characters per line
+anchor_hold: 6.5            # seconds on screen (less if the next beat comes sooner)
+story_box_alpha: 0.88
 # --- captions
 caption_size: 46            # px
 caption_margin_v: 54        # px from the bottom edge

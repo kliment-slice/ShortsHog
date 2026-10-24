@@ -1,0 +1,26 @@
+# Story beats for the GTM long form. Times are panel time (seconds from the panel's start,
+# the same clock as transcripts/gtm.json), so they survive changes to the edit.
+#
+# questions: a chapter tag that stays on screen until the next question. `t` = when the host
+#            starts asking. A question without `n` is unnumbered (e.g. the introductions).
+# anchors:   a popup summary of a strong point; `t` = when the speaker starts the sentence that makes it,
+#            so the card appears while they're still on screen.
+# Each new question or anchor is a theme change: it gets the PostHog stripe wipe.
+
+questions:
+  - {t: 23.7, label: "Meet the panel", text: "Who's here and what they build"}
+  - {t: 158.0, n: 1, text: "Your first real users: how did you find them?"}
+  - {t: 346.0, n: 2, text: "Biggest go-to-market win, and the flop"}
+  - {t: 567.0, n: 3, text: "With AI, is open source still worth it for GTM?"}
+  - {t: 785.0, n: 4, text: "Open source GTM wisdom you disagree with"}
+  - {t: 1124.0, n: 5, text: "Will PRs disappear? Where open source goes next"}
+  - {t: 1312.3, n: 6, text: "Starting today: how would you get your first 100 users?"}
+
+anchors:
+  - {t: 52.0, speaker: Tim Glaser, text: "Open source since day one, now ~700,000 users"}
+  - {t: 88.5, speaker: Alex Jung, text: "Micro VMs, open core, born as a Linux Foundation project"}
+  - {t: 136.8, speaker: John Simone, text: "11M downloads, ~500K monthly active users"}
+  - {t: 190.0, speaker: Tim Glaser, text: "A few hundred dollars of Twitter ads to GitHub got the first 100 stars"}
+  - {t: 215.6, speaker: Alex Jung, text: "The first users were students, found through university workshops"}
+  - {t: 280.0, speaker: Alex Jung, text: "Kernel-grade code reviews won partners like ARM and Microsoft"}
+  - {t: 324.5, speaker: John Simone, text: "In dev tools, unique gets tried. The work is keeping the buzz."}

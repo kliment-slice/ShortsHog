@@ -11,11 +11,15 @@ Core tenet: make the output content dynamic. Style and pacing live in FORMAT.md
      (cam2, following their tracked face), with cutaways every few seconds that cycle
      through the cam1 wide, a reaction close-up of someone listening, and the cam2
      group shot. Cuts prefer the points where audio was removed, which hides them.
-  3. Every shot change gets the PostHog stripe wipe. A jump cut inside a shot
-     (a removed pause) punches the framing in or out a little instead.
-  4. The look: camera footage graded per `grade`; a title card that wipes into the
-     panel; RoundHog captions "Name (Company): ..." with the name in the speaker's
-     brand colour; a thin progress bar in tangerine.
+  3. Cuts are hard cuts. The PostHog stripe wipe marks a theme change only: a new
+     question or a new anchor from the panel's story file. A jump cut inside a shot
+     (a removed pause) punches the framing in or out a little.
+  4. Story (events/<e>/longform/<panel>.story.yaml, panel time): a chapter tag for the
+     current question, top left, and anchor cards that pop up top right with a
+     speaker's key point right after they make it.
+  5. The look: camera footage graded per `grade` (cam1 also levelled by its `rotate`);
+     a title card that wipes into the panel; RoundHog captions "Name (Company): ..."
+     with the name in the speaker's brand colour; a thin progress bar in tangerine.
 
 Frames are composited in Python and piped to ffmpeg with the tightened audio and
 captions. Output: events/<event>/longform/<panel>.mp4 (+ .plan.json, .ass).
@@ -23,6 +27,7 @@ captions. Output: events/<event>/longform/<panel>.mp4 (+ .plan.json, .ass).
 """
 import argparse
 import json
+import math
 import re
 import subprocess
 import sys
@@ -165,6 +170,26 @@ def plan(words: list, dur: float, tracks: Tracks, st: dict, chops: list, to_src,
     return merged
 
 
+def load_story(path: Path) -> dict:
+    if not path.exists():
+        return {"questions": [], "anchors": []}
+    d = YAML(typ="safe").load(path.read_text()) or {}
+    return {"questions": d.get("questions") or [], "anchors": d.get("anchors") or []}
+
+
+def split_at(shots: list, times: list) -> list:
+    """Make sure a shot starts at each theme time, so its wipe hides a cut."""
+    for w in sorted(times):
+        for i, s in enumerate(shots):
+            if s["t0"] < w < s["t1"]:
+                if w - s["t0"] >= 0.4 and s["t1"] - w >= 0.4:
+                    second = {**s, "t0": w, "flip": not s.get("flip", False)}
+                    s["t1"] = w
+                    shots.insert(i + 1, second)
+                break
+    return shots
+
+
 # ---------------------------------------------------------------- framing and graphics
 
 def full_rect(w: int, h: int, zoom: float) -> tuple:
@@ -279,10 +304,73 @@ def caption_lines(words: list, people: dict, st: dict) -> list:
     return out
 
 
+def wrap(text: str, width: int) -> list:
+    lines, cur = [], ""
+    for word in text.split():
+        if cur and len(cur) + 1 + len(word) > width:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = f"{cur} {word}".strip()
+    return lines + ([cur] if cur else [])
+
+
+def stripes(x: float, y: float, height: float, st: dict, t0: str, t1: str, fade: str) -> list:
+    """The three brand stripes as small parallelograms: the ShortsHog mark."""
+    out = []
+    for k, c in enumerate(st["wipe_colors"]):
+        sx = k * 13
+        out.append(f"Dialogue: 2,{t0},{t1},Story,,0,0,0,,{{\\an7\\pos({x + sx:.0f},{y:.0f})\\bord0\\shad0"
+                   f"\\c{ass_color(c)}{fade}\\p1}}m 6 0 l 15 0 9 {height:.0f} 0 {height:.0f}{{\\p0}}")
+    return out
+
+
+def story_events(story: dict, to_out, people: dict, colors: dict, st: dict, offset: float, end: float) -> list:
+    """ASS events: chapter tag per question (top left), anchor cards (top right)."""
+    ev = []
+    qs = sorted(story["questions"], key=lambda q: q["t"])
+    total_q = sum(1 for q in qs if q.get("n"))
+    times = sorted([to_out(q["t"]) for q in qs] + [to_out(a["t"]) for a in story["anchors"]])
+    lab, txt = st["chapter_label_size"], st["chapter_text_size"]
+    for i, q in enumerate(qs):
+        a = to_out(q["t"]) - offset
+        b = (to_out(qs[i + 1]["t"]) if i + 1 < len(qs) else end) - offset
+        if b <= 0:
+            continue
+        t0, t1 = ass_time(max(0.0, a + 0.05)), ass_time(b)
+        label = q.get("label") or (f"QUESTION {q['n']}/{total_q}" if q.get("n") else "")
+        fade = "\\fad(180,0)"
+        ev += stripes(42, 44, lab + txt + 46, st, t0, t1, fade)
+        ev.append(f"Dialogue: 2,{t0},{t1},Chapter,,0,0,0,,{{\\an7\\pos(86,44){fade}\\fn{st['font_title_weight']}"
+                  f"\\fs{lab}\\c{ass_color(st['chapter_label_color'])}}}{label.upper()}")
+        ev.append(f"Dialogue: 2,{t0},{t1},Chapter,,0,0,0,,{{\\an7\\pos(86,{44 + lab + 22}){fade}}}{q['text']}")
+    name_size, text_size = st["anchor_name_size"], st["anchor_text_size"]
+    for an in story["anchors"]:
+        a = to_out(an["t"]) - offset
+        later = [t for t in times if t > to_out(an["t"]) + 0.01]
+        b = min([a + st["anchor_hold"]] + [t - offset for t in later[:1]])
+        if b <= 0:
+            continue
+        t0, t1 = ass_time(max(0.0, a + 0.05)), ass_time(b)
+        spk = an["speaker"]
+        lines = wrap(f"\u201c{an['text']}\u201d", st["anchor_wrap"])
+        x, y = st["size"][0] - 90 - st["anchor_width"], 44
+        pop = ("\\fad(160,220)\\fscx88\\fscy88\\t(0,170,\\fscx104\\fscy104)\\t(170,280,\\fscx100\\fscy100)")
+        height = name_size + 26 + len(lines) * (text_size + 14)
+        ev += stripes(x - 44, y, height, st, t0, t1, "\\fad(160,220)")
+        name = f"{spk} \u00b7 {people.get(spk, {}).get('company', '')}".rstrip(" \u00b7")
+        ev.append(f"Dialogue: 3,{t0},{t1},Anchor,,0,0,0,,{{\\an7\\pos({x},{y}){pop}\\fn{st['font_name_weight']}"
+                  f"\\fs{name_size}\\c{ass_color(colors.get(spk, st['name_colors'][0]))}}}{name}")
+        for k, ln in enumerate(lines):
+            ev.append(f"Dialogue: 3,{t0},{t1},Anchor,,0,0,0,,{{\\an7\\pos({x},{y + name_size + 26 + k * (text_size + 14)}){pop}}}{ln}")
+    return ev
+
+
 def write_ass(path: Path, lines: list, people: dict, colors: dict, st: dict, offset: float,
-              title: tuple | None) -> None:
+              title: tuple | None, story: list = ()) -> None:
     w, h = st["size"]
     box = ass_color(st["caption_box"], st["caption_box_alpha"])
+    sbox = ass_color(st["caption_box"], st["story_box_alpha"])
     dark = ass_color(st["title_text"])
     head = f"""[Script Info]
 ScriptType: v4.00+
@@ -295,6 +383,9 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,{st['font_text_weight']},{st['caption_size']},{ass_color(st['caption_text'])},{ass_color(st['caption_text'])},{box},{box},0,0,0,0,100,100,0,0,3,16,0,2,150,150,{st['caption_margin_v']},1
 Style: Title,{st['font_title_weight']},{st['title_size']},{dark},{dark},{dark},{dark},0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Chapter,{st['font_name_weight']},{st['chapter_text_size']},{ass_color(st['caption_text'])},{ass_color(st['caption_text'])},{sbox},{sbox},0,0,0,0,100,100,0,0,3,14,0,7,0,0,0,1
+Style: Anchor,{st['font_title_weight']},{st['anchor_text_size']},{ass_color(st['caption_text'])},{ass_color(st['caption_text'])},{sbox},{sbox},0,0,0,0,100,100,0,0,3,16,0,7,0,0,0,1
+Style: Story,{st['font_name_weight']},20,{ass_color(st['caption_text'])},{ass_color(st['caption_text'])},{sbox},{sbox},0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -317,7 +408,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         events.append(f"Dialogue: 0,{ass_time(a)},{ass_time(b)},Caption,,0,0,0,,"
                       f"{{\\fn{st['font_name_weight']}\\c{ass_color(colors[spk])}}}{label(spk, people)}: "
                       f"{{\\fn{st['font_text_weight']}\\c{ass_color(st['caption_text'])}}}{text}")
-    path.write_text(head + "\n".join(events) + "\n")
+    path.write_text(head + "\n".join(list(events) + list(story)) + "\n")
 
 
 # ---------------------------------------------------------------- render
@@ -330,7 +421,13 @@ class Decoder:
         self.w, self.h = size
         self.t0, self.fps = t0, fps
         file_t = t0 - cam["start"]
-        vf = f"fps={fps}" + (f",{grade}" if grade else "")
+        vf = f"fps={fps}"
+        if cam.get("rotate"):  # level a tilted camera; zoom just enough that no corner shows
+            a = math.radians(float(cam["rotate"]))
+            zoom = math.cos(abs(a)) + max(self.w / self.h, self.h / self.w) * math.sin(abs(a)) + 0.002
+            vf += (f",rotate={a:.6f}:ow=iw:oh=ih:c=black,scale={round(self.w * zoom / 2) * 2}:-2,"
+                   f"crop={self.w}:{self.h}")
+        vf += f",{grade}" if grade else ""
         self.proc = subprocess.Popen(
             [str(Path(ffmpeg_with_libass())), "-nostdin", "-v", "error", "-ss", f"{max(0.0, file_t):.4f}",
              "-i", str(media(ev, cam["file"])), "-t", f"{dur + 2:.3f}", "-vf", vf,
@@ -374,7 +471,11 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     for w in words:
         colors.setdefault(w["speaker"], st["name_colors"][len(colors) % len(st["name_colors"])])
     title_end = st["title_seconds"] if st.get("title_seconds") else 0.0
-    shots = plan(words, total, tracks, st, ed.chops(), ed.to_src, hosts)
+    story = load_story(edir / "longform" / f"{p['id']}.story.yaml")
+    themes = sorted(set(round(max(title_end + 0.5, ed.to_out_near(x["t"])), 3)
+                        for x in story["questions"] + story["anchors"]))
+    shots = plan(words, total, tracks, st, ed.chops() + themes, ed.to_src, hosts)
+    shots = split_at(shots, themes)
     if title_end:  # the opening is the title card, then the first shot
         shots = [s for s in shots if s["t1"] > title_end]
         shots[0]["t0"] = 0.0
@@ -389,13 +490,16 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     date = ev.get("date")
     sub = " · ".join(x for x in (ev.get("name") or ev.get("event"), date.strftime("%b %-d") if hasattr(date, "strftime") else str(date or "")) if x)
     write_ass(ass, caption_lines(words, people, st), people, colors, st, start,
-              (p.get("title") or p["id"], sub, title_end) if title_end else None)
+              (p.get("title") or p["id"], sub, title_end) if title_end else None,
+              story_events(story, lambda t: max(title_end + 0.5, ed.to_out_near(t)), people, colors, st, start,
+                           start + dur))
     counts = {}
     for s in shots:
         counts[s["kind"]] = counts.get(s["kind"], 0) + 1
     print(f"[{p['id']}] edit: {ed.summary()}")
     print(f"[{p['id']}] {len(shots)} shots ({', '.join(f'{v} {k}' for k, v in counts.items())}), "
-          f"median shot {np.median([s['t1'] - s['t0'] for s in shots]):.1f}s, {len(ed.chops())} jump cuts")
+          f"median shot {np.median([s['t1'] - s['t0'] for s in shots]):.1f}s, {len(ed.chops())} jump cuts, "
+          f"{len(themes)} theme wipes ({len(story['questions'])} questions, {len(story['anchors'])} anchors)")
     if plan_only:
         return out_dir / f"{tag}.plan.json"
 
@@ -408,6 +512,7 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     dec = {c: Decoder(ev, c, pstart + src0, span, fps, sizes[c], st.get("grade") or "") for c in sizes}
     card = title_card(out_w, out_h, st) if title_end else None
     chops = ed.chops()
+    wipes = sorted(([title_end] if title_end else []) + themes)
     with tempfile.TemporaryDirectory() as tmp:
         audio = ed.audio()[int(start * tighten.SR):int((start + dur) * tighten.SR)]
         wav = Path(tmp) / "audio.wav"
@@ -440,13 +545,12 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
                     frame = card.copy()
                 else:
                     jumps = bisect_right(chops, T) - bisect_right(chops, shot["t0"])
-                    rect = shot_rect(shot, T, t_src, jumps % 2 == 1, tracks, sizes, st)
+                    rect = shot_rect(shot, T, t_src, (jumps % 2 == 1) != shot.get("flip", False), tracks, sizes, st)
                     frame = warp(src[shot["cam"]], rect, out_w, out_h)
-                # every shot change is a wipe: the old shot shows until the stripes cover the frame
-                if nxt is not None and T > nxt["t0"] - wipe / 2:
-                    draw_wipe(frame, (T - (nxt["t0"] - wipe / 2)) / wipe, st["wipe_colors"])
-                elif prev is not None and T < shot["t0"] + wipe / 2:
-                    draw_wipe(frame, (T - (shot["t0"] - wipe / 2)) / wipe, st["wipe_colors"])
+                # a wipe marks a theme change (title end, new question, new anchor); other cuts are hard
+                k = bisect_right(wipes, T + wipe / 2) - 1
+                if k >= 0 and abs(T - wipes[k]) < wipe / 2:
+                    draw_wipe(frame, (T - (wipes[k] - wipe / 2)) / wipe, st["wipe_colors"])
                 if st.get("progress_height") and shot["kind"] != "title":
                     draw_progress(frame, T / total, st)
                 enc.stdin.write(frame.tobytes())

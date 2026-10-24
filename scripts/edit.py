@@ -141,6 +141,14 @@ class Edit:
             return None
         return self.out_starts[k] + (t - self.keeps[k][0])
 
+    def to_out_near(self, t: float) -> float:
+        """Output time of source time t, or of the next kept moment if t was cut."""
+        k = bisect_right([a for a, _ in self.keeps], t) - 1
+        if k >= 0 and t <= self.keeps[k][1]:
+            return self.out_starts[k] + (t - self.keeps[k][0])
+        k += 1
+        return self.out_starts[k] if k < len(self.keeps) else self.out_dur
+
     def to_src(self, T: float) -> float:
         k = max(0, bisect_right(self.out_starts, T) - 1)
         return self.keeps[k][0] + (T - self.out_starts[k])

@@ -13,6 +13,7 @@ sources:
   cam1:
     file: "10_21_2026 Posthog Angle 1.MP4"   # 1920x1080, 25 fps, 70.8 min
     kind: camera
+    rotate: 0.6                              # degrees clockwise: levels the projector screen (measured -0.52 deg)
     start: 0.0
     duration: 4249.44
   cam2:

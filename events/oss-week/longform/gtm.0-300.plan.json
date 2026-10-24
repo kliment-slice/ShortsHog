@@ -1,0 +1,3026 @@
+{
+ "edit": "26.2 -> 24.0 min (137s cut in 148 places), 57 ums muted (16s)",
+ "shots": [
+  {
+   "kind": "title",
+   "cam": null,
+   "person": null,
+   "speaker": null,
+   "t0": 0.0,
+   "t1": 2.8
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 2.8,
+   "t1": 5.5
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 5.5,
+   "t1": 7.7
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 7.7,
+   "t1": 16.22
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 16.22,
+   "t1": 17.82
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 17.82,
+   "t1": 26.360000000000003
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 26.360000000000003,
+   "t1": 31.860000000000003
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 31.860000000000003,
+   "t1": 33.37
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 33.37,
+   "t1": 39.0
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 39.0,
+   "t1": 40.6
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 40.6,
+   "t1": 48.74
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 48.74,
+   "t1": 53.535
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 53.535,
+   "t1": 55.735
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 55.735,
+   "t1": 60.11
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Alex Jung",
+   "t0": 60.11,
+   "t1": 61.71
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 61.71,
+   "t1": 66.99
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 66.99,
+   "t1": 68.13
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 68.13,
+   "t1": 72.53
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 72.53,
+   "t1": 74.13
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 74.13,
+   "t1": 80.52
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 80.52,
+   "t1": 85.13
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 85.13,
+   "t1": 87.33
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 87.33,
+   "t1": 92.83
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 92.83,
+   "t1": 94.42999999999999
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 94.42999999999999,
+   "t1": 99.92999999999999
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 99.92999999999999,
+   "t1": 102.13
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 102.13,
+   "t1": 108.35
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 108.35,
+   "t1": 109.94999999999999
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 109.94999999999999,
+   "t1": 115.44999999999999
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 115.44999999999999,
+   "t1": 116.91
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 116.91,
+   "t1": 121.28
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 121.28,
+   "t1": 127.78
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 127.78,
+   "t1": 129.38
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 129.38,
+   "t1": 134.88
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 134.88,
+   "t1": 137.815
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 137.815,
+   "t1": 140.71
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 140.71,
+   "t1": 147.395
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 147.395,
+   "t1": 148.995
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 148.995,
+   "t1": 153.59
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 153.59,
+   "t1": 155.79
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 155.79,
+   "t1": 157.9
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 157.9,
+   "t1": 161.29,
+   "flip": true
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 161.29,
+   "t1": 162.89
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 162.89,
+   "t1": 168.39
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 168.39,
+   "t1": 170.095
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 170.095,
+   "t1": 176.2
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 176.2,
+   "t1": 182.26
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 182.26,
+   "t1": 183.85999999999999
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 183.85999999999999,
+   "t1": 188.37
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 188.37,
+   "t1": 190.57
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 190.57,
+   "t1": 197.255
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 197.255,
+   "t1": 198.855
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 198.855,
+   "t1": 203.315
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 203.315,
+   "t1": 205.515
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 205.515,
+   "t1": 211.015
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 211.015,
+   "t1": 212.61499999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 212.61499999999998,
+   "t1": 218.11499999999998
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 218.11499999999998,
+   "t1": 219.5
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 219.5,
+   "t1": 225.845
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 225.845,
+   "t1": 227.445
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 227.445,
+   "t1": 232.945
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 232.945,
+   "t1": 235.14499999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 235.14499999999998,
+   "t1": 240.64499999999998
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 240.64499999999998,
+   "t1": 242.24499999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 242.24499999999998,
+   "t1": 244.35
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 244.35,
+   "t1": 247.74499999999998,
+   "flip": true
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 247.74499999999998,
+   "t1": 250.265
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 250.265,
+   "t1": 255.51999999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 255.51999999999998,
+   "t1": 261.02
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 261.02,
+   "t1": 262.62
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 262.62,
+   "t1": 269.165
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 269.165,
+   "t1": 271.365
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 271.365,
+   "t1": 276.865
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 276.865,
+   "t1": 278.46500000000003
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 278.46500000000003,
+   "t1": 284.57
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 284.57,
+   "t1": 286.77
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 286.77,
+   "t1": 292.27
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 292.27,
+   "t1": 293.87
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 293.87,
+   "t1": 297.56
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 297.56,
+   "t1": 303.06
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 303.06,
+   "t1": 305.78
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 305.78,
+   "t1": 311.28
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 311.28,
+   "t1": 312.88
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 312.88,
+   "t1": 318.23
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 318.23,
+   "t1": 320.43
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 320.43,
+   "t1": 324.34000000000003
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 324.34000000000003,
+   "t1": 329.84000000000003
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Alex Jung",
+   "t0": 329.84000000000003,
+   "t1": 331.44000000000005
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 331.44000000000005,
+   "t1": 336.94000000000005
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 336.94000000000005,
+   "t1": 339.105
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 339.105,
+   "t1": 344.605
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Alex Jung",
+   "t0": 344.605,
+   "t1": 346.20500000000004
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 346.20500000000004,
+   "t1": 351.70500000000004
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 351.70500000000004,
+   "t1": 353.90500000000003
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 353.90500000000003,
+   "t1": 358.89
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Alex Jung",
+   "t0": 358.89,
+   "t1": 360.49
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 360.49,
+   "t1": 365.99
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 365.99,
+   "t1": 368.19
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 368.19,
+   "t1": 373.69
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Alex Jung",
+   "t0": 373.69,
+   "t1": 375.29
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 375.29,
+   "t1": 380.65
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 380.65,
+   "t1": 382.84999999999997
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 382.84999999999997,
+   "t1": 389.43
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 389.43,
+   "t1": 395.76
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 395.76,
+   "t1": 397.36
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 397.36,
+   "t1": 401.995
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 401.995,
+   "t1": 404.195
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 404.195,
+   "t1": 409.695
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 409.695,
+   "t1": 411.295
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 411.295,
+   "t1": 417.87
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 417.87,
+   "t1": 419.44
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 419.44,
+   "t1": 424.94
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 424.94,
+   "t1": 426.54
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 426.54,
+   "t1": 432.04
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 432.04,
+   "t1": 434.24
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 434.24,
+   "t1": 439.74
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "John Simone",
+   "t0": 439.74,
+   "t1": 441.34000000000003
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 441.34000000000003,
+   "t1": 446.84000000000003
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 446.84000000000003,
+   "t1": 449.26
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 449.26,
+   "t1": 453.17
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 453.17,
+   "t1": 458.67
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 458.67,
+   "t1": 460.315
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 460.315,
+   "t1": 465.99
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 465.99,
+   "t1": 468.24
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 468.24,
+   "t1": 473.835
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 473.835,
+   "t1": 476.265
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 476.265,
+   "t1": 481.765
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 481.765,
+   "t1": 483.66
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 483.66,
+   "t1": 492.67
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 492.67,
+   "t1": 499.84000000000003
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 499.84000000000003,
+   "t1": 502.03000000000003
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 502.03000000000003,
+   "t1": 503.65
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 503.65,
+   "t1": 507.53000000000003,
+   "flip": true
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 507.53000000000003,
+   "t1": 509.13000000000005
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 509.13000000000005,
+   "t1": 515.805
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 515.805,
+   "t1": 517.26
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 517.26,
+   "t1": 523.59
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 523.59,
+   "t1": 526.84
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 526.84,
+   "t1": 532.34
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 532.34,
+   "t1": 533.57
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 533.57,
+   "t1": 538.52
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 538.52,
+   "t1": 539.74
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 539.74,
+   "t1": 545.24
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 545.24,
+   "t1": 546.84
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 546.84,
+   "t1": 552.34
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 552.34,
+   "t1": 554.33
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 554.33,
+   "t1": 559.83
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "John Simone",
+   "t0": 559.83,
+   "t1": 561.4300000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 561.4300000000001,
+   "t1": 570.45
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 570.45,
+   "t1": 577.14
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 577.14,
+   "t1": 579.79
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 579.79,
+   "t1": 585.29
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 585.29,
+   "t1": 586.79
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 586.79,
+   "t1": 592.29
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 592.29,
+   "t1": 594.49
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 594.49,
+   "t1": 599.62
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Tim Glaser",
+   "t0": 599.62,
+   "t1": 601.01
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 601.01,
+   "t1": 609.16
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 609.16,
+   "t1": 614.93
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 614.93,
+   "t1": 617.13
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 617.13,
+   "t1": 622.63
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Alex Jung",
+   "t0": 622.63,
+   "t1": 624.23
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 624.23,
+   "t1": 629.73
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 629.73,
+   "t1": 631.9300000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 631.9300000000001,
+   "t1": 637.4300000000001
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 637.4300000000001,
+   "t1": 639.0300000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 639.0300000000001,
+   "t1": 644.5300000000001
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 644.5300000000001,
+   "t1": 646.7300000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 646.7300000000001,
+   "t1": 652.2300000000001
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 652.2300000000001,
+   "t1": 653.8300000000002
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 653.8300000000002,
+   "t1": 658.22
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 658.22,
+   "t1": 661.16
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 661.16,
+   "t1": 666.66
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 666.66,
+   "t1": 668.26
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 668.26,
+   "t1": 673.76
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 673.76,
+   "t1": 675.96
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 675.96,
+   "t1": 681.46
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 681.46,
+   "t1": 683.0600000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 683.0600000000001,
+   "t1": 690.5400000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 690.5400000000001,
+   "t1": 696.0400000000001
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 696.0400000000001,
+   "t1": 698.2400000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 698.2400000000001,
+   "t1": 703.7400000000001
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Will Wang",
+   "t0": 703.7400000000001,
+   "t1": 705.3400000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 705.3400000000001,
+   "t1": 707.64
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 707.64,
+   "t1": 710.8400000000001,
+   "flip": true
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 710.8400000000001,
+   "t1": 713.0400000000002
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 713.0400000000002,
+   "t1": 719.235
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Will Wang",
+   "t0": 719.235,
+   "t1": 720.835
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 720.835,
+   "t1": 726.335
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 726.335,
+   "t1": 728.5350000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 728.5350000000001,
+   "t1": 731.53
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 731.53,
+   "t1": 737.22
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 737.22,
+   "t1": 738.82
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 738.82,
+   "t1": 744.32
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 744.32,
+   "t1": 745.86
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 745.86,
+   "t1": 751.36
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 751.36,
+   "t1": 753.4
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 753.4,
+   "t1": 758.9
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 758.9,
+   "t1": 761.1
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 761.1,
+   "t1": 766.6
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 766.6,
+   "t1": 768.56
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 768.56,
+   "t1": 774.06
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 774.06,
+   "t1": 776.26
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 776.26,
+   "t1": 781.76
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 781.76,
+   "t1": 783.36
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 783.36,
+   "t1": 788.86
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 788.86,
+   "t1": 791.375
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 791.375,
+   "t1": 796.61
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 796.61,
+   "t1": 798.21
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 798.21,
+   "t1": 803.335
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 803.335,
+   "t1": 805.5350000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 805.5350000000001,
+   "t1": 811.0350000000001
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 811.0350000000001,
+   "t1": 812.6350000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 812.6350000000001,
+   "t1": 817.48
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 817.48,
+   "t1": 819.6800000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 819.6800000000001,
+   "t1": 825.24
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 825.24,
+   "t1": 830.74
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 830.74,
+   "t1": 832.34
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 832.34,
+   "t1": 837.84
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 837.84,
+   "t1": 841.14
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 841.14,
+   "t1": 846.64
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 846.64,
+   "t1": 848.245
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 848.245,
+   "t1": 853.175
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 853.175,
+   "t1": 855.375
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 855.375,
+   "t1": 860.27
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 860.27,
+   "t1": 861.87
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 861.87,
+   "t1": 867.37
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 867.37,
+   "t1": 869.57
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 869.57,
+   "t1": 875.165
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 875.165,
+   "t1": 876.765
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 876.765,
+   "t1": 882.265
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 882.265,
+   "t1": 884.465
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 884.465,
+   "t1": 889.285
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 889.285,
+   "t1": 891.29
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 891.29,
+   "t1": 896.79
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 896.79,
+   "t1": 898.99
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 898.99,
+   "t1": 904.49
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 904.49,
+   "t1": 906.02
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 906.02,
+   "t1": 911.72
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 911.72,
+   "t1": 913.9200000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 913.9200000000001,
+   "t1": 919.4200000000001
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 919.4200000000001,
+   "t1": 921.0200000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 921.0200000000001,
+   "t1": 926.5200000000001
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 926.5200000000001,
+   "t1": 929.0
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 929.0,
+   "t1": 934.5
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 934.5,
+   "t1": 936.1
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 936.1,
+   "t1": 939.71
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 939.71,
+   "t1": 946.05
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 946.05,
+   "t1": 948.25
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 948.25,
+   "t1": 953.75
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 953.75,
+   "t1": 955.35
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 955.35,
+   "t1": 960.85
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 960.85,
+   "t1": 962.555
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 962.555,
+   "t1": 967.06
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 967.06,
+   "t1": 968.66
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 968.66,
+   "t1": 974.16
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 974.16,
+   "t1": 977.47
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 977.47,
+   "t1": 983.585
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 983.585,
+   "t1": 985.1850000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 985.1850000000001,
+   "t1": 990.6850000000001
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 990.6850000000001,
+   "t1": 992.8850000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 992.8850000000001,
+   "t1": 998.3850000000001
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 998.3850000000001,
+   "t1": 999.9850000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 999.9850000000001,
+   "t1": 1005.4850000000001
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 1005.4850000000001,
+   "t1": 1007.6850000000002
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1007.6850000000002,
+   "t1": 1012.48
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1012.48,
+   "t1": 1014.08
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1014.08,
+   "t1": 1017.32
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1017.32,
+   "t1": 1017.86
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1017.86,
+   "t1": 1022.82,
+   "flip": true
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 1022.82,
+   "t1": 1025.02
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1025.02,
+   "t1": 1030.52
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Will Wang",
+   "t0": 1030.52,
+   "t1": 1032.12
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1032.12,
+   "t1": 1038.19
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 1038.19,
+   "t1": 1040.39
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1040.39,
+   "t1": 1045.89
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Will Wang",
+   "t0": 1045.89,
+   "t1": 1047.49
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1047.49,
+   "t1": 1051.4199999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1051.4199999999998,
+   "t1": 1057.94
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1057.94,
+   "t1": 1060.14
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1060.14,
+   "t1": 1065.64
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1065.64,
+   "t1": 1067.24
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1067.24,
+   "t1": 1072.74
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1072.74,
+   "t1": 1074.94
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1074.94,
+   "t1": 1080.44
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1080.44,
+   "t1": 1082.04
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1082.04,
+   "t1": 1087.54
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1087.54,
+   "t1": 1089.74
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1089.74,
+   "t1": 1095.31
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1095.31,
+   "t1": 1096.9099999999999
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1096.9099999999999,
+   "t1": 1102.4099999999999
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1102.4099999999999,
+   "t1": 1105.3
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1105.3,
+   "t1": 1110.8
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1110.8,
+   "t1": 1112.3999999999999
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1112.3999999999999,
+   "t1": 1117.8999999999999
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1117.8999999999999,
+   "t1": 1120.1
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1120.1,
+   "t1": 1124.37
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1124.37,
+   "t1": 1129.87
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1129.87,
+   "t1": 1131.45
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1131.45,
+   "t1": 1136.95
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 1136.95,
+   "t1": 1139.15
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1139.15,
+   "t1": 1144.65
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1144.65,
+   "t1": 1146.25
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1146.25,
+   "t1": 1152.57
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 1152.57,
+   "t1": 1155.16
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1155.16,
+   "t1": 1161.81
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1161.81,
+   "t1": 1162.84
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1162.84,
+   "t1": 1167.585
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 1167.585,
+   "t1": 1169.785
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1169.785,
+   "t1": 1174.39
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1174.39,
+   "t1": 1175.99
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1175.99,
+   "t1": 1181.49
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 1181.49,
+   "t1": 1184.01
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1184.01,
+   "t1": 1190.99
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1190.99,
+   "t1": 1196.49
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Will Wang",
+   "t0": 1196.49,
+   "t1": 1198.09
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1198.09,
+   "t1": 1204.16
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Will Wang",
+   "t0": 1204.16,
+   "t1": 1206.3600000000001
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1206.3600000000001,
+   "t1": 1211.8600000000001
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "Will Wang",
+   "t0": 1211.8600000000001,
+   "t1": 1213.46
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1213.46,
+   "t1": 1220.57
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1220.57,
+   "t1": 1226.78
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 1226.78,
+   "t1": 1229.17
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1229.17,
+   "t1": 1234.67
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 1234.67,
+   "t1": 1236.27
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1236.27,
+   "t1": 1241.54
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 1241.54,
+   "t1": 1244.26
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1244.26,
+   "t1": 1249.76
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 1249.76,
+   "t1": 1251.44
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1251.44,
+   "t1": 1256.43
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 1256.43,
+   "t1": 1258.63
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1258.63,
+   "t1": 1263.92
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 1263.92,
+   "t1": 1265.52
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1265.52,
+   "t1": 1271.02
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 1271.02,
+   "t1": 1273.22
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1273.22,
+   "t1": 1278.72
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 1278.72,
+   "t1": 1280.32
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1280.32,
+   "t1": 1285.86
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 1285.86,
+   "t1": 1288.06
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1288.06,
+   "t1": 1293.56
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 1293.56,
+   "t1": 1295.1599999999999
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1295.1599999999999,
+   "t1": 1300.6599999999999
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Tim Glaser",
+   "t0": 1300.6599999999999,
+   "t1": 1302.86
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1302.86,
+   "t1": 1309.16
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Tim Glaser",
+   "t0": 1309.16,
+   "t1": 1310.76
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tim Glaser",
+   "speaker": "Tim Glaser",
+   "t0": 1310.76,
+   "t1": 1314.9499999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Will Wang",
+   "t0": 1314.9499999999998,
+   "t1": 1318.6
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1318.6,
+   "t1": 1323.945
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1323.945,
+   "t1": 1326.37
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1326.37,
+   "t1": 1331.87
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1331.87,
+   "t1": 1333.4699999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1333.4699999999998,
+   "t1": 1338.9699999999998
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1338.9699999999998,
+   "t1": 1341.1699999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1341.1699999999998,
+   "t1": 1346.6699999999998
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1346.6699999999998,
+   "t1": 1348.2699999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1348.2699999999998,
+   "t1": 1353.7699999999998
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1353.7699999999998,
+   "t1": 1355.9699999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1355.9699999999998,
+   "t1": 1360.77
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1360.77,
+   "t1": 1362.37
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1362.37,
+   "t1": 1367.87
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1367.87,
+   "t1": 1369.08
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1369.08,
+   "t1": 1374.58
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1374.58,
+   "t1": 1376.1799999999998
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1376.1799999999998,
+   "t1": 1382.09
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Alex Jung",
+   "t0": 1382.09,
+   "t1": 1384.29
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1384.29,
+   "t1": 1389.98
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "Alex Jung",
+   "t0": 1389.98,
+   "t1": 1391.58
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Alex Jung",
+   "speaker": "Alex Jung",
+   "t0": 1391.58,
+   "t1": 1400.29
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1400.29,
+   "t1": 1405.79
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 1405.79,
+   "t1": 1407.99
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1407.99,
+   "t1": 1413.49
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1413.49,
+   "t1": 1415.195
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1415.195,
+   "t1": 1420.695
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "John Simone",
+   "t0": 1420.695,
+   "t1": 1423.355
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1423.355,
+   "t1": 1428.855
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Will Wang",
+   "speaker": "John Simone",
+   "t0": 1428.855,
+   "t1": 1430.455
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "John Simone",
+   "speaker": "John Simone",
+   "t0": 1430.455,
+   "t1": 1438.3499999999997
+  }
+ ]
+}
