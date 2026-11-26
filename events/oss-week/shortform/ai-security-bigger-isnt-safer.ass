@@ -1,0 +1,40 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Bigger isn't safer:
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}more employees means
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}more ways in”
+Dialogue: 0,0:00:00.00,0:00:01.04,Caption,,0,0,0,,I don't necessarily
+Dialogue: 0,0:00:01.04,0:00:02.02,Caption,,0,0,0,,believe that larger
+Dialogue: 0,0:00:02.02,0:00:02.94,Caption,,0,0,0,,companies are more
+Dialogue: 0,0:00:02.94,0:00:03.50,Caption,,0,0,0,,secure because there's
+Dialogue: 0,0:00:03.50,0:00:04.24,Caption,,0,0,0,,more vectors.
+Dialogue: 0,0:00:04.24,0:00:05.06,Caption,,0,0,0,,Like if you look at a
+Dialogue: 0,0:00:05.06,0:00:05.86,Caption,,0,0,0,,lot of the attacks
+Dialogue: 0,0:00:05.86,0:00:07.29,Caption,,0,0,0,,they're compromising.
+Dialogue: 0,0:00:07.29,0:00:08.51,Caption,,0,0,0,,an employee you know if
+Dialogue: 0,0:00:08.51,0:00:10.01,Caption,,0,0,0,,you're a large company
+Dialogue: 0,0:00:10.01,0:00:10.95,Caption,,0,0,0,,you have a lot more
+Dialogue: 0,0:00:10.95,0:00:11.63,Caption,,0,0,0,,employees and so there's
+Dialogue: 0,0:00:11.63,0:00:12.85,Caption,,0,0,0,,a lot more people to try
+Dialogue: 0,0:00:12.85,0:00:14.43,Caption,,0,0,0,,and fool you might have
+Dialogue: 0,0:00:14.43,0:00:15.57,Caption,,0,0,0,,more systems in place to
+Dialogue: 0,0:00:15.57,0:00:16.77,Caption,,0,0,0,,catch it but there's a
+Dialogue: 0,0:00:16.77,0:00:18.12,Caption,,0,0,0,,lot more ways in
+Dialogue: 0,0:00:18.12,0:00:19.36,Caption,,0,0,0,,with agents now you can
+Dialogue: 0,0:00:19.36,0:00:20.18,Caption,,0,0,0,,compromise one system
+Dialogue: 0,0:00:20.18,0:00:22.24,Caption,,0,0,0,,and quickly gain access
+Dialogue: 0,0:00:22.24,0:00:22.89,Caption,,0,0,0,,to 10 more.

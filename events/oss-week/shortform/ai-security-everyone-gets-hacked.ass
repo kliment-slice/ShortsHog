@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.18,0:00:04.68,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00DFB32B}Tom Piccirello (PostHog)
+Dialogue: 3,0:00:01.18,0:00:04.68,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Every company will get
+Dialogue: 3,0:00:01.18,0:00:04.68,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}hacked. Plan for risk
+Dialogue: 3,0:00:01.18,0:00:04.68,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}mitigation.”
+Dialogue: 0,0:00:00.00,0:00:00.68,Caption,,0,0,0,,Every company is going
+Dialogue: 0,0:00:00.68,0:00:01.22,Caption,,0,0,0,,to get hacked.
+Dialogue: 0,0:00:01.22,0:00:02.30,Caption,,0,0,0,,If it's an open source
+Dialogue: 0,0:00:02.30,0:00:03.60,Caption,,0,0,0,,product I'm just gonna
+Dialogue: 0,0:00:03.60,0:00:04.46,Caption,,0,0,0,,throw an agent at it
+Dialogue: 0,0:00:04.46,0:00:05.82,Caption,,0,0,0,,anyway and just maybe
+Dialogue: 0,0:00:05.82,0:00:07.26,Caption,,0,0,0,,not go super deep but
+Dialogue: 0,0:00:07.26,0:00:08.56,Caption,,0,0,0,,just like a cursory scan
+Dialogue: 0,0:00:08.56,0:00:09.97,Caption,,0,0,0,,of like what does the
+Dialogue: 0,0:00:09.97,0:00:10.75,Caption,,0,0,0,,security fundamentals of
+Dialogue: 0,0:00:10.75,0:00:12.35,Caption,,0,0,0,,this project look like
+Dialogue: 0,0:00:12.35,0:00:13.01,Caption,,0,0,0,,the interesting
+Dialogue: 0,0:00:13.01,0:00:13.63,Caption,,0,0,0,,challenge is that maybe
+Dialogue: 0,0:00:13.63,0:00:16.21,Caption,,0,0,0,,it looks great but then
+Dialogue: 0,0:00:16.21,0:00:17.71,Caption,,0,0,0,,their hosting is
+Dialogue: 0,0:00:17.71,0:00:18.57,Caption,,0,0,0,,absolutely abysmal and
+Dialogue: 0,0:00:18.57,0:00:19.99,Caption,,0,0,0,,so like that doesn't
+Dialogue: 0,0:00:19.99,0:00:20.71,Caption,,0,0,0,,actually give you the
+Dialogue: 0,0:00:20.71,0:00:21.73,Caption,,0,0,0,,full picture
+Dialogue: 0,0:00:21.73,0:00:22.41,Caption,,0,0,0,,maybe you just take the
+Dialogue: 0,0:00:22.41,0:00:23.87,Caption,,0,0,0,,view that like every
+Dialogue: 0,0:00:23.87,0:00:25.05,Caption,,0,0,0,,company and every tool
+Dialogue: 0,0:00:25.05,0:00:26.67,Caption,,0,0,0,,has pretty lackluster
+Dialogue: 0,0:00:26.67,0:00:28.43,Caption,,0,0,0,,security to begin with
+Dialogue: 0,0:00:28.43,0:00:29.35,Caption,,0,0,0,,and I don't know maybe
+Dialogue: 0,0:00:29.35,0:00:30.19,Caption,,0,0,0,,that's like a kind of a
+Dialogue: 0,0:00:30.19,0:00:31.73,Caption,,0,0,0,,defeatist view but I
+Dialogue: 0,0:00:31.73,0:00:33.20,Caption,,0,0,0,,think it's largely true
+Dialogue: 0,0:00:33.20,0:00:34.66,Caption,,0,0,0,,and every company is
+Dialogue: 0,0:00:34.66,0:00:35.32,Caption,,0,0,0,,going to get hacked.
+Dialogue: 0,0:00:35.32,0:00:36.66,Caption,,0,0,0,,And so you just kind of
+Dialogue: 0,0:00:36.66,0:00:37.28,Caption,,0,0,0,,need to think through
+Dialogue: 0,0:00:37.28,0:00:38.14,Caption,,0,0,0,,risk mitigation more
+Dialogue: 0,0:00:38.14,0:00:39.18,Caption,,0,0,0,,than anything.

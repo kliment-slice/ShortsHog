@@ -1,0 +1,708 @@
+1
+00:00:07,430 --> 00:00:21,220
+Hello, everyone. My name is Jeff Sant. I am the COO of Chargebee, and I'm very excited and grateful to be able to host this session with two great finance executives out there in the market, Sruthi from Public.com and Matt from PostHog.
+
+2
+00:00:21,310 --> 00:00:44,280
+We're going to talk a little bit about, of course, everyone's favorite topic. The manner in which AI can be used in the office of the CFO. This is a topic that is certainly at the heart of my identity. I've spent over 25 years serving the office of the CFO in various capacities, whether it's services or software, and now it's about agents. And so it's an exciting topic.
+
+3
+00:00:44,470 --> 00:00:55,980
+And so, I want to first introduce Sruthi and Matt and give them an opportunity to talk about themselves, their company, and their role, and then we'll get right into some questions. So Sruthi, why don't you kick us off and introduce yourself.
+
+4
+00:00:56,210 --> 00:01:06,820
+Yeah, happy to. Thanks for having me, Jeff, and Chargebee. Excited to be here. Public is an agentic investing platform. To give you an example of what you can do with Public.
+
+5
+00:01:06,930 --> 00:01:30,840
+I have an agent running right now that helps me buy the S&P 500. Every time VIX is up 5% and the S&P is down 5%. So whether it's that or something as simple as every time I have $1,000 in my checking account, move 500 into public, we help you automate all of your investing and money decisions.
+
+6
+00:01:31,290 --> 00:01:53,640
+I've been at public six years. I oversee the finance and data functions. Before this, I worked at MoneyLion, another fintech. I like to say that I worked in fintech before. It was cool. It's been most of my career in it. And yeah, we lean deeply into AI, both within the product and the finance team. And I'm excited to talk about both.
+
+7
+00:01:54,530 --> 00:01:56,060
+Thank you. Matt, how about yourself?
+
+8
+00:01:57,470 --> 00:02:16,150
+Hi, everybody. I'm Matt Ghering. I recently joined PostHog as their head of finance. If you don't know PostHog, it's basically a software measurement tool. So it allows you to measure and track the performance of your software so that you can build better software and apps and be more successful.
+
+9
+00:02:17,470 --> 00:02:42,620
+Yeah, this is my first head of finance role and it's a very AI-pilled company and so we offer both a bunch of AI products that'll help you close the loop from just measuring your tools to taking action and then we also use it very, very heavily within the finance function to automate and streamline our processes and just make ourselves more efficient and so excited to talk to you guys about it today.
+
+10
+00:02:43,090 --> 00:03:01,380
+Thanks, Matt. And thank you, Sruthi. Let's get started. You know, one of the recent essays I read was, you know, OpenAI CFO, Sarah Fryer, who I'm sure you're probably familiar with, kept talking about finance becoming a real-time function. You know, no more of this back office. I'll tell you 10 days after the month what happened. Real-time.
+
+11
+00:03:02,210 --> 00:03:20,120
+You know, the ambition is we get to some level of continuous close. Some people even talking about autonomous closes. But, you know, I'd be curious your view as to what your thoughts are on can we get to continuous close? Is that the right ambition? And where are you guys at in your journey?
+
+12
+00:03:20,210 --> 00:03:24,600
+to basically use AI to create greater efficiency in your close process.
+
+13
+00:03:24,710 --> 00:03:26,450
+Matt, let me start with you.
+
+14
+00:03:27,090 --> 00:03:32,120
+Yeah, I will say we're not to continuous close and definitely not to autonomous close.
+
+15
+00:03:32,150 --> 00:03:34,400
+I don't think we feel comfortable with autonomous close.
+
+16
+00:03:34,410 --> 00:03:39,450
+I think continuous close is something we would probably want to work towards.
+
+17
+00:03:39,890 --> 00:03:52,160
+You know, we do do a number of things throughout the month in a continuous way. So we have bots that, you know, monitor our expense platform on a daily basis and send out reminders to people to submit receipts.
+
+18
+00:03:52,210 --> 00:04:01,920
+We have bots that do things on a weekly basis, like updating our cash forecast, things that are like more traditionally done more frequently, and they help us do that more quickly and easily.
+
+19
+00:04:02,070 --> 00:04:06,240
+Our close is still a monthly process, though, and it actually still takes us time,
+
+20
+00:04:06,350 --> 00:04:11,790
+just because I don't think we see that much value in being closer to the numbers in that.
+
+21
+00:04:13,450 --> 00:04:19,680
+We can see our revenue and our billing and our usage on a daily basis that we track very regularly,
+
+22
+00:04:19,790 --> 00:04:26,640
+but on the expense side, understanding where the month closed, how we're tracking against plan, and
+
+23
+00:04:26,910 --> 00:04:32,980
+fine-tuning that, I think actually moving past a monthly process would be more noise than use for us.
+
+24
+00:04:33,350 --> 00:04:39,200
+That said, we do use AI to make that close process quicker and easier.
+
+25
+00:04:39,230 --> 00:04:46,580
+So AI prepares all of the workings for the close, and then they're just human reviewed. And
+
+26
+00:04:46,490 --> 00:04:49,440
+And so that makes us move much, much faster.
+
+27
+00:04:49,490 --> 00:04:53,870
+And our close isn't particularly fast right now, we close on BD+10,
+
+28
+00:04:54,730 --> 00:05:09,260
+but that's because we do that with basically one accountant and so like at our scale I think to get to BD+10 historically you would have had far more people than that but we're more focused on efficiency and accuracy than necessarily speed.
+
+29
+00:05:09,450 --> 00:05:19,900
+Thank you and Sruthi I'll get to you right in a second I want to follow up with Matt on that because you mentioned it's a great point that we're driving for efficiency
+
+30
+00:05:19,990 --> 00:05:41,820
+It doesn't mean I need to get faster, I still need to be auditable, but I don't need 20 people doing it. Where have you found the greatest efficiency? Is there an example use case that you can point to to say, you know, agents really worked? You mentioned monitoring, you mentioned updating cash forecasting, maybe a couple more examples of where AIs or agents have been embedded into your process.
+
+31
+00:05:42,250 --> 00:06:02,620
+Yeah, I mean, like I said, they do a lot of the initial workings for what we're going to book to our GL. So like our revenue reconciliation process is all automated. So we have the agents go out and do that. And they're plugged into all of the sources of record. So they can pull all that data and build the workbooks. And then they basically present it to our accountant who then reviews it and signs off.
+
+32
+00:06:03,410 --> 00:06:24,800
+So that's one example. You know, this isn't about the close, but we also use it a lot to basically, we're going through our first audit right now. And we're working with our audit partners to like establish a lot of our like initial positions and policies around different things. And we use it to write, you know, like a lot of our technical memos as well. And it's really, really powerful at like,
+
+33
+00:06:25,030 --> 00:06:50,120
+Pulling in the actual technical detail, getting all of the different interpretations from all the different accounting firms, figuring out the fact pattern, bashing that up against those findings and then really helping us work through what are the pros and cons of different positions. And it's made that process much faster and allowed us to do that process without having deep technical expertise on the team. And so that's been really, really good as well. Makes
+
+34
+00:06:50,010 --> 00:06:52,440
+Makes a lot of sense. So a lot of the writing.
+
+35
+00:06:52,590 --> 00:07:07,160
+The reconciliation work, the monitoring work, these are the nuts and bolts that accountants have to do every day. Seems like you've been able to use agents for that, but still keep a human in the loop to apply proper judgment and oversight to ensure that it's actually correct.
+
+36
+00:07:07,870 --> 00:07:19,940
+That's right. We keep a human in the loop for all of these things. Nothing gets posted without a human review. And then we also, we are very careful about like,
+
+37
+00:07:20,250 --> 00:07:40,720
+creating systems where the AI is constrained in how it solves these problems, right? So that it's not sort of creating a new way to do our rev rec or our payroll every time. It has defined sources that it should be looking at. It has defined skills on how it should be working through the problem instead of like
+
+38
+00:07:41,290 --> 00:08:00,520
+creating a way to get around exceptions, it like flags those exceptions to our accountants so that, you know, the human can decide whether we want to make a change to the process or not. And so there is a lot that you have to do in order to make sure that it's repeatable and that like you're verifying the process and it's not sort of
+
+39
+00:08:02,250 --> 00:08:11,900
+Thank you. So, Sruthi, same kind of line of questioning. I'd love to get your take on Public.com and how you've been able to inject AI into the closed process.
+
+40
+00:08:12,210 --> 00:08:18,790
+Yeah, I'd say short answer is pretty heavily. But for context,
+
+41
+00:08:19,690 --> 00:08:38,060
+Public is a regulated broker-dealer, RIA. I'm personally regulated by the SEC. We do public company-level audits. It's a late-stage company, but we've needed to do the public company-level audits since really we were tiny because of the regulated nature. So I've always said it's like...
+
+42
+00:08:38,750 --> 00:09:03,120
+Champagne Dreams and Beer Budge, so the natural kind of outcome of that need for super high quality and resource constraint is an emphasis on automation, and so I see AI as further enhancing existing processes and automation, but the only way we can get to
+
+43
+00:09:03,570 --> 00:09:27,320
+Getting the answers we need to, as quickly as we need to, across the level of complexity that we have, is to really build a very, very strong control environment around our financial tools. And for us, that looks like our data infrastructure. So basically, we do finance real-time exactly as
+
+44
+00:09:27,430 --> 00:09:33,960
+kind of Sarah Fryer said. But in order to do that, we do it at the data layer, because there's no real
+
+45
+00:09:33,990 --> 00:09:45,080
+way to do it in the finance tool, finance tech stack today, right? So to your first question around
+
+46
+00:09:45,350 --> 00:09:50,200
+continuous close, autonomous close, I actually think it's incredibly helpful, but depends on
+
+47
+00:09:51,090 --> 00:09:58,220
+up to what, right? So, Matt, you talked about how you have basically real-time visibility into revenue.
+
+48
+00:09:58,970 --> 00:10:04,180
+That's, I think, where we began. We currently have real-time visibility into gross profit and up to
+
+49
+00:10:04,190 --> 00:10:12,120
+EBITDA. I think that's what you need as you get to later stages. And as we get closer to
+
+50
+00:10:12,170 --> 00:10:31,500
+a public listing I would argue that we would need that not just across you know down to EBITDA but really net income lines as well as more balance sheet lines beyond cash right but it depends on what you're solving for and for us since we're solving for profitability plus
+
+51
+00:10:32,130 --> 00:10:38,280
+risk-adjusted growth, I find the autonomous close extremely helpful.
+
+52
+00:10:38,550 --> 00:10:46,460
+And the way we use agents to get there is to build the automation to get us answers faster
+
+53
+00:10:48,050 --> 00:10:52,220
+and we're still a human in the loop because of the regulated nature.
+
+54
+00:10:52,910 --> 00:10:56,700
+Yeah, Sruthi, let me stick with you on that because both of you mentioned controls.
+
+55
+00:10:57,130 --> 00:10:57,640
+Mm-hmm.
+
+56
+00:10:58,210 --> 00:11:15,560
+But you mentioned something, Sruthi, very important around none of this matters if I don't have the right data inputs and foundational data elements organized in a manner that enables agents to be effective and efficient. Could you talk a little bit about that process? What do you had to do in order to create that proper data foundation?
+
+57
+00:11:17,190 --> 00:11:21,400
+Start early, which I know is not really important.
+
+58
+00:11:21,930 --> 00:11:44,980
+an option for everyone, right? But again, I joined public when we were, you know, pretty low on revenue scale. And the advantage of that was that I was able to grow the finance data infrastructure along with the company itself. In the absence of that, I think the way to get there is
+
+59
+00:11:45,230 --> 00:12:08,860
+Again, some data fundamentals have a single source of truth, and sure that your data warehouse captures all sources of data within the company, and sure it encompasses everything from acquisition and marketing to obviously product-level data, which is usually more easily available within internal databases.
+
+60
+00:12:09,190 --> 00:12:12,660
+to customer support and other such information.
+
+61
+00:12:12,950 --> 00:12:15,460
+Essentially, follow the customer along their lifecycle
+
+62
+00:12:15,450 --> 00:12:17,400
+and capture all of that data in a way that
+
+63
+00:12:17,350 --> 00:12:22,020
+that allows you to look at each customer through that lifecycle. And
+
+64
+00:12:21,970 --> 00:12:27,540
+And if you can do that in a way that matches your books and records,
+
+65
+00:12:27,670 --> 00:12:38,940
+Right. Again, coming back to single source of truth, you essentially have the basis of what allows you to build pretty sophisticated automation, even with the absence of agents, but with agents, it becomes even more powerful.
+
+66
+00:12:40,590 --> 00:12:46,420
+Yeah. You know, I heard I heard from someone, maybe his name was Spider-Man, that with great power comes great responsibility.
+
+67
+00:12:46,850 --> 00:12:47,100
+Yeah.
+
+68
+00:12:47,210 --> 00:12:54,200
+and sometimes the power of an autonomous close can also create a tremendous amount of risk.
+
+69
+00:12:54,230 --> 00:12:59,700
+You can't have agents doing attestations, right? You can't have agents applying judgment.
+
+70
+00:12:59,750 --> 00:13:02,910
+But Matt, you mentioned something really interesting about repeatability.
+
+71
+00:13:03,150 --> 00:13:03,560
+Yeah.
+
+72
+00:13:03,610 --> 00:13:08,460
+And that's an issue, right? Because accounting is a deterministic type of function. I
+
+73
+00:13:08,430 --> 00:13:12,280
+I need to be able to apply things in a deterministic way and controlled way.
+
+74
+00:13:12,490 --> 00:13:16,200
+Yet AI and agents kind of operate in a probabilistic capability.
+
+75
+00:13:16,790 --> 00:13:27,480
+So how do you think about the controls and harnessing that you were talking about to ensure that this thing is repeatable before it gets to the human in the loop?
+
+76
+00:13:28,590 --> 00:13:35,340
+Yeah, I mean, it's honestly something that I'm personally still learning a lot about, but like our company has done a really good job on. And
+
+77
+00:13:35,290 --> 00:13:38,180
+And so I'm sort of riding on the back of giants like.
+
+78
+00:13:38,330 --> 00:14:02,350
+The, you know, because we are a data and measurement company and because like people want to interact with their data agentically now, we've invested a lot in having an MCP and a semantic layer across our company that the agents refer to. So like that semantic layer makes sure that when they're calculating revenue, they're calculating it the same way every time, no matter when you ask them.
+
+79
+00:14:02,930 --> 00:14:22,140
+That's part of it. And then on top of that, the accounting team has built skills within Claude and Anthropic in order to tell it sort of the process of doing the accounting. So it's both got directions on how it's got like tools to access all the different data across all of our sources of truth so it can access
+
+80
+00:14:22,530 --> 00:14:29,660
+our ERP, it can access our product, it can access our AP tool, all of those things. It has a semantic
+
+81
+00:14:29,850 --> 00:14:34,020
+layer that then tells it, okay, when you're calculating something, this is how you calculate
+
+82
+00:14:34,190 --> 00:14:39,760
+it. And then it has a skill that says, okay, when you're building out the payroll workings or the
+
+83
+00:14:39,810 --> 00:14:44,580
+RevRec file or whatever, these are the systems you access, these are the things you bring together.
+
+84
+00:14:44,890 --> 00:14:47,230
+And so there is a very like...
+
+85
+00:14:48,030 --> 00:15:12,230
+like articulated process at a many different levels. And then beyond that, you know, it basically said the instruction or the instruction above all of these things is like, never make stuff up. And so if you get to a wall where you don't know what you're doing, go ask a human and then we'll figure it out together. And so that's sort of how it's structured today for us. You know, I think it's not
+
+86
+00:15:13,030 --> 00:15:35,940
+You know, I think we're still just building a lot of that stuff, particularly the skills piece. And so I don't think we've gotten to a place where we really want to release those things and we feel fully confident that they should be autonomous. But that's sort of how we've thought about trying to have controls in place and make sure that we're getting something that's more deterministic. Now, I've heard of other accounting teams that will...
+
+87
+00:15:36,330 --> 00:15:56,180
+Literally put this into code. I've had working sessions with Sarah Fryer's team where they say, "Hey, the way we do this now is we have the AI agent write some Python. That Python then is deterministic. It runs the exact same way every time."
+
+88
+00:15:56,330 --> 00:16:00,610
+and actually what our auditors audit is the Python. They look at the code and they say this is what
+
+89
+00:16:00,610 --> 00:16:07,220
+the code is doing and therefore that is like a verifiable fact. We haven't gotten there yet but
+
+90
+00:16:07,350 --> 00:16:12,740
+that's like one place that I think the journey might be going. I think that makes a lot of sense
+
+91
+00:16:12,770 --> 00:16:17,330
+and you know in accounting a lot of people think accounting is all about like is the number that
+
+92
+00:16:17,390 --> 00:16:23,860
+got created correct which is the wrong question. The question is did the process that created that number
+
+93
+00:16:24,230 --> 00:16:42,480
+And is it verifiable? And is it repeatable? You and I can come up with two different numbers and both be right and both be wrong, depending upon how that thing gets audited. So that brings me back to that control you mentioned, which is we can define all the skills, we can define all those types of things. But if those aren't logged, if those aren't
+
+94
+00:16:43,070 --> 00:17:09,160
+Traceable. Let's use that term. And if I can't demonstrate and prove to auditors that it actually worked, then it's really meaningless. So I like that combination of an agent that's applying probabilistic thought processes, but the result is being created by deterministic code. And then all of that still needs to get written up. And how do I know those controls were effective in order for an audit?
+
+95
+00:17:09,310 --> 00:17:19,680
+Sruthi, you've obviously been through more audits than Matt has been going through his first one. I'd be curious, how does that discussion happen with your auditors? How do you think about the control aspects there?
+
+96
+00:17:20,950 --> 00:17:30,100
+Yeah, I mean, exactly that, right? Like, basically, the gap from probabilistic to deterministic for us involves a human in the loop. So...
+
+97
+00:17:30,770 --> 00:17:36,980
+We, again, having that strong data foundation means that it's really easy for us to build automation
+
+98
+00:17:37,030 --> 00:17:37,500
+on top.
+
+99
+00:17:37,670 --> 00:17:45,060
+The way we built those automation is now using the Claude's Anthropics tools of the world.
+
+100
+00:17:45,710 --> 00:17:55,400
+So my director of treasury vibe-coded our treasury dashboard, which pulls live balances from
+
+101
+00:17:55,510 --> 00:18:06,080
+our various bank accounts and gives us a sense of whether we're meeting covenants, you know, whether there's any certain balances that are too low relative to the thresholds we've set, etc.
+
+102
+00:18:06,910 --> 00:18:18,220
+But, of course, he's an accountant and he's not an engineer, right, so he then partnered with our platform engineering team to ensure that the solution was hosted in a secure way,
+
+103
+00:18:18,490 --> 00:18:38,040
+that none of the calls were, you know, dangerous or malicious and so this partnership between platform engineering and finance engineering, even though he's not a trained engineer, is the way we get to a point where we're very comfortable around the auditability of the platform, the information that it produces,
+
+104
+00:18:38,770 --> 00:18:41,900
+as well as the decisions that are made on the back of it, right?
+
+105
+00:18:42,370 --> 00:18:53,540
+Ultimately, it just all comes down to auditability and that's honestly easily ensured when you have the right stakeholders in the room building the automation in the first place.
+
+106
+00:18:53,630 --> 00:19:02,920
+I mean, he's been through six audits at Public. He knows what PwC needs and was able to build that in from day one.
+
+107
+00:19:03,390 --> 00:19:09,580
+And how early should you be engaging with your auditor on these things to make them part of the process a little bit?
+
+108
+00:19:11,510 --> 00:19:22,380
+Honestly, to be clear, PwC is also using AI heavily, right? They understand that this change is coming and they're leaning into it themselves. I...
+
+109
+00:19:23,990 --> 00:19:43,930
+To answer that, it kind of depends on the stage of a relationship with the auditor, right? Again, this is our sixth audit with them. And we've had clean audits across all of them. So we didn't really need to engage with them too early, because we already knew what the
+
+110
+00:19:44,630 --> 00:19:47,980
+would need to see in order to get to comfort, right?
+
+111
+00:19:48,330 --> 00:19:52,380
+But if you're relatively new in your audit cycle, or if your auditor is new,
+
+112
+00:19:52,570 --> 00:19:54,980
+I encourage you to have that conversation earlier.
+
+113
+00:19:55,870 --> 00:20:02,940
+Ultimately, it goes back to what you said, Jeff, which is whatever system you use,
+
+114
+00:20:03,410 --> 00:20:06,310
+human or automated or agentic,
+
+115
+00:20:06,470 --> 00:20:27,240
+You need to have a very clear documentation of the decision making process, and as long as that exists, generally it should pass master, as long as you get to the same answer each time, right? And it depends on the level of partnership that you have with your auditors.
+
+116
+00:20:27,770 --> 00:20:38,150
+But if you can ensure that, I think you don't need to involve them in the requirements phase. You can do it before you, you know, when you first release.
+
+117
+00:20:38,590 --> 00:20:52,280
+Let me switch gears a little bit. We've been talking about how you guys are just using AI for internal purposes to do what most folks in the office of the CFO do. But both of your companies also offer externally.
+
+118
+00:20:52,650 --> 00:21:11,490
+Agents and AI capabilities and those things are bundled within your offerings and potentially monetized as well. How has the introduction of AI to your actual service and solution offerings created any sort of complexity on how you need to account for that within the office of the CFO? Maybe Matt, I can start with you on that one.
+
+119
+00:21:11,970 --> 00:21:38,320
+Yeah, I mean, I think it's the complexity out of our AI products is less around accounting and more around billing and profitability, honestly. You know, I think tokens are expensive in a way that like traditional software is not. And it changes sort of like the approach to go to market for a PLG business like us. You know, traditionally,
+
+120
+00:21:39,390 --> 00:21:50,340
+way we go to market is we offer a very generous free tier so people can try us before they buy us and then they come on and if they like us and they stick around and their usage grows and we make money.
+
+121
+00:21:50,510 --> 00:22:03,240
+That's more difficult to do with tokens because that free tier costs you real money and so honestly like there's been a lot I think of experimentation of everybody wants intelligence in your platform
+
+122
+00:22:03,690 --> 00:22:26,080
+And I think they expect it now that they've gotten a taste of it from the big providers. And the question is, how do you provide that in a way that is economically viable for your business? And how do you charge for it? The accounting is less... I don't think there's a lot of... It's not completely unique, other than the fact that we need a way...
+
+123
+00:22:26,190 --> 00:22:30,720
+in order to parse out like what our tokens are being spent on because we have tokens that are being used
+
+124
+00:22:31,090 --> 00:22:35,930
+internally tokens that are being sold externally tokens that are being used in the free tier and
+
+125
+00:22:36,030 --> 00:22:41,120
+therefore our sales and marketing and being able to go into the the basically trace those workflows
+
+126
+00:22:41,170 --> 00:22:45,280
+and understand what tokens are where and what cost go where is like
+
+127
+00:22:45,490 --> 00:22:47,400
+Probably the biggest question that we have around tokens.
+
+128
+00:22:47,510 --> 00:23:10,800
+That's a great point. I mean, the traditional SaaS model was I have R&D that gets amortized. So I'm able to charge a fixed recurring fee. So I can look at revenue once in a while, once a month. But when a variable cost model underneath myself with a lot of revenue monetization strategy, then I got to understand this stuff more real time, Sruthi, right? That's kind of where you were talking about the real time. Do you sort of have a...
+
+129
+00:23:10,930 --> 00:23:17,440
+an opinion on what Matt was saying as well about the cost side and having a real-time visual on where that stands.
+
+130
+00:23:17,990 --> 00:23:31,950
+Yeah. I mean, totally echo his comments. I think, again, the accounting is not the issue. The numbers themselves are. I'd say that
+
+131
+00:23:32,690 --> 00:23:56,340
+Because we are an application layer, AI provider, one of the things I worry about also is changes in pricing of the frontier models, Anthropic is public tomorrow, they're deeply unprofitable, and they raise pricing 3x, what does that mean for our AI tools and pricing on that? Having said that, at this point, you just have to build
+
+132
+00:23:56,450 --> 00:24:04,100
+I think a pricing and billing engine that is very flexible to account for potential changes
+
+133
+00:24:04,510 --> 00:24:11,940
+up and down the stack and that I will say is different from before and from an accounting
+
+134
+00:24:12,190 --> 00:24:19,060
+perspective totally echo Matt's comments on needing to trace the sources of usage of tokens
+
+135
+00:24:19,590 --> 00:24:39,460
+It's honestly not made easy by either OpenAI or Anthropic, and so that takes some time on my team, but I'm paying closest attention to the evolution of pricing of similar solutions over time.
+
+136
+00:24:39,650 --> 00:25:01,880
+I like the way Matt said experimentation. Everyone's doing a lot of experimentation. There could be some accounting implications, especially as you start to bundle combinations of software and AI. There could start to be some variable considerations you need around a revenue recognition. But those are things that can be thought of a little bit later. But Matt, you were about to say something?
+
+137
+00:25:02,190 --> 00:25:24,160
+I was just going to say that I would echo what Sruthi mentioned. We find having flexibility in our billing and payments platform and having control over that being really, really critical. With the fact that we have this variable expense that's very unpredictable, we do need to be able to have the ability to
+
+138
+00:25:24,790 --> 00:25:31,090
+Coach, is going to change how we charge much more frequently than like you might have historically.
+
+139
+00:25:31,390 --> 00:25:51,860
+Absolutely. And everyone's moving from a once a year looking at their pricing to, I've talked to people who have looking at things once a month around things. So I have five more minutes. I do want to talk a little bit about internally back to resources. Matt, you mentioned a one person shop. Sruthi, I know you have a team. I'm curious how you think about
+
+140
+00:25:52,070 --> 00:26:08,190
+your financial resources now, the type of skills you're looking for, and so if you could talk a little bit about what skills remain core accounting skills, and what skills that you think are new types of skills that you're bringing into the financial organization. Sruthi, let me start with you there.
+
+141
+00:26:09,270 --> 00:26:10,830
+I think that...
+
+142
+00:26:13,310 --> 00:26:35,620
+I think the ability to learn is number one, right? Because things are changing too quickly. Having said that, for me, honestly, from a hiring perspective, not that much has changed. I've always looked for people who stretch beyond the confines of their specific role, right? One of my favorite questions is, tell me about a time when you, you know, did something that wasn't part of your day job.
+
+143
+00:26:35,790 --> 00:27:01,780
+Right. Because I like hiring people who really push the boundaries on what is possible within their jobs. And that, I think, is the skill set that gets you to success. This is exactly why, you know, we have controller, we have controller, you know, building the account, like transaction categorization agents. And we have,
+
+144
+00:27:01,950 --> 00:27:21,480
+our Treasurer, Vibe Coding our Treasury Dashboard. These people found the problem and the solution themselves. And so continuing to look for people who stretch in multiple ways, work independently with ambition, and just have an owner-operator mindset is, I think, what gets you to the promised land.
+
+145
+00:27:22,790 --> 00:27:28,620
+Finding the problem and the solution. Absolutely. I think that is sort of everywhere. Matt,
+
+146
+00:27:28,670 --> 00:27:33,880
+your thoughts on that? Yeah, I mean, I think I would echo a lot of what Sruthi said. The way I think
+
+147
+00:27:33,930 --> 00:27:42,880
+about it, just to put it into my own words, is that I want someone who is basically trying
+
+148
+00:27:43,230 --> 00:27:45,600
+ready for adventure, if that makes sense.
+
+149
+00:27:46,270 --> 00:27:47,660
+We're in a brand new world.
+
+150
+00:27:48,210 --> 00:27:51,760
+You need to be wanting to go out and try new things and experiment.
+
+151
+00:27:52,010 --> 00:27:53,400
+And some of those are going to fail.
+
+152
+00:27:53,530 --> 00:27:56,360
+And you can't be a person who just wants to turn the crank every month.
+
+153
+00:27:57,910 --> 00:28:00,960
+And then I think you need to have taste, the way I say it. And
+
+154
+00:28:00,910 --> 00:28:02,420
+And it's sort of like judgment.
+
+155
+00:28:03,290 --> 00:28:07,880
+Because AI is confidently wrong half the time.
+
+156
+00:28:08,270 --> 00:28:10,220
+And you can't.
+
+157
+00:28:10,410 --> 00:28:28,720
+I think a lot of people think that means, hey, I need to hire someone very experienced. And experienced is one way to get taste. But I think you need to hire experienced people or maybe the challenge is that they may fail on that first dimension of being up for an adventure. And so what you need to find is someone who is both sort of like youthful enough and
+
+158
+00:28:28,810 --> 00:28:39,360
+and ready enough to like explore and grow and also like sort of discernful enough and has enough taste to be able to like question and like interrogate and push for really great answers.
+
+159
+00:28:39,450 --> 00:28:46,080
+And if you can get those two like that, that sweet spot of those two working together, that's sort of like the ideal role that you're looking for.
+
+160
+00:28:46,130 --> 00:28:49,520
+I love that. It's one of my favorite words, Matt, is discern.
+
+161
+00:28:49,610 --> 00:28:54,360
+So I think that's a very viable and I think a lot of accountants who grew up through
+
+162
+00:28:54,630 --> 00:29:15,020
+Big Four and others have a lot of discernment skills. It is the, oh, well, how do I experiment? It's okay to be wrong. Not everyone's figured this out. Let me test this out. Let me try this out. But at the same time, make sure that I'm accomplishing a standard that still requires me to provide a level of quality and assurance to people.
+
+163
+00:29:15,470 --> 00:29:37,140
+There's a sweet spot there that has to be struck, which is interesting. But my final question for you guys, I'd love to just get your view of where you think the role of the CFO is going in a couple years. It used to be the CFO was the control person or the back office person or the investment person. What is it? Are they the builder now? How do you see that role going?
+
+164
+00:29:39,550 --> 00:29:55,340
+Oh, I think that it hasn't been the back office person for a long time now, honestly, Jeff. Like I, I don't know that, frankly, it's been that for the last 10 years that I've done it. Um, I don't know.
+
+165
+00:29:55,650 --> 00:30:21,860
+And always it is helping steward the company towards its long-term future, despite turbulent, short-term, choppy waters, right? And the tools that you use to get there have really changed a lot. It used to be that you could use a financial model and monthly close statements, and that was enough, and that's no longer enough, right? But
+
+166
+00:30:22,850 --> 00:30:46,740
+At the end of the day, I think the mandate truly remains the same, which is stay true to the longer term mission of the company and provide sage advice to a CEO who's beset, you know, by a number of inputs that are only increasing over time. So being that adult in the room, I think, is really important.
+
+167
+00:30:47,550 --> 00:30:50,660
+has always been the most important role. And
+
+168
+00:30:50,490 --> 00:30:53,620
+And I think that will continue, I think that's right, Sruthi, very well said.
+
+169
+00:30:53,710 --> 00:30:57,220
+Matt, let me give you 10 seconds as we close out to give your thoughts on that.
+
+170
+00:30:57,430 --> 00:31:01,300
+Yeah, I mean, all I would say is I think that the role has for a long time been like
+
+171
+00:31:01,510 --> 00:31:04,020
+helping the company make smart financial decisions.
+
+172
+00:31:04,130 --> 00:31:07,540
+And I think what AI does is it just basically puts that role on steroids.
+
+173
+00:31:07,570 --> 00:31:09,220
+You can do it much, much faster
+
+174
+00:31:09,370 --> 00:31:13,780
+You can empower people much, much more, but you have to make sure that you're building sort of the
+
+175
+00:31:14,070 --> 00:31:18,520
+infrastructure to do that in a structured and controlled way. Yeah. Sruthi, Matt, amazing
+
+176
+00:31:19,070 --> 00:31:23,060
+conversation. I can't thank you enough for joining us in this summit. I think there was a lot of great
+
+177
+00:31:23,270 --> 00:31:28,940
+insights provided to everyone on here. So thank you so much. Thank you. Thank you.
+

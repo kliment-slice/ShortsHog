@@ -1,0 +1,44 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“One attack: 100,000
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}requests from 4,000
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}accounts in 100
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,324)\fad(180,220)}milliseconds”
+Dialogue: 0,0:00:00.00,0:00:01.42,Caption,,0,0,0,,We recently saw an
+Dialogue: 0,0:00:01.42,0:00:03.26,Caption,,0,0,0,,attack that was across
+Dialogue: 0,0:00:03.26,0:00:04.98,Caption,,0,0,0,,probably 3,000
+Dialogue: 0,0:00:04.98,0:00:06.51,Caption,,0,0,0,,4,000 accounts
+Dialogue: 0,0:00:06.51,0:00:08.77,Caption,,0,0,0,,100,000 requests all
+Dialogue: 0,0:00:08.77,0:00:11.12,Caption,,0,0,0,,within 100 milliseconds
+Dialogue: 0,0:00:11.12,0:00:12.26,Caption,,0,0,0,,So for context
+Dialogue: 0,0:00:12.26,0:00:14.31,Caption,,0,0,0,,we stop like inference
+Dialogue: 0,0:00:14.31,0:00:16.09,Caption,,0,0,0,,abuse and like token
+Dialogue: 0,0:00:16.09,0:00:16.57,Caption,,0,0,0,,fraud.
+Dialogue: 0,0:00:16.57,0:00:18.21,Caption,,0,0,0,,And this person had been
+Dialogue: 0,0:00:18.21,0:00:18.73,Caption,,0,0,0,,sitting on these
+Dialogue: 0,0:00:18.73,0:00:19.60,Caption,,0,0,0,,accounts for a while.
+Dialogue: 0,0:00:19.60,0:00:20.83,Caption,,0,0,0,,Some were bought up from
+Dialogue: 0,0:00:20.83,0:00:22.41,Caption,,0,0,0,,the underground markets
+Dialogue: 0,0:00:22.41,0:00:23.27,Caption,,0,0,0,,some were probably spun
+Dialogue: 0,0:00:23.27,0:00:24.31,Caption,,0,0,0,,up from automation.
+Dialogue: 0,0:00:24.41,0:00:26.62,Caption,,0,0,0,,An attack can now be
+Dialogue: 0,0:00:26.71,0:00:27.91,Caption,,0,0,0,,if they just want a few
+Dialogue: 0,0:00:27.91,0:00:28.65,Caption,,0,0,0,,things to slip through
+Dialogue: 0,0:00:28.65,0:00:30.45,Caption,,0,0,0,,it might be a million
+Dialogue: 0,0:00:30.45,0:00:31.91,Caption,,0,0,0,,requests across a large
+Dialogue: 0,0:00:31.91,0:00:33.15,Caption,,0,0,0,,number of accounts all
+Dialogue: 0,0:00:33.15,0:00:34.05,Caption,,0,0,0,,at once.

@@ -16,8 +16,12 @@ echo. Then, per the panel's `mix:`:
                      at MAX_RELATIVE_DB from the median mic so a dead mic isn't boosted.
                      Less bleed, but whisper did worse on it in oss-week's panel 2.
 Finally normalised to TARGET_LUFS. Output: transcripts/<panel>.wav, 48 kHz mono,
-t=0 at panel start. This is both what whisper transcribes and the audio bed under
-every short.
+t=0 at panel start: what whisper transcribes.
+
+Also transcripts/<panel>.bed.wav: what every render plays (long form and shorts). A plain
+sum doubles each voice: the other mics hear the speaker 5 to 20 dB down and 2 to 30 ms
+late, which sounds like an echo or a dub. The bed is a sharper automix (each mic's share
+is its power to the BED_EXPONENT), so only the open mic is heard.
 """
 import argparse
 import math
@@ -38,6 +42,7 @@ MAX_RELATIVE_DB = 6.0   # automix: no mic corrected more than this away from the
 SR = 48000
 FRAME = 0.010           # automix envelope frame, seconds
 ATTACK, RELEASE = 0.010, 0.300  # envelope smoothing time constants, seconds
+BED_EXPONENT = 2.0      # the render bed's automix: power^2 sharing all but closes the mics that only hear bleed
 
 
 def part_inputs(ev: dict, sid: str, start: float, end: float) -> list:
@@ -122,8 +127,9 @@ def smooth_power(power: np.ndarray) -> np.ndarray:
     return out
 
 
-def automix(ev: dict, p: dict, start: float, end: float, gains: list, out_path: Path) -> dict:
-    """Gain-sharing automix. Returns how much of the output came from non-dominant mics, per method."""
+def automix(ev: dict, p: dict, start: float, end: float, gains: list, out_path: Path, exponent: float = 1.0) -> dict:
+    """Gain-sharing automix (each mic's share is its smoothed power to `exponent`). Returns how much of the
+    output came from non-dominant mics, per method."""
     dur = end - start
     db = np.array([g for *_, g in gains])
     db = np.clip(db, np.median(db) - MAX_RELATIVE_DB, np.median(db) + MAX_RELATIVE_DB)
@@ -137,7 +143,7 @@ def automix(ev: dict, p: dict, start: float, end: float, gains: list, out_path: 
         pw = (x[: frames * hop].reshape(frames, hop) ** 2).mean(axis=1)
         powers.append(smooth_power(pw))
     P = np.array(powers) + 1e-12
-    W = P / P.sum(axis=0)                     # Dugan gain sharing: weights sum to 1
+    W = P ** exponent / (P ** exponent).sum(axis=0)   # Dugan gain sharing (exponent 1); weights sum to 1
     t_frame = (np.arange(frames) + 0.5) * hop
     t = np.arange(n)
     out = np.zeros(n, dtype=np.float32)
@@ -176,6 +182,10 @@ def mix_panel(ev: dict, p: dict, out_path: Path) -> None:
     else:
         sys.exit(f"[{p['id']}] unknown mix mode `{mode}` (automix or sum)")
     print(f"[{p['id']}] {mode} {end - start:.1f}s ({start:.1f}..{end:.1f} on the timeline){note} -> {out_path.name}")
+    bed = out_path.with_suffix(".bed.wav")
+    stats = automix(ev, p, start, end, gains, bed, BED_EXPONENT)
+    print(f"[{p['id']}] render bed: bleed from other mics {stats['sum']:.0%} of a plain sum -> "
+          f"{stats['automix']:.0%} -> {bed.name}")
 
 
 def main():

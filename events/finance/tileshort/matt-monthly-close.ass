@@ -1,0 +1,120 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.27,Caption,,0,0,204,,{\c&H00DFB32B}We're{\c&H00FFFFFF} not to continuous
+Dialogue: 0,0:00:00.27,0:00:00.71,Caption,,0,0,204,,We're {\c&H00DFB32B}not{\c&H00FFFFFF} to continuous
+Dialogue: 0,0:00:00.71,0:00:01.57,Caption,,0,0,204,,We're not {\c&H00DFB32B}to{\c&H00FFFFFF} continuous
+Dialogue: 0,0:00:01.57,0:00:02.07,Caption,,0,0,204,,We're not to {\c&H00DFB32B}continuous{\c&H00FFFFFF}
+Dialogue: 0,0:00:02.07,0:00:02.37,Caption,,0,0,204,,{\c&H00DFB32B}close{\c&H00FFFFFF} and definitely not
+Dialogue: 0,0:00:02.37,0:00:02.63,Caption,,0,0,204,,close {\c&H00DFB32B}and{\c&H00FFFFFF} definitely not
+Dialogue: 0,0:00:02.63,0:00:02.87,Caption,,0,0,204,,close and {\c&H00DFB32B}definitely{\c&H00FFFFFF} not
+Dialogue: 0,0:00:02.87,0:00:03.01,Caption,,0,0,204,,close and definitely {\c&H00DFB32B}not{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.01,0:00:03.43,Caption,,0,0,204,,{\c&H00DFB32B}to{\c&H00FFFFFF} autonomous close.
+Dialogue: 0,0:00:03.43,0:00:03.71,Caption,,0,0,204,,to {\c&H00DFB32B}autonomous{\c&H00FFFFFF} close.
+Dialogue: 0,0:00:03.71,0:00:03.87,Caption,,0,0,204,,to autonomous {\c&H00DFB32B}close.{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.87,0:00:03.95,Caption,,0,0,204,,{\c&H00DFB32B}I{\c&H00FFFFFF} don't think we feel
+Dialogue: 0,0:00:03.95,0:00:04.07,Caption,,0,0,204,,I {\c&H00DFB32B}don't{\c&H00FFFFFF} think we feel
+Dialogue: 0,0:00:04.07,0:00:04.19,Caption,,0,0,204,,I don't {\c&H00DFB32B}think{\c&H00FFFFFF} we feel
+Dialogue: 0,0:00:04.19,0:00:04.43,Caption,,0,0,204,,I don't think {\c&H00DFB32B}we{\c&H00FFFFFF} feel
+Dialogue: 0,0:00:04.43,0:00:04.91,Caption,,0,0,204,,I don't think we {\c&H00DFB32B}feel{\c&H00FFFFFF}
+Dialogue: 0,0:00:04.91,0:00:05.17,Caption,,0,0,204,,{\c&H00DFB32B}comfortable{\c&H00FFFFFF} with
+Dialogue: 0,0:00:05.17,0:00:05.57,Caption,,0,0,204,,comfortable {\c&H00DFB32B}with{\c&H00FFFFFF}
+Dialogue: 0,0:00:05.57,0:00:05.97,Caption,,0,0,204,,{\c&H00DFB32B}autonomous{\c&H00FFFFFF} close.
+Dialogue: 0,0:00:05.97,0:00:06.17,Caption,,0,0,204,,autonomous {\c&H00DFB32B}close.{\c&H00FFFFFF}
+Dialogue: 0,0:00:06.17,0:00:06.49,Caption,,0,0,204,,{\c&H00DFB32B}Our{\c&H00FFFFFF} close is still a
+Dialogue: 0,0:00:06.49,0:00:06.67,Caption,,0,0,204,,Our {\c&H00DFB32B}close{\c&H00FFFFFF} is still a
+Dialogue: 0,0:00:06.67,0:00:06.91,Caption,,0,0,204,,Our close {\c&H00DFB32B}is{\c&H00FFFFFF} still a
+Dialogue: 0,0:00:06.91,0:00:07.11,Caption,,0,0,204,,Our close is {\c&H00DFB32B}still{\c&H00FFFFFF} a
+Dialogue: 0,0:00:07.11,0:00:07.39,Caption,,0,0,204,,Our close is still {\c&H00DFB32B}a{\c&H00FFFFFF}
+Dialogue: 0,0:00:07.39,0:00:07.93,Caption,,0,0,204,,{\c&H00DFB32B}monthly{\c&H00FFFFFF} process
+Dialogue: 0,0:00:07.93,0:00:08.11,Caption,,0,0,204,,monthly {\c&H00DFB32B}process{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.11,0:00:08.27,Caption,,0,0,204,,{\c&H00DFB32B}though{\c&H00FFFFFF} and it actually
+Dialogue: 0,0:00:08.27,0:00:08.37,Caption,,0,0,204,,though {\c&H00DFB32B}and{\c&H00FFFFFF} it actually
+Dialogue: 0,0:00:08.37,0:00:08.61,Caption,,0,0,204,,though and {\c&H00DFB32B}it{\c&H00FFFFFF} actually
+Dialogue: 0,0:00:08.61,0:00:08.87,Caption,,0,0,204,,though and it {\c&H00DFB32B}actually{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.87,0:00:09.19,Caption,,0,0,204,,{\c&H00DFB32B}still{\c&H00FFFFFF} takes us time
+Dialogue: 0,0:00:09.19,0:00:09.37,Caption,,0,0,204,,still {\c&H00DFB32B}takes{\c&H00FFFFFF} us time
+Dialogue: 0,0:00:09.37,0:00:09.77,Caption,,0,0,204,,still takes {\c&H00DFB32B}us{\c&H00FFFFFF} time
+Dialogue: 0,0:00:09.77,0:00:10.45,Caption,,0,0,204,,still takes us {\c&H00DFB32B}time{\c&H00FFFFFF}
+Dialogue: 0,0:00:10.45,0:00:10.67,Caption,,0,0,204,,{\c&H00DFB32B}just{\c&H00FFFFFF} because I don't
+Dialogue: 0,0:00:10.67,0:00:10.79,Caption,,0,0,204,,just {\c&H00DFB32B}because{\c&H00FFFFFF} I don't
+Dialogue: 0,0:00:10.79,0:00:10.87,Caption,,0,0,204,,just because {\c&H00DFB32B}I{\c&H00FFFFFF} don't
+Dialogue: 0,0:00:10.87,0:00:11.01,Caption,,0,0,204,,just because I {\c&H00DFB32B}don't{\c&H00FFFFFF}
+Dialogue: 0,0:00:11.01,0:00:11.17,Caption,,0,0,204,,{\c&H00DFB32B}think{\c&H00FFFFFF} we see that much
+Dialogue: 0,0:00:11.17,0:00:11.57,Caption,,0,0,204,,think {\c&H00DFB32B}we{\c&H00FFFFFF} see that much
+Dialogue: 0,0:00:11.57,0:00:12.29,Caption,,0,0,204,,think we {\c&H00DFB32B}see{\c&H00FFFFFF} that much
+Dialogue: 0,0:00:12.29,0:00:12.63,Caption,,0,0,204,,think we see {\c&H00DFB32B}that{\c&H00FFFFFF} much
+Dialogue: 0,0:00:12.63,0:00:13.25,Caption,,0,0,204,,think we see that {\c&H00DFB32B}much{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.25,0:00:13.83,Caption,,0,0,204,,{\c&H00DFB32B}value{\c&H00FFFFFF} in being closer to
+Dialogue: 0,0:00:13.83,0:00:14.15,Caption,,0,0,204,,value {\c&H00DFB32B}in{\c&H00FFFFFF} being closer to
+Dialogue: 0,0:00:14.15,0:00:14.69,Caption,,0,0,204,,value in {\c&H00DFB32B}being{\c&H00FFFFFF} closer to
+Dialogue: 0,0:00:14.69,0:00:14.91,Caption,,0,0,204,,value in being {\c&H00DFB32B}closer{\c&H00FFFFFF} to
+Dialogue: 0,0:00:14.91,0:00:15.03,Caption,,0,0,204,,value in being closer {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:15.03,0:00:15.39,Caption,,0,0,204,,{\c&H00DFB32B}the{\c&H00FFFFFF} numbers in that.
+Dialogue: 0,0:00:15.39,0:00:15.55,Caption,,0,0,204,,the {\c&H00DFB32B}numbers{\c&H00FFFFFF} in that.
+Dialogue: 0,0:00:15.55,0:00:15.79,Caption,,0,0,204,,the numbers {\c&H00DFB32B}in{\c&H00FFFFFF} that.
+Dialogue: 0,0:00:15.79,0:00:16.14,Caption,,0,0,204,,the numbers in {\c&H00DFB32B}that.{\c&H00FFFFFF}
+Dialogue: 0,0:00:16.45,0:00:16.89,Caption,,0,0,204,,{\c&H00DFB32B}We{\c&H00FFFFFF} can see our revenue
+Dialogue: 0,0:00:16.89,0:00:17.13,Caption,,0,0,204,,We {\c&H00DFB32B}can{\c&H00FFFFFF} see our revenue
+Dialogue: 0,0:00:17.13,0:00:17.31,Caption,,0,0,204,,We can {\c&H00DFB32B}see{\c&H00FFFFFF} our revenue
+Dialogue: 0,0:00:17.31,0:00:17.75,Caption,,0,0,204,,We can see {\c&H00DFB32B}our{\c&H00FFFFFF} revenue
+Dialogue: 0,0:00:17.75,0:00:18.11,Caption,,0,0,204,,We can see our {\c&H00DFB32B}revenue{\c&H00FFFFFF}
+Dialogue: 0,0:00:18.11,0:00:18.29,Caption,,0,0,204,,{\c&H00DFB32B}and{\c&H00FFFFFF} our billing and our
+Dialogue: 0,0:00:18.29,0:00:18.99,Caption,,0,0,204,,and {\c&H00DFB32B}our{\c&H00FFFFFF} billing and our
+Dialogue: 0,0:00:18.99,0:00:19.19,Caption,,0,0,204,,and our {\c&H00DFB32B}billing{\c&H00FFFFFF} and our
+Dialogue: 0,0:00:19.19,0:00:19.33,Caption,,0,0,204,,and our billing {\c&H00DFB32B}and{\c&H00FFFFFF} our
+Dialogue: 0,0:00:19.33,0:00:19.67,Caption,,0,0,204,,and our billing and {\c&H00DFB32B}our{\c&H00FFFFFF}
+Dialogue: 0,0:00:19.67,0:00:19.87,Caption,,0,0,204,,{\c&H00DFB32B}usage{\c&H00FFFFFF} on a daily basis
+Dialogue: 0,0:00:19.87,0:00:19.95,Caption,,0,0,204,,usage {\c&H00DFB32B}on{\c&H00FFFFFF} a daily basis
+Dialogue: 0,0:00:19.95,0:00:20.17,Caption,,0,0,204,,usage on {\c&H00DFB32B}a{\c&H00FFFFFF} daily basis
+Dialogue: 0,0:00:20.17,0:00:20.55,Caption,,0,0,204,,usage on a {\c&H00DFB32B}daily{\c&H00FFFFFF} basis
+Dialogue: 0,0:00:20.55,0:00:20.77,Caption,,0,0,204,,usage on a daily {\c&H00DFB32B}basis{\c&H00FFFFFF}
+Dialogue: 0,0:00:20.77,0:00:20.95,Caption,,0,0,204,,{\c&H00DFB32B}that{\c&H00FFFFFF} we track very
+Dialogue: 0,0:00:20.95,0:00:21.23,Caption,,0,0,204,,that {\c&H00DFB32B}we{\c&H00FFFFFF} track very
+Dialogue: 0,0:00:21.23,0:00:21.53,Caption,,0,0,204,,that we {\c&H00DFB32B}track{\c&H00FFFFFF} very
+Dialogue: 0,0:00:21.53,0:00:21.87,Caption,,0,0,204,,that we track {\c&H00DFB32B}very{\c&H00FFFFFF}
+Dialogue: 0,0:00:21.87,0:00:22.79,Caption,,0,0,204,,{\c&H00DFB32B}regularly{\c&H00FFFFFF}
+Dialogue: 0,0:00:22.79,0:00:22.93,Caption,,0,0,204,,{\c&H00DFB32B}but{\c&H00FFFFFF} on the expense side
+Dialogue: 0,0:00:22.93,0:00:23.01,Caption,,0,0,204,,but {\c&H00DFB32B}on{\c&H00FFFFFF} the expense side
+Dialogue: 0,0:00:23.01,0:00:23.41,Caption,,0,0,204,,but on {\c&H00DFB32B}the{\c&H00FFFFFF} expense side
+Dialogue: 0,0:00:23.41,0:00:23.79,Caption,,0,0,204,,but on the {\c&H00DFB32B}expense{\c&H00FFFFFF} side
+Dialogue: 0,0:00:23.79,0:00:24.37,Caption,,0,0,204,,but on the expense {\c&H00DFB32B}side{\c&H00FFFFFF}
+Dialogue: 0,0:00:24.37,0:00:24.77,Caption,,0,0,204,,{\c&H00DFB32B}understanding{\c&H00FFFFFF} where the
+Dialogue: 0,0:00:24.77,0:00:24.95,Caption,,0,0,204,,understanding {\c&H00DFB32B}where{\c&H00FFFFFF} the
+Dialogue: 0,0:00:24.95,0:00:25.19,Caption,,0,0,204,,understanding where {\c&H00DFB32B}the{\c&H00FFFFFF}
+Dialogue: 0,0:00:25.19,0:00:25.61,Caption,,0,0,204,,{\c&H00DFB32B}month{\c&H00FFFFFF} closed
+Dialogue: 0,0:00:25.61,0:00:26.27,Caption,,0,0,204,,month {\c&H00DFB32B}closed{\c&H00FFFFFF}
+Dialogue: 0,0:00:26.27,0:00:26.41,Caption,,0,0,204,,{\c&H00DFB32B}how{\c&H00FFFFFF} we're tracking
+Dialogue: 0,0:00:26.41,0:00:26.69,Caption,,0,0,204,,how {\c&H00DFB32B}we're{\c&H00FFFFFF} tracking
+Dialogue: 0,0:00:26.69,0:00:27.05,Caption,,0,0,204,,how we're {\c&H00DFB32B}tracking{\c&H00FFFFFF}
+Dialogue: 0,0:00:27.05,0:00:27.47,Caption,,0,0,203,,{\c&H00DFB32B}against{\c&H00FFFFFF} plan
+Dialogue: 0,0:00:27.47,0:00:28.17,Caption,,0,0,203,,against {\c&H00DFB32B}plan{\c&H00FFFFFF}
+Dialogue: 0,0:00:28.17,0:00:28.81,Caption,,0,0,204,,{\c&H00DFB32B}and{\c&H00FFFFFF} fine-tuning that
+Dialogue: 0,0:00:28.81,0:00:29.45,Caption,,0,0,204,,and {\c&H00DFB32B}fine-tuning{\c&H00FFFFFF} that
+Dialogue: 0,0:00:29.45,0:00:29.63,Caption,,0,0,204,,and fine-tuning {\c&H00DFB32B}that{\c&H00FFFFFF}
+Dialogue: 0,0:00:29.63,0:00:29.77,Caption,,0,0,204,,{\c&H00DFB32B}I{\c&H00FFFFFF} think actually moving
+Dialogue: 0,0:00:29.77,0:00:30.07,Caption,,0,0,204,,I {\c&H00DFB32B}think{\c&H00FFFFFF} actually moving
+Dialogue: 0,0:00:30.07,0:00:30.41,Caption,,0,0,204,,I think {\c&H00DFB32B}actually{\c&H00FFFFFF} moving
+Dialogue: 0,0:00:30.41,0:00:30.81,Caption,,0,0,204,,I think actually {\c&H00DFB32B}moving{\c&H00FFFFFF}
+Dialogue: 0,0:00:30.81,0:00:31.01,Caption,,0,0,204,,{\c&H00DFB32B}past{\c&H00FFFFFF} a monthly process
+Dialogue: 0,0:00:31.01,0:00:31.25,Caption,,0,0,204,,past {\c&H00DFB32B}a{\c&H00FFFFFF} monthly process
+Dialogue: 0,0:00:31.25,0:00:31.71,Caption,,0,0,204,,past a {\c&H00DFB32B}monthly{\c&H00FFFFFF} process
+Dialogue: 0,0:00:31.71,0:00:31.93,Caption,,0,0,204,,past a monthly {\c&H00DFB32B}process{\c&H00FFFFFF}
+Dialogue: 0,0:00:31.93,0:00:32.07,Caption,,0,0,204,,{\c&H00DFB32B}would{\c&H00FFFFFF} be more noise than
+Dialogue: 0,0:00:32.07,0:00:32.29,Caption,,0,0,204,,would {\c&H00DFB32B}be{\c&H00FFFFFF} more noise than
+Dialogue: 0,0:00:32.29,0:00:32.69,Caption,,0,0,204,,would be {\c&H00DFB32B}more{\c&H00FFFFFF} noise than
+Dialogue: 0,0:00:32.69,0:00:32.97,Caption,,0,0,204,,would be more {\c&H00DFB32B}noise{\c&H00FFFFFF} than
+Dialogue: 0,0:00:32.97,0:00:33.45,Caption,,0,0,204,,would be more noise {\c&H00DFB32B}than{\c&H00FFFFFF}
+Dialogue: 0,0:00:33.45,0:00:33.63,Caption,,0,0,204,,{\c&H00DFB32B}use{\c&H00FFFFFF} for us.
+Dialogue: 0,0:00:33.63,0:00:33.91,Caption,,0,0,204,,use {\c&H00DFB32B}for{\c&H00FFFFFF} us.
+Dialogue: 0,0:00:33.91,0:00:34.50,Caption,,0,0,204,,use for {\c&H00DFB32B}us.{\c&H00FFFFFF}

@@ -1,54 +1,106 @@
 [Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
-PlayResY: 1440
+PlayResY: 1920
 WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:00:43.39,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tim Glaser (PostHog)
-Dialogue: 2,0:00:00.20,0:00:43.39,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“If Claude can build it in a
-Dialogue: 2,0:00:00.20,0:00:43.39,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}day, why would anyone pay
-Dialogue: 2,0:00:00.20,0:00:43.39,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}you for it?”
-Dialogue: 0,0:00:00.10,0:00:01.16,Caption,,0,0,0,,It's maybe not even like
-Dialogue: 0,0:00:01.16,0:00:01.76,Caption,,0,0,0,,go-to-market
-Dialogue: 0,0:00:01.76,0:00:04.70,Caption,,0,0,0,,but I was giving a talk
-Dialogue: 0,0:00:04.70,0:00:06.78,Caption,,0,0,0,,yesterday to a sort of
-Dialogue: 0,0:00:06.78,0:00:08.65,Caption,,0,0,0,,full hacker house
-Dialogue: 0,0:00:08.65,0:00:10.43,Caption,,0,0,0,,and one of the things I
-Dialogue: 0,0:00:10.43,0:00:12.09,Caption,,0,0,0,,said was
-Dialogue: 0,0:00:12.09,0:00:13.65,Caption,,0,0,0,,Look, if you can build
-Dialogue: 0,0:00:13.65,0:00:14.79,Caption,,0,0,0,,something in a day with
-Dialogue: 0,0:00:14.79,0:00:15.81,Caption,,0,0,0,,Claude, like
-Dialogue: 0,0:00:15.81,0:00:16.73,Caption,,0,0,0,,why would anyone else
-Dialogue: 0,0:00:16.73,0:00:17.37,Caption,,0,0,0,,pay you for that
-Dialogue: 0,0:00:17.37,0:00:18.35,Caption,,0,0,0,,right? Like
-Dialogue: 0,0:00:18.35,0:00:19.29,Caption,,0,0,0,,they can do the same
-Dialogue: 0,0:00:19.29,0:00:20.59,Caption,,0,0,0,,thing. The bar is
-Dialogue: 0,0:00:20.59,0:00:21.77,Caption,,0,0,0,,like, much higher now
-Dialogue: 0,0:00:21.77,0:00:22.19,Caption,,0,0,0,,for, like
-Dialogue: 0,0:00:22.19,0:00:24.24,Caption,,0,0,0,,good software or
-Dialogue: 0,0:00:24.24,0:00:24.84,Caption,,0,0,0,,software that's valuable
-Dialogue: 0,0:00:24.84,0:00:25.82,Caption,,0,0,0,,enough for people to buy
-Dialogue: 0,0:00:25.82,0:00:26.98,Caption,,0,0,0,,it from you instead of
-Dialogue: 0,0:00:26.98,0:00:28.04,Caption,,0,0,0,,from other people.
-Dialogue: 0,0:00:28.04,0:00:29.08,Caption,,0,0,0,,So, you know
-Dialogue: 0,0:00:29.08,0:00:29.74,Caption,,0,0,0,,I do think
-Dialogue: 0,0:00:29.74,0:00:31.50,Caption,,0,0,0,,like, you know
-Dialogue: 0,0:00:31.50,0:00:32.64,Caption,,0,0,0,,a modicum of sort of
-Dialogue: 0,0:00:32.64,0:00:33.04,Caption,,0,0,0,,effort or
-Dialogue: 0,0:00:33.04,0:00:34.46,Caption,,0,0,0,,like, how defensible is
-Dialogue: 0,0:00:34.46,0:00:35.95,Caption,,0,0,0,,this thing
-Dialogue: 0,0:00:36.06,0:00:37.78,Caption,,0,0,0,,I think has raised the
-Dialogue: 0,0:00:37.78,0:00:38.76,Caption,,0,0,0,,bar for what kind of
-Dialogue: 0,0:00:38.76,0:00:39.42,Caption,,0,0,0,,software actually makes
-Dialogue: 0,0:00:39.42,0:00:40.14,Caption,,0,0,0,,sense to build anymore
-Dialogue: 0,0:00:40.14,0:00:40.88,Caption,,0,0,0,,and what software makes
-Dialogue: 0,0:00:40.88,0:00:42.24,Caption,,0,0,0,,sense to kind of try to
-Dialogue: 0,0:00:42.24,0:00:43.39,Caption,,0,0,0,,sell.
+Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}If{\c&H00FFFFFF\fscx100\fscy100} you can build
+Dialogue: 0,0:00:00.20,0:00:00.40,Caption,,0,0,600,,If {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} can build
+Dialogue: 0,0:00:00.40,0:00:00.66,Caption,,0,0,600,,If you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} build
+Dialogue: 0,0:00:00.66,0:00:01.06,Caption,,0,0,600,,If you can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}build{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.06,0:00:01.34,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100} in a day
+Dialogue: 0,0:00:01.34,0:00:01.46,Caption,,0,0,600,,something {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} a day
+Dialogue: 0,0:00:01.46,0:00:01.70,Caption,,0,0,600,,something in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} day
+Dialogue: 0,0:00:01.70,0:00:01.94,Caption,,0,0,600,,something in a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}day{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.94,0:00:02.20,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}with{\c&H00FFFFFF\fscx100\fscy100} Claude
+Dialogue: 0,0:00:02.20,0:00:02.92,Caption,,0,0,600,,with {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Claude{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.92,0:00:03.08,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}why{\c&H00FFFFFF\fscx100\fscy100} would anyone else
+Dialogue: 0,0:00:03.08,0:00:03.36,Caption,,0,0,600,,why {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}would{\c&H00FFFFFF\fscx100\fscy100} anyone else
+Dialogue: 0,0:00:03.36,0:00:03.62,Caption,,0,0,600,,why would {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}anyone{\c&H00FFFFFF\fscx100\fscy100} else
+Dialogue: 0,0:00:03.62,0:00:03.84,Caption,,0,0,600,,why would anyone {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}else{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.84,0:00:04.00,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pay{\c&H00FFFFFF\fscx100\fscy100} you for that
+Dialogue: 0,0:00:04.00,0:00:04.14,Caption,,0,0,600,,pay {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} for that
+Dialogue: 0,0:00:04.14,0:00:04.28,Caption,,0,0,600,,pay you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:04.28,0:00:04.52,Caption,,0,0,600,,pay you for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.52,0:00:04.68,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}They{\c&H00FFFFFF\fscx100\fscy100} can do the same
+Dialogue: 0,0:00:04.68,0:00:04.82,Caption,,0,0,600,,They {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} do the same
+Dialogue: 0,0:00:04.82,0:00:04.96,Caption,,0,0,600,,They can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} the same
+Dialogue: 0,0:00:04.96,0:00:05.14,Caption,,0,0,600,,They can do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} same
+Dialogue: 0,0:00:05.14,0:00:05.46,Caption,,0,0,600,,They can do the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}same{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.46,0:00:06.02,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}thing.{\c&H00FFFFFF\fscx100\fscy100} The bar is
+Dialogue: 0,0:00:06.02,0:00:06.28,Caption,,0,0,600,,thing. {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}The{\c&H00FFFFFF\fscx100\fscy100} bar is
+Dialogue: 0,0:00:06.28,0:00:06.52,Caption,,0,0,600,,thing. The {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}bar{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:06.52,0:00:06.80,Caption,,0,0,600,,thing. The bar {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.80,0:00:07.10,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}much{\c&H00FFFFFF\fscx100\fscy100} higher now for
+Dialogue: 0,0:00:07.10,0:00:07.34,Caption,,0,0,600,,much {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}higher{\c&H00FFFFFF\fscx100\fscy100} now for
+Dialogue: 0,0:00:07.34,0:00:07.54,Caption,,0,0,600,,much higher {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:07.54,0:00:07.75,Caption,,0,0,600,,much higher now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.75,0:00:08.13,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}good{\c&H00FFFFFF\fscx100\fscy100} software or
+Dialogue: 0,0:00:08.13,0:00:09.14,Caption,,0,0,600,,good {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software{\c&H00FFFFFF\fscx100\fscy100} or
+Dialogue: 0,0:00:09.14,0:00:09.62,Caption,,0,0,600,,good software {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.62,0:00:09.76,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software{\c&H00FFFFFF\fscx100\fscy100} that's
+Dialogue: 0,0:00:09.76,0:00:10.02,Caption,,0,0,600,,software {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.02,0:00:10.22,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}valuable{\c&H00FFFFFF\fscx100\fscy100} enough for
+Dialogue: 0,0:00:10.22,0:00:10.36,Caption,,0,0,600,,valuable {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}enough{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:10.36,0:00:10.52,Caption,,0,0,600,,valuable enough {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.52,0:00:10.70,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100} to buy it from
+Dialogue: 0,0:00:10.70,0:00:11.06,Caption,,0,0,600,,people {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} buy it from
+Dialogue: 0,0:00:11.06,0:00:11.20,Caption,,0,0,600,,people to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}buy{\c&H00FFFFFF\fscx100\fscy100} it from
+Dialogue: 0,0:00:11.20,0:00:11.40,Caption,,0,0,600,,people to buy {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} from
+Dialogue: 0,0:00:11.40,0:00:11.64,Caption,,0,0,600,,people to buy it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.64,0:00:11.90,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} instead of from
+Dialogue: 0,0:00:11.90,0:00:12.08,Caption,,0,0,600,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}instead{\c&H00FFFFFF\fscx100\fscy100} of from
+Dialogue: 0,0:00:12.08,0:00:12.36,Caption,,0,0,600,,you instead {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} from
+Dialogue: 0,0:00:12.36,0:00:12.92,Caption,,0,0,600,,you instead of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.92,0:00:13.18,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}other{\c&H00FFFFFF\fscx100\fscy100} people.
+Dialogue: 0,0:00:13.18,0:00:13.55,Caption,,0,0,600,,other {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.55,0:00:13.69,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} do think
+Dialogue: 0,0:00:13.69,0:00:13.95,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} think
+Dialogue: 0,0:00:13.95,0:00:14.34,Caption,,0,0,600,,I do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.34,0:00:14.58,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} modicum of sort of
+Dialogue: 0,0:00:14.58,0:00:14.88,Caption,,0,0,600,,a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}modicum{\c&H00FFFFFF\fscx100\fscy100} of sort of
+Dialogue: 0,0:00:14.88,0:00:15.00,Caption,,0,0,600,,a modicum {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} sort of
+Dialogue: 0,0:00:15.00,0:00:15.08,Caption,,0,0,600,,a modicum of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sort{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:15.08,0:00:15.48,Caption,,0,0,600,,a modicum of sort {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.48,0:00:15.72,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}effort{\c&H00FFFFFF\fscx100\fscy100} or
+Dialogue: 0,0:00:15.72,0:00:16.06,Caption,,0,0,600,,effort {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.06,0:00:16.26,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100} defensible is this
+Dialogue: 0,0:00:16.26,0:00:16.68,Caption,,0,0,600,,how {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}defensible{\c&H00FFFFFF\fscx100\fscy100} is this
+Dialogue: 0,0:00:16.68,0:00:16.84,Caption,,0,0,600,,how defensible {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} this
+Dialogue: 0,0:00:16.84,0:00:17.08,Caption,,0,0,600,,how defensible is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.08,0:00:17.69,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}thing{\c&H00FFFFFF\fscx100\fscy100} I think has
+Dialogue: 0,0:00:17.69,0:00:17.81,Caption,,0,0,600,,thing {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think has
+Dialogue: 0,0:00:17.81,0:00:18.71,Caption,,0,0,600,,thing I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} has
+Dialogue: 0,0:00:18.71,0:00:18.99,Caption,,0,0,600,,thing I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}has{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.99,0:00:19.13,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}raised{\c&H00FFFFFF\fscx100\fscy100} the bar for
+Dialogue: 0,0:00:19.13,0:00:19.41,Caption,,0,0,600,,raised {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} bar for
+Dialogue: 0,0:00:19.41,0:00:19.73,Caption,,0,0,600,,raised the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}bar{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:19.73,0:00:19.93,Caption,,0,0,600,,raised the bar {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.93,0:00:20.07,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100} kind of software
+Dialogue: 0,0:00:20.07,0:00:20.13,Caption,,0,0,600,,what {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100} of software
+Dialogue: 0,0:00:20.13,0:00:20.39,Caption,,0,0,600,,what kind {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} software
+Dialogue: 0,0:00:20.39,0:00:20.59,Caption,,0,0,600,,what kind of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.59,0:00:20.81,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} makes sense
+Dialogue: 0,0:00:20.81,0:00:21.05,Caption,,0,0,600,,actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}makes{\c&H00FFFFFF\fscx100\fscy100} sense
+Dialogue: 0,0:00:21.05,0:00:21.21,Caption,,0,0,600,,actually makes {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sense{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.21,0:00:21.33,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} build anymore
+Dialogue: 0,0:00:21.33,0:00:21.59,Caption,,0,0,600,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}build{\c&H00FFFFFF\fscx100\fscy100} anymore
+Dialogue: 0,0:00:21.59,0:00:21.77,Caption,,0,0,600,,to build {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}anymore{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.77,0:00:21.87,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} what software
+Dialogue: 0,0:00:21.87,0:00:22.13,Caption,,0,0,600,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100} software
+Dialogue: 0,0:00:22.13,0:00:22.29,Caption,,0,0,600,,and what {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.29,0:00:22.51,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}makes{\c&H00FFFFFF\fscx100\fscy100} sense to kind of
+Dialogue: 0,0:00:22.51,0:00:22.65,Caption,,0,0,600,,makes {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sense{\c&H00FFFFFF\fscx100\fscy100} to kind of
+Dialogue: 0,0:00:22.65,0:00:22.77,Caption,,0,0,600,,makes sense {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} kind of
+Dialogue: 0,0:00:22.77,0:00:22.93,Caption,,0,0,600,,makes sense to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:22.93,0:00:23.49,Caption,,0,0,600,,makes sense to kind {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.49,0:00:23.63,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}try{\c&H00FFFFFF\fscx100\fscy100} to sell.
+Dialogue: 0,0:00:23.63,0:00:23.87,Caption,,0,0,600,,try {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} sell.
+Dialogue: 0,0:00:23.87,0:00:24.62,Caption,,0,0,600,,try to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sell.{\c&H00FFFFFF\fscx100\fscy100}

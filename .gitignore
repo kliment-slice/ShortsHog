@@ -33,3 +33,10 @@ events/synth-test/
 events/*/faces/*.cam*.json
 !events/*/faces/*.tracks.json
 events/*/faces/*.jpg
+
+# stock graphics are re-fetched from their source by id; the license notes are kept
+events/*/overlays/*
+!events/*/overlays/*.license.json
+
+# API keys (PIXABAY_API_KEY, PEXELS_API_KEY)
+.env

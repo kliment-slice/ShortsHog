@@ -1,0 +1,57 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.22,0:00:04.72,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00DFB32B}Tom Piccirello (PostHog)
+Dialogue: 3,0:00:01.22,0:00:04.72,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Security gets worse
+Dialogue: 3,0:00:01.22,0:00:04.72,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}before it gets better”
+Dialogue: 0,0:00:00.00,0:00:01.16,Caption,,0,0,0,,It gets worse before it
+Dialogue: 0,0:00:01.16,0:00:02.06,Caption,,0,0,0,,gets better
+Dialogue: 0,0:00:02.06,0:00:04.12,Caption,,0,0,0,,you have this tech debt
+Dialogue: 0,0:00:04.12,0:00:04.82,Caption,,0,0,0,,effectively of code that
+Dialogue: 0,0:00:04.82,0:00:06.66,Caption,,0,0,0,,was written already
+Dialogue: 0,0:00:06.66,0:00:08.24,Caption,,0,0,0,,right everything from I
+Dialogue: 0,0:00:08.24,0:00:09.02,Caption,,0,0,0,,mean including today
+Dialogue: 0,0:00:09.02,0:00:09.84,Caption,,0,0,0,,because agents are still
+Dialogue: 0,0:00:09.84,0:00:11.07,Caption,,0,0,0,,shipping vulnerabilities
+Dialogue: 0,0:00:11.07,0:00:11.95,Caption,,0,0,0,,so you will have to pay
+Dialogue: 0,0:00:11.95,0:00:13.17,Caption,,0,0,0,,that down so
+Dialogue: 0,0:00:13.17,0:00:14.15,Caption,,0,0,0,,theoretically over time
+Dialogue: 0,0:00:14.15,0:00:15.21,Caption,,0,0,0,,you're gonna you
+Dialogue: 0,0:00:15.21,0:00:15.89,Caption,,0,0,0,,converge on this point
+Dialogue: 0,0:00:15.89,0:00:16.47,Caption,,0,0,0,,where you're not
+Dialogue: 0,0:00:16.47,0:00:17.11,Caption,,0,0,0,,shipping new
+Dialogue: 0,0:00:17.11,0:00:18.61,Caption,,0,0,0,,vulnerabilities mostly
+Dialogue: 0,0:00:18.61,0:00:19.19,Caption,,0,0,0,,and you're paying down
+Dialogue: 0,0:00:19.19,0:00:20.04,Caption,,0,0,0,,the old ones
+Dialogue: 0,0:00:20.04,0:00:21.70,Caption,,0,0,0,,I can tell you for an
+Dialogue: 0,0:00:21.70,0:00:23.32,Caption,,0,0,0,,organization with 130
+Dialogue: 0,0:00:23.32,0:00:23.94,Caption,,0,0,0,,engineers that's it's
+Dialogue: 0,0:00:23.94,0:00:26.08,Caption,,0,0,0,,not easy and agents can
+Dialogue: 0,0:00:26.08,0:00:27.66,Caption,,0,0,0,,fix most of them many of
+Dialogue: 0,0:00:27.66,0:00:28.68,Caption,,0,0,0,,them some of them
+Dialogue: 0,0:00:28.68,0:00:29.34,Caption,,0,0,0,,require product
+Dialogue: 0,0:00:29.34,0:00:30.52,Caption,,0,0,0,,decisions so like that
+Dialogue: 0,0:00:30.52,0:00:31.79,Caption,,0,0,0,,can't be automated
+Dialogue: 0,0:00:31.79,0:00:32.81,Caption,,0,0,0,,it will get better
+Dialogue: 0,0:00:32.81,0:00:33.55,Caption,,0,0,0,,things will get better
+Dialogue: 0,0:00:33.55,0:00:34.43,Caption,,0,0,0,,but I think it maybe it
+Dialogue: 0,0:00:34.43,0:00:35.39,Caption,,0,0,0,,gets a little worse
+Dialogue: 0,0:00:35.39,0:00:36.55,Caption,,0,0,0,,before then and like
+Dialogue: 0,0:00:36.55,0:00:37.45,Caption,,0,0,0,,this week is a great
+Dialogue: 0,0:00:37.45,0:00:38.05,Caption,,0,0,0,,example of that and a
+Dialogue: 0,0:00:38.05,0:00:38.85,Caption,,0,0,0,,lot of goods gonna come
+Dialogue: 0,0:00:38.85,0:00:39.91,Caption,,0,0,0,,out of it but it's a
+Dialogue: 0,0:00:39.91,0:00:40.67,Caption,,0,0,0,,shit week that's just
+Dialogue: 0,0:00:40.67,0:00:41.25,Caption,,0,0,0,,how it goes

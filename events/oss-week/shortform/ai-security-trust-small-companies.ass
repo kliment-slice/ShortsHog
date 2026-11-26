@@ -1,0 +1,50 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Open source got us into
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}enterprises that had no
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}other reason to trust
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,324)\fad(180,220)}us”
+Dialogue: 0,0:00:00.00,0:00:00.78,Caption,,0,0,0,,When it was just me and
+Dialogue: 0,0:00:00.78,0:00:01.70,Caption,,0,0,0,,my co-founder and we
+Dialogue: 0,0:00:01.70,0:00:02.84,Caption,,0,0,0,,were pitching some
+Dialogue: 0,0:00:02.84,0:00:03.72,Caption,,0,0,0,,really large
+Dialogue: 0,0:00:03.72,0:00:04.53,Caption,,0,0,0,,enterprises
+Dialogue: 0,0:00:04.53,0:00:05.37,Caption,,0,0,0,,a question we'd
+Dialogue: 0,0:00:05.37,0:00:06.51,Caption,,0,0,0,,constantly get asked is
+Dialogue: 0,0:00:06.51,0:00:07.43,Caption,,0,0,0,,like, well
+Dialogue: 0,0:00:07.43,0:00:08.29,Caption,,0,0,0,,who are you guys?
+Dialogue: 0,0:00:08.29,0:00:09.05,Caption,,0,0,0,,We've never heard of
+Dialogue: 0,0:00:09.05,0:00:09.90,Caption,,0,0,0,,your name.
+Dialogue: 0,0:00:09.90,0:00:11.04,Caption,,0,0,0,,And the answer we would
+Dialogue: 0,0:00:11.04,0:00:11.84,Caption,,0,0,0,,have would be
+Dialogue: 0,0:00:11.84,0:00:12.56,Caption,,0,0,0,,well, we have an open
+Dialogue: 0,0:00:12.56,0:00:13.30,Caption,,0,0,0,,source project
+Dialogue: 0,0:00:13.30,0:00:14.54,Caption,,0,0,0,,and so like your
+Dialogue: 0,0:00:14.54,0:00:15.98,Caption,,0,0,0,,security team can
+Dialogue: 0,0:00:15.98,0:00:16.92,Caption,,0,0,0,,inspect the code base
+Dialogue: 0,0:00:16.92,0:00:17.58,Caption,,0,0,0,,you can run it in your
+Dialogue: 0,0:00:17.58,0:00:19.08,Caption,,0,0,0,,own infrastructure.
+Dialogue: 0,0:00:19.08,0:00:20.70,Caption,,0,0,0,,And that helped us build
+Dialogue: 0,0:00:20.70,0:00:22.04,Caption,,0,0,0,,trust and get deployed
+Dialogue: 0,0:00:22.04,0:00:23.74,Caption,,0,0,0,,at large enterprises
+Dialogue: 0,0:00:23.74,0:00:24.94,Caption,,0,0,0,,when they would have had
+Dialogue: 0,0:00:24.94,0:00:25.90,Caption,,0,0,0,,no other reason really
+Dialogue: 0,0:00:25.90,0:00:27.43,Caption,,0,0,0,,to trust us.
+Dialogue: 0,0:00:27.43,0:00:28.49,Caption,,0,0,0,,And so I think that's
+Dialogue: 0,0:00:28.49,0:00:30.96,Caption,,0,0,0,,still an accruing reason
+Dialogue: 0,0:00:30.96,0:00:32.76,Caption,,0,0,0,,for enterprises to trust
+Dialogue: 0,0:00:32.76,0:00:34.32,Caption,,0,0,0,,small companies.

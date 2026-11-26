@@ -1,0 +1,35 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Security can be a
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}differentiator that wins
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}deals”
+Dialogue: 0,0:00:00.00,0:00:01.26,Caption,,0,0,0,,I think you can start to
+Dialogue: 0,0:00:01.26,0:00:02.54,Caption,,0,0,0,,use security as like a
+Dialogue: 0,0:00:02.54,0:00:03.16,Caption,,0,0,0,,differentiator
+Dialogue: 0,0:00:03.16,0:00:03.68,Caption,,0,0,0,,which I actually think
+Dialogue: 0,0:00:03.68,0:00:04.92,Caption,,0,0,0,,is a great thing.
+Dialogue: 0,0:00:04.92,0:00:06.67,Caption,,0,0,0,,Everyone's starting to
+Dialogue: 0,0:00:06.67,0:00:08.01,Caption,,0,0,0,,really take this more
+Dialogue: 0,0:00:08.01,0:00:08.93,Caption,,0,0,0,,seriously and so it can
+Dialogue: 0,0:00:08.93,0:00:10.15,Caption,,0,0,0,,almost be part of your
+Dialogue: 0,0:00:10.15,0:00:11.45,Caption,,0,0,0,,value prop something
+Dialogue: 0,0:00:11.45,0:00:12.43,Caption,,0,0,0,,that can help you win
+Dialogue: 0,0:00:12.43,0:00:15.56,Caption,,0,0,0,,deals so I think yes
+Dialogue: 0,0:00:15.56,0:00:17.00,Caption,,0,0,0,,startups are gonna take
+Dialogue: 0,0:00:17.00,0:00:18.67,Caption,,0,0,0,,security more seriously
+Dialogue: 0,0:00:18.67,0:00:19.27,Caption,,0,0,0,,but I think that's a
+Dialogue: 0,0:00:19.27,0:00:20.15,Caption,,0,0,0,,good thing

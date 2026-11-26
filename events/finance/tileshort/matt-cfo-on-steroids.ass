@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.19,Caption,,0,0,420,,{\c&H00DFB32B}The{\c&H00FFFFFF} role has for a long
+Dialogue: 0,0:00:00.19,0:00:00.47,Caption,,0,0,420,,The {\c&H00DFB32B}role{\c&H00FFFFFF} has for a long
+Dialogue: 0,0:00:00.47,0:00:00.67,Caption,,0,0,420,,The role {\c&H00DFB32B}has{\c&H00FFFFFF} for a long
+Dialogue: 0,0:00:00.67,0:00:00.79,Caption,,0,0,420,,The role has {\c&H00DFB32B}for{\c&H00FFFFFF} a long
+Dialogue: 0,0:00:00.79,0:00:00.95,Caption,,0,0,420,,The role has for {\c&H00DFB32B}a{\c&H00FFFFFF} long
+Dialogue: 0,0:00:00.95,0:00:01.21,Caption,,0,0,420,,The role has for a {\c&H00DFB32B}long{\c&H00FFFFFF}
+Dialogue: 0,0:00:01.21,0:00:01.43,Caption,,0,0,420,,{\c&H00DFB32B}time{\c&H00FFFFFF} been like helping
+Dialogue: 0,0:00:01.43,0:00:01.71,Caption,,0,0,420,,time {\c&H00DFB32B}been{\c&H00FFFFFF} like helping
+Dialogue: 0,0:00:01.71,0:00:02.39,Caption,,0,0,420,,time been {\c&H00DFB32B}like{\c&H00FFFFFF} helping
+Dialogue: 0,0:00:02.39,0:00:02.55,Caption,,0,0,420,,time been like {\c&H00DFB32B}helping{\c&H00FFFFFF}
+Dialogue: 0,0:00:02.55,0:00:02.85,Caption,,0,0,420,,{\c&H00DFB32B}the{\c&H00FFFFFF} company make smart
+Dialogue: 0,0:00:02.85,0:00:03.13,Caption,,0,0,420,,the {\c&H00DFB32B}company{\c&H00FFFFFF} make smart
+Dialogue: 0,0:00:03.13,0:00:03.37,Caption,,0,0,420,,the company {\c&H00DFB32B}make{\c&H00FFFFFF} smart
+Dialogue: 0,0:00:03.37,0:00:03.81,Caption,,0,0,420,,the company make {\c&H00DFB32B}smart{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.81,0:00:04.35,Caption,,0,0,420,,{\c&H00DFB32B}financial{\c&H00FFFFFF} decisions.
+Dialogue: 0,0:00:04.35,0:00:05.01,Caption,,0,0,420,,financial {\c&H00DFB32B}decisions.{\c&H00FFFFFF}
+Dialogue: 0,0:00:05.01,0:00:05.09,Caption,,0,0,420,,{\c&H00DFB32B}And{\c&H00FFFFFF} I think what AI does
+Dialogue: 0,0:00:05.09,0:00:05.23,Caption,,0,0,420,,And {\c&H00DFB32B}I{\c&H00FFFFFF} think what AI does
+Dialogue: 0,0:00:05.23,0:00:05.39,Caption,,0,0,420,,And I {\c&H00DFB32B}think{\c&H00FFFFFF} what AI does
+Dialogue: 0,0:00:05.39,0:00:05.63,Caption,,0,0,420,,And I think {\c&H00DFB32B}what{\c&H00FFFFFF} AI does
+Dialogue: 0,0:00:05.63,0:00:06.01,Caption,,0,0,420,,And I think what {\c&H00DFB32B}AI{\c&H00FFFFFF} does
+Dialogue: 0,0:00:06.01,0:00:06.29,Caption,,0,0,420,,And I think what AI {\c&H00DFB32B}does{\c&H00FFFFFF}
+Dialogue: 0,0:00:06.29,0:00:06.41,Caption,,0,0,420,,{\c&H00DFB32B}is{\c&H00FFFFFF} it just basically
+Dialogue: 0,0:00:06.41,0:00:06.57,Caption,,0,0,420,,is {\c&H00DFB32B}it{\c&H00FFFFFF} just basically
+Dialogue: 0,0:00:06.57,0:00:06.93,Caption,,0,0,420,,is it {\c&H00DFB32B}just{\c&H00FFFFFF} basically
+Dialogue: 0,0:00:06.93,0:00:07.23,Caption,,0,0,420,,is it just {\c&H00DFB32B}basically{\c&H00FFFFFF}
+Dialogue: 0,0:00:07.23,0:00:07.41,Caption,,0,0,420,,{\c&H00DFB32B}puts{\c&H00FFFFFF} that role on
+Dialogue: 0,0:00:07.41,0:00:07.59,Caption,,0,0,420,,puts {\c&H00DFB32B}that{\c&H00FFFFFF} role on
+Dialogue: 0,0:00:07.59,0:00:07.79,Caption,,0,0,420,,puts that {\c&H00DFB32B}role{\c&H00FFFFFF} on
+Dialogue: 0,0:00:07.79,0:00:08.21,Caption,,0,0,420,,puts that role {\c&H00DFB32B}on{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.21,0:00:08.45,Caption,,0,0,420,,{\c&H00DFB32B}steroids.{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.45,0:00:08.57,Caption,,0,0,420,,{\c&H00DFB32B}You{\c&H00FFFFFF} can do it much
+Dialogue: 0,0:00:08.57,0:00:08.67,Caption,,0,0,420,,You {\c&H00DFB32B}can{\c&H00FFFFFF} do it much
+Dialogue: 0,0:00:08.67,0:00:08.75,Caption,,0,0,420,,You can {\c&H00DFB32B}do{\c&H00FFFFFF} it much
+Dialogue: 0,0:00:08.75,0:00:08.94,Caption,,0,0,420,,You can do {\c&H00DFB32B}it{\c&H00FFFFFF} much
+Dialogue: 0,0:00:08.94,0:00:09.44,Caption,,0,0,420,,You can do it {\c&H00DFB32B}much{\c&H00FFFFFF}
+Dialogue: 0,0:00:09.44,0:00:10.06,Caption,,0,0,420,,{\c&H00DFB32B}faster{\c&H00FFFFFF} You can empower
+Dialogue: 0,0:00:10.06,0:00:10.20,Caption,,0,0,420,,faster {\c&H00DFB32B}You{\c&H00FFFFFF} can empower
+Dialogue: 0,0:00:10.20,0:00:10.58,Caption,,0,0,420,,faster You {\c&H00DFB32B}can{\c&H00FFFFFF} empower
+Dialogue: 0,0:00:10.58,0:00:10.86,Caption,,0,0,420,,faster You can {\c&H00DFB32B}empower{\c&H00FFFFFF}
+Dialogue: 0,0:00:10.86,0:00:11.32,Caption,,0,0,420,,{\c&H00DFB32B}people{\c&H00FFFFFF} much more
+Dialogue: 0,0:00:11.32,0:00:11.66,Caption,,0,0,420,,people {\c&H00DFB32B}much{\c&H00FFFFFF} more
+Dialogue: 0,0:00:11.66,0:00:12.30,Caption,,0,0,420,,people much {\c&H00DFB32B}more{\c&H00FFFFFF}
+Dialogue: 0,0:00:12.30,0:00:12.42,Caption,,0,0,420,,{\c&H00DFB32B}but{\c&H00FFFFFF} you have to make
+Dialogue: 0,0:00:12.42,0:00:12.60,Caption,,0,0,420,,but {\c&H00DFB32B}you{\c&H00FFFFFF} have to make
+Dialogue: 0,0:00:12.60,0:00:12.72,Caption,,0,0,420,,but you {\c&H00DFB32B}have{\c&H00FFFFFF} to make
+Dialogue: 0,0:00:12.72,0:00:12.90,Caption,,0,0,420,,but you have {\c&H00DFB32B}to{\c&H00FFFFFF} make
+Dialogue: 0,0:00:12.90,0:00:13.04,Caption,,0,0,420,,but you have to {\c&H00DFB32B}make{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.04,0:00:13.22,Caption,,0,0,420,,{\c&H00DFB32B}sure{\c&H00FFFFFF} that you're
+Dialogue: 0,0:00:13.22,0:00:13.32,Caption,,0,0,420,,sure {\c&H00DFB32B}that{\c&H00FFFFFF} you're
+Dialogue: 0,0:00:13.32,0:00:13.78,Caption,,0,0,420,,sure that {\c&H00DFB32B}you're{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.78,0:00:14.10,Caption,,0,0,420,,{\c&H00DFB32B}building{\c&H00FFFFFF} sort of the
+Dialogue: 0,0:00:14.10,0:00:14.18,Caption,,0,0,420,,building {\c&H00DFB32B}sort{\c&H00FFFFFF} of the
+Dialogue: 0,0:00:14.18,0:00:14.28,Caption,,0,0,420,,building sort {\c&H00DFB32B}of{\c&H00FFFFFF} the
+Dialogue: 0,0:00:14.28,0:00:14.59,Caption,,0,0,420,,building sort of {\c&H00DFB32B}the{\c&H00FFFFFF}
+Dialogue: 0,0:00:14.59,0:00:14.89,Caption,,0,0,420,,{\c&H00DFB32B}infrastructure{\c&H00FFFFFF} to do
+Dialogue: 0,0:00:14.89,0:00:15.03,Caption,,0,0,420,,infrastructure {\c&H00DFB32B}to{\c&H00FFFFFF} do
+Dialogue: 0,0:00:15.03,0:00:15.19,Caption,,0,0,420,,infrastructure to {\c&H00DFB32B}do{\c&H00FFFFFF}
+Dialogue: 0,0:00:15.19,0:00:15.33,Caption,,0,0,420,,{\c&H00DFB32B}that{\c&H00FFFFFF} in a structured and
+Dialogue: 0,0:00:15.33,0:00:15.43,Caption,,0,0,420,,that {\c&H00DFB32B}in{\c&H00FFFFFF} a structured and
+Dialogue: 0,0:00:15.43,0:00:15.81,Caption,,0,0,420,,that in {\c&H00DFB32B}a{\c&H00FFFFFF} structured and
+Dialogue: 0,0:00:15.81,0:00:15.99,Caption,,0,0,420,,that in a {\c&H00DFB32B}structured{\c&H00FFFFFF} and
+Dialogue: 0,0:00:15.99,0:00:16.31,Caption,,0,0,420,,that in a structured {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:16.31,0:00:16.61,Caption,,0,0,420,,{\c&H00DFB32B}controlled{\c&H00FFFFFF} way.
+Dialogue: 0,0:00:16.61,0:00:17.21,Caption,,0,0,420,,controlled {\c&H00DFB32B}way.{\c&H00FFFFFF}

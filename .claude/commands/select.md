@@ -18,9 +18,14 @@ Select shorts for event `$ARGUMENTS`. This command ENDS with a table and waits f
    - Timestamps come ONLY from whisper. Never use Granola times.
    - Score below ~0.6 means the match is doubtful: check the context or drop the moment.
 5. Apply every FORMAT.md rule: 30-60s (hard max 75s), hook in the first 3s on the strongest line,
-   self-contained, sentence-boundary cuts. Trim or drop candidates that fail.
+   self-contained, sentence-boundary cuts. "## Context and accuracy": the range includes the setup that
+   makes the claim understandable and any qualifier in the next sentence ("but", "except", "in our case",
+   "for us"); if the qualifier changes the meaning and doesn't fit in 75s, drop the moment. Claim ->
+   context -> evidence -> payoff, ending on the payoff sentence. Cut off-story material hard; never cut
+   the setup a point needs. Trim or drop candidates that fail.
 6. Rank, keep at most 5 per panel. Write `events/$ARGUMENTS/shorts.json` as
-   `[{id, panel, in, out, speaker, hook, why, broll_hint}]` (schema in CLAUDE.md).
+   `[{id, panel, in, out, speaker, hook, why, broll_hint}]` (schema in CLAUDE.md). The `hook` text never
+   states the claim more strongly than the speaker did.
    `broll_hint`: a keyword that matches a file in the `broll` folders from `event.yaml`, or null.
 7. Print a table: `id | panel | duration | speaker | hook`, then the opening line of each short.
 

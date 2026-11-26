@@ -6,6 +6,10 @@
 # anchors:   a popup summary of a strong point; `t` = when the speaker starts the sentence that makes it,
 #            so the card appears while they're still on screen.
 # Each new question or anchor is a theme change: it gets the PostHog stripe wipe.
+# cold_open: one anchor sentence (a concrete number or a contrarian claim), 8 to 15 s, played before
+#            the title card. Transcript text; the only clip out of panel order.
+
+cold_open: {from: "if you can build something in a day with Claude", to: "instead of from other people."}
 
 questions:
   - {t: 23.7, label: "Meet the panel", text: "Who's here and what they build"}
@@ -33,12 +37,12 @@ anchors:
   - {t: 640.4, speaker: Tim Glaser, text: "Few people self-host PostHog, but knowing they can builds trust"}
   - {t: 721.4, speaker: Alex Jung, text: "Open core: the kernel is open, the cloud stays closed for security"}
   # Q4: wisdom they disagree with
-  - {t: 824.5, speaker: Tim Glaser, text: "Contributions aren't the value of open source. Feedback is."}
+  - {t: 824.5, speaker: Tim Glaser, text: "For us, open source's value has been feedback, not contributions"}
   - {t: 839.2, speaker: Tim Glaser, text: "Open core failed for PostHog. Charging only for the cloud worked."}
   - {t: 915.4, speaker: Alex Jung, text: "Issues are worth more than pull requests"}
   - {t: 1030.1, speaker: Alex Jung, text: "In-person events beat AI-written outbound"}
   # Q5: where open source goes
-  - {t: 1164.6, speaker: Alex Jung, text: "Maintaining software isn't free, and AI makes it cost real money"}
+  - {t: 1164.6, speaker: Alex Jung, text: "Maintaining software isn't free, and with AI it literally costs you"}
   - {t: 1253.7, speaker: John Simone, text: "Shared foundations like the Linux kernel matter more, not less"}
   # Q6: first 100 users, starting today
   - {t: 1350.5, speaker: Tim Glaser, text: "If Claude can build it in a day, why would anyone pay you for it?"}
@@ -60,23 +64,224 @@ cuts:
   - {from: "Give it a second.", to: "should have read the manual.", why: "mic help"}
   - {from: "You may be entitled", to: "You may be entitled, yeah.", why: "aside"}
 
-# shorts: anchor cards turned into 3:4 shorts (shortform.py). `from` / `to` are transcript text and
-#         cover the speaker's whole thought; `skip` phrases inside the range are cut too.
+# shorts: candidate 3:4 shorts (shortform.py). Only specs with a `hook` render; the rest carry a
+#         `rejected` reason (FORMAT.md "### Selection"). `hook` is the hot take the short opens on,
+#         `from` / `to` the meat (setup and qualifier included), `payoff` the sentence it ends on, `skip` phrases are cut.
 shorts:
   - id: gtm-nintendo-64s
     speaker: Tim Glaser
     anchor: "Giving away Nintendo 64s flopped. You can't bribe your customers."
-    from: "The stuff that didn't work well"
-    to: "Yeah, they work pretty well."
-    skip: ["Cool, cool."]
+    title_key: "You can't bribe your customers."
+    color: violet
+    hook: you can't actually bribe your customers. You do actually have to like provide some value of some sort.
+    from: we were building another type of dev tool
+    to: it literally did not work.
+    beats:
+      - kind: punchline
+        at: give away like Nintendo 64s
+        tags:
+          - video games
+          - gift
+        query: retro video game
+        asset: overlays/pixabay-123972.mp4
+        key: none
+        pos: [0.243, 0.703]
+    key: bribe your customers
   - id: gtm-issues-over-prs
     speaker: Alex Jung
     anchor: "Issues are worth more than pull requests"
+    title_key: "worth more than pull requests"
+    color: blue
     from: "I think definitely the most valuable thing"
     to: "even if you might have substantial tests."
-    skip: ["So this is very, I think, very continuing."]
+    skip:
+      - There was a book on building in the open, it's one of the Stripe Press books, and it shows a power curve in terms of contributors to any open source project.
+      - So this is very, I think, very continuing.
+    hook: I think definitely the most valuable thing we can get from open source is issues more than pull requests.
+    key: issues more than pull requests
   - id: gtm-claude-in-a-day
     speaker: Tim Glaser
     anchor: "If Claude can build it in a day, why would anyone pay you for it?"
-    from: "It's maybe not even like go-to-market"
-    to: "what software makes sense to kind of try to sell."
+    title_key: "why would anyone pay you for it?"
+    color: green
+    hook: if you can build something in a day with Claude, like, why would anyone else pay you for that, right?
+    from: they can do the same thing
+    to: what software makes sense to kind of try to sell.
+    payoff: has raised the bar for what kind of software
+    beats:
+      - kind: punchline
+        at: The bar is, like, much, much higher now
+        tags:
+          - rising bar
+          - higher
+        query: arrow up growth
+        asset: overlays/pixabay-143439.mp4
+        clip_in: 1.0   # the arrow draws itself over the first 2 s: start it halfway, so its head shows
+        pos: [0.243, 0.703]
+      - kind: topic_shift
+        at: how defensible is this thing
+        tags:
+          - defense
+          - moat
+        query: shield
+        asset: overlays/pixabay-24412.mp4
+        pos: [0.243, 0.703]
+    key: why would anyone else pay you
+  - id: gtm-posthog-700k
+    speaker: Tim Glaser
+    anchor: "Open source since day one, now ~700,000 users"
+    from: "one of the co-founders and CEO of PostHog"
+    to: "growing really quickly."
+    rejected: 'pitch: intro, company or product description'
+  - id: gtm-unikraft-linux-foundation
+    speaker: Alex Jung
+    anchor: "Micro VMs, open core, born as a Linux Foundation project"
+    from: "I'm co-founder and chief of product at Unikraft."
+    to: "built a cloud platform around that."
+    rejected: 'pitch: intro, company or product description'
+  - id: gtm-cline-11m-downloads
+    speaker: John Simone
+    anchor: "11M downloads, ~500K monthly active users"
+    from: "Hey, I'm John Simone."
+    to: "half a million active users monthly."
+    rejected: 'pitch: intro, company or product description'
+  - id: gtm-twitter-ads-to-github
+    speaker: Tim Glaser
+    anchor: "A few hundred dollars of Twitter ads to GitHub got the first 100 stars"
+    title_key: "the first 100 stars"
+    color: purple
+    from: "we were in YC, we just pivoted"
+    to: "It's totally kind of net new."
+    hook: it was some of our best converting ads, just like a link to our GitHub,
+    key: best converting ads
+    skip:
+      - and honestly it was some of the best, we did this for a lot of our pivots,
+    payoff: when we launched on Hacker News it already felt like a project
+  - id: gtm-first-users-students
+    speaker: Alex Jung
+    anchor: "The first users were students, found through university workshops"
+    title_key: "students,"
+    color: corn_blue
+    from: "we started off as research."
+    to: "they were taking that course."
+    hook: some of the first users were students, actually.
+    key: students
+  - id: gtm-kernel-grade-reviews
+    speaker: Alex Jung
+    anchor: "Kernel-grade code reviews won partners like ARM and Microsoft"
+    from: "At the time, also, before the whole AI takeover"
+    to: "stable, understood, thought-out software."
+    rejected: 'pitch: intro, company or product description'
+  - id: gtm-unique-gets-tried
+    speaker: John Simone
+    anchor: "In dev tools, unique gets tried. The work is keeping the buzz."
+    from: "So, Cline started at a hackathon"
+    to: "we were successful in doing that."
+    rejected: 'pitch: intro, company or product description'
+  - id: gtm-launch-often
+    speaker: Alex Jung
+    anchor: "Launch often: every new feature and every raise got its own launch"
+    title_key: "Launch often:"
+    color: tangerine
+    from: "so we launch often, or at least at the beginning"
+    to: "That worked really well."
+    hook: launching often, I think, and having these campaigns, they work quite well in terms of bringing people in.
+    key: work quite well
+    skip:
+      - now we're a lot more stable in terms of the features, I mean, very early on, we were still just like, okay, now we landed this because we had the cycles, and whatever, a client comes along, maybe it shifts a little bit the roadmap, but,
+    payoff: That worked really well.
+  - id: gtm-ai-university
+    speaker: John Simone
+    anchor: "Blog content and an AI University series drove the early traction"
+    from: "early early on for us blog content"
+    to: "this is a lot of uptake here."
+    rejected: 'pitch: intro, company or product description'
+  - id: gtm-fortune-500-uphill
+    speaker: John Simone
+    anchor: "Selling into the Fortune 500 as a small company was an uphill battle"
+    from: "that turned into getting inbound hearing from Fortune 500 companies"
+    to: "a lot more friction there than we expected"
+    rejected: no line that stands alone as a take
+  - id: gtm-self-host-trust
+    speaker: Tim Glaser
+    anchor: "Few people self-host PostHog, but knowing they can builds trust"
+    title_key: "builds trust"
+    color: cobalt
+    from: "Yeah, I think for us, it's a trust thing"
+    to: "the benefit is obviously much, much less."
+    hook: very few people self-host PostHog, people like the fact that they can and that actually increases the trust in our cloud product
+    key: increases the trust
+    payoff: the benefit is obviously much, much less.
+  - id: gtm-open-core-security
+    speaker: Alex Jung
+    anchor: "Open core: the kernel is open, the cloud stays closed for security"
+    from: "We're open core and what that means"
+    to: "the cloud platform of our customers as well."
+    rejected: 'pitch: intro, company or product description'
+  - id: gtm-feedback-over-contributions
+    speaker: Tim Glaser
+    anchor: "For us, open source's value has been feedback, not contributions"
+    title_key: "feedback, not contributions"
+    color: green
+    from: "One that I used to hear more is that the value of open source"
+    to: "other people can implement stuff in our software."
+    hook: We've never had really substantial contributions from the community, but for us, it's always been more about feedback.
+    key: more about feedback
+  - id: gtm-cloud-only-monetization
+    speaker: Tim Glaser
+    anchor: "Open core failed for PostHog. Charging only for the cloud worked."
+    title_key: "Charging only for the cloud worked."
+    color: corn_blue
+    parts:  # "...it didn't work because" + "really what customers think they're buying is 24/7 SRE support"
+      - {from: "it's actually interesting that you're open core", to: "and it didn't work because"}
+      - {from: "really what customers think they're buying", to: "word of mouth and usage for our cloud as well."}
+    key: "it really didn't work for us"
+    skip: ["to make sure that like you know PostHog works in every weird iteration of like you know infrastructure that people could come up with", "And I know now people do more like BYOC where they, I guess maybe that's what you do, but where you kind of bring in, you control it, but you're sort of in an account, so that might work better."]
+  - id: gtm-events-beat-outbound
+    speaker: Alex Jung
+    anchor: "In-person events beat AI-written outbound"
+    title_key: "beat AI-written outbound"
+    color: coral
+    from: "I don't like getting AI slop in my inbox."
+    to: "It's going to continue to grow like that."
+    hook: I think it's actually more important to have, like, physical, in-present events than actually all this outbound stuff.
+    key: physical, in-present events
+  - id: gtm-maintenance-costs
+    speaker: Alex Jung
+    anchor: "Maintaining software isn't free, and with AI it literally costs you"
+    title_key: "literally costs you"
+    color: tangerine
+    from: "I think there's a big question about maintainability."
+    to: "Who's going to maintain this, right?"
+    hook: It's not free to maintain software.
+    key: maintain software
+  - id: gtm-shared-foundations
+    speaker: John Simone
+    anchor: "Shared foundations like the Linux kernel matter more, not less"
+    from: "yeah I think there's"
+    to: "on a stable base there"
+    rejected: generic advice, nothing to disagree with
+  - id: gtm-distribution-moat
+    speaker: Tim Glaser
+    anchor: "Distribution is a moat. Find a hook that stands out."
+    title_key: "Distribution is a moat."
+    color: cobalt
+    from: "I think distribution is a moat"
+    to: "a hook that kind of makes sense and it's different."
+    hook: I think distribution is a moat, and I think it has gotten much harder,
+    key: distribution is a moat
+  - id: gtm-forward-deployed
+    speaker: Tim Glaser
+    anchor: "Be a forward-deployed engineer: solve people's problems for them"
+    title_key: "forward-deployed engineer:"
+    color: violet
+    from: "I think it used to be that you could just build some software"
+    to: "get the first couple of customers."
+    hook: So can you be like a forward-deployed engineer that just solves problems for people?
+    key: forward-deployed engineer
+  - id: gtm-free-vs-paid
+    speaker: John Simone
+    anchor: "Find the line between what's free and what people will pay for"
+    from: "Yeah, I think with open source, the most important thing"
+    to: "in the niche where you are"
+    rejected: generic advice, nothing to disagree with

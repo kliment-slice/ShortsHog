@@ -16948,24 +16948,73 @@
   {
    "w": "it's",
    "start": 844.49,
-   "end": 845.49,
+   "end": 844.5,
    "p": 0.282,
-   "speaker": "Tim Glaser"
+   "speaker": "Tim Glaser",
+   "note": "end trimmed: the words after it were missing (second whisper pass)"
   },
   {
-   "w": "so",
-   "start": 844.51,
-   "end": 844.57,
    "p": 0.978,
    "speaker": "Tim Glaser",
-   "refill": true
+   "refill": true,
+   "w": "so,",
+   "start": 844.5,
+   "end": 844.7,
+   "note": "second whisper pass (shortform filler scan): first pass dropped this restart"
   },
   {
+   "p": 0.978,
+   "speaker": "Tim Glaser",
+   "refill": true,
+   "w": "so",
+   "start": 844.7,
+   "end": 844.82,
+   "note": "second whisper pass (shortform filler scan): first pass dropped this restart"
+  },
+  {
+   "p": 0.978,
+   "speaker": "Tim Glaser",
+   "refill": true,
+   "w": "one",
+   "start": 844.82,
+   "end": 845.04,
+   "note": "second whisper pass (shortform filler scan): first pass dropped this restart"
+  },
+  {
+   "p": 0.978,
+   "speaker": "Tim Glaser",
+   "refill": true,
+   "w": "interesting,",
+   "start": 845.04,
+   "end": 845.24,
+   "note": "second whisper pass (shortform filler scan): first pass dropped this restart"
+  },
+  {
+   "p": 0.978,
+   "speaker": "Tim Glaser",
+   "refill": true,
+   "w": "and",
+   "start": 845.24,
+   "end": 845.32,
+   "note": "second whisper pass (shortform filler scan): first pass dropped this restart"
+  },
+  {
+   "p": 0.978,
+   "speaker": "Tim Glaser",
+   "refill": true,
+   "w": "it's",
+   "start": 845.32,
+   "end": 845.52,
+   "note": "second whisper pass (shortform filler scan): first pass dropped this restart"
+  },
+  {
+   "p": 0.978,
+   "speaker": "Tim Glaser",
+   "refill": true,
    "w": "actually",
-   "start": 845.51,
+   "start": 845.52,
    "end": 845.77,
-   "p": 0.664,
-   "speaker": "Tim Glaser"
+   "note": "second whisper pass (shortform filler scan): first pass dropped this restart"
   },
   {
    "w": "interesting",
@@ -20207,17 +20256,19 @@
   },
   {
    "w": "I",
-   "start": 1000.57,
-   "end": 1000.62,
+   "start": 1002.4,
+   "end": 1002.66,
    "p": 0.85,
-   "speaker": "Alex Jung"
+   "speaker": "Alex Jung",
+   "note": "first pass put it on the \"um\" before it; second-pass time (fillers.json)"
   },
   {
    "w": "don't",
-   "start": 1000.57,
-   "end": 1001.57,
+   "start": 1002.66,
+   "end": 1002.98,
    "p": 0.149,
-   "speaker": "Alex Jung"
+   "speaker": "Alex Jung",
+   "note": "first pass put it on the \"um\" before it; second-pass time (fillers.json)"
   },
   {
    "w": "like",
@@ -20656,16 +20707,18 @@
   {
    "w": "like,",
    "start": 1024.31,
-   "end": 1024.69,
+   "end": 1024.5,
    "p": 0.973,
-   "speaker": "Alex Jung"
+   "speaker": "Alex Jung",
+   "note": "end moved to where \"bull\" starts (word-level whisper pass): cutting \"like\" took \"bull\" with it"
   },
   {
    "w": "bullshit.",
-   "start": 1024.69,
+   "start": 1024.5,
    "end": 1025.18,
    "p": 0.658,
-   "speaker": "Alex Jung"
+   "speaker": "Alex Jung",
+   "note": "start moved earlier to \"bull\" (word-level whisper pass)"
   },
   {
    "w": "And,",

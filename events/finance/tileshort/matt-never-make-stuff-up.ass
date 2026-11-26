@@ -1,0 +1,109 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.18,Caption,,0,0,177,,{\c&H00DFB32B}It{\c&H00FFFFFF} has a semantic layer
+Dialogue: 0,0:00:00.18,0:00:00.30,Caption,,0,0,177,,It {\c&H00DFB32B}has{\c&H00FFFFFF} a semantic layer
+Dialogue: 0,0:00:00.30,0:00:00.70,Caption,,0,0,177,,It has {\c&H00DFB32B}a{\c&H00FFFFFF} semantic layer
+Dialogue: 0,0:00:00.70,0:00:01.04,Caption,,0,0,177,,It has a {\c&H00DFB32B}semantic{\c&H00FFFFFF} layer
+Dialogue: 0,0:00:01.04,0:00:01.26,Caption,,0,0,177,,It has a semantic {\c&H00DFB32B}layer{\c&H00FFFFFF}
+Dialogue: 0,0:00:01.26,0:00:01.44,Caption,,0,0,177,,{\c&H00DFB32B}that{\c&H00FFFFFF} then tells it
+Dialogue: 0,0:00:01.44,0:00:01.76,Caption,,0,0,177,,that {\c&H00DFB32B}then{\c&H00FFFFFF} tells it
+Dialogue: 0,0:00:01.76,0:00:01.96,Caption,,0,0,177,,that then {\c&H00DFB32B}tells{\c&H00FFFFFF} it
+Dialogue: 0,0:00:01.96,0:00:02.32,Caption,,0,0,177,,that then tells {\c&H00DFB32B}it{\c&H00FFFFFF}
+Dialogue: 0,0:00:02.32,0:00:02.42,Caption,,0,0,177,,{\c&H00DFB32B}when{\c&H00FFFFFF} you're calculating
+Dialogue: 0,0:00:02.42,0:00:03.06,Caption,,0,0,177,,when {\c&H00DFB32B}you're{\c&H00FFFFFF} calculating
+Dialogue: 0,0:00:03.06,0:00:03.48,Caption,,0,0,177,,when you're {\c&H00DFB32B}calculating{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.48,0:00:03.74,Caption,,0,0,177,,{\c&H00DFB32B}something{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.74,0:00:03.86,Caption,,0,0,177,,{\c&H00DFB32B}this{\c&H00FFFFFF} is how you
+Dialogue: 0,0:00:03.86,0:00:04.00,Caption,,0,0,177,,this {\c&H00DFB32B}is{\c&H00FFFFFF} how you
+Dialogue: 0,0:00:04.00,0:00:04.14,Caption,,0,0,177,,this is {\c&H00DFB32B}how{\c&H00FFFFFF} you
+Dialogue: 0,0:00:04.14,0:00:04.60,Caption,,0,0,177,,this is how {\c&H00DFB32B}you{\c&H00FFFFFF}
+Dialogue: 0,0:00:04.60,0:00:04.92,Caption,,0,0,177,,{\c&H00DFB32B}calculate{\c&H00FFFFFF} it.
+Dialogue: 0,0:00:04.92,0:00:05.30,Caption,,0,0,177,,calculate {\c&H00DFB32B}it.{\c&H00FFFFFF}
+Dialogue: 0,0:00:05.30,0:00:05.40,Caption,,0,0,177,,{\c&H00DFB32B}And{\c&H00FFFFFF} then it has a skill
+Dialogue: 0,0:00:05.40,0:00:05.48,Caption,,0,0,177,,And {\c&H00DFB32B}then{\c&H00FFFFFF} it has a skill
+Dialogue: 0,0:00:05.48,0:00:05.62,Caption,,0,0,177,,And then {\c&H00DFB32B}it{\c&H00FFFFFF} has a skill
+Dialogue: 0,0:00:05.62,0:00:05.74,Caption,,0,0,177,,And then it {\c&H00DFB32B}has{\c&H00FFFFFF} a skill
+Dialogue: 0,0:00:05.74,0:00:06.04,Caption,,0,0,177,,And then it has {\c&H00DFB32B}a{\c&H00FFFFFF} skill
+Dialogue: 0,0:00:06.04,0:00:06.24,Caption,,0,0,177,,And then it has a {\c&H00DFB32B}skill{\c&H00FFFFFF}
+Dialogue: 0,0:00:06.24,0:00:06.44,Caption,,0,0,177,,{\c&H00DFB32B}that{\c&H00FFFFFF} says
+Dialogue: 0,0:00:06.44,0:00:06.74,Caption,,0,0,177,,that {\c&H00DFB32B}says{\c&H00FFFFFF}
+Dialogue: 0,0:00:06.74,0:00:06.84,Caption,,0,0,177,,{\c&H00DFB32B}when{\c&H00FFFFFF} you're building out
+Dialogue: 0,0:00:06.84,0:00:07.30,Caption,,0,0,177,,when {\c&H00DFB32B}you're{\c&H00FFFFFF} building out
+Dialogue: 0,0:00:07.30,0:00:07.66,Caption,,0,0,177,,when you're {\c&H00DFB32B}building{\c&H00FFFFFF} out
+Dialogue: 0,0:00:07.66,0:00:08.90,Caption,,0,0,177,,when you're building {\c&H00DFB32B}out{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.90,0:00:09.34,Caption,,0,0,177,,{\c&H00DFB32B}the{\c&H00FFFFFF} payroll workings or
+Dialogue: 0,0:00:09.34,0:00:09.66,Caption,,0,0,177,,the {\c&H00DFB32B}payroll{\c&H00FFFFFF} workings or
+Dialogue: 0,0:00:09.66,0:00:09.98,Caption,,0,0,177,,the payroll {\c&H00DFB32B}workings{\c&H00FFFFFF} or
+Dialogue: 0,0:00:09.98,0:00:10.10,Caption,,0,0,177,,the payroll workings {\c&H00DFB32B}or{\c&H00FFFFFF}
+Dialogue: 0,0:00:10.10,0:00:10.34,Caption,,0,0,177,,{\c&H00DFB32B}the{\c&H00FFFFFF} RevRec file or
+Dialogue: 0,0:00:10.34,0:00:10.84,Caption,,0,0,177,,the {\c&H00DFB32B}RevRec{\c&H00FFFFFF} file or
+Dialogue: 0,0:00:10.84,0:00:10.96,Caption,,0,0,177,,the RevRec {\c&H00DFB32B}file{\c&H00FFFFFF} or
+Dialogue: 0,0:00:10.96,0:00:11.26,Caption,,0,0,177,,the RevRec file {\c&H00DFB32B}or{\c&H00FFFFFF}
+Dialogue: 0,0:00:11.26,0:00:11.60,Caption,,0,0,177,,{\c&H00DFB32B}whatever{\c&H00FFFFFF}
+Dialogue: 0,0:00:11.60,0:00:11.74,Caption,,0,0,177,,{\c&H00DFB32B}these{\c&H00FFFFFF} are the systems
+Dialogue: 0,0:00:11.74,0:00:11.88,Caption,,0,0,177,,these {\c&H00DFB32B}are{\c&H00FFFFFF} the systems
+Dialogue: 0,0:00:11.88,0:00:12.84,Caption,,0,0,177,,these are {\c&H00DFB32B}the{\c&H00FFFFFF} systems
+Dialogue: 0,0:00:12.84,0:00:13.02,Caption,,0,0,177,,these are the {\c&H00DFB32B}systems{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.02,0:00:13.44,Caption,,0,0,175,,{\c&H00DFB32B}you{\c&H00FFFFFF} access
+Dialogue: 0,0:00:13.44,0:00:13.86,Caption,,0,0,175,,you {\c&H00DFB32B}access{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.86,0:00:13.98,Caption,,0,0,176,,{\c&H00DFB32B}these{\c&H00FFFFFF} are the things you
+Dialogue: 0,0:00:13.98,0:00:14.08,Caption,,0,0,176,,these {\c&H00DFB32B}are{\c&H00FFFFFF} the things you
+Dialogue: 0,0:00:14.08,0:00:14.26,Caption,,0,0,176,,these are {\c&H00DFB32B}the{\c&H00FFFFFF} things you
+Dialogue: 0,0:00:14.26,0:00:14.40,Caption,,0,0,176,,these are the {\c&H00DFB32B}things{\c&H00FFFFFF} you
+Dialogue: 0,0:00:14.40,0:00:14.56,Caption,,0,0,176,,these are the things {\c&H00DFB32B}you{\c&H00FFFFFF}
+Dialogue: 0,0:00:14.56,0:00:14.92,Caption,,0,0,177,,{\c&H00DFB32B}bring{\c&H00FFFFFF} together.
+Dialogue: 0,0:00:14.92,0:00:15.36,Caption,,0,0,177,,bring {\c&H00DFB32B}together.{\c&H00FFFFFF}
+Dialogue: 0,0:00:15.50,0:00:15.68,Caption,,0,0,177,,{\c&H00DFB32B}And{\c&H00FFFFFF} then beyond that
+Dialogue: 0,0:00:15.68,0:00:16.06,Caption,,0,0,177,,And {\c&H00DFB32B}then{\c&H00FFFFFF} beyond that
+Dialogue: 0,0:00:16.06,0:00:16.54,Caption,,0,0,177,,And then {\c&H00DFB32B}beyond{\c&H00FFFFFF} that
+Dialogue: 0,0:00:16.54,0:00:17.21,Caption,,0,0,177,,And then beyond {\c&H00DFB32B}that{\c&H00FFFFFF}
+Dialogue: 0,0:00:17.21,0:00:17.57,Caption,,0,0,177,,{\c&H00DFB32B}the{\c&H00FFFFFF} instruction above
+Dialogue: 0,0:00:17.57,0:00:17.79,Caption,,0,0,177,,the {\c&H00DFB32B}instruction{\c&H00FFFFFF} above
+Dialogue: 0,0:00:17.79,0:00:18.03,Caption,,0,0,177,,the instruction {\c&H00DFB32B}above{\c&H00FFFFFF}
+Dialogue: 0,0:00:18.03,0:00:18.17,Caption,,0,0,177,,{\c&H00DFB32B}all{\c&H00FFFFFF} of these things is
+Dialogue: 0,0:00:18.17,0:00:18.27,Caption,,0,0,177,,all {\c&H00DFB32B}of{\c&H00FFFFFF} these things is
+Dialogue: 0,0:00:18.27,0:00:18.47,Caption,,0,0,177,,all of {\c&H00DFB32B}these{\c&H00FFFFFF} things is
+Dialogue: 0,0:00:18.47,0:00:18.65,Caption,,0,0,177,,all of these {\c&H00DFB32B}things{\c&H00FFFFFF} is
+Dialogue: 0,0:00:18.65,0:00:18.87,Caption,,0,0,177,,all of these things {\c&H00DFB32B}is{\c&H00FFFFFF}
+Dialogue: 0,0:00:18.87,0:00:19.13,Caption,,0,0,177,,{\c&H00DFB32B}like{\c&H00FFFFFF} never make stuff
+Dialogue: 0,0:00:19.13,0:00:19.43,Caption,,0,0,177,,like {\c&H00DFB32B}never{\c&H00FFFFFF} make stuff
+Dialogue: 0,0:00:19.43,0:00:19.59,Caption,,0,0,177,,like never {\c&H00DFB32B}make{\c&H00FFFFFF} stuff
+Dialogue: 0,0:00:19.59,0:00:19.89,Caption,,0,0,177,,like never make {\c&H00DFB32B}stuff{\c&H00FFFFFF}
+Dialogue: 0,0:00:19.89,0:00:20.57,Caption,,0,0,177,,{\c&H00DFB32B}up.{\c&H00FFFFFF} And so if you get to
+Dialogue: 0,0:00:20.57,0:00:20.79,Caption,,0,0,177,,up. {\c&H00DFB32B}And{\c&H00FFFFFF} so if you get to
+Dialogue: 0,0:00:20.79,0:00:21.03,Caption,,0,0,177,,up. And {\c&H00DFB32B}so{\c&H00FFFFFF} if you get to
+Dialogue: 0,0:00:21.03,0:00:21.11,Caption,,0,0,177,,up. And so {\c&H00DFB32B}if{\c&H00FFFFFF} you get to
+Dialogue: 0,0:00:21.11,0:00:21.29,Caption,,0,0,177,,up. And so if {\c&H00DFB32B}you{\c&H00FFFFFF} get to
+Dialogue: 0,0:00:21.29,0:00:21.43,Caption,,0,0,177,,up. And so if you {\c&H00DFB32B}get{\c&H00FFFFFF} to
+Dialogue: 0,0:00:21.43,0:00:21.55,Caption,,0,0,177,,up. And so if you get {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:21.55,0:00:21.85,Caption,,0,0,177,,{\c&H00DFB32B}a{\c&H00FFFFFF} wall where you don't
+Dialogue: 0,0:00:21.85,0:00:22.13,Caption,,0,0,177,,a {\c&H00DFB32B}wall{\c&H00FFFFFF} where you don't
+Dialogue: 0,0:00:22.13,0:00:22.29,Caption,,0,0,177,,a wall {\c&H00DFB32B}where{\c&H00FFFFFF} you don't
+Dialogue: 0,0:00:22.29,0:00:22.41,Caption,,0,0,177,,a wall where {\c&H00DFB32B}you{\c&H00FFFFFF} don't
+Dialogue: 0,0:00:22.41,0:00:22.57,Caption,,0,0,177,,a wall where you {\c&H00DFB32B}don't{\c&H00FFFFFF}
+Dialogue: 0,0:00:22.57,0:00:22.73,Caption,,0,0,177,,{\c&H00DFB32B}know{\c&H00FFFFFF} what you're doing
+Dialogue: 0,0:00:22.73,0:00:22.83,Caption,,0,0,177,,know {\c&H00DFB32B}what{\c&H00FFFFFF} you're doing
+Dialogue: 0,0:00:22.83,0:00:23.21,Caption,,0,0,177,,know what {\c&H00DFB32B}you're{\c&H00FFFFFF} doing
+Dialogue: 0,0:00:23.21,0:00:23.99,Caption,,0,0,177,,know what you're {\c&H00DFB32B}doing{\c&H00FFFFFF}
+Dialogue: 0,0:00:23.99,0:00:24.31,Caption,,0,0,177,,{\c&H00DFB32B}go{\c&H00FFFFFF} ask a human and then
+Dialogue: 0,0:00:24.31,0:00:24.49,Caption,,0,0,177,,go {\c&H00DFB32B}ask{\c&H00FFFFFF} a human and then
+Dialogue: 0,0:00:24.49,0:00:24.77,Caption,,0,0,177,,go ask {\c&H00DFB32B}a{\c&H00FFFFFF} human and then
+Dialogue: 0,0:00:24.77,0:00:25.03,Caption,,0,0,177,,go ask a {\c&H00DFB32B}human{\c&H00FFFFFF} and then
+Dialogue: 0,0:00:25.03,0:00:25.19,Caption,,0,0,177,,go ask a human {\c&H00DFB32B}and{\c&H00FFFFFF} then
+Dialogue: 0,0:00:25.19,0:00:25.33,Caption,,0,0,177,,go ask a human and {\c&H00DFB32B}then{\c&H00FFFFFF}
+Dialogue: 0,0:00:25.33,0:00:25.59,Caption,,0,0,177,,{\c&H00DFB32B}we'll{\c&H00FFFFFF} figure it out
+Dialogue: 0,0:00:25.59,0:00:25.73,Caption,,0,0,177,,we'll {\c&H00DFB32B}figure{\c&H00FFFFFF} it out
+Dialogue: 0,0:00:25.73,0:00:25.85,Caption,,0,0,177,,we'll figure {\c&H00DFB32B}it{\c&H00FFFFFF} out
+Dialogue: 0,0:00:25.85,0:00:26.19,Caption,,0,0,177,,we'll figure it {\c&H00DFB32B}out{\c&H00FFFFFF}
+Dialogue: 0,0:00:26.19,0:00:26.51,Caption,,0,0,177,,{\c&H00DFB32B}together.{\c&H00FFFFFF}

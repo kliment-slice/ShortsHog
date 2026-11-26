@@ -1,12 +1,14 @@
 # ShortsHog
 
-Turns PostHog panel recordings into long-form 16:9 edits and vertical 9:16 shorts,
+Turns PostHog panel recordings into long-form 16:9 edits and 9:16 portrait shorts,
 in a look that should be recognisable at first glance.
 
-**Core tenet: make the output content dynamic.** Optimise for a quick story with maximum relevant
-information: anything off-story (mic checks, setup chatter, asides) is cut (`cuts` in the story file). Fast cuts, no dead air or ums,
-movement in every shot, PostHog colours on every transition. When in doubt, cut
-more. Every output (long form and shorts) goes through `edit.py` first.
+**Core tenet: make the output content dynamic; the speaker's point is the content.** Optimise for a
+quick story with maximum relevant information: anything off-story (mic checks, setup chatter, asides)
+is cut (`cuts` in the story file). The picture changes when the information changes, not on a timer;
+no dead air or ums, motion only on wides; close-ups hold still, PostHog colours on every theme change.
+No comedic timing. Cut off-story material hard; never cut the setup a point needs.
+Every output (long form and shorts) goes through `edit.py` first.
 Everything runs locally: whisper-cpp transcribes, numpy syncs the audio, ffmpeg
 cuts and renders. Panel context comes from the `granola` MCP.
 
@@ -21,7 +23,8 @@ cuts and renders. Panel context comes from the `granola` MCP.
   - `shorts.json`: the selected shorts
 - `scripts/`: python helpers. Always run with `.venv/bin/python scripts/<x>.py`
 - `models/ggml-large-v3-turbo.bin`: whisper model (gitignored)
-- `FORMAT.md`: the rules every short follows, including caption style. Read it before `/select`
+- `FORMAT.md`: the rules every output follows (context and accuracy, pacing, look). Read it before
+  `/select`, `/shortform` and writing a story file
 
 ## Pipeline
 Each step is a slash command in `.claude/commands/`.
@@ -29,15 +32,41 @@ Each step is a slash command in `.claude/commands/`.
 1. `/new-event <name> [folder]`: inventory the footage, fill `event.yaml`, set crops from stills
 2. `/transcribe <event>`: `align.py sync` → `mix.py` → `transcribe.py` → `align.py label` →
    `speakers.py` (people assigned from the transcript where mics were shared)
-3. `/longform <event>`: the full panel as a 16:9 video: `edit.py` mutes ums and cuts pauses and
-   stutters; `faces.py` tracks each panelist on cam2; `longform.py` cuts every few seconds between
-   speaker close-up, reaction, group and wide, a PostHog stripe wipe on every shot change, punch-ins
-   on jump cuts, graded footage, title card, progress bar, RoundHog captions "Name (Company): ...".
+3. `/longform <event>`: the full panel as a 16:9 video: `edit.py` mutes ums (room tone underneath) and
+   cuts pauses and stutters (15 ms crossfades); `faces.py` tracks each panelist on cam2; `longform.py`
+   holds on the speaker and cuts away (reaction, group, wide) only on a trigger and only at a sentence
+   boundary (FORMAT.md `cutaway_triggers`), a new speaker's shot an L-cut into their first word, a tighter
+   still close-up through each anchor sentence, a PostHog stripe wipe on theme changes, punch-ins on jump
+   cuts, graded footage, a cold open (story `cold_open`), title card, progress bar, RoundHog captions
+   "Name (Company): ...". Panel order is kept; the cold open is the only out-of-order clip.
    → `longform/<panel>.mp4`
-4. `/shortform <event> <panel> [ids]`: anchor cards become 3:4 portrait shorts (1080x1440):
-   `shortform.py`, specs under `shorts:` in the story file, each covering the speaker's whole thought.
-   Speaker fills ~2/3 of the frame, eyes on the upper third; fast cuts; the anchor as the hook on top.
-   → `shortform/<id>.mp4`. (The older 9:16 path, `/select` + `/cut`, predates this.)
+4. `/shortform <event> <panel> [ids]`: at most 2 anchors per panel (often 0) pass the selection gates
+   in FORMAT.md and become 9:16 portrait shorts (1080x1920): `shortform.py`, specs under `shorts:` in the
+   story file. Claim, context, evidence, payoff: frame 1 is the hook's first word (the claim, as strong
+   as the speaker said it), a hard cut to the meat, ending on the payoff sentence; no title card, no wipe.
+   On screen: the summary band across the top fifth from frame 1 (thumbnail-generator style: a brand
+   colour, the white logo from `assets/`, the quote in balanced lines with `title_key` on soft highlight boxes, then "- Name, role"), outlined
+   captions on the lower third line with the word being said lit and grown 5% (event.yaml
+   `caption_highlight`); no name strap; brand colours only; audience cutaways from b-roll filmed during the panel
+   (event.yaml panel `audience`). Shared drawing code: `graphics.py`.
+   Range includes the setup and any qualifier ("but", "for us"). Harder edit ("## Short-form edit"),
+   speaker close-up, held still (tighter through the hook, punch-ins at jump cuts), a panelist's
+   reaction only when one is heard (a pan to them and back). At most 45s (target 25-40s), never sped up.
+   Opens with a sweep across the seats that lands on the speaker under the first line. Never a pitch.
+   Beats on each spec
+   (`stat`, `punchline`, `topic_shift`, 1 to 3 tags) get an anchor clip: `overlays.py fetch` pulls short
+   Pixabay videos (stills from Pixabay and Pexels with `--media image`; GIPHY and Tenor aren't cleared for
+   brand posts), green screens and black backgrounds keyed out so they read like GIFs, into
+   `events/<event>/overlays/` with a `.license.json` note per file; `shortform.py` draws them on a track
+   above the footage, placed off faces, and writes each `pos` back into the spec.
+   Keys: `PIXABAY_API_KEY` / `PEXELS_API_KEY` in the environment or `.env`. → `shortform/<id>.mp4`.
+   (The older 9:16 path, `/select` + `/cut`, predates this.)
+   Webinar / video-call recordings (one file, a grid of tiles, no room camera): `tileshort.py`
+   cuts 9:16 shorts of one person's tile (event.yaml `speakers.<name>.tile` and `name_tag`), specs under
+   `tile_shorts:` in the story file: the headline on a frosted box from frame 1 (key phrase on a highlighter
+   in the short's colour), a name strap just under the captions for the first seconds, boxless outlined
+   captions with the spoken word lit, the call's own name tag painted out. FORMAT.md "## Tile short".
+   → `tileshort/<id>.mp4`. With one track the mic-level silence check misfires: real words get a `note`.
 5. `/select <event>`: Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
 6. `/cut <event>`: `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
@@ -58,7 +87,7 @@ The goal is a PostHog-style editor: long form first, then chopped into mobile sh
 
 ## The ShortsHog look (FORMAT.md "## Long form")
 PostHog brand colours (brand.posthog.com/colors) and RoundHog (brand.posthog.com/fonts).
-Hard cuts every few seconds; the stripe wipe in tangerine / lemon / blue only on a theme
+Hard cuts when the information changes, never on a timer; the stripe wipe in tangerine / lemon / blue only on a theme
 change: a new question (chapter tag, top left) or a new anchor (a speaker's key point, popup
 top right), written per panel in `longform/<panel>.story.yaml` from the transcript; tangerine title card with
 stripes; tangerine progress bar; dark caption band with the speaker's name in a bright
@@ -125,9 +154,14 @@ no pause between them). Speaker names must match `people` in event.yaml and the 
 inserted) and are left alone by relabelling.
 
 ## Mixing
-`mix.py` sums each panel's `mix_mics` (default: its `mics`). A dead mic left in the sum adds
-the room's reverb as echo: leave it out of `mix_mics` but keep it in `mics` (labels use all).
-`mix: automix` (gain-sharing) exists but whisper did worse on it.
+`mix.py` sums each panel's `mix_mics` (default: its `mics`) into `transcripts/<panel>.wav`, which
+whisper transcribes. A dead mic left in the sum adds the room's reverb as echo: leave it out of
+`mix_mics` but keep it in `mics` (labels use all). `mix: automix` (gain-sharing) exists but whisper
+did worse on it.
+Renders never play the sum: the other mics hear the speaker 5 to 20 dB down and 2 to 30 ms late,
+so the sum sounds doubled (an echo, a dub). `mix.py` also writes `transcripts/<panel>.bed.wav`, a
+sharper automix (power^2 sharing, one open mic at a time), and `edit.py` plays that bed while
+timing cuts from the sum.
 
 ## Sync quality
 `align.py sync` writes `sync_peak` per source: the best correlation peak over the runner-up

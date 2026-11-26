@@ -13,10 +13,15 @@ panel time (settings: "## Dynamic edit" in FORMAT.md):
          "we we merge", "you want to you want to") and leading/trailing dead air;
          plus editorial cuts from the panel's story file (mic checks, setup chatter,
          asides that don't serve the story)
-Cut edges are nudged to the quietest 10 ms nearby so no word is clipped.
+Cut edges are nudged to the quietest 10 ms nearby so no word is clipped. Every audio cut is a
+15 ms equal-power crossfade, and muted spans are filled with the panel's own room tone (its
+quietest 2 s with no speech), never digital silence.
+Shorts use the harder "## Short-form edit" profile on top (`settings("Short-form edit")`):
+every filler cut, pauses down to a breath, restarts up to 4 words, standalone "you know" / "right?".
 
 `Edit` maps between source (panel) time and output time, and gives the audio with
-cuts joined (short fades) and mutes applied.
+cuts crossfaded and mutes filled with room tone. `splice()` does the same crossfade for any
+list of ranges (the long form's cold open, a short's hook and meat).
 """
 import argparse
 import json
@@ -32,19 +37,25 @@ from common import REPO, decode_audio, event_dir, load_event, panel
 
 SR = 48000
 ENV_HZ = 100
-FADE = 0.008        # s, crossfade at each cut and ramp at each mute
+XFADE = 0.015       # s, equal-power crossfade at each cut and at each edge of a muted span
+TONE = 2.0          # s of room tone sampled per panel
 SNAP = 0.08         # s, search for a quiet point either side of a cut edge
 MIN_CUT = 0.12      # s, shorter cuts aren't worth a jump
 MIN_KEEP = 0.25     # s, shorter kept slivers are folded into the cut around them
 KEEP_DOUBLES = {"no", "yeah", "very", "really", "so", "ha", "bye", "check", "go", "okay", "ok", "right", "well"}
 
 
-def settings() -> dict:
+def settings(profile: str = "Dynamic edit") -> dict:
+    """A FORMAT.md edit block; any profile other than "Dynamic edit" overrides its values."""
     text = (REPO / "FORMAT.md").read_text()
-    m = re.search(r"## Dynamic edit.*?```yaml\n(.*?)```", text, re.S)
-    if not m:
-        sys.exit("FORMAT.md needs a ```yaml block under '## Dynamic edit'")
-    return YAML(typ="safe").load(m.group(1))
+
+    def block(name):
+        m = re.search(rf"## {name}\n.*?```yaml\n(.*?)```", text, re.S)
+        if not m:
+            sys.exit(f"FORMAT.md needs a ```yaml block under '## {name}'")
+        return YAML(typ="safe").load(m.group(1))
+    base = block("Dynamic edit")
+    return base if profile == "Dynamic edit" else {**base, **block(profile)}
 
 
 def norm(w: str) -> str:
@@ -59,6 +70,11 @@ def merge(spans: list) -> list:
         else:
             out.append([a, b])
     return [tuple(x) for x in out]
+
+
+def end_before_next(live: list, i: int) -> float:
+    """End of live[i], but not past the next word's start (whisper's word ends can overlap)."""
+    return min(live[i]["end"], live[i + 1]["start"]) if i + 1 < len(live) else live[i]["end"]
 
 
 def resolve_cuts(words: list, specs: list) -> list:
@@ -96,15 +112,19 @@ def resolve_cuts(words: list, specs: list) -> list:
             print(f"  cut not found: to {spec['to']!r} after {spec['from']!r}")
             continue
         text = " ".join(w["w"] for w in live[a[0]:b[1] + 1])
-        out.append((live[a[0]]["start"], live[b[1]]["end"], spec.get("why", ""), text))
+        out.append((live[a[0]]["start"], end_before_next(live, b[1]), spec.get("why", ""), text))
     return out
 
 
 class Edit:
-    def __init__(self, words: list, pcm: np.ndarray, dur: float, cfg: dict, editorial: list = ()):
+    def __init__(self, words: list, pcm: np.ndarray, dur: float, cfg: dict, editorial: list = (),
+                 bed: np.ndarray | None = None):
+        """pcm: the mic sum (timing and the envelope); bed: what audio() plays, if given (mix.py's
+        single-open-mic render bed, without the sum's echo)."""
         self.dur = dur
         self.cfg = cfg
         self.pcm = pcm
+        self.bed = bed[:len(pcm)] if bed is not None and len(bed) >= len(pcm) - SR else None
         hop = SR // ENV_HZ
         frames = len(pcm) // hop
         self.env = 10 * np.log10((pcm[: frames * hop].reshape(frames, hop) ** 2).mean(axis=1) + 1e-10)
@@ -122,22 +142,44 @@ class Edit:
             if norm(w["w"]) in fillers:
                 (cuts if w["end"] - w["start"] >= cfg["filler_cut"] else mutes).append((w["start"], w["end"]))
                 dropped.add(id(w))
-        # stutters: a word, or a two-word phrase, said twice in a row by the same person
-        for i in range(len(live) - 1):
-            a, b = live[i], live[i + 1]
-            if id(a) in dropped:
+        # tag fillers ("you know", "right?", "I mean"): cut where they stand alone between
+        # punctuation or pauses, never mid-sentence
+        tags = [[norm(x) for x in t.split()] for t in cfg.get("tag_fillers") or []]
+        for i in range(len(live)):
+            for q in tags:
+                j = i + len(q) - 1
+                if j >= len(live) or [norm(w["w"]) for w in live[i:j + 1]] != q:
+                    continue
+                if any(id(w) in dropped for w in live[i:j + 1]):
+                    continue
+                before = i == 0 or re.search(r"[,.?!]$", live[i - 1]["w"]) or live[i]["start"] - live[i - 1]["end"] > 0.15
+                after = re.search(r"[,.?!]$", live[j]["w"]) or j + 1 == len(live) or live[j + 1]["start"] - live[j]["end"] > 0.15
+                if before and after and len({w["speaker"] for w in live[i:j + 1]}) == 1:
+                    cuts.append((live[i]["start"], end_before_next(live, j)))
+                    dropped.update(id(w) for w in live[i:j + 1])
+        # stutters and restarts: a phrase of up to repeat_max words said twice in a row by the
+        # same person ("we we merge", "you want to you want to"); the first go is cut
+        # (a filler between the two goes doesn't count: "that uh that" is a stutter too)
+        n_max = cfg.get("repeat_max", 2)
+        seq = [w for w in live if id(w) not in dropped]
+        for i in range(len(seq) - 1):
+            if id(seq[i]) in dropped:
                 continue
-            if (norm(a["w"]) and norm(a["w"]) == norm(b["w"]) and norm(a["w"]) not in KEEP_DOUBLES
-                    and a["speaker"] == b["speaker"] and b["start"] - a["end"] < 0.6):
-                cuts.append((a["start"], b["start"]))
-                dropped.add(id(a))
-            elif i + 3 < len(live):
-                c, d = live[i + 2], live[i + 3]
-                if ([norm(a["w"]), norm(b["w"])] == [norm(c["w"]), norm(d["w"])] and norm(a["w"])
-                        and len({a["speaker"], b["speaker"], c["speaker"], d["speaker"]}) == 1
-                        and c["start"] - b["end"] < 0.6):
-                    cuts.append((a["start"], c["start"]))
-                    dropped.update({id(a), id(b)})
+            for n in range(1, n_max + 1):
+                if i + 2 * n > len(seq):
+                    break
+                first, second = seq[i:i + n], seq[i + n:i + 2 * n]
+                q = [norm(w["w"]) for w in first]
+                pause = second[0]["start"] - first[-1]["end"] - sum(
+                    w["end"] - w["start"] for w in live if id(w) in dropped and first[-1]["end"] <= w["start"] < second[0]["start"])
+                if (not all(q) or q != [norm(w["w"]) for w in second] or (n == 1 and q[0] in KEEP_DOUBLES)
+                        or len({w["speaker"] for w in first + second}) != 1
+                        or pause >= 0.6
+                        or any(id(w) in dropped for w in first + second)):
+                    continue
+                cuts.append((first[0]["start"], second[0]["start"]))
+                dropped.update(id(w) for w in first)
+                break
         # pauses, and ums whisper didn't write down (voice in a pause, no words)
         kept = [w for w in live if id(w) not in dropped]
         edges = [(0.0, kept[0]["start"] if kept else dur)] + \
@@ -150,12 +192,14 @@ class Edit:
             if gap > cfg["pause_max"] or (lead_or_tail and gap > cfg["pause_keep"]):
                 lo = a if k == 0 else a + half
                 hi = b if k == len(edges) - 1 else b - half
+                if not lead_or_tail:  # whisper's word times can be off: only cut what is actually quiet
+                    lo, hi = self._quiet_run(lo, hi, speech_db - cfg.get("pause_quiet_db", 10))
                 if hi - lo > 0:
                     cuts.append((lo, hi))
             elif gap >= cfg["um_min"]:
                 seg = self.env[int(a * ENV_HZ):int(b * ENV_HZ)]
                 if len(seg) and np.mean(seg > speech_db - cfg["um_voice_db"]) > 0.5:
-                    mutes.append((a + 0.03, b - 0.03))
+                    (cuts if cfg.get("um_cut") else mutes).append((a + 0.03, b - 0.03))
         # snap cut edges to a quiet point, but never into a word that stays
         keep_words = sorted((w["start"], w["end"]) for w in live if id(w) not in dropped)
         starts = [a for a, _ in keep_words]
@@ -178,9 +222,25 @@ class Edit:
             keeps.append((t, dur))
         self.keeps = keeps
         self.mutes = merge([(a, b) for a, b in mutes if b > a])
+        self.live = live
+        self.tone_at = None
         self.dropped = dropped
         self.out_starts = np.cumsum([0.0] + [b - a for a, b in keeps[:-1]]).tolist()
         self.out_dur = sum(b - a for a, b in keeps)
+
+    def _quiet_run(self, lo: float, hi: float, db: float) -> tuple:
+        """The longest stretch of [lo, hi] below db (envelope frames), or (lo, lo) if there is none."""
+        i0, i1 = int(lo * ENV_HZ), int(hi * ENV_HZ)
+        best, start = (lo, lo), None
+        for i in range(i0, i1 + 1):
+            quiet = i < i1 and i < len(self.env) and self.env[i] < db
+            if quiet and start is None:
+                start = i
+            elif not quiet and start is not None:
+                if (i - start) / ENV_HZ > best[1] - best[0]:
+                    best = (start / ENV_HZ, i / ENV_HZ)
+                start = None
+        return best
 
     def _snap(self, a: float, b: float) -> tuple:
         def quiet(t):
@@ -214,37 +274,59 @@ class Edit:
         return self.out_starts[1:]
 
     def words_out(self, words: list) -> list:
-        """Kept words on the output timeline (fillers and stutters left out)."""
+        """Kept words on the output timeline (fillers and stutters left out). A kept word gets `eos` when
+        the sentence ended on a word that was cut after it ("... for that, right?" with "right?" cut)."""
         out = []
         for w in words:
-            if w.get("silent") or not w.get("speaker") or id(w) in self.dropped:
+            if w.get("silent") or not w.get("speaker"):
+                continue
+            if id(w) in self.dropped or self.to_out(w["start"]) is None:
+                if out and re.search(r"[.?!]['\")]*$", w["w"]) and w["speaker"] == out[-1]["speaker"]:
+                    out[-1]["eos"] = True
                 continue
             a, b = self.to_out(w["start"]), self.to_out(min(w["end"], w["start"] + 0.05))
-            if a is None:
-                continue
             end = self.to_out(w["end"])
-            out.append({**w, "start": round(a, 3), "end": round(end if end is not None else a + (w["end"] - w["start"]), 3)})
+            out.append({**w, "start": round(a, 3), "end": round(end if end is not None else a + (w["end"] - w["start"]), 3),
+                        "src": [w["start"], w["end"]]})
         return out
 
     # ---- audio
+    def room_tone(self) -> np.ndarray:
+        """The panel's quietest TONE seconds with no speech (no word within 0.2 s), skipping digital silence."""
+        hop, n = SR // ENV_HZ, int(TONE * ENV_HZ)
+        bad = self.env < -90
+        for w in self.live:
+            bad[max(0, int((w["start"] - 0.2) * ENV_HZ)):int((w["end"] + 0.2) * ENV_HZ)] = True
+        if len(self.env) <= n:
+            return np.zeros(int(TONE * SR), np.float32)
+        cb = np.concatenate([[0], np.cumsum(bad)])
+        cp = np.concatenate([[0.0], np.cumsum(10 ** (self.env / 10))])
+        starts = np.arange(len(self.env) - n)
+        level = (cp[starts + n] - cp[starts]) / n
+        ok = cb[starts + n] == cb[starts]
+        k = int(starts[ok][np.argmin(level[ok])] if ok.any() else starts[np.argmin(level)])
+        self.tone_at = k / ENV_HZ
+        return self.source()[k * hop:(k + n) * hop].astype(np.float32)
+
+    def source(self) -> np.ndarray:
+        return self.bed if self.bed is not None else self.pcm
+
     def audio(self) -> np.ndarray:
-        x = self.pcm.copy()
-        ramp = int(FADE * SR)
-        for a, b in self.mutes:  # mute with short ramps so it doesn't click
+        x = self.source().astype(np.float32).copy()
+        if len(x) < len(self.pcm):
+            x = np.concatenate([x, np.zeros(len(self.pcm) - len(x), np.float32)])
+        r = int(XFADE * SR)
+        tone = self.room_tone() if self.mutes else None
+        for a, b in self.mutes:  # room tone in place of the um, crossfaded in and out
             i, j = int(a * SR), int(b * SR)
-            if j - i <= 2 * ramp:
+            if j - i <= 2 * r:
                 continue
-            x[i:i + ramp] *= np.linspace(1, 0, ramp, dtype=np.float32)
-            x[i + ramp:j - ramp] = 0
-            x[j - ramp:j] *= np.linspace(0, 1, ramp, dtype=np.float32)
-        parts = []
-        for a, b in self.keeps:
-            seg = x[int(a * SR):int(b * SR)].copy()
-            if len(seg) > 2 * ramp:
-                seg[:ramp] *= np.linspace(0, 1, ramp, dtype=np.float32)
-                seg[-ramp:] *= np.linspace(1, 0, ramp, dtype=np.float32)
-            parts.append(seg)
-        return np.concatenate(parts) if parts else x[:0]
+            fill = loop(tone, (j - i) + i % len(tone), r)[i % len(tone):]
+            gain = np.ones(j - i, np.float32)
+            th = np.linspace(0, np.pi / 2, r, dtype=np.float32)
+            gain[:r], gain[-r:] = np.sin(th), np.cos(th)
+            x[i:j] = x[i:j] * np.sqrt(np.clip(1 - gain ** 2, 0, 1)) + fill * gain
+        return splice(x, [(int(a * SR), int(b * SR)) for a, b in self.keeps])
 
     def summary(self) -> str:
         muted = sum(b - a for a, b in self.mutes)
@@ -254,9 +336,53 @@ class Edit:
                 f"{len(self.mutes)} ums muted ({muted:.0f}s)")
 
 
+def _take(x: np.ndarray, i: int, j: int) -> np.ndarray:
+    """x[i:j], zero-padded where it runs off either end."""
+    out = np.zeros(j - i, np.float32)
+    lo, hi = max(0, i), min(len(x), j)
+    if hi > lo:
+        out[lo - i:hi - i] = x[lo:hi]
+    return out
+
+
+def splice(x: np.ndarray, ranges: list, xfade: float = XFADE) -> np.ndarray:
+    """x[a:b] for each (a, b) sample range, joined end to end with an equal-power crossfade centred on
+    each join. The fade borrows xfade/2 of audio past each edge, so the output length is exactly the
+    sum of the ranges and the time mapping is unchanged."""
+    out = np.concatenate([x[a:b] for a, b in ranges]).astype(np.float32) if ranges else x[:0].astype(np.float32)
+    h = int(xfade * SR) // 2
+    th = np.linspace(0, np.pi / 2, 2 * h, dtype=np.float32)
+    pos = 0
+    for (a, b), (na, nb) in zip(ranges, ranges[1:]):
+        pos += b - a
+        if h and b - a >= 2 * h and nb - na >= 2 * h:
+            out[pos - h:pos + h] = _take(x, b - h, b + h) * np.cos(th) + _take(x, na - h, na + h) * np.sin(th)
+    return out
+
+
+def loop(tone: np.ndarray, n: int, r: int) -> np.ndarray:
+    """n samples of tone repeated, each repeat crossfaded into the next over r samples."""
+    out = tone.astype(np.float32).copy()
+    th = np.linspace(0, np.pi / 2, r, dtype=np.float32)
+    while len(out) < n:
+        nxt = tone.astype(np.float32).copy()
+        nxt[:r] = out[-r:] * np.cos(th) + nxt[:r] * np.sin(th)
+        out = np.concatenate([out[:-r], nxt])
+    return out[:n]
+
+
+def load_bed(edir: Path, panel_id: str) -> np.ndarray | None:
+    """mix.py's render bed for a panel, or None (then renders play the mic sum)."""
+    path = edir / "transcripts" / f"{panel_id}.bed.wav"
+    if not path.exists():
+        print(f"  no {path.name}: renders use the mic sum, which echoes (run mix.py)")
+        return None
+    return decode_audio(path, SR)
+
+
 def build(edir: Path, p: dict, words: list, dur: float, cut_specs: list = ()) -> Edit:
     pcm = decode_audio(edir / "transcripts" / f"{p['id']}.wav", SR)
-    return Edit(words, pcm, dur, settings(), resolve_cuts(words, cut_specs))
+    return Edit(words, pcm, dur, settings(), resolve_cuts(words, cut_specs), load_bed(edir, p["id"]))
 
 
 def main():

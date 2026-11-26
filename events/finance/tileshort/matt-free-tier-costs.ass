@@ -1,0 +1,124 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.00,Caption,,0,0,379,,{\c&H00DFB32B}The{\c&H00FFFFFF} complexity out of
+Dialogue: 0,0:00:01.00,0:00:01.34,Caption,,0,0,379,,The {\c&H00DFB32B}complexity{\c&H00FFFFFF} out of
+Dialogue: 0,0:00:01.34,0:00:01.42,Caption,,0,0,379,,The complexity {\c&H00DFB32B}out{\c&H00FFFFFF} of
+Dialogue: 0,0:00:01.42,0:00:01.56,Caption,,0,0,379,,The complexity out {\c&H00DFB32B}of{\c&H00FFFFFF}
+Dialogue: 0,0:00:01.56,0:00:01.74,Caption,,0,0,379,,{\c&H00DFB32B}our{\c&H00FFFFFF} AI products is less
+Dialogue: 0,0:00:01.74,0:00:02.08,Caption,,0,0,379,,our {\c&H00DFB32B}AI{\c&H00FFFFFF} products is less
+Dialogue: 0,0:00:02.08,0:00:02.24,Caption,,0,0,379,,our AI {\c&H00DFB32B}products{\c&H00FFFFFF} is less
+Dialogue: 0,0:00:02.24,0:00:02.44,Caption,,0,0,379,,our AI products {\c&H00DFB32B}is{\c&H00FFFFFF} less
+Dialogue: 0,0:00:02.44,0:00:02.66,Caption,,0,0,379,,our AI products is {\c&H00DFB32B}less{\c&H00FFFFFF}
+Dialogue: 0,0:00:02.66,0:00:03.10,Caption,,0,0,379,,{\c&H00DFB32B}around{\c&H00FFFFFF} accounting and
+Dialogue: 0,0:00:03.10,0:00:03.28,Caption,,0,0,379,,around {\c&H00DFB32B}accounting{\c&H00FFFFFF} and
+Dialogue: 0,0:00:03.28,0:00:03.48,Caption,,0,0,379,,around accounting {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.48,0:00:04.02,Caption,,0,0,379,,{\c&H00DFB32B}more{\c&H00FFFFFF} around billing and
+Dialogue: 0,0:00:04.02,0:00:04.62,Caption,,0,0,379,,more {\c&H00DFB32B}around{\c&H00FFFFFF} billing and
+Dialogue: 0,0:00:04.62,0:00:05.56,Caption,,0,0,379,,more around {\c&H00DFB32B}billing{\c&H00FFFFFF} and
+Dialogue: 0,0:00:05.56,0:00:06.81,Caption,,0,0,379,,more around billing {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:06.84,0:00:07.64,Caption,,0,0,379,,{\c&H00DFB32B}profitability{\c&H00FFFFFF}
+Dialogue: 0,0:00:07.64,0:00:08.81,Caption,,0,0,379,,{\c&H00DFB32B}honestly.{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.81,0:00:09.05,Caption,,0,0,379,,{\c&H00DFB32B}I{\c&H00FFFFFF} think tokens are
+Dialogue: 0,0:00:09.05,0:00:10.13,Caption,,0,0,379,,I {\c&H00DFB32B}think{\c&H00FFFFFF} tokens are
+Dialogue: 0,0:00:10.13,0:00:10.41,Caption,,0,0,379,,I think {\c&H00DFB32B}tokens{\c&H00FFFFFF} are
+Dialogue: 0,0:00:10.41,0:00:11.11,Caption,,0,0,379,,I think tokens {\c&H00DFB32B}are{\c&H00FFFFFF}
+Dialogue: 0,0:00:11.11,0:00:11.66,Caption,,0,0,375,,{\c&H00DFB32B}expensive{\c&H00FFFFFF} in a way that
+Dialogue: 0,0:00:11.66,0:00:11.74,Caption,,0,0,375,,expensive {\c&H00DFB32B}in{\c&H00FFFFFF} a way that
+Dialogue: 0,0:00:11.74,0:00:11.96,Caption,,0,0,375,,expensive in {\c&H00DFB32B}a{\c&H00FFFFFF} way that
+Dialogue: 0,0:00:11.96,0:00:12.20,Caption,,0,0,375,,expensive in a {\c&H00DFB32B}way{\c&H00FFFFFF} that
+Dialogue: 0,0:00:12.20,0:00:12.44,Caption,,0,0,375,,expensive in a way {\c&H00DFB32B}that{\c&H00FFFFFF}
+Dialogue: 0,0:00:12.44,0:00:13.08,Caption,,0,0,379,,{\c&H00DFB32B}like{\c&H00FFFFFF} traditional
+Dialogue: 0,0:00:13.08,0:00:13.58,Caption,,0,0,379,,like {\c&H00DFB32B}traditional{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.58,0:00:13.86,Caption,,0,0,379,,{\c&H00DFB32B}software{\c&H00FFFFFF} is not.
+Dialogue: 0,0:00:13.86,0:00:14.18,Caption,,0,0,379,,software {\c&H00DFB32B}is{\c&H00FFFFFF} not.
+Dialogue: 0,0:00:14.18,0:00:14.94,Caption,,0,0,379,,software is {\c&H00DFB32B}not.{\c&H00FFFFFF}
+Dialogue: 0,0:00:14.94,0:00:15.24,Caption,,0,0,379,,{\c&H00DFB32B}And{\c&H00FFFFFF} it changes sort of
+Dialogue: 0,0:00:15.24,0:00:15.66,Caption,,0,0,379,,And {\c&H00DFB32B}it{\c&H00FFFFFF} changes sort of
+Dialogue: 0,0:00:15.66,0:00:15.88,Caption,,0,0,379,,And it {\c&H00DFB32B}changes{\c&H00FFFFFF} sort of
+Dialogue: 0,0:00:15.88,0:00:15.98,Caption,,0,0,379,,And it changes {\c&H00DFB32B}sort{\c&H00FFFFFF} of
+Dialogue: 0,0:00:15.98,0:00:16.20,Caption,,0,0,379,,And it changes sort {\c&H00DFB32B}of{\c&H00FFFFFF}
+Dialogue: 0,0:00:16.20,0:00:16.66,Caption,,0,0,379,,{\c&H00DFB32B}like{\c&H00FFFFFF} the approach to go
+Dialogue: 0,0:00:16.66,0:00:17.10,Caption,,0,0,379,,like {\c&H00DFB32B}the{\c&H00FFFFFF} approach to go
+Dialogue: 0,0:00:17.10,0:00:17.32,Caption,,0,0,379,,like the {\c&H00DFB32B}approach{\c&H00FFFFFF} to go
+Dialogue: 0,0:00:17.32,0:00:17.44,Caption,,0,0,379,,like the approach {\c&H00DFB32B}to{\c&H00FFFFFF} go
+Dialogue: 0,0:00:17.44,0:00:17.56,Caption,,0,0,379,,like the approach to {\c&H00DFB32B}go{\c&H00FFFFFF}
+Dialogue: 0,0:00:17.56,0:00:17.86,Caption,,0,0,379,,{\c&H00DFB32B}to{\c&H00FFFFFF} market for a PLG
+Dialogue: 0,0:00:17.86,0:00:18.14,Caption,,0,0,379,,to {\c&H00DFB32B}market{\c&H00FFFFFF} for a PLG
+Dialogue: 0,0:00:18.14,0:00:18.26,Caption,,0,0,379,,to market {\c&H00DFB32B}for{\c&H00FFFFFF} a PLG
+Dialogue: 0,0:00:18.26,0:00:18.48,Caption,,0,0,379,,to market for {\c&H00DFB32B}a{\c&H00FFFFFF} PLG
+Dialogue: 0,0:00:18.48,0:00:19.00,Caption,,0,0,379,,to market for a {\c&H00DFB32B}PLG{\c&H00FFFFFF}
+Dialogue: 0,0:00:19.00,0:00:19.28,Caption,,0,0,379,,{\c&H00DFB32B}business{\c&H00FFFFFF} like us.
+Dialogue: 0,0:00:19.28,0:00:19.60,Caption,,0,0,379,,business {\c&H00DFB32B}like{\c&H00FFFFFF} us.
+Dialogue: 0,0:00:19.60,0:00:20.35,Caption,,0,0,379,,business like {\c&H00DFB32B}us.{\c&H00FFFFFF}
+Dialogue: 0,0:00:20.35,0:00:21.37,Caption,,0,0,379,,{\c&H00DFB32B}traditionally{\c&H00FFFFFF}
+Dialogue: 0,0:00:21.37,0:00:22.39,Caption,,0,0,379,,{\c&H00DFB32B}the{\c&H00FFFFFF} way we go to market
+Dialogue: 0,0:00:22.39,0:00:22.53,Caption,,0,0,379,,the {\c&H00DFB32B}way{\c&H00FFFFFF} we go to market
+Dialogue: 0,0:00:22.53,0:00:22.63,Caption,,0,0,379,,the way {\c&H00DFB32B}we{\c&H00FFFFFF} go to market
+Dialogue: 0,0:00:22.63,0:00:22.71,Caption,,0,0,379,,the way we {\c&H00DFB32B}go{\c&H00FFFFFF} to market
+Dialogue: 0,0:00:22.71,0:00:22.97,Caption,,0,0,379,,the way we go {\c&H00DFB32B}to{\c&H00FFFFFF} market
+Dialogue: 0,0:00:22.97,0:00:23.19,Caption,,0,0,379,,the way we go to {\c&H00DFB32B}market{\c&H00FFFFFF}
+Dialogue: 0,0:00:23.19,0:00:23.31,Caption,,0,0,379,,{\c&H00DFB32B}is{\c&H00FFFFFF} we offer a very
+Dialogue: 0,0:00:23.31,0:00:23.63,Caption,,0,0,379,,is {\c&H00DFB32B}we{\c&H00FFFFFF} offer a very
+Dialogue: 0,0:00:23.63,0:00:23.79,Caption,,0,0,379,,is we {\c&H00DFB32B}offer{\c&H00FFFFFF} a very
+Dialogue: 0,0:00:23.79,0:00:23.97,Caption,,0,0,379,,is we offer {\c&H00DFB32B}a{\c&H00FFFFFF} very
+Dialogue: 0,0:00:23.97,0:00:24.29,Caption,,0,0,379,,is we offer a {\c&H00DFB32B}very{\c&H00FFFFFF}
+Dialogue: 0,0:00:24.29,0:00:24.55,Caption,,0,0,379,,{\c&H00DFB32B}generous{\c&H00FFFFFF} free tier so
+Dialogue: 0,0:00:24.55,0:00:24.87,Caption,,0,0,379,,generous {\c&H00DFB32B}free{\c&H00FFFFFF} tier so
+Dialogue: 0,0:00:24.87,0:00:25.43,Caption,,0,0,379,,generous free {\c&H00DFB32B}tier{\c&H00FFFFFF} so
+Dialogue: 0,0:00:25.43,0:00:25.69,Caption,,0,0,379,,generous free tier {\c&H00DFB32B}so{\c&H00FFFFFF}
+Dialogue: 0,0:00:25.69,0:00:25.91,Caption,,0,0,379,,{\c&H00DFB32B}people{\c&H00FFFFFF} can try us before
+Dialogue: 0,0:00:25.91,0:00:26.07,Caption,,0,0,379,,people {\c&H00DFB32B}can{\c&H00FFFFFF} try us before
+Dialogue: 0,0:00:26.07,0:00:26.29,Caption,,0,0,379,,people can {\c&H00DFB32B}try{\c&H00FFFFFF} us before
+Dialogue: 0,0:00:26.29,0:00:26.57,Caption,,0,0,379,,people can try {\c&H00DFB32B}us{\c&H00FFFFFF} before
+Dialogue: 0,0:00:26.57,0:00:26.75,Caption,,0,0,379,,people can try us {\c&H00DFB32B}before{\c&H00FFFFFF}
+Dialogue: 0,0:00:26.75,0:00:26.95,Caption,,0,0,379,,{\c&H00DFB32B}they{\c&H00FFFFFF} buy us and then
+Dialogue: 0,0:00:26.95,0:00:27.29,Caption,,0,0,379,,they {\c&H00DFB32B}buy{\c&H00FFFFFF} us and then
+Dialogue: 0,0:00:27.29,0:00:27.81,Caption,,0,0,379,,they buy {\c&H00DFB32B}us{\c&H00FFFFFF} and then
+Dialogue: 0,0:00:27.81,0:00:27.95,Caption,,0,0,379,,they buy us {\c&H00DFB32B}and{\c&H00FFFFFF} then
+Dialogue: 0,0:00:27.95,0:00:28.17,Caption,,0,0,379,,they buy us and {\c&H00DFB32B}then{\c&H00FFFFFF}
+Dialogue: 0,0:00:28.17,0:00:28.39,Caption,,0,0,379,,{\c&H00DFB32B}they{\c&H00FFFFFF} come on and if they
+Dialogue: 0,0:00:28.39,0:00:28.63,Caption,,0,0,379,,they {\c&H00DFB32B}come{\c&H00FFFFFF} on and if they
+Dialogue: 0,0:00:28.63,0:00:28.79,Caption,,0,0,379,,they come {\c&H00DFB32B}on{\c&H00FFFFFF} and if they
+Dialogue: 0,0:00:28.79,0:00:28.99,Caption,,0,0,379,,they come on {\c&H00DFB32B}and{\c&H00FFFFFF} if they
+Dialogue: 0,0:00:28.99,0:00:29.13,Caption,,0,0,379,,they come on and {\c&H00DFB32B}if{\c&H00FFFFFF} they
+Dialogue: 0,0:00:29.13,0:00:29.35,Caption,,0,0,379,,they come on and if {\c&H00DFB32B}they{\c&H00FFFFFF}
+Dialogue: 0,0:00:29.35,0:00:29.57,Caption,,0,0,379,,{\c&H00DFB32B}like{\c&H00FFFFFF} us and they stick
+Dialogue: 0,0:00:29.57,0:00:29.71,Caption,,0,0,379,,like {\c&H00DFB32B}us{\c&H00FFFFFF} and they stick
+Dialogue: 0,0:00:29.71,0:00:29.79,Caption,,0,0,379,,like us {\c&H00DFB32B}and{\c&H00FFFFFF} they stick
+Dialogue: 0,0:00:29.79,0:00:29.97,Caption,,0,0,379,,like us and {\c&H00DFB32B}they{\c&H00FFFFFF} stick
+Dialogue: 0,0:00:29.97,0:00:30.29,Caption,,0,0,379,,like us and they {\c&H00DFB32B}stick{\c&H00FFFFFF}
+Dialogue: 0,0:00:30.29,0:00:30.71,Caption,,0,0,379,,{\c&H00DFB32B}around{\c&H00FFFFFF} and their usage
+Dialogue: 0,0:00:30.71,0:00:30.91,Caption,,0,0,379,,around {\c&H00DFB32B}and{\c&H00FFFFFF} their usage
+Dialogue: 0,0:00:30.91,0:00:31.19,Caption,,0,0,379,,around and {\c&H00DFB32B}their{\c&H00FFFFFF} usage
+Dialogue: 0,0:00:31.19,0:00:31.47,Caption,,0,0,379,,around and their {\c&H00DFB32B}usage{\c&H00FFFFFF}
+Dialogue: 0,0:00:31.47,0:00:31.69,Caption,,0,0,379,,{\c&H00DFB32B}grows{\c&H00FFFFFF} and we make money.
+Dialogue: 0,0:00:31.69,0:00:31.79,Caption,,0,0,379,,grows {\c&H00DFB32B}and{\c&H00FFFFFF} we make money.
+Dialogue: 0,0:00:31.79,0:00:31.97,Caption,,0,0,379,,grows and {\c&H00DFB32B}we{\c&H00FFFFFF} make money.
+Dialogue: 0,0:00:31.97,0:00:32.27,Caption,,0,0,379,,grows and we {\c&H00DFB32B}make{\c&H00FFFFFF} money.
+Dialogue: 0,0:00:32.27,0:00:33.01,Caption,,0,0,379,,grows and we make {\c&H00DFB32B}money.{\c&H00FFFFFF}
+Dialogue: 0,0:00:33.01,0:00:33.33,Caption,,0,0,379,,{\c&H00DFB32B}That's{\c&H00FFFFFF} more difficult to
+Dialogue: 0,0:00:33.33,0:00:33.77,Caption,,0,0,379,,That's {\c&H00DFB32B}more{\c&H00FFFFFF} difficult to
+Dialogue: 0,0:00:33.77,0:00:34.03,Caption,,0,0,379,,That's more {\c&H00DFB32B}difficult{\c&H00FFFFFF} to
+Dialogue: 0,0:00:34.03,0:00:34.19,Caption,,0,0,379,,That's more difficult {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:34.19,0:00:34.43,Caption,,0,0,379,,{\c&H00DFB32B}do{\c&H00FFFFFF} with tokens because
+Dialogue: 0,0:00:34.43,0:00:34.79,Caption,,0,0,379,,do {\c&H00DFB32B}with{\c&H00FFFFFF} tokens because
+Dialogue: 0,0:00:34.79,0:00:35.03,Caption,,0,0,379,,do with {\c&H00DFB32B}tokens{\c&H00FFFFFF} because
+Dialogue: 0,0:00:35.03,0:00:35.21,Caption,,0,0,379,,do with tokens {\c&H00DFB32B}because{\c&H00FFFFFF}
+Dialogue: 0,0:00:35.21,0:00:35.39,Caption,,0,0,379,,{\c&H00DFB32B}that{\c&H00FFFFFF} free tier costs you
+Dialogue: 0,0:00:35.39,0:00:35.63,Caption,,0,0,379,,that {\c&H00DFB32B}free{\c&H00FFFFFF} tier costs you
+Dialogue: 0,0:00:35.63,0:00:35.93,Caption,,0,0,379,,that free {\c&H00DFB32B}tier{\c&H00FFFFFF} costs you
+Dialogue: 0,0:00:35.93,0:00:36.11,Caption,,0,0,379,,that free tier {\c&H00DFB32B}costs{\c&H00FFFFFF} you
+Dialogue: 0,0:00:36.11,0:00:36.35,Caption,,0,0,379,,that free tier costs {\c&H00DFB32B}you{\c&H00FFFFFF}
+Dialogue: 0,0:00:36.35,0:00:36.71,Caption,,0,0,376,,{\c&H00DFB32B}real{\c&H00FFFFFF} money
+Dialogue: 0,0:00:36.71,0:00:37.31,Caption,,0,0,376,,real {\c&H00DFB32B}money{\c&H00FFFFFF}

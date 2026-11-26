@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“LiteLLM was compromised
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}through a stolen CLI
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}token”
+Dialogue: 0,0:00:00.00,0:00:01.60,Caption,,0,0,0,,The attack vector today
+Dialogue: 0,0:00:01.60,0:00:03.86,Caption,,0,0,0,,though, is more prolific
+Dialogue: 0,0:00:03.86,0:00:04.78,Caption,,0,0,0,,than ever of these
+Dialogue: 0,0:00:04.78,0:00:05.50,Caption,,0,0,0,,supply chain attacks
+Dialogue: 0,0:00:05.50,0:00:06.90,Caption,,0,0,0,,and we saw that with
+Dialogue: 0,0:00:06.90,0:00:08.30,Caption,,0,0,0,,LiteLLM today
+Dialogue: 0,0:00:08.30,0:00:09.22,Caption,,0,0,0,,which was pretty
+Dialogue: 0,0:00:09.22,0:00:09.52,Caption,,0,0,0,,sophisticated.
+Dialogue: 0,0:00:09.52,0:00:11.13,Caption,,0,0,0,,They compromised
+Dialogue: 0,0:00:11.13,0:00:12.53,Caption,,0,0,0,,multiple different core
+Dialogue: 0,0:00:12.53,0:00:13.35,Caption,,0,0,0,,contributors to the
+Dialogue: 0,0:00:13.35,0:00:15.41,Caption,,0,0,0,,project by basically
+Dialogue: 0,0:00:15.41,0:00:17.17,Caption,,0,0,0,,getting access to an
+Dialogue: 0,0:00:17.17,0:00:19.46,Caption,,0,0,0,,OAuth CLI token
+Dialogue: 0,0:00:19.46,0:00:20.46,Caption,,0,0,0,,using that to create a
+Dialogue: 0,0:00:20.46,0:00:21.74,Caption,,0,0,0,,new release.
+Dialogue: 0,0:00:21.74,0:00:22.94,Caption,,0,0,0,,and then even like
+Dialogue: 0,0:00:22.94,0:00:23.94,Caption,,0,0,0,,hacking another user to
+Dialogue: 0,0:00:23.94,0:00:25.12,Caption,,0,0,0,,approve the release

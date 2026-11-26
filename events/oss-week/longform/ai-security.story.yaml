@@ -1,0 +1,229 @@
+# Story beats for the AI & Security long form. Times are panel time (seconds from the panel's start,
+# the same clock as transcripts/ai-security.json), so they survive changes to the edit.
+#
+# questions: a chapter tag that stays on screen until the next question. `t` = when the host
+#            starts asking. A question without `n` is unnumbered (e.g. the introductions).
+# anchors:   a popup summary of a strong point; `t` = when the speaker starts the sentence that makes it,
+#            so the card appears while they're still on screen.
+# Each new question or anchor is a theme change: it gets the PostHog stripe wipe.
+
+questions:
+  - {t: 3.1, label: "Meet the panel", text: "Open source, AI and security"}
+  - {t: 45.1, n: 1, text: "Do contributors now have to earn the right to contribute?"}
+  - {t: 337.4, n: 2, text: "Small and open source: does it look less secure?"}
+  - {t: 630.5, n: 3, text: "Does every open source project now need a security hire?"}
+  - {t: 810.4, n: 4, text: "How do you catch and fix vulnerabilities faster?"}
+  - {t: 1103.5, n: 5, text: "Hot takes"}
+
+anchors:
+  - {t: 125.3, speaker: Matt Lenhard, text: "GitHub already has repos for exploiting your favorite AI tool"}
+  - {t: 162.2, speaker: Matt Lenhard, text: "Expect issues with reproductions instead of outside PRs"}
+  - {t: 196.7, speaker: Tom Piccirello, text: "More junk PRs than ever: AI one-shots them at incredible speed"}
+  - {t: 271.9, speaker: Justin D'Souza, text: "Agents triage every incoming PR and issue for security"}
+  - {t: 376.1, speaker: Justin D'Souza, text: "Open source got us into enterprises that had no other reason to trust us"}
+  - {t: 415.9, speaker: Justin D'Souza, text: "LiteLLM was compromised through a stolen CLI token"}
+  - {t: 531.7, speaker: Tom Piccirello, text: "Every company will get hacked. Plan for risk mitigation."}
+  - {t: 552.3, speaker: Matt Lenhard, text: "Bigger isn't safer: more employees means more ways in"}
+  - {t: 655.2, speaker: Matt Lenhard, text: "Security can be a differentiator that wins deals"}
+  - {t: 699.6, speaker: Tom Piccirello, text: "Agents will ship fewer vulnerabilities than humans ever did"}
+  - {t: 756.3, speaker: Justin D'Souza, text: "The value is in remediation, not detection"}
+  - {t: 982.6, speaker: Tom Piccirello, text: "The annual pen test is dead. Scan weekly, fix automatically."}
+  - {t: 1033.8, speaker: Matt Lenhard, text: "One attack: 100,000 requests from 4,000 accounts in 100 milliseconds"}
+  - {t: 1127.8, speaker: Justin D'Souza, text: "Bug bounties are next to die"}
+  - {t: 1152.0, speaker: Matt Lenhard, text: "Accepting PRs from strangers is coming to an end"}
+  - {t: 1265.5, speaker: Tom Piccirello, text: "Security gets worse before it gets better"}
+
+# cuts: moments that don't serve the story (mic checks, setup chatter, stray asides), removed
+#       with their captions. `from` / `to` are transcript text: the cut runs from the first word of
+#       `from` to the last word of the first `to` after it.
+cuts:
+  - {from: "and I think we can do a good job sharing the microphones", to: "we're short a little", why: "mic logistics"}
+  - {from: "Yeah, not working.", to: "Hello.", why: "mic trouble"}
+  - {from: "I'm struggling to think of one right now", to: "so I don't know", why: "stalling"}
+
+# shorts: candidate 3:4 shorts (shortform.py). Only specs with a `hook` render; the rest carry a
+#         `rejected` reason (FORMAT.md "### Selection"). `hook` is the hot take the short opens on,
+#         `from` / `to` the meat (setup and qualifier included), `payoff` the sentence it ends on, `skip` phrases are cut.
+shorts:
+  - id: ai-security-red-team-in-a-box
+    speaker: Matt Lenhard
+    anchor: "GitHub already has repos for exploiting your favorite AI tool"
+    parts:
+      - {from: "I think the attacks have really ratcheted up", to: "AI red team in a box for specific agents."}
+    key: ratcheted up
+  - id: ai-security-issues-with-repros
+    speaker: Matt Lenhard
+    anchor: "Expect issues with reproductions instead of outside PRs"
+    parts:
+      - {from: "how do you verify the credentials of the people", to: "that's where we're headed."}
+    key: verify the credentials
+  - id: ai-security-one-shot-crap
+    speaker: Tom Piccirello
+    anchor: "More junk PRs than ever: AI one-shots them at incredible speed"
+    parts:
+      - {from: "There are more crap PRs from the public than ever", to: "need to put an actual work to to look at it"}
+    skip:
+      - You know, I know there's some clever solutions to this.
+      - and I believe he was using that for Ghostty.
+      - I haven't looked into it myself it's an interesting idea right you know like you need some sort of reputation be able to contribute I think it's an interesting approach because
+    key: crap PRs
+  - id: ai-security-agent-triage
+    speaker: Justin D'Souza
+    anchor: "Agents triage every incoming PR and issue for security"
+    parts:
+      - {from: "Yesterday, we did a launch for our open source project", to: "dozens and dozens of PRs and issues."}
+      - {from: "And we have a security agent", to: "to understand trustworthiness."}
+      - {from: "And so we're trying to build systems", to: "what are meaningful issues or PRs."}
+    key: dozens and dozens
+    payoff: what are meaningful issues or PRs.
+  - id: ai-security-trust-small-companies
+    speaker: Justin D'Souza
+    anchor: "Open source got us into enterprises that had no other reason to trust us"
+    parts:
+      - {from: "when it was just me and my co-founder", to: "reason for enterprises to trust small companies."}
+    key: really large enterprises
+    payoff: reason for enterprises to trust small companies.
+  - id: ai-security-litellm
+    speaker: Justin D'Souza
+    anchor: "LiteLLM was compromised through a stolen CLI token"
+    parts:
+      - {from: "The attack vector today, though, is", to: "hacking another user to approve the release"}
+    key: supply chain attacks
+  - id: ai-security-everyone-gets-hacked
+    speaker: Tom Piccirello
+    anchor: "Every company will get hacked. Plan for risk mitigation."
+    hook: every company is going to get hacked.
+    repeat_hook: true
+    parts:
+      - {from: "if it's an open source product", to: "give you the full picture"}
+      - {from: "maybe you just take the view", to: "risk mitigation more than anything."}
+    key: get hacked
+    payoff: risk mitigation more than anything.
+  - id: ai-security-bigger-isnt-safer
+    speaker: Matt Lenhard
+    anchor: "Bigger isn't safer: more employees means more ways in"
+    parts:
+      - {from: "I don't necessarily believe that larger companies", to: "there's a lot more ways in"}
+      - {from: "with agents now you can compromise one system", to: "quickly gain access to 10 more."}
+    key: larger companies are more secure
+  - id: ai-security-differentiator
+    speaker: Matt Lenhard
+    anchor: "Security can be a differentiator that wins deals"
+    parts:
+      - {from: "I think you can start to use security as like a differentiator", to: "but I think that's a good thing"}
+    key: differentiator
+    skip:
+      - "We, you know,"
+  - id: ai-security-agents-fewer-vulns
+    speaker: Tom Piccirello
+    anchor: "Agents will ship fewer vulnerabilities than humans ever did"
+    key: "already writing all code"
+    parts:
+      - {from: "maybe many of your companies", to: "your risk from day one"}
+    swap:  # "they" is the agents: say it, in his own voice from a few seconds later
+      - {replace: "they are", with: "agents"}
+    auto_react: false   # stay on Tom
+  - id: ai-security-remediation
+    speaker: Justin D'Souza
+    anchor: "The value is in remediation, not detection"
+    hook: I think where the value accrues is really just around remediation. So it's not really any more around detection.
+    parts:
+      - {from: "it's also true that there's more vulnerabilities", to: "exponentially growing"}
+      - {from: "It's cheaper than ever to have", to: "infrastructure to remediate a lot faster."}
+    key: remediation
+    payoff: infrastructure to remediate a lot faster.
+  - id: ai-security-pen-test-is-dead
+    speaker: Tom Piccirello
+    anchor: "The annual pen test is dead. Scan weekly, fix automatically."
+    hook: the annual pen test I think is completely dead. It was always pretty useless, even with humans.
+    from: in the SRE world pre-AI
+    to: automatically remediating what gets found.
+    payoff: you should have weekly scans at a minimum
+    beats:
+      - kind: topic_shift
+        at: before our customers tell us
+        tags:
+          - outage
+          - alarm
+        query: alarm clock ringing
+        asset: overlays/pixabay-29325.mp4
+        pos: [0.243, 0.684]
+      - kind: topic_shift
+        at: AI red teaming tools
+        tags:
+          - robot
+          - attack
+        query: robot
+        asset: overlays/pixabay-199827.mp4
+        pos: [0.243, 0.684]
+        clip_in: 14.0
+      - kind: punchline
+        at: Testing once a year just doesn't make sense
+        tags:
+          - calendar
+          - once a year
+        query: calendar
+        asset: overlays/pixabay-197974.mp4
+        pos: [0.243, 0.684]
+    key: completely dead
+  - id: ai-security-100k-requests
+    speaker: Matt Lenhard
+    anchor: "One attack: 100,000 requests from 4,000 accounts in 100 milliseconds"
+    hook: we recently saw an attack that was across probably 3,000, 4,000 accounts, 100,000 requests all within 100 milliseconds,
+    parts:
+      - {from: "So for context, we stop like inference abuse", to: "and like token fraud."}
+      - {from: "and this person had been sitting on these accounts", to: "spun up from automation."}
+      - {from: "an attack can now be", to: "across a large number of accounts all at once."}
+    key: 100,000 requests
+  - id: ai-security-bug-bounties-dead
+    speaker: Justin D'Souza
+    anchor: "Bug bounties are next to die"
+    parts:
+      - {from: "You mentioned bug bounties.", to: "on any open source model"}
+    key: going to be dead
+  - id: ai-security-prs-coming-to-an-end
+    speaker: Matt Lenhard
+    anchor: "Accepting PRs from strangers is coming to an end"
+    hook: my hot take is that the open source contributions are coming to an end.
+    from: we're going to get to the point where people stop accepting
+    to: might sadly be coming to an end
+    payoff: might sadly be coming to an end
+    beats:
+      - kind: punchline
+        at: stop accepting open source contributions
+        tags:
+          - stop
+          - closed
+        query: stop sign
+        asset: overlays/pixabay-100594.mp4
+        pos: [0.377, 0.684]
+      - kind: stat
+        at: bought and sold on the secondary markets
+        tags:
+          - money
+          - black market
+        query: money falling
+        asset: overlays/pixabay-58760.mp4
+        key: green
+        pos: [0.243, 0.68]
+      - kind: topic_shift
+        at: showcase your code
+        tags:
+          - spotlight
+          - showcase
+        query: spotlight stage
+        asset: overlays/pixabay-337428.mp4
+        pos: [0.377, 0.684]
+    key: contributions are coming to an end
+    skip:
+      - So I think
+  - id: ai-security-worse-before-better
+    speaker: Tom Piccirello
+    anchor: "Security gets worse before it gets better"
+    hook: it gets worse before it gets better
+    parts:
+      - {from: "you have this tech debt effectively", to: "paying down the old ones"}
+      - {from: "i can tell you for an organization", to: "can't be automated"}
+      - {from: "it will get better things will get better", to: "that's just how it goes"}
+    key: before it gets better
+    payoff: that's just how it goes

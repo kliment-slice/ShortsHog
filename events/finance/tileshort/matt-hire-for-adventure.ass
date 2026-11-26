@@ -1,0 +1,228 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.22,Caption,,0,0,362,,{\c&H00DFB32B}I{\c&H00FFFFFF} want someone who
+Dialogue: 0,0:00:00.22,0:00:00.56,Caption,,0,0,362,,I {\c&H00DFB32B}want{\c&H00FFFFFF} someone who
+Dialogue: 0,0:00:00.56,0:00:00.92,Caption,,0,0,362,,I want {\c&H00DFB32B}someone{\c&H00FFFFFF} who
+Dialogue: 0,0:00:00.92,0:00:01.60,Caption,,0,0,362,,I want someone {\c&H00DFB32B}who{\c&H00FFFFFF}
+Dialogue: 0,0:00:01.60,0:00:02.05,Caption,,0,0,362,,{\c&H00DFB32B}is{\c&H00FFFFFF} basically ready for
+Dialogue: 0,0:00:02.05,0:00:02.88,Caption,,0,0,362,,is {\c&H00DFB32B}basically{\c&H00FFFFFF} ready for
+Dialogue: 0,0:00:02.88,0:00:03.38,Caption,,0,0,362,,is basically {\c&H00DFB32B}ready{\c&H00FFFFFF} for
+Dialogue: 0,0:00:03.38,0:00:03.88,Caption,,0,0,362,,is basically ready {\c&H00DFB32B}for{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.88,0:00:04.20,Caption,,0,0,362,,{\c&H00DFB32B}adventure{\c&H00FFFFFF}
+Dialogue: 0,0:00:04.20,0:00:04.36,Caption,,0,0,362,,{\c&H00DFB32B}if{\c&H00FFFFFF} that makes sense.
+Dialogue: 0,0:00:04.36,0:00:04.58,Caption,,0,0,362,,if {\c&H00DFB32B}that{\c&H00FFFFFF} makes sense.
+Dialogue: 0,0:00:04.58,0:00:04.90,Caption,,0,0,362,,if that {\c&H00DFB32B}makes{\c&H00FFFFFF} sense.
+Dialogue: 0,0:00:04.90,0:00:05.32,Caption,,0,0,362,,if that makes {\c&H00DFB32B}sense.{\c&H00FFFFFF}
+Dialogue: 0,0:00:05.60,0:00:05.90,Caption,,0,0,362,,{\c&H00DFB32B}We're{\c&H00FFFFFF} in a brand new
+Dialogue: 0,0:00:05.90,0:00:06.00,Caption,,0,0,362,,We're {\c&H00DFB32B}in{\c&H00FFFFFF} a brand new
+Dialogue: 0,0:00:06.00,0:00:06.24,Caption,,0,0,362,,We're in {\c&H00DFB32B}a{\c&H00FFFFFF} brand new
+Dialogue: 0,0:00:06.24,0:00:06.42,Caption,,0,0,362,,We're in a {\c&H00DFB32B}brand{\c&H00FFFFFF} new
+Dialogue: 0,0:00:06.42,0:00:06.82,Caption,,0,0,362,,We're in a brand {\c&H00DFB32B}new{\c&H00FFFFFF}
+Dialogue: 0,0:00:06.82,0:00:07.26,Caption,,0,0,362,,{\c&H00DFB32B}world.{\c&H00FFFFFF} You need to be
+Dialogue: 0,0:00:07.26,0:00:07.42,Caption,,0,0,362,,world. {\c&H00DFB32B}You{\c&H00FFFFFF} need to be
+Dialogue: 0,0:00:07.42,0:00:07.56,Caption,,0,0,362,,world. You {\c&H00DFB32B}need{\c&H00FFFFFF} to be
+Dialogue: 0,0:00:07.56,0:00:07.88,Caption,,0,0,362,,world. You need {\c&H00DFB32B}to{\c&H00FFFFFF} be
+Dialogue: 0,0:00:07.88,0:00:08.58,Caption,,0,0,362,,world. You need to {\c&H00DFB32B}be{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.58,0:00:08.82,Caption,,0,0,362,,{\c&H00DFB32B}wanting{\c&H00FFFFFF} to go out and
+Dialogue: 0,0:00:08.82,0:00:08.98,Caption,,0,0,362,,wanting {\c&H00DFB32B}to{\c&H00FFFFFF} go out and
+Dialogue: 0,0:00:08.98,0:00:09.16,Caption,,0,0,362,,wanting to {\c&H00DFB32B}go{\c&H00FFFFFF} out and
+Dialogue: 0,0:00:09.16,0:00:09.28,Caption,,0,0,362,,wanting to go {\c&H00DFB32B}out{\c&H00FFFFFF} and
+Dialogue: 0,0:00:09.28,0:00:09.52,Caption,,0,0,362,,wanting to go out {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:09.52,0:00:09.72,Caption,,0,0,362,,{\c&H00DFB32B}try{\c&H00FFFFFF} new things and
+Dialogue: 0,0:00:09.72,0:00:10.04,Caption,,0,0,362,,try {\c&H00DFB32B}new{\c&H00FFFFFF} things and
+Dialogue: 0,0:00:10.04,0:00:10.18,Caption,,0,0,362,,try new {\c&H00DFB32B}things{\c&H00FFFFFF} and
+Dialogue: 0,0:00:10.18,0:00:10.66,Caption,,0,0,362,,try new things {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:10.66,0:00:11.06,Caption,,0,0,362,,{\c&H00DFB32B}experiment.{\c&H00FFFFFF}
+Dialogue: 0,0:00:11.06,0:00:11.44,Caption,,0,0,362,,{\c&H00DFB32B}And{\c&H00FFFFFF} some of those are
+Dialogue: 0,0:00:11.44,0:00:11.54,Caption,,0,0,362,,And {\c&H00DFB32B}some{\c&H00FFFFFF} of those are
+Dialogue: 0,0:00:11.54,0:00:11.68,Caption,,0,0,362,,And some {\c&H00DFB32B}of{\c&H00FFFFFF} those are
+Dialogue: 0,0:00:11.68,0:00:11.78,Caption,,0,0,362,,And some of {\c&H00DFB32B}those{\c&H00FFFFFF} are
+Dialogue: 0,0:00:11.78,0:00:11.88,Caption,,0,0,362,,And some of those {\c&H00DFB32B}are{\c&H00FFFFFF}
+Dialogue: 0,0:00:11.88,0:00:11.96,Caption,,0,0,362,,{\c&H00DFB32B}going{\c&H00FFFFFF} to fail.
+Dialogue: 0,0:00:11.96,0:00:12.24,Caption,,0,0,362,,going {\c&H00DFB32B}to{\c&H00FFFFFF} fail.
+Dialogue: 0,0:00:12.24,0:00:12.58,Caption,,0,0,362,,going to {\c&H00DFB32B}fail.{\c&H00FFFFFF}
+Dialogue: 0,0:00:12.58,0:00:12.78,Caption,,0,0,362,,{\c&H00DFB32B}And{\c&H00FFFFFF} you can't be a
+Dialogue: 0,0:00:12.78,0:00:13.06,Caption,,0,0,362,,And {\c&H00DFB32B}you{\c&H00FFFFFF} can't be a
+Dialogue: 0,0:00:13.06,0:00:13.28,Caption,,0,0,362,,And you {\c&H00DFB32B}can't{\c&H00FFFFFF} be a
+Dialogue: 0,0:00:13.28,0:00:13.38,Caption,,0,0,362,,And you can't {\c&H00DFB32B}be{\c&H00FFFFFF} a
+Dialogue: 0,0:00:13.38,0:00:13.62,Caption,,0,0,362,,And you can't be {\c&H00DFB32B}a{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.62,0:00:13.74,Caption,,0,0,362,,{\c&H00DFB32B}person{\c&H00FFFFFF} who just wants to
+Dialogue: 0,0:00:13.74,0:00:13.88,Caption,,0,0,362,,person {\c&H00DFB32B}who{\c&H00FFFFFF} just wants to
+Dialogue: 0,0:00:13.88,0:00:14.04,Caption,,0,0,362,,person who {\c&H00DFB32B}just{\c&H00FFFFFF} wants to
+Dialogue: 0,0:00:14.04,0:00:14.18,Caption,,0,0,362,,person who just {\c&H00DFB32B}wants{\c&H00FFFFFF} to
+Dialogue: 0,0:00:14.18,0:00:14.34,Caption,,0,0,362,,person who just wants {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:14.34,0:00:14.48,Caption,,0,0,362,,{\c&H00DFB32B}turn{\c&H00FFFFFF} the crank every
+Dialogue: 0,0:00:14.48,0:00:14.72,Caption,,0,0,362,,turn {\c&H00DFB32B}the{\c&H00FFFFFF} crank every
+Dialogue: 0,0:00:14.72,0:00:14.96,Caption,,0,0,362,,turn the {\c&H00DFB32B}crank{\c&H00FFFFFF} every
+Dialogue: 0,0:00:14.96,0:00:15.22,Caption,,0,0,362,,turn the crank {\c&H00DFB32B}every{\c&H00FFFFFF}
+Dialogue: 0,0:00:15.22,0:00:15.51,Caption,,0,0,362,,{\c&H00DFB32B}month.{\c&H00FFFFFF} And then I think
+Dialogue: 0,0:00:15.51,0:00:15.63,Caption,,0,0,362,,month. {\c&H00DFB32B}And{\c&H00FFFFFF} then I think
+Dialogue: 0,0:00:15.63,0:00:15.77,Caption,,0,0,362,,month. And {\c&H00DFB32B}then{\c&H00FFFFFF} I think
+Dialogue: 0,0:00:15.77,0:00:16.01,Caption,,0,0,362,,month. And then {\c&H00DFB32B}I{\c&H00FFFFFF} think
+Dialogue: 0,0:00:16.01,0:00:16.63,Caption,,0,0,362,,month. And then I {\c&H00DFB32B}think{\c&H00FFFFFF}
+Dialogue: 0,0:00:16.63,0:00:16.77,Caption,,0,0,362,,{\c&H00DFB32B}you{\c&H00FFFFFF} need to have taste
+Dialogue: 0,0:00:16.77,0:00:16.83,Caption,,0,0,362,,you {\c&H00DFB32B}need{\c&H00FFFFFF} to have taste
+Dialogue: 0,0:00:16.83,0:00:16.95,Caption,,0,0,362,,you need {\c&H00DFB32B}to{\c&H00FFFFFF} have taste
+Dialogue: 0,0:00:16.95,0:00:17.33,Caption,,0,0,362,,you need to {\c&H00DFB32B}have{\c&H00FFFFFF} taste
+Dialogue: 0,0:00:17.33,0:00:17.63,Caption,,0,0,362,,you need to have {\c&H00DFB32B}taste{\c&H00FFFFFF}
+Dialogue: 0,0:00:17.63,0:00:17.75,Caption,,0,0,362,,{\c&H00DFB32B}the{\c&H00FFFFFF} way I say it.
+Dialogue: 0,0:00:17.75,0:00:17.91,Caption,,0,0,362,,the {\c&H00DFB32B}way{\c&H00FFFFFF} I say it.
+Dialogue: 0,0:00:17.91,0:00:18.19,Caption,,0,0,362,,the way {\c&H00DFB32B}I{\c&H00FFFFFF} say it.
+Dialogue: 0,0:00:18.19,0:00:18.37,Caption,,0,0,362,,the way I {\c&H00DFB32B}say{\c&H00FFFFFF} it.
+Dialogue: 0,0:00:18.37,0:00:18.51,Caption,,0,0,362,,the way I say {\c&H00DFB32B}it.{\c&H00FFFFFF}
+Dialogue: 0,0:00:18.51,0:00:18.73,Caption,,0,0,362,,{\c&H00DFB32B}And{\c&H00FFFFFF} it's sort of like
+Dialogue: 0,0:00:18.73,0:00:19.07,Caption,,0,0,362,,And {\c&H00DFB32B}it's{\c&H00FFFFFF} sort of like
+Dialogue: 0,0:00:19.07,0:00:19.17,Caption,,0,0,362,,And it's {\c&H00DFB32B}sort{\c&H00FFFFFF} of like
+Dialogue: 0,0:00:19.17,0:00:19.37,Caption,,0,0,362,,And it's sort {\c&H00DFB32B}of{\c&H00FFFFFF} like
+Dialogue: 0,0:00:19.37,0:00:19.83,Caption,,0,0,362,,And it's sort of {\c&H00DFB32B}like{\c&H00FFFFFF}
+Dialogue: 0,0:00:19.83,0:00:20.27,Caption,,0,0,362,,{\c&H00DFB32B}judgment.{\c&H00FFFFFF}
+Dialogue: 0,0:00:20.48,0:00:21.50,Caption,,0,0,362,,{\c&H00DFB32B}Because{\c&H00FFFFFF} AI is
+Dialogue: 0,0:00:21.50,0:00:22.08,Caption,,0,0,362,,Because {\c&H00DFB32B}AI{\c&H00FFFFFF} is
+Dialogue: 0,0:00:22.08,0:00:22.54,Caption,,0,0,362,,Because AI {\c&H00DFB32B}is{\c&H00FFFFFF}
+Dialogue: 0,0:00:22.54,0:00:22.90,Caption,,0,0,362,,{\c&H00DFB32B}confidently{\c&H00FFFFFF} wrong half
+Dialogue: 0,0:00:22.90,0:00:23.14,Caption,,0,0,362,,confidently {\c&H00DFB32B}wrong{\c&H00FFFFFF} half
+Dialogue: 0,0:00:23.14,0:00:23.30,Caption,,0,0,362,,confidently wrong {\c&H00DFB32B}half{\c&H00FFFFFF}
+Dialogue: 0,0:00:23.30,0:00:23.64,Caption,,0,0,362,,{\c&H00DFB32B}the{\c&H00FFFFFF} time.
+Dialogue: 0,0:00:23.64,0:00:23.97,Caption,,0,0,362,,the {\c&H00DFB32B}time.{\c&H00FFFFFF}
+Dialogue: 0,0:00:23.97,0:00:24.09,Caption,,0,0,362,,{\c&H00DFB32B}I{\c&H00FFFFFF} think a lot of people
+Dialogue: 0,0:00:24.09,0:00:24.23,Caption,,0,0,362,,I {\c&H00DFB32B}think{\c&H00FFFFFF} a lot of people
+Dialogue: 0,0:00:24.23,0:00:24.35,Caption,,0,0,362,,I think {\c&H00DFB32B}a{\c&H00FFFFFF} lot of people
+Dialogue: 0,0:00:24.35,0:00:24.49,Caption,,0,0,362,,I think a {\c&H00DFB32B}lot{\c&H00FFFFFF} of people
+Dialogue: 0,0:00:24.49,0:00:25.15,Caption,,0,0,362,,I think a lot {\c&H00DFB32B}of{\c&H00FFFFFF} people
+Dialogue: 0,0:00:25.15,0:00:25.35,Caption,,0,0,362,,I think a lot of {\c&H00DFB32B}people{\c&H00FFFFFF}
+Dialogue: 0,0:00:25.35,0:00:25.47,Caption,,0,0,362,,{\c&H00DFB32B}think{\c&H00FFFFFF} that means
+Dialogue: 0,0:00:25.47,0:00:25.63,Caption,,0,0,362,,think {\c&H00DFB32B}that{\c&H00FFFFFF} means
+Dialogue: 0,0:00:25.63,0:00:25.79,Caption,,0,0,362,,think that {\c&H00DFB32B}means{\c&H00FFFFFF}
+Dialogue: 0,0:00:25.79,0:00:25.91,Caption,,0,0,362,,{\c&H00DFB32B}hey{\c&H00FFFFFF} I need to hire
+Dialogue: 0,0:00:25.91,0:00:26.03,Caption,,0,0,362,,hey {\c&H00DFB32B}I{\c&H00FFFFFF} need to hire
+Dialogue: 0,0:00:26.03,0:00:26.13,Caption,,0,0,362,,hey I {\c&H00DFB32B}need{\c&H00FFFFFF} to hire
+Dialogue: 0,0:00:26.13,0:00:26.31,Caption,,0,0,362,,hey I need {\c&H00DFB32B}to{\c&H00FFFFFF} hire
+Dialogue: 0,0:00:26.31,0:00:26.57,Caption,,0,0,362,,hey I need to {\c&H00DFB32B}hire{\c&H00FFFFFF}
+Dialogue: 0,0:00:26.57,0:00:26.87,Caption,,0,0,362,,{\c&H00DFB32B}someone{\c&H00FFFFFF} very
+Dialogue: 0,0:00:26.87,0:00:27.47,Caption,,0,0,362,,someone {\c&H00DFB32B}very{\c&H00FFFFFF}
+Dialogue: 0,0:00:27.47,0:00:27.75,Caption,,0,0,362,,{\c&H00DFB32B}experienced.{\c&H00FFFFFF}
+Dialogue: 0,0:00:27.75,0:00:28.25,Caption,,0,0,362,,{\c&H00DFB32B}And{\c&H00FFFFFF} experienced is one
+Dialogue: 0,0:00:28.25,0:00:28.47,Caption,,0,0,362,,And {\c&H00DFB32B}experienced{\c&H00FFFFFF} is one
+Dialogue: 0,0:00:28.47,0:00:28.69,Caption,,0,0,362,,And experienced {\c&H00DFB32B}is{\c&H00FFFFFF} one
+Dialogue: 0,0:00:28.69,0:00:28.85,Caption,,0,0,362,,And experienced is {\c&H00DFB32B}one{\c&H00FFFFFF}
+Dialogue: 0,0:00:28.85,0:00:28.95,Caption,,0,0,362,,{\c&H00DFB32B}way{\c&H00FFFFFF} to get taste.
+Dialogue: 0,0:00:28.95,0:00:29.07,Caption,,0,0,362,,way {\c&H00DFB32B}to{\c&H00FFFFFF} get taste.
+Dialogue: 0,0:00:29.07,0:00:29.41,Caption,,0,0,362,,way to {\c&H00DFB32B}get{\c&H00FFFFFF} taste.
+Dialogue: 0,0:00:29.41,0:00:29.97,Caption,,0,0,362,,way to get {\c&H00DFB32B}taste.{\c&H00FFFFFF}
+Dialogue: 0,0:00:29.97,0:00:30.09,Caption,,0,0,362,,{\c&H00DFB32B}But{\c&H00FFFFFF} I think you need to
+Dialogue: 0,0:00:30.09,0:00:30.21,Caption,,0,0,362,,But {\c&H00DFB32B}I{\c&H00FFFFFF} think you need to
+Dialogue: 0,0:00:30.21,0:00:30.31,Caption,,0,0,362,,But I {\c&H00DFB32B}think{\c&H00FFFFFF} you need to
+Dialogue: 0,0:00:30.31,0:00:30.43,Caption,,0,0,362,,But I think {\c&H00DFB32B}you{\c&H00FFFFFF} need to
+Dialogue: 0,0:00:30.43,0:00:30.55,Caption,,0,0,362,,But I think you {\c&H00DFB32B}need{\c&H00FFFFFF} to
+Dialogue: 0,0:00:30.55,0:00:30.83,Caption,,0,0,362,,But I think you need {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:30.83,0:00:31.95,Caption,,0,0,362,,{\c&H00DFB32B}hire{\c&H00FFFFFF} experienced people
+Dialogue: 0,0:00:31.95,0:00:32.29,Caption,,0,0,362,,hire {\c&H00DFB32B}experienced{\c&H00FFFFFF} people
+Dialogue: 0,0:00:32.29,0:00:32.41,Caption,,0,0,362,,hire experienced {\c&H00DFB32B}people{\c&H00FFFFFF}
+Dialogue: 0,0:00:32.41,0:00:32.65,Caption,,0,0,362,,{\c&H00DFB32B}or{\c&H00FFFFFF} maybe the challenge
+Dialogue: 0,0:00:32.65,0:00:33.61,Caption,,0,0,362,,or {\c&H00DFB32B}maybe{\c&H00FFFFFF} the challenge
+Dialogue: 0,0:00:33.61,0:00:34.03,Caption,,0,0,362,,or maybe {\c&H00DFB32B}the{\c&H00FFFFFF} challenge
+Dialogue: 0,0:00:34.03,0:00:34.21,Caption,,0,0,362,,or maybe the {\c&H00DFB32B}challenge{\c&H00FFFFFF}
+Dialogue: 0,0:00:34.21,0:00:34.31,Caption,,0,0,362,,{\c&H00DFB32B}is{\c&H00FFFFFF} that they may fail on
+Dialogue: 0,0:00:34.31,0:00:34.45,Caption,,0,0,362,,is {\c&H00DFB32B}that{\c&H00FFFFFF} they may fail on
+Dialogue: 0,0:00:34.45,0:00:34.61,Caption,,0,0,362,,is that {\c&H00DFB32B}they{\c&H00FFFFFF} may fail on
+Dialogue: 0,0:00:34.61,0:00:35.05,Caption,,0,0,362,,is that they {\c&H00DFB32B}may{\c&H00FFFFFF} fail on
+Dialogue: 0,0:00:35.05,0:00:35.27,Caption,,0,0,362,,is that they may {\c&H00DFB32B}fail{\c&H00FFFFFF} on
+Dialogue: 0,0:00:35.27,0:00:35.41,Caption,,0,0,362,,is that they may fail {\c&H00DFB32B}on{\c&H00FFFFFF}
+Dialogue: 0,0:00:35.41,0:00:35.69,Caption,,0,0,362,,{\c&H00DFB32B}that{\c&H00FFFFFF} first dimension of
+Dialogue: 0,0:00:35.69,0:00:36.07,Caption,,0,0,362,,that {\c&H00DFB32B}first{\c&H00FFFFFF} dimension of
+Dialogue: 0,0:00:36.07,0:00:36.27,Caption,,0,0,362,,that first {\c&H00DFB32B}dimension{\c&H00FFFFFF} of
+Dialogue: 0,0:00:36.27,0:00:36.47,Caption,,0,0,362,,that first dimension {\c&H00DFB32B}of{\c&H00FFFFFF}
+Dialogue: 0,0:00:36.47,0:00:36.73,Caption,,0,0,362,,{\c&H00DFB32B}being{\c&H00FFFFFF} up for an
+Dialogue: 0,0:00:36.73,0:00:36.89,Caption,,0,0,362,,being {\c&H00DFB32B}up{\c&H00FFFFFF} for an
+Dialogue: 0,0:00:36.89,0:00:37.01,Caption,,0,0,362,,being up {\c&H00DFB32B}for{\c&H00FFFFFF} an
+Dialogue: 0,0:00:37.01,0:00:37.39,Caption,,0,0,362,,being up for {\c&H00DFB32B}an{\c&H00FFFFFF}
+Dialogue: 0,0:00:37.39,0:00:38.11,Caption,,0,0,362,,{\c&H00DFB32B}adventure.{\c&H00FFFFFF}
+Dialogue: 0,0:00:38.11,0:00:38.23,Caption,,0,0,362,,{\c&H00DFB32B}And{\c&H00FFFFFF} so what you need to
+Dialogue: 0,0:00:38.23,0:00:38.33,Caption,,0,0,362,,And {\c&H00DFB32B}so{\c&H00FFFFFF} what you need to
+Dialogue: 0,0:00:38.33,0:00:38.43,Caption,,0,0,362,,And so {\c&H00DFB32B}what{\c&H00FFFFFF} you need to
+Dialogue: 0,0:00:38.43,0:00:38.55,Caption,,0,0,362,,And so what {\c&H00DFB32B}you{\c&H00FFFFFF} need to
+Dialogue: 0,0:00:38.55,0:00:38.65,Caption,,0,0,362,,And so what you {\c&H00DFB32B}need{\c&H00FFFFFF} to
+Dialogue: 0,0:00:38.65,0:00:38.87,Caption,,0,0,362,,And so what you need {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:38.87,0:00:39.03,Caption,,0,0,362,,{\c&H00DFB32B}find{\c&H00FFFFFF} is someone who is
+Dialogue: 0,0:00:39.03,0:00:39.27,Caption,,0,0,362,,find {\c&H00DFB32B}is{\c&H00FFFFFF} someone who is
+Dialogue: 0,0:00:39.27,0:00:39.47,Caption,,0,0,362,,find is {\c&H00DFB32B}someone{\c&H00FFFFFF} who is
+Dialogue: 0,0:00:39.47,0:00:39.73,Caption,,0,0,362,,find is someone {\c&H00DFB32B}who{\c&H00FFFFFF} is
+Dialogue: 0,0:00:39.73,0:00:40.25,Caption,,0,0,362,,find is someone who {\c&H00DFB32B}is{\c&H00FFFFFF}
+Dialogue: 0,0:00:40.25,0:00:40.51,Caption,,0,0,362,,{\c&H00DFB32B}both{\c&H00FFFFFF} sort of like
+Dialogue: 0,0:00:40.51,0:00:40.69,Caption,,0,0,362,,both {\c&H00DFB32B}sort{\c&H00FFFFFF} of like
+Dialogue: 0,0:00:40.69,0:00:40.93,Caption,,0,0,362,,both sort {\c&H00DFB32B}of{\c&H00FFFFFF} like
+Dialogue: 0,0:00:40.93,0:00:41.31,Caption,,0,0,362,,both sort of {\c&H00DFB32B}like{\c&H00FFFFFF}
+Dialogue: 0,0:00:41.31,0:00:41.87,Caption,,0,0,362,,{\c&H00DFB32B}youthful{\c&H00FFFFFF} enough and
+Dialogue: 0,0:00:41.87,0:00:42.22,Caption,,0,0,362,,youthful {\c&H00DFB32B}enough{\c&H00FFFFFF} and
+Dialogue: 0,0:00:42.22,0:00:42.46,Caption,,0,0,362,,youthful enough {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:42.46,0:00:42.76,Caption,,0,0,362,,{\c&H00DFB32B}ready{\c&H00FFFFFF} enough to like
+Dialogue: 0,0:00:42.76,0:00:42.94,Caption,,0,0,362,,ready {\c&H00DFB32B}enough{\c&H00FFFFFF} to like
+Dialogue: 0,0:00:42.94,0:00:43.12,Caption,,0,0,362,,ready enough {\c&H00DFB32B}to{\c&H00FFFFFF} like
+Dialogue: 0,0:00:43.12,0:00:43.58,Caption,,0,0,362,,ready enough to {\c&H00DFB32B}like{\c&H00FFFFFF}
+Dialogue: 0,0:00:43.58,0:00:44.00,Caption,,0,0,362,,{\c&H00DFB32B}explore{\c&H00FFFFFF} and grow and
+Dialogue: 0,0:00:44.00,0:00:44.56,Caption,,0,0,362,,explore {\c&H00DFB32B}and{\c&H00FFFFFF} grow and
+Dialogue: 0,0:00:44.56,0:00:45.30,Caption,,0,0,362,,explore and {\c&H00DFB32B}grow{\c&H00FFFFFF} and
+Dialogue: 0,0:00:45.30,0:00:45.60,Caption,,0,0,362,,explore and grow {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:45.60,0:00:45.92,Caption,,0,0,362,,{\c&H00DFB32B}also{\c&H00FFFFFF} like sort of
+Dialogue: 0,0:00:45.92,0:00:46.38,Caption,,0,0,362,,also {\c&H00DFB32B}like{\c&H00FFFFFF} sort of
+Dialogue: 0,0:00:46.38,0:00:46.52,Caption,,0,0,362,,also like {\c&H00DFB32B}sort{\c&H00FFFFFF} of
+Dialogue: 0,0:00:46.52,0:00:46.92,Caption,,0,0,362,,also like sort {\c&H00DFB32B}of{\c&H00FFFFFF}
+Dialogue: 0,0:00:46.92,0:00:47.50,Caption,,0,0,362,,{\c&H00DFB32B}discernful{\c&H00FFFFFF} enough and
+Dialogue: 0,0:00:47.50,0:00:47.80,Caption,,0,0,362,,discernful {\c&H00DFB32B}enough{\c&H00FFFFFF} and
+Dialogue: 0,0:00:47.80,0:00:47.98,Caption,,0,0,362,,discernful enough {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:47.98,0:00:48.16,Caption,,0,0,362,,{\c&H00DFB32B}has{\c&H00FFFFFF} enough taste to be
+Dialogue: 0,0:00:48.16,0:00:48.50,Caption,,0,0,362,,has {\c&H00DFB32B}enough{\c&H00FFFFFF} taste to be
+Dialogue: 0,0:00:48.50,0:00:48.70,Caption,,0,0,362,,has enough {\c&H00DFB32B}taste{\c&H00FFFFFF} to be
+Dialogue: 0,0:00:48.70,0:00:48.82,Caption,,0,0,362,,has enough taste {\c&H00DFB32B}to{\c&H00FFFFFF} be
+Dialogue: 0,0:00:48.82,0:00:48.96,Caption,,0,0,362,,has enough taste to {\c&H00DFB32B}be{\c&H00FFFFFF}
+Dialogue: 0,0:00:48.96,0:00:49.08,Caption,,0,0,362,,{\c&H00DFB32B}able{\c&H00FFFFFF} to like question
+Dialogue: 0,0:00:49.08,0:00:49.22,Caption,,0,0,362,,able {\c&H00DFB32B}to{\c&H00FFFFFF} like question
+Dialogue: 0,0:00:49.22,0:00:49.72,Caption,,0,0,362,,able to {\c&H00DFB32B}like{\c&H00FFFFFF} question
+Dialogue: 0,0:00:49.72,0:00:49.94,Caption,,0,0,362,,able to like {\c&H00DFB32B}question{\c&H00FFFFFF}
+Dialogue: 0,0:00:49.94,0:00:50.08,Caption,,0,0,362,,{\c&H00DFB32B}and{\c&H00FFFFFF} like interrogate and
+Dialogue: 0,0:00:50.08,0:00:50.48,Caption,,0,0,362,,and {\c&H00DFB32B}like{\c&H00FFFFFF} interrogate and
+Dialogue: 0,0:00:50.48,0:00:50.94,Caption,,0,0,362,,and like {\c&H00DFB32B}interrogate{\c&H00FFFFFF} and
+Dialogue: 0,0:00:50.94,0:00:51.24,Caption,,0,0,362,,and like interrogate {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:51.24,0:00:51.44,Caption,,0,0,362,,{\c&H00DFB32B}push{\c&H00FFFFFF} for really great
+Dialogue: 0,0:00:51.44,0:00:51.64,Caption,,0,0,362,,push {\c&H00DFB32B}for{\c&H00FFFFFF} really great
+Dialogue: 0,0:00:51.64,0:00:51.84,Caption,,0,0,362,,push for {\c&H00DFB32B}really{\c&H00FFFFFF} great
+Dialogue: 0,0:00:51.84,0:00:52.28,Caption,,0,0,362,,push for really {\c&H00DFB32B}great{\c&H00FFFFFF}
+Dialogue: 0,0:00:52.28,0:00:52.86,Caption,,0,0,362,,{\c&H00DFB32B}answers.{\c&H00FFFFFF} And if you can
+Dialogue: 0,0:00:52.86,0:00:52.96,Caption,,0,0,362,,answers. {\c&H00DFB32B}And{\c&H00FFFFFF} if you can
+Dialogue: 0,0:00:52.96,0:00:53.04,Caption,,0,0,362,,answers. And {\c&H00DFB32B}if{\c&H00FFFFFF} you can
+Dialogue: 0,0:00:53.04,0:00:53.16,Caption,,0,0,362,,answers. And if {\c&H00DFB32B}you{\c&H00FFFFFF} can
+Dialogue: 0,0:00:53.16,0:00:53.28,Caption,,0,0,362,,answers. And if you {\c&H00DFB32B}can{\c&H00FFFFFF}
+Dialogue: 0,0:00:53.28,0:00:53.56,Caption,,0,0,347,,{\c&H00DFB32B}get{\c&H00FFFFFF} those two like that
+Dialogue: 0,0:00:53.56,0:00:53.80,Caption,,0,0,347,,get {\c&H00DFB32B}those{\c&H00FFFFFF} two like that
+Dialogue: 0,0:00:53.80,0:00:54.12,Caption,,0,0,347,,get those {\c&H00DFB32B}two{\c&H00FFFFFF} like that
+Dialogue: 0,0:00:54.12,0:00:54.44,Caption,,0,0,347,,get those two {\c&H00DFB32B}like{\c&H00FFFFFF} that
+Dialogue: 0,0:00:54.44,0:00:54.76,Caption,,0,0,347,,get those two like {\c&H00DFB32B}that{\c&H00FFFFFF}
+Dialogue: 0,0:00:54.76,0:00:55.04,Caption,,0,0,347,,{\c&H00DFB32B}sweet{\c&H00FFFFFF} spot of those two
+Dialogue: 0,0:00:55.04,0:00:55.18,Caption,,0,0,347,,sweet {\c&H00DFB32B}spot{\c&H00FFFFFF} of those two
+Dialogue: 0,0:00:55.18,0:00:55.36,Caption,,0,0,347,,sweet spot {\c&H00DFB32B}of{\c&H00FFFFFF} those two
+Dialogue: 0,0:00:55.36,0:00:55.48,Caption,,0,0,347,,sweet spot of {\c&H00DFB32B}those{\c&H00FFFFFF} two
+Dialogue: 0,0:00:55.48,0:00:55.76,Caption,,0,0,347,,sweet spot of those {\c&H00DFB32B}two{\c&H00FFFFFF}
+Dialogue: 0,0:00:55.76,0:00:56.10,Caption,,0,0,362,,{\c&H00DFB32B}working{\c&H00FFFFFF} together
+Dialogue: 0,0:00:56.10,0:00:56.30,Caption,,0,0,362,,working {\c&H00DFB32B}together{\c&H00FFFFFF}
+Dialogue: 0,0:00:56.30,0:00:56.52,Caption,,0,0,362,,{\c&H00DFB32B}that's{\c&H00FFFFFF} sort of like the
+Dialogue: 0,0:00:56.52,0:00:56.58,Caption,,0,0,362,,that's {\c&H00DFB32B}sort{\c&H00FFFFFF} of like the
+Dialogue: 0,0:00:56.58,0:00:56.72,Caption,,0,0,362,,that's sort {\c&H00DFB32B}of{\c&H00FFFFFF} like the
+Dialogue: 0,0:00:56.72,0:00:56.84,Caption,,0,0,362,,that's sort of {\c&H00DFB32B}like{\c&H00FFFFFF} the
+Dialogue: 0,0:00:56.84,0:00:57.24,Caption,,0,0,362,,that's sort of like {\c&H00DFB32B}the{\c&H00FFFFFF}
+Dialogue: 0,0:00:57.24,0:00:57.74,Caption,,0,0,362,,{\c&H00DFB32B}ideal{\c&H00FFFFFF} role that you're
+Dialogue: 0,0:00:57.74,0:00:58.12,Caption,,0,0,362,,ideal {\c&H00DFB32B}role{\c&H00FFFFFF} that you're
+Dialogue: 0,0:00:58.12,0:00:58.20,Caption,,0,0,362,,ideal role {\c&H00DFB32B}that{\c&H00FFFFFF} you're
+Dialogue: 0,0:00:58.20,0:00:58.38,Caption,,0,0,362,,ideal role that {\c&H00DFB32B}you're{\c&H00FFFFFF}
+Dialogue: 0,0:00:58.38,0:00:58.60,Caption,,0,0,362,,{\c&H00DFB32B}looking{\c&H00FFFFFF} for.
+Dialogue: 0,0:00:58.60,0:00:59.01,Caption,,0,0,362,,looking {\c&H00DFB32B}for.{\c&H00FFFFFF}

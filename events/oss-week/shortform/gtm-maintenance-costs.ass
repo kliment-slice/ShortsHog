@@ -1,0 +1,72 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} not free to
+Dialogue: 0,0:00:00.32,0:00:00.86,Caption,,0,0,600,,It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} free to
+Dialogue: 0,0:00:00.86,0:00:01.26,Caption,,0,0,600,,It's not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}free{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:01.26,0:00:01.56,Caption,,0,0,600,,It's not free {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.56,0:00:02.14,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maintain{\c&H00FFFFFF\fscx100\fscy100} software.
+Dialogue: 0,0:00:02.14,0:00:02.63,Caption,,0,0,600,,maintain {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.63,0:00:02.75,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think there's a big
+Dialogue: 0,0:00:02.75,0:00:02.85,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} there's a big
+Dialogue: 0,0:00:02.85,0:00:02.97,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there's{\c&H00FFFFFF\fscx100\fscy100} a big
+Dialogue: 0,0:00:02.97,0:00:03.11,Caption,,0,0,600,,I think there's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} big
+Dialogue: 0,0:00:03.11,0:00:03.49,Caption,,0,0,600,,I think there's a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}big{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.49,0:00:03.93,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}question{\c&H00FFFFFF\fscx100\fscy100} about
+Dialogue: 0,0:00:03.93,0:00:04.51,Caption,,0,0,600,,question {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}about{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.51,0:00:05.76,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maintainability.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.84,0:00:06.04,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Both{\c&H00FFFFFF\fscx100\fscy100} in terms of human
+Dialogue: 0,0:00:06.04,0:00:06.24,Caption,,0,0,600,,Both {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} terms of human
+Dialogue: 0,0:00:06.24,0:00:06.40,Caption,,0,0,600,,Both in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}terms{\c&H00FFFFFF\fscx100\fscy100} of human
+Dialogue: 0,0:00:06.40,0:00:06.62,Caption,,0,0,600,,Both in terms {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} human
+Dialogue: 0,0:00:06.62,0:00:06.86,Caption,,0,0,600,,Both in terms of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}human{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.86,0:00:07.00,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}hours{\c&H00FFFFFF\fscx100\fscy100} to look at it
+Dialogue: 0,0:00:07.00,0:00:07.16,Caption,,0,0,600,,hours {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} look at it
+Dialogue: 0,0:00:07.16,0:00:07.28,Caption,,0,0,600,,hours to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}look{\c&H00FFFFFF\fscx100\fscy100} at it
+Dialogue: 0,0:00:07.28,0:00:07.44,Caption,,0,0,600,,hours to look {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} it
+Dialogue: 0,0:00:07.44,0:00:08.04,Caption,,0,0,600,,hours to look at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.04,0:00:08.44,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}previously{\c&H00FFFFFF\fscx100\fscy100} and now
+Dialogue: 0,0:00:08.44,0:00:08.74,Caption,,0,0,600,,previously {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} now
+Dialogue: 0,0:00:08.74,0:00:08.92,Caption,,0,0,600,,previously and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.92,0:00:09.20,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}with{\c&H00FFFFFF\fscx100\fscy100} AI it literally
+Dialogue: 0,0:00:09.20,0:00:09.36,Caption,,0,0,600,,with {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}AI{\c&H00FFFFFF\fscx100\fscy100} it literally
+Dialogue: 0,0:00:09.36,0:00:09.54,Caption,,0,0,600,,with AI {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} literally
+Dialogue: 0,0:00:09.54,0:00:09.80,Caption,,0,0,600,,with AI it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}literally{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.80,0:00:09.92,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}costs{\c&H00FFFFFF\fscx100\fscy100} you something.
+Dialogue: 0,0:00:09.92,0:00:10.18,Caption,,0,0,600,,costs {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} something.
+Dialogue: 0,0:00:10.18,0:00:10.42,Caption,,0,0,600,,costs you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.42,0:00:10.66,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think even with the
+Dialogue: 0,0:00:10.66,0:00:11.38,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} even with the
+Dialogue: 0,0:00:11.38,0:00:11.84,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}even{\c&H00FFFFFF\fscx100\fscy100} with the
+Dialogue: 0,0:00:11.84,0:00:12.00,Caption,,0,0,600,,I think even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}with{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:12.00,0:00:12.36,Caption,,0,0,600,,I think even with {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.36,0:00:12.88,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}latest{\c&H00FFFFFF\fscx100\fscy100} TypeScript Rust
+Dialogue: 0,0:00:12.88,0:00:14.02,Caption,,0,0,600,,latest {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}TypeScript{\c&H00FFFFFF\fscx100\fscy100} Rust
+Dialogue: 0,0:00:14.02,0:00:14.44,Caption,,0,0,600,,latest TypeScript {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Rust{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.44,0:00:14.86,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}rewrite{\c&H00FFFFFF\fscx100\fscy100} that was a
+Dialogue: 0,0:00:14.86,0:00:15.04,Caption,,0,0,600,,rewrite {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} was a
+Dialogue: 0,0:00:15.04,0:00:15.18,Caption,,0,0,600,,rewrite that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:15.18,0:00:15.34,Caption,,0,0,600,,rewrite that was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.34,0:00:15.76,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whole{\c&H00FFFFFF\fscx100\fscy100} section in the
+Dialogue: 0,0:00:15.76,0:00:16.10,Caption,,0,0,600,,whole {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}section{\c&H00FFFFFF\fscx100\fscy100} in the
+Dialogue: 0,0:00:16.10,0:00:16.22,Caption,,0,0,600,,whole section {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:16.22,0:00:16.48,Caption,,0,0,600,,whole section in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.48,0:00:17.04,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Cloudflare{\c&H00FFFFFF\fscx100\fscy100} blog post
+Dialogue: 0,0:00:17.04,0:00:17.38,Caption,,0,0,600,,Cloudflare {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}blog{\c&H00FFFFFF\fscx100\fscy100} post
+Dialogue: 0,0:00:17.38,0:00:17.76,Caption,,0,0,600,,Cloudflare blog {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}post{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.76,0:00:18.32,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}about{\c&H00FFFFFF\fscx100\fscy100} Who's going to
+Dialogue: 0,0:00:18.32,0:00:18.54,Caption,,0,0,600,,about {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Who's{\c&H00FFFFFF\fscx100\fscy100} going to
+Dialogue: 0,0:00:18.54,0:00:18.56,Caption,,0,0,600,,about Who's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:18.56,0:00:18.84,Caption,,0,0,600,,about Who's going {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.84,0:00:19.06,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maintain{\c&H00FFFFFF\fscx100\fscy100} this
+Dialogue: 0,0:00:19.06,0:00:19.26,Caption,,0,0,600,,maintain {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100}

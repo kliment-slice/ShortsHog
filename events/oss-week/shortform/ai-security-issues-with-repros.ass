@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.24,0:00:04.74,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 3,0:00:01.24,0:00:04.74,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Expect issues with
+Dialogue: 3,0:00:01.24,0:00:04.74,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}reproductions instead of
+Dialogue: 3,0:00:01.24,0:00:04.74,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}outside PRs”
+Dialogue: 0,0:00:00.00,0:00:01.42,Caption,,0,0,0,,How do you verify the
+Dialogue: 0,0:00:01.42,0:00:02.16,Caption,,0,0,0,,credentials of the
+Dialogue: 0,0:00:02.16,0:00:03.81,Caption,,0,0,0,,people like
+Dialogue: 0,0:00:03.81,0:00:04.27,Caption,,0,0,0,,contributing?
+Dialogue: 0,0:00:04.40,0:00:05.60,Caption,,0,0,0,,It's a really hard
+Dialogue: 0,0:00:05.60,0:00:06.54,Caption,,0,0,0,,problem to solve
+Dialogue: 0,0:00:06.54,0:00:07.80,Caption,,0,0,0,,and that's why we're
+Dialogue: 0,0:00:07.80,0:00:08.56,Caption,,0,0,0,,seeing kind of these
+Dialogue: 0,0:00:08.56,0:00:10.62,Caption,,0,0,0,,blanket movements to
+Dialogue: 0,0:00:10.62,0:00:12.71,Caption,,0,0,0,,just... And I think
+Dialogue: 0,0:00:12.71,0:00:13.17,Caption,,0,0,0,,that's what we're going
+Dialogue: 0,0:00:13.17,0:00:14.11,Caption,,0,0,0,,to start to see long
+Dialogue: 0,0:00:14.11,0:00:15.77,Caption,,0,0,0,,term, is people opening
+Dialogue: 0,0:00:15.77,0:00:17.09,Caption,,0,0,0,,up issues with
+Dialogue: 0,0:00:17.09,0:00:18.27,Caption,,0,0,0,,reproductions
+Dialogue: 0,0:00:18.27,0:00:19.57,Caption,,0,0,0,,maybe some sample AI
+Dialogue: 0,0:00:19.57,0:00:20.75,Caption,,0,0,0,,code, that gets passed
+Dialogue: 0,0:00:20.75,0:00:21.49,Caption,,0,0,0,,off to like the
+Dialogue: 0,0:00:21.49,0:00:22.87,Caption,,0,0,0,,engineering team who
+Dialogue: 0,0:00:22.87,0:00:24.62,Caption,,0,0,0,,implements the fix
+Dialogue: 0,0:00:24.62,0:00:25.34,Caption,,0,0,0,,puts it through their
+Dialogue: 0,0:00:25.34,0:00:27.10,Caption,,0,0,0,,own internal systems for
+Dialogue: 0,0:00:27.10,0:00:29.04,Caption,,0,0,0,,testing. And it's sad
+Dialogue: 0,0:00:29.04,0:00:30.08,Caption,,0,0,0,,but I think ultimately
+Dialogue: 0,0:00:30.08,0:00:30.76,Caption,,0,0,0,,that's where we're
+Dialogue: 0,0:00:30.76,0:00:31.36,Caption,,0,0,0,,headed.

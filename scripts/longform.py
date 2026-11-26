@@ -1,22 +1,26 @@
-"""Edit a full panel as a dynamic 16:9 video in the ShortsHog look.
+"""Edit a full panel as a 16:9 video in the ShortsHog look.
 
     .venv/bin/python scripts/longform.py <event> <panel> [--start S] [--duration D] [--plan-only]
 
-Core tenet: make the output content dynamic. Style and pacing live in FORMAT.md
-("## Dynamic edit" and "## Long form").
+The speaker's point is the content: the picture changes when the information changes, not on
+a timer. Style and pacing live in FORMAT.md ("## Dynamic edit" and "## Long form").
 
-  1. Tighten (edit.py): ums muted, long pauses / long ums / stutters cut. Everything
-     below runs on that tightened timeline; the cameras skip what was cut.
-  2. Shots, by who's talking (labelled transcript): a close-up on the speaker
-     (cam2, following their tracked face), with cutaways every few seconds that cycle
-     through the cam1 wide, a reaction close-up of someone listening, and the cam2
-     group shot. Cuts prefer the points where audio was removed, which hides them.
+  1. Tighten (edit.py): ums muted (room tone underneath), long pauses / long ums / stutters
+     cut with short crossfades. Everything below runs on that tightened timeline.
+  2. Shots, by who's talking (labelled transcript): a close-up on the speaker (cam2,
+     following their tracked face) that holds. A cutaway (cam1 wide, cam2 group, or a
+     listener's reaction close-up) only on a trigger (`cutaway_triggers`) and only at a
+     sentence boundary: after an anchor sentence, as the host starts a new question, on a
+     speaker change after 3+ close-ups in a row, or once a shot has held shot_max. A new
+     speaker's shot starts l_cut seconds into their first word.
   3. Cuts are hard cuts. The PostHog stripe wipe marks a theme change only: a new
      question or a new anchor from the panel's story file. A jump cut inside a shot
-     (a removed pause) punches the framing in or out a little.
+     (a removed pause) punches the framing in or out a little. An anchor sentence stays
+     on the speaker in a tighter close-up; only wides and group shots push in.
   4. Story (events/<e>/longform/<panel>.story.yaml, panel time): a chapter tag for the
      current question, top left, and anchor cards that pop up top right with a
      speaker's key point. Clean dark cards; on-screen text never uses middots or dashes.
+     `cold_open: {from, to}` (transcript text) plays one anchor sentence before the title.
   5. The look: camera footage graded per `grade` (cam1 also levelled by its `rotate`);
      a title card that wipes into the panel; RoundHog captions "Name (Company): ..."
      with the name in the speaker's brand colour; a thin progress bar in tangerine.
@@ -33,7 +37,7 @@ import subprocess
 import sys
 import tempfile
 import time
-from bisect import bisect_right
+from bisect import bisect_left, bisect_right
 from pathlib import Path
 
 import cv2
@@ -43,13 +47,13 @@ from ruamel.yaml import YAML
 import edit as tighten
 from common import REPO, event_dir, ffmpeg_with_libass, load_event, media, output_fps, panel, panel_range, probe, synced
 
-CUT_LEAD = 0.15     # cut to the next speaker this long before their first word
 FACE_Y = 0.40       # face centre sits this far down a close-up
+SENTENCE_END = re.compile(r"[.?!][\"')\u201d]*$")
 
 
 def style() -> dict:
     text = (REPO / "FORMAT.md").read_text()
-    m = re.search(r"## Long form.*?```yaml\n(.*?)```", text, re.S)
+    m = re.search(r"^## Long form\n.*?```yaml\n(.*?)```", text, re.S | re.M)
     if not m:
         sys.exit("FORMAT.md needs a ```yaml block under '## Long form'")
     return YAML(typ="safe").load(m.group(1))
@@ -67,12 +71,13 @@ def ease(u: float) -> float:
 
 # ---------------------------------------------------------------- plan
 
-def turns(words: list, dur: float, min_len: float) -> list:
-    """[(speaker, t0, t1)] covering [0, dur]; turns shorter than min_len fold into the previous one."""
+def turns(words: list, dur: float, min_len: float, l_cut: float = 0.0) -> list:
+    """[(speaker, t0, t1)] covering [0, dur]; turns shorter than min_len fold into the previous one.
+    A turn's shot starts l_cut seconds into its first word (the previous shot holds over it)."""
     out = []
     for w in words:
         if not out or out[-1][0] != w["speaker"]:
-            out.append([w["speaker"], max(0.0, w["start"] - CUT_LEAD), w["end"]])
+            out.append([w["speaker"], w["start"] + l_cut, w["end"]])
         out[-1][2] = w["end"]
     if not out:
         return [(None, 0.0, dur)]
@@ -108,57 +113,161 @@ class Tracks:
         return tuple(float(np.interp(t, self.t, s[k])) for k in ("cx", "cy", "h"))
 
 
-def plan(words: list, dur: float, tracks: Tracks, st: dict, chops: list, to_src, hosts: set) -> list:
-    """[{kind, cam, person, speaker, t0, t1}] on the output timeline, covering [0, dur]."""
-    live = words
-    pauses = [(a["end"] + b["start"]) / 2 for a, b in zip(live, live[1:]) if b["start"] - a["end"] >= 0.15]
-    points = sorted(set([round(c, 3) for c in chops] + [round(p, 3) for p in pauses]))
-    chop_set = set(round(c, 3) for c in chops)
+def sentence_ends(words: list, st: dict) -> list:
+    """For each word, whether a sentence ends after it: it ends in . ? ! (or ended on a word the edit
+    cut), the speaker or a short's segment changes next, or, inside a stretch whisper left unpunctuated
+    (no punctuation within `unpunctuated_window` words either side), the speaker pauses at least
+    `boundary_pause` (source time) or restarts on a capital after `boundary_capital_pause`."""
+    n = len(words)
+    punct = [bool(re.search(r"[.,?!;:]['\")\u201d]*$", w["w"])) for w in words]
+    k = st.get("unpunctuated_window", 6)
+    cum = np.concatenate([[0], np.cumsum(punct)])
+    out = []
+    for i, p in enumerate(words):
+        if i + 1 == n:
+            out.append(None)
+            continue
+        q = words[i + 1]
+        if SENTENCE_END.search(p["w"]) or p.get("eos"):
+            out.append("sentence")
+        elif p["speaker"] != q["speaker"] or p.get("seg") != q.get("seg"):
+            out.append("turn")
+        elif cum[min(n, i + k + 1)] - cum[max(0, i - k + 1)] == 0:
+            gap = (q.get("src") or [q["start"]])[0] - (p.get("src") or [0, p["end"]])[1]
+            cap = q["w"][:1].isupper() and not re.match(r"I('|$)", q["w"])
+            out.append("pause" if gap >= st["boundary_pause"] or (cap and gap >= st["boundary_capital_pause"]) else None)
+        else:
+            out.append(None)
+    return out
 
-    def snap(t, lo, hi):
-        """Nearest cut point to t within snap seconds, preferring removed-audio points; else t."""
-        i = bisect_right(points, t)
-        near = [p for p in points[max(0, i - 40):i + 40] if abs(p - t) <= st["snap"] and lo < p < hi]
-        if not near:
-            return t
-        return min(near, key=lambda p: abs(p - t) - (0.4 if p in chop_set else 0))
+
+def boundaries(words: list, chops: list, st: dict) -> list:
+    """Cut times between sentences (see sentence_ends): on removed audio if the gap holds some, else
+    just before the next sentence starts."""
+    out = []
+    for p, n, why in zip(words, words[1:], sentence_ends(words, st)):
+        if not why:
+            continue
+        lo, hi = p["end"], max(p["end"], n["start"])
+        inside = chops[bisect_left(chops, lo - 0.01):bisect_right(chops, hi + 0.01)]
+        out.append(round(inside[-1] if inside else max(lo, hi - 0.12), 3))
+    return sorted(set(out))
+
+
+def cut_points(words: list, dur: float, st: dict, chops: list) -> tuple:
+    """(sentence boundaries, turn starts): every time the picture may change."""
+    return boundaries(words, chops, st), [round(a, 3) for _, a, _ in turns(words, dur, st["min_shot"], st["l_cut"])[1:]]
+
+
+def anchor_spans(story_anchors: list, theme_at, bounds: list, dur: float) -> list:
+    """[(A0, A1, speaker)]: each anchor sentence, from its theme time to the sentence boundary after it."""
+    out = []
+    for an in story_anchors:
+        a0 = theme_at(an["t"])
+        a1 = bounds[bisect_right(bounds, a0 + 0.3)] if bisect_right(bounds, a0 + 0.3) < len(bounds) else dur
+        out.append((a0, min(a1, a0 + 15.0), an["speaker"]))
+    return out
+
+
+def plan(words: list, dur: float, tracks: Tracks, st: dict, chops: list, to_src, hosts: set,
+         anchors: list = (), questions: list = ()) -> list:
+    """[{kind, cam, person, speaker, t0, t1}] on the edit timeline, covering [0, dur].
+
+    The speaker's shot holds. The picture cuts away only on a trigger in st["cutaway_triggers"],
+    and a cutaway only ever starts at a sentence boundary (or a turn start):
+      anchor_end      a listener's reaction (react_for) once an anchor sentence finishes
+      new_question    a wide or group shot (cutaway_for) as the host starts a new question
+      speaker_change  the new speaker's shot l_cut into their first word; a wide first after
+                      wide_after_closes close-ups in a row
+      shot_max        a shot that has held shot_max cuts away at the next sentence end
+    Nothing cuts away inside an anchor sentence: anchors [(A0, A1, speaker)]; questions [t]."""
+    trig = set(st["cutaway_triggers"])
+    bounds = boundaries(words, chops, st)
+    ends = {round(a1, 3) for _, a1, _ in anchors}
+    qs = sorted(questions)
+    state = {"last": None, "react": None, "q": 0}
 
     def seen(name, a, b):
         return tracks.seen_share(name, to_src(a), to_src(b))
 
-    shots, k, last_speaker = [], 0, None
-    for spk, a, b in turns(words, dur, st["min_shot"]):
+    def in_anchor(t):
+        return any(a0 - 1e-3 < t < a1 - 1e-3 for a0, a1, _ in anchors)
+
+    def closes_in_row(shots):
+        n = 0
+        for s in reversed(shots):
+            if s["kind"] not in ("close", "react"):
+                break
+            n += 1
+        return n
+
+    def cutaway(shots, kind, spk, close_ok, c0, b, prev):
+        """A cutaway shot from c0 inside a turn that ends at b, or None if there's no room."""
+        hold = st["react_for"] if kind == "react" else st["cutaway_for"]
+        c1 = c0 + hold
+        if b - c1 < st["min_shot"]:
+            c1 = b
+        c1 = min([c1] + [a0 for a0, _, _ in anchors if c0 + 1e-3 < a0 < c1])  # the anchor sentence starts on the speaker
+        if c1 - c0 < 0.8:
+            return None
+        who = None
+        if kind == "react":
+            cands = [n for n in tracks.seats if n != spk and seen(n, c0, c1) >= 0.8]
+            pref = [n for n in cands if (n in hosts) != (spk in hosts)] or [n for n in cands if n == prev] or cands
+            fresh = [n for n in pref if n != state["react"]] or pref
+            who = fresh[0] if fresh else None
+            if who is None:
+                kind = "wide"
+        if not close_ok and kind in ("wide", "react"):  # the speaker is already on the wide
+            kind, who = ("group" if shots and shots[-1]["kind"] == "wide" else "wide"), None
+        state["last"] = kind
+        if who:
+            state["react"] = who
+        return {"kind": kind, "cam": "cam1" if kind == "wide" else "cam2", "person": who, "speaker": spk,
+                "t0": c0, "t1": c1, "cutaway": True}
+
+    shots, prev = [], None
+    for spk, a, b in turns(words, dur, st["min_shot"], st["l_cut"]):
         close_ok = (spk is not None and tracks.has(spk) and seen(spk, a, b) >= 0.6
                     and seen(spk, a, min(b, a + 10)) >= 0.75)
+        main = {"kind": "close" if close_ok else "wide", "cam": "cam2" if close_ok else "cam1",
+                "person": spk if close_ok else None, "speaker": spk}
         t = a
-        while t < b - 1e-3:
-            nxt = t + st["shot_max"]
-            if nxt + st["cutaway_for"] + st["min_shot"] > b:
-                shots.append({"kind": "close" if close_ok else "wide", "cam": "cam2" if close_ok else "cam1",
-                              "person": spk if close_ok else None, "speaker": spk, "t0": t, "t1": b})
-                break
-            c0 = snap(nxt, t + st["min_shot"], b - st["min_shot"] - st["cutaway_for"])
-            shots.append({"kind": "close" if close_ok else "wide", "cam": "cam2" if close_ok else "cam1",
-                          "person": spk if close_ok else None, "speaker": spk, "t0": t, "t1": c0})
-            kind = st["cutaways"][k % len(st["cutaways"])]
-            k += 1
-            who = None
-            if kind == "react":
-                cands = [n for n in tracks.seats if n != spk and seen(n, c0, c0 + st["react_for"]) >= 0.8]
-                pref = [n for n in cands if (n in hosts) != (spk in hosts)] or \
-                       [n for n in cands if n == last_speaker] or cands
-                who = pref[k % len(pref)] if pref else None
-                if who is None:
-                    kind = "wide"
-            hold = st["react_for"] if kind == "react" else st["cutaway_for"]
-            c1 = snap(c0 + hold, c0 + st["min_shot"] * 0.6, b - st["min_shot"])
-            if not close_ok and kind in ("wide", "react"):
-                kind = "group" if shots[-1]["kind"] == "wide" else "wide"
-                who = None
-            cam = "cam1" if kind == "wide" else "cam2"
-            shots.append({"kind": kind, "cam": cam, "person": who, "speaker": spk, "t0": c0, "t1": c1})
-            t = c1
-        last_speaker = spk
+        opener = None
+        if a > 0 and not in_anchor(a):
+            if "new_question" in trig and any(abs(q - a) < 0.05 for q in qs):
+                opener = "group" if state["q"] % 2 else "wide"
+                state["q"] += 1
+            elif "speaker_change" in trig and closes_in_row(shots) >= st["wide_after_closes"]:
+                opener = "wide"
+        if opener:
+            cut = cutaway(shots, opener, spk, close_ok, a, b, prev)
+            if cut:
+                shots.append(cut)
+                t = cut["t1"]
+        start = t
+        for c in bounds[bisect_right(bounds, t):bisect_left(bounds, b)]:
+            if c < start + st["min_shot"] or b - c < st["min_shot"] or in_anchor(c):
+                continue
+            kind = None
+            if "new_question" in trig and any(abs(q - c) < 0.05 for q in qs):
+                kind = "group" if state["q"] % 2 else "wide"
+                state["q"] += 1
+            elif "anchor_end" in trig and round(c, 3) in ends:
+                kind = "react"
+            elif "shot_max" in trig and c - start >= st["shot_max"]:
+                kind = next(k for k in ("react", "wide", "group") if k != state["last"])
+            if not kind:
+                continue
+            cut = cutaway(shots, kind, spk, close_ok, c, b, prev)
+            if not cut:
+                continue
+            shots.append({**main, "t0": start, "t1": c})
+            shots.append(cut)
+            start = cut["t1"]
+        if b - start > 1e-3:
+            shots.append({**main, "t0": start, "t1": b})
+        prev = spk
     merged = []
     for s in shots:
         if s["t1"] - s["t0"] < 0.05:
@@ -172,18 +281,35 @@ def plan(words: list, dur: float, tracks: Tracks, st: dict, chops: list, to_src,
 
 def load_story(path: Path) -> dict:
     if not path.exists():
-        return {"questions": [], "anchors": [], "cuts": []}
+        return {"questions": [], "anchors": [], "cuts": [], "wide_only": [], "cold_open": None}
     d = YAML(typ="safe").load(path.read_text()) or {}
-    return {"questions": d.get("questions") or [], "anchors": d.get("anchors") or [], "cuts": d.get("cuts") or []}
+    return {"questions": d.get("questions") or [], "anchors": d.get("anchors") or [], "cuts": d.get("cuts") or [],
+            "wide_only": d.get("wide_only") or [], "cold_open": d.get("cold_open")}
+
+
+def wide_only(shots: list, spans: list, to_out) -> list:
+    """Hold the wide (cam1) through `spans` (panel time), e.g. while people walk past cam2."""
+    out = [(to_out(x["from"]), to_out(x["to"])) for x in spans]
+    for s in shots:
+        if s["cam"] == "cam2" and any(a < s["t1"] and s["t0"] < b for a, b in out):
+            s.update(kind="wide", cam="cam1", person=None)
+    merged = []
+    for s in shots:
+        if merged and (merged[-1]["kind"], merged[-1]["cam"]) == (s["kind"], s["cam"]) == ("wide", "cam1"):
+            merged[-1]["t1"] = s["t1"]
+        else:
+            merged.append(s)
+    return merged
 
 
 def split_at(shots: list, times: list) -> list:
-    """Make sure a shot starts at each theme time, so its wipe hides a cut."""
-    for w in sorted(times):
+    """Make sure a shot starts at each theme time [(t, flip)], so its wipe hides a cut. With flip, the
+    framing punches in or out there; an anchor doesn't flip (its tighter close-up is the change)."""
+    for w, flip in sorted(times):
         for i, s in enumerate(shots):
             if s["t0"] < w < s["t1"]:
                 if w - s["t0"] >= 0.4 and s["t1"] - w >= 0.4:
-                    second = {**s, "t0": w, "flip": not s.get("flip", False)}
+                    second = {**s, "t0": w, "flip": s.get("flip", False) != flip}
                     s["t1"] = w
                     shots.insert(i + 1, second)
                 break
@@ -197,11 +323,15 @@ def full_rect(w: int, h: int, zoom: float) -> tuple:
     return ((w - cw) / 2, (h - ch) / 2, cw, ch)
 
 
-def shot_rect(shot: dict, T: float, t_src: float, punched: bool, tracks: Tracks, sizes: dict, st: dict) -> tuple:
+def shot_rect(shot: dict, T: float, t_src: float, punched: bool, tracks: Tracks, sizes: dict, st: dict,
+              anchored: bool = False) -> tuple:
+    """Crop on the shot's camera. Close-ups hold still (tighter through an anchor sentence, never past
+    max_zoom); only wides and group shots push in, and not during an anchor sentence."""
     w, h = sizes[shot["cam"]]
     if shot["kind"] in ("close", "react"):
         cx, cy, fh = tracks.at(shot["person"], t_src)
-        ch = min(h, max(h / st["max_zoom"], fh * st["close_face_mult"]))
+        mult = st["anchor_face_mult"] if anchored and shot["kind"] == "close" else st["close_face_mult"]
+        ch = min(h, max(h / st["max_zoom"], fh * mult))
         if punched:  # jump cut inside a close-up: step out a little (never tighter than max_zoom)
             ch = min(h, ch * st["punch"])
         cw = ch * 16 / 9
@@ -211,7 +341,7 @@ def shot_rect(shot: dict, T: float, t_src: float, punched: bool, tracks: Tracks,
         y0 = min(max(0.0, cy - FACE_Y * ch), h - ch)
         return (x0, y0, cw, ch)
     u = (T - shot["t0"]) / max(0.1, shot["t1"] - shot["t0"])
-    zoom = (1 + st["push_in"] * u) * (st["punch"] if punched else 1.0)
+    zoom = (1 + (0.0 if anchored else st["push_in"] * u)) * (st["punch"] if punched else 1.0)
     return full_rect(w, h, zoom)
 
 
@@ -286,11 +416,11 @@ def caption_lines(words: list, people: dict, st: dict) -> list:
             # one word over is fine if it finishes the sentence (no line starting with "thing.")
             long = over > 0 and not (over <= 12 and re.search(r"[.?!,]$", w["w"]))
             ends = re.search(r"[.?!]$", cur["text"]) and len(cur["text"]) > 25
-            if w["speaker"] != cur["speaker"] or gap > 0.8 or long or ends:
+            if w["speaker"] != cur["speaker"] or gap > 0.8 or long or ends or w.get("cold") != cur.get("cold"):
                 lines.append(cur)
                 cur = None
         if cur is None:
-            cur = {"speaker": w["speaker"], "start": w["start"], "end": w["end"], "text": w["w"]}
+            cur = {"speaker": w["speaker"], "start": w["start"], "end": w["end"], "text": w["w"], "cold": w.get("cold")}
         else:
             cur["text"] += " " + w["w"]
             cur["end"] = w["end"]
@@ -321,6 +451,7 @@ def clean(text: str) -> str:
     text = re.sub(r"\bi(?=$|\s|'(?:m|ve|ll|d|s)\b)", "I", text)
     text = re.sub(r"\s*[\u2014\u2013]\s*", ", ", text)
     text = re.sub(r"\s*\u00b7\s*", ", ", text)
+    text = re.sub(r"(^|\s)[.,;:!?]+(?=\s|$)", "", text)  # a lone punctuation "word" left by a correction
     return re.sub(r",\s*,", ",", text).strip(" ,")
 
 
@@ -388,18 +519,23 @@ Style: Story,{st['font_name_weight']},20,{ass_color(st['caption_text'])},{ass_co
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = []
-    title_end = 0.0
-    if title:
-        text, sub, title_end = title
+    t_in = t_out = -1.0
+    if title:  # (text, subtitle, start, end) in output time
+        text, sub, t_in, t_out = title
         text, sub = clean(text), clean(sub)
-        if title_end - offset > 0:
-            events.append(f"Dialogue: 1,{ass_time(0)},{ass_time(title_end - offset)},Title,,0,0,0,,"
+        if t_out - offset > 0:
+            a, b = ass_time(max(0.0, t_in - offset)), ass_time(t_out - offset)
+            events.append(f"Dialogue: 1,{a},{b},Title,,0,0,0,,"
                           f"{{\\pos(140,{h * 0.36:.0f})\\fad(0,120)}}{text}")
-            events.append(f"Dialogue: 1,{ass_time(0)},{ass_time(title_end - offset)},Title,,0,0,0,,"
+            events.append(f"Dialogue: 1,{a},{b},Title,,0,0,0,,"
                           f"{{\\pos(144,{h * 0.36 + st['title_size'] * 1.45:.0f})\\fn{st['font_text_weight']}"
                           f"\\fs{st['title_size'] * 0.42:.0f}\\fad(0,120)}}{sub}")
     for a, b, spk, text in lines:
-        a, b = max(a, title_end) - offset, b - offset
+        if b <= t_in + 1e-3:  # before the title card (the cold open)
+            b = min(b, t_in)
+        else:
+            a = max(a, t_out)
+        a, b = a - offset, b - offset
         if b <= max(0.0, a):
             continue
         text = clean(text.replace("\\", "").replace("{", "(").replace("}", ")"))
@@ -450,6 +586,23 @@ class Decoder:
         self.proc.wait()
 
 
+def cold_open(spec: dict, words_src: list, words: list, ed, total: float) -> tuple | None:
+    """(T0, T1, speaker) on the edit timeline for story `cold_open: {from, to}`: from the first word
+    (a hard cut in) to just after the last, never into the next word."""
+    span = tighten.resolve_cuts(words_src, [spec])
+    if not span:
+        print(f"  cold open not found: {spec.get('from')!r} .. {spec.get('to')!r}")
+        return None
+    a, b = ed.to_out_near(span[0][0]), ed.to_out_near(span[0][1])
+    inside = [w for w in words if a - 0.01 <= w["start"] < b]
+    if not inside:
+        return None
+    nxt = [w["start"] for w in words if w["start"] >= inside[-1]["end"] - 0.01 and w not in inside]
+    t1 = min(inside[-1]["end"] + 0.3, (nxt[0] - 0.05) if nxt else total)
+    names = [w["speaker"] for w in inside]
+    return inside[0]["start"], max(t1, inside[-1]["end"]), max(set(names), key=names.count)
+
+
 def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: bool) -> Path:
     st = style()
     out_w, out_h = st["size"]
@@ -460,7 +613,6 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     ed = tighten.build(edir, p, words_src, pend - pstart, story["cuts"])
     words = ed.words_out(words_src)
     total = ed.out_dur
-    dur = min(dur, total - start) if dur else total - start
     tracks = Tracks(edir / "faces" / f"{p['id']}.cam2.tracks.json")
     people = {x["name"]: x for x in p.get("people", []) if isinstance(x, dict)}
     hosts = {n for n, x in people.items() if re.search(r"host|emcee", x.get("role") or "")}
@@ -470,33 +622,79 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     for w in words:
         colors.setdefault(w["speaker"], st["name_colors"][len(colors) % len(st["name_colors"])])
     title_end = st["title_seconds"] if st.get("title_seconds") else 0.0
-    themes = sorted(set(round(max(title_end + 0.5, ed.to_out_near(x["t"])), 3)
-                        for x in story["questions"] + story["anchors"]))
-    shots = plan(words, total, tracks, st, ed.chops() + themes, ed.to_src, hosts)
-    shots = split_at(shots, themes)
-    if title_end:  # the opening is the title card, then the first shot
-        shots = [s for s in shots if s["t1"] > title_end]
-        shots[0]["t0"] = 0.0
-        shots.insert(0, {"kind": "title", "cam": None, "person": None, "speaker": None, "t0": 0.0, "t1": title_end})
-        shots[1]["t0"] = title_end
+    chops = ed.chops()
+    bounds, starts = cut_points(words, total, st, chops)
+    cands = sorted(set(bounds + starts))
+
+    def theme_at(t):
+        """Edit time of a story beat (panel time): the nearest sentence boundary or turn start within 2.5 s;
+        a turn start when there's one within a second of it, so the wipe lands on the cut to the new speaker."""
+        T = max(0.5, ed.to_out_near(t))
+        i = bisect_left(cands, T)
+        near = [c for c in cands[max(0, i - 3):i + 3] if abs(c - T) <= 2.5 and c >= 0.5]
+        if not near:
+            return round(T, 3)
+        best = min(near, key=lambda c: abs(c - T))
+        turn = [c for c in starts if abs(c - best) <= 1.0 and c >= 0.5]
+        return min(turn, key=lambda c: abs(c - T)) if turn else best
+
+    qtimes = [theme_at(q["t"]) for q in story["questions"]]
+    anchors = anchor_spans(story["anchors"], theme_at, bounds, total)
+    themes = sorted(set(qtimes + [a0 for a0, _, _ in anchors]))
+    shots = plan(words, total, tracks, st, chops, ed.to_src, hosts, anchors, qtimes)
+    shots = wide_only(shots, story["wide_only"], ed.to_out_near)
+    shots = split_at(shots, [(q, True) for q in qtimes if q > 1.0] +
+                     [(a0, False) for a0, _, _ in anchors if a0 not in qtimes])
+
+    # output: the cold open (one anchor sentence), the title card on room tone, then the whole panel in order
+    cold = cold_open(story["cold_open"], words_src, words, ed, total) if story["cold_open"] else None
+    L = 0.0
+    if cold:
+        c0, c1, cspk = cold
+        L = c1 - c0
+        if not st["cold_open_min"] <= L <= st["cold_open_max"]:
+            print(f"[{p['id']}] WARNING: cold open is {L:.1f}s (want {st['cold_open_min']}-{st['cold_open_max']}s)")
+        ok = tracks.has(cspk) and tracks.seen_share(cspk, ed.to_src(c0), ed.to_src(c1)) >= 0.6
+        cold_shots = [{"kind": "close" if ok else "wide", "cam": "cam2" if ok else "cam1", "person": cspk if ok else None,
+                       "speaker": cspk, "t0": 0.0, "t1": L, "cold": True, "anchor": True}]
+    else:
+        c0 = c1 = 0.0
+        cold_shots = []
+    P = L + title_end  # where the panel starts in the output
+    title = [{"kind": "title", "cam": None, "person": None, "speaker": None, "t0": L, "t1": P}] if title_end else []
+    out_shots = cold_shots + title + [{**s, "t0": round(s["t0"] + P, 3), "t1": round(s["t1"] + P, 3)} for s in shots]
+    out_total = total + P
+    out_chops = [c - c0 for c in chops if c0 + 0.05 < c < c1 - 0.05] + [c + P for c in chops]
+    out_anchors = [(a0 + P, a1 + P, spk) for a0, a1, spk in anchors]
+    out_words = ([{**w, "start": w["start"] - c0, "end": min(w["end"], c1) - c0, "cold": True}
+                  for w in words if c0 - 0.01 <= w["start"] < c1] if cold else []) + \
+                [{**w, "start": w["start"] + P, "end": w["end"] + P} for w in words]
+    if out_words and out_words[0].get("cold"):  # the cold open starts mid-thought: capitalise its first word
+        out_words[0] = {**out_words[0], "w": out_words[0]["w"][:1].upper() + out_words[0]["w"][1:]}
+    dur = min(dur, out_total - start) if dur else out_total - start
 
     out_dir = edir / "longform"
     out_dir.mkdir(exist_ok=True)
-    tag = p["id"] if start == 0 and dur >= total - 0.01 else f"{p['id']}.{int(start)}-{int(start + dur)}"
-    (out_dir / f"{tag}.plan.json").write_text(json.dumps({"edit": ed.summary(), "shots": shots}, indent=1))
+    tag = p["id"] if start == 0 and dur >= out_total - 0.01 else f"{p['id']}.{int(start)}-{int(start + dur)}"
+    (out_dir / f"{tag}.plan.json").write_text(json.dumps(
+        {"edit": ed.summary(), "cold_open_seconds": round(L, 3), "panel_starts": round(P, 3),
+         "cold_open": {"t0": round(c0, 3), "t1": round(c1, 3), "speaker": cold[2]} if cold else None,
+         "anchors": [[round(a, 3), round(b, 3), n] for a, b, n in out_anchors], "shots": out_shots}, indent=1))
     ass = out_dir / f"{tag}.ass"
     date = ev.get("date")
     sub = ", ".join(x for x in (ev.get("name") or ev.get("event"), date.strftime("%b %-d") if hasattr(date, "strftime") else str(date or "")) if x)
-    write_ass(ass, caption_lines(words, people, st), people, colors, st, start,
-              (p.get("title") or p["id"], sub, title_end) if title_end else None,
-              story_events(story, lambda t: max(title_end + 0.5, ed.to_out_near(t)), people, colors, st, start,
-                           start + dur))
+    write_ass(ass, caption_lines(out_words, people, st), people, colors, st, start,
+              (p.get("title") or p["id"], sub, L, P) if title_end else None,
+              story_events(story, lambda t: theme_at(t) + P, people, colors, st, start, start + dur))
     counts = {}
-    for s in shots:
+    for s in out_shots:
         counts[s["kind"]] = counts.get(s["kind"], 0) + 1
+    real = [s["t1"] - s["t0"] for s in out_shots if s["kind"] != "title"]
     print(f"[{p['id']}] edit: {ed.summary()}")
-    print(f"[{p['id']}] {len(shots)} shots ({', '.join(f'{v} {k}' for k, v in counts.items())}), "
-          f"median shot {np.median([s['t1'] - s['t0'] for s in shots]):.1f}s, {len(ed.chops())} jump cuts, "
+    if cold:
+        print(f"[{p['id']}] cold open {L:.1f}s ({cold[2]}): " + " ".join(w["w"] for w in out_words if w.get("cold")))
+    print(f"[{p['id']}] {len(out_shots)} shots ({', '.join(f'{v} {k}' for k, v in counts.items())}), "
+          f"average {np.mean(real):.1f}s, median {np.median(real):.1f}s, {len(chops)} jump cuts, "
           f"{len(themes)} theme wipes ({len(story['questions'])} questions, {len(story['anchors'])} anchors)")
     if plan_only:
         return out_dir / f"{tag}.plan.json"
@@ -505,16 +703,22 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
     for c in ("cam1", "cam2"):
         info = probe(media(ev, synced(ev, c)["file"]))
         sizes[c] = (info["width"], info["height"])
-    src0 = ed.to_src(start)
-    span = ed.to_src(min(total, start + dur)) - src0
-    dec = {c: Decoder(ev, c, pstart + src0, span, fps, sizes[c], st.get("grade") or "") for c in sizes}
     card = title_card(out_w, out_h, st) if title_end else None
-    chops = ed.chops()
-    wipes = sorted(([title_end] if title_end else []) + themes)
+    wipes = sorted(([P] if title_end else []) + [t + P for t in themes if t > 1.0])
+    shot_starts = [s["t0"] for s in out_shots]
     with tempfile.TemporaryDirectory() as tmp:
-        audio = ed.audio()[int(start * tighten.SR):int((start + dur) * tighten.SR)]
+        full = ed.audio()
+        SR = tighten.SR
+        n_title = int(title_end * SR)
+        tone = tighten.loop(ed.room_tone(), n_title, int(tighten.XFADE * SR)) if n_title else full[:0]
+        both = np.concatenate([full, tone])
+        audio = tighten.splice(both, ([(int(c0 * SR), int(c1 * SR))] if cold else []) +
+                               ([(len(full), len(both))] if n_title else []) + [(0, len(full))])
+        audio = audio[int(start * SR):int((start + dur) * SR)].copy()
+        k = int(0.005 * SR)  # no click on the very first sample
+        audio[:k] *= np.linspace(0, 1, k, dtype=np.float32)
         wav = Path(tmp) / "audio.wav"
-        subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-f", "f32le", "-ar", str(tighten.SR), "-ac", "1",
+        subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "1",
                         "-i", "-", "-c:a", "pcm_f32le", str(wav)], input=audio.astype(np.float32).tobytes(), check=True)
         out = out_dir / f"{tag}.mp4"
         enc = subprocess.Popen(
@@ -527,30 +731,39 @@ def render(ev: dict, edir: Path, p: dict, start: float, dur: float, plan_only: b
             stdin=subprocess.PIPE)
         wipe = st["wipe_seconds"]
         frames = int(round(dur * fps))
-        si = 0
+        dec, dec_part = {}, None
         began = time.time()
         try:
             for n in range(frames):
-                T = start + n / fps
+                O = start + n / fps
+                part = "cold" if O < L else "title" if O < P else "panel"
+                T = c0 + O if part == "cold" else max(0.0, O - P)
                 t_src = ed.to_src(T)
-                src = {c: d.at(pstart + t_src) for c, d in dec.items()}
-                while si + 1 < len(shots) and shots[si + 1]["t0"] <= T:
-                    si += 1
-                shot = shots[si]
-                nxt = shots[si + 1] if si + 1 < len(shots) else None
-                prev = shots[si - 1] if si > 0 else None
+                if part != dec_part and part != "title":  # each part reads its own stretch of the cameras
+                    for d in dec.values():
+                        d.close()
+                    end_src = ed.to_src(c1) if part == "cold" else ed.to_src(min(total, start + dur - P))
+                    dec = {c: Decoder(ev, c, pstart + t_src, max(0.1, end_src - t_src), fps, sizes[c],
+                                      st.get("grade") or "") for c in sizes}
+                    dec_part = part
+                src = {c: d.at(pstart + t_src) for c, d in dec.items()} if part != "title" else {}
+                si = max(0, bisect_right(shot_starts, O) - 1)
+                shot = out_shots[si]
                 if shot["kind"] == "title":
                     frame = card.copy()
                 else:
-                    jumps = bisect_right(chops, T) - bisect_right(chops, shot["t0"])
-                    rect = shot_rect(shot, T, t_src, (jumps % 2 == 1) != shot.get("flip", False), tracks, sizes, st)
+                    jumps = bisect_right(out_chops, O) - bisect_right(out_chops, shot["t0"])
+                    anchored = shot.get("anchor") or any(a <= O < b and shot["person"] in (spk, None)
+                                                         for a, b, spk in out_anchors)
+                    rect = shot_rect(shot, O, t_src, (jumps % 2 == 1) != shot.get("flip", False), tracks, sizes, st,
+                                     anchored)
                     frame = warp(src[shot["cam"]], rect, out_w, out_h)
                 # a wipe marks a theme change (title end, new question, new anchor); other cuts are hard
-                k = bisect_right(wipes, T + wipe / 2) - 1
-                if k >= 0 and abs(T - wipes[k]) < wipe / 2:
-                    draw_wipe(frame, (T - (wipes[k] - wipe / 2)) / wipe, st["wipe_colors"])
+                k = bisect_right(wipes, O + wipe / 2) - 1
+                if k >= 0 and abs(O - wipes[k]) < wipe / 2:
+                    draw_wipe(frame, (O - (wipes[k] - wipe / 2)) / wipe, st["wipe_colors"])
                 if st.get("progress_height") and shot["kind"] != "title":
-                    draw_progress(frame, T / total, st)
+                    draw_progress(frame, O / out_total, st)
                 enc.stdin.write(frame.tobytes())
                 if n and n % int(fps * 60) == 0:
                     done = n / frames

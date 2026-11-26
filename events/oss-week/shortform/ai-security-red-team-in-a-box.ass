@@ -1,0 +1,41 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“GitHub already has
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}repos for exploiting
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}your favorite AI tool”
+Dialogue: 0,0:00:00.00,0:00:01.14,Caption,,0,0,0,,I think the attacks have
+Dialogue: 0,0:00:01.14,0:00:03.38,Caption,,0,0,0,,really ratcheted up and
+Dialogue: 0,0:00:03.38,0:00:04.02,Caption,,0,0,0,,something I would
+Dialogue: 0,0:00:04.02,0:00:05.36,Caption,,0,0,0,,encourage people in this
+Dialogue: 0,0:00:05.36,0:00:06.38,Caption,,0,0,0,,like room to do is like
+Dialogue: 0,0:00:06.38,0:00:07.99,Caption,,0,0,0,,go go to GitHub and look
+Dialogue: 0,0:00:07.99,0:00:09.87,Caption,,0,0,0,,up your favorite AI
+Dialogue: 0,0:00:09.87,0:00:10.47,Caption,,0,0,0,,tool, whether it's like
+Dialogue: 0,0:00:10.47,0:00:11.71,Caption,,0,0,0,,a coding agent
+Dialogue: 0,0:00:11.71,0:00:12.65,Caption,,0,0,0,,an AI assistant
+Dialogue: 0,0:00:12.65,0:00:13.08,Caption,,0,0,0,,whatever.
+Dialogue: 0,0:00:13.08,0:00:13.72,Caption,,0,0,0,,There's probably like
+Dialogue: 0,0:00:13.72,0:00:15.04,Caption,,0,0,0,,three repos set up right
+Dialogue: 0,0:00:15.04,0:00:17.04,Caption,,0,0,0,,now for how to exploit
+Dialogue: 0,0:00:17.04,0:00:18.24,Caption,,0,0,0,,them, how to manage an
+Dialogue: 0,0:00:18.24,0:00:19.14,Caption,,0,0,0,,account pool
+Dialogue: 0,0:00:19.14,0:00:20.06,Caption,,0,0,0,,how to rotate
+Dialogue: 0,0:00:20.06,0:00:20.46,Caption,,0,0,0,,credentials.
+Dialogue: 0,0:00:20.59,0:00:22.03,Caption,,0,0,0,,kind of like your own
+Dialogue: 0,0:00:22.03,0:00:23.01,Caption,,0,0,0,,I don't know
+Dialogue: 0,0:00:23.01,0:00:25.49,Caption,,0,0,0,,AI red team in a box for
+Dialogue: 0,0:00:25.49,0:00:26.80,Caption,,0,0,0,,specific agents.

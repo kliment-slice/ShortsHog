@@ -1,0 +1,44 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Agents triage every
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}incoming PR and issue
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}for security”
+Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,0,,Yesterday
+Dialogue: 0,0:00:00.20,0:00:01.38,Caption,,0,0,0,,we did a launch for our
+Dialogue: 0,0:00:01.38,0:00:02.20,Caption,,0,0,0,,open source project
+Dialogue: 0,0:00:02.20,0:00:03.82,Caption,,0,0,0,,Beacon, and we got like
+Dialogue: 0,0:00:03.82,0:00:05.58,Caption,,0,0,0,,an influx of dozens and
+Dialogue: 0,0:00:05.58,0:00:06.82,Caption,,0,0,0,,dozens of PRs and
+Dialogue: 0,0:00:06.82,0:00:07.48,Caption,,0,0,0,,issues.
+Dialogue: 0,0:00:07.48,0:00:09.69,Caption,,0,0,0,,And we have a security
+Dialogue: 0,0:00:09.69,0:00:11.53,Caption,,0,0,0,,agent and kind of like a
+Dialogue: 0,0:00:11.53,0:00:13.63,Caption,,0,0,0,,code verification agent
+Dialogue: 0,0:00:13.63,0:00:14.49,Caption,,0,0,0,,try to put out like a
+Dialogue: 0,0:00:14.49,0:00:15.99,Caption,,0,0,0,,remediation for the
+Dialogue: 0,0:00:15.99,0:00:17.77,Caption,,0,0,0,,issue, try to do like a
+Dialogue: 0,0:00:17.77,0:00:18.77,Caption,,0,0,0,,security stress test on
+Dialogue: 0,0:00:18.77,0:00:21.01,Caption,,0,0,0,,the PR content.
+Dialogue: 0,0:00:21.01,0:00:21.98,Caption,,0,0,0,,And then also look at
+Dialogue: 0,0:00:21.98,0:00:23.34,Caption,,0,0,0,,the author of the issue
+Dialogue: 0,0:00:23.34,0:00:25.10,Caption,,0,0,0,,or the PR to understand
+Dialogue: 0,0:00:25.10,0:00:26.08,Caption,,0,0,0,,trustworthiness.
+Dialogue: 0,0:00:26.18,0:00:27.66,Caption,,0,0,0,,And so we're trying to
+Dialogue: 0,0:00:27.66,0:00:29.36,Caption,,0,0,0,,build systems to like
+Dialogue: 0,0:00:29.36,0:00:30.46,Caption,,0,0,0,,really automatically
+Dialogue: 0,0:00:30.46,0:00:32.21,Caption,,0,0,0,,determine like what are
+Dialogue: 0,0:00:32.21,0:00:33.89,Caption,,0,0,0,,meaningful issues or
+Dialogue: 0,0:00:33.89,0:00:34.48,Caption,,0,0,0,,PRs.

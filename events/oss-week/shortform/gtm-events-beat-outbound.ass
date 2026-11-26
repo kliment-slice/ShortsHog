@@ -1,0 +1,109 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.16,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think it's actually
+Dialogue: 0,0:00:00.16,0:00:00.24,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} it's actually
+Dialogue: 0,0:00:00.24,0:00:00.50,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} actually
+Dialogue: 0,0:00:00.50,0:00:00.68,Caption,,0,0,600,,I think it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.68,0:00:00.98,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} important to
+Dialogue: 0,0:00:00.98,0:00:01.14,Caption,,0,0,600,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}important{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:01.14,0:00:01.30,Caption,,0,0,600,,more important {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.30,0:00:01.51,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} physical
+Dialogue: 0,0:00:01.51,0:00:01.71,Caption,,0,0,600,,have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}physical{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.71,0:00:02.45,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in-present{\c&H00FFFFFF\fscx100\fscy100} events than
+Dialogue: 0,0:00:02.45,0:00:03.00,Caption,,0,0,600,,in-present {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}events{\c&H00FFFFFF\fscx100\fscy100} than
+Dialogue: 0,0:00:03.00,0:00:03.36,Caption,,0,0,600,,in-present events {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.36,0:00:03.54,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} all this
+Dialogue: 0,0:00:03.54,0:00:03.66,Caption,,0,0,600,,actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}all{\c&H00FFFFFF\fscx100\fscy100} this
+Dialogue: 0,0:00:03.66,0:00:04.04,Caption,,0,0,600,,actually all {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.04,0:00:04.42,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}outbound{\c&H00FFFFFF\fscx100\fscy100} stuff.
+Dialogue: 0,0:00:04.42,0:00:05.32,Caption,,0,0,600,,outbound {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stuff.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.47,0:00:05.73,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} don't like getting
+Dialogue: 0,0:00:05.73,0:00:06.04,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}don't{\c&H00FFFFFF\fscx100\fscy100} like getting
+Dialogue: 0,0:00:06.04,0:00:06.34,Caption,,0,0,600,,I don't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} getting
+Dialogue: 0,0:00:06.34,0:00:06.80,Caption,,0,0,600,,I don't like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}getting{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.80,0:00:07.16,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}AI{\c&H00FFFFFF\fscx100\fscy100} slop in my inbox.
+Dialogue: 0,0:00:07.16,0:00:07.36,Caption,,0,0,600,,AI {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}slop{\c&H00FFFFFF\fscx100\fscy100} in my inbox.
+Dialogue: 0,0:00:07.36,0:00:07.46,Caption,,0,0,600,,AI slop {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} my inbox.
+Dialogue: 0,0:00:07.46,0:00:07.86,Caption,,0,0,600,,AI slop in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}my{\c&H00FFFFFF\fscx100\fscy100} inbox.
+Dialogue: 0,0:00:07.86,0:00:08.36,Caption,,0,0,600,,AI slop in my {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}inbox.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.36,0:00:08.50,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} don't think anybody
+Dialogue: 0,0:00:08.50,0:00:08.62,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}don't{\c&H00FFFFFF\fscx100\fscy100} think anybody
+Dialogue: 0,0:00:08.62,0:00:08.94,Caption,,0,0,600,,I don't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} anybody
+Dialogue: 0,0:00:08.94,0:00:09.28,Caption,,0,0,600,,I don't think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}anybody{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.28,0:00:10.76,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}does.{\c&H00FFFFFF\fscx100\fscy100} Even if you
+Dialogue: 0,0:00:10.76,0:00:10.96,Caption,,0,0,600,,does. {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Even{\c&H00FFFFFF\fscx100\fscy100} if you
+Dialogue: 0,0:00:10.96,0:00:11.08,Caption,,0,0,600,,does. Even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:11.08,0:00:11.78,Caption,,0,0,600,,does. Even if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.78,0:00:12.00,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}remove{\c&H00FFFFFF\fscx100\fscy100} the EM dashes
+Dialogue: 0,0:00:12.00,0:00:12.30,Caption,,0,0,600,,remove {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} EM dashes
+Dialogue: 0,0:00:12.30,0:00:12.54,Caption,,0,0,600,,remove the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}EM{\c&H00FFFFFF\fscx100\fscy100} dashes
+Dialogue: 0,0:00:12.54,0:00:12.84,Caption,,0,0,600,,remove the EM {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}dashes{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.84,0:00:13.14,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100} whatever
+Dialogue: 0,0:00:13.14,0:00:14.26,Caption,,0,0,600,,or {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whatever{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.26,0:00:14.46,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} actually care more
+Dialogue: 0,0:00:14.46,0:00:14.82,Caption,,0,0,600,,we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} care more
+Dialogue: 0,0:00:14.82,0:00:15.12,Caption,,0,0,600,,we actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}care{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:15.12,0:00:15.38,Caption,,0,0,600,,we actually care {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.38,0:00:15.92,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}about{\c&H00FFFFFF\fscx100\fscy100} having
+Dialogue: 0,0:00:15.92,0:00:16.28,Caption,,0,0,600,,about {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}having{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.28,0:00:17.12,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}handwritten{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.12,0:00:17.54,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}personal{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.54,0:00:18.16,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whatever{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.16,0:00:18.38,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}moments{\c&H00FFFFFF\fscx100\fscy100} like this
+Dialogue: 0,0:00:18.38,0:00:19.24,Caption,,0,0,600,,moments {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} this
+Dialogue: 0,0:00:19.24,0:00:19.40,Caption,,0,0,600,,moments like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.40,0:00:19.48,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}where{\c&H00FFFFFF\fscx100\fscy100} I can talk with
+Dialogue: 0,0:00:19.48,0:00:19.58,Caption,,0,0,600,,where {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} can talk with
+Dialogue: 0,0:00:19.58,0:00:19.84,Caption,,0,0,600,,where I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} talk with
+Dialogue: 0,0:00:19.84,0:00:20.04,Caption,,0,0,600,,where I can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}talk{\c&H00FFFFFF\fscx100\fscy100} with
+Dialogue: 0,0:00:20.04,0:00:20.28,Caption,,0,0,600,,where I can talk {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}with{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.28,0:00:20.62,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}real{\c&H00FFFFFF\fscx100\fscy100} people is so much
+Dialogue: 0,0:00:20.62,0:00:21.18,Caption,,0,0,600,,real {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100} is so much
+Dialogue: 0,0:00:21.18,0:00:21.40,Caption,,0,0,600,,real people {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} so much
+Dialogue: 0,0:00:21.40,0:00:21.60,Caption,,0,0,600,,real people is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} much
+Dialogue: 0,0:00:21.60,0:00:21.78,Caption,,0,0,600,,real people is so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}much{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.78,0:00:22.32,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} important.
+Dialogue: 0,0:00:22.32,0:00:22.83,Caption,,0,0,600,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}important.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.83,0:00:23.23,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100} getting whatever
+Dialogue: 0,0:00:23.23,0:00:23.53,Caption,,0,0,600,,than {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}getting{\c&H00FFFFFF\fscx100\fscy100} whatever
+Dialogue: 0,0:00:23.53,0:00:23.79,Caption,,0,0,600,,than getting {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whatever{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.79,0:00:23.99,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}my{\c&H00FFFFFF\fscx100\fscy100} inbox
+Dialogue: 0,0:00:23.99,0:00:24.13,Caption,,0,0,600,,my {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}inbox{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.13,0:00:24.27,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} my inbox
+Dialogue: 0,0:00:24.27,0:00:24.45,Caption,,0,0,600,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}my{\c&H00FFFFFF\fscx100\fscy100} inbox
+Dialogue: 0,0:00:24.45,0:00:24.67,Caption,,0,0,600,,and my {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}inbox{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.67,0:00:25.01,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} swear since this
+Dialogue: 0,0:00:25.01,0:00:25.31,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}swear{\c&H00FFFFFF\fscx100\fscy100} since this
+Dialogue: 0,0:00:25.31,0:00:25.47,Caption,,0,0,600,,I swear {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}since{\c&H00FFFFFF\fscx100\fscy100} this
+Dialogue: 0,0:00:25.47,0:00:25.67,Caption,,0,0,600,,I swear since {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.67,0:00:25.79,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}morning{\c&H00FFFFFF\fscx100\fscy100} a thousand
+Dialogue: 0,0:00:25.79,0:00:26.05,Caption,,0,0,600,,morning {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} thousand
+Dialogue: 0,0:00:26.05,0:00:26.43,Caption,,0,0,600,,morning a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}thousand{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.43,0:00:26.73,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}emails{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:26.73,0:00:26.87,Caption,,0,0,600,,emails {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.87,0:00:27.76,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}bullshit.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.76,0:00:28.72,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} that's not going
+Dialogue: 0,0:00:28.72,0:00:28.90,Caption,,0,0,600,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} not going
+Dialogue: 0,0:00:28.90,0:00:29.00,Caption,,0,0,600,,And that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} going
+Dialogue: 0,0:00:29.00,0:00:29.06,Caption,,0,0,600,,And that's not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.06,0:00:29.28,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} scale.
+Dialogue: 0,0:00:29.28,0:00:29.44,Caption,,0,0,600,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}scale.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.44,0:00:29.52,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} going to continue
+Dialogue: 0,0:00:29.52,0:00:29.60,Caption,,0,0,600,,It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100} to continue
+Dialogue: 0,0:00:29.60,0:00:29.86,Caption,,0,0,600,,It's going {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} continue
+Dialogue: 0,0:00:29.86,0:00:29.98,Caption,,0,0,600,,It's going to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}continue{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.98,0:00:30.14,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} grow like that.
+Dialogue: 0,0:00:30.14,0:00:30.36,Caption,,0,0,600,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}grow{\c&H00FFFFFF\fscx100\fscy100} like that.
+Dialogue: 0,0:00:30.36,0:00:30.56,Caption,,0,0,600,,to grow {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} that.
+Dialogue: 0,0:00:30.56,0:00:30.81,Caption,,0,0,600,,to grow like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that.{\c&H00FFFFFF\fscx100\fscy100}
