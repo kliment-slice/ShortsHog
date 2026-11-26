@@ -8,48 +8,32 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:00:41.69,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tom Piccirello (PostHog)
-Dialogue: 2,0:00:00.20,0:00:41.69,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“More junk PRs than ever: AI
-Dialogue: 2,0:00:00.20,0:00:41.69,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}one-shots them at incredible
-Dialogue: 2,0:00:00.20,0:00:41.69,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}speed”
-Dialogue: 0,0:00:00.10,0:00:01.92,Caption,,0,0,0,,Yeah, it's an
-Dialogue: 0,0:00:01.92,0:00:02.68,Caption,,0,0,0,,interesting problem
-Dialogue: 0,0:00:02.68,0:00:04.58,Caption,,0,0,0,,because There are more
-Dialogue: 0,0:00:04.58,0:00:05.82,Caption,,0,0,0,,crap PRs from the public
-Dialogue: 0,0:00:05.82,0:00:06.70,Caption,,0,0,0,,than ever
-Dialogue: 0,0:00:06.70,0:00:07.50,Caption,,0,0,0,,right? There was always
-Dialogue: 0,0:00:07.50,0:00:09.08,Caption,,0,0,0,,crap, but the speed at
-Dialogue: 0,0:00:09.08,0:00:10.84,Caption,,0,0,0,,which you can one-shot
-Dialogue: 0,0:00:10.84,0:00:11.92,Caption,,0,0,0,,crap is incredible.
-Dialogue: 0,0:00:12.03,0:00:12.38,Caption,,0,0,0,,You know
-Dialogue: 0,0:00:12.23,0:00:13.43,Caption,,0,0,0,,I know there's some
-Dialogue: 0,0:00:13.43,0:00:14.11,Caption,,0,0,0,,clever solutions to
-Dialogue: 0,0:00:14.11,0:00:14.89,Caption,,0,0,0,,this. I know Mitchell
-Dialogue: 0,0:00:14.89,0:00:16.91,Caption,,0,0,0,,Hashimoto has an open
-Dialogue: 0,0:00:16.91,0:00:18.53,Caption,,0,0,0,,source project for
-Dialogue: 0,0:00:18.53,0:00:20.48,Caption,,0,0,0,,exactly this to
-Dialogue: 0,0:00:20.57,0:00:21.51,Caption,,0,0,0,,effectively only allow
-Dialogue: 0,0:00:21.51,0:00:22.07,Caption,,0,0,0,,contributors who have a
-Dialogue: 0,0:00:22.07,0:00:23.25,Caption,,0,0,0,,certain trust rating
-Dialogue: 0,0:00:23.25,0:00:23.99,Caption,,0,0,0,,and I believe he was
-Dialogue: 0,0:00:23.99,0:00:25.52,Caption,,0,0,0,,using that for Ghostty.
-Dialogue: 0,0:00:25.52,0:00:26.36,Caption,,0,0,0,,I haven't looked into it
-Dialogue: 0,0:00:26.36,0:00:26.96,Caption,,0,0,0,,myself it's an
-Dialogue: 0,0:00:26.96,0:00:28.46,Caption,,0,0,0,,interesting idea right
-Dialogue: 0,0:00:28.46,0:00:29.42,Caption,,0,0,0,,you know like you need
-Dialogue: 0,0:00:29.42,0:00:30.28,Caption,,0,0,0,,some sort of reputation
-Dialogue: 0,0:00:30.28,0:00:31.62,Caption,,0,0,0,,be able to contribute I
-Dialogue: 0,0:00:31.62,0:00:32.08,Caption,,0,0,0,,think it's an
-Dialogue: 0,0:00:32.08,0:00:32.70,Caption,,0,0,0,,interesting approach
-Dialogue: 0,0:00:32.70,0:00:33.40,Caption,,0,0,0,,because really the
-Dialogue: 0,0:00:33.40,0:00:35.08,Caption,,0,0,0,,problem is like it's
-Dialogue: 0,0:00:35.08,0:00:36.10,Caption,,0,0,0,,easy to put up a PR but
-Dialogue: 0,0:00:36.10,0:00:36.88,Caption,,0,0,0,,now that you're putting
-Dialogue: 0,0:00:36.88,0:00:38.30,Caption,,0,0,0,,work on the maintainers
-Dialogue: 0,0:00:38.30,0:00:39.72,Caption,,0,0,0,,and they need to they
-Dialogue: 0,0:00:39.72,0:00:40.60,Caption,,0,0,0,,need to put an actual
-Dialogue: 0,0:00:40.60,0:00:41.69,Caption,,0,0,0,,work to look at it
+Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00DFB32B}Tom Piccirello (PostHog)
+Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“More junk PRs than
+Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}ever: AI one-shots them
+Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}at incredible speed”
+Dialogue: 0,0:00:00.00,0:00:01.64,Caption,,0,0,0,,There are more crap PRs
+Dialogue: 0,0:00:01.64,0:00:02.46,Caption,,0,0,0,,from the public than
+Dialogue: 0,0:00:02.46,0:00:03.72,Caption,,0,0,0,,ever, There was always
+Dialogue: 0,0:00:03.72,0:00:05.30,Caption,,0,0,0,,crap, but the speed at
+Dialogue: 0,0:00:05.30,0:00:07.06,Caption,,0,0,0,,which you can one-shot
+Dialogue: 0,0:00:07.06,0:00:08.14,Caption,,0,0,0,,crap is incredible.
+Dialogue: 0,0:00:09.00,0:00:09.66,Caption,,0,0,0,,I know Mitchell
+Dialogue: 0,0:00:09.66,0:00:11.68,Caption,,0,0,0,,Hashimoto has an open
+Dialogue: 0,0:00:11.68,0:00:13.30,Caption,,0,0,0,,source project for
+Dialogue: 0,0:00:13.30,0:00:15.25,Caption,,0,0,0,,exactly this to
+Dialogue: 0,0:00:16.10,0:00:17.04,Caption,,0,0,0,,effectively only allow
+Dialogue: 0,0:00:17.04,0:00:17.60,Caption,,0,0,0,,contributors who have a
+Dialogue: 0,0:00:17.60,0:00:18.80,Caption,,0,0,0,,certain trust rating
+Dialogue: 0,0:00:19.11,0:00:20.19,Caption,,0,0,0,,really the problem is
+Dialogue: 0,0:00:20.19,0:00:21.67,Caption,,0,0,0,,like it's easy to put up
+Dialogue: 0,0:00:21.67,0:00:22.75,Caption,,0,0,0,,a PR but now that you're
+Dialogue: 0,0:00:22.75,0:00:23.59,Caption,,0,0,0,,putting work on the
+Dialogue: 0,0:00:23.59,0:00:24.84,Caption,,0,0,0,,maintainers and they
+Dialogue: 0,0:00:24.84,0:00:25.72,Caption,,0,0,0,,need to put an actual
+Dialogue: 0,0:00:25.72,0:00:26.81,Caption,,0,0,0,,work to look at it

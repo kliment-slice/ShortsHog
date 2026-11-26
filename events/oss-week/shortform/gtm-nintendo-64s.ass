@@ -1,41 +1,64 @@
 [Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
-PlayResY: 1440
+PlayResY: 1920
 WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tim Glaser (PostHog)
-Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Giving away Nintendo 64s
-Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}flopped. You can't bribe
-Dialogue: 2,0:00:00.20,0:00:27.73,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}your customers.”
-Dialogue: 0,0:00:00.10,0:00:00.70,Caption,,0,0,0,,The stuff that didn't
-Dialogue: 0,0:00:00.70,0:00:01.05,Caption,,0,0,0,,work well
-Dialogue: 0,0:00:00.94,0:00:01.66,Caption,,0,0,0,,there was actually a
-Dialogue: 0,0:00:01.66,0:00:02.38,Caption,,0,0,0,,previous pivot
-Dialogue: 0,0:00:02.48,0:00:04.12,Caption,,0,0,0,,but we were building
-Dialogue: 0,0:00:04.12,0:00:05.00,Caption,,0,0,0,,another type of dev
-Dialogue: 0,0:00:05.00,0:00:06.45,Caption,,0,0,0,,tool, And we literally
-Dialogue: 0,0:00:06.45,0:00:07.47,Caption,,0,0,0,,were trying to give away
-Dialogue: 0,0:00:07.47,0:00:09.93,Caption,,0,0,0,,like Nintendo 64s as
-Dialogue: 0,0:00:09.93,0:00:10.83,Caption,,0,0,0,,like a weird kind of
-Dialogue: 0,0:00:10.83,0:00:11.67,Caption,,0,0,0,,marketing gimmick and it
-Dialogue: 0,0:00:11.67,0:00:12.75,Caption,,0,0,0,,literally did not work.
-Dialogue: 0,0:00:12.75,0:00:13.65,Caption,,0,0,0,,So it turns out like you
-Dialogue: 0,0:00:13.65,0:00:14.49,Caption,,0,0,0,,can't actually bribe
-Dialogue: 0,0:00:14.49,0:00:15.13,Caption,,0,0,0,,your customers.
-Dialogue: 0,0:00:15.13,0:00:15.95,Caption,,0,0,0,,You do actually have to
-Dialogue: 0,0:00:15.95,0:00:17.63,Caption,,0,0,0,,like provide some value
-Dialogue: 0,0:00:17.63,0:00:18.42,Caption,,0,0,0,,of some sort.
-Dialogue: 0,0:00:18.42,0:00:22.16,Caption,,0,0,0,,{\c&H00B3DA43}Will: {\c&H00FFFFFF}Do the best bus ads that
-Dialogue: 0,0:00:22.16,0:00:24.66,Caption,,0,0,0,,have ever existed work
-Dialogue: 0,0:00:24.66,0:00:25.53,Caption,,0,0,0,,well?
-Dialogue: 0,0:00:25.59,0:00:26.53,Caption,,0,0,0,,Yeah, they work pretty
-Dialogue: 0,0:00:26.53,0:00:27.73,Caption,,0,0,0,,well.
+Dialogue: 0,0:00:00.00,0:00:00.16,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}You{\c&H00FFFFFF\fscx100\fscy100} can't actually
+Dialogue: 0,0:00:00.16,0:00:00.44,Caption,,0,0,600,,You {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can't{\c&H00FFFFFF\fscx100\fscy100} actually
+Dialogue: 0,0:00:00.44,0:00:00.72,Caption,,0,0,600,,You can't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.72,0:00:01.00,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}bribe{\c&H00FFFFFF\fscx100\fscy100} your customers.
+Dialogue: 0,0:00:01.00,0:00:01.42,Caption,,0,0,600,,bribe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} customers.
+Dialogue: 0,0:00:01.42,0:00:01.64,Caption,,0,0,600,,bribe your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}customers.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.64,0:00:01.68,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}You{\c&H00FFFFFF\fscx100\fscy100} do actually have
+Dialogue: 0,0:00:01.68,0:00:01.90,Caption,,0,0,600,,You {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} actually have
+Dialogue: 0,0:00:01.90,0:00:02.10,Caption,,0,0,600,,You do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} have
+Dialogue: 0,0:00:02.10,0:00:02.22,Caption,,0,0,600,,You do actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.22,0:00:02.46,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} like provide some
+Dialogue: 0,0:00:02.46,0:00:03.42,Caption,,0,0,600,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} provide some
+Dialogue: 0,0:00:03.42,0:00:03.66,Caption,,0,0,600,,to like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}provide{\c&H00FFFFFF\fscx100\fscy100} some
+Dialogue: 0,0:00:03.66,0:00:03.96,Caption,,0,0,600,,to like provide {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.96,0:00:04.14,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}value{\c&H00FFFFFF\fscx100\fscy100} of some sort.
+Dialogue: 0,0:00:04.14,0:00:04.22,Caption,,0,0,600,,value {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} some sort.
+Dialogue: 0,0:00:04.22,0:00:04.40,Caption,,0,0,600,,value of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100} sort.
+Dialogue: 0,0:00:04.40,0:00:04.82,Caption,,0,0,600,,value of some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sort.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.82,0:00:04.90,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}We{\c&H00FFFFFF\fscx100\fscy100} were building
+Dialogue: 0,0:00:04.90,0:00:05.14,Caption,,0,0,600,,We {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100} building
+Dialogue: 0,0:00:05.14,0:00:05.48,Caption,,0,0,600,,We were {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}building{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.48,0:00:05.78,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}another{\c&H00FFFFFF\fscx100\fscy100} type of dev
+Dialogue: 0,0:00:05.78,0:00:05.90,Caption,,0,0,600,,another {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}type{\c&H00FFFFFF\fscx100\fscy100} of dev
+Dialogue: 0,0:00:05.90,0:00:06.06,Caption,,0,0,600,,another type {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} dev
+Dialogue: 0,0:00:06.06,0:00:06.36,Caption,,0,0,600,,another type of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}dev{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.36,0:00:07.02,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}tool{\c&H00FFFFFF\fscx100\fscy100} And we literally
+Dialogue: 0,0:00:07.02,0:00:07.14,Caption,,0,0,600,,tool {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} we literally
+Dialogue: 0,0:00:07.14,0:00:07.38,Caption,,0,0,600,,tool And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} literally
+Dialogue: 0,0:00:07.38,0:00:07.62,Caption,,0,0,600,,tool And we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}literally{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.62,0:00:07.80,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100} trying to give
+Dialogue: 0,0:00:07.80,0:00:07.94,Caption,,0,0,600,,were {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trying{\c&H00FFFFFF\fscx100\fscy100} to give
+Dialogue: 0,0:00:07.94,0:00:08.12,Caption,,0,0,600,,were trying {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} give
+Dialogue: 0,0:00:08.12,0:00:08.38,Caption,,0,0,600,,were trying to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}give{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.38,0:00:08.64,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}away{\c&H00FFFFFF\fscx100\fscy100} like Nintendo 64s
+Dialogue: 0,0:00:08.64,0:00:09.08,Caption,,0,0,600,,away {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} Nintendo 64s
+Dialogue: 0,0:00:09.08,0:00:09.80,Caption,,0,0,600,,away like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Nintendo{\c&H00FFFFFF\fscx100\fscy100} 64s
+Dialogue: 0,0:00:09.80,0:00:10.81,Caption,,0,0,600,,away like Nintendo {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}64s{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.81,0:00:10.99,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} like a weird kind
+Dialogue: 0,0:00:10.99,0:00:11.09,Caption,,0,0,600,,as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} a weird kind
+Dialogue: 0,0:00:11.09,0:00:11.35,Caption,,0,0,600,,as like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} weird kind
+Dialogue: 0,0:00:11.35,0:00:11.55,Caption,,0,0,600,,as like a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}weird{\c&H00FFFFFF\fscx100\fscy100} kind
+Dialogue: 0,0:00:11.55,0:00:11.63,Caption,,0,0,600,,as like a weird {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.63,0:00:11.89,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} marketing gimmick
+Dialogue: 0,0:00:11.89,0:00:12.13,Caption,,0,0,600,,of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}marketing{\c&H00FFFFFF\fscx100\fscy100} gimmick
+Dialogue: 0,0:00:12.13,0:00:12.37,Caption,,0,0,600,,of marketing {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}gimmick{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.37,0:00:12.53,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} it literally did
+Dialogue: 0,0:00:12.53,0:00:12.73,Caption,,0,0,600,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} literally did
+Dialogue: 0,0:00:12.73,0:00:12.95,Caption,,0,0,600,,and it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}literally{\c&H00FFFFFF\fscx100\fscy100} did
+Dialogue: 0,0:00:12.95,0:00:13.13,Caption,,0,0,600,,and it literally {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}did{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.13,0:00:13.43,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} work.
+Dialogue: 0,0:00:13.43,0:00:13.76,Caption,,0,0,600,,not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work.{\c&H00FFFFFF\fscx100\fscy100}

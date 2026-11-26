@@ -1,0 +1,160 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,Caption,,0,0,166,,{\c&H00DFB32B}We{\c&H00FFFFFF} keep a human in the
+Dialogue: 0,0:00:00.26,0:00:00.42,Caption,,0,0,166,,We {\c&H00DFB32B}keep{\c&H00FFFFFF} a human in the
+Dialogue: 0,0:00:00.42,0:00:00.64,Caption,,0,0,166,,We keep {\c&H00DFB32B}a{\c&H00FFFFFF} human in the
+Dialogue: 0,0:00:00.64,0:00:00.80,Caption,,0,0,166,,We keep a {\c&H00DFB32B}human{\c&H00FFFFFF} in the
+Dialogue: 0,0:00:00.80,0:00:00.88,Caption,,0,0,166,,We keep a human {\c&H00DFB32B}in{\c&H00FFFFFF} the
+Dialogue: 0,0:00:00.88,0:00:01.04,Caption,,0,0,166,,We keep a human in {\c&H00DFB32B}the{\c&H00FFFFFF}
+Dialogue: 0,0:00:01.04,0:00:01.22,Caption,,0,0,166,,{\c&H00DFB32B}loop{\c&H00FFFFFF} for all of these
+Dialogue: 0,0:00:01.22,0:00:01.38,Caption,,0,0,166,,loop {\c&H00DFB32B}for{\c&H00FFFFFF} all of these
+Dialogue: 0,0:00:01.38,0:00:01.52,Caption,,0,0,166,,loop for {\c&H00DFB32B}all{\c&H00FFFFFF} of these
+Dialogue: 0,0:00:01.52,0:00:01.64,Caption,,0,0,166,,loop for all {\c&H00DFB32B}of{\c&H00FFFFFF} these
+Dialogue: 0,0:00:01.64,0:00:01.82,Caption,,0,0,166,,loop for all of {\c&H00DFB32B}these{\c&H00FFFFFF}
+Dialogue: 0,0:00:01.82,0:00:02.10,Caption,,0,0,166,,{\c&H00DFB32B}things.{\c&H00FFFFFF} Nothing gets
+Dialogue: 0,0:00:02.10,0:00:02.30,Caption,,0,0,166,,things. {\c&H00DFB32B}Nothing{\c&H00FFFFFF} gets
+Dialogue: 0,0:00:02.30,0:00:02.64,Caption,,0,0,166,,things. Nothing {\c&H00DFB32B}gets{\c&H00FFFFFF}
+Dialogue: 0,0:00:02.64,0:00:02.88,Caption,,0,0,166,,{\c&H00DFB32B}posted{\c&H00FFFFFF} without a human
+Dialogue: 0,0:00:02.88,0:00:03.04,Caption,,0,0,166,,posted {\c&H00DFB32B}without{\c&H00FFFFFF} a human
+Dialogue: 0,0:00:03.04,0:00:03.18,Caption,,0,0,166,,posted without {\c&H00DFB32B}a{\c&H00FFFFFF} human
+Dialogue: 0,0:00:03.18,0:00:03.58,Caption,,0,0,166,,posted without a {\c&H00DFB32B}human{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.58,0:00:04.32,Caption,,0,0,166,,{\c&H00DFB32B}review.{\c&H00FFFFFF} And then we
+Dialogue: 0,0:00:04.32,0:00:04.42,Caption,,0,0,166,,review. {\c&H00DFB32B}And{\c&H00FFFFFF} then we
+Dialogue: 0,0:00:04.42,0:00:04.54,Caption,,0,0,166,,review. And {\c&H00DFB32B}then{\c&H00FFFFFF} we
+Dialogue: 0,0:00:04.54,0:00:04.94,Caption,,0,0,166,,review. And then {\c&H00DFB32B}we{\c&H00FFFFFF}
+Dialogue: 0,0:00:04.94,0:00:05.63,Caption,,0,0,166,,{\c&H00DFB32B}also{\c&H00FFFFFF} we are very
+Dialogue: 0,0:00:05.63,0:00:05.81,Caption,,0,0,166,,also {\c&H00DFB32B}we{\c&H00FFFFFF} are very
+Dialogue: 0,0:00:05.81,0:00:06.35,Caption,,0,0,166,,also we {\c&H00DFB32B}are{\c&H00FFFFFF} very
+Dialogue: 0,0:00:06.35,0:00:06.87,Caption,,0,0,166,,also we are {\c&H00DFB32B}very{\c&H00FFFFFF}
+Dialogue: 0,0:00:06.87,0:00:07.37,Caption,,0,0,120,,{\c&H00DFB32B}careful{\c&H00FFFFFF} about like
+Dialogue: 0,0:00:07.37,0:00:07.65,Caption,,0,0,120,,careful {\c&H00DFB32B}about{\c&H00FFFFFF} like
+Dialogue: 0,0:00:07.65,0:00:08.19,Caption,,0,0,120,,careful about {\c&H00DFB32B}like{\c&H00FFFFFF}
+Dialogue: 0,0:00:08.25,0:00:08.77,Caption,,0,0,120,,{\c&H00DFB32B}creating{\c&H00FFFFFF} systems where
+Dialogue: 0,0:00:08.77,0:00:09.07,Caption,,0,0,120,,creating {\c&H00DFB32B}systems{\c&H00FFFFFF} where
+Dialogue: 0,0:00:09.07,0:00:09.29,Caption,,0,0,120,,creating systems {\c&H00DFB32B}where{\c&H00FFFFFF}
+Dialogue: 0,0:00:09.29,0:00:10.57,Caption,,0,0,120,,{\c&H00DFB32B}the{\c&H00FFFFFF} AI is constrained in
+Dialogue: 0,0:00:10.57,0:00:12.03,Caption,,0,0,120,,the {\c&H00DFB32B}AI{\c&H00FFFFFF} is constrained in
+Dialogue: 0,0:00:12.03,0:00:12.57,Caption,,0,0,120,,the AI {\c&H00DFB32B}is{\c&H00FFFFFF} constrained in
+Dialogue: 0,0:00:12.57,0:00:12.91,Caption,,0,0,120,,the AI is {\c&H00DFB32B}constrained{\c&H00FFFFFF} in
+Dialogue: 0,0:00:12.91,0:00:13.03,Caption,,0,0,120,,the AI is constrained {\c&H00DFB32B}in{\c&H00FFFFFF}
+Dialogue: 0,0:00:13.03,0:00:13.17,Caption,,0,0,120,,{\c&H00DFB32B}how{\c&H00FFFFFF} it solves these
+Dialogue: 0,0:00:13.17,0:00:13.47,Caption,,0,0,120,,how {\c&H00DFB32B}it{\c&H00FFFFFF} solves these
+Dialogue: 0,0:00:13.47,0:00:13.65,Caption,,0,0,120,,how it {\c&H00DFB32B}solves{\c&H00FFFFFF} these
+Dialogue: 0,0:00:13.65,0:00:14.17,Caption,,0,0,120,,how it solves {\c&H00DFB32B}these{\c&H00FFFFFF}
+Dialogue: 0,0:00:14.17,0:00:14.41,Caption,,0,0,120,,{\c&H00DFB32B}problems{\c&H00FFFFFF}
+Dialogue: 0,0:00:14.41,0:00:14.57,Caption,,0,0,120,,{\c&H00DFB32B}So{\c&H00FFFFFF} that it's not sort of
+Dialogue: 0,0:00:14.57,0:00:14.67,Caption,,0,0,120,,So {\c&H00DFB32B}that{\c&H00FFFFFF} it's not sort of
+Dialogue: 0,0:00:14.67,0:00:14.99,Caption,,0,0,120,,So that {\c&H00DFB32B}it's{\c&H00FFFFFF} not sort of
+Dialogue: 0,0:00:14.99,0:00:15.15,Caption,,0,0,120,,So that it's {\c&H00DFB32B}not{\c&H00FFFFFF} sort of
+Dialogue: 0,0:00:15.15,0:00:15.27,Caption,,0,0,120,,So that it's not {\c&H00DFB32B}sort{\c&H00FFFFFF} of
+Dialogue: 0,0:00:15.27,0:00:15.79,Caption,,0,0,120,,So that it's not sort {\c&H00DFB32B}of{\c&H00FFFFFF}
+Dialogue: 0,0:00:15.79,0:00:16.03,Caption,,0,0,120,,{\c&H00DFB32B}creating{\c&H00FFFFFF} a new way to do
+Dialogue: 0,0:00:16.03,0:00:16.17,Caption,,0,0,120,,creating {\c&H00DFB32B}a{\c&H00FFFFFF} new way to do
+Dialogue: 0,0:00:16.17,0:00:16.49,Caption,,0,0,120,,creating a {\c&H00DFB32B}new{\c&H00FFFFFF} way to do
+Dialogue: 0,0:00:16.49,0:00:16.71,Caption,,0,0,120,,creating a new {\c&H00DFB32B}way{\c&H00FFFFFF} to do
+Dialogue: 0,0:00:16.71,0:00:16.93,Caption,,0,0,120,,creating a new way {\c&H00DFB32B}to{\c&H00FFFFFF} do
+Dialogue: 0,0:00:16.93,0:00:17.19,Caption,,0,0,120,,creating a new way to {\c&H00DFB32B}do{\c&H00FFFFFF}
+Dialogue: 0,0:00:17.19,0:00:17.45,Caption,,0,0,120,,{\c&H00DFB32B}our{\c&H00FFFFFF} rev rec or our
+Dialogue: 0,0:00:17.45,0:00:17.63,Caption,,0,0,120,,our {\c&H00DFB32B}rev{\c&H00FFFFFF} rec or our
+Dialogue: 0,0:00:17.63,0:00:17.81,Caption,,0,0,120,,our rev {\c&H00DFB32B}rec{\c&H00FFFFFF} or our
+Dialogue: 0,0:00:17.81,0:00:17.97,Caption,,0,0,120,,our rev rec {\c&H00DFB32B}or{\c&H00FFFFFF} our
+Dialogue: 0,0:00:17.97,0:00:18.47,Caption,,0,0,120,,our rev rec or {\c&H00DFB32B}our{\c&H00FFFFFF}
+Dialogue: 0,0:00:18.47,0:00:19.11,Caption,,0,0,120,,{\c&H00DFB32B}payroll{\c&H00FFFFFF} every time.
+Dialogue: 0,0:00:19.11,0:00:19.51,Caption,,0,0,120,,payroll {\c&H00DFB32B}every{\c&H00FFFFFF} time.
+Dialogue: 0,0:00:19.51,0:00:20.03,Caption,,0,0,120,,payroll every {\c&H00DFB32B}time.{\c&H00FFFFFF}
+Dialogue: 0,0:00:20.03,0:00:20.27,Caption,,0,0,119,,{\c&H00DFB32B}It{\c&H00FFFFFF} has defined sources
+Dialogue: 0,0:00:20.27,0:00:20.79,Caption,,0,0,119,,It {\c&H00DFB32B}has{\c&H00FFFFFF} defined sources
+Dialogue: 0,0:00:20.79,0:00:21.35,Caption,,0,0,119,,It has {\c&H00DFB32B}defined{\c&H00FFFFFF} sources
+Dialogue: 0,0:00:21.35,0:00:21.59,Caption,,0,0,119,,It has defined {\c&H00DFB32B}sources{\c&H00FFFFFF}
+Dialogue: 0,0:00:21.59,0:00:21.69,Caption,,0,0,119,,{\c&H00DFB32B}that{\c&H00FFFFFF} it should be
+Dialogue: 0,0:00:21.69,0:00:21.81,Caption,,0,0,119,,that {\c&H00DFB32B}it{\c&H00FFFFFF} should be
+Dialogue: 0,0:00:21.81,0:00:21.95,Caption,,0,0,119,,that it {\c&H00DFB32B}should{\c&H00FFFFFF} be
+Dialogue: 0,0:00:21.95,0:00:22.17,Caption,,0,0,119,,that it should {\c&H00DFB32B}be{\c&H00FFFFFF}
+Dialogue: 0,0:00:22.17,0:00:22.55,Caption,,0,0,120,,{\c&H00DFB32B}looking{\c&H00FFFFFF} at.
+Dialogue: 0,0:00:22.55,0:00:23.14,Caption,,0,0,120,,looking {\c&H00DFB32B}at.{\c&H00FFFFFF}
+Dialogue: 0,0:00:23.14,0:00:23.34,Caption,,0,0,102,,{\c&H00DFB32B}It{\c&H00FFFFFF} has defined skills on
+Dialogue: 0,0:00:23.34,0:00:23.80,Caption,,0,0,102,,It {\c&H00DFB32B}has{\c&H00FFFFFF} defined skills on
+Dialogue: 0,0:00:23.80,0:00:24.12,Caption,,0,0,102,,It has {\c&H00DFB32B}defined{\c&H00FFFFFF} skills on
+Dialogue: 0,0:00:24.12,0:00:24.30,Caption,,0,0,102,,It has defined {\c&H00DFB32B}skills{\c&H00FFFFFF} on
+Dialogue: 0,0:00:24.30,0:00:24.42,Caption,,0,0,102,,It has defined skills {\c&H00DFB32B}on{\c&H00FFFFFF}
+Dialogue: 0,0:00:24.42,0:00:24.52,Caption,,0,0,104,,{\c&H00DFB32B}how{\c&H00FFFFFF} it should be working
+Dialogue: 0,0:00:24.52,0:00:24.62,Caption,,0,0,104,,how {\c&H00DFB32B}it{\c&H00FFFFFF} should be working
+Dialogue: 0,0:00:24.62,0:00:24.74,Caption,,0,0,104,,how it {\c&H00DFB32B}should{\c&H00FFFFFF} be working
+Dialogue: 0,0:00:24.74,0:00:24.98,Caption,,0,0,104,,how it should {\c&H00DFB32B}be{\c&H00FFFFFF} working
+Dialogue: 0,0:00:24.98,0:00:25.16,Caption,,0,0,104,,how it should be {\c&H00DFB32B}working{\c&H00FFFFFF}
+Dialogue: 0,0:00:25.16,0:00:25.28,Caption,,0,0,120,,{\c&H00DFB32B}through{\c&H00FFFFFF} the problem
+Dialogue: 0,0:00:25.28,0:00:25.76,Caption,,0,0,120,,through {\c&H00DFB32B}the{\c&H00FFFFFF} problem
+Dialogue: 0,0:00:25.76,0:00:26.40,Caption,,0,0,120,,through the {\c&H00DFB32B}problem{\c&H00FFFFFF}
+Dialogue: 0,0:00:26.40,0:00:26.60,Caption,,0,0,120,,{\c&H00DFB32B}instead{\c&H00FFFFFF} of like
+Dialogue: 0,0:00:26.60,0:00:26.80,Caption,,0,0,120,,instead {\c&H00DFB32B}of{\c&H00FFFFFF} like
+Dialogue: 0,0:00:26.80,0:00:27.32,Caption,,0,0,120,,instead of {\c&H00DFB32B}like{\c&H00FFFFFF}
+Dialogue: 0,0:00:27.64,0:00:28.02,Caption,,0,0,120,,{\c&H00DFB32B}creating{\c&H00FFFFFF} a way to get
+Dialogue: 0,0:00:28.02,0:00:28.16,Caption,,0,0,120,,creating {\c&H00DFB32B}a{\c&H00FFFFFF} way to get
+Dialogue: 0,0:00:28.16,0:00:28.30,Caption,,0,0,120,,creating a {\c&H00DFB32B}way{\c&H00FFFFFF} to get
+Dialogue: 0,0:00:28.30,0:00:28.44,Caption,,0,0,120,,creating a way {\c&H00DFB32B}to{\c&H00FFFFFF} get
+Dialogue: 0,0:00:28.44,0:00:28.92,Caption,,0,0,120,,creating a way to {\c&H00DFB32B}get{\c&H00FFFFFF}
+Dialogue: 0,0:00:28.92,0:00:29.66,Caption,,0,0,120,,{\c&H00DFB32B}around{\c&H00FFFFFF} exceptions
+Dialogue: 0,0:00:29.66,0:00:29.94,Caption,,0,0,120,,around {\c&H00DFB32B}exceptions{\c&H00FFFFFF}
+Dialogue: 0,0:00:29.94,0:00:30.10,Caption,,0,0,120,,{\c&H00DFB32B}it{\c&H00FFFFFF} like flags those
+Dialogue: 0,0:00:30.10,0:00:30.46,Caption,,0,0,120,,it {\c&H00DFB32B}like{\c&H00FFFFFF} flags those
+Dialogue: 0,0:00:30.46,0:00:30.72,Caption,,0,0,120,,it like {\c&H00DFB32B}flags{\c&H00FFFFFF} those
+Dialogue: 0,0:00:30.72,0:00:31.22,Caption,,0,0,120,,it like flags {\c&H00DFB32B}those{\c&H00FFFFFF}
+Dialogue: 0,0:00:31.22,0:00:31.64,Caption,,0,0,120,,{\c&H00DFB32B}exceptions{\c&H00FFFFFF} to our
+Dialogue: 0,0:00:31.64,0:00:31.94,Caption,,0,0,120,,exceptions {\c&H00DFB32B}to{\c&H00FFFFFF} our
+Dialogue: 0,0:00:31.94,0:00:32.30,Caption,,0,0,120,,exceptions to {\c&H00DFB32B}our{\c&H00FFFFFF}
+Dialogue: 0,0:00:32.30,0:00:32.70,Caption,,0,0,120,,{\c&H00DFB32B}accountants{\c&H00FFFFFF} so that
+Dialogue: 0,0:00:32.70,0:00:32.90,Caption,,0,0,120,,accountants {\c&H00DFB32B}so{\c&H00FFFFFF} that
+Dialogue: 0,0:00:32.90,0:00:33.32,Caption,,0,0,120,,accountants so {\c&H00DFB32B}that{\c&H00FFFFFF}
+Dialogue: 0,0:00:33.32,0:00:33.72,Caption,,0,0,120,,{\c&H00DFB32B}the{\c&H00FFFFFF} human can decide
+Dialogue: 0,0:00:33.72,0:00:33.94,Caption,,0,0,120,,the {\c&H00DFB32B}human{\c&H00FFFFFF} can decide
+Dialogue: 0,0:00:33.94,0:00:34.30,Caption,,0,0,120,,the human {\c&H00DFB32B}can{\c&H00FFFFFF} decide
+Dialogue: 0,0:00:34.30,0:00:34.74,Caption,,0,0,120,,the human can {\c&H00DFB32B}decide{\c&H00FFFFFF}
+Dialogue: 0,0:00:34.74,0:00:34.94,Caption,,0,0,120,,{\c&H00DFB32B}whether{\c&H00FFFFFF} we want to make
+Dialogue: 0,0:00:34.94,0:00:35.10,Caption,,0,0,120,,whether {\c&H00DFB32B}we{\c&H00FFFFFF} want to make
+Dialogue: 0,0:00:35.10,0:00:35.20,Caption,,0,0,120,,whether we {\c&H00DFB32B}want{\c&H00FFFFFF} to make
+Dialogue: 0,0:00:35.20,0:00:35.34,Caption,,0,0,120,,whether we want {\c&H00DFB32B}to{\c&H00FFFFFF} make
+Dialogue: 0,0:00:35.34,0:00:35.46,Caption,,0,0,120,,whether we want to {\c&H00DFB32B}make{\c&H00FFFFFF}
+Dialogue: 0,0:00:35.46,0:00:35.72,Caption,,0,0,120,,{\c&H00DFB32B}a{\c&H00FFFFFF} change to the process
+Dialogue: 0,0:00:35.72,0:00:35.88,Caption,,0,0,120,,a {\c&H00DFB32B}change{\c&H00FFFFFF} to the process
+Dialogue: 0,0:00:35.88,0:00:35.96,Caption,,0,0,120,,a change {\c&H00DFB32B}to{\c&H00FFFFFF} the process
+Dialogue: 0,0:00:35.96,0:00:36.34,Caption,,0,0,120,,a change to {\c&H00DFB32B}the{\c&H00FFFFFF} process
+Dialogue: 0,0:00:36.34,0:00:36.52,Caption,,0,0,120,,a change to the {\c&H00DFB32B}process{\c&H00FFFFFF}
+Dialogue: 0,0:00:36.52,0:00:36.74,Caption,,0,0,120,,{\c&H00DFB32B}or{\c&H00FFFFFF} not. And so there is
+Dialogue: 0,0:00:36.74,0:00:37.47,Caption,,0,0,120,,or {\c&H00DFB32B}not.{\c&H00FFFFFF} And so there is
+Dialogue: 0,0:00:37.47,0:00:37.61,Caption,,0,0,120,,or not. {\c&H00DFB32B}And{\c&H00FFFFFF} so there is
+Dialogue: 0,0:00:37.61,0:00:37.85,Caption,,0,0,120,,or not. And {\c&H00DFB32B}so{\c&H00FFFFFF} there is
+Dialogue: 0,0:00:37.85,0:00:38.01,Caption,,0,0,120,,or not. And so {\c&H00DFB32B}there{\c&H00FFFFFF} is
+Dialogue: 0,0:00:38.01,0:00:38.13,Caption,,0,0,120,,or not. And so there {\c&H00DFB32B}is{\c&H00FFFFFF}
+Dialogue: 0,0:00:38.13,0:00:38.41,Caption,,0,0,120,,{\c&H00DFB32B}a{\c&H00FFFFFF} lot that you have to
+Dialogue: 0,0:00:38.41,0:00:38.67,Caption,,0,0,120,,a {\c&H00DFB32B}lot{\c&H00FFFFFF} that you have to
+Dialogue: 0,0:00:38.67,0:00:38.75,Caption,,0,0,120,,a lot {\c&H00DFB32B}that{\c&H00FFFFFF} you have to
+Dialogue: 0,0:00:38.75,0:00:38.91,Caption,,0,0,120,,a lot that {\c&H00DFB32B}you{\c&H00FFFFFF} have to
+Dialogue: 0,0:00:38.91,0:00:39.01,Caption,,0,0,120,,a lot that you {\c&H00DFB32B}have{\c&H00FFFFFF} to
+Dialogue: 0,0:00:39.01,0:00:39.23,Caption,,0,0,120,,a lot that you have {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:39.23,0:00:39.41,Caption,,0,0,120,,{\c&H00DFB32B}do{\c&H00FFFFFF} in order to make sure
+Dialogue: 0,0:00:39.41,0:00:39.55,Caption,,0,0,120,,do {\c&H00DFB32B}in{\c&H00FFFFFF} order to make sure
+Dialogue: 0,0:00:39.55,0:00:39.71,Caption,,0,0,120,,do in {\c&H00DFB32B}order{\c&H00FFFFFF} to make sure
+Dialogue: 0,0:00:39.71,0:00:39.85,Caption,,0,0,120,,do in order {\c&H00DFB32B}to{\c&H00FFFFFF} make sure
+Dialogue: 0,0:00:39.85,0:00:40.13,Caption,,0,0,120,,do in order to {\c&H00DFB32B}make{\c&H00FFFFFF} sure
+Dialogue: 0,0:00:40.13,0:00:40.33,Caption,,0,0,120,,do in order to make {\c&H00DFB32B}sure{\c&H00FFFFFF}
+Dialogue: 0,0:00:40.33,0:00:40.45,Caption,,0,0,120,,{\c&H00DFB32B}that{\c&H00FFFFFF} it's repeatable and
+Dialogue: 0,0:00:40.45,0:00:40.87,Caption,,0,0,120,,that {\c&H00DFB32B}it's{\c&H00FFFFFF} repeatable and
+Dialogue: 0,0:00:40.87,0:00:41.87,Caption,,0,0,120,,that it's {\c&H00DFB32B}repeatable{\c&H00FFFFFF} and
+Dialogue: 0,0:00:41.87,0:00:42.11,Caption,,0,0,120,,that it's repeatable {\c&H00DFB32B}and{\c&H00FFFFFF}
+Dialogue: 0,0:00:42.11,0:00:42.41,Caption,,0,0,120,,{\c&H00DFB32B}that{\c&H00FFFFFF} like you're
+Dialogue: 0,0:00:42.41,0:00:42.87,Caption,,0,0,120,,that {\c&H00DFB32B}like{\c&H00FFFFFF} you're
+Dialogue: 0,0:00:42.87,0:00:43.23,Caption,,0,0,120,,that like {\c&H00DFB32B}you're{\c&H00FFFFFF}
+Dialogue: 0,0:00:43.23,0:00:43.75,Caption,,0,0,120,,{\c&H00DFB32B}verifying{\c&H00FFFFFF} the process
+Dialogue: 0,0:00:43.75,0:00:44.15,Caption,,0,0,120,,verifying {\c&H00DFB32B}the{\c&H00FFFFFF} process
+Dialogue: 0,0:00:44.15,0:00:44.39,Caption,,0,0,120,,verifying the {\c&H00DFB32B}process{\c&H00FFFFFF}

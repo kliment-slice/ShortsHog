@@ -48,101 +48,154 @@ cuts:
 wide_only:
   - {from: 9.3, to: 12.7}   # a passer-by fills cam2
 
-# shorts: anchor cards turned into 3:4 shorts (shortform.py). `from` / `to` are transcript text and
-#         cover the speaker's whole thought; `skip` phrases inside the range are cut too.
+# shorts: candidate 3:4 shorts (shortform.py). Only specs with a `hook` render; the rest carry a
+#         `rejected` reason (FORMAT.md "### Selection"). `hook` is the hot take the short opens on,
+#         `from` / `to` the meat (setup and qualifier included), `payoff` the sentence it ends on, `skip` phrases are cut.
 shorts:
   - id: pmf-starsling-10x-ci
     speaker: Yonas Beshawred
     anchor: "GitHub Actions up to 10x faster, with AI agents tuning your CI"
     from: "My name's Yonas"
     to: "check out StarSling."
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-viral-sandbox
     speaker: Hang Huang
     anchor: "A sandbox tested in a week went viral before it was open sourced"
     from: "Hey everyone, I'm Hang"
     to: "finding PMF with my previous products."
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-monid-open-router
     speaker: Shengkun Ye
     anchor: "Monid is the open router for agent tools"
     from: "Hey everyone, I'm Shengkun"
     to: "And yes, we are open source."
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-users-got-mad
     speaker: Shengkun Ye
     anchor: "PMF was the moment our users got mad at us"
     from: "Yeah, I feel like for us, it was the moment"
     to: "we are solving a real problem."
+    rejected: the take needs the host's question to make sense
   - id: pmf-self-host-inbound
     speaker: Hang Huang
     anchor: "First signal: users asking how to self-host it"
     from: "Yeah, for us was probably in the moment"
     to: "this product somehow is working"
+    rejected: the take needs the host's question to make sense
   - id: pmf-free-ci-still-paid
     speaker: Yonas Beshawred
     anchor: "CI is free for open source. Paying anyway means real pain."
     from: "Yeah, so for us, we actually started off with a very different product"
     to: "that was the beginning of it"
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-baked-into-agents
     speaker: Hang Huang
     anchor: "Open source gets you baked into what agents recommend"
     from: "people underestimate how good it is"
     to: "one of the default solutions."
+    rejected: overlaps a pick
   - id: pmf-what-claude-picks
     speaker: Yonas Beshawred
     anchor: "Claude picks GitHub Actions 97% of the time, so we started there"
-    from: "I think that's a good point because when we were starting"
-    to: "it's just a loop, right?"
+    hook: if you have SEO, then you'll be in the training set, and then you'll be recommended, and it's just a loop, right?
+    from: someone put out this report
+    to: so you kind of have to account for both.
+    skip:
+      - so we were thinking like, you know, the proper way to do CI, you kind of have an engine that does aggressive caching and test selection, but, you know, we saw that and we were like, okay, well, clearly there's one place you should start, which is GitHub Actions, so I think even if you're not,
+    payoff: building for humans and agents at the same time
+    beats:
+      - kind: topic_shift
+        at: what Claude picks or what Claude chooses
+        tags:
+          - AI
+          - choice
+        query: artificial intelligence
+        asset: overlays/pixabay-203987.mp4
+        pos: [0.243, 0.684]
+      - kind: stat
+        at: 97% market share
+        tags:
+          - market share
+          - chart
+        query: pie chart
+        asset: overlays/pixabay-95497.mp4
+        size: 0.45
+        pos: [0.288, 0.656]
   - id: pmf-agents-compare
     speaker: Shengkun Ye
     anchor: "Agents tell users: Monid is open source, use that"
     from: "Yeah, what we found out from our users is that"
     to: "so you probably can use that"
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-500-vs-10k-stars
     speaker: Hang Huang
     anchor: "At 500 stars agents didn't trust us. At 10K: pretty legit."
-    from: "oh i got that a lot"
-    to: "they're not that smart, right?"
+    hook: the agents, they're not that smart, right?
+    from: we started as a 500 stars
+    to: this product is pretty legit.
+    payoff: this product is pretty legit
+    beats:
+      - kind: stat
+        at: 10k stars
+        tags:
+          - stars
+          - rating
+        query: stars sparkle
+        asset: overlays/pixabay-19478.mp4
+        clip_in: 3.5
+        pos: [0.243, 0.684]
   - id: pmf-skills-entry-point
     speaker: Yonas Beshawred
     anchor: "Skills are a free, low-friction way in"
     from: "so for us, we've released skills"
     to: "npx skills add, right?"
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-star-to-fork
     speaker: Hang Huang
     anchor: "Stars are vanity. Watch star-to-fork ratio and live self-hosts."
     from: "I think it definitely helps a lot."
     to: "if people are actually using our open source"
+    rejected: rambles; no tight standalone line
   - id: pmf-suppliers-send-prs
     speaker: Shengkun Ye
     anchor: "Open sourcing made suppliers send their own PRs"
     from: "Yeah, open source for us really help us with the PMF."
     to: "suppliers also love us really well as well"
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-unified-billing
     speaker: Shengkun Ye
     anchor: "Agents do the integration. The value is pricing and unified billing."
     from: "my next question gonna just be about"
     to: "still within the hosted version."
+    rejected: 'pitch: intro, company or product description'
   - id: pmf-self-host-costs-more
     speaker: Hang Huang
     anchor: "Make self-hosting cost more than your managed version"
     from: "I think there is a clear strategy for monetization"
     to: "we've took so far"
+    rejected: decent, but weaker than this panel's two picks
   - id: pmf-enterprise-pays
     speaker: Yonas Beshawred
     anchor: "Free to fork, but enterprises pay for security and availability"
     from: "yeah I mean agreed one of our other customers"
     to: "your internal resources on other things."
+    rejected: generic advice, nothing to disagree with
   - id: pmf-put-your-code-out
     speaker: Hang Huang
     anchor: "Code gets reverse engineered anyway. Put it out there."
-    from: "what's going to be your hot takes"
-    to: "I would definitely vouch for open source."
+    hook: "I would definitely vouch for open source."
+    key: "vouch for open source"
+    parts:  # Hang's reasoning. Shengkun's PRs story (836.8 to 856.5) made it 56s: over the 45s limit
+      - {from: "you guys probably using something", to: "much better than a closed source version,"}
   - id: pmf-easy-to-copy
     speaker: Shengkun Ye
     anchor: "AI makes anything easy to copy. Pick what finds you PMF."
     from: "Yeah, especially right now, because of the AI agents"
     to: "aligned with the Hang's idea on it."
+    rejected: generic advice, nothing to disagree with
   - id: pmf-compute-exception
     speaker: Yonas Beshawred
     anchor: "The exception is compute: people pay for servers"
     from: "Yeah, well, I think I agree as well."
     to: "something that you want to pay for generally"
+    rejected: the take needs the host's question to make sense

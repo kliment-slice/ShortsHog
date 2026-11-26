@@ -8,62 +8,37 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:01:08.03,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
-Dialogue: 2,0:00:00.20,0:01:08.03,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Agents triage every
-Dialogue: 2,0:00:00.20,0:01:08.03,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}incoming PR and issue for
-Dialogue: 2,0:00:00.20,0:01:08.03,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}security”
-Dialogue: 0,0:00:00.10,0:00:00.45,Caption,,0,0,0,,Yesterday
-Dialogue: 0,0:00:00.30,0:00:01.48,Caption,,0,0,0,,we did a launch for our
-Dialogue: 0,0:00:01.48,0:00:02.30,Caption,,0,0,0,,open source project
-Dialogue: 0,0:00:02.30,0:00:03.92,Caption,,0,0,0,,Beacon, and we got like
-Dialogue: 0,0:00:03.92,0:00:05.68,Caption,,0,0,0,,an influx of dozens and
-Dialogue: 0,0:00:05.68,0:00:06.92,Caption,,0,0,0,,dozens of PRs and
-Dialogue: 0,0:00:06.92,0:00:08.63,Caption,,0,0,0,,issues. For what it's
-Dialogue: 0,0:00:08.63,0:00:09.67,Caption,,0,0,0,,worth, like our own for
-Dialogue: 0,0:00:09.67,0:00:10.49,Caption,,0,0,0,,our own setup
-Dialogue: 0,0:00:10.49,0:00:12.46,Caption,,0,0,0,,we have infrastructure.
-Dialogue: 0,0:00:12.57,0:00:14.49,Caption,,0,0,0,,to basically just get
-Dialogue: 0,0:00:14.49,0:00:15.77,Caption,,0,0,0,,webhooks anytime someone
-Dialogue: 0,0:00:15.77,0:00:17.49,Caption,,0,0,0,,files an issue or a PR.
-Dialogue: 0,0:00:17.49,0:00:19.93,Caption,,0,0,0,,And we have a security
-Dialogue: 0,0:00:19.93,0:00:21.77,Caption,,0,0,0,,agent and kind of like a
-Dialogue: 0,0:00:21.77,0:00:23.84,Caption,,0,0,0,,code verification agent
-Dialogue: 0,0:00:23.84,0:00:24.70,Caption,,0,0,0,,try to put out like a
-Dialogue: 0,0:00:24.70,0:00:26.20,Caption,,0,0,0,,remediation for the
-Dialogue: 0,0:00:26.20,0:00:27.98,Caption,,0,0,0,,issue, try to do like a
-Dialogue: 0,0:00:27.98,0:00:28.98,Caption,,0,0,0,,security stress test on
-Dialogue: 0,0:00:28.98,0:00:31.22,Caption,,0,0,0,,the PR content.
-Dialogue: 0,0:00:31.22,0:00:32.60,Caption,,0,0,0,,And then also look at
-Dialogue: 0,0:00:32.60,0:00:33.96,Caption,,0,0,0,,the author of the issue
-Dialogue: 0,0:00:33.96,0:00:35.72,Caption,,0,0,0,,or the PR to understand
-Dialogue: 0,0:00:35.72,0:00:36.70,Caption,,0,0,0,,trustworthiness.
-Dialogue: 0,0:00:36.78,0:00:38.02,Caption,,0,0,0,,A lot of the original
-Dialogue: 0,0:00:38.02,0:00:38.96,Caption,,0,0,0,,external contributors
-Dialogue: 0,0:00:38.96,0:00:40.20,Caption,,0,0,0,,outside of the founding
-Dialogue: 0,0:00:40.20,0:00:41.71,Caption,,0,0,0,,team of Asymptote were
-Dialogue: 0,0:00:41.71,0:00:43.21,Caption,,0,0,0,,people we knew through
-Dialogue: 0,0:00:43.21,0:00:44.39,Caption,,0,0,0,,our Discord community
-Dialogue: 0,0:00:44.55,0:00:45.57,Caption,,0,0,0,,but now just completely
-Dialogue: 0,0:00:45.57,0:00:46.09,Caption,,0,0,0,,random people
-Dialogue: 0,0:00:46.09,0:00:47.05,Caption,,0,0,0,,and some of them are
-Dialogue: 0,0:00:47.05,0:00:48.44,Caption,,0,0,0,,super prolific open
-Dialogue: 0,0:00:48.44,0:00:49.54,Caption,,0,0,0,,source contributors.
-Dialogue: 0,0:00:49.54,0:00:50.76,Caption,,0,0,0,,Some of them have no
-Dialogue: 0,0:00:50.76,0:00:52.01,Caption,,0,0,0,,contributions.
-Dialogue: 0,0:00:52.14,0:00:53.08,Caption,,0,0,0,,Some of them put out
-Dialogue: 0,0:00:53.08,0:00:54.14,Caption,,0,0,0,,slop and it's like very
-Dialogue: 0,0:00:54.14,0:00:55.16,Caption,,0,0,0,,subtle fixes that like
-Dialogue: 0,0:00:55.16,0:00:56.22,Caption,,0,0,0,,don't really do anything
-Dialogue: 0,0:00:56.22,0:00:57.86,Caption,,0,0,0,,for the project.
-Dialogue: 0,0:00:57.86,0:00:58.48,Caption,,0,0,0,,But some of them are
-Dialogue: 0,0:00:58.48,0:00:59.40,Caption,,0,0,0,,like real gaps.
-Dialogue: 0,0:00:59.40,0:01:00.88,Caption,,0,0,0,,And so we're trying to
-Dialogue: 0,0:01:00.88,0:01:02.58,Caption,,0,0,0,,build systems to like
-Dialogue: 0,0:01:02.58,0:01:03.68,Caption,,0,0,0,,really automatically
-Dialogue: 0,0:01:03.68,0:01:05.69,Caption,,0,0,0,,determine like what are
-Dialogue: 0,0:01:05.69,0:01:07.37,Caption,,0,0,0,,meaningful issues or
-Dialogue: 0,0:01:07.37,0:01:08.03,Caption,,0,0,0,,PRs.
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Agents triage every
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}incoming PR and issue
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}for security”
+Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,0,,Yesterday
+Dialogue: 0,0:00:00.20,0:00:01.38,Caption,,0,0,0,,we did a launch for our
+Dialogue: 0,0:00:01.38,0:00:02.20,Caption,,0,0,0,,open source project
+Dialogue: 0,0:00:02.20,0:00:03.82,Caption,,0,0,0,,Beacon, and we got like
+Dialogue: 0,0:00:03.82,0:00:05.58,Caption,,0,0,0,,an influx of dozens and
+Dialogue: 0,0:00:05.58,0:00:06.82,Caption,,0,0,0,,dozens of PRs and
+Dialogue: 0,0:00:06.82,0:00:07.48,Caption,,0,0,0,,issues.
+Dialogue: 0,0:00:07.48,0:00:09.69,Caption,,0,0,0,,And we have a security
+Dialogue: 0,0:00:09.69,0:00:11.53,Caption,,0,0,0,,agent and kind of like a
+Dialogue: 0,0:00:11.53,0:00:13.63,Caption,,0,0,0,,code verification agent
+Dialogue: 0,0:00:13.63,0:00:14.49,Caption,,0,0,0,,try to put out like a
+Dialogue: 0,0:00:14.49,0:00:15.99,Caption,,0,0,0,,remediation for the
+Dialogue: 0,0:00:15.99,0:00:17.77,Caption,,0,0,0,,issue, try to do like a
+Dialogue: 0,0:00:17.77,0:00:18.77,Caption,,0,0,0,,security stress test on
+Dialogue: 0,0:00:18.77,0:00:21.01,Caption,,0,0,0,,the PR content.
+Dialogue: 0,0:00:21.01,0:00:21.98,Caption,,0,0,0,,And then also look at
+Dialogue: 0,0:00:21.98,0:00:23.34,Caption,,0,0,0,,the author of the issue
+Dialogue: 0,0:00:23.34,0:00:25.10,Caption,,0,0,0,,or the PR to understand
+Dialogue: 0,0:00:25.10,0:00:26.08,Caption,,0,0,0,,trustworthiness.
+Dialogue: 0,0:00:26.18,0:00:27.66,Caption,,0,0,0,,And so we're trying to
+Dialogue: 0,0:00:27.66,0:00:29.36,Caption,,0,0,0,,build systems to like
+Dialogue: 0,0:00:29.36,0:00:30.46,Caption,,0,0,0,,really automatically
+Dialogue: 0,0:00:30.46,0:00:32.21,Caption,,0,0,0,,determine like what are
+Dialogue: 0,0:00:32.21,0:00:33.89,Caption,,0,0,0,,meaningful issues or
+Dialogue: 0,0:00:33.89,0:00:34.48,Caption,,0,0,0,,PRs.

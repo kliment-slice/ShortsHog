@@ -1,0 +1,74 @@
+# Building the AI-Native Finance Org (Chargebee webinar, 2026-11-18). Panel time = the recording's own clock.
+cuts: []
+
+# 9:16 tile shorts of Matt Ghering (scripts/tileshort.py, FORMAT.md "## Tile short").
+# headline / key / color are on-screen text; everything else is transcript text.
+tile_shorts:
+- id: matt-monthly-close
+  speaker: Matt Ghering
+  target: "0:30"
+  headline: "Closing the books faster than monthly is more noise than signal"
+  key: "more noise than signal"
+  color: lemon
+  parts:
+  - {from: "we're not to continuous close", to: "I don't think we feel comfortable with autonomous close."}
+  - {from: "Our close is still a monthly process", to: "more noise than use for us."}
+
+- id: matt-one-person-close
+  speaker: Matt Ghering
+  target: "0:35"
+  headline: "AI preps the close, humans review it. One accountant runs the whole thing"
+  key: "One accountant runs the whole thing"
+  color: blue
+  parts:  # the restart "we do use, uh," between them is cut
+  - {from: "That said,", to: "That said,"}
+  - {from: "we do use AI to make that close process", to: "accuracy than necessarily speed."}
+
+- id: matt-constrain-the-ai
+  speaker: Matt Ghering
+  target: "0:55"
+  headline: "Don't let AI improvise. Constrain it and flag every exception to a human"
+  key: "Constrain it and flag every exception to a human"
+  color: tangerine
+  from: "We keep a human in the loop for all of these things."
+  to: "you're verifying the process"
+
+- id: matt-never-make-stuff-up
+  speaker: Matt Ghering
+  target: "0:34"
+  headline: "The rule above every finance agent: never make stuff up"
+  key: "never make stuff up"
+  color: coral
+  from: "It has a semantic layer that then tells it"
+  to: "we'll figure it out together."
+  skip: ["it basically said the instruction or", "And so there is a very like... like articulated process at a many different levels."]
+
+- id: matt-free-tier-costs
+  speaker: Matt Ghering
+  target: "0:36"
+  headline: "AI breaks the free tier: every token costs real money"
+  key: "every token costs real money"
+  color: teal
+  from: "the complexity out of our AI products"
+  to: "that free tier costs you real money"
+
+- id: matt-hire-for-adventure
+  speaker: Matt Ghering
+  target: "1:13"
+  headline: "Hire people who are up for adventure and have taste"
+  key: "up for adventure and have taste"
+  color: violet
+  parts:  # the restarts "is, um, has," and "And you can't." between the parts are cut
+  - {from: "I want someone who", to: "I want someone who"}
+  - {from: "is basically", to: "AI is confidently wrong half the time."}
+  - {from: "I think a lot of people think that means", to: "the ideal role that you're looking for."}
+  skip: ["trying"]
+
+- id: matt-cfo-on-steroids
+  speaker: Matt Ghering
+  target: "0:18"
+  headline: "AI puts the CFO role on steroids"
+  key: "on steroids"
+  color: green
+  from: "the role has for a long time"
+  to: "structured and controlled way."

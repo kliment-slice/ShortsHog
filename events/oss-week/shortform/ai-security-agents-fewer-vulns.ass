@@ -8,49 +8,46 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:00:45.51,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tom Piccirello (PostHog)
-Dialogue: 2,0:00:00.20,0:00:45.51,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Agents will ship fewer
-Dialogue: 2,0:00:00.20,0:00:45.51,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}vulnerabilities than humans
-Dialogue: 2,0:00:00.20,0:00:45.51,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}ever did”
-Dialogue: 0,0:00:00.00,0:00:00.86,Caption,,0,0,0,,so this is an area where
-Dialogue: 0,0:00:00.86,0:00:02.44,Caption,,0,0,0,,I'm actually extremely
-Dialogue: 0,0:00:02.44,0:00:03.22,Caption,,0,0,0,,which maybe is let's
-Dialogue: 0,0:00:03.22,0:00:05.25,Caption,,0,0,0,,take an optimistic tone
-Dialogue: 0,0:00:05.36,0:00:07.00,Caption,,0,0,0,,agents will be writing
-Dialogue: 0,0:00:07.00,0:00:08.88,Caption,,0,0,0,,all code and maybe many
-Dialogue: 0,0:00:08.88,0:00:09.64,Caption,,0,0,0,,of your companies they
-Dialogue: 0,0:00:09.64,0:00:10.82,Caption,,0,0,0,,are already writing all
-Dialogue: 0,0:00:10.82,0:00:12.58,Caption,,0,0,0,,code agents are
-Dialogue: 0,0:00:12.58,0:00:13.72,Caption,,0,0,0,,incredible at finding
-Dialogue: 0,0:00:13.72,0:00:14.89,Caption,,0,0,0,,vulnerabilities but I
-Dialogue: 0,0:00:14.89,0:00:15.63,Caption,,0,0,0,,also fundamentally
-Dialogue: 0,0:00:15.63,0:00:16.27,Caption,,0,0,0,,believe they will get
-Dialogue: 0,0:00:16.27,0:00:18.10,Caption,,0,0,0,,better and better at not
-Dialogue: 0,0:00:18.15,0:00:19.41,Caption,,0,0,0,,writing vulnerabilities
-Dialogue: 0,0:00:19.41,0:00:19.95,Caption,,0,0,0,,and you need to give
-Dialogue: 0,0:00:19.95,0:00:20.79,Caption,,0,0,0,,them enough context and
-Dialogue: 0,0:00:20.79,0:00:21.73,Caption,,0,0,0,,a good test harness to
-Dialogue: 0,0:00:21.73,0:00:23.84,Caption,,0,0,0,,not do that but to me
-Dialogue: 0,0:00:23.84,0:00:24.42,Caption,,0,0,0,,the light at the end of
-Dialogue: 0,0:00:24.42,0:00:25.70,Caption,,0,0,0,,the tunnel is agents
-Dialogue: 0,0:00:25.70,0:00:26.52,Caption,,0,0,0,,write all the code and
-Dialogue: 0,0:00:26.52,0:00:27.74,Caption,,0,0,0,,they are shipping fewer
-Dialogue: 0,0:00:27.74,0:00:28.36,Caption,,0,0,0,,vulnerabilities than
-Dialogue: 0,0:00:28.36,0:00:30.59,Caption,,0,0,0,,humans ever would have
-Dialogue: 0,0:00:30.76,0:00:31.54,Caption,,0,0,0,,and maybe it scales up
-Dialogue: 0,0:00:31.54,0:00:32.06,Caption,,0,0,0,,because they're also
-Dialogue: 0,0:00:32.06,0:00:33.30,Caption,,0,0,0,,shipping more code but
-Dialogue: 0,0:00:33.30,0:00:34.04,Caption,,0,0,0,,yeah I fundamentally
-Dialogue: 0,0:00:34.04,0:00:34.74,Caption,,0,0,0,,believe we can get to a
-Dialogue: 0,0:00:34.74,0:00:36.32,Caption,,0,0,0,,point where agents are
-Dialogue: 0,0:00:36.32,0:00:37.46,Caption,,0,0,0,,shipping fewer and fewer
-Dialogue: 0,0:00:37.64,0:00:38.74,Caption,,0,0,0,,vulnerabilities and so
-Dialogue: 0,0:00:38.74,0:00:39.76,Caption,,0,0,0,,that's exciting to me
-Dialogue: 0,0:00:39.76,0:00:40.81,Caption,,0,0,0,,because that just leads
-Dialogue: 0,0:00:40.81,0:00:41.95,Caption,,0,0,0,,to better more secure
-Dialogue: 0,0:00:41.95,0:00:44.20,Caption,,0,0,0,,code that reduces your
-Dialogue: 0,0:00:44.20,0:00:45.50,Caption,,0,0,0,,your risk from day one
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00DFB32B}Tom Piccirello (PostHog)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Agents will ship fewer
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}vulnerabilities than
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}humans ever did”
+Dialogue: 0,0:00:00.00,0:00:00.64,Caption,,0,0,0,,Maybe many of your
+Dialogue: 0,0:00:00.64,0:00:00.91,Caption,,0,0,0,,companies
+Dialogue: 0,0:00:00.91,0:00:01.17,Caption,,0,0,0,,agents
+Dialogue: 0,0:00:01.17,0:00:02.35,Caption,,0,0,0,,are already writing all
+Dialogue: 0,0:00:02.35,0:00:03.62,Caption,,0,0,0,,code agents are
+Dialogue: 0,0:00:03.62,0:00:04.76,Caption,,0,0,0,,incredible at finding
+Dialogue: 0,0:00:04.76,0:00:05.73,Caption,,0,0,0,,vulnerabilities but I
+Dialogue: 0,0:00:05.73,0:00:06.47,Caption,,0,0,0,,also fundamentally
+Dialogue: 0,0:00:06.47,0:00:07.11,Caption,,0,0,0,,believe they will get
+Dialogue: 0,0:00:07.11,0:00:08.55,Caption,,0,0,0,,better and better at not
+Dialogue: 0,0:00:08.60,0:00:09.86,Caption,,0,0,0,,writing vulnerabilities
+Dialogue: 0,0:00:09.86,0:00:10.40,Caption,,0,0,0,,and you need to give
+Dialogue: 0,0:00:10.40,0:00:11.24,Caption,,0,0,0,,them enough context and
+Dialogue: 0,0:00:11.24,0:00:12.18,Caption,,0,0,0,,a good test harness to
+Dialogue: 0,0:00:12.18,0:00:14.20,Caption,,0,0,0,,not do that but to me
+Dialogue: 0,0:00:14.20,0:00:14.78,Caption,,0,0,0,,the light at the end of
+Dialogue: 0,0:00:14.78,0:00:16.06,Caption,,0,0,0,,the tunnel is agents
+Dialogue: 0,0:00:16.06,0:00:16.88,Caption,,0,0,0,,write all the code and
+Dialogue: 0,0:00:16.88,0:00:18.10,Caption,,0,0,0,,they are shipping fewer
+Dialogue: 0,0:00:18.10,0:00:18.72,Caption,,0,0,0,,vulnerabilities than
+Dialogue: 0,0:00:18.72,0:00:20.50,Caption,,0,0,0,,humans ever would have
+Dialogue: 0,0:00:20.50,0:00:21.28,Caption,,0,0,0,,and maybe it scales up
+Dialogue: 0,0:00:21.28,0:00:21.80,Caption,,0,0,0,,because they're also
+Dialogue: 0,0:00:21.80,0:00:23.04,Caption,,0,0,0,,shipping more code but
+Dialogue: 0,0:00:23.04,0:00:23.78,Caption,,0,0,0,,yeah I fundamentally
+Dialogue: 0,0:00:23.78,0:00:24.48,Caption,,0,0,0,,believe we can get to a
+Dialogue: 0,0:00:24.48,0:00:26.06,Caption,,0,0,0,,point where agents are
+Dialogue: 0,0:00:26.06,0:00:27.20,Caption,,0,0,0,,shipping fewer and fewer
+Dialogue: 0,0:00:27.38,0:00:28.48,Caption,,0,0,0,,vulnerabilities and so
+Dialogue: 0,0:00:28.48,0:00:29.50,Caption,,0,0,0,,that's exciting to me
+Dialogue: 0,0:00:29.50,0:00:30.55,Caption,,0,0,0,,because that just leads
+Dialogue: 0,0:00:30.55,0:00:31.69,Caption,,0,0,0,,to better more secure
+Dialogue: 0,0:00:31.69,0:00:33.75,Caption,,0,0,0,,code that reduces your
+Dialogue: 0,0:00:33.75,0:00:34.81,Caption,,0,0,0,,risk from day one

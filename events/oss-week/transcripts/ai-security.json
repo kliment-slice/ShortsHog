@@ -11396,9 +11396,42 @@
   {
    "w": "thing.",
    "start": 659.45,
-   "end": 660.45,
+   "end": 660.08,
    "p": 0.899,
-   "speaker": "Matt Lenhard"
+   "speaker": "Matt Lenhard",
+   "note": "end trimmed to the restored word after it"
+  },
+  {
+   "w": " We,",
+   "start": 660.08,
+   "end": 660.64,
+   "p": 0.611,
+   "speaker": "Matt Lenhard",
+   "note": "first pass dropped it; second-pass time (fillers.json)"
+  },
+  {
+   "w": " you",
+   "start": 660.64,
+   "end": 660.69,
+   "p": 0.611,
+   "speaker": "Matt Lenhard",
+   "note": "first pass dropped it; second-pass time (fillers.json)"
+  },
+  {
+   "w": " know,",
+   "start": 660.68,
+   "end": 661.08,
+   "p": 0.611,
+   "speaker": "Matt Lenhard",
+   "note": "first pass dropped it; second-pass time (fillers.json)"
+  },
+  {
+   "w": " Everyone's",
+   "start": 661.08,
+   "end": 662.08,
+   "p": 0.611,
+   "speaker": "Matt Lenhard",
+   "note": "first pass dropped it; second-pass time (fillers.json)"
   },
   {
    "w": "starting",

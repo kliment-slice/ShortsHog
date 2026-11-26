@@ -8,60 +8,37 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00B3DA43}Matt Lenhard (Vectoral)
-Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“One attack: 100,000
-Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}requests from 4,000 accounts
-Dialogue: 2,0:00:00.20,0:01:16.24,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}in 100 milliseconds”
-Dialogue: 0,0:00:00.00,0:00:01.84,Caption,,0,0,0,,So for context
-Dialogue: 0,0:00:01.84,0:00:04.30,Caption,,0,0,0,,we stop like inference
-Dialogue: 0,0:00:04.30,0:00:06.08,Caption,,0,0,0,,abuse and like token
-Dialogue: 0,0:00:06.08,0:00:07.00,Caption,,0,0,0,,fraud. So everything
-Dialogue: 0,0:00:07.00,0:00:08.50,Caption,,0,0,0,,from like CSAM
-Dialogue: 0,0:00:08.50,0:00:09.75,Caption,,0,0,0,,distillation
-Dialogue: 0,0:00:09.84,0:00:10.68,Caption,,0,0,0,,cyber attacks being
-Dialogue: 0,0:00:10.68,0:00:13.36,Caption,,0,0,0,,proxied through AI
-Dialogue: 0,0:00:13.36,0:00:14.11,Caption,,0,0,0,,endpoints.
-Dialogue: 0,0:00:14.11,0:00:15.59,Caption,,0,0,0,,So we recently saw an
-Dialogue: 0,0:00:15.59,0:00:17.43,Caption,,0,0,0,,attack that was across
-Dialogue: 0,0:00:17.43,0:00:19.15,Caption,,0,0,0,,probably 3,000
-Dialogue: 0,0:00:19.15,0:00:21.40,Caption,,0,0,0,,4,000 accounts
-Dialogue: 0,0:00:21.43,0:00:23.69,Caption,,0,0,0,,100,000 requests all
-Dialogue: 0,0:00:23.69,0:00:26.35,Caption,,0,0,0,,within 100 milliseconds
-Dialogue: 0,0:00:26.35,0:00:27.99,Caption,,0,0,0,,and this person had been
-Dialogue: 0,0:00:27.99,0:00:28.51,Caption,,0,0,0,,sitting on these
-Dialogue: 0,0:00:28.51,0:00:29.31,Caption,,0,0,0,,accounts for a while.
-Dialogue: 0,0:00:29.31,0:00:30.93,Caption,,0,0,0,,Some were bought up from
-Dialogue: 0,0:00:30.93,0:00:32.51,Caption,,0,0,0,,the underground markets
-Dialogue: 0,0:00:32.51,0:00:33.37,Caption,,0,0,0,,some were probably spun
-Dialogue: 0,0:00:33.37,0:00:34.39,Caption,,0,0,0,,up from automation.
-Dialogue: 0,0:00:34.39,0:00:36.79,Caption,,0,0,0,,But it shows you...
-Dialogue: 0,0:00:36.79,0:00:38.09,Caption,,0,0,0,,I guess with the power
-Dialogue: 0,0:00:38.09,0:00:39.55,Caption,,0,0,0,,of AI, what's possible
-Dialogue: 0,0:00:39.55,0:00:41.07,Caption,,0,0,0,,where an attack can now
-Dialogue: 0,0:00:41.07,0:00:43.31,Caption,,0,0,0,,be, if they just want a
-Dialogue: 0,0:00:43.31,0:00:44.17,Caption,,0,0,0,,few things to slip
-Dialogue: 0,0:00:44.17,0:00:45.65,Caption,,0,0,0,,through, it might be a
-Dialogue: 0,0:00:45.65,0:00:46.97,Caption,,0,0,0,,million requests across
-Dialogue: 0,0:00:46.97,0:00:48.11,Caption,,0,0,0,,a large number of
-Dialogue: 0,0:00:48.11,0:00:50.40,Caption,,0,0,0,,accounts all at once.
-Dialogue: 0,0:00:50.51,0:00:52.64,Caption,,0,0,0,,We think of it really as
-Dialogue: 0,0:00:52.73,0:00:54.47,Caption,,0,0,0,,anomaly detection.
-Dialogue: 0,0:00:54.47,0:00:56.39,Caption,,0,0,0,,Can you, specifically in
-Dialogue: 0,0:00:56.39,0:00:57.89,Caption,,0,0,0,,terms of endpoint
-Dialogue: 0,0:00:57.89,0:00:58.65,Caption,,0,0,0,,security
-Dialogue: 0,0:00:58.65,0:01:00.11,Caption,,0,0,0,,can you detect
-Dialogue: 0,0:01:00.11,0:01:01.25,Caption,,0,0,0,,anomalies?
-Dialogue: 0,0:01:01.27,0:01:03.65,Caption,,0,0,0,,across a large number of
-Dialogue: 0,0:01:03.65,0:01:06.06,Caption,,0,0,0,,accounts extremely fast.
-Dialogue: 0,0:01:06.06,0:01:06.98,Caption,,0,0,0,,It's a hard problem
-Dialogue: 0,0:01:06.98,0:01:08.18,Caption,,0,0,0,,like how do you roll up
-Dialogue: 0,0:01:08.18,0:01:09.66,Caption,,0,0,0,,if you've got 100,000
-Dialogue: 0,0:01:09.66,0:01:10.60,Caption,,0,0,0,,requests coming in
-Dialogue: 0,0:01:10.60,0:01:11.32,Caption,,0,0,0,,how do you roll up
-Dialogue: 0,0:01:11.32,0:01:12.52,Caption,,0,0,0,,what's normal for those
-Dialogue: 0,0:01:12.52,0:01:15.08,Caption,,0,0,0,,accounts all at once in
-Dialogue: 0,0:01:15.08,0:01:16.24,Caption,,0,0,0,,milliseconds?
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“One attack: 100,000
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}requests from 4,000
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}accounts in 100
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,324)\fad(180,220)}milliseconds”
+Dialogue: 0,0:00:00.00,0:00:01.42,Caption,,0,0,0,,We recently saw an
+Dialogue: 0,0:00:01.42,0:00:03.26,Caption,,0,0,0,,attack that was across
+Dialogue: 0,0:00:03.26,0:00:04.98,Caption,,0,0,0,,probably 3,000
+Dialogue: 0,0:00:04.98,0:00:06.51,Caption,,0,0,0,,4,000 accounts
+Dialogue: 0,0:00:06.51,0:00:08.77,Caption,,0,0,0,,100,000 requests all
+Dialogue: 0,0:00:08.77,0:00:11.12,Caption,,0,0,0,,within 100 milliseconds
+Dialogue: 0,0:00:11.12,0:00:12.26,Caption,,0,0,0,,So for context
+Dialogue: 0,0:00:12.26,0:00:14.31,Caption,,0,0,0,,we stop like inference
+Dialogue: 0,0:00:14.31,0:00:16.09,Caption,,0,0,0,,abuse and like token
+Dialogue: 0,0:00:16.09,0:00:16.57,Caption,,0,0,0,,fraud.
+Dialogue: 0,0:00:16.57,0:00:18.21,Caption,,0,0,0,,And this person had been
+Dialogue: 0,0:00:18.21,0:00:18.73,Caption,,0,0,0,,sitting on these
+Dialogue: 0,0:00:18.73,0:00:19.60,Caption,,0,0,0,,accounts for a while.
+Dialogue: 0,0:00:19.60,0:00:20.83,Caption,,0,0,0,,Some were bought up from
+Dialogue: 0,0:00:20.83,0:00:22.41,Caption,,0,0,0,,the underground markets
+Dialogue: 0,0:00:22.41,0:00:23.27,Caption,,0,0,0,,some were probably spun
+Dialogue: 0,0:00:23.27,0:00:24.31,Caption,,0,0,0,,up from automation.
+Dialogue: 0,0:00:24.41,0:00:26.62,Caption,,0,0,0,,An attack can now be
+Dialogue: 0,0:00:26.71,0:00:27.91,Caption,,0,0,0,,if they just want a few
+Dialogue: 0,0:00:27.91,0:00:28.65,Caption,,0,0,0,,things to slip through
+Dialogue: 0,0:00:28.65,0:00:30.45,Caption,,0,0,0,,it might be a million
+Dialogue: 0,0:00:30.45,0:00:31.91,Caption,,0,0,0,,requests across a large
+Dialogue: 0,0:00:31.91,0:00:33.15,Caption,,0,0,0,,number of accounts all
+Dialogue: 0,0:00:33.15,0:00:34.05,Caption,,0,0,0,,at once.

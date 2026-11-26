@@ -5,6 +5,7 @@ name: Open Source Week SF  # shown on title cards
 date: 2026-10-21
 content: content/OSS_WEEK          # raw footage folder, relative to the repo root
 fps:             # output fps for renders and Resolve timelines; default 23.976
+caption_highlight: lemon   # the word being said in the shorts' captions (FORMAT.md "## Short form")
 
 # Every camera and mic on the shared timeline. Paths are relative to `content`.
 # `align.py sync` fills start (timeline second of the file's t=0), duration, sync_peak.
@@ -112,6 +113,14 @@ panels:
   mic_speakers: {}
   start: 80                        # 1:20
   end: 1655                        # 27:35
+  audience:  # b-roll filmed during this panel (clip creation times on cam1's clock), steady stretches of the
+             # room listening; shortform.py cuts them in. x = crop centre (fraction of the width)
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 4.MP4", in: 33.2, x: 0.5}    # attentive faces, close
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 6.MP4", in: 0.2, x: 0.3}     # listeners side on
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 4.MP4", in: 18.5, x: 0.5}    # the GTM slide over the room and panel
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 1.MP4", in: 6.8, x: 0.68}    # the GTM slide, the panel (crop keeps out a phone)
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 4.MP4", in: 11.8, x: 0.42}   # the room from the side
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 6.MP4", in: 3.2, x: 0.55}    # the back rows
 - id: ai-security
   title: "Open Source in AI and Cybersecurity"
   granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"

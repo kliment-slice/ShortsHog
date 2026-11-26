@@ -1,5 +1,105 @@
 {
  "edit": "19.0 -> 17.2 min (106s cut in 84 places, 3 editorial cuts = 23s), 34 ums muted (9s)",
+ "cold_open_seconds": 0.0,
+ "panel_starts": 1.5,
+ "cold_open": null,
+ "anchors": [
+  [
+   61.11,
+   65.15,
+   "Yonas Beshawred"
+  ],
+  [
+   88.91,
+   103.91,
+   "Hang Huang"
+  ],
+  [
+   120.76,
+   123.5,
+   "Shengkun Ye"
+  ],
+  [
+   188.1,
+   193.83,
+   "Shengkun Ye"
+  ],
+  [
+   271.42,
+   286.42,
+   "Hang Huang"
+  ],
+  [
+   332.17,
+   334.3,
+   "Yonas Beshawred"
+  ],
+  [
+   384.5,
+   394.47,
+   "Hang Huang"
+  ],
+  [
+   454.23,
+   458.58,
+   "Yonas Beshawred"
+  ],
+  [
+   513.84,
+   520.79,
+   "Shengkun Ye"
+  ],
+  [
+   541.51,
+   554.44,
+   "Hang Huang"
+  ],
+  [
+   576.43,
+   583.21,
+   "Yonas Beshawred"
+  ],
+  [
+   647.53,
+   662.53,
+   "Hang Huang"
+  ],
+  [
+   745.17,
+   752.44,
+   "Shengkun Ye"
+  ],
+  [
+   798.37,
+   803.53,
+   "Shengkun Ye"
+  ],
+  [
+   844.6,
+   859.6,
+   "Hang Huang"
+  ],
+  [
+   889.7,
+   897.79,
+   "Yonas Beshawred"
+  ],
+  [
+   931.71,
+   946.71,
+   "Hang Huang"
+  ],
+  [
+   979.36,
+   983.03,
+   "Shengkun Ye"
+  ],
+  [
+   1002.42,
+   1011.83,
+   "Yonas Beshawred"
+  ]
+ ],
  "shots": [
   {
    "kind": "title",
@@ -7,23 +107,23 @@
    "person": null,
    "speaker": null,
    "t0": 0.0,
-   "t1": 2.8
+   "t1": 1.5
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 2.8,
-   "t1": 10.74
+   "t0": 1.5,
+   "t1": 12.18
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 10.74,
-   "t1": 14.2,
+   "t0": 12.18,
+   "t1": 22.74,
    "flip": true
   },
   {
@@ -31,2159 +131,1208 @@
    "cam": "cam2",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 14.2,
-   "t1": 16.4
+   "t0": 22.74,
+   "t1": 24.14,
+   "cutaway": true
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 16.4,
-   "t1": 21.24
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 21.24,
-   "t1": 23.439999999999998
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 23.439999999999998,
-   "t1": 35.92
+   "t0": 24.14,
+   "t1": 40.54
   },
   {
    "kind": "group",
    "cam": "cam2",
    "person": null,
    "speaker": "Konstantine Gugunava",
-   "t0": 35.92,
-   "t1": 37.52
+   "t0": 40.54,
+   "t1": 41.94,
+   "cutaway": true
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Konstantine Gugunava",
-   "t0": 37.52,
-   "t1": 42.26
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Konstantine Gugunava",
-   "t0": 42.26,
-   "t1": 45.545
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Konstantine Gugunava",
-   "t0": 45.545,
-   "t1": 51.045
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Konstantine Gugunava",
-   "t0": 51.045,
-   "t1": 52.645
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Konstantine Gugunava",
-   "t0": 52.645,
-   "t1": 55.03
+   "t0": 41.94,
+   "t1": 56.98
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 55.03,
-   "t1": 59.71
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 59.71,
-   "t1": 61.910000000000004
+   "t0": 56.98,
+   "t1": 61.11
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 61.910000000000004,
-   "t1": 67.41
+   "t0": 61.11,
+   "t1": 65.15,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Yonas Beshawred",
-   "t0": 67.41,
-   "t1": 69.00999999999999
+   "t0": 65.15,
+   "t1": 66.55,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 69.00999999999999,
-   "t1": 74.89
+   "t0": 66.55,
+   "t1": 80.09
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Yonas Beshawred",
-   "t0": 74.89,
-   "t1": 77.09
+   "t0": 80.09,
+   "t1": 82.09,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 77.09,
-   "t1": 82.86
+   "t0": 82.09,
+   "t1": 84.81
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 82.86,
-   "t1": 87.46
+   "t0": 84.81,
+   "t1": 88.91
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 88.91,
+   "t1": 113.14,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Hang Huang",
-   "t0": 87.46,
-   "t1": 89.78
+   "t0": 113.14,
+   "t1": 114.54,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 89.78,
-   "t1": 94.78
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 94.78,
-   "t1": 96.98
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 96.98,
-   "t1": 102.48
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 102.48,
-   "t1": 104.08
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 104.08,
-   "t1": 109.58
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 109.58,
-   "t1": 111.59
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 111.59,
-   "t1": 115.13
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 115.13,
-   "t1": 119.21
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 119.21,
-   "t1": 120.63,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 120.63,
-   "t1": 122.22999999999999
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 122.22999999999999,
-   "t1": 127.72999999999999
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 127.72999999999999,
-   "t1": 129.92999999999998
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 129.92999999999998,
-   "t1": 134.87
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 134.87,
-   "t1": 136.99
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 136.99,
-   "t1": 142.49
+   "t0": 114.54,
+   "t1": 117.08
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Shengkun Ye",
-   "t0": 142.49,
-   "t1": 144.69
+   "t0": 117.08,
+   "t1": 119.08,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 144.69,
-   "t1": 147.01999999999998
+   "t0": 119.08,
+   "t1": 120.76
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 147.01999999999998,
-   "t1": 152.51999999999998
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 120.76,
+   "t1": 123.5,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 152.51999999999998,
-   "t1": 154.09
+   "speaker": "Shengkun Ye",
+   "t0": 123.5,
+   "t1": 124.9,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 124.9,
+   "t1": 136.42
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Shengkun Ye",
+   "t0": 136.42,
+   "t1": 138.42,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 138.42,
+   "t1": 146.67
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 146.67,
+   "t1": 148.97,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 154.09,
-   "t1": 162.35999999999999
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 162.35999999999999,
-   "t1": 167.85999999999999
+   "t0": 148.97,
+   "t1": 164.31
   },
   {
    "kind": "group",
    "cam": "cam2",
    "person": null,
    "speaker": "Konstantine Gugunava",
-   "t0": 167.85999999999999,
-   "t1": 169.985
+   "t0": 164.31,
+   "t1": 166.31,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Konstantine Gugunava",
-   "t0": 169.985,
-   "t1": 175.485
+   "t0": 166.31,
+   "t1": 188.1
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 188.1,
+   "t1": 193.83
   },
   {
    "kind": "react",
    "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Konstantine Gugunava",
-   "t0": 175.485,
-   "t1": 177.085
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
    "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 177.085,
-   "t1": 186.15
+   "speaker": "Shengkun Ye",
+   "t0": 193.83,
+   "t1": 195.23,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 186.15,
-   "t1": 188.67
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 188.67,
-   "t1": 192.305,
-   "flip": true
+   "t0": 195.23,
+   "t1": 227.91
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Shengkun Ye",
-   "t0": 192.305,
-   "t1": 194.505
+   "t0": 227.91,
+   "t1": 229.91,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 194.505,
-   "t1": 200.005
+   "t0": 229.91,
+   "t1": 242.46
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Shengkun Ye",
-   "t0": 200.005,
-   "t1": 201.605
+   "t0": 242.46,
+   "t1": 243.86,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 201.605,
-   "t1": 207.105
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 207.105,
-   "t1": 209.30499999999998
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 209.30499999999998,
-   "t1": 214.80499999999998
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 214.80499999999998,
-   "t1": 216.40499999999997
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 216.40499999999997,
-   "t1": 221.90499999999997
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 221.90499999999997,
-   "t1": 224.10499999999996
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 224.10499999999996,
-   "t1": 229.60499999999996
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 229.60499999999996,
-   "t1": 232.385
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 232.385,
-   "t1": 237.885
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 237.885,
-   "t1": 240.955
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 240.955,
-   "t1": 246.455
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 246.455,
-   "t1": 248.055
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 248.055,
-   "t1": 251.68
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 251.68,
-   "t1": 257.18
+   "t0": 243.86,
+   "t1": 253.63
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Hang Huang",
-   "t0": 257.18,
-   "t1": 259.38
+   "t0": 253.63,
+   "t1": 255.63,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 259.38,
-   "t1": 265.86
+   "t0": 255.63,
+   "t1": 267.41
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Hang Huang",
-   "t0": 265.86,
-   "t1": 267.46000000000004
+   "t0": 267.41,
+   "t1": 268.81,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 267.46000000000004,
-   "t1": 272.22
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 272.22,
-   "t1": 274.42
+   "t0": 268.81,
+   "t1": 271.42
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 274.42,
-   "t1": 279.92
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 279.92,
-   "t1": 281.52000000000004
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 281.52000000000004,
-   "t1": 287.02000000000004
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 287.02000000000004,
-   "t1": 289.22
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 289.22,
-   "t1": 292.20000000000005
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 292.20000000000005,
-   "t1": 297.70000000000005
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 297.70000000000005,
-   "t1": 298.97
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 298.97,
-   "t1": 304.47
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 304.47,
-   "t1": 306.67
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 306.67,
-   "t1": 312.17
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 312.17,
-   "t1": 313.77000000000004
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 313.77000000000004,
-   "t1": 318.38
+   "t0": 271.42,
+   "t1": 294.15,
+   "flip": false
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Yonas Beshawred",
-   "t0": 318.38,
-   "t1": 321.26
+   "t0": 294.15,
+   "t1": 296.15,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 321.26,
-   "t1": 327.75
+   "t0": 296.15,
+   "t1": 324.47
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Yonas Beshawred",
-   "t0": 327.75,
-   "t1": 330.5
+   "t0": 324.47,
+   "t1": 325.87,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 330.5,
-   "t1": 335.84
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 335.84,
-   "t1": 338.03999999999996
+   "t0": 325.87,
+   "t1": 332.17
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 338.03999999999996,
-   "t1": 343.405
+   "t0": 332.17,
+   "t1": 334.3,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Yonas Beshawred",
-   "t0": 343.405,
-   "t1": 345.005
+   "t0": 334.3,
+   "t1": 335.7,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 345.005,
-   "t1": 348.0
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 348.0,
-   "t1": 353.5
+   "t0": 335.7,
+   "t1": 349.95
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Konstantine Gugunava",
-   "t0": 353.5,
-   "t1": 355.7
+   "t0": 349.95,
+   "t1": 351.95,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Konstantine Gugunava",
-   "t0": 355.7,
-   "t1": 361.88
+   "t0": 351.95,
+   "t1": 363.43
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Konstantine Gugunava",
-   "t0": 361.88,
-   "t1": 363.48
+   "t0": 363.43,
+   "t1": 364.83,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Konstantine Gugunava",
-   "t0": 363.48,
-   "t1": 368.77
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Konstantine Gugunava",
-   "t0": 368.77,
-   "t1": 371.08
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 371.08,
-   "t1": 379.21000000000004
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 379.21000000000004,
-   "t1": 384.15
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 384.15,
-   "t1": 385.75
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 385.75,
-   "t1": 391.25
+   "t0": 364.83,
+   "t1": 381.16
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Hang Huang",
-   "t0": 391.25,
-   "t1": 393.45
+   "t0": 381.16,
+   "t1": 383.16,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 393.45,
-   "t1": 399.55
+   "t0": 383.16,
+   "t1": 384.5
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 384.5,
+   "t1": 394.47,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Hang Huang",
-   "t0": 399.55,
-   "t1": 401.15000000000003
+   "t0": 394.47,
+   "t1": 395.87,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 401.15000000000003,
-   "t1": 406.65000000000003
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 406.65000000000003,
-   "t1": 408.85
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 408.85,
-   "t1": 414.265
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 414.265,
-   "t1": 415.865
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 415.865,
-   "t1": 421.365
+   "t0": 395.87,
+   "t1": 405.53
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Hang Huang",
-   "t0": 421.365,
-   "t1": 423.565
+   "t0": 405.53,
+   "t1": 407.53,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 423.565,
-   "t1": 429.065
+   "t0": 407.53,
+   "t1": 425.48
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Hang Huang",
-   "t0": 429.065,
-   "t1": 430.665
+   "t0": 425.48,
+   "t1": 426.88,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 430.665,
-   "t1": 436.165
+   "t0": 426.88,
+   "t1": 443.25
   },
   {
-   "kind": "group",
-   "cam": "cam2",
+   "kind": "wide",
+   "cam": "cam1",
    "person": null,
    "speaker": "Hang Huang",
-   "t0": 436.165,
-   "t1": 438.97
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 438.97,
-   "t1": 444.77000000000004
+   "t0": 443.25,
+   "t1": 446.72,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 444.77000000000004,
-   "t1": 450.27000000000004
+   "t0": 446.72,
+   "t1": 454.23
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 454.23,
+   "t1": 458.58,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Yonas Beshawred",
-   "t0": 450.27000000000004,
-   "t1": 452.79
+   "t0": 458.58,
+   "t1": 459.98,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 452.79,
-   "t1": 458.29
+   "t0": 459.98,
+   "t1": 497.49
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Yonas Beshawred",
-   "t0": 458.29,
-   "t1": 461.63
+   "t0": 497.49,
+   "t1": 499.49,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 461.63,
-   "t1": 467.13
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 467.13,
-   "t1": 468.73
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 468.73,
-   "t1": 474.23
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 474.23,
-   "t1": 476.43
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 476.43,
-   "t1": 481.93
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 481.93,
-   "t1": 483.53000000000003
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 483.53000000000003,
-   "t1": 489.03000000000003
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 489.03000000000003,
-   "t1": 491.23
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 491.23,
-   "t1": 496.73
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 496.73,
-   "t1": 499.1
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 499.1,
-   "t1": 507.44
+   "t0": 499.49,
+   "t1": 509.39
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 507.44,
-   "t1": 512.29
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 512.29,
-   "t1": 514.49
+   "t0": 509.39,
+   "t1": 513.84
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 514.49,
-   "t1": 519.24
+   "t0": 513.84,
+   "t1": 520.79,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Shengkun Ye",
-   "t0": 519.24,
-   "t1": 520.84
+   "t0": 520.79,
+   "t1": 522.19,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 520.84,
-   "t1": 526.34
+   "t0": 522.19,
+   "t1": 538.92
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Shengkun Ye",
-   "t0": 526.34,
-   "t1": 527.565
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 527.565,
-   "t1": 533.065
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 533.065,
-   "t1": 534.6650000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 534.6650000000001,
-   "t1": 539.5600000000001
+   "t0": 538.92,
+   "t1": 541.51,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 539.5600000000001,
-   "t1": 546.07
+   "t0": 541.51,
+   "t1": 554.44
   },
   {
-   "kind": "group",
+   "kind": "react",
    "cam": "cam2",
-   "person": null,
+   "person": "Konstantine Gugunava",
    "speaker": "Hang Huang",
-   "t0": 546.07,
-   "t1": 549.31
+   "t0": 554.44,
+   "t1": 555.84,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Hang Huang",
    "speaker": "Hang Huang",
-   "t0": 549.31,
-   "t1": 557.83
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 557.83,
-   "t1": 563.33
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Konstantine Gugunava",
-   "t0": 563.33,
-   "t1": 564.87
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 564.87,
-   "t1": 570.37
+   "t0": 555.84,
+   "t1": 559.78
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Konstantine Gugunava",
-   "t0": 570.37,
-   "t1": 572.57
+   "t0": 559.78,
+   "t1": 561.78,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Konstantine Gugunava",
-   "t0": 572.57,
-   "t1": 574.48
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 574.48,
-   "t1": 575.48
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 575.48,
-   "t1": 579.98,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 579.98,
-   "t1": 581.58
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 581.58,
-   "t1": 587.08
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 587.08,
-   "t1": 589.2800000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 589.2800000000001,
-   "t1": 594.23
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 594.23,
-   "t1": 595.83
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 595.83,
-   "t1": 600.685
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 600.685,
-   "t1": 604.02
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 604.02,
-   "t1": 609.52
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 609.52,
-   "t1": 611.12
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 611.12,
-   "t1": 616.62
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 616.62,
-   "t1": 618.82
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 618.82,
-   "t1": 624.32
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 624.32,
-   "t1": 625.9200000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 625.9200000000001,
-   "t1": 635.0400000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 635.0400000000001,
-   "t1": 640.5400000000001
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 640.5400000000001,
-   "t1": 642.345
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 642.345,
-   "t1": 645.98
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 645.98,
-   "t1": 647.845,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 647.845,
-   "t1": 649.445
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 649.445,
-   "t1": 655.15
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 655.15,
-   "t1": 657.35
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 657.35,
-   "t1": 662.85
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 662.85,
-   "t1": 665.255
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 665.255,
-   "t1": 670.755
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 670.755,
-   "t1": 672.955
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 672.955,
-   "t1": 678.455
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 678.455,
-   "t1": 680.0550000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 680.0550000000001,
-   "t1": 685.5550000000001
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 685.5550000000001,
-   "t1": 687.7550000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 687.7550000000001,
-   "t1": 692.8000000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 692.8000000000001,
-   "t1": 698.3000000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 698.3000000000001,
-   "t1": 699.9000000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 699.9000000000001,
-   "t1": 705.4000000000001
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 705.4000000000001,
-   "t1": 707.6000000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 707.6000000000001,
-   "t1": 712.53
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 712.53,
-   "t1": 714.13
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 714.13,
-   "t1": 719.63
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 719.63,
-   "t1": 721.83
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 721.83,
-   "t1": 727.33
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 727.33,
-   "t1": 728.9300000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 728.9300000000001,
-   "t1": 734.4300000000001
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 734.4300000000001,
-   "t1": 736.6300000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 736.6300000000001,
-   "t1": 742.1300000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 742.1300000000001,
-   "t1": 743.71
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 743.71,
-   "t1": 749.21
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 749.21,
-   "t1": 751.4100000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 751.4100000000001,
-   "t1": 756.9100000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 756.9100000000001,
-   "t1": 758.555
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 758.555,
-   "t1": 764.055
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 764.055,
-   "t1": 766.255
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 766.255,
-   "t1": 771.91
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 771.91,
-   "t1": 776.8
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Konstantine Gugunava",
-   "t0": 776.8,
-   "t1": 778.4
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 778.4,
-   "t1": 783.9
+   "t0": 561.78,
+   "t1": 566.26
   },
   {
    "kind": "group",
    "cam": "cam2",
    "person": null,
    "speaker": "Konstantine Gugunava",
-   "t0": 783.9,
-   "t1": 784.995
+   "t0": 566.26,
+   "t1": 568.26,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Konstantine Gugunava",
-   "t0": 784.995,
-   "t1": 788.14
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 788.14,
-   "t1": 793.64
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 793.64,
-   "t1": 795.24
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 795.24,
-   "t1": 796.68
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 796.68,
-   "t1": 800.74,
-   "flip": true
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 800.74,
-   "t1": 802.94
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 802.94,
-   "t1": 807.93
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 807.93,
-   "t1": 809.53
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 809.53,
-   "t1": 815.03
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 815.03,
-   "t1": 817.23
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 817.23,
-   "t1": 823.55
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 823.55,
-   "t1": 825.15
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 825.15,
-   "t1": 830.65
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 830.65,
-   "t1": 832.85
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 832.85,
-   "t1": 838.35
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 838.35,
-   "t1": 839.95
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 839.95,
-   "t1": 842.65
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 842.65,
-   "t1": 847.765
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 847.765,
-   "t1": 849.965
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 849.965,
-   "t1": 855.465
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 855.465,
-   "t1": 857.92
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 857.92,
-   "t1": 862.84
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 862.84,
-   "t1": 865.28
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 865.28,
-   "t1": 870.87
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 870.87,
-   "t1": 872.47
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 872.47,
-   "t1": 879.5600000000001
+   "t0": 568.26,
+   "t1": 576.43
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 879.5600000000001,
-   "t1": 885.0600000000001
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 885.0600000000001,
-   "t1": 888.15
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 888.15,
-   "t1": 894.01
+   "t0": 576.43,
+   "t1": 583.21
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Yonas Beshawred",
-   "t0": 894.01,
-   "t1": 895.61
+   "t0": 583.21,
+   "t1": 584.61,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 895.61,
-   "t1": 901.11
+   "t0": 584.61,
+   "t1": 595.78
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Yonas Beshawred",
-   "t0": 901.11,
-   "t1": 903.79
+   "t0": 595.78,
+   "t1": 597.78,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 903.79,
-   "t1": 909.1800000000001
+   "t0": 597.78,
+   "t1": 608.78
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Yonas Beshawred",
+   "t0": 608.78,
+   "t1": 610.18,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 610.18,
+   "t1": 620.36
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Yonas Beshawred",
+   "t0": 620.36,
+   "t1": 622.36,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 622.36,
+   "t1": 633.07
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Yonas Beshawred",
+   "t0": 633.07,
+   "t1": 634.47,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 634.47,
+   "t1": 636.99
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Hang Huang",
+   "t0": 636.99,
+   "t1": 638.99,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 638.99,
+   "t1": 647.53
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 647.53,
+   "t1": 670.3,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Hang Huang",
+   "t0": 670.3,
+   "t1": 671.7,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 671.7,
+   "t1": 689.04
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Hang Huang",
+   "t0": 689.04,
+   "t1": 691.04,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 691.04,
+   "t1": 694.75
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 694.75,
+   "t1": 709.06
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 709.06,
+   "t1": 710.46,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 710.46,
+   "t1": 724.95
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Shengkun Ye",
+   "t0": 724.95,
+   "t1": 726.95,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 726.95,
+   "t1": 736.19
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 736.19,
+   "t1": 737.59,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 737.59,
+   "t1": 745.17
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 745.17,
+   "t1": 752.44,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 752.44,
+   "t1": 753.84,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 753.84,
+   "t1": 773.86
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Konstantine Gugunava",
+   "t0": 773.86,
+   "t1": 775.86,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Konstantine Gugunava",
-   "t0": 909.1800000000001,
-   "t1": 914.6800000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Konstantine Gugunava",
-   "t0": 914.6800000000001,
-   "t1": 916.325
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Konstantine Gugunava",
-   "t0": 916.325,
-   "t1": 922.1700000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 922.1700000000001,
-   "t1": 927.16
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 927.16,
-   "t1": 930.16
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 930.16,
-   "t1": 935.99
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 935.99,
-   "t1": 937.59
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 937.59,
-   "t1": 943.09
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 943.09,
-   "t1": 945.2900000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 945.2900000000001,
-   "t1": 950.7900000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 950.7900000000001,
-   "t1": 952.3900000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 952.3900000000001,
-   "t1": 957.8900000000001
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Hang Huang",
-   "t0": 957.8900000000001,
-   "t1": 960.0900000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 960.0900000000001,
-   "t1": 965.5900000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Hang Huang",
-   "t0": 965.5900000000001,
-   "t1": 967.1900000000002
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Hang Huang",
-   "speaker": "Hang Huang",
-   "t0": 967.1900000000002,
-   "t1": 973.71
+   "t0": 775.86,
+   "t1": 790.09
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 973.71,
-   "t1": 977.81
+   "t0": 790.09,
+   "t1": 798.37
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 977.81,
-   "t1": 979.21,
-   "flip": true
+   "t0": 798.37,
+   "t1": 803.53,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 803.53,
+   "t1": 804.93,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 804.93,
+   "t1": 830.06
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Shengkun Ye",
-   "t0": 979.21,
-   "t1": 981.515
+   "t0": 830.06,
+   "t1": 832.06,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Shengkun Ye",
    "speaker": "Shengkun Ye",
-   "t0": 981.515,
-   "t1": 987.015
+   "t0": 832.06,
+   "t1": 844.6
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 844.6,
+   "t1": 864.39
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
-   "speaker": "Shengkun Ye",
-   "t0": 987.015,
-   "t1": 988.615
+   "speaker": "Hang Huang",
+   "t0": 864.39,
+   "t1": 865.79,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 988.615,
-   "t1": 994.115
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Shengkun Ye",
-   "t0": 994.115,
-   "t1": 996.315
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Shengkun Ye",
-   "speaker": "Shengkun Ye",
-   "t0": 996.315,
-   "t1": 997.97
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 997.97,
-   "t1": 1000.81
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 1000.81,
-   "t1": 1003.47,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Konstantine Gugunava",
-   "speaker": "Yonas Beshawred",
-   "t0": 1003.47,
-   "t1": 1005.07
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 1005.07,
-   "t1": 1010.32
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 865.79,
+   "t1": 877.89
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 1010.32,
-   "t1": 1012.5200000000001
+   "speaker": "Hang Huang",
+   "t0": 877.89,
+   "t1": 879.89,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 879.89,
+   "t1": 881.51
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 1012.5200000000001,
-   "t1": 1018.0200000000001
+   "t0": 881.51,
+   "t1": 889.7
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 889.7,
+   "t1": 897.79,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Yonas Beshawred",
-   "t0": 1018.0200000000001,
-   "t1": 1019.6200000000001
+   "t0": 897.79,
+   "t1": 899.19,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Yonas Beshawred",
    "speaker": "Yonas Beshawred",
-   "t0": 1019.6200000000001,
-   "t1": 1025.1200000000001
+   "t0": 899.19,
+   "t1": 911.13
   },
   {
    "kind": "group",
    "cam": "cam2",
    "person": null,
-   "speaker": "Yonas Beshawred",
-   "t0": 1025.1200000000001,
-   "t1": 1027.3200000000002
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Yonas Beshawred",
-   "speaker": "Yonas Beshawred",
-   "t0": 1027.3200000000002,
-   "t1": 1029.81
+   "speaker": "Konstantine Gugunava",
+   "t0": 911.13,
+   "t1": 913.13,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Konstantine Gugunava",
    "speaker": "Konstantine Gugunava",
-   "t0": 1029.81,
-   "t1": 1034.1499999999994
+   "t0": 913.13,
+   "t1": 924.12
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 924.12,
+   "t1": 931.71
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 931.71,
+   "t1": 955.49,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Hang Huang",
+   "t0": 955.49,
+   "t1": 956.89,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 956.89,
+   "t1": 971.79
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Hang Huang",
+   "t0": 971.79,
+   "t1": 973.79,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Hang Huang",
+   "speaker": "Hang Huang",
+   "t0": 973.79,
+   "t1": 975.66
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 975.66,
+   "t1": 979.36
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 979.36,
+   "t1": 983.03,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Shengkun Ye",
+   "t0": 983.03,
+   "t1": 984.43,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 984.43,
+   "t1": 994.42
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Shengkun Ye",
+   "t0": 994.42,
+   "t1": 996.42,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Shengkun Ye",
+   "speaker": "Shengkun Ye",
+   "t0": 996.42,
+   "t1": 999.92
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 999.92,
+   "t1": 1002.42
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1002.42,
+   "t1": 1011.83,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Yonas Beshawred",
+   "t0": 1011.83,
+   "t1": 1013.23,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1013.23,
+   "t1": 1021.33
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Yonas Beshawred",
+   "t0": 1021.33,
+   "t1": 1023.33,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Yonas Beshawred",
+   "speaker": "Yonas Beshawred",
+   "t0": 1023.33,
+   "t1": 1031.76
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Konstantine Gugunava",
+   "speaker": "Konstantine Gugunava",
+   "t0": 1031.76,
+   "t1": 1035.7
   }
  ]
 }

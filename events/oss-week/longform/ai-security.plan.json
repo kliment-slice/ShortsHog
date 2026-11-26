@@ -1,5 +1,90 @@
 {
- "edit": "21.5 -> 18.4 min (188s cut in 171 places, 3 editorial cuts = 21s), 36 ums muted (11s)",
+ "edit": "21.5 -> 18.4 min (187s cut in 171 places, 3 editorial cuts = 21s), 36 ums muted (11s)",
+ "cold_open_seconds": 0.0,
+ "panel_starts": 1.5,
+ "cold_open": null,
+ "anchors": [
+  [
+   96.35,
+   103.86,
+   "Matt Lenhard"
+  ],
+  [
+   128.21,
+   143.21,
+   "Matt Lenhard"
+  ],
+  [
+   151.58,
+   158.49,
+   "Tom Piccirello"
+  ],
+  [
+   216.7,
+   223.08,
+   "Justin D'Souza"
+  ],
+  [
+   299.97,
+   309.13,
+   "Justin D'Souza"
+  ],
+  [
+   337.37,
+   347.03,
+   "Justin D'Souza"
+  ],
+  [
+   433.57,
+   439.81,
+   "Tom Piccirello"
+  ],
+  [
+   451.07,
+   457.79,
+   "Matt Lenhard"
+  ],
+  [
+   543.57,
+   548.73,
+   "Matt Lenhard"
+  ],
+  [
+   579.29,
+   587.85,
+   "Tom Piccirello"
+  ],
+  [
+   628.5,
+   631.85,
+   "Justin D'Souza"
+  ],
+  [
+   842.46,
+   845.55,
+   "Tom Piccirello"
+  ],
+  [
+   885.6,
+   900.6,
+   "Matt Lenhard"
+  ],
+  [
+   969.41,
+   972.78,
+   "Justin D'Souza"
+  ],
+  [
+   986.82,
+   996.43,
+   "Matt Lenhard"
+  ],
+  [
+   1083.13,
+   1086.09,
+   "Tom Piccirello"
+  ]
+ ],
  "shots": [
   {
    "kind": "title",
@@ -7,23 +92,40 @@
    "person": null,
    "speaker": null,
    "t0": 0.0,
-   "t1": 2.8
+   "t1": 1.5
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 2.8,
-   "t1": 3.3
+   "t0": 1.5,
+   "t1": 24.53
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 24.53,
+   "t1": 25.93,
+   "cutaway": true
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 3.3,
-   "t1": 5.11,
+   "t0": 25.93,
+   "t1": 31.72
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 31.72,
+   "t1": 44.53,
    "flip": true
   },
   {
@@ -31,2344 +133,1286 @@
    "cam": "cam2",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 5.11,
-   "t1": 7.3100000000000005
+   "t0": 44.53,
+   "t1": 45.93,
+   "cutaway": true
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Kliment Minchev",
-   "t0": 7.3100000000000005,
-   "t1": 12.81
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 12.81,
-   "t1": 15.3
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 15.3,
-   "t1": 19.92
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 19.92,
-   "t1": 23.03
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 23.03,
-   "t1": 28.53
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 28.53,
-   "t1": 30.22
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 30.22,
-   "t1": 31.1
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 31.1,
-   "t1": 36.23,
-   "flip": true
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 36.23,
-   "t1": 37.37
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 37.37,
-   "t1": 43.03
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 43.03,
-   "t1": 44.63
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 44.63,
-   "t1": 49.19
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 49.19,
-   "t1": 51.86
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 51.86,
-   "t1": 57.36
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 57.36,
-   "t1": 59.23
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 59.23,
-   "t1": 64.22
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 64.22,
-   "t1": 66.75
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 66.75,
-   "t1": 68.58
+   "t0": 45.93,
+   "t1": 70.48
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Matt Lenhard",
    "speaker": "Matt Lenhard",
-   "t0": 68.58,
-   "t1": 72.99
+   "t0": 70.48,
+   "t1": 80.44
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
    "speaker": "Matt Lenhard",
-   "t0": 72.99,
-   "t1": 74.58999999999999
+   "t0": 80.44,
+   "t1": 81.84,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Matt Lenhard",
    "speaker": "Matt Lenhard",
-   "t0": 74.58999999999999,
-   "t1": 79.99
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 79.99,
-   "t1": 82.19
+   "t0": 81.84,
+   "t1": 96.35
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Matt Lenhard",
    "speaker": "Matt Lenhard",
-   "t0": 82.19,
-   "t1": 87.69
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 87.69,
-   "t1": 89.28999999999999
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 89.28999999999999,
-   "t1": 94.85
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 94.85,
-   "t1": 97.05
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 97.05,
-   "t1": 102.285
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 102.285,
-   "t1": 103.88499999999999
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 103.88499999999999,
-   "t1": 109.94
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 109.94,
-   "t1": 111.09
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 111.09,
-   "t1": 116.59
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 116.59,
-   "t1": 118.43
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 118.43,
-   "t1": 123.93
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 123.93,
-   "t1": 126.71
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 126.71,
-   "t1": 132.20999999999998
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 132.20999999999998,
-   "t1": 133.45
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 133.45,
-   "t1": 139.17
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 139.17,
-   "t1": 141.36999999999998
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 141.36999999999998,
-   "t1": 147.57999999999998
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 147.57999999999998,
-   "t1": 150.19
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 150.19,
-   "t1": 153.605,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 153.605,
-   "t1": 155.20499999999998
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 155.20499999999998,
-   "t1": 160.70499999999998
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 160.70499999999998,
-   "t1": 161.95
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 161.95,
-   "t1": 167.45
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 167.45,
-   "t1": 169.255
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 169.255,
-   "t1": 175.58
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 175.58,
-   "t1": 177.78
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 177.78,
-   "t1": 183.28
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 183.28,
-   "t1": 184.88
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 184.88,
-   "t1": 190.94
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 190.94,
-   "t1": 193.14
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 193.14,
-   "t1": 195.5
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 195.5,
-   "t1": 201.0
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 201.0,
-   "t1": 202.6
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 202.6,
-   "t1": 208.1
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 208.1,
-   "t1": 210.22
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 210.22,
-   "t1": 215.35
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 215.35,
-   "t1": 216.95
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 216.95,
-   "t1": 221.58
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 221.58,
-   "t1": 224.695
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 224.695,
-   "t1": 230.195
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 230.195,
-   "t1": 231.795
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 231.795,
-   "t1": 237.295
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 237.295,
-   "t1": 239.23
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 239.23,
-   "t1": 244.73
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 244.73,
-   "t1": 246.0
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 246.0,
-   "t1": 251.5
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 251.5,
-   "t1": 253.7
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 253.7,
-   "t1": 259.2
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 259.2,
-   "t1": 260.8
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 260.8,
-   "t1": 266.3
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 266.3,
-   "t1": 269.48
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 269.48,
-   "t1": 271.82000000000005
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Mark Percival",
-   "t0": 271.82000000000005,
-   "t1": 277.63
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Mark Percival",
-   "t0": 277.63,
-   "t1": 280.0
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Mark Percival",
-   "t0": 280.0,
-   "t1": 284.385
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Mark Percival",
-   "t0": 284.385,
-   "t1": 286.93
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Mark Percival",
-   "t0": 286.93,
-   "t1": 292.43
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Mark Percival",
-   "t0": 292.43,
-   "t1": 294.03000000000003
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Mark Percival",
-   "t0": 294.03000000000003,
-   "t1": 298.07000000000005
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 298.07000000000005,
-   "t1": 303.73
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 303.73,
-   "t1": 305.93
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 305.93,
-   "t1": 311.43
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 311.43,
-   "t1": 313.03000000000003
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 313.03000000000003,
-   "t1": 318.84
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 318.84,
-   "t1": 321.03999999999996
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 321.03999999999996,
-   "t1": 326.53999999999996
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 326.53999999999996,
-   "t1": 328.14
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 328.14,
-   "t1": 333.64
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 333.64,
-   "t1": 335.87
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 335.87,
-   "t1": 341.37
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 341.37,
-   "t1": 342.97
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 342.97,
-   "t1": 348.47
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 348.47,
-   "t1": 350.68
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 350.68,
-   "t1": 357.05
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Justin D'Souza",
-   "t0": 357.05,
-   "t1": 358.65000000000003
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 358.65000000000003,
-   "t1": 364.65
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 364.65,
-   "t1": 367.21
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 367.21,
-   "t1": 372.18
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 372.18,
-   "t1": 377.08
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 377.08,
-   "t1": 379.18
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 379.18,
-   "t1": 383.93
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 383.93,
-   "t1": 386.13
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 386.13,
-   "t1": 390.81
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 390.81,
-   "t1": 392.135
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 392.135,
-   "t1": 397.44
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 397.44,
-   "t1": 399.975
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 399.975,
-   "t1": 405.33
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 405.33,
-   "t1": 407.75
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 407.75,
-   "t1": 412.435
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 412.435,
-   "t1": 414.62
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 414.62,
-   "t1": 420.12
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 420.12,
-   "t1": 421.72
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 421.72,
-   "t1": 427.22
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 427.22,
-   "t1": 429.42
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 429.42,
-   "t1": 432.07
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 432.07,
-   "t1": 434.92,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 434.92,
-   "t1": 436.52000000000004
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 436.52000000000004,
-   "t1": 444.66
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 444.66,
-   "t1": 449.66
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 449.66,
-   "t1": 451.86
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 451.86,
-   "t1": 456.3
+   "t0": 96.35,
+   "t1": 103.86,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Kliment Minchev",
    "speaker": "Matt Lenhard",
-   "t0": 456.3,
-   "t1": 457.90000000000003
+   "t0": 103.86,
+   "t1": 105.26,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Matt Lenhard",
    "speaker": "Matt Lenhard",
-   "t0": 457.90000000000003,
-   "t1": 463.40000000000003
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 463.40000000000003,
-   "t1": 465.11
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 465.11,
-   "t1": 469.7
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 469.7,
-   "t1": 471.3
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 471.3,
-   "t1": 476.66
+   "t0": 105.26,
+   "t1": 121.11
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Matt Lenhard",
-   "t0": 476.66,
-   "t1": 479.38
+   "t0": 121.11,
+   "t1": 123.11,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Matt Lenhard",
    "speaker": "Matt Lenhard",
-   "t0": 479.38,
-   "t1": 484.42
+   "t0": 123.11,
+   "t1": 128.21
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 128.21,
+   "t1": 145.05,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
    "speaker": "Matt Lenhard",
-   "t0": 484.42,
-   "t1": 486.02000000000004
+   "t0": 145.05,
+   "t1": 146.45,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Matt Lenhard",
    "speaker": "Matt Lenhard",
-   "t0": 486.02000000000004,
-   "t1": 492.59
+   "t0": 146.45,
+   "t1": 149.48
   },
   {
-   "kind": "group",
-   "cam": "cam2",
+   "kind": "wide",
+   "cam": "cam1",
    "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 492.59,
-   "t1": 494.88
+   "speaker": "Tom Piccirello",
+   "t0": 149.48,
+   "t1": 151.48,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 494.88,
-   "t1": 500.38
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 151.48,
+   "t1": 158.49
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Tom Piccirello",
+   "t0": 158.49,
+   "t1": 159.89,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 159.89,
+   "t1": 171.99
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tom Piccirello",
+   "t0": 171.99,
+   "t1": 173.99,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 173.99,
+   "t1": 197.4
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 197.4,
+   "t1": 207.43
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 500.38,
-   "t1": 501.98
+   "speaker": "Justin D'Souza",
+   "t0": 207.43,
+   "t1": 208.83,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 501.98,
-   "t1": 507.48
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 507.48,
-   "t1": 509.68
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 208.83,
+   "t1": 216.7
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 509.68,
-   "t1": 515.1800000000001
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 216.7,
+   "t1": 223.08,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 515.1800000000001,
-   "t1": 516.935
+   "speaker": "Justin D'Souza",
+   "t0": 223.08,
+   "t1": 224.48,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 516.935,
-   "t1": 519.5400000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Kliment Minchev",
-   "t0": 519.5400000000001,
-   "t1": 525.64
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 525.64,
-   "t1": 527.84
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Kliment Minchev",
-   "t0": 527.84,
-   "t1": 533.34
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Kliment Minchev",
-   "t0": 533.34,
-   "t1": 534.94
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Kliment Minchev",
-   "t0": 534.94,
-   "t1": 541.6700000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 541.6700000000001,
-   "t1": 547.23
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 224.48,
+   "t1": 235.92
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 547.23,
-   "t1": 549.4300000000001
+   "speaker": "Justin D'Souza",
+   "t0": 235.92,
+   "t1": 237.92,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 549.4300000000001,
-   "t1": 554.9300000000001
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 237.92,
+   "t1": 248.87
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 554.9300000000001,
-   "t1": 556.66
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 556.66,
-   "t1": 562.83
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 562.83,
-   "t1": 568.73
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 568.73,
-   "t1": 570.9300000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 570.9300000000001,
-   "t1": 576.4300000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 576.4300000000001,
-   "t1": 577.79
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 577.79,
-   "t1": 580.1
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 580.1,
-   "t1": 583.29,
-   "flip": true
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 583.29,
-   "t1": 586.35
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 586.35,
-   "t1": 591.85
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 591.85,
-   "t1": 594.11
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 594.11,
-   "t1": 599.61
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 599.61,
-   "t1": 602.22
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 602.22,
-   "t1": 608.97
+   "speaker": "Justin D'Souza",
+   "t0": 248.87,
+   "t1": 250.27,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Justin D'Souza",
    "speaker": "Justin D'Souza",
-   "t0": 608.97,
-   "t1": 614.62
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 614.62,
-   "t1": 616.22
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 616.22,
-   "t1": 620.99
+   "t0": 250.27,
+   "t1": 258.73
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Justin D'Souza",
-   "t0": 620.99,
-   "t1": 623.14
+   "t0": 258.73,
+   "t1": 260.73,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Justin D'Souza",
    "speaker": "Justin D'Souza",
-   "t0": 623.14,
-   "t1": 626.77
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 626.77,
-   "t1": 628.64,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 628.64,
-   "t1": 630.07
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 630.07,
-   "t1": 635.57
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 635.57,
-   "t1": 637.7700000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 637.7700000000001,
-   "t1": 643.38
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 643.38,
-   "t1": 644.98
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 644.98,
-   "t1": 650.48
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 650.48,
-   "t1": 652.6800000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 652.6800000000001,
-   "t1": 658.1800000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 658.1800000000001,
-   "t1": 660.33
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 660.33,
-   "t1": 665.76
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 665.76,
-   "t1": 667.96
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 667.96,
-   "t1": 675.7900000000001
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Mark Percival",
-   "t0": 675.7900000000001,
-   "t1": 681.2900000000001
+   "t0": 260.73,
+   "t1": 273.72
   },
   {
    "kind": "group",
    "cam": "cam2",
    "person": null,
    "speaker": "Mark Percival",
-   "t0": 681.2900000000001,
-   "t1": 682.8900000000001
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Mark Percival",
-   "t0": 682.8900000000001,
-   "t1": 687.96
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Mark Percival",
-   "t0": 687.96,
-   "t1": 690.1600000000001
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Mark Percival",
-   "t0": 690.1600000000001,
-   "t1": 697.23
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 697.23,
-   "t1": 702.73
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 702.73,
-   "t1": 704.33
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 704.33,
-   "t1": 708.92
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 708.92,
-   "t1": 711.235
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 711.235,
-   "t1": 716.735
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 716.735,
-   "t1": 718.335
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 718.335,
-   "t1": 724.48
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 724.48,
-   "t1": 727.88
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 727.88,
-   "t1": 733.38
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 733.38,
-   "t1": 734.98
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 734.98,
-   "t1": 740.69
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 740.69,
-   "t1": 742.39
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 742.39,
-   "t1": 747.89
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 747.89,
-   "t1": 750.09
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 750.09,
-   "t1": 755.59
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 755.59,
-   "t1": 757.7900000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 757.7900000000001,
-   "t1": 763.2900000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 763.2900000000001,
-   "t1": 764.8900000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 764.8900000000001,
-   "t1": 770.3900000000001
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 770.3900000000001,
-   "t1": 772.5900000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 772.5900000000001,
-   "t1": 778.0900000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 778.0900000000001,
-   "t1": 779.6900000000002
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 779.6900000000002,
-   "t1": 785.495
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 785.495,
-   "t1": 787.695
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 787.695,
-   "t1": 789.6800000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 789.6800000000001,
-   "t1": 795.1800000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 795.1800000000001,
-   "t1": 796.7800000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 796.7800000000001,
-   "t1": 802.2800000000001
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 802.2800000000001,
-   "t1": 804.4800000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 804.4800000000001,
-   "t1": 809.9800000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 809.9800000000001,
-   "t1": 811.5800000000002
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 811.5800000000002,
-   "t1": 816.41
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 816.41,
-   "t1": 818.61
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 818.61,
-   "t1": 824.55
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 824.55,
-   "t1": 826.15
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 826.15,
-   "t1": 831.905
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 831.905,
-   "t1": 834.105
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 834.105,
-   "t1": 838.65
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 838.65,
-   "t1": 840.6
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 840.6,
-   "t1": 846.96
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 846.96,
-   "t1": 848.82
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 848.82,
-   "t1": 857.5
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 857.5,
-   "t1": 862.7
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 862.7,
-   "t1": 864.3000000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 864.3000000000001,
-   "t1": 869.8000000000001
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 869.8000000000001,
-   "t1": 871.54
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 871.54,
-   "t1": 877.04
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 877.04,
-   "t1": 879.46
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 879.46,
-   "t1": 883.89
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 883.89,
-   "t1": 886.09
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 886.09,
-   "t1": 891.1
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 891.1,
-   "t1": 892.7
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 892.7,
-   "t1": 899.02
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 899.02,
-   "t1": 901.22
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 901.22,
-   "t1": 906.72
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 906.72,
-   "t1": 908.32
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 908.32,
-   "t1": 913.82
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 913.82,
-   "t1": 916.0200000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 916.0200000000001,
-   "t1": 922.37
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 922.37,
-   "t1": 924.17
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 924.17,
-   "t1": 929.67
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 929.67,
-   "t1": 930.945
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 930.945,
-   "t1": 935.76
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 935.76,
-   "t1": 937.36
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 937.36,
-   "t1": 945.95
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Kliment Minchev",
-   "t0": 945.95,
-   "t1": 951.45
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Kliment Minchev",
-   "t0": 951.45,
-   "t1": 953.6500000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Kliment Minchev",
-   "t0": 953.6500000000001,
-   "t1": 959.1500000000001
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Kliment Minchev",
-   "t0": 959.1500000000001,
-   "t1": 960.7500000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Kliment Minchev",
-   "speaker": "Kliment Minchev",
-   "t0": 960.7500000000001,
-   "t1": 965.38
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 965.38,
-   "t1": 967.83
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 967.83,
-   "t1": 971.0,
-   "flip": true
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Justin D'Souza",
-   "t0": 971.0,
-   "t1": 973.4
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 973.4,
-   "t1": 981.03
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 981.03,
-   "t1": 985.07
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 985.07,
-   "t1": 986.58,
-   "flip": true
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 986.58,
-   "t1": 988.1800000000001
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 988.1800000000001,
-   "t1": 994.65
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 994.65,
-   "t1": 996.85
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 996.85,
-   "t1": 1002.745
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 1002.745,
-   "t1": 1004.66
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 1004.66,
-   "t1": 1010.16
-  },
-  {
-   "kind": "group",
-   "cam": "cam2",
-   "person": null,
-   "speaker": "Matt Lenhard",
-   "t0": 1010.16,
-   "t1": 1012.36
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 1012.36,
-   "t1": 1017.86
-  },
-  {
-   "kind": "react",
-   "cam": "cam2",
-   "person": "Mark Percival",
-   "speaker": "Matt Lenhard",
-   "t0": 1017.86,
-   "t1": 1020.0
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Matt Lenhard",
-   "speaker": "Matt Lenhard",
-   "t0": 1020.0,
-   "t1": 1029.03
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 1029.03,
-   "t1": 1034.53
-  },
-  {
-   "kind": "wide",
-   "cam": "cam1",
-   "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 1034.53,
-   "t1": 1036.73
-  },
-  {
-   "kind": "close",
-   "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 1036.73,
-   "t1": 1044.61
+   "t0": 273.72,
+   "t1": 275.72,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Mark Percival",
    "speaker": "Mark Percival",
-   "t0": 1044.61,
-   "t1": 1050.27
+   "t0": 275.72,
+   "t1": 291.32
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Mark Percival",
+   "t0": 291.32,
+   "t1": 292.72,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 1050.27,
-   "t1": 1055.77
+   "person": "Mark Percival",
+   "speaker": "Mark Percival",
+   "t0": 292.72,
+   "t1": 299.97
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 299.97,
+   "t1": 309.13
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 1055.77,
-   "t1": 1057.37
+   "speaker": "Justin D'Souza",
+   "t0": 309.13,
+   "t1": 310.53,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 1057.37,
-   "t1": 1062.87
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 310.53,
+   "t1": 320.38
   },
   {
-   "kind": "group",
-   "cam": "cam2",
+   "kind": "wide",
+   "cam": "cam1",
    "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 1062.87,
-   "t1": 1065.34
+   "speaker": "Justin D'Souza",
+   "t0": 320.38,
+   "t1": 322.38,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 1065.34,
-   "t1": 1070.84
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 322.38,
+   "t1": 337.37
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 337.37,
+   "t1": 347.03,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 347.03,
+   "t1": 348.43,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 348.43,
+   "t1": 360.84
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Justin D'Souza",
+   "t0": 360.84,
+   "t1": 362.84,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 362.84,
+   "t1": 372.03
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
-   "speaker": "Tom Piccirello",
-   "t0": 1070.84,
-   "t1": 1072.4399999999998
+   "speaker": "Justin D'Souza",
+   "t0": 372.03,
+   "t1": 374.08,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Tom Piccirello",
    "speaker": "Tom Piccirello",
-   "t0": 1072.4399999999998,
-   "t1": 1077.17
+   "t0": 374.08,
+   "t1": 385.43
   },
   {
    "kind": "wide",
    "cam": "cam1",
    "person": null,
    "speaker": "Tom Piccirello",
-   "t0": 1077.17,
-   "t1": 1079.3700000000001
+   "t0": 385.43,
+   "t1": 387.43,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Tom Piccirello",
    "speaker": "Tom Piccirello",
-   "t0": 1079.3700000000001,
-   "t1": 1081.35
+   "t0": 387.43,
+   "t1": 409.25
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Tom Piccirello",
+   "t0": 409.25,
+   "t1": 410.65,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Tom Piccirello",
    "speaker": "Tom Piccirello",
-   "t0": 1081.35,
-   "t1": 1084.31,
-   "flip": true
+   "t0": 410.65,
+   "t1": 418.82
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tom Piccirello",
+   "t0": 418.82,
+   "t1": 420.82,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 420.82,
+   "t1": 433.57
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 433.57,
+   "t1": 439.81,
+   "flip": false
   },
   {
    "kind": "react",
    "cam": "cam2",
    "person": "Mark Percival",
    "speaker": "Tom Piccirello",
-   "t0": 1084.31,
-   "t1": 1085.9099999999999
+   "t0": 439.81,
+   "t1": 441.21,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Tom Piccirello",
    "speaker": "Tom Piccirello",
-   "t0": 1085.9099999999999,
-   "t1": 1091.4099999999999
+   "t0": 441.21,
+   "t1": 446.56
   },
   {
-   "kind": "group",
-   "cam": "cam2",
+   "kind": "wide",
+   "cam": "cam1",
    "person": null,
-   "speaker": "Tom Piccirello",
-   "t0": 1091.4099999999999,
-   "t1": 1093.61
+   "speaker": "Matt Lenhard",
+   "t0": 446.56,
+   "t1": 448.56,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
-   "person": "Tom Piccirello",
-   "speaker": "Tom Piccirello",
-   "t0": 1093.61,
-   "t1": 1099.6599999999999
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 448.56,
+   "t1": 451.07
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 451.07,
+   "t1": 457.79,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Matt Lenhard",
+   "t0": 457.79,
+   "t1": 459.19,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 459.19,
+   "t1": 468.66
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 468.66,
+   "t1": 470.66,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 470.66,
+   "t1": 494.09
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Matt Lenhard",
+   "t0": 494.09,
+   "t1": 495.49,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 495.49,
+   "t1": 507.78
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 507.78,
+   "t1": 509.78,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 509.78,
+   "t1": 518.47
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Matt Lenhard",
+   "t0": 518.47,
+   "t1": 521.44,
+   "cutaway": true
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 521.44,
+   "t1": 523.44,
+   "cutaway": true
   },
   {
    "kind": "close",
    "cam": "cam2",
    "person": "Kliment Minchev",
    "speaker": "Kliment Minchev",
-   "t0": 1099.6599999999999,
-   "t1": 1102.300000000001
+   "t0": 523.44,
+   "t1": 532.9
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Kliment Minchev",
+   "t0": 532.9,
+   "t1": 534.3,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Kliment Minchev",
+   "t0": 534.3,
+   "t1": 543.57
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 543.57,
+   "t1": 548.73
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Matt Lenhard",
+   "t0": 548.73,
+   "t1": 550.13,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 550.13,
+   "t1": 558.16
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 558.16,
+   "t1": 560.16,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 560.16,
+   "t1": 564.73
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 564.73,
+   "t1": 579.29
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 579.29,
+   "t1": 587.85,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Tom Piccirello",
+   "t0": 587.85,
+   "t1": 589.25,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 589.25,
+   "t1": 603.72
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tom Piccirello",
+   "t0": 603.72,
+   "t1": 605.72,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 605.72,
+   "t1": 611.15
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 611.15,
+   "t1": 620.59
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 620.59,
+   "t1": 621.99,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 621.99,
+   "t1": 628.5
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 628.5,
+   "t1": 631.85,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 631.85,
+   "t1": 633.25,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 633.25,
+   "t1": 641.91
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Justin D'Souza",
+   "t0": 641.91,
+   "t1": 643.91,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 643.91,
+   "t1": 657.55
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 657.55,
+   "t1": 658.95,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 658.95,
+   "t1": 667.54
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Justin D'Souza",
+   "t0": 667.54,
+   "t1": 669.54,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 669.54,
+   "t1": 677.97
+  },
+  {
+   "kind": "group",
+   "cam": "cam2",
+   "person": null,
+   "speaker": "Mark Percival",
+   "t0": 677.97,
+   "t1": 679.97,
+   "cutaway": true
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Mark Percival",
+   "t0": 679.97,
+   "t1": 699.41
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 699.41,
+   "t1": 731.88
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 731.88,
+   "t1": 733.28,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 733.28,
+   "t1": 742.43
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Justin D'Souza",
+   "t0": 742.43,
+   "t1": 744.43,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 744.43,
+   "t1": 759.02
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 759.02,
+   "t1": 760.42,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 760.42,
+   "t1": 775.71
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Justin D'Souza",
+   "t0": 775.71,
+   "t1": 777.71,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 777.71,
+   "t1": 788.41
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Justin D'Souza",
+   "t0": 788.41,
+   "t1": 789.81,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 789.81,
+   "t1": 791.86
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tom Piccirello",
+   "t0": 791.86,
+   "t1": 793.86,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 793.86,
+   "t1": 807.53
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Tom Piccirello",
+   "t0": 807.53,
+   "t1": 808.93,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 808.93,
+   "t1": 820.73
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tom Piccirello",
+   "t0": 820.73,
+   "t1": 822.73,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 822.73,
+   "t1": 842.46
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 842.46,
+   "t1": 845.55,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Tom Piccirello",
+   "t0": 845.55,
+   "t1": 846.95,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 846.95,
+   "t1": 859.68
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 859.68,
+   "t1": 861.68,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 861.68,
+   "t1": 871.74
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Matt Lenhard",
+   "t0": 871.74,
+   "t1": 873.14,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 873.14,
+   "t1": 885.6
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 885.6,
+   "t1": 900.8,
+   "flip": false
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 900.8,
+   "t1": 902.8,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 902.8,
+   "t1": 921.91
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Matt Lenhard",
+   "t0": 921.91,
+   "t1": 923.31,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 923.31,
+   "t1": 932.74
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 932.74,
+   "t1": 934.74,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 934.74,
+   "t1": 948.13
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 948.13,
+   "t1": 950.13,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Kliment Minchev",
+   "t0": 950.13,
+   "t1": 967.56
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 967.56,
+   "t1": 969.41
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 969.41,
+   "t1": 972.78,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Justin D'Souza",
+   "t0": 972.78,
+   "t1": 974.18,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Justin D'Souza",
+   "speaker": "Justin D'Souza",
+   "t0": 974.18,
+   "t1": 983.21
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 983.21,
+   "t1": 985.21,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 985.21,
+   "t1": 986.82
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 986.82,
+   "t1": 996.43,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Matt Lenhard",
+   "t0": 996.43,
+   "t1": 997.83,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 997.83,
+   "t1": 1006.44
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Matt Lenhard",
+   "t0": 1006.44,
+   "t1": 1008.44,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1008.44,
+   "t1": 1021.78
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Kliment Minchev",
+   "speaker": "Matt Lenhard",
+   "t0": 1021.78,
+   "t1": 1023.18,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Matt Lenhard",
+   "speaker": "Matt Lenhard",
+   "t0": 1023.18,
+   "t1": 1031.21
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Tom Piccirello",
+   "t0": 1031.21,
+   "t1": 1033.21,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 1033.21,
+   "t1": 1046.79
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Mark Percival",
+   "t0": 1046.79,
+   "t1": 1052.45
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 1052.45,
+   "t1": 1083.13
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 1083.13,
+   "t1": 1086.09,
+   "flip": false
+  },
+  {
+   "kind": "react",
+   "cam": "cam2",
+   "person": "Mark Percival",
+   "speaker": "Tom Piccirello",
+   "t0": 1086.09,
+   "t1": 1087.49,
+   "cutaway": true
+  },
+  {
+   "kind": "close",
+   "cam": "cam2",
+   "person": "Tom Piccirello",
+   "speaker": "Tom Piccirello",
+   "t0": 1087.49,
+   "t1": 1101.84
+  },
+  {
+   "kind": "wide",
+   "cam": "cam1",
+   "person": null,
+   "speaker": "Kliment Minchev",
+   "t0": 1101.84,
+   "t1": 1104.08,
+   "cutaway": true
   }
  ]
 }

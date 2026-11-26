@@ -3,157 +3,1370 @@
   740.53,
   786.85
  ],
- "range_out": [
-  612.0200000000001,
-  655.7700000000002
+ "parts_src": [
+  [
+   740.53,
+   746.47
+  ],
+  [
+   764.05,
+   786.85
+  ]
+ ],
+ "hook_src": [
+  756.43,
+  763.42
+ ],
+ "segments": [
+  [
+   654.8999999999996,
+   661.98,
+   "hook"
+  ],
+  [
+   639.9799999999997,
+   645.9199999999997,
+   "meat"
+  ],
+  [
+   661.9799999999998,
+   683.3999999999997,
+   "meat"
+  ]
+ ],
+ "duration": 34.44,
+ "sweep": {
+  "t0": 0.0,
+  "land": 1.2,
+  "seats": [
+   "Kliment Minchev",
+   "Matt Lenhard",
+   "Tom Piccirello",
+   "Justin D'Souza"
+  ],
+  "crop_h": 636.0
+ },
+ "reaction_pans": [],
+ "reaction_cuts": [],
+ "moves": [
+  {
+   "kind": "sweep",
+   "t0": 0.0,
+   "t1": 1.2,
+   "via": [
+    "Kliment Minchev",
+    "Matt Lenhard",
+    "Tom Piccirello",
+    "Justin D'Souza"
+   ],
+   "ch": 636.0
+  },
+  {
+   "kind": "settle",
+   "t0": 1.2,
+   "t1": 1.7,
+   "person": "Justin D'Souza",
+   "ch": 636.0,
+   "end_ch": 600.0
+  }
+ ],
+ "move_frames": [
+  {
+   "S": 0.0,
+   "rect": [
+    1443.0,
+    171.5,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     609.3,
+     461.8,
+     112.4
+    ],
+    "Tom Piccirello": [
+     951.1,
+     402.0,
+     92.9
+    ],
+    "Matt Lenhard": [
+     1257.4,
+     374.8,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.6,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.042,
+   "rect": [
+    1442.8,
+    171.5,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     609.2,
+     461.7,
+     112.4
+    ],
+    "Tom Piccirello": [
+     951.1,
+     402.0,
+     92.9
+    ],
+    "Matt Lenhard": [
+     1257.4,
+     374.8,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.6,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.083,
+   "rect": [
+    1441.6,
+    171.4,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     609.2,
+     461.6,
+     112.4
+    ],
+    "Tom Piccirello": [
+     951.2,
+     401.9,
+     93.0
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.8,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.125,
+   "rect": [
+    1438.1,
+    171.1,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     609.1,
+     461.6,
+     112.4
+    ],
+    "Tom Piccirello": [
+     951.2,
+     401.9,
+     93.0
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.8,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.167,
+   "rect": [
+    1431.4,
+    170.6,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     609.1,
+     461.5,
+     112.3
+    ],
+    "Tom Piccirello": [
+     951.3,
+     401.9,
+     93.0
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.8,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.209,
+   "rect": [
+    1420.4,
+    169.7,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     609.0,
+     461.4,
+     112.3
+    ],
+    "Tom Piccirello": [
+     951.3,
+     401.9,
+     93.0
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.8,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.25,
+   "rect": [
+    1404.0,
+    168.3,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.9,
+     461.3,
+     112.3
+    ],
+    "Tom Piccirello": [
+     951.3,
+     401.9,
+     93.1
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.8,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.292,
+   "rect": [
+    1381.0,
+    166.5,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.9,
+     461.3,
+     112.3
+    ],
+    "Tom Piccirello": [
+     951.4,
+     401.9,
+     93.1
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.8,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.8
+    ]
+   }
+  },
+  {
+   "S": 0.334,
+   "rect": [
+    1350.5,
+    164.0,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.8,
+     461.2,
+     112.2
+    ],
+    "Tom Piccirello": [
+     951.4,
+     401.9,
+     93.1
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.375,
+   "rect": [
+    1311.2,
+    160.8,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.8,
+     461.1,
+     112.2
+    ],
+    "Tom Piccirello": [
+     951.5,
+     401.9,
+     93.2
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.417,
+   "rect": [
+    1262.2,
+    156.8,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.7,
+     461.1,
+     112.2
+    ],
+    "Tom Piccirello": [
+     951.5,
+     401.9,
+     93.2
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.459,
+   "rect": [
+    1202.4,
+    151.9,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.7,
+     461.0,
+     112.2
+    ],
+    "Tom Piccirello": [
+     951.6,
+     401.9,
+     93.2
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.5,
+   "rect": [
+    1130.6,
+    146.1,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.6,
+     461.0,
+     112.1
+    ],
+    "Tom Piccirello": [
+     951.6,
+     401.9,
+     93.2
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.542,
+   "rect": [
+    1045.8,
+    139.1,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.5,
+     460.9,
+     112.1
+    ],
+    "Tom Piccirello": [
+     951.7,
+     401.9,
+     93.3
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.584,
+   "rect": [
+    946.9,
+    142.8,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.5,
+     460.9,
+     112.1
+    ],
+    "Tom Piccirello": [
+     951.7,
+     401.9,
+     93.3
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.626,
+   "rect": [
+    838.7,
+    151.6,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.4,
+     460.8,
+     112.1
+    ],
+    "Tom Piccirello": [
+     951.8,
+     401.9,
+     93.3
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.667,
+   "rect": [
+    743.0,
+    159.3,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.4,
+     460.8,
+     112.0
+    ],
+    "Tom Piccirello": [
+     951.8,
+     401.9,
+     93.3
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.709,
+   "rect": [
+    661.8,
+    170.2,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.3,
+     460.7,
+     112.0
+    ],
+    "Tom Piccirello": [
+     951.9,
+     401.9,
+     93.3
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.0
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.7,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.751,
+   "rect": [
+    593.5,
+    181.5,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.3,
+     460.7,
+     112.0
+    ],
+    "Tom Piccirello": [
+     951.9,
+     401.9,
+     93.3
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.792,
+   "rect": [
+    536.8,
+    190.8,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.2,
+     460.7,
+     112.0
+    ],
+    "Tom Piccirello": [
+     951.9,
+     401.9,
+     93.3
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     374.9,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.834,
+   "rect": [
+    490.5,
+    198.4,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.2,
+     460.6,
+     111.9
+    ],
+    "Tom Piccirello": [
+     952.0,
+     401.9,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     375.0,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.876,
+   "rect": [
+    453.7,
+    204.4,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.1,
+     460.6,
+     111.9
+    ],
+    "Tom Piccirello": [
+     952.0,
+     401.9,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     375.0,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.918,
+   "rect": [
+    425.2,
+    209.1,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.1,
+     460.6,
+     111.9
+    ],
+    "Tom Piccirello": [
+     952.1,
+     401.9,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     375.0,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 0.959,
+   "rect": [
+    404.0,
+    212.5,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.0,
+     460.6,
+     111.9
+    ],
+    "Tom Piccirello": [
+     952.1,
+     401.9,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     375.0,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 1.001,
+   "rect": [
+    388.9,
+    215.0,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     608.0,
+     460.5,
+     111.8
+    ],
+    "Tom Piccirello": [
+     952.2,
+     401.9,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     375.0,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 1.043,
+   "rect": [
+    379.0,
+    216.6,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.9,
+     460.5,
+     111.8
+    ],
+    "Tom Piccirello": [
+     952.2,
+     401.9,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.3,
+     375.0,
+     75.1
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.8,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 1.084,
+   "rect": [
+    373.2,
+    217.5,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.9,
+     460.5,
+     111.8
+    ],
+    "Tom Piccirello": [
+     952.3,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.0,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.126,
+   "rect": [
+    370.3,
+    217.9,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.8,
+     460.5,
+     111.8
+    ],
+    "Tom Piccirello": [
+     952.3,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.0,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.168,
+   "rect": [
+    369.4,
+    218.1,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.8,
+     460.4,
+     111.7
+    ],
+    "Tom Piccirello": [
+     952.4,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.0,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.2,
+   "rect": [
+    369.2,
+    218.1,
+    477.0,
+    636.0
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.7,
+     460.4,
+     111.7
+    ],
+    "Tom Piccirello": [
+     952.4,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.0,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.242,
+   "rect": [
+    369.2,
+    218.1,
+    476.9,
+    635.9
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.7,
+     460.4,
+     111.7
+    ],
+    "Tom Piccirello": [
+     952.4,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.0,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.283,
+   "rect": [
+    369.4,
+    218.3,
+    476.5,
+    635.3
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.6,
+     460.4,
+     111.7
+    ],
+    "Tom Piccirello": [
+     952.5,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.0,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.325,
+   "rect": [
+    369.9,
+    218.8,
+    475.3,
+    633.7
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.6,
+     460.3,
+     111.6
+    ],
+    "Tom Piccirello": [
+     952.5,
+     401.8,
+     93.5
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.367,
+   "rect": [
+    371.0,
+    219.9,
+    473.0,
+    630.7
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.5,
+     460.3,
+     111.6
+    ],
+    "Tom Piccirello": [
+     952.6,
+     401.8,
+     93.5
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.2
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     409.9,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.409,
+   "rect": [
+    372.9,
+    221.7,
+    469.2,
+    625.6
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.5,
+     460.3,
+     111.6
+    ],
+    "Tom Piccirello": [
+     952.6,
+     401.8,
+     93.5
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.3
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     410.0,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.45,
+   "rect": [
+    375.7,
+    224.4,
+    463.5,
+    617.9
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.5,
+     460.3,
+     111.6
+    ],
+    "Tom Piccirello": [
+     952.7,
+     401.8,
+     93.5
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.3
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     410.0,
+     77.0
+    ]
+   }
+  },
+  {
+   "S": 1.492,
+   "rect": [
+    378.5,
+    227.1,
+    457.8,
+    610.4
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.4,
+     460.3,
+     111.6
+    ],
+    "Tom Piccirello": [
+     952.7,
+     401.8,
+     93.5
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.3
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     410.1,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 1.534,
+   "rect": [
+    380.4,
+    229.0,
+    454.0,
+    605.3
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.4,
+     460.3,
+     111.5
+    ],
+    "Tom Piccirello": [
+     952.7,
+     401.8,
+     93.5
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.3
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     410.1,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 1.575,
+   "rect": [
+    381.5,
+    230.1,
+    451.7,
+    602.2
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.4,
+     460.2,
+     111.5
+    ],
+    "Tom Piccirello": [
+     952.8,
+     401.8,
+     93.5
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.3
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     410.2,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 1.617,
+   "rect": [
+    382.1,
+    230.6,
+    450.5,
+    600.7
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.3,
+     460.2,
+     111.5
+    ],
+    "Tom Piccirello": [
+     952.8,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.3
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     410.3,
+     76.9
+    ]
+   }
+  },
+  {
+   "S": 1.659,
+   "rect": [
+    382.3,
+    230.8,
+    450.1,
+    600.1
+   ],
+   "faces": {
+    "Justin D'Souza": [
+     607.3,
+     460.2,
+     111.5
+    ],
+    "Tom Piccirello": [
+     952.9,
+     401.8,
+     93.4
+    ],
+    "Matt Lenhard": [
+     1257.2,
+     375.1,
+     75.4
+    ],
+    "Kliment Minchev": [
+     1712.5,
+     410.4,
+     76.8
+    ]
+   }
+  }
+ ],
+ "punches": [
+  3.2800000000000864,
+  13.02,
+  14.720000000000482,
+  19.26,
+  22.54000000000042,
+  27.66
  ],
  "shots": [
   {
    "kind": "close",
    "person": "Justin D'Souza",
    "speaker": "Justin D'Souza",
-   "t0": 612.0200000000001,
-   "t1": 614.635
-  },
-  {
-   "kind": "react",
-   "person": "Matt Lenhard",
-   "speaker": "Justin D'Souza",
-   "t0": 614.635,
-   "t1": 615.835
+   "t0": 0.0,
+   "t1": 7.080000000000382,
+   "anchor": true
   },
   {
    "kind": "close",
    "person": "Justin D'Souza",
    "speaker": "Justin D'Souza",
-   "t0": 615.835,
-   "t1": 618.81
-  },
-  {
-   "kind": "medium",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 618.81,
-   "t1": 620.99
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 620.99,
-   "t1": 623.14
-  },
-  {
-   "kind": "react",
-   "person": "Tom Piccirello",
-   "speaker": "Justin D'Souza",
-   "t0": 623.14,
-   "t1": 624.34
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 624.34,
-   "t1": 626.72
-  },
-  {
-   "kind": "medium",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 626.72,
-   "t1": 628.12
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 628.12,
-   "t1": 630.92
-  },
-  {
-   "kind": "react",
-   "person": "Kliment Minchev",
-   "speaker": "Justin D'Souza",
-   "t0": 630.92,
-   "t1": 632.12
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 632.12,
-   "t1": 634.92
-  },
-  {
-   "kind": "medium",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 634.92,
-   "t1": 636.3199999999999
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 636.3199999999999,
-   "t1": 639.1199999999999
-  },
-  {
-   "kind": "react",
-   "person": "Matt Lenhard",
-   "speaker": "Justin D'Souza",
-   "t0": 639.1199999999999,
-   "t1": 640.13
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 640.13,
-   "t1": 643.38
-  },
-  {
-   "kind": "medium",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 643.38,
-   "t1": 644.78
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 644.78,
-   "t1": 647.5799999999999
-  },
-  {
-   "kind": "react",
-   "person": "Tom Piccirello",
-   "speaker": "Justin D'Souza",
-   "t0": 647.5799999999999,
-   "t1": 648.78
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 648.78,
-   "t1": 651.5799999999999
-  },
-  {
-   "kind": "medium",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 651.5799999999999,
-   "t1": 652.9799999999999
-  },
-  {
-   "kind": "close",
-   "person": "Justin D'Souza",
-   "speaker": "Justin D'Souza",
-   "t0": 652.9799999999999,
-   "t1": 655.7700000000002
+   "t0": 7.080000000000382,
+   "t1": 34.440000000000396
   }
- ]
+ ],
+ "graphics": []
 }

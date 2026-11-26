@@ -1,43 +1,105 @@
 [Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
-PlayResY: 1440
+PlayResY: 1920
 WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:00:28.20,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H00DFB32B}Tim Glaser (PostHog)
-Dialogue: 2,0:00:00.20,0:00:28.20,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Distribution is a moat.
-Dialogue: 2,0:00:00.20,0:00:28.20,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}Find a hook that stands
-Dialogue: 2,0:00:00.20,0:00:28.20,Hook,,0,0,0,,{\an8\pos(540,262)\fad(200,0)}out.”
-Dialogue: 0,0:00:00.10,0:00:01.74,Caption,,0,0,0,,I think distribution is
-Dialogue: 0,0:00:01.74,0:00:03.42,Caption,,0,0,0,,a moat, and I think it
-Dialogue: 0,0:00:03.42,0:00:05.47,Caption,,0,0,0,,has gotten much harder
-Dialogue: 0,0:00:05.47,0:00:06.17,Caption,,0,0,0,,like I think the
-Dialogue: 0,0:00:06.17,0:00:06.85,Caption,,0,0,0,,internet has gotten much
-Dialogue: 0,0:00:06.85,0:00:08.23,Caption,,0,0,0,,noisier, and so you have
-Dialogue: 0,0:00:08.23,0:00:09.15,Caption,,0,0,0,,to find something that
-Dialogue: 0,0:00:09.15,0:00:09.91,Caption,,0,0,0,,makes you stand out
-Dialogue: 0,0:00:09.91,0:00:11.27,Caption,,0,0,0,,and again
-Dialogue: 0,0:00:11.27,0:00:12.17,Caption,,0,0,0,,maybe it's blogs
-Dialogue: 0,0:00:12.17,0:00:12.83,Caption,,0,0,0,,maybe it's
-Dialogue: 0,0:00:12.83,0:00:13.67,Caption,,0,0,0,,you know
-Dialogue: 0,0:00:13.67,0:00:14.87,Caption,,0,0,0,,Twitter maybe it's
-Dialogue: 0,0:00:14.87,0:00:16.15,Caption,,0,0,0,,something else
-Dialogue: 0,0:00:16.15,0:00:16.97,Caption,,0,0,0,,maybe it's the crazy
-Dialogue: 0,0:00:16.97,0:00:17.77,Caption,,0,0,0,,branding stuff that we
-Dialogue: 0,0:00:17.77,0:00:18.96,Caption,,0,0,0,,do. There's kind of a
-Dialogue: 0,0:00:18.96,0:00:20.32,Caption,,0,0,0,,reason why that stuff
-Dialogue: 0,0:00:20.32,0:00:20.78,Caption,,0,0,0,,works, right
-Dialogue: 0,0:00:20.78,0:00:22.06,Caption,,0,0,0,,because it stands out.
-Dialogue: 0,0:00:22.06,0:00:23.34,Caption,,0,0,0,,And so I think if you're
-Dialogue: 0,0:00:23.34,0:00:25.22,Caption,,0,0,0,,trying to be early
-Dialogue: 0,0:00:25.22,0:00:26.42,Caption,,0,0,0,,you have to find a hook
-Dialogue: 0,0:00:26.42,0:00:27.44,Caption,,0,0,0,,that kind of makes sense
-Dialogue: 0,0:00:27.44,0:00:28.20,Caption,,0,0,0,,and it's different.
+Dialogue: 0,0:00:00.00,0:00:00.12,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think distribution
+Dialogue: 0,0:00:00.12,0:00:00.64,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} distribution
+Dialogue: 0,0:00:00.64,0:00:01.34,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}distribution{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.34,0:00:01.64,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} a moat
+Dialogue: 0,0:00:01.64,0:00:01.86,Caption,,0,0,600,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} moat
+Dialogue: 0,0:00:01.86,0:00:02.24,Caption,,0,0,600,,is a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}moat{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.24,0:00:02.32,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} I think it has
+Dialogue: 0,0:00:02.32,0:00:02.46,Caption,,0,0,600,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think it has
+Dialogue: 0,0:00:02.46,0:00:02.64,Caption,,0,0,600,,and I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} it has
+Dialogue: 0,0:00:02.64,0:00:03.02,Caption,,0,0,600,,and I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} has
+Dialogue: 0,0:00:03.02,0:00:03.82,Caption,,0,0,600,,and I think it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}has{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.82,0:00:04.02,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}gotten{\c&H00FFFFFF\fscx100\fscy100} much harder
+Dialogue: 0,0:00:04.02,0:00:04.28,Caption,,0,0,600,,gotten {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}much{\c&H00FFFFFF\fscx100\fscy100} harder
+Dialogue: 0,0:00:04.28,0:00:04.72,Caption,,0,0,600,,gotten much {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}harder{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.72,0:00:04.88,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think the internet
+Dialogue: 0,0:00:04.88,0:00:05.10,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} the internet
+Dialogue: 0,0:00:05.10,0:00:05.30,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} internet
+Dialogue: 0,0:00:05.30,0:00:05.40,Caption,,0,0,600,,I think the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}internet{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.40,0:00:05.54,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}has{\c&H00FFFFFF\fscx100\fscy100} gotten much
+Dialogue: 0,0:00:05.54,0:00:05.80,Caption,,0,0,600,,has {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}gotten{\c&H00FFFFFF\fscx100\fscy100} much
+Dialogue: 0,0:00:05.80,0:00:05.98,Caption,,0,0,600,,has gotten {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}much{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.98,0:00:06.44,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}noisier{\c&H00FFFFFF\fscx100\fscy100} and so you
+Dialogue: 0,0:00:06.44,0:00:06.60,Caption,,0,0,600,,noisier {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} so you
+Dialogue: 0,0:00:06.60,0:00:07.08,Caption,,0,0,600,,noisier and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:07.08,0:00:07.24,Caption,,0,0,600,,noisier and so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.24,0:00:07.36,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} to find something
+Dialogue: 0,0:00:07.36,0:00:07.56,Caption,,0,0,600,,have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} find something
+Dialogue: 0,0:00:07.56,0:00:07.88,Caption,,0,0,600,,have to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}find{\c&H00FFFFFF\fscx100\fscy100} something
+Dialogue: 0,0:00:07.88,0:00:08.08,Caption,,0,0,600,,have to find {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.08,0:00:08.28,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} makes you stand
+Dialogue: 0,0:00:08.28,0:00:08.40,Caption,,0,0,600,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}makes{\c&H00FFFFFF\fscx100\fscy100} you stand
+Dialogue: 0,0:00:08.40,0:00:08.62,Caption,,0,0,600,,that makes {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} stand
+Dialogue: 0,0:00:08.62,0:00:08.88,Caption,,0,0,600,,that makes you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stand{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.88,0:00:09.04,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out{\c&H00FFFFFF\fscx100\fscy100} and again
+Dialogue: 0,0:00:09.04,0:00:09.22,Caption,,0,0,600,,out {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} again
+Dialogue: 0,0:00:09.22,0:00:09.83,Caption,,0,0,600,,out and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}again{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.83,0:00:09.97,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maybe{\c&H00FFFFFF\fscx100\fscy100} it's blogs
+Dialogue: 0,0:00:09.97,0:00:10.29,Caption,,0,0,600,,maybe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} blogs
+Dialogue: 0,0:00:10.29,0:00:10.73,Caption,,0,0,600,,maybe it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}blogs{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.73,0:00:10.95,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maybe{\c&H00FFFFFF\fscx100\fscy100} it's
+Dialogue: 0,0:00:10.95,0:00:11.49,Caption,,0,0,600,,maybe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.49,0:00:11.85,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Twitter{\c&H00FFFFFF\fscx100\fscy100} maybe it's
+Dialogue: 0,0:00:11.85,0:00:12.05,Caption,,0,0,600,,Twitter {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maybe{\c&H00FFFFFF\fscx100\fscy100} it's
+Dialogue: 0,0:00:12.05,0:00:12.69,Caption,,0,0,600,,Twitter maybe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.69,0:00:13.07,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100} else
+Dialogue: 0,0:00:13.07,0:00:13.54,Caption,,0,0,600,,something {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}else{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.54,0:00:13.68,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maybe{\c&H00FFFFFF\fscx100\fscy100} it's the crazy
+Dialogue: 0,0:00:13.68,0:00:13.76,Caption,,0,0,600,,maybe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} the crazy
+Dialogue: 0,0:00:13.76,0:00:14.00,Caption,,0,0,600,,maybe it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} crazy
+Dialogue: 0,0:00:14.00,0:00:14.36,Caption,,0,0,600,,maybe it's the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}crazy{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.36,0:00:14.68,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}branding{\c&H00FFFFFF\fscx100\fscy100} stuff that we
+Dialogue: 0,0:00:14.68,0:00:14.84,Caption,,0,0,600,,branding {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stuff{\c&H00FFFFFF\fscx100\fscy100} that we
+Dialogue: 0,0:00:14.84,0:00:14.96,Caption,,0,0,600,,branding stuff {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} we
+Dialogue: 0,0:00:14.96,0:00:15.16,Caption,,0,0,600,,branding stuff that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.16,0:00:15.63,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do.{\c&H00FFFFFF\fscx100\fscy100} There's kind of a
+Dialogue: 0,0:00:15.63,0:00:15.79,Caption,,0,0,600,,do. {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}There's{\c&H00FFFFFF\fscx100\fscy100} kind of a
+Dialogue: 0,0:00:15.79,0:00:15.87,Caption,,0,0,600,,do. There's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100} of a
+Dialogue: 0,0:00:15.87,0:00:16.01,Caption,,0,0,600,,do. There's kind {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:16.01,0:00:16.21,Caption,,0,0,600,,do. There's kind of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.21,0:00:16.45,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}reason{\c&H00FFFFFF\fscx100\fscy100} why that stuff
+Dialogue: 0,0:00:16.45,0:00:16.67,Caption,,0,0,600,,reason {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}why{\c&H00FFFFFF\fscx100\fscy100} that stuff
+Dialogue: 0,0:00:16.67,0:00:16.93,Caption,,0,0,600,,reason why {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} stuff
+Dialogue: 0,0:00:16.93,0:00:17.57,Caption,,0,0,600,,reason why that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stuff{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.57,0:00:17.77,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}works{\c&H00FFFFFF\fscx100\fscy100} because it
+Dialogue: 0,0:00:17.77,0:00:17.89,Caption,,0,0,600,,works {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} it
+Dialogue: 0,0:00:17.89,0:00:18.17,Caption,,0,0,600,,works because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.17,0:00:18.51,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stands{\c&H00FFFFFF\fscx100\fscy100} out.
+Dialogue: 0,0:00:18.51,0:00:19.02,Caption,,0,0,600,,stands {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.02,0:00:19.56,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} so I think if
+Dialogue: 0,0:00:19.56,0:00:19.74,Caption,,0,0,600,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} I think if
+Dialogue: 0,0:00:19.74,0:00:19.84,Caption,,0,0,600,,And so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think if
+Dialogue: 0,0:00:19.84,0:00:20.02,Caption,,0,0,600,,And so I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} if
+Dialogue: 0,0:00:20.02,0:00:20.04,Caption,,0,0,600,,And so I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.04,0:00:20.30,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100} trying to be
+Dialogue: 0,0:00:20.30,0:00:20.48,Caption,,0,0,600,,you're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trying{\c&H00FFFFFF\fscx100\fscy100} to be
+Dialogue: 0,0:00:20.48,0:00:21.04,Caption,,0,0,600,,you're trying {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} be
+Dialogue: 0,0:00:21.04,0:00:21.40,Caption,,0,0,600,,you're trying to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.40,0:00:22.18,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}early{\c&H00FFFFFF\fscx100\fscy100} you have to
+Dialogue: 0,0:00:22.18,0:00:22.36,Caption,,0,0,600,,early {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} have to
+Dialogue: 0,0:00:22.36,0:00:22.52,Caption,,0,0,600,,early you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:22.52,0:00:22.78,Caption,,0,0,600,,early you have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.78,0:00:22.92,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}find{\c&H00FFFFFF\fscx100\fscy100} a hook that kind
+Dialogue: 0,0:00:22.92,0:00:23.12,Caption,,0,0,600,,find {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} hook that kind
+Dialogue: 0,0:00:23.12,0:00:23.38,Caption,,0,0,600,,find a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}hook{\c&H00FFFFFF\fscx100\fscy100} that kind
+Dialogue: 0,0:00:23.38,0:00:23.68,Caption,,0,0,600,,find a hook {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} kind
+Dialogue: 0,0:00:23.68,0:00:23.82,Caption,,0,0,600,,find a hook that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.82,0:00:24.02,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} makes sense and
+Dialogue: 0,0:00:24.02,0:00:24.26,Caption,,0,0,600,,of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}makes{\c&H00FFFFFF\fscx100\fscy100} sense and
+Dialogue: 0,0:00:24.26,0:00:24.40,Caption,,0,0,600,,of makes {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sense{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:24.40,0:00:24.44,Caption,,0,0,600,,of makes sense {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.44,0:00:24.72,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} different.
+Dialogue: 0,0:00:24.72,0:00:25.29,Caption,,0,0,600,,it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}different.{\c&H00FFFFFF\fscx100\fscy100}

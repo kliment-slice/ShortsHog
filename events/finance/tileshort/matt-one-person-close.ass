@@ -1,0 +1,106 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.18,Caption,,0,0,199,,{\c&H00DFB32B}That{\c&H00FFFFFF} said
+Dialogue: 0,0:00:00.18,0:00:00.41,Caption,,0,0,199,,That {\c&H00DFB32B}said{\c&H00FFFFFF}
+Dialogue: 0,0:00:00.41,0:00:00.59,Caption,,0,0,199,,{\c&H00DFB32B}we{\c&H00FFFFFF} do use AI to make
+Dialogue: 0,0:00:00.59,0:00:00.77,Caption,,0,0,199,,we {\c&H00DFB32B}do{\c&H00FFFFFF} use AI to make
+Dialogue: 0,0:00:00.77,0:00:00.96,Caption,,0,0,199,,we do {\c&H00DFB32B}use{\c&H00FFFFFF} AI to make
+Dialogue: 0,0:00:00.96,0:00:01.14,Caption,,0,0,199,,we do use {\c&H00DFB32B}AI{\c&H00FFFFFF} to make
+Dialogue: 0,0:00:01.14,0:00:01.28,Caption,,0,0,199,,we do use AI {\c&H00DFB32B}to{\c&H00FFFFFF} make
+Dialogue: 0,0:00:01.28,0:00:01.44,Caption,,0,0,199,,we do use AI to {\c&H00DFB32B}make{\c&H00FFFFFF}
+Dialogue: 0,0:00:01.44,0:00:01.62,Caption,,0,0,199,,{\c&H00DFB32B}that{\c&H00FFFFFF} close process
+Dialogue: 0,0:00:01.62,0:00:02.08,Caption,,0,0,199,,that {\c&H00DFB32B}close{\c&H00FFFFFF} process
+Dialogue: 0,0:00:02.08,0:00:02.40,Caption,,0,0,199,,that close {\c&H00DFB32B}process{\c&H00FFFFFF}
+Dialogue: 0,0:00:02.40,0:00:02.58,Caption,,0,0,199,,{\c&H00DFB32B}quicker{\c&H00FFFFFF} and easier.
+Dialogue: 0,0:00:02.58,0:00:02.88,Caption,,0,0,199,,quicker {\c&H00DFB32B}and{\c&H00FFFFFF} easier.
+Dialogue: 0,0:00:02.88,0:00:03.24,Caption,,0,0,199,,quicker and {\c&H00DFB32B}easier.{\c&H00FFFFFF}
+Dialogue: 0,0:00:03.24,0:00:03.80,Caption,,0,0,199,,{\c&H00DFB32B}So{\c&H00FFFFFF} AI prepares all of
+Dialogue: 0,0:00:03.80,0:00:04.42,Caption,,0,0,199,,So {\c&H00DFB32B}AI{\c&H00FFFFFF} prepares all of
+Dialogue: 0,0:00:04.42,0:00:05.32,Caption,,0,0,199,,So AI {\c&H00DFB32B}prepares{\c&H00FFFFFF} all of
+Dialogue: 0,0:00:05.32,0:00:05.50,Caption,,0,0,199,,So AI prepares {\c&H00DFB32B}all{\c&H00FFFFFF} of
+Dialogue: 0,0:00:05.50,0:00:05.72,Caption,,0,0,199,,So AI prepares all {\c&H00DFB32B}of{\c&H00FFFFFF}
+Dialogue: 0,0:00:05.72,0:00:06.93,Caption,,0,0,199,,{\c&H00DFB32B}the{\c&H00FFFFFF} workings for the
+Dialogue: 0,0:00:06.93,0:00:07.31,Caption,,0,0,199,,the {\c&H00DFB32B}workings{\c&H00FFFFFF} for the
+Dialogue: 0,0:00:07.31,0:00:07.45,Caption,,0,0,199,,the workings {\c&H00DFB32B}for{\c&H00FFFFFF} the
+Dialogue: 0,0:00:07.45,0:00:07.89,Caption,,0,0,199,,the workings for {\c&H00DFB32B}the{\c&H00FFFFFF}
+Dialogue: 0,0:00:07.89,0:00:08.55,Caption,,0,0,199,,{\c&H00DFB32B}close{\c&H00FFFFFF} and then they're
+Dialogue: 0,0:00:08.55,0:00:08.69,Caption,,0,0,199,,close {\c&H00DFB32B}and{\c&H00FFFFFF} then they're
+Dialogue: 0,0:00:08.69,0:00:08.85,Caption,,0,0,199,,close and {\c&H00DFB32B}then{\c&H00FFFFFF} they're
+Dialogue: 0,0:00:08.85,0:00:09.07,Caption,,0,0,199,,close and then {\c&H00DFB32B}they're{\c&H00FFFFFF}
+Dialogue: 0,0:00:09.07,0:00:09.35,Caption,,0,0,199,,{\c&H00DFB32B}just{\c&H00FFFFFF} human reviewed.
+Dialogue: 0,0:00:09.35,0:00:09.73,Caption,,0,0,199,,just {\c&H00DFB32B}human{\c&H00FFFFFF} reviewed.
+Dialogue: 0,0:00:09.73,0:00:10.01,Caption,,0,0,199,,just human {\c&H00DFB32B}reviewed.{\c&H00FFFFFF}
+Dialogue: 0,0:00:10.01,0:00:10.19,Caption,,0,0,199,,{\c&H00DFB32B}And{\c&H00FFFFFF} so that makes us
+Dialogue: 0,0:00:10.19,0:00:10.57,Caption,,0,0,199,,And {\c&H00DFB32B}so{\c&H00FFFFFF} that makes us
+Dialogue: 0,0:00:10.57,0:00:10.99,Caption,,0,0,199,,And so {\c&H00DFB32B}that{\c&H00FFFFFF} makes us
+Dialogue: 0,0:00:10.99,0:00:11.21,Caption,,0,0,199,,And so that {\c&H00DFB32B}makes{\c&H00FFFFFF} us
+Dialogue: 0,0:00:11.21,0:00:11.49,Caption,,0,0,199,,And so that makes {\c&H00DFB32B}us{\c&H00FFFFFF}
+Dialogue: 0,0:00:11.49,0:00:11.75,Caption,,0,0,199,,{\c&H00DFB32B}move{\c&H00FFFFFF} much faster.
+Dialogue: 0,0:00:11.75,0:00:12.19,Caption,,0,0,199,,move {\c&H00DFB32B}much{\c&H00FFFFFF} faster.
+Dialogue: 0,0:00:12.19,0:00:12.85,Caption,,0,0,199,,move much {\c&H00DFB32B}faster.{\c&H00FFFFFF}
+Dialogue: 0,0:00:12.85,0:00:13.29,Caption,,0,0,199,,{\c&H00DFB32B}And{\c&H00FFFFFF} our close isn't
+Dialogue: 0,0:00:13.29,0:00:13.51,Caption,,0,0,199,,And {\c&H00DFB32B}our{\c&H00FFFFFF} close isn't
+Dialogue: 0,0:00:13.51,0:00:13.69,Caption,,0,0,199,,And our {\c&H00DFB32B}close{\c&H00FFFFFF} isn't
+Dialogue: 0,0:00:13.69,0:00:14.11,Caption,,0,0,199,,And our close {\c&H00DFB32B}isn't{\c&H00FFFFFF}
+Dialogue: 0,0:00:14.11,0:00:14.57,Caption,,0,0,199,,{\c&H00DFB32B}particularly{\c&H00FFFFFF} fast right
+Dialogue: 0,0:00:14.57,0:00:14.81,Caption,,0,0,199,,particularly {\c&H00DFB32B}fast{\c&H00FFFFFF} right
+Dialogue: 0,0:00:14.81,0:00:15.09,Caption,,0,0,199,,particularly fast {\c&H00DFB32B}right{\c&H00FFFFFF}
+Dialogue: 0,0:00:15.09,0:00:15.57,Caption,,0,0,199,,{\c&H00DFB32B}now{\c&H00FFFFFF} we close on BD+10
+Dialogue: 0,0:00:15.57,0:00:15.89,Caption,,0,0,199,,now {\c&H00DFB32B}we{\c&H00FFFFFF} close on BD+10
+Dialogue: 0,0:00:15.89,0:00:16.07,Caption,,0,0,199,,now we {\c&H00DFB32B}close{\c&H00FFFFFF} on BD+10
+Dialogue: 0,0:00:16.07,0:00:16.23,Caption,,0,0,199,,now we close {\c&H00DFB32B}on{\c&H00FFFFFF} BD+10
+Dialogue: 0,0:00:16.23,0:00:17.34,Caption,,0,0,199,,now we close on {\c&H00DFB32B}BD+10{\c&H00FFFFFF}
+Dialogue: 0,0:00:17.34,0:00:17.48,Caption,,0,0,199,,{\c&H00DFB32B}but{\c&H00FFFFFF} that's because we do
+Dialogue: 0,0:00:17.48,0:00:17.80,Caption,,0,0,199,,but {\c&H00DFB32B}that's{\c&H00FFFFFF} because we do
+Dialogue: 0,0:00:17.80,0:00:17.94,Caption,,0,0,199,,but that's {\c&H00DFB32B}because{\c&H00FFFFFF} we do
+Dialogue: 0,0:00:17.94,0:00:18.08,Caption,,0,0,199,,but that's because {\c&H00DFB32B}we{\c&H00FFFFFF} do
+Dialogue: 0,0:00:18.08,0:00:18.24,Caption,,0,0,199,,but that's because we {\c&H00DFB32B}do{\c&H00FFFFFF}
+Dialogue: 0,0:00:18.24,0:00:18.42,Caption,,0,0,199,,{\c&H00DFB32B}that{\c&H00FFFFFF} with basically one
+Dialogue: 0,0:00:18.42,0:00:19.08,Caption,,0,0,199,,that {\c&H00DFB32B}with{\c&H00FFFFFF} basically one
+Dialogue: 0,0:00:19.08,0:00:19.32,Caption,,0,0,199,,that with {\c&H00DFB32B}basically{\c&H00FFFFFF} one
+Dialogue: 0,0:00:19.32,0:00:19.89,Caption,,0,0,199,,that with basically {\c&H00DFB32B}one{\c&H00FFFFFF}
+Dialogue: 0,0:00:19.89,0:00:20.07,Caption,,0,0,199,,{\c&H00DFB32B}accountant{\c&H00FFFFFF} and so like
+Dialogue: 0,0:00:20.07,0:00:20.29,Caption,,0,0,199,,accountant {\c&H00DFB32B}and{\c&H00FFFFFF} so like
+Dialogue: 0,0:00:20.29,0:00:20.53,Caption,,0,0,199,,accountant and {\c&H00DFB32B}so{\c&H00FFFFFF} like
+Dialogue: 0,0:00:20.53,0:00:20.65,Caption,,0,0,199,,accountant and so {\c&H00DFB32B}like{\c&H00FFFFFF}
+Dialogue: 0,0:00:20.65,0:00:20.79,Caption,,0,0,199,,{\c&H00DFB32B}at{\c&H00FFFFFF} our scale I think to
+Dialogue: 0,0:00:20.79,0:00:21.09,Caption,,0,0,199,,at {\c&H00DFB32B}our{\c&H00FFFFFF} scale I think to
+Dialogue: 0,0:00:21.09,0:00:21.29,Caption,,0,0,199,,at our {\c&H00DFB32B}scale{\c&H00FFFFFF} I think to
+Dialogue: 0,0:00:21.29,0:00:21.47,Caption,,0,0,199,,at our scale {\c&H00DFB32B}I{\c&H00FFFFFF} think to
+Dialogue: 0,0:00:21.47,0:00:21.61,Caption,,0,0,199,,at our scale I {\c&H00DFB32B}think{\c&H00FFFFFF} to
+Dialogue: 0,0:00:21.61,0:00:21.75,Caption,,0,0,199,,at our scale I think {\c&H00DFB32B}to{\c&H00FFFFFF}
+Dialogue: 0,0:00:21.75,0:00:21.87,Caption,,0,0,199,,{\c&H00DFB32B}get{\c&H00FFFFFF} to BD+10
+Dialogue: 0,0:00:21.87,0:00:21.99,Caption,,0,0,199,,get {\c&H00DFB32B}to{\c&H00FFFFFF} BD+10
+Dialogue: 0,0:00:21.99,0:00:23.09,Caption,,0,0,199,,get to {\c&H00DFB32B}BD+10{\c&H00FFFFFF}
+Dialogue: 0,0:00:23.09,0:00:23.33,Caption,,0,0,199,,{\c&H00DFB32B}historically{\c&H00FFFFFF} you would
+Dialogue: 0,0:00:23.33,0:00:23.43,Caption,,0,0,199,,historically {\c&H00DFB32B}you{\c&H00FFFFFF} would
+Dialogue: 0,0:00:23.43,0:00:23.51,Caption,,0,0,199,,historically you {\c&H00DFB32B}would{\c&H00FFFFFF}
+Dialogue: 0,0:00:23.51,0:00:23.69,Caption,,0,0,199,,{\c&H00DFB32B}have{\c&H00FFFFFF} had far more people
+Dialogue: 0,0:00:23.69,0:00:23.99,Caption,,0,0,199,,have {\c&H00DFB32B}had{\c&H00FFFFFF} far more people
+Dialogue: 0,0:00:23.99,0:00:24.23,Caption,,0,0,199,,have had {\c&H00DFB32B}far{\c&H00FFFFFF} more people
+Dialogue: 0,0:00:24.23,0:00:24.51,Caption,,0,0,199,,have had far {\c&H00DFB32B}more{\c&H00FFFFFF} people
+Dialogue: 0,0:00:24.51,0:00:24.69,Caption,,0,0,199,,have had far more {\c&H00DFB32B}people{\c&H00FFFFFF}
+Dialogue: 0,0:00:24.69,0:00:24.93,Caption,,0,0,196,,{\c&H00DFB32B}than{\c&H00FFFFFF} that but we're more
+Dialogue: 0,0:00:24.93,0:00:25.46,Caption,,0,0,196,,than {\c&H00DFB32B}that{\c&H00FFFFFF} but we're more
+Dialogue: 0,0:00:25.46,0:00:25.96,Caption,,0,0,196,,than that {\c&H00DFB32B}but{\c&H00FFFFFF} we're more
+Dialogue: 0,0:00:25.96,0:00:26.18,Caption,,0,0,196,,than that but {\c&H00DFB32B}we're{\c&H00FFFFFF} more
+Dialogue: 0,0:00:26.18,0:00:26.54,Caption,,0,0,196,,than that but we're {\c&H00DFB32B}more{\c&H00FFFFFF}
+Dialogue: 0,0:00:26.54,0:00:26.72,Caption,,0,0,199,,{\c&H00DFB32B}focused{\c&H00FFFFFF} on efficiency
+Dialogue: 0,0:00:26.72,0:00:27.26,Caption,,0,0,199,,focused {\c&H00DFB32B}on{\c&H00FFFFFF} efficiency
+Dialogue: 0,0:00:27.26,0:00:27.96,Caption,,0,0,199,,focused on {\c&H00DFB32B}efficiency{\c&H00FFFFFF}
+Dialogue: 0,0:00:27.96,0:00:28.40,Caption,,0,0,199,,{\c&H00DFB32B}and{\c&H00FFFFFF} accuracy than
+Dialogue: 0,0:00:28.40,0:00:28.72,Caption,,0,0,199,,and {\c&H00DFB32B}accuracy{\c&H00FFFFFF} than
+Dialogue: 0,0:00:28.72,0:00:29.28,Caption,,0,0,199,,and accuracy {\c&H00DFB32B}than{\c&H00FFFFFF}
+Dialogue: 0,0:00:29.28,0:00:29.72,Caption,,0,0,199,,{\c&H00DFB32B}necessarily{\c&H00FFFFFF} speed.
+Dialogue: 0,0:00:29.72,0:00:30.11,Caption,,0,0,199,,necessarily {\c&H00DFB32B}speed.{\c&H00FFFFFF}

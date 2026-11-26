@@ -8,48 +8,43 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
+Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:00:43.75,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
-Dialogue: 2,0:00:00.20,0:00:43.75,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“The value is in
-Dialogue: 2,0:00:00.20,0:00:43.75,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}remediation, not detection”
-Dialogue: 0,0:00:00.00,0:00:01.86,Caption,,0,0,0,,it's also true that
-Dialogue: 0,0:00:01.86,0:00:02.74,Caption,,0,0,0,,there's more
-Dialogue: 0,0:00:02.74,0:00:03.16,Caption,,0,0,0,,vulnerabilities than
-Dialogue: 0,0:00:03.16,0:00:04.56,Caption,,0,0,0,,ever before like they're
-Dialogue: 0,0:00:04.56,0:00:05.50,Caption,,0,0,0,,kind of exponentially
-Dialogue: 0,0:00:05.50,0:00:09.01,Caption,,0,0,0,,growing and so While all
-Dialogue: 0,0:00:09.18,0:00:09.64,Caption,,0,0,0,,contributions are going
-Dialogue: 0,0:00:09.64,0:00:11.21,Caption,,0,0,0,,to be AI-generated
-Dialogue: 0,0:00:11.28,0:00:12.88,Caption,,0,0,0,,all, you know
-Dialogue: 0,0:00:12.88,0:00:13.84,Caption,,0,0,0,,reviews are going to be
-Dialogue: 0,0:00:13.84,0:00:14.76,Caption,,0,0,0,,AI-generated.
-Dialogue: 0,0:00:14.76,0:00:16.12,Caption,,0,0,0,,And I think where the
-Dialogue: 0,0:00:16.12,0:00:17.12,Caption,,0,0,0,,value accrues is really
-Dialogue: 0,0:00:17.12,0:00:18.11,Caption,,0,0,0,,just around remediation.
-Dialogue: 0,0:00:18.11,0:00:20.23,Caption,,0,0,0,,So it's not really any
-Dialogue: 0,0:00:20.23,0:00:21.56,Caption,,0,0,0,,more around detection.
-Dialogue: 0,0:00:21.56,0:00:22.46,Caption,,0,0,0,,It's cheaper than ever
-Dialogue: 0,0:00:22.46,0:00:23.64,Caption,,0,0,0,,to have, like
-Dialogue: 0,0:00:23.64,0:00:24.56,Caption,,0,0,0,,Claude Code as a
-Dialogue: 0,0:00:24.56,0:00:26.20,Caption,,0,0,0,,security reviewer or to
-Dialogue: 0,0:00:26.20,0:00:26.55,Caption,,0,0,0,,use, like
-Dialogue: 0,0:00:26.44,0:00:27.40,Caption,,0,0,0,,an open model as a
-Dialogue: 0,0:00:27.40,0:00:28.18,Caption,,0,0,0,,security reviewer.
-Dialogue: 0,0:00:28.25,0:00:28.99,Caption,,0,0,0,,But I think it's
-Dialogue: 0,0:00:28.99,0:00:29.71,Caption,,0,0,0,,inevitable that there's
-Dialogue: 0,0:00:29.71,0:00:30.55,Caption,,0,0,0,,always going to be
-Dialogue: 0,0:00:30.55,0:00:31.40,Caption,,0,0,0,,vulnerabilities that
-Dialogue: 0,0:00:31.57,0:00:32.39,Caption,,0,0,0,,whether they're low
-Dialogue: 0,0:00:32.39,0:00:32.97,Caption,,0,0,0,,severity or high
-Dialogue: 0,0:00:32.97,0:00:33.32,Caption,,0,0,0,,severity
-Dialogue: 0,0:00:33.21,0:00:35.07,Caption,,0,0,0,,get merged in at some
-Dialogue: 0,0:00:35.07,0:00:36.61,Caption,,0,0,0,,point and deployed.
-Dialogue: 0,0:00:36.61,0:00:37.63,Caption,,0,0,0,,And so for every
-Dialogue: 0,0:00:37.63,0:00:38.03,Caption,,0,0,0,,enterprise
-Dialogue: 0,0:00:38.03,0:00:39.03,Caption,,0,0,0,,I think it's a lot more
-Dialogue: 0,0:00:39.03,0:00:40.27,Caption,,0,0,0,,about investing in
-Dialogue: 0,0:00:40.27,0:00:41.75,Caption,,0,0,0,,infrastructure to
-Dialogue: 0,0:00:41.75,0:00:43.75,Caption,,0,0,0,,remediate a lot faster.
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“The value is in
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}remediation, not
+Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}detection”
+Dialogue: 0,0:00:00.00,0:00:01.46,Caption,,0,0,0,,I think where the value
+Dialogue: 0,0:00:01.46,0:00:02.70,Caption,,0,0,0,,accrues is really just
+Dialogue: 0,0:00:02.70,0:00:03.35,Caption,,0,0,0,,around remediation.
+Dialogue: 0,0:00:03.43,0:00:05.55,Caption,,0,0,0,,So it's not really any
+Dialogue: 0,0:00:05.55,0:00:07.03,Caption,,0,0,0,,more around detection.
+Dialogue: 0,0:00:07.08,0:00:08.94,Caption,,0,0,0,,It's also true that
+Dialogue: 0,0:00:08.94,0:00:09.82,Caption,,0,0,0,,there's more
+Dialogue: 0,0:00:10.02,0:00:10.44,Caption,,0,0,0,,vulnerabilities than
+Dialogue: 0,0:00:10.44,0:00:11.84,Caption,,0,0,0,,ever before like they're
+Dialogue: 0,0:00:11.84,0:00:12.78,Caption,,0,0,0,,kind of exponentially
+Dialogue: 0,0:00:12.78,0:00:13.07,Caption,,0,0,0,,growing
+Dialogue: 0,0:00:13.07,0:00:13.97,Caption,,0,0,0,,It's cheaper than ever
+Dialogue: 0,0:00:13.97,0:00:15.30,Caption,,0,0,0,,to have, Claude Code as
+Dialogue: 0,0:00:15.30,0:00:17.14,Caption,,0,0,0,,a security reviewer or
+Dialogue: 0,0:00:17.14,0:00:18.22,Caption,,0,0,0,,to use, an open model as
+Dialogue: 0,0:00:18.22,0:00:19.26,Caption,,0,0,0,,a security reviewer.
+Dialogue: 0,0:00:19.59,0:00:20.33,Caption,,0,0,0,,But I think it's
+Dialogue: 0,0:00:20.33,0:00:21.05,Caption,,0,0,0,,inevitable that there's
+Dialogue: 0,0:00:21.05,0:00:21.89,Caption,,0,0,0,,always going to be
+Dialogue: 0,0:00:21.89,0:00:22.66,Caption,,0,0,0,,vulnerabilities that
+Dialogue: 0,0:00:22.66,0:00:23.48,Caption,,0,0,0,,whether they're low
+Dialogue: 0,0:00:23.48,0:00:24.06,Caption,,0,0,0,,severity or high
+Dialogue: 0,0:00:24.06,0:00:24.30,Caption,,0,0,0,,severity
+Dialogue: 0,0:00:24.30,0:00:26.16,Caption,,0,0,0,,get merged in at some
+Dialogue: 0,0:00:26.16,0:00:27.70,Caption,,0,0,0,,point and deployed.
+Dialogue: 0,0:00:27.70,0:00:28.72,Caption,,0,0,0,,And so for every
+Dialogue: 0,0:00:28.72,0:00:29.12,Caption,,0,0,0,,enterprise
+Dialogue: 0,0:00:29.12,0:00:30.12,Caption,,0,0,0,,I think it's a lot more
+Dialogue: 0,0:00:30.12,0:00:31.36,Caption,,0,0,0,,about investing in
+Dialogue: 0,0:00:31.36,0:00:32.84,Caption,,0,0,0,,infrastructure to
+Dialogue: 0,0:00:32.84,0:00:34.44,Caption,,0,0,0,,remediate a lot faster.

@@ -1,62 +1,144 @@
 [Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
-PlayResY: 1440
+PlayResY: 1920
 WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Hook,RoundHog Bold,54,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.20,0:00:49.92,Hook,,0,0,0,,{\an8\pos(540,54)\fad(200,0)\fnRoundHog SemiBold\fs34\c&H001CCEFF}Alex Jung (Unikraft)
-Dialogue: 2,0:00:00.20,0:00:49.92,Hook,,0,0,0,,{\an8\pos(540,118)\fad(200,0)}“Issues are worth more than
-Dialogue: 2,0:00:00.20,0:00:49.92,Hook,,0,0,0,,{\an8\pos(540,190)\fad(200,0)}pull requests”
-Dialogue: 0,0:00:00.10,0:00:01.04,Caption,,0,0,0,,I think definitely the
-Dialogue: 0,0:00:01.04,0:00:01.86,Caption,,0,0,0,,most valuable thing we
-Dialogue: 0,0:00:01.86,0:00:03.28,Caption,,0,0,0,,can get from open source
-Dialogue: 0,0:00:03.28,0:00:04.80,Caption,,0,0,0,,is issues more than pull
-Dialogue: 0,0:00:04.80,0:00:05.15,Caption,,0,0,0,,requests.
-Dialogue: 0,0:00:05.14,0:00:06.14,Caption,,0,0,0,,I think this has been
-Dialogue: 0,0:00:06.14,0:00:07.32,Caption,,0,0,0,,true even before AI.
-Dialogue: 0,0:00:07.32,0:00:08.76,Caption,,0,0,0,,There was a book on
-Dialogue: 0,0:00:08.76,0:00:09.92,Caption,,0,0,0,,building in the open
-Dialogue: 0,0:00:09.92,0:00:10.90,Caption,,0,0,0,,it's one of the Stripe
-Dialogue: 0,0:00:10.90,0:00:11.76,Caption,,0,0,0,,Press books
-Dialogue: 0,0:00:11.76,0:00:12.90,Caption,,0,0,0,,and it shows a power
-Dialogue: 0,0:00:12.90,0:00:14.02,Caption,,0,0,0,,curve in terms of
-Dialogue: 0,0:00:14.02,0:00:14.70,Caption,,0,0,0,,contributors to any open
-Dialogue: 0,0:00:14.70,0:00:16.05,Caption,,0,0,0,,source project.
-Dialogue: 0,0:00:16.05,0:00:18.16,Caption,,0,0,0,,Even recently the
-Dialogue: 0,0:00:18.16,0:00:20.24,Caption,,0,0,0,,creator of OpenClaw was
-Dialogue: 0,0:00:20.24,0:00:21.02,Caption,,0,0,0,,telling me they don't
-Dialogue: 0,0:00:21.02,0:00:21.94,Caption,,0,0,0,,actually accept pull
-Dialogue: 0,0:00:21.94,0:00:23.12,Caption,,0,0,0,,requests anymore.
-Dialogue: 0,0:00:23.28,0:00:24.36,Caption,,0,0,0,,They just accept issues
-Dialogue: 0,0:00:24.36,0:00:26.10,Caption,,0,0,0,,because an issue is a
-Dialogue: 0,0:00:26.10,0:00:27.44,Caption,,0,0,0,,prompt basically to fix
-Dialogue: 0,0:00:27.44,0:00:28.12,Caption,,0,0,0,,something.
-Dialogue: 0,0:00:28.14,0:00:29.08,Caption,,0,0,0,,And that's a user
-Dialogue: 0,0:00:29.08,0:00:29.52,Caption,,0,0,0,,actually going through
-Dialogue: 0,0:00:29.52,0:00:30.46,Caption,,0,0,0,,the effort of typing out
-Dialogue: 0,0:00:30.46,0:00:32.09,Caption,,0,0,0,,what they run into.
-Dialogue: 0,0:00:32.09,0:00:33.07,Caption,,0,0,0,,If you think about where
-Dialogue: 0,0:00:33.07,0:00:33.65,Caption,,0,0,0,,we're going
-Dialogue: 0,0:00:33.65,0:00:34.63,Caption,,0,0,0,,we're building software
-Dialogue: 0,0:00:34.63,0:00:35.88,Caption,,0,0,0,,factories.
-Dialogue: 0,0:00:35.94,0:00:37.48,Caption,,0,0,0,,We trust more the
-Dialogue: 0,0:00:37.48,0:00:38.34,Caption,,0,0,0,,factory that we've built
-Dialogue: 0,0:00:38.34,0:00:39.20,Caption,,0,0,0,,and all the rules that
-Dialogue: 0,0:00:39.20,0:00:40.02,Caption,,0,0,0,,we've applied
-Dialogue: 0,0:00:40.02,0:00:41.12,Caption,,0,0,0,,rather than some random
-Dialogue: 0,0:00:41.12,0:00:41.80,Caption,,0,0,0,,person that's coming
-Dialogue: 0,0:00:41.80,0:00:42.54,Caption,,0,0,0,,along and just
-Dialogue: 0,0:00:42.54,0:00:42.92,Caption,,0,0,0,,I don't know
-Dialogue: 0,0:00:42.92,0:00:44.46,Caption,,0,0,0,,vibe coding a solution.
-Dialogue: 0,0:00:44.46,0:00:45.80,Caption,,0,0,0,,It's much harder to know
-Dialogue: 0,0:00:45.80,0:00:47.02,Caption,,0,0,0,,whether that's correct
-Dialogue: 0,0:00:47.02,0:00:48.14,Caption,,0,0,0,,even if you might have
-Dialogue: 0,0:00:48.14,0:00:49.89,Caption,,0,0,0,,substantial tests.
+Dialogue: 0,0:00:00.00,0:00:00.12,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think definitely the
+Dialogue: 0,0:00:00.12,0:00:00.54,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} definitely the
+Dialogue: 0,0:00:00.54,0:00:00.72,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}definitely{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:00.72,0:00:00.94,Caption,,0,0,600,,I think definitely {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.94,0:00:01.24,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}most{\c&H00FFFFFF\fscx100\fscy100} valuable thing we
+Dialogue: 0,0:00:01.24,0:00:01.48,Caption,,0,0,600,,most {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}valuable{\c&H00FFFFFF\fscx100\fscy100} thing we
+Dialogue: 0,0:00:01.48,0:00:01.64,Caption,,0,0,600,,most valuable {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}thing{\c&H00FFFFFF\fscx100\fscy100} we
+Dialogue: 0,0:00:01.64,0:00:01.76,Caption,,0,0,600,,most valuable thing {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.76,0:00:01.94,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} get from open
+Dialogue: 0,0:00:01.94,0:00:02.14,Caption,,0,0,600,,can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100} from open
+Dialogue: 0,0:00:02.14,0:00:02.40,Caption,,0,0,600,,can get {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100} open
+Dialogue: 0,0:00:02.40,0:00:02.66,Caption,,0,0,600,,can get from {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.66,0:00:03.18,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} is issues more
+Dialogue: 0,0:00:03.18,0:00:03.64,Caption,,0,0,600,,source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} issues more
+Dialogue: 0,0:00:03.64,0:00:04.10,Caption,,0,0,600,,source is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}issues{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:04.10,0:00:04.22,Caption,,0,0,600,,source is issues {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.22,0:00:04.36,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100} pull requests.
+Dialogue: 0,0:00:04.36,0:00:04.70,Caption,,0,0,600,,than {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pull{\c&H00FFFFFF\fscx100\fscy100} requests.
+Dialogue: 0,0:00:04.70,0:00:05.18,Caption,,0,0,600,,than pull {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}requests.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.18,0:00:05.56,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Think{\c&H00FFFFFF\fscx100\fscy100} this has been
+Dialogue: 0,0:00:05.56,0:00:05.66,Caption,,0,0,600,,Think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} has been
+Dialogue: 0,0:00:05.66,0:00:05.80,Caption,,0,0,600,,Think this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}has{\c&H00FFFFFF\fscx100\fscy100} been
+Dialogue: 0,0:00:05.80,0:00:06.00,Caption,,0,0,600,,Think this has {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}been{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.00,0:00:06.22,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}true{\c&H00FFFFFF\fscx100\fscy100} even before AI.
+Dialogue: 0,0:00:06.22,0:00:06.50,Caption,,0,0,600,,true {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}even{\c&H00FFFFFF\fscx100\fscy100} before AI.
+Dialogue: 0,0:00:06.50,0:00:06.88,Caption,,0,0,600,,true even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}before{\c&H00FFFFFF\fscx100\fscy100} AI.
+Dialogue: 0,0:00:06.88,0:00:07.33,Caption,,0,0,600,,true even before {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}AI.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.33,0:00:07.79,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Even{\c&H00FFFFFF\fscx100\fscy100} recently the
+Dialogue: 0,0:00:07.79,0:00:08.02,Caption,,0,0,600,,Even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}recently{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:08.02,0:00:08.82,Caption,,0,0,600,,Even recently {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.82,0:00:08.94,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}creator{\c&H00FFFFFF\fscx100\fscy100} of OpenClaw
+Dialogue: 0,0:00:08.94,0:00:09.18,Caption,,0,0,600,,creator {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} OpenClaw
+Dialogue: 0,0:00:09.18,0:00:09.89,Caption,,0,0,600,,creator of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}OpenClaw{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.89,0:00:10.53,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} telling me they
+Dialogue: 0,0:00:10.53,0:00:10.67,Caption,,0,0,600,,was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}telling{\c&H00FFFFFF\fscx100\fscy100} me they
+Dialogue: 0,0:00:10.67,0:00:10.83,Caption,,0,0,600,,was telling {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}me{\c&H00FFFFFF\fscx100\fscy100} they
+Dialogue: 0,0:00:10.83,0:00:10.97,Caption,,0,0,600,,was telling me {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.97,0:00:11.31,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}don't{\c&H00FFFFFF\fscx100\fscy100} actually accept
+Dialogue: 0,0:00:11.31,0:00:11.67,Caption,,0,0,600,,don't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} accept
+Dialogue: 0,0:00:11.67,0:00:11.91,Caption,,0,0,600,,don't actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}accept{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.91,0:00:12.23,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pull{\c&H00FFFFFF\fscx100\fscy100} requests anymore.
+Dialogue: 0,0:00:12.23,0:00:12.57,Caption,,0,0,600,,pull {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}requests{\c&H00FFFFFF\fscx100\fscy100} anymore.
+Dialogue: 0,0:00:12.57,0:00:13.08,Caption,,0,0,600,,pull requests {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}anymore.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.08,0:00:13.24,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}They{\c&H00FFFFFF\fscx100\fscy100} just accept
+Dialogue: 0,0:00:13.24,0:00:13.54,Caption,,0,0,600,,They {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} accept
+Dialogue: 0,0:00:13.54,0:00:13.92,Caption,,0,0,600,,They just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}accept{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.92,0:00:14.16,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}issues{\c&H00FFFFFF\fscx100\fscy100} because an
+Dialogue: 0,0:00:14.16,0:00:14.32,Caption,,0,0,600,,issues {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} an
+Dialogue: 0,0:00:14.32,0:00:14.64,Caption,,0,0,600,,issues because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.64,0:00:14.90,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}issue{\c&H00FFFFFF\fscx100\fscy100} is a prompt
+Dialogue: 0,0:00:14.90,0:00:15.64,Caption,,0,0,600,,issue {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} a prompt
+Dialogue: 0,0:00:15.64,0:00:15.90,Caption,,0,0,600,,issue is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} prompt
+Dialogue: 0,0:00:15.90,0:00:16.50,Caption,,0,0,600,,issue is a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}prompt{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.50,0:00:16.78,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}basically{\c&H00FFFFFF\fscx100\fscy100} to fix
+Dialogue: 0,0:00:16.78,0:00:16.94,Caption,,0,0,600,,basically {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} fix
+Dialogue: 0,0:00:16.94,0:00:17.24,Caption,,0,0,600,,basically to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fix{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.24,0:00:17.54,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.54,0:00:17.66,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} that's a user
+Dialogue: 0,0:00:17.66,0:00:17.78,Caption,,0,0,600,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} a user
+Dialogue: 0,0:00:17.78,0:00:18.06,Caption,,0,0,600,,And that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} user
+Dialogue: 0,0:00:18.06,0:00:18.48,Caption,,0,0,600,,And that's a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}user{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.48,0:00:18.68,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} going through
+Dialogue: 0,0:00:18.68,0:00:18.82,Caption,,0,0,600,,actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100} through
+Dialogue: 0,0:00:18.82,0:00:18.92,Caption,,0,0,600,,actually going {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}through{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.92,0:00:19.12,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} effort of typing
+Dialogue: 0,0:00:19.12,0:00:19.24,Caption,,0,0,600,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}effort{\c&H00FFFFFF\fscx100\fscy100} of typing
+Dialogue: 0,0:00:19.24,0:00:19.48,Caption,,0,0,600,,the effort {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} typing
+Dialogue: 0,0:00:19.48,0:00:19.70,Caption,,0,0,600,,the effort of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}typing{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.70,0:00:19.86,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out{\c&H00FFFFFF\fscx100\fscy100} what they run
+Dialogue: 0,0:00:19.86,0:00:20.02,Caption,,0,0,600,,out {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100} they run
+Dialogue: 0,0:00:20.02,0:00:20.28,Caption,,0,0,600,,out what {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100} run
+Dialogue: 0,0:00:20.28,0:00:20.54,Caption,,0,0,600,,out what they {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}run{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.54,0:00:21.52,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}into.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.93,0:00:22.01,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}If{\c&H00FFFFFF\fscx100\fscy100} you think about
+Dialogue: 0,0:00:22.01,0:00:22.29,Caption,,0,0,600,,If {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} think about
+Dialogue: 0,0:00:22.29,0:00:22.49,Caption,,0,0,600,,If you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} about
+Dialogue: 0,0:00:22.49,0:00:22.77,Caption,,0,0,600,,If you think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}about{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.77,0:00:22.91,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}where{\c&H00FFFFFF\fscx100\fscy100} we're going
+Dialogue: 0,0:00:22.91,0:00:23.11,Caption,,0,0,600,,where {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we're{\c&H00FFFFFF\fscx100\fscy100} going
+Dialogue: 0,0:00:23.11,0:00:23.49,Caption,,0,0,600,,where we're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.49,0:00:23.71,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we're{\c&H00FFFFFF\fscx100\fscy100} building
+Dialogue: 0,0:00:23.71,0:00:24.03,Caption,,0,0,600,,we're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}building{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.03,0:00:24.47,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software{\c&H00FFFFFF\fscx100\fscy100} factories.
+Dialogue: 0,0:00:24.47,0:00:25.25,Caption,,0,0,600,,software {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}factories.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.25,0:00:25.55,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}We{\c&H00FFFFFF\fscx100\fscy100} trust more the
+Dialogue: 0,0:00:25.55,0:00:25.95,Caption,,0,0,600,,We {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trust{\c&H00FFFFFF\fscx100\fscy100} more the
+Dialogue: 0,0:00:25.95,0:00:26.47,Caption,,0,0,600,,We trust {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:26.47,0:00:26.79,Caption,,0,0,600,,We trust more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.79,0:00:26.97,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}factory{\c&H00FFFFFF\fscx100\fscy100} that we've
+Dialogue: 0,0:00:26.97,0:00:27.13,Caption,,0,0,600,,factory {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} we've
+Dialogue: 0,0:00:27.13,0:00:27.47,Caption,,0,0,600,,factory that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we've{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.47,0:00:27.65,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}built{\c&H00FFFFFF\fscx100\fscy100} and all the
+Dialogue: 0,0:00:27.65,0:00:27.77,Caption,,0,0,600,,built {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} all the
+Dialogue: 0,0:00:27.77,0:00:27.89,Caption,,0,0,600,,built and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}all{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:27.89,0:00:28.19,Caption,,0,0,600,,built and all {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.19,0:00:28.35,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}rules{\c&H00FFFFFF\fscx100\fscy100} that we've
+Dialogue: 0,0:00:28.35,0:00:28.51,Caption,,0,0,600,,rules {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} we've
+Dialogue: 0,0:00:28.51,0:00:28.97,Caption,,0,0,600,,rules that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we've{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.97,0:00:29.33,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}applied{\c&H00FFFFFF\fscx100\fscy100} rather than
+Dialogue: 0,0:00:29.33,0:00:29.55,Caption,,0,0,600,,applied {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}rather{\c&H00FFFFFF\fscx100\fscy100} than
+Dialogue: 0,0:00:29.55,0:00:29.77,Caption,,0,0,600,,applied rather {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.77,0:00:30.07,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100} random person
+Dialogue: 0,0:00:30.07,0:00:30.43,Caption,,0,0,600,,some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}random{\c&H00FFFFFF\fscx100\fscy100} person
+Dialogue: 0,0:00:30.43,0:00:30.57,Caption,,0,0,600,,some random {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}person{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.57,0:00:30.77,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} coming along
+Dialogue: 0,0:00:30.77,0:00:31.11,Caption,,0,0,600,,that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}coming{\c&H00FFFFFF\fscx100\fscy100} along
+Dialogue: 0,0:00:31.11,0:00:31.29,Caption,,0,0,600,,that's coming {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}along{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.29,0:00:31.65,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} just
+Dialogue: 0,0:00:31.65,0:00:31.85,Caption,,0,0,600,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.85,0:00:31.95,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} don't know
+Dialogue: 0,0:00:31.95,0:00:32.03,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}don't{\c&H00FFFFFF\fscx100\fscy100} know
+Dialogue: 0,0:00:32.03,0:00:32.23,Caption,,0,0,600,,I don't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:32.23,0:00:32.51,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vibe{\c&H00FFFFFF\fscx100\fscy100} coding a
+Dialogue: 0,0:00:32.51,0:00:32.75,Caption,,0,0,600,,vibe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}coding{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:32.75,0:00:33.11,Caption,,0,0,600,,vibe coding {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.11,0:00:33.53,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}solution.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.53,0:00:33.73,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} much harder to
+Dialogue: 0,0:00:33.73,0:00:34.11,Caption,,0,0,600,,It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}much{\c&H00FFFFFF\fscx100\fscy100} harder to
+Dialogue: 0,0:00:34.11,0:00:34.33,Caption,,0,0,600,,It's much {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}harder{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:34.33,0:00:34.65,Caption,,0,0,600,,It's much harder {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:34.65,0:00:34.87,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100} whether that's
+Dialogue: 0,0:00:34.87,0:00:35.03,Caption,,0,0,600,,know {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whether{\c&H00FFFFFF\fscx100\fscy100} that's
+Dialogue: 0,0:00:35.03,0:00:35.47,Caption,,0,0,600,,know whether {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:35.47,0:00:36.09,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}correct{\c&H00FFFFFF\fscx100\fscy100} even if you
+Dialogue: 0,0:00:36.09,0:00:36.25,Caption,,0,0,600,,correct {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}even{\c&H00FFFFFF\fscx100\fscy100} if you
+Dialogue: 0,0:00:36.25,0:00:36.35,Caption,,0,0,600,,correct even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:36.35,0:00:36.55,Caption,,0,0,600,,correct even if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:36.55,0:00:36.79,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}might{\c&H00FFFFFF\fscx100\fscy100} have substantial
+Dialogue: 0,0:00:36.79,0:00:37.21,Caption,,0,0,600,,might {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} substantial
+Dialogue: 0,0:00:37.21,0:00:37.71,Caption,,0,0,600,,might have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}substantial{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:37.71,0:00:38.31,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}tests.{\c&H00FFFFFF\fscx100\fscy100}

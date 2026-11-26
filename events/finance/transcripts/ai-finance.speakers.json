@@ -1,0 +1,248 @@
+[
+ {
+  "start": 0.0,
+  "end": 56.0,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 56.0,
+  "end": 114.4,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 114.4,
+  "end": 116.8,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 116.8,
+  "end": 163.0,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 163.0,
+  "end": 207.0,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 207.0,
+  "end": 309.4,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 309.4,
+  "end": 342.2,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 342.2,
+  "end": 410.0,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 410.0,
+  "end": 427.8,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 427.8,
+  "end": 482.2,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 427.8,
+  "end": 482.0,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 482.0,
+  "end": 492.2,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 492.2,
+  "end": 652.9,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 652.9,
+  "end": 677.1,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 677.1,
+  "end": 760.5,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 760.5,
+  "end": 808.5,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 808.5,
+  "end": 971.0,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 971.0,
+  "end": 1040.9,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1040.9,
+  "end": 1143.4,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 1143.4,
+  "end": 1151.5,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1151.5,
+  "end": 1238.5,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 1238.5,
+  "end": 1331.9,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1331.9,
+  "end": 1367.9,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 1367.9,
+  "end": 1437.9,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1437.9,
+  "end": 1479.6,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 1479.6,
+  "end": 1502.0,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1502.0,
+  "end": 1531.3,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 1531.3,
+  "end": 1566.0,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1566.0,
+  "end": 1642.7,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 1642.7,
+  "end": 1650.5,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1650.5,
+  "end": 1726.1,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 1726.1,
+  "end": 1779.5,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1779.5,
+  "end": 1850.4,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 1850.4,
+  "end": 1857.4,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1857.4,
+  "end": 1876.5,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 1876.5,
+  "end": 1895.0,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1271.9,
+  "end": 1367.5,
+  "speaker": "Matt Ghering",
+  "from": "set"
+ },
+ {
+  "start": 1367.45,
+  "end": 1397.9,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1397.9,
+  "end": 1479.6,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ },
+ {
+  "start": 1531.3,
+  "end": 1569.2,
+  "speaker": "Jeff Sant",
+  "from": "set"
+ },
+ {
+  "start": 1569.2,
+  "end": 1642.7,
+  "speaker": "Sruthi Lanka",
+  "from": "set"
+ }
+]
