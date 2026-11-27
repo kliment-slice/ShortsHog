@@ -7,47 +7,136 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00DFB32B}Tom Piccirello (PostHog)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Agents will ship fewer
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}vulnerabilities than
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}humans ever did”
-Dialogue: 0,0:00:00.00,0:00:00.64,Caption,,0,0,0,,Maybe many of your
-Dialogue: 0,0:00:00.64,0:00:00.91,Caption,,0,0,0,,companies
-Dialogue: 0,0:00:00.91,0:00:01.17,Caption,,0,0,0,,agents
-Dialogue: 0,0:00:01.17,0:00:02.35,Caption,,0,0,0,,are already writing all
-Dialogue: 0,0:00:02.35,0:00:03.62,Caption,,0,0,0,,code agents are
-Dialogue: 0,0:00:03.62,0:00:04.76,Caption,,0,0,0,,incredible at finding
-Dialogue: 0,0:00:04.76,0:00:05.73,Caption,,0,0,0,,vulnerabilities but I
-Dialogue: 0,0:00:05.73,0:00:06.47,Caption,,0,0,0,,also fundamentally
-Dialogue: 0,0:00:06.47,0:00:07.11,Caption,,0,0,0,,believe they will get
-Dialogue: 0,0:00:07.11,0:00:08.55,Caption,,0,0,0,,better and better at not
-Dialogue: 0,0:00:08.60,0:00:09.86,Caption,,0,0,0,,writing vulnerabilities
-Dialogue: 0,0:00:09.86,0:00:10.40,Caption,,0,0,0,,and you need to give
-Dialogue: 0,0:00:10.40,0:00:11.24,Caption,,0,0,0,,them enough context and
-Dialogue: 0,0:00:11.24,0:00:12.18,Caption,,0,0,0,,a good test harness to
-Dialogue: 0,0:00:12.18,0:00:14.20,Caption,,0,0,0,,not do that but to me
-Dialogue: 0,0:00:14.20,0:00:14.78,Caption,,0,0,0,,the light at the end of
-Dialogue: 0,0:00:14.78,0:00:16.06,Caption,,0,0,0,,the tunnel is agents
-Dialogue: 0,0:00:16.06,0:00:16.88,Caption,,0,0,0,,write all the code and
-Dialogue: 0,0:00:16.88,0:00:18.10,Caption,,0,0,0,,they are shipping fewer
-Dialogue: 0,0:00:18.10,0:00:18.72,Caption,,0,0,0,,vulnerabilities than
-Dialogue: 0,0:00:18.72,0:00:20.50,Caption,,0,0,0,,humans ever would have
-Dialogue: 0,0:00:20.50,0:00:21.28,Caption,,0,0,0,,and maybe it scales up
-Dialogue: 0,0:00:21.28,0:00:21.80,Caption,,0,0,0,,because they're also
-Dialogue: 0,0:00:21.80,0:00:23.04,Caption,,0,0,0,,shipping more code but
-Dialogue: 0,0:00:23.04,0:00:23.78,Caption,,0,0,0,,yeah I fundamentally
-Dialogue: 0,0:00:23.78,0:00:24.48,Caption,,0,0,0,,believe we can get to a
-Dialogue: 0,0:00:24.48,0:00:26.06,Caption,,0,0,0,,point where agents are
-Dialogue: 0,0:00:26.06,0:00:27.20,Caption,,0,0,0,,shipping fewer and fewer
-Dialogue: 0,0:00:27.38,0:00:28.48,Caption,,0,0,0,,vulnerabilities and so
-Dialogue: 0,0:00:28.48,0:00:29.50,Caption,,0,0,0,,that's exciting to me
-Dialogue: 0,0:00:29.50,0:00:30.55,Caption,,0,0,0,,because that just leads
-Dialogue: 0,0:00:30.55,0:00:31.69,Caption,,0,0,0,,to better more secure
-Dialogue: 0,0:00:31.69,0:00:33.75,Caption,,0,0,0,,code that reduces your
-Dialogue: 0,0:00:33.75,0:00:34.81,Caption,,0,0,0,,risk from day one
+Dialogue: 0,0:00:00.00,0:00:00.18,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Maybe{\c&H00FFFFFF\fscx100\fscy100} many of your
+Dialogue: 0,0:00:00.18,0:00:00.30,Caption,,0,0,450,,Maybe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}many{\c&H00FFFFFF\fscx100\fscy100} of your
+Dialogue: 0,0:00:00.30,0:00:00.38,Caption,,0,0,450,,Maybe many {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} your
+Dialogue: 0,0:00:00.38,0:00:00.64,Caption,,0,0,450,,Maybe many of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.64,0:00:00.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}companies{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.91,0:00:01.17,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.17,0:00:01.53,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100} already writing
+Dialogue: 0,0:00:01.53,0:00:01.83,Caption,,0,0,450,,are {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}already{\c&H00FFFFFF\fscx100\fscy100} writing
+Dialogue: 0,0:00:01.83,0:00:02.01,Caption,,0,0,450,,are already {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}writing{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.01,0:00:02.35,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}all{\c&H00FFFFFF\fscx100\fscy100} code agents are
+Dialogue: 0,0:00:02.35,0:00:03.00,Caption,,0,0,450,,all {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}code{\c&H00FFFFFF\fscx100\fscy100} agents are
+Dialogue: 0,0:00:03.00,0:00:03.18,Caption,,0,0,450,,all code {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100} are
+Dialogue: 0,0:00:03.18,0:00:03.62,Caption,,0,0,450,,all code agents {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.62,0:00:03.86,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}incredible{\c&H00FFFFFF\fscx100\fscy100} at finding
+Dialogue: 0,0:00:03.86,0:00:04.26,Caption,,0,0,450,,incredible {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} finding
+Dialogue: 0,0:00:04.26,0:00:04.76,Caption,,0,0,450,,incredible at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}finding{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.76,0:00:05.25,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vulnerabilities{\c&H00FFFFFF\fscx100\fscy100} but I
+Dialogue: 0,0:00:05.25,0:00:05.41,Caption,,0,0,450,,vulnerabilities {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} I
+Dialogue: 0,0:00:05.41,0:00:05.73,Caption,,0,0,450,,vulnerabilities but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.73,0:00:06.19,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}also{\c&H00FFFFFF\fscx100\fscy100} fundamentally
+Dialogue: 0,0:00:06.19,0:00:06.47,Caption,,0,0,450,,also {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fundamentally{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.47,0:00:06.65,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}believe{\c&H00FFFFFF\fscx100\fscy100} they will get
+Dialogue: 0,0:00:06.65,0:00:06.75,Caption,,0,0,450,,believe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100} will get
+Dialogue: 0,0:00:06.75,0:00:06.87,Caption,,0,0,450,,believe they {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}will{\c&H00FFFFFF\fscx100\fscy100} get
+Dialogue: 0,0:00:06.87,0:00:07.11,Caption,,0,0,450,,believe they will {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.11,0:00:07.23,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}better{\c&H00FFFFFF\fscx100\fscy100} and better at
+Dialogue: 0,0:00:07.23,0:00:07.41,Caption,,0,0,450,,better {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} better at
+Dialogue: 0,0:00:07.41,0:00:07.63,Caption,,0,0,450,,better and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}better{\c&H00FFFFFF\fscx100\fscy100} at
+Dialogue: 0,0:00:07.63,0:00:08.20,Caption,,0,0,450,,better and better {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.20,0:00:08.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} writing
+Dialogue: 0,0:00:08.60,0:00:09.16,Caption,,0,0,450,,not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}writing{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.16,0:00:09.86,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vulnerabilities{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:09.86,0:00:09.94,Caption,,0,0,450,,vulnerabilities {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.94,0:00:10.06,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} need to give them
+Dialogue: 0,0:00:10.06,0:00:10.14,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}need{\c&H00FFFFFF\fscx100\fscy100} to give them
+Dialogue: 0,0:00:10.14,0:00:10.28,Caption,,0,0,450,,you need {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} give them
+Dialogue: 0,0:00:10.28,0:00:10.40,Caption,,0,0,450,,you need to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}give{\c&H00FFFFFF\fscx100\fscy100} them
+Dialogue: 0,0:00:10.40,0:00:10.60,Caption,,0,0,450,,you need to give {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}them{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.60,0:00:10.98,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}enough{\c&H00FFFFFF\fscx100\fscy100} context and a
+Dialogue: 0,0:00:10.98,0:00:11.18,Caption,,0,0,450,,enough {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}context{\c&H00FFFFFF\fscx100\fscy100} and a
+Dialogue: 0,0:00:11.18,0:00:11.24,Caption,,0,0,450,,enough context {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:11.24,0:00:11.34,Caption,,0,0,450,,enough context and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.34,0:00:11.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}good{\c&H00FFFFFF\fscx100\fscy100} test harness to
+Dialogue: 0,0:00:11.60,0:00:11.86,Caption,,0,0,450,,good {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}test{\c&H00FFFFFF\fscx100\fscy100} harness to
+Dialogue: 0,0:00:11.86,0:00:12.04,Caption,,0,0,450,,good test {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}harness{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:12.04,0:00:12.18,Caption,,0,0,450,,good test harness {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.18,0:00:12.36,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} do that but to me
+Dialogue: 0,0:00:12.36,0:00:12.60,Caption,,0,0,450,,not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} that but to me
+Dialogue: 0,0:00:12.60,0:00:13.26,Caption,,0,0,450,,not do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} but to me
+Dialogue: 0,0:00:13.26,0:00:14.00,Caption,,0,0,450,,not do that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} to me
+Dialogue: 0,0:00:14.00,0:00:14.10,Caption,,0,0,450,,not do that but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} me
+Dialogue: 0,0:00:14.10,0:00:14.20,Caption,,0,0,450,,not do that but to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}me{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.20,0:00:14.36,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} light at the end
+Dialogue: 0,0:00:14.36,0:00:14.48,Caption,,0,0,450,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}light{\c&H00FFFFFF\fscx100\fscy100} at the end
+Dialogue: 0,0:00:14.48,0:00:14.52,Caption,,0,0,450,,the light {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} the end
+Dialogue: 0,0:00:14.52,0:00:14.60,Caption,,0,0,450,,the light at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} end
+Dialogue: 0,0:00:14.60,0:00:14.68,Caption,,0,0,450,,the light at the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}end{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.68,0:00:14.78,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} the tunnel is
+Dialogue: 0,0:00:14.78,0:00:15.00,Caption,,0,0,450,,of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} tunnel is
+Dialogue: 0,0:00:15.00,0:00:15.52,Caption,,0,0,450,,of the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}tunnel{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:15.52,0:00:15.84,Caption,,0,0,450,,of the tunnel {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.84,0:00:16.06,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100} write all the
+Dialogue: 0,0:00:16.06,0:00:16.18,Caption,,0,0,450,,agents {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}write{\c&H00FFFFFF\fscx100\fscy100} all the
+Dialogue: 0,0:00:16.18,0:00:16.26,Caption,,0,0,450,,agents write {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}all{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:16.26,0:00:16.52,Caption,,0,0,450,,agents write all {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.52,0:00:16.74,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}code{\c&H00FFFFFF\fscx100\fscy100} and they are
+Dialogue: 0,0:00:16.74,0:00:16.88,Caption,,0,0,450,,code {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} they are
+Dialogue: 0,0:00:16.88,0:00:16.98,Caption,,0,0,450,,code and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100} are
+Dialogue: 0,0:00:16.98,0:00:17.24,Caption,,0,0,450,,code and they {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.24,0:00:17.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}shipping{\c&H00FFFFFF\fscx100\fscy100} fewer
+Dialogue: 0,0:00:17.60,0:00:18.10,Caption,,0,0,450,,shipping {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fewer{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.10,0:00:18.40,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vulnerabilities{\c&H00FFFFFF\fscx100\fscy100} than
+Dialogue: 0,0:00:18.40,0:00:18.72,Caption,,0,0,450,,vulnerabilities {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.72,0:00:19.10,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}humans{\c&H00FFFFFF\fscx100\fscy100} ever would have
+Dialogue: 0,0:00:19.10,0:00:19.40,Caption,,0,0,450,,humans {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ever{\c&H00FFFFFF\fscx100\fscy100} would have
+Dialogue: 0,0:00:19.40,0:00:19.70,Caption,,0,0,450,,humans ever {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}would{\c&H00FFFFFF\fscx100\fscy100} have
+Dialogue: 0,0:00:19.70,0:00:20.50,Caption,,0,0,450,,humans ever would {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.50,0:00:20.66,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} maybe it scales up
+Dialogue: 0,0:00:20.66,0:00:20.78,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maybe{\c&H00FFFFFF\fscx100\fscy100} it scales up
+Dialogue: 0,0:00:20.78,0:00:20.98,Caption,,0,0,450,,and maybe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} scales up
+Dialogue: 0,0:00:20.98,0:00:21.14,Caption,,0,0,450,,and maybe it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}scales{\c&H00FFFFFF\fscx100\fscy100} up
+Dialogue: 0,0:00:21.14,0:00:21.28,Caption,,0,0,450,,and maybe it scales {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.28,0:00:21.38,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} they're also
+Dialogue: 0,0:00:21.38,0:00:21.54,Caption,,0,0,450,,because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they're{\c&H00FFFFFF\fscx100\fscy100} also
+Dialogue: 0,0:00:21.54,0:00:21.80,Caption,,0,0,450,,because they're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}also{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.80,0:00:21.98,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}shipping{\c&H00FFFFFF\fscx100\fscy100} more code but
+Dialogue: 0,0:00:21.98,0:00:22.36,Caption,,0,0,450,,shipping {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} code but
+Dialogue: 0,0:00:22.36,0:00:22.88,Caption,,0,0,450,,shipping more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}code{\c&H00FFFFFF\fscx100\fscy100} but
+Dialogue: 0,0:00:22.88,0:00:23.04,Caption,,0,0,450,,shipping more code {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.04,0:00:23.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}yeah{\c&H00FFFFFF\fscx100\fscy100} I fundamentally
+Dialogue: 0,0:00:23.14,0:00:23.54,Caption,,0,0,450,,yeah {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} fundamentally
+Dialogue: 0,0:00:23.54,0:00:23.78,Caption,,0,0,450,,yeah I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fundamentally{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.78,0:00:23.92,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}believe{\c&H00FFFFFF\fscx100\fscy100} we can get to
+Dialogue: 0,0:00:23.92,0:00:24.00,Caption,,0,0,450,,believe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} can get to
+Dialogue: 0,0:00:24.00,0:00:24.10,Caption,,0,0,450,,believe we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} get to
+Dialogue: 0,0:00:24.10,0:00:24.22,Caption,,0,0,450,,believe we can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:24.22,0:00:24.32,Caption,,0,0,450,,believe we can get {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.32,0:00:24.48,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} point where agents
+Dialogue: 0,0:00:24.48,0:00:24.70,Caption,,0,0,450,,a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}point{\c&H00FFFFFF\fscx100\fscy100} where agents
+Dialogue: 0,0:00:24.70,0:00:25.08,Caption,,0,0,450,,a point {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}where{\c&H00FFFFFF\fscx100\fscy100} agents
+Dialogue: 0,0:00:25.08,0:00:25.36,Caption,,0,0,450,,a point where {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.36,0:00:26.06,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100} shipping fewer and
+Dialogue: 0,0:00:26.06,0:00:26.44,Caption,,0,0,450,,are {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}shipping{\c&H00FFFFFF\fscx100\fscy100} fewer and
+Dialogue: 0,0:00:26.44,0:00:26.60,Caption,,0,0,450,,are shipping {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fewer{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:26.60,0:00:26.80,Caption,,0,0,450,,are shipping fewer {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.80,0:00:27.38,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fewer{\c&H00FFFFFF\fscx100\fscy100} vulnerabilities
+Dialogue: 0,0:00:27.38,0:00:28.06,Caption,,0,0,450,,fewer {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vulnerabilities{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.06,0:00:28.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} so that's exciting
+Dialogue: 0,0:00:28.20,0:00:28.48,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} that's exciting
+Dialogue: 0,0:00:28.48,0:00:28.94,Caption,,0,0,450,,and so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} exciting
+Dialogue: 0,0:00:28.94,0:00:29.14,Caption,,0,0,450,,and so that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}exciting{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.14,0:00:29.26,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} me because that
+Dialogue: 0,0:00:29.26,0:00:29.50,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}me{\c&H00FFFFFF\fscx100\fscy100} because that
+Dialogue: 0,0:00:29.50,0:00:29.80,Caption,,0,0,450,,to me {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:29.80,0:00:30.02,Caption,,0,0,450,,to me because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.02,0:00:30.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} leads to better
+Dialogue: 0,0:00:30.28,0:00:30.55,Caption,,0,0,450,,just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}leads{\c&H00FFFFFF\fscx100\fscy100} to better
+Dialogue: 0,0:00:30.55,0:00:30.79,Caption,,0,0,450,,just leads {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} better
+Dialogue: 0,0:00:30.79,0:00:31.03,Caption,,0,0,450,,just leads to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}better{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.03,0:00:31.35,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} secure code that
+Dialogue: 0,0:00:31.35,0:00:31.69,Caption,,0,0,450,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}secure{\c&H00FFFFFF\fscx100\fscy100} code that
+Dialogue: 0,0:00:31.69,0:00:32.01,Caption,,0,0,450,,more secure {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}code{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:32.01,0:00:33.14,Caption,,0,0,450,,more secure code {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.14,0:00:33.51,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}reduces{\c&H00FFFFFF\fscx100\fscy100} your risk from
+Dialogue: 0,0:00:33.51,0:00:33.75,Caption,,0,0,450,,reduces {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} risk from
+Dialogue: 0,0:00:33.75,0:00:33.95,Caption,,0,0,450,,reduces your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}risk{\c&H00FFFFFF\fscx100\fscy100} from
+Dialogue: 0,0:00:33.95,0:00:34.13,Caption,,0,0,450,,reduces your risk {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:34.13,0:00:34.45,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}day{\c&H00FFFFFF\fscx100\fscy100} one
+Dialogue: 0,0:00:34.45,0:00:34.81,Caption,,0,0,450,,day {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}one{\c&H00FFFFFF\fscx100\fscy100}

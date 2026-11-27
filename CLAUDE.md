@@ -1,6 +1,6 @@
 # ShortsHog
 
-Turns PostHog panel recordings into long-form 16:9 edits and 9:16 portrait shorts,
+Turns PostHog panel recordings into long-form 16:9 edits and 3:4 portrait shorts,
 in a look that should be recognisable at first glance.
 
 **Core tenet: make the output content dynamic; the speaker's point is the content.** Optimise for a
@@ -21,6 +21,7 @@ cuts and renders. Panel context comes from the `granola` MCP.
   - `stills/` camera frame grabs for crops (gitignored)
   - `transcripts/` whisper output + speaker labels (JSON committed, WAVs not), `renders/` final mp4s
   - `shorts.json`: the selected shorts
+  - `posts/`: one X upload sheet per short (`<id>.md`, committed) and its thumbnail (`<id>.jpg`, not)
 - `scripts/`: python helpers. Always run with `.venv/bin/python scripts/<x>.py`
 - `models/ggml-large-v3-turbo.bin`: whisper model (gitignored)
 - `FORMAT.md`: the rules every output follows (context and accuracy, pacing, look). Read it before
@@ -41,7 +42,7 @@ Each step is a slash command in `.claude/commands/`.
    "Name (Company): ...". Panel order is kept; the cold open is the only out-of-order clip.
    → `longform/<panel>.mp4`
 4. `/shortform <event> <panel> [ids]`: at most 2 anchors per panel (often 0) pass the selection gates
-   in FORMAT.md and become 9:16 portrait shorts (1080x1920): `shortform.py`, specs under `shorts:` in the
+   in FORMAT.md and become 3:4 portrait shorts (1080x1440; on X the full-screen player letterboxes 3:4, so its buttons and the post text stay off the summary and captions): `shortform.py`, specs under `shorts:` in the
    story file. Claim, context, evidence, payoff: frame 1 is the hook's first word (the claim, as strong
    as the speaker said it), a hard cut to the meat, ending on the payoff sentence; no title card, no wipe.
    On screen: the summary band across the top fifth from frame 1 (thumbnail-generator style: a brand
@@ -67,12 +68,18 @@ Each step is a slash command in `.claude/commands/`.
    in the short's colour), a name strap just under the captions for the first seconds, boxless outlined
    captions with the spoken word lit, the call's own name tag painted out. FORMAT.md "## Tile short".
    → `tileshort/<id>.mp4`. With one track the mic-level silence check misfires: real words get a `note`.
-5. `/select <event>`: Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
-6. `/cut <event>`: `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
+5. `/post <event> [panel] [ids]`: the X post for each rendered short, written in PostHog's voice
+   (`copy-writing-for-dummies` skill) under `post:` in its spec; `post.py` checks it against X's limits and the
+   house style, checks the video against X's upload limits, renders a caption-free thumbnail
+   (`shortform.py --thumb`) and writes `posts/<id>.md`, the upload form's fields in order (post text,
+   thumbnail, title, description, category, call to action, embedding, downloads, restrictions; event.yaml
+   `social`). Nothing is posted automatically. → `posts/<id>.md` + `.jpg`, `posts/index.md`
+6. `/select <event>`: Granola → shortlist → whisper timestamps → `shorts.json`. **Stops for approval**
+7. `/cut <event>`: `cut.py`: camera per speaker, mic mix, b-roll, captions → `renders/<id>.mp4`.
    Only after approval
-7. `/review <event>`: `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
+8. `/review <event>`: `review.py` serves 127.0.0.1:8765: status, trim, hook and caption text,
    re-render one short. Writes shorts.json (keeps shorts.json.bak)
-8. `/export <event> [ids]`: `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
+9. `/export <event> [ids]`: `export_fcpxml.py` → `exports/<id>.fcpxml` + `.srt` + `.resolve.txt`
    for hand editing in Resolve. Only for shorts that need it. One-way; marks them `edited-in-resolve`
 
 ## Time

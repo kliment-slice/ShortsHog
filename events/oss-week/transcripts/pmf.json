@@ -6484,83 +6484,93 @@
   },
   {
    "w": "it's",
-   "start": 379.65,
-   "end": 380.042,
+   "start": 379.62,
+   "end": 379.76,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "called",
-   "start": 380.042,
-   "end": 380.434,
+   "start": 379.76,
+   "end": 380.04,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "Better",
-   "start": 380.434,
-   "end": 380.826,
+   "start": 380.04,
+   "end": 380.43,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "Auth,",
-   "start": 380.826,
-   "end": 381.218,
+   "start": 380.43,
+   "end": 380.82,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "that",
-   "start": 381.218,
-   "end": 381.61,
+   "start": 381.6,
+   "end": 381.7,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "is",
-   "start": 381.61,
-   "end": 382.002,
+   "start": 381.7,
+   "end": 381.86,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "now",
-   "start": 382.002,
-   "end": 382.394,
+   "start": 381.86,
+   "end": 382.12,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "part",
-   "start": 382.394,
-   "end": 382.786,
+   "start": 382.12,
+   "end": 382.3,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "of",
-   "start": 382.786,
-   "end": 383.178,
+   "start": 382.3,
+   "end": 382.58,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "Vercel,",
-   "start": 383.178,
-   "end": 383.57,
+   "start": 382.58,
+   "end": 383.18,
    "p": 0.747,
    "speaker": "Yonas Beshawred",
-   "heard": "it's that is now part of Vercel,"
+   "heard": "it's that is now part of Vercel,",
+   "note": "times from the second whisper pass (fillers.json): the hand-placed ones put \"Auth\" on the um"
   },
   {
    "w": "and",
@@ -16873,10 +16883,11 @@
   },
   {
    "w": "agents",
-   "start": 894.03,
+   "start": 893.74,
    "end": 894.29,
    "p": 0.531,
-   "speaker": "Shengkun Ye"
+   "speaker": "Shengkun Ye",
+   "note": "start from a word-level whisper pass: the short opening on it clipped \"agents\""
   },
   {
    "w": "are",

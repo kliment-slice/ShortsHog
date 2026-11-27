@@ -73,35 +73,77 @@ shorts:
   - id: pmf-users-got-mad
     speaker: Shengkun Ye
     anchor: "PMF was the moment our users got mad at us"
-    from: "Yeah, I feel like for us, it was the moment"
-    to: "we are solving a real problem."
-    rejected: the take needs the host's question to make sense
+    title_key: "our users got mad at us"
+    color: coral
+    post:
+      text: |-
+        Shengkun Ye knew Monid had product-market fit when its users got mad at it.
+
+        After a month with no feedback at all, they made the positioning clearer. Then came long emails about why the product sucks. "We are solving a real problem."
+    key: "so mad at us"
+    parts:
+      - {from: "it was the moment that our users were so mad at us.", to: "really care about the problem you're solving."}
+      - {from: "we got really long like a user email", to: "really solve that problem really well and at all"}
+      - {from: "But before that, like, we actually have at least one month", to: "could not get any user feedback."}
+      - {from: "And after that, we make some changes", to: "we are solving a real problem."}
   - id: pmf-self-host-inbound
     speaker: Hang Huang
     anchor: "First signal: users asking how to self-host it"
-    from: "Yeah, for us was probably in the moment"
-    to: "this product somehow is working"
-    rejected: the take needs the host's question to make sense
+    title_key: "how to self-host it"
+    color: blue
+    post:
+      text: |-
+        Hang Huang's first sign InsForge was working wasn't GitHub stars.
+
+        It was users writing in to say the self-hosting instructions in the README were really bad, and asking how to get it running.
+    key: "cooking my first version"
+    parts:
+      - {from: "I was cooking my first version of the product", to: "on my local laptop and it's working."}
+      - {from: "I just like open source it", to: "this product somehow is working"}
   - id: pmf-free-ci-still-paid
     speaker: Yonas Beshawred
     anchor: "CI is free for open source. Paying anyway means real pain."
-    from: "Yeah, so for us, we actually started off with a very different product"
-    to: "that was the beginning of it"
-    rejected: 'pitch: intro, company or product description'
+    title_key: "Paying anyway means real pain."
+    color: violet
+    post:
+      text: |-
+        Open source projects get CI for free. So when Better Auth moved to StarSling's runners anyway, Yonas Beshawred knew it was a real pain point.
+
+        That was StarSling's first sign of product-market fit.
+    key: "first signs of product market fit"
+    parts:
+      - {from: "we saw the first signs of product market fit", to: "because it's free, right?"}
+      - {from: "If you're an open source project, you get CI for free.", to: "you're willing to pay money for it"}
   - id: pmf-baked-into-agents
     speaker: Hang Huang
     anchor: "Open source gets you baked into what agents recommend"
-    from: "people underestimate how good it is"
-    to: "one of the default solutions."
-    rejected: overlaps a pick
+    title_key: "baked into what agents recommend"
+    color: green
+    post:
+      text: |-
+        Hang Huang thinks people underestimate open source as a distribution channel for agents.
+
+        Ask an agent for the best tool for a job and it answers from its training data. Forks, contributions, and people talking about you add weight there. That's how you become a default answer.
+    key: "underestimate how good it is"
+    parts:
+      - {from: "people underestimate how good it is", to: "one of the default solutions."}
   - id: pmf-what-claude-picks
     speaker: Yonas Beshawred
     anchor: "Claude picks GitHub Actions 97% of the time, so we started there"
+    title_key: "97% of the time"
+    color: tangerine
+    post:
+      text: |-
+        Ask Claude for a CI tool and it picks GitHub Actions about 97% of the time, according to a report Yonas Beshawred saw. So StarSling started there.
+
+        Even if your product isn't for agents, you're building for humans and agents at the same time.
+    key: "in the training set"
     hook: if you have SEO, then you'll be in the training set, and then you'll be recommended, and it's just a loop, right?
     from: someone put out this report
     to: so you kind of have to account for both.
-    skip:
-      - so we were thinking like, you know, the proper way to do CI, you kind of have an engine that does aggressive caching and test selection, but, you know, we saw that and we were like, okay, well, clearly there's one place you should start, which is GitHub Actions, so I think even if you're not,
+    skip:  # keep "clearly there's one place you should start, which is GitHub Actions": the summary says so
+      - so we were thinking like, you know, the proper way to do CI, you kind of have an engine that does aggressive caching and test selection, but, you know, we saw that and we were like, okay, well,
+      - so I think even if you're not,
     payoff: building for humans and agents at the same time
     beats:
       - kind: topic_shift
@@ -124,12 +166,27 @@ shorts:
   - id: pmf-agents-compare
     speaker: Shengkun Ye
     anchor: "Agents tell users: Monid is open source, use that"
-    from: "Yeah, what we found out from our users is that"
-    to: "so you probably can use that"
-    rejected: 'pitch: intro, company or product description'
+    title_key: "Monid is open source, use that"
+    color: purple
+    post:
+      text: |-
+        Shengkun Ye's users now ask their agents to compare Monid with its competitors.
+
+        The agents bring up whether you're open source and how many GitHub stars you have, then tell their humans: Monid is open source, so you can probably use that.
+    key: "compare you with your competitors"
+    parts:
+      - {from: "what we found out from our users is that", to: "so you probably can use that"}
   - id: pmf-500-vs-10k-stars
     speaker: Hang Huang
     anchor: "At 500 stars agents didn't trust us. At 10K: pretty legit."
+    title_key: "At 10K: pretty legit."
+    color: cobalt
+    post:
+      text: |-
+        At 500 GitHub stars, agents told people they wouldn't trust InsForge. A year later, at 10K stars: "this product is pretty legit."
+
+        Hang Huang's verdict: "the agents, they're not that smart."
+    key: "not that smart"
     hook: the agents, they're not that smart, right?
     from: we started as a 500 stars
     to: this product is pretty legit.
@@ -147,42 +204,101 @@ shorts:
   - id: pmf-skills-entry-point
     speaker: Yonas Beshawred
     anchor: "Skills are a free, low-friction way in"
-    from: "so for us, we've released skills"
-    to: "npx skills add, right?"
-    rejected: 'pitch: intro, company or product description'
+    title_key: "low-friction way in"
+    color: corn_blue
+    post:
+      text: |-
+        StarSling released skills, and Yonas Beshawred says they've become a really great way for people to discover it.
+
+        They're free and low friction: you speed up your own CI with the skill in your own agent, without signing up. A year ago that wasn't a go-to-market strategy.
+    key: "released skills"
+    parts:
+      - {from: "we've released skills", to: "a really great way for people to discover us."}
+      - {from: "skills have actually become a really interesting entry point", to: "without having to sign up for it necessarily."}
+      - {from: "It wasn't really a real go-to-market strategy", to: "use the skill in your own agent."}
   - id: pmf-star-to-fork
     speaker: Hang Huang
     anchor: "Stars are vanity. Watch star-to-fork ratio and live self-hosts."
-    from: "I think it definitely helps a lot."
-    to: "if people are actually using our open source"
-    rejected: rambles; no tight standalone line
+    headline: "Don't just count stars. Watch star-to-fork ratio and live self-hosts."
+    title_key: "star-to-fork ratio"
+    color: coral
+    post:
+      text: |-
+        Hang Huang doesn't just count GitHub stars. InsForge watches its star-to-fork ratio, because forks show how many developers actually try it.
+
+        Check-ins sent to PostHog show versions and setups, and heartbeats count the live self-hosted copies.
+    key: "built for investors"
+    parts:
+      - {from: "I personally don't think stars is something built for investors", to: "how many developers are actually using them"}
+      - {from: "we're also using some signal check-ins combined with PostHog", to: "how many live self-hosted versions are out there."}
+    # headline: the long form's "Stars are vanity" is stronger than he put it
   - id: pmf-suppliers-send-prs
     speaker: Shengkun Ye
     anchor: "Open sourcing made suppliers send their own PRs"
-    from: "Yeah, open source for us really help us with the PMF."
-    to: "suppliers also love us really well as well"
-    rejected: 'pitch: intro, company or product description'
+    title_key: "send their own PRs"
+    color: blue
+    post:
+      text: |-
+        Before Monid was open source, Shengkun Ye's team integrated every tool provider by hand.
+
+        After open sourcing it, providers started sending their own PRs: "I really want to be listed on Monid. I already submitted my PR. Can you please review it?"
+    key: "really help us with the PMF"
+    parts:
+      - {from: "open source for us really help us with the PMF.", to: "open source for us really help us with the PMF."}
+      - {from: "what we are not sure is that like how much leverage", to: "on our suppliers side."}
+      - {from: "at that time we did all the manual integration", to: "Can you please review it?"}
+      - {from: "that was the point i realized", to: "suppliers also love us really well as well"}
   - id: pmf-unified-billing
     speaker: Shengkun Ye
     anchor: "Agents do the integration. The value is pricing and unified billing."
-    from: "my next question gonna just be about"
-    to: "still within the hosted version."
-    rejected: 'pitch: intro, company or product description'
+    title_key: "pricing and unified billing."
+    color: green
+    post:
+      text: |-
+        Agents make integration work easy now, says Shengkun Ye, so that's not where Monid's value is.
+
+        It's the pricing and unified billing behind the scenes, which you only get from the hosted version, not the open source project.
+    key: "integration work"
+    parts:
+      - {from: "agents are so easy to do all the integration work.", to: "agents are so easy to do all the integration work."}
+      - {from: "our values here is not like help you to easily integrate", to: "not able to get directly from our open source project"}
+      - {from: "if you actually want to use it and fill the values out of it", to: "you need to use the hosted version."}
   - id: pmf-self-host-costs-more
     speaker: Hang Huang
     anchor: "Make self-hosting cost more than your managed version"
-    from: "I think there is a clear strategy for monetization"
-    to: "we've took so far"
-    rejected: decent, but weaker than this panel's two picks
+    title_key: "cost more than your managed version"
+    color: tangerine
+    post:
+      text: |-
+        Hang Huang's monetization strategy: make the open source project a full experience.
+
+        Running it in production needs observability, replicas, availability, and compliance, so self-hosting ends up costing more than the managed version. "Why wouldn't I use you?"
+    key: "clear strategy for monetization"
+    parts:
+      - {from: "there is a clear strategy for monetization", to: "that's kind of the strategy we've took"}
   - id: pmf-enterprise-pays
     speaker: Yonas Beshawred
     anchor: "Free to fork, but enterprises pay for security and availability"
-    from: "yeah I mean agreed one of our other customers"
-    to: "your internal resources on other things."
-    rejected: generic advice, nothing to disagree with
+    title_key: "enterprises pay"
+    color: violet
+    post:
+      text: |-
+        Open source, and still paid for: Yonas Beshawred points to Mastra, a StarSling customer. You can use it and fork it for free.
+
+        Enterprises pay anyway for security and availability, because they'd rather spend their own people on other things.
+    key: "also open source"
+    parts:
+      - {from: "one of our other customers is also open source", to: "spend your internal resources on other things."}
   - id: pmf-put-your-code-out
     speaker: Hang Huang
     anchor: "Code gets reverse engineered anyway. Put it out there."
+    title_key: "Put it out there."
+    color: purple
+    post:
+      text: |-
+        Closed or open, your code gets reverse engineered anyway, says Hang Huang. So put it out there.
+
+        If a developer sees a project is open source, they'll try it and self-host it, and if it's good they'll contribute. "I would definitely vouch for open source."
     hook: "I would definitely vouch for open source."
     key: "vouch for open source"
     parts:  # Hang's reasoning. Shengkun's PRs story (836.8 to 856.5) made it 56s: over the 45s limit
@@ -190,12 +306,26 @@ shorts:
   - id: pmf-easy-to-copy
     speaker: Shengkun Ye
     anchor: "AI makes anything easy to copy. Pick what finds you PMF."
-    from: "Yeah, especially right now, because of the AI agents"
-    to: "aligned with the Hang's idea on it."
-    rejected: generic advice, nothing to disagree with
+    title_key: "Pick what finds you PMF."
+    color: cobalt
+    post:
+      text: |-
+        With AI agents, anything you build is easy to copy, open source or not, says Shengkun Ye.
+
+        So pick whatever finds you product-market fit. If closed source does, go for it. If you're not sure, do both.
+    key: "so easy to copy"
+    parts:
+      - {from: "especially right now, because of the AI agents", to: "you can just do both of them."}
   - id: pmf-compute-exception
     speaker: Yonas Beshawred
     anchor: "The exception is compute: people pay for servers"
-    from: "Yeah, well, I think I agree as well."
-    to: "something that you want to pay for generally"
-    rejected: the take needs the host's question to make sense
+    title_key: "people pay for servers"
+    color: corn_blue
+    post:
+      text: |-
+        Yonas Beshawred agrees: open source it. The one exception is compute.
+
+        Anyone can run CI on their laptop. What you really need is a lot of servers and vCPUs, and that's still something people pay for.
+    key: "has to do with compute"
+    parts:
+      - {from: "The only exception is if what you're building has to do with compute", to: "compute is still something that you want to pay for generally"}

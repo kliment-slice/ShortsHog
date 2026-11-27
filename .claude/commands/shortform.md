@@ -1,5 +1,5 @@
 ---
-description: Turn the few anchors that pass the bar into claim-first 9:16 shorts of at most 45s (opening sweep, speaker close-up)
+description: Turn the few anchors that pass the bar into claim-first 3:4 shorts of at most 45s (opening sweep, speaker close-up)
 argument-hint: <event-name> <panel> [short ids...]
 ---
 Make shorts for `$ARGUMENTS` (event, panel, optionally short ids). Needs the panel's long-form
@@ -84,4 +84,4 @@ payoff or implication. Cut off-story material hard; never cut the setup a point 
 8. Report per short: path, length (anything over 45s is a failure), sweep landing time vs the key
    words, number of reaction pans and cuts, and anything off.
 
-Style: "## Short form" and "## Short-form edit" in FORMAT.md (9:16, 1080x1920), on top of the long-form look.
+Style: "## Short form" and "## Short-form edit" in FORMAT.md (3:4, 1080x1440), on top of the long-form look.

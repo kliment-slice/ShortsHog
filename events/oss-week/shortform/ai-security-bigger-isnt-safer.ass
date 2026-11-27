@@ -7,34 +7,91 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Bigger isn't safer:
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}more employees means
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}more ways in”
-Dialogue: 0,0:00:00.00,0:00:01.04,Caption,,0,0,0,,I don't necessarily
-Dialogue: 0,0:00:01.04,0:00:02.02,Caption,,0,0,0,,believe that larger
-Dialogue: 0,0:00:02.02,0:00:02.94,Caption,,0,0,0,,companies are more
-Dialogue: 0,0:00:02.94,0:00:03.50,Caption,,0,0,0,,secure because there's
-Dialogue: 0,0:00:03.50,0:00:04.24,Caption,,0,0,0,,more vectors.
-Dialogue: 0,0:00:04.24,0:00:05.06,Caption,,0,0,0,,Like if you look at a
-Dialogue: 0,0:00:05.06,0:00:05.86,Caption,,0,0,0,,lot of the attacks
-Dialogue: 0,0:00:05.86,0:00:07.29,Caption,,0,0,0,,they're compromising.
-Dialogue: 0,0:00:07.29,0:00:08.51,Caption,,0,0,0,,an employee you know if
-Dialogue: 0,0:00:08.51,0:00:10.01,Caption,,0,0,0,,you're a large company
-Dialogue: 0,0:00:10.01,0:00:10.95,Caption,,0,0,0,,you have a lot more
-Dialogue: 0,0:00:10.95,0:00:11.63,Caption,,0,0,0,,employees and so there's
-Dialogue: 0,0:00:11.63,0:00:12.85,Caption,,0,0,0,,a lot more people to try
-Dialogue: 0,0:00:12.85,0:00:14.43,Caption,,0,0,0,,and fool you might have
-Dialogue: 0,0:00:14.43,0:00:15.57,Caption,,0,0,0,,more systems in place to
-Dialogue: 0,0:00:15.57,0:00:16.77,Caption,,0,0,0,,catch it but there's a
-Dialogue: 0,0:00:16.77,0:00:18.12,Caption,,0,0,0,,lot more ways in
-Dialogue: 0,0:00:18.12,0:00:19.36,Caption,,0,0,0,,with agents now you can
-Dialogue: 0,0:00:19.36,0:00:20.18,Caption,,0,0,0,,compromise one system
-Dialogue: 0,0:00:20.18,0:00:22.24,Caption,,0,0,0,,and quickly gain access
-Dialogue: 0,0:00:22.24,0:00:22.89,Caption,,0,0,0,,to 10 more.
+Dialogue: 0,0:00:00.00,0:00:00.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} don't necessarily
+Dialogue: 0,0:00:00.30,0:00:00.70,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}don't{\c&H00FFFFFF\fscx100\fscy100} necessarily
+Dialogue: 0,0:00:00.70,0:00:01.04,Caption,,0,0,450,,I don't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}necessarily{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.04,0:00:01.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}believe{\c&H00FFFFFF\fscx100\fscy100} that larger
+Dialogue: 0,0:00:01.28,0:00:01.56,Caption,,0,0,450,,believe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} larger
+Dialogue: 0,0:00:01.56,0:00:02.02,Caption,,0,0,450,,believe that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}larger{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.02,0:00:02.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}companies{\c&H00FFFFFF\fscx100\fscy100} are more
+Dialogue: 0,0:00:02.30,0:00:02.56,Caption,,0,0,450,,companies {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:02.56,0:00:02.94,Caption,,0,0,450,,companies are {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.94,0:00:03.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}secure{\c&H00FFFFFF\fscx100\fscy100} because there's
+Dialogue: 0,0:00:03.14,0:00:03.26,Caption,,0,0,450,,secure {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} there's
+Dialogue: 0,0:00:03.26,0:00:03.50,Caption,,0,0,450,,secure because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there's{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.50,0:00:03.92,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} vectors.
+Dialogue: 0,0:00:03.92,0:00:04.24,Caption,,0,0,450,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vectors.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.24,0:00:04.64,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Like{\c&H00FFFFFF\fscx100\fscy100} if you look at a
+Dialogue: 0,0:00:04.64,0:00:04.72,Caption,,0,0,450,,Like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you look at a
+Dialogue: 0,0:00:04.72,0:00:04.86,Caption,,0,0,450,,Like if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} look at a
+Dialogue: 0,0:00:04.86,0:00:04.94,Caption,,0,0,450,,Like if you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}look{\c&H00FFFFFF\fscx100\fscy100} at a
+Dialogue: 0,0:00:04.94,0:00:05.00,Caption,,0,0,450,,Like if you look {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:05.00,0:00:05.06,Caption,,0,0,450,,Like if you look at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.06,0:00:05.16,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100} of the attacks
+Dialogue: 0,0:00:05.16,0:00:05.26,Caption,,0,0,450,,lot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} the attacks
+Dialogue: 0,0:00:05.26,0:00:05.64,Caption,,0,0,450,,lot of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} attacks
+Dialogue: 0,0:00:05.64,0:00:05.86,Caption,,0,0,450,,lot of the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}attacks{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.86,0:00:06.22,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they're{\c&H00FFFFFF\fscx100\fscy100} compromising.
+Dialogue: 0,0:00:06.22,0:00:07.29,Caption,,0,0,450,,they're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}compromising.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.29,0:00:07.73,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100} employee you know
+Dialogue: 0,0:00:07.73,0:00:08.17,Caption,,0,0,450,,an {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}employee{\c&H00FFFFFF\fscx100\fscy100} you know
+Dialogue: 0,0:00:08.17,0:00:08.29,Caption,,0,0,450,,an employee {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} know
+Dialogue: 0,0:00:08.29,0:00:08.49,Caption,,0,0,450,,an employee you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.49,0:00:08.51,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you're a large
+Dialogue: 0,0:00:08.51,0:00:08.63,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100} a large
+Dialogue: 0,0:00:08.63,0:00:08.83,Caption,,0,0,450,,if you're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} large
+Dialogue: 0,0:00:08.83,0:00:09.17,Caption,,0,0,450,,if you're a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}large{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.17,0:00:10.01,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}company{\c&H00FFFFFF\fscx100\fscy100} you have a lot
+Dialogue: 0,0:00:10.01,0:00:10.15,Caption,,0,0,450,,company {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} have a lot
+Dialogue: 0,0:00:10.15,0:00:10.25,Caption,,0,0,450,,company you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} a lot
+Dialogue: 0,0:00:10.25,0:00:10.33,Caption,,0,0,450,,company you have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot
+Dialogue: 0,0:00:10.33,0:00:10.49,Caption,,0,0,450,,company you have a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.49,0:00:10.95,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} employees and so
+Dialogue: 0,0:00:10.95,0:00:11.19,Caption,,0,0,450,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}employees{\c&H00FFFFFF\fscx100\fscy100} and so
+Dialogue: 0,0:00:11.19,0:00:11.31,Caption,,0,0,450,,more employees {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} so
+Dialogue: 0,0:00:11.31,0:00:11.47,Caption,,0,0,450,,more employees and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.47,0:00:11.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there's{\c&H00FFFFFF\fscx100\fscy100} a lot more
+Dialogue: 0,0:00:11.63,0:00:11.83,Caption,,0,0,450,,there's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot more
+Dialogue: 0,0:00:11.83,0:00:12.11,Caption,,0,0,450,,there's a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:12.11,0:00:12.39,Caption,,0,0,450,,there's a lot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.39,0:00:12.53,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100} to try and fool
+Dialogue: 0,0:00:12.53,0:00:12.71,Caption,,0,0,450,,people {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} try and fool
+Dialogue: 0,0:00:12.71,0:00:12.85,Caption,,0,0,450,,people to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}try{\c&H00FFFFFF\fscx100\fscy100} and fool
+Dialogue: 0,0:00:12.85,0:00:13.21,Caption,,0,0,450,,people to try {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} fool
+Dialogue: 0,0:00:13.21,0:00:14.05,Caption,,0,0,450,,people to try and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fool{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.05,0:00:14.17,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} might have more
+Dialogue: 0,0:00:14.17,0:00:14.29,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}might{\c&H00FFFFFF\fscx100\fscy100} have more
+Dialogue: 0,0:00:14.29,0:00:14.43,Caption,,0,0,450,,you might {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:14.43,0:00:14.79,Caption,,0,0,450,,you might have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.79,0:00:14.97,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}systems{\c&H00FFFFFF\fscx100\fscy100} in place to
+Dialogue: 0,0:00:14.97,0:00:15.19,Caption,,0,0,450,,systems {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} place to
+Dialogue: 0,0:00:15.19,0:00:15.33,Caption,,0,0,450,,systems in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}place{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:15.33,0:00:15.57,Caption,,0,0,450,,systems in place {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.57,0:00:15.79,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}catch{\c&H00FFFFFF\fscx100\fscy100} it but there's a
+Dialogue: 0,0:00:15.79,0:00:16.19,Caption,,0,0,450,,catch {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} but there's a
+Dialogue: 0,0:00:16.19,0:00:16.47,Caption,,0,0,450,,catch it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} there's a
+Dialogue: 0,0:00:16.47,0:00:16.65,Caption,,0,0,450,,catch it but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there's{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:16.65,0:00:16.77,Caption,,0,0,450,,catch it but there's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.77,0:00:16.99,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100} more ways in
+Dialogue: 0,0:00:16.99,0:00:17.31,Caption,,0,0,450,,lot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} ways in
+Dialogue: 0,0:00:17.31,0:00:17.57,Caption,,0,0,450,,lot more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ways{\c&H00FFFFFF\fscx100\fscy100} in
+Dialogue: 0,0:00:17.57,0:00:18.12,Caption,,0,0,450,,lot more ways {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.12,0:00:18.42,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}with{\c&H00FFFFFF\fscx100\fscy100} agents now you
+Dialogue: 0,0:00:18.42,0:00:18.62,Caption,,0,0,450,,with {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100} now you
+Dialogue: 0,0:00:18.62,0:00:18.78,Caption,,0,0,450,,with agents {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:18.78,0:00:18.90,Caption,,0,0,450,,with agents now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.90,0:00:19.36,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} compromise one
+Dialogue: 0,0:00:19.36,0:00:19.62,Caption,,0,0,450,,can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}compromise{\c&H00FFFFFF\fscx100\fscy100} one
+Dialogue: 0,0:00:19.62,0:00:19.98,Caption,,0,0,450,,can compromise {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}one{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.98,0:00:20.18,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}system{\c&H00FFFFFF\fscx100\fscy100} and quickly
+Dialogue: 0,0:00:20.18,0:00:20.88,Caption,,0,0,450,,system {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} quickly
+Dialogue: 0,0:00:20.88,0:00:21.66,Caption,,0,0,450,,system and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}quickly{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.66,0:00:22.00,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}gain{\c&H00FFFFFF\fscx100\fscy100} access to 10
+Dialogue: 0,0:00:22.00,0:00:22.24,Caption,,0,0,450,,gain {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}access{\c&H00FFFFFF\fscx100\fscy100} to 10
+Dialogue: 0,0:00:22.24,0:00:22.42,Caption,,0,0,450,,gain access {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} 10
+Dialogue: 0,0:00:22.42,0:00:22.70,Caption,,0,0,450,,gain access to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}10{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.70,0:00:22.89,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more.{\c&H00FFFFFF\fscx100\fscy100}

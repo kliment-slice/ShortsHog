@@ -48,18 +48,39 @@ shorts:
   - id: ai-security-red-team-in-a-box
     speaker: Matt Lenhard
     anchor: "GitHub already has repos for exploiting your favorite AI tool"
+    title_key: "exploiting your favorite AI tool"
+    color: coral
+    post:
+      text: |-
+        Try this: look up your favorite AI tool on GitHub.
+
+        Matt Lenhard (Vectoral) says there are probably three repos for exploiting it, managing an account pool, and rotating credentials. An AI red team in a box.
     parts:
       - {from: "I think the attacks have really ratcheted up", to: "AI red team in a box for specific agents."}
     key: ratcheted up
   - id: ai-security-issues-with-repros
     speaker: Matt Lenhard
     anchor: "Expect issues with reproductions instead of outside PRs"
+    title_key: "issues with reproductions"
+    color: blue
+    post:
+      text: |-
+        How do you verify who's contributing to your open source project? Matt Lenhard (Vectoral) calls it a really hard problem.
+
+        His bet: issues with reproductions and sample AI code, fixed by your own team. "It's sad, but I think ultimately that's where we're headed."
     parts:
       - {from: "how do you verify the credentials of the people", to: "that's where we're headed."}
     key: verify the credentials
   - id: ai-security-one-shot-crap
     speaker: Tom Piccirello
     anchor: "More junk PRs than ever: AI one-shots them at incredible speed"
+    title_key: "incredible speed"
+    color: tangerine
+    post:
+      text: |-
+        "There was always crap, but the speed at which you can one-shot crap is incredible."
+
+        Tom Piccirello (PostHog) on AI pull requests: they're easy to open, and every one is work for a maintainer to review.
     parts:
       - {from: "There are more crap PRs from the public than ever", to: "need to put an actual work to to look at it"}
     skip:
@@ -70,6 +91,13 @@ shorts:
   - id: ai-security-agent-triage
     speaker: Justin D'Souza
     anchor: "Agents triage every incoming PR and issue for security"
+    title_key: "every incoming PR and issue"
+    color: violet
+    post:
+      text: |-
+        When Asymptote Labs launched its open source project Beacon, dozens and dozens of PRs and issues came in.
+
+        Justin D'Souza's answer: agents that stress test each PR for security, try a fix for each issue, and check who wrote it.
     parts:
       - {from: "Yesterday, we did a launch for our open source project", to: "dozens and dozens of PRs and issues."}
       - {from: "And we have a security agent", to: "to understand trustworthiness."}
@@ -79,6 +107,14 @@ shorts:
   - id: ai-security-trust-small-companies
     speaker: Justin D'Souza
     anchor: "Open source got us into enterprises that had no other reason to trust us"
+    title_key: "no other reason to trust us"
+    color: green
+    post:
+      text: |-
+        "Who are you guys? We've never heard of your name."
+
+        Justin D'Souza's answer to large enterprises was open source: their security team could inspect the code and run it in their own infrastructure. That got Asymptote Labs deployed.
+      title: "Open source got us into enterprises with no other reason to trust us"
     parts:
       - {from: "when it was just me and my co-founder", to: "reason for enterprises to trust small companies."}
     key: really large enterprises
@@ -86,12 +122,27 @@ shorts:
   - id: ai-security-litellm
     speaker: Justin D'Souza
     anchor: "LiteLLM was compromised through a stolen CLI token"
+    title_key: "a stolen CLI token"
+    color: coral
+    post:
+      text: |-
+        Supply chain attacks are more prolific than ever, says Justin D'Souza (Asymptote Labs).
+
+        The LiteLLM attack compromised multiple core contributors: an OAuth CLI token to cut a new release, then another hacked user to approve it.
+      title: "LiteLLM was compromised through an OAuth CLI token"
     parts:
       - {from: "The attack vector today, though, is", to: "hacking another user to approve the release"}
     key: supply chain attacks
   - id: ai-security-everyone-gets-hacked
     speaker: Tom Piccirello
     anchor: "Every company will get hacked. Plan for risk mitigation."
+    title_key: "Every company will get hacked."
+    color: tangerine
+    post:
+      text: |-
+        "Every company is going to get hacked." Tom Piccirello, head of Cybersecurity at PostHog, admits it may sound defeatist.
+
+        An open source project can look great on a scan while its hosting is abysmal. So plan for risk mitigation.
     hook: every company is going to get hacked.
     repeat_hook: true
     parts:
@@ -102,6 +153,13 @@ shorts:
   - id: ai-security-bigger-isnt-safer
     speaker: Matt Lenhard
     anchor: "Bigger isn't safer: more employees means more ways in"
+    title_key: "Bigger isn't safer:"
+    color: purple
+    post:
+      text: |-
+        Matt Lenhard (Vectoral) doesn't buy that bigger companies are more secure.
+
+        Most attacks compromise an employee, and a large company has a lot more people to fool. With agents, one compromised system can quickly get you into 10 more.
     parts:
       - {from: "I don't necessarily believe that larger companies", to: "there's a lot more ways in"}
       - {from: "with agents now you can compromise one system", to: "quickly gain access to 10 more."}
@@ -109,6 +167,13 @@ shorts:
   - id: ai-security-differentiator
     speaker: Matt Lenhard
     anchor: "Security can be a differentiator that wins deals"
+    title_key: "wins deals"
+    color: green
+    post:
+      text: |-
+        Every startup is taking security more seriously, and Matt Lenhard (Vectoral) thinks that's a good thing.
+
+        It can almost be part of your value prop: something that helps you win deals.
     parts:
       - {from: "I think you can start to use security as like a differentiator", to: "but I think that's a good thing"}
     key: differentiator
@@ -117,6 +182,13 @@ shorts:
   - id: ai-security-agents-fewer-vulns
     speaker: Tom Piccirello
     anchor: "Agents will ship fewer vulnerabilities than humans ever did"
+    title_key: "fewer vulnerabilities"
+    color: cobalt
+    post:
+      text: |-
+        Tom Piccirello's optimistic take: agents already write all the code at many companies, and they'll get better and better at not writing vulnerabilities.
+
+        Give them enough context and a good test harness, and they ship fewer than humans ever would have.
     key: "already writing all code"
     parts:
       - {from: "maybe many of your companies", to: "your risk from day one"}
@@ -126,6 +198,13 @@ shorts:
   - id: ai-security-remediation
     speaker: Justin D'Souza
     anchor: "The value is in remediation, not detection"
+    title_key: "remediation, not detection"
+    color: corn_blue
+    post:
+      text: |-
+        Detection is cheap now: Claude Code or an open model can review your code for security.
+
+        Justin D'Souza (Asymptote Labs) says the value is in remediation. Vulnerabilities will get merged and deployed, so invest in fixing them faster.
     hook: I think where the value accrues is really just around remediation. So it's not really any more around detection.
     parts:
       - {from: "it's also true that there's more vulnerabilities", to: "exponentially growing"}
@@ -135,6 +214,13 @@ shorts:
   - id: ai-security-pen-test-is-dead
     speaker: Tom Piccirello
     anchor: "The annual pen test is dead. Scan weekly, fix automatically."
+    title_key: "The annual pen test is dead."
+    color: violet
+    post:
+      text: |-
+        "The annual pen test I think is completely dead. It was always pretty useless, even with humans."
+
+        Tom Piccirello's alternative: AI red teaming tools, weekly in-depth scans at a minimum, and automatic remediation for whatever they find.
     hook: the annual pen test I think is completely dead. It was always pretty useless, even with humans.
     from: in the SRE world pre-AI
     to: automatically remediating what gets found.
@@ -169,6 +255,13 @@ shorts:
   - id: ai-security-100k-requests
     speaker: Matt Lenhard
     anchor: "One attack: 100,000 requests from 4,000 accounts in 100 milliseconds"
+    title_key: "100,000 requests"
+    color: coral
+    post:
+      text: |-
+        Vectoral recently saw one attack send 100,000 requests from 3,000 to 4,000 accounts, all within 100 milliseconds.
+
+        Matt Lenhard: some accounts were bought on underground markets, some spun up by automation, and the attacker had been sitting on them for a while.
     hook: we recently saw an attack that was across probably 3,000, 4,000 accounts, 100,000 requests all within 100 milliseconds,
     parts:
       - {from: "So for context, we stop like inference abuse", to: "and like token fraud."}
@@ -178,12 +271,26 @@ shorts:
   - id: ai-security-bug-bounties-dead
     speaker: Justin D'Souza
     anchor: "Bug bounties are next to die"
+    title_key: "next to die"
+    color: purple
+    post:
+      text: |-
+        Justin D'Souza's hot take: bug bounties are going to be dead.
+
+        It's just so cheap now to run a tool like Strix, out of the box, on any open source model.
     parts:
       - {from: "You mentioned bug bounties.", to: "on any open source model"}
     key: going to be dead
   - id: ai-security-prs-coming-to-an-end
     speaker: Matt Lenhard
     anchor: "Accepting PRs from strangers is coming to an end"
+    title_key: "coming to an end"
+    color: blue
+    post:
+      text: |-
+        Matt Lenhard's hot take: accepting PRs from strangers is coming to an end.
+
+        Even with reputation systems, accounts get bought and sold on secondary markets. Open source stays, as a showcase and a go-to-market tool.
     hook: my hot take is that the open source contributions are coming to an end.
     from: we're going to get to the point where people stop accepting
     to: might sadly be coming to an end
@@ -220,6 +327,13 @@ shorts:
   - id: ai-security-worse-before-better
     speaker: Tom Piccirello
     anchor: "Security gets worse before it gets better"
+    title_key: "worse before it gets better"
+    color: cobalt
+    post:
+      text: |-
+        Tom Piccirello thinks security gets worse before it gets better.
+
+        Agents can fix most old vulnerabilities, but some need product decisions. Paying that down at a company with 130 engineers is not easy.
     hook: it gets worse before it gets better
     parts:
       - {from: "you have this tech debt effectively", to: "paying down the old ones"}

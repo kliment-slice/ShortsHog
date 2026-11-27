@@ -1,0 +1,58 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}The{\c&H00FFFFFF\fscx100\fscy100} agents
+Dialogue: 0,0:00:00.32,0:00:00.54,Caption,,0,0,450,,The {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.54,0:00:01.64,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they're{\c&H00FFFFFF\fscx100\fscy100} not that
+Dialogue: 0,0:00:01.64,0:00:01.82,Caption,,0,0,450,,they're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:01.82,0:00:02.12,Caption,,0,0,450,,they're not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.12,0:00:02.36,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}smart{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.36,0:00:02.86,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}We{\c&H00FFFFFF\fscx100\fscy100} started as a 500
+Dialogue: 0,0:00:02.86,0:00:03.16,Caption,,0,0,450,,We {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}started{\c&H00FFFFFF\fscx100\fscy100} as a 500
+Dialogue: 0,0:00:03.16,0:00:03.30,Caption,,0,0,450,,We started {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} a 500
+Dialogue: 0,0:00:03.30,0:00:03.48,Caption,,0,0,450,,We started as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} 500
+Dialogue: 0,0:00:03.48,0:00:03.90,Caption,,0,0,450,,We started as a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}500{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.90,0:00:04.16,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stars{\c&H00FFFFFF\fscx100\fscy100} whatever people
+Dialogue: 0,0:00:04.16,0:00:04.56,Caption,,0,0,450,,stars {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whatever{\c&H00FFFFFF\fscx100\fscy100} people
+Dialogue: 0,0:00:04.56,0:00:04.82,Caption,,0,0,450,,stars whatever {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.82,0:00:04.92,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} and the agents
+Dialogue: 0,0:00:04.92,0:00:05.04,Caption,,0,0,450,,like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} the agents
+Dialogue: 0,0:00:05.04,0:00:05.20,Caption,,0,0,450,,like and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} agents
+Dialogue: 0,0:00:05.20,0:00:05.40,Caption,,0,0,450,,like and the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.40,0:00:05.72,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100} saying I wouldn't
+Dialogue: 0,0:00:05.72,0:00:06.52,Caption,,0,0,450,,were {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}saying{\c&H00FFFFFF\fscx100\fscy100} I wouldn't
+Dialogue: 0,0:00:06.52,0:00:06.68,Caption,,0,0,450,,were saying {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} wouldn't
+Dialogue: 0,0:00:06.68,0:00:06.90,Caption,,0,0,450,,were saying I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}wouldn't{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.90,0:00:07.08,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trust{\c&H00FFFFFF\fscx100\fscy100} this product but
+Dialogue: 0,0:00:07.08,0:00:07.34,Caption,,0,0,450,,trust {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} product but
+Dialogue: 0,0:00:07.34,0:00:07.74,Caption,,0,0,450,,trust this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}product{\c&H00FFFFFF\fscx100\fscy100} but
+Dialogue: 0,0:00:07.74,0:00:07.96,Caption,,0,0,450,,trust this product {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.96,0:00:08.22,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} one year later we
+Dialogue: 0,0:00:08.22,0:00:08.44,Caption,,0,0,450,,like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}one{\c&H00FFFFFF\fscx100\fscy100} year later we
+Dialogue: 0,0:00:08.44,0:00:08.74,Caption,,0,0,450,,like one {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}year{\c&H00FFFFFF\fscx100\fscy100} later we
+Dialogue: 0,0:00:08.74,0:00:09.12,Caption,,0,0,450,,like one year {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}later{\c&H00FFFFFF\fscx100\fscy100} we
+Dialogue: 0,0:00:09.12,0:00:09.32,Caption,,0,0,450,,like one year later {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.32,0:00:09.58,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} like 10k stars
+Dialogue: 0,0:00:09.58,0:00:09.81,Caption,,0,0,450,,have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} 10k stars
+Dialogue: 0,0:00:09.81,0:00:10.51,Caption,,0,0,450,,have like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}10k{\c&H00FFFFFF\fscx100\fscy100} stars
+Dialogue: 0,0:00:10.51,0:00:11.23,Caption,,0,0,450,,have like 10k {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stars{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.23,0:00:11.33,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} the agent's like
+Dialogue: 0,0:00:11.33,0:00:11.47,Caption,,0,0,450,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} agent's like
+Dialogue: 0,0:00:11.47,0:00:11.69,Caption,,0,0,450,,And the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agent's{\c&H00FFFFFF\fscx100\fscy100} like
+Dialogue: 0,0:00:11.69,0:00:11.83,Caption,,0,0,450,,And the agent's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.83,0:00:11.93,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}oh{\c&H00FFFFFF\fscx100\fscy100} this product is
+Dialogue: 0,0:00:11.93,0:00:12.19,Caption,,0,0,450,,oh {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} product is
+Dialogue: 0,0:00:12.19,0:00:12.33,Caption,,0,0,450,,oh this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}product{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:12.33,0:00:12.55,Caption,,0,0,450,,oh this product {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.55,0:00:12.95,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pretty{\c&H00FFFFFF\fscx100\fscy100} legit.
+Dialogue: 0,0:00:12.95,0:00:13.25,Caption,,0,0,450,,pretty {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}legit.{\c&H00FFFFFF\fscx100\fscy100}

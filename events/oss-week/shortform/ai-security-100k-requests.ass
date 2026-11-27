@@ -7,38 +7,94 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“One attack: 100,000
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}requests from 4,000
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}accounts in 100
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,324)\fad(180,220)}milliseconds”
-Dialogue: 0,0:00:00.00,0:00:01.42,Caption,,0,0,0,,We recently saw an
-Dialogue: 0,0:00:01.42,0:00:03.26,Caption,,0,0,0,,attack that was across
-Dialogue: 0,0:00:03.26,0:00:04.98,Caption,,0,0,0,,probably 3,000
-Dialogue: 0,0:00:04.98,0:00:06.51,Caption,,0,0,0,,4,000 accounts
-Dialogue: 0,0:00:06.51,0:00:08.77,Caption,,0,0,0,,100,000 requests all
-Dialogue: 0,0:00:08.77,0:00:11.12,Caption,,0,0,0,,within 100 milliseconds
-Dialogue: 0,0:00:11.12,0:00:12.26,Caption,,0,0,0,,So for context
-Dialogue: 0,0:00:12.26,0:00:14.31,Caption,,0,0,0,,we stop like inference
-Dialogue: 0,0:00:14.31,0:00:16.09,Caption,,0,0,0,,abuse and like token
-Dialogue: 0,0:00:16.09,0:00:16.57,Caption,,0,0,0,,fraud.
-Dialogue: 0,0:00:16.57,0:00:18.21,Caption,,0,0,0,,And this person had been
-Dialogue: 0,0:00:18.21,0:00:18.73,Caption,,0,0,0,,sitting on these
-Dialogue: 0,0:00:18.73,0:00:19.60,Caption,,0,0,0,,accounts for a while.
-Dialogue: 0,0:00:19.60,0:00:20.83,Caption,,0,0,0,,Some were bought up from
-Dialogue: 0,0:00:20.83,0:00:22.41,Caption,,0,0,0,,the underground markets
-Dialogue: 0,0:00:22.41,0:00:23.27,Caption,,0,0,0,,some were probably spun
-Dialogue: 0,0:00:23.27,0:00:24.31,Caption,,0,0,0,,up from automation.
-Dialogue: 0,0:00:24.41,0:00:26.62,Caption,,0,0,0,,An attack can now be
-Dialogue: 0,0:00:26.71,0:00:27.91,Caption,,0,0,0,,if they just want a few
-Dialogue: 0,0:00:27.91,0:00:28.65,Caption,,0,0,0,,things to slip through
-Dialogue: 0,0:00:28.65,0:00:30.45,Caption,,0,0,0,,it might be a million
-Dialogue: 0,0:00:30.45,0:00:31.91,Caption,,0,0,0,,requests across a large
-Dialogue: 0,0:00:31.91,0:00:33.15,Caption,,0,0,0,,number of accounts all
-Dialogue: 0,0:00:33.15,0:00:34.05,Caption,,0,0,0,,at once.
+Dialogue: 0,0:00:00.00,0:00:00.74,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}We{\c&H00FFFFFF\fscx100\fscy100} recently saw an
+Dialogue: 0,0:00:00.74,0:00:01.06,Caption,,0,0,450,,We {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}recently{\c&H00FFFFFF\fscx100\fscy100} saw an
+Dialogue: 0,0:00:01.06,0:00:01.18,Caption,,0,0,450,,We recently {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}saw{\c&H00FFFFFF\fscx100\fscy100} an
+Dialogue: 0,0:00:01.18,0:00:01.42,Caption,,0,0,450,,We recently saw {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.42,0:00:01.62,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}attack{\c&H00FFFFFF\fscx100\fscy100} that was across
+Dialogue: 0,0:00:01.62,0:00:01.82,Caption,,0,0,450,,attack {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} was across
+Dialogue: 0,0:00:01.82,0:00:02.62,Caption,,0,0,450,,attack that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} across
+Dialogue: 0,0:00:02.62,0:00:03.26,Caption,,0,0,450,,attack that was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}across{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.26,0:00:04.66,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}probably{\c&H00FFFFFF\fscx100\fscy100} 3,000
+Dialogue: 0,0:00:04.66,0:00:04.98,Caption,,0,0,450,,probably {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}3,000{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.98,0:00:05.98,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}4,000{\c&H00FFFFFF\fscx100\fscy100} accounts
+Dialogue: 0,0:00:05.98,0:00:06.51,Caption,,0,0,450,,4,000 {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}accounts{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.51,0:00:07.35,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}100,000{\c&H00FFFFFF\fscx100\fscy100} requests all
+Dialogue: 0,0:00:07.35,0:00:07.65,Caption,,0,0,450,,100,000 {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}requests{\c&H00FFFFFF\fscx100\fscy100} all
+Dialogue: 0,0:00:07.65,0:00:08.77,Caption,,0,0,450,,100,000 requests {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}all{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.77,0:00:09.73,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}within{\c&H00FFFFFF\fscx100\fscy100} 100
+Dialogue: 0,0:00:09.73,0:00:10.33,Caption,,0,0,450,,within {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}100{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.33,0:00:11.12,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}milliseconds{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.12,0:00:11.26,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} for context
+Dialogue: 0,0:00:11.26,0:00:11.74,Caption,,0,0,450,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} context
+Dialogue: 0,0:00:11.74,0:00:12.26,Caption,,0,0,450,,So for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}context{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.26,0:00:12.64,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} stop like inference
+Dialogue: 0,0:00:12.64,0:00:12.92,Caption,,0,0,450,,we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stop{\c&H00FFFFFF\fscx100\fscy100} like inference
+Dialogue: 0,0:00:12.92,0:00:13.68,Caption,,0,0,450,,we stop {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} inference
+Dialogue: 0,0:00:13.68,0:00:14.31,Caption,,0,0,450,,we stop like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}inference{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.31,0:00:15.35,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}abuse{\c&H00FFFFFF\fscx100\fscy100} and like token
+Dialogue: 0,0:00:15.35,0:00:15.49,Caption,,0,0,450,,abuse {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} like token
+Dialogue: 0,0:00:15.49,0:00:15.75,Caption,,0,0,450,,abuse and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} token
+Dialogue: 0,0:00:15.75,0:00:16.09,Caption,,0,0,450,,abuse and like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}token{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.09,0:00:16.57,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fraud.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.57,0:00:17.53,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} this person had
+Dialogue: 0,0:00:17.53,0:00:17.77,Caption,,0,0,450,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} person had
+Dialogue: 0,0:00:17.77,0:00:17.87,Caption,,0,0,450,,And this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}person{\c&H00FFFFFF\fscx100\fscy100} had
+Dialogue: 0,0:00:17.87,0:00:17.97,Caption,,0,0,450,,And this person {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}had{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.97,0:00:18.21,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}been{\c&H00FFFFFF\fscx100\fscy100} sitting on these
+Dialogue: 0,0:00:18.21,0:00:18.35,Caption,,0,0,450,,been {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sitting{\c&H00FFFFFF\fscx100\fscy100} on these
+Dialogue: 0,0:00:18.35,0:00:18.47,Caption,,0,0,450,,been sitting {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on{\c&H00FFFFFF\fscx100\fscy100} these
+Dialogue: 0,0:00:18.47,0:00:18.73,Caption,,0,0,450,,been sitting on {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}these{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.73,0:00:18.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}accounts{\c&H00FFFFFF\fscx100\fscy100} for a while.
+Dialogue: 0,0:00:18.91,0:00:18.97,Caption,,0,0,450,,accounts {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} a while.
+Dialogue: 0,0:00:18.97,0:00:19.17,Caption,,0,0,450,,accounts for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} while.
+Dialogue: 0,0:00:19.17,0:00:19.60,Caption,,0,0,450,,accounts for a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}while.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.60,0:00:19.76,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Some{\c&H00FFFFFF\fscx100\fscy100} were bought up
+Dialogue: 0,0:00:19.76,0:00:19.96,Caption,,0,0,450,,Some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100} bought up
+Dialogue: 0,0:00:19.96,0:00:20.18,Caption,,0,0,450,,Some were {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}bought{\c&H00FFFFFF\fscx100\fscy100} up
+Dialogue: 0,0:00:20.18,0:00:20.44,Caption,,0,0,450,,Some were bought {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.44,0:00:20.83,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100} the underground
+Dialogue: 0,0:00:20.83,0:00:21.13,Caption,,0,0,450,,from {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} underground
+Dialogue: 0,0:00:21.13,0:00:21.77,Caption,,0,0,450,,from the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}underground{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.77,0:00:22.41,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}markets{\c&H00FFFFFF\fscx100\fscy100} some were
+Dialogue: 0,0:00:22.41,0:00:22.55,Caption,,0,0,450,,markets {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100} were
+Dialogue: 0,0:00:22.55,0:00:22.81,Caption,,0,0,450,,markets some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.81,0:00:23.15,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}probably{\c&H00FFFFFF\fscx100\fscy100} spun up from
+Dialogue: 0,0:00:23.15,0:00:23.27,Caption,,0,0,450,,probably {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}spun{\c&H00FFFFFF\fscx100\fscy100} up from
+Dialogue: 0,0:00:23.27,0:00:23.41,Caption,,0,0,450,,probably spun {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100} from
+Dialogue: 0,0:00:23.41,0:00:23.91,Caption,,0,0,450,,probably spun up {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.91,0:00:24.31,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}automation.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.41,0:00:24.71,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}An{\c&H00FFFFFF\fscx100\fscy100} attack can now be
+Dialogue: 0,0:00:24.71,0:00:24.95,Caption,,0,0,450,,An {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}attack{\c&H00FFFFFF\fscx100\fscy100} can now be
+Dialogue: 0,0:00:24.95,0:00:25.07,Caption,,0,0,450,,An attack {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} now be
+Dialogue: 0,0:00:25.07,0:00:25.37,Caption,,0,0,450,,An attack can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} be
+Dialogue: 0,0:00:25.37,0:00:26.62,Caption,,0,0,450,,An attack can now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.71,0:00:26.83,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} they just want a
+Dialogue: 0,0:00:26.83,0:00:27.01,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100} just want a
+Dialogue: 0,0:00:27.01,0:00:27.27,Caption,,0,0,450,,if they {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} want a
+Dialogue: 0,0:00:27.27,0:00:27.41,Caption,,0,0,450,,if they just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}want{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:27.41,0:00:27.61,Caption,,0,0,450,,if they just want {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.61,0:00:27.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}few{\c&H00FFFFFF\fscx100\fscy100} things to slip
+Dialogue: 0,0:00:27.91,0:00:28.05,Caption,,0,0,450,,few {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}things{\c&H00FFFFFF\fscx100\fscy100} to slip
+Dialogue: 0,0:00:28.05,0:00:28.25,Caption,,0,0,450,,few things {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} slip
+Dialogue: 0,0:00:28.25,0:00:28.47,Caption,,0,0,450,,few things to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}slip{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.47,0:00:28.65,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}through{\c&H00FFFFFF\fscx100\fscy100} it might be a
+Dialogue: 0,0:00:28.65,0:00:28.77,Caption,,0,0,450,,through {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} might be a
+Dialogue: 0,0:00:28.77,0:00:29.05,Caption,,0,0,450,,through it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}might{\c&H00FFFFFF\fscx100\fscy100} be a
+Dialogue: 0,0:00:29.05,0:00:29.71,Caption,,0,0,450,,through it might {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:29.71,0:00:29.95,Caption,,0,0,450,,through it might be {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.95,0:00:30.45,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}million{\c&H00FFFFFF\fscx100\fscy100} requests
+Dialogue: 0,0:00:30.45,0:00:30.81,Caption,,0,0,450,,million {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}requests{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.81,0:00:31.27,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}across{\c&H00FFFFFF\fscx100\fscy100} a large number
+Dialogue: 0,0:00:31.27,0:00:31.65,Caption,,0,0,450,,across {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} large number
+Dialogue: 0,0:00:31.65,0:00:31.91,Caption,,0,0,450,,across a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}large{\c&H00FFFFFF\fscx100\fscy100} number
+Dialogue: 0,0:00:31.91,0:00:32.05,Caption,,0,0,450,,across a large {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}number{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:32.05,0:00:32.41,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} accounts all at
+Dialogue: 0,0:00:32.41,0:00:32.97,Caption,,0,0,450,,of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}accounts{\c&H00FFFFFF\fscx100\fscy100} all at
+Dialogue: 0,0:00:32.97,0:00:33.15,Caption,,0,0,450,,of accounts {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}all{\c&H00FFFFFF\fscx100\fscy100} at
+Dialogue: 0,0:00:33.15,0:00:33.45,Caption,,0,0,450,,of accounts all {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.45,0:00:34.05,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}once.{\c&H00FFFFFF\fscx100\fscy100}

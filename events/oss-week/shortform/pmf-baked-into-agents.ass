@@ -1,0 +1,132 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.56,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}People{\c&H00FFFFFF\fscx100\fscy100} underestimate
+Dialogue: 0,0:00:00.56,0:00:01.58,Caption,,0,0,450,,People {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}underestimate{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.58,0:00:01.86,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100} good it is by
+Dialogue: 0,0:00:01.86,0:00:02.02,Caption,,0,0,450,,how {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}good{\c&H00FFFFFF\fscx100\fscy100} it is by
+Dialogue: 0,0:00:02.02,0:00:02.34,Caption,,0,0,450,,how good {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} is by
+Dialogue: 0,0:00:02.34,0:00:02.78,Caption,,0,0,450,,how good it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} by
+Dialogue: 0,0:00:02.78,0:00:03.10,Caption,,0,0,450,,how good it is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}by{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.10,0:00:03.24,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}having{\c&H00FFFFFF\fscx100\fscy100} your products
+Dialogue: 0,0:00:03.24,0:00:03.62,Caption,,0,0,450,,having {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} products
+Dialogue: 0,0:00:03.62,0:00:04.02,Caption,,0,0,450,,having your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}products{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.02,0:00:04.38,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source as a
+Dialogue: 0,0:00:04.38,0:00:05.04,Caption,,0,0,450,,open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} as a
+Dialogue: 0,0:00:05.04,0:00:05.14,Caption,,0,0,450,,open source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:05.14,0:00:05.56,Caption,,0,0,450,,open source as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.56,0:00:06.08,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}distribution{\c&H00FFFFFF\fscx100\fscy100} channel
+Dialogue: 0,0:00:06.08,0:00:07.10,Caption,,0,0,450,,distribution {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}channel{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.10,0:00:07.34,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}especially{\c&H00FFFFFF\fscx100\fscy100} for agents.
+Dialogue: 0,0:00:07.34,0:00:07.76,Caption,,0,0,450,,especially {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} agents.
+Dialogue: 0,0:00:07.76,0:00:08.72,Caption,,0,0,450,,especially for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.72,0:00:09.56,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} normally you're
+Dialogue: 0,0:00:09.56,0:00:09.70,Caption,,0,0,450,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}normally{\c&H00FFFFFF\fscx100\fscy100} you're
+Dialogue: 0,0:00:09.70,0:00:09.96,Caption,,0,0,450,,So normally {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.96,0:00:10.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}asking{\c&H00FFFFFF\fscx100\fscy100} for what's the
+Dialogue: 0,0:00:10.30,0:00:10.64,Caption,,0,0,450,,asking {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} what's the
+Dialogue: 0,0:00:10.64,0:00:10.88,Caption,,0,0,450,,asking for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what's{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:10.88,0:00:11.10,Caption,,0,0,450,,asking for what's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.10,0:00:11.40,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}best{\c&H00FFFFFF\fscx100\fscy100} product for X
+Dialogue: 0,0:00:11.40,0:00:11.72,Caption,,0,0,450,,best {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}product{\c&H00FFFFFF\fscx100\fscy100} for X
+Dialogue: 0,0:00:11.72,0:00:12.04,Caption,,0,0,450,,best product {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} X
+Dialogue: 0,0:00:12.04,0:00:12.18,Caption,,0,0,450,,best product for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}X{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.18,0:00:12.42,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Y{\c&H00FFFFFF\fscx100\fscy100} Z. And the agents
+Dialogue: 0,0:00:12.42,0:00:12.87,Caption,,0,0,450,,Y {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Z.{\c&H00FFFFFF\fscx100\fscy100} And the agents
+Dialogue: 0,0:00:12.87,0:00:12.99,Caption,,0,0,450,,Y Z. {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} the agents
+Dialogue: 0,0:00:12.99,0:00:13.23,Caption,,0,0,450,,Y Z. And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} agents
+Dialogue: 0,0:00:13.23,0:00:13.41,Caption,,0,0,450,,Y Z. And the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.41,0:00:13.53,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}will{\c&H00FFFFFF\fscx100\fscy100} just give you a
+Dialogue: 0,0:00:13.53,0:00:13.73,Caption,,0,0,450,,will {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} give you a
+Dialogue: 0,0:00:13.73,0:00:13.83,Caption,,0,0,450,,will just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}give{\c&H00FFFFFF\fscx100\fscy100} you a
+Dialogue: 0,0:00:13.83,0:00:13.97,Caption,,0,0,450,,will just give {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:13.97,0:00:14.13,Caption,,0,0,450,,will just give you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.13,0:00:14.31,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}list{\c&H00FFFFFF\fscx100\fscy100} of products.
+Dialogue: 0,0:00:14.31,0:00:14.85,Caption,,0,0,450,,list {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} products.
+Dialogue: 0,0:00:14.85,0:00:15.39,Caption,,0,0,450,,list of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}products.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.39,0:00:15.65,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} then how agent
+Dialogue: 0,0:00:15.65,0:00:16.23,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}then{\c&H00FFFFFF\fscx100\fscy100} how agent
+Dialogue: 0,0:00:16.23,0:00:16.51,Caption,,0,0,450,,and then {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100} agent
+Dialogue: 0,0:00:16.51,0:00:16.69,Caption,,0,0,450,,and then how {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agent{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.69,0:00:16.83,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}give{\c&H00FFFFFF\fscx100\fscy100} you this answer
+Dialogue: 0,0:00:16.83,0:00:17.01,Caption,,0,0,450,,give {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} this answer
+Dialogue: 0,0:00:17.01,0:00:17.27,Caption,,0,0,450,,give you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} answer
+Dialogue: 0,0:00:17.27,0:00:17.73,Caption,,0,0,450,,give you this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}answer{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.73,0:00:18.05,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}obviously{\c&H00FFFFFF\fscx100\fscy100} coming from
+Dialogue: 0,0:00:18.05,0:00:18.45,Caption,,0,0,450,,obviously {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}coming{\c&H00FFFFFF\fscx100\fscy100} from
+Dialogue: 0,0:00:18.45,0:00:19.01,Caption,,0,0,450,,obviously coming {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.01,0:00:19.25,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} know trainings and
+Dialogue: 0,0:00:19.25,0:00:19.53,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100} trainings and
+Dialogue: 0,0:00:19.53,0:00:20.49,Caption,,0,0,450,,you know {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trainings{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:20.49,0:00:20.65,Caption,,0,0,450,,you know trainings {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.65,0:00:21.23,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} training source is
+Dialogue: 0,0:00:21.23,0:00:21.55,Caption,,0,0,450,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}training{\c&H00FFFFFF\fscx100\fscy100} source is
+Dialogue: 0,0:00:21.55,0:00:21.69,Caption,,0,0,450,,the training {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:21.69,0:00:21.93,Caption,,0,0,450,,the training source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.93,0:00:22.21,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}coming{\c&H00FFFFFF\fscx100\fscy100} from the
+Dialogue: 0,0:00:22.21,0:00:22.55,Caption,,0,0,450,,coming {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:22.55,0:00:22.95,Caption,,0,0,450,,coming from {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.95,0:00:23.45,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}internet{\c&H00FFFFFF\fscx100\fscy100} every place
+Dialogue: 0,0:00:23.45,0:00:23.79,Caption,,0,0,450,,internet {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}every{\c&H00FFFFFF\fscx100\fscy100} place
+Dialogue: 0,0:00:23.79,0:00:24.11,Caption,,0,0,450,,internet every {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}place{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.11,0:00:24.61,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}else{\c&H00FFFFFF\fscx100\fscy100} so if you have
+Dialogue: 0,0:00:24.61,0:00:24.73,Caption,,0,0,450,,else {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} if you have
+Dialogue: 0,0:00:24.73,0:00:24.75,Caption,,0,0,450,,else so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you have
+Dialogue: 0,0:00:24.75,0:00:24.93,Caption,,0,0,450,,else so if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} have
+Dialogue: 0,0:00:24.93,0:00:25.15,Caption,,0,0,450,,else so if you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.15,0:00:25.31,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source product
+Dialogue: 0,0:00:25.31,0:00:25.61,Caption,,0,0,450,,open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} product
+Dialogue: 0,0:00:25.61,0:00:25.89,Caption,,0,0,450,,open source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}product{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.89,0:00:26.13,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100} forking your
+Dialogue: 0,0:00:26.13,0:00:26.43,Caption,,0,0,450,,people {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}forking{\c&H00FFFFFF\fscx100\fscy100} your
+Dialogue: 0,0:00:26.43,0:00:26.75,Caption,,0,0,450,,people forking {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.75,0:00:27.01,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}products{\c&H00FFFFFF\fscx100\fscy100} people
+Dialogue: 0,0:00:27.01,0:00:27.57,Caption,,0,0,450,,products {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.57,0:00:27.75,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}contributing{\c&H00FFFFFF\fscx100\fscy100} to the
+Dialogue: 0,0:00:27.75,0:00:27.85,Caption,,0,0,450,,contributing {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:27.85,0:00:28.15,Caption,,0,0,450,,contributing to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.15,0:00:28.53,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}products{\c&H00FFFFFF\fscx100\fscy100} you're
+Dialogue: 0,0:00:28.53,0:00:28.79,Caption,,0,0,450,,products {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.79,0:00:29.03,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}talking{\c&H00FFFFFF\fscx100\fscy100} about these
+Dialogue: 0,0:00:29.03,0:00:29.23,Caption,,0,0,450,,talking {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}about{\c&H00FFFFFF\fscx100\fscy100} these
+Dialogue: 0,0:00:29.23,0:00:29.49,Caption,,0,0,450,,talking about {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}these{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.49,0:00:29.95,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}products{\c&H00FFFFFF\fscx100\fscy100} everything go
+Dialogue: 0,0:00:29.95,0:00:30.17,Caption,,0,0,450,,products {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}everything{\c&H00FFFFFF\fscx100\fscy100} go
+Dialogue: 0,0:00:30.17,0:00:30.89,Caption,,0,0,450,,products everything {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}go{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.89,0:00:31.71,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}everywhere{\c&H00FFFFFF\fscx100\fscy100} else and
+Dialogue: 0,0:00:31.71,0:00:31.97,Caption,,0,0,450,,everywhere {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}else{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:31.97,0:00:32.09,Caption,,0,0,450,,everywhere else {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:32.09,0:00:32.25,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}then{\c&H00FFFFFF\fscx100\fscy100} you're just
+Dialogue: 0,0:00:32.25,0:00:32.39,Caption,,0,0,450,,then {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100} just
+Dialogue: 0,0:00:32.39,0:00:32.67,Caption,,0,0,450,,then you're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:32.67,0:00:32.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}having{\c&H00FFFFFF\fscx100\fscy100} so much weight
+Dialogue: 0,0:00:32.91,0:00:33.09,Caption,,0,0,450,,having {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} much weight
+Dialogue: 0,0:00:33.09,0:00:33.43,Caption,,0,0,450,,having so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}much{\c&H00FFFFFF\fscx100\fscy100} weight
+Dialogue: 0,0:00:33.43,0:00:33.81,Caption,,0,0,450,,having so much {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}weight{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.81,0:00:34.11,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}into{\c&H00FFFFFF\fscx100\fscy100} these training
+Dialogue: 0,0:00:34.11,0:00:34.49,Caption,,0,0,450,,into {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}these{\c&H00FFFFFF\fscx100\fscy100} training
+Dialogue: 0,0:00:34.49,0:00:34.89,Caption,,0,0,450,,into these {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}training{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:34.89,0:00:35.46,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sources{\c&H00FFFFFF\fscx100\fscy100} So that's how
+Dialogue: 0,0:00:35.46,0:00:35.58,Caption,,0,0,450,,sources {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} that's how
+Dialogue: 0,0:00:35.58,0:00:35.82,Caption,,0,0,450,,sources So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} how
+Dialogue: 0,0:00:35.82,0:00:36.06,Caption,,0,0,450,,sources So that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:36.06,0:00:36.36,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} get baked into the
+Dialogue: 0,0:00:36.36,0:00:36.62,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100} baked into the
+Dialogue: 0,0:00:36.62,0:00:37.00,Caption,,0,0,450,,you get {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}baked{\c&H00FFFFFF\fscx100\fscy100} into the
+Dialogue: 0,0:00:37.00,0:00:37.22,Caption,,0,0,450,,you get baked {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}into{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:37.22,0:00:37.40,Caption,,0,0,450,,you get baked into {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:37.40,0:00:37.56,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}one{\c&H00FFFFFF\fscx100\fscy100} of the default
+Dialogue: 0,0:00:37.56,0:00:37.66,Caption,,0,0,450,,one {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} the default
+Dialogue: 0,0:00:37.66,0:00:37.94,Caption,,0,0,450,,one of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} default
+Dialogue: 0,0:00:37.94,0:00:38.50,Caption,,0,0,450,,one of the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}default{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:38.50,0:00:39.07,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}solutions.{\c&H00FFFFFF\fscx100\fscy100}

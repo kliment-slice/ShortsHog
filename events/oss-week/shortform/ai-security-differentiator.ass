@@ -7,29 +7,71 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Security can be a
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}differentiator that wins
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}deals”
-Dialogue: 0,0:00:00.00,0:00:01.26,Caption,,0,0,0,,I think you can start to
-Dialogue: 0,0:00:01.26,0:00:02.54,Caption,,0,0,0,,use security as like a
-Dialogue: 0,0:00:02.54,0:00:03.16,Caption,,0,0,0,,differentiator
-Dialogue: 0,0:00:03.16,0:00:03.68,Caption,,0,0,0,,which I actually think
-Dialogue: 0,0:00:03.68,0:00:04.92,Caption,,0,0,0,,is a great thing.
-Dialogue: 0,0:00:04.92,0:00:06.67,Caption,,0,0,0,,Everyone's starting to
-Dialogue: 0,0:00:06.67,0:00:08.01,Caption,,0,0,0,,really take this more
-Dialogue: 0,0:00:08.01,0:00:08.93,Caption,,0,0,0,,seriously and so it can
-Dialogue: 0,0:00:08.93,0:00:10.15,Caption,,0,0,0,,almost be part of your
-Dialogue: 0,0:00:10.15,0:00:11.45,Caption,,0,0,0,,value prop something
-Dialogue: 0,0:00:11.45,0:00:12.43,Caption,,0,0,0,,that can help you win
-Dialogue: 0,0:00:12.43,0:00:15.56,Caption,,0,0,0,,deals so I think yes
-Dialogue: 0,0:00:15.56,0:00:17.00,Caption,,0,0,0,,startups are gonna take
-Dialogue: 0,0:00:17.00,0:00:18.67,Caption,,0,0,0,,security more seriously
-Dialogue: 0,0:00:18.67,0:00:19.27,Caption,,0,0,0,,but I think that's a
-Dialogue: 0,0:00:19.27,0:00:20.15,Caption,,0,0,0,,good thing
+Dialogue: 0,0:00:00.00,0:00:00.40,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think you can start
+Dialogue: 0,0:00:00.40,0:00:00.58,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} you can start
+Dialogue: 0,0:00:00.58,0:00:00.70,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} can start
+Dialogue: 0,0:00:00.70,0:00:00.92,Caption,,0,0,450,,I think you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} start
+Dialogue: 0,0:00:00.92,0:00:01.08,Caption,,0,0,450,,I think you can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}start{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.08,0:00:01.26,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} use security as
+Dialogue: 0,0:00:01.26,0:00:01.78,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}use{\c&H00FFFFFF\fscx100\fscy100} security as
+Dialogue: 0,0:00:01.78,0:00:02.04,Caption,,0,0,450,,to use {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}security{\c&H00FFFFFF\fscx100\fscy100} as
+Dialogue: 0,0:00:02.04,0:00:02.18,Caption,,0,0,450,,to use security {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.18,0:00:02.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} a differentiator
+Dialogue: 0,0:00:02.28,0:00:02.54,Caption,,0,0,450,,like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} differentiator
+Dialogue: 0,0:00:02.54,0:00:03.16,Caption,,0,0,450,,like a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}differentiator{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.16,0:00:03.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}which{\c&H00FFFFFF\fscx100\fscy100} I actually think
+Dialogue: 0,0:00:03.28,0:00:03.44,Caption,,0,0,450,,which {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} actually think
+Dialogue: 0,0:00:03.44,0:00:03.56,Caption,,0,0,450,,which I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} think
+Dialogue: 0,0:00:03.56,0:00:03.68,Caption,,0,0,450,,which I actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.68,0:00:03.74,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} a great thing.
+Dialogue: 0,0:00:03.74,0:00:03.92,Caption,,0,0,450,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} great thing.
+Dialogue: 0,0:00:03.92,0:00:04.24,Caption,,0,0,450,,is a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}great{\c&H00FFFFFF\fscx100\fscy100} thing.
+Dialogue: 0,0:00:04.24,0:00:04.92,Caption,,0,0,450,,is a great {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}thing.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.92,0:00:06.33,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Everyone's{\c&H00FFFFFF\fscx100\fscy100} starting
+Dialogue: 0,0:00:06.33,0:00:06.47,Caption,,0,0,450,,Everyone's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}starting{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.47,0:00:06.67,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} really take this
+Dialogue: 0,0:00:06.67,0:00:06.93,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} take this
+Dialogue: 0,0:00:06.93,0:00:07.17,Caption,,0,0,450,,to really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}take{\c&H00FFFFFF\fscx100\fscy100} this
+Dialogue: 0,0:00:07.17,0:00:07.47,Caption,,0,0,450,,to really take {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.47,0:00:08.01,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} seriously and so
+Dialogue: 0,0:00:08.01,0:00:08.33,Caption,,0,0,450,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}seriously{\c&H00FFFFFF\fscx100\fscy100} and so
+Dialogue: 0,0:00:08.33,0:00:08.45,Caption,,0,0,450,,more seriously {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} so
+Dialogue: 0,0:00:08.45,0:00:08.59,Caption,,0,0,450,,more seriously and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.59,0:00:08.69,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} can almost be part
+Dialogue: 0,0:00:08.69,0:00:08.93,Caption,,0,0,450,,it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} almost be part
+Dialogue: 0,0:00:08.93,0:00:09.17,Caption,,0,0,450,,it can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}almost{\c&H00FFFFFF\fscx100\fscy100} be part
+Dialogue: 0,0:00:09.17,0:00:09.57,Caption,,0,0,450,,it can almost {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100} part
+Dialogue: 0,0:00:09.57,0:00:09.71,Caption,,0,0,450,,it can almost be {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}part{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.71,0:00:09.81,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} your value prop
+Dialogue: 0,0:00:09.81,0:00:10.15,Caption,,0,0,450,,of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} value prop
+Dialogue: 0,0:00:10.15,0:00:10.53,Caption,,0,0,450,,of your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}value{\c&H00FFFFFF\fscx100\fscy100} prop
+Dialogue: 0,0:00:10.53,0:00:11.29,Caption,,0,0,450,,of your value {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}prop{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.29,0:00:11.45,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100} that can
+Dialogue: 0,0:00:11.45,0:00:11.57,Caption,,0,0,450,,something {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} can
+Dialogue: 0,0:00:11.57,0:00:11.73,Caption,,0,0,450,,something that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.73,0:00:11.89,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}help{\c&H00FFFFFF\fscx100\fscy100} you win deals so
+Dialogue: 0,0:00:11.89,0:00:12.05,Caption,,0,0,450,,help {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} win deals so
+Dialogue: 0,0:00:12.05,0:00:12.43,Caption,,0,0,450,,help you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}win{\c&H00FFFFFF\fscx100\fscy100} deals so
+Dialogue: 0,0:00:12.43,0:00:13.29,Caption,,0,0,450,,help you win {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}deals{\c&H00FFFFFF\fscx100\fscy100} so
+Dialogue: 0,0:00:13.29,0:00:13.55,Caption,,0,0,450,,help you win deals {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.55,0:00:13.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think yes startups
+Dialogue: 0,0:00:13.91,0:00:15.12,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} yes startups
+Dialogue: 0,0:00:15.12,0:00:15.56,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}yes{\c&H00FFFFFF\fscx100\fscy100} startups
+Dialogue: 0,0:00:15.56,0:00:15.74,Caption,,0,0,450,,I think yes {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}startups{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.74,0:00:15.86,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100} gonna take
+Dialogue: 0,0:00:15.86,0:00:16.16,Caption,,0,0,450,,are {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}gonna{\c&H00FFFFFF\fscx100\fscy100} take
+Dialogue: 0,0:00:16.16,0:00:17.00,Caption,,0,0,450,,are gonna {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}take{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.00,0:00:17.22,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}security{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:17.22,0:00:17.82,Caption,,0,0,450,,security {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.82,0:00:18.67,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}seriously{\c&H00FFFFFF\fscx100\fscy100} but I think
+Dialogue: 0,0:00:18.67,0:00:18.75,Caption,,0,0,450,,seriously {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} I think
+Dialogue: 0,0:00:18.75,0:00:18.87,Caption,,0,0,450,,seriously but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think
+Dialogue: 0,0:00:18.87,0:00:19.01,Caption,,0,0,450,,seriously but I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.01,0:00:19.13,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} a good thing
+Dialogue: 0,0:00:19.13,0:00:19.27,Caption,,0,0,450,,that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} good thing
+Dialogue: 0,0:00:19.27,0:00:19.55,Caption,,0,0,450,,that's a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}good{\c&H00FFFFFF\fscx100\fscy100} thing
+Dialogue: 0,0:00:19.55,0:00:20.15,Caption,,0,0,450,,that's a good {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}thing{\c&H00FFFFFF\fscx100\fscy100}

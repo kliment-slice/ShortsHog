@@ -1,87 +1,87 @@
 [Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
-PlayResY: 1920
+PlayResY: 1440
 WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.48,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} can you be like a
-Dialogue: 0,0:00:00.48,0:00:00.60,Caption,,0,0,600,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} you be like a
-Dialogue: 0,0:00:00.60,0:00:00.74,Caption,,0,0,600,,So can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} be like a
-Dialogue: 0,0:00:00.74,0:00:00.98,Caption,,0,0,600,,So can you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100} like a
-Dialogue: 0,0:00:00.98,0:00:01.10,Caption,,0,0,600,,So can you be {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} a
-Dialogue: 0,0:00:01.10,0:00:01.26,Caption,,0,0,600,,So can you be like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:01.26,0:00:01.86,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}forward-deployed{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:01.86,0:00:02.04,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}engineer{\c&H00FFFFFF\fscx100\fscy100} that just
-Dialogue: 0,0:00:02.04,0:00:02.20,Caption,,0,0,600,,engineer {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} just
-Dialogue: 0,0:00:02.20,0:00:02.48,Caption,,0,0,600,,engineer that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:02.48,0:00:02.84,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}solves{\c&H00FFFFFF\fscx100\fscy100} problems for
-Dialogue: 0,0:00:02.84,0:00:02.98,Caption,,0,0,600,,solves {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}problems{\c&H00FFFFFF\fscx100\fscy100} for
-Dialogue: 0,0:00:02.98,0:00:03.24,Caption,,0,0,600,,solves problems {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:03.24,0:00:03.77,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people?{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:03.77,0:00:03.87,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think it used to be
-Dialogue: 0,0:00:03.87,0:00:03.99,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} it used to be
-Dialogue: 0,0:00:03.99,0:00:04.19,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} used to be
-Dialogue: 0,0:00:04.19,0:00:04.29,Caption,,0,0,600,,I think it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}used{\c&H00FFFFFF\fscx100\fscy100} to be
-Dialogue: 0,0:00:04.29,0:00:04.39,Caption,,0,0,600,,I think it used {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} be
-Dialogue: 0,0:00:04.39,0:00:04.51,Caption,,0,0,600,,I think it used to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:04.51,0:00:04.61,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} you could just
-Dialogue: 0,0:00:04.61,0:00:04.77,Caption,,0,0,600,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} could just
-Dialogue: 0,0:00:04.77,0:00:04.95,Caption,,0,0,600,,that you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}could{\c&H00FFFFFF\fscx100\fscy100} just
-Dialogue: 0,0:00:04.95,0:00:05.35,Caption,,0,0,600,,that you could {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:05.35,0:00:05.47,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}build{\c&H00FFFFFF\fscx100\fscy100} some software
-Dialogue: 0,0:00:05.47,0:00:05.85,Caption,,0,0,600,,build {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100} software
-Dialogue: 0,0:00:05.85,0:00:06.17,Caption,,0,0,600,,build some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:06.17,0:00:06.27,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}put{\c&H00FFFFFF\fscx100\fscy100} it out there and
-Dialogue: 0,0:00:06.27,0:00:06.39,Caption,,0,0,600,,put {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} out there and
-Dialogue: 0,0:00:06.39,0:00:06.55,Caption,,0,0,600,,put it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out{\c&H00FFFFFF\fscx100\fscy100} there and
-Dialogue: 0,0:00:06.55,0:00:06.69,Caption,,0,0,600,,put it out {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there{\c&H00FFFFFF\fscx100\fscy100} and
-Dialogue: 0,0:00:06.69,0:00:06.85,Caption,,0,0,600,,put it out there {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:06.85,0:00:07.01,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100} would use it.
-Dialogue: 0,0:00:07.01,0:00:07.21,Caption,,0,0,600,,people {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}would{\c&H00FFFFFF\fscx100\fscy100} use it.
-Dialogue: 0,0:00:07.21,0:00:07.41,Caption,,0,0,600,,people would {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}use{\c&H00FFFFFF\fscx100\fscy100} it.
-Dialogue: 0,0:00:07.41,0:00:07.81,Caption,,0,0,600,,people would use {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it.{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:07.81,0:00:07.95,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think now
-Dialogue: 0,0:00:07.95,0:00:08.31,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} now
-Dialogue: 0,0:00:08.31,0:00:08.73,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:08.73,0:00:08.81,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you can actually
-Dialogue: 0,0:00:08.81,0:00:08.91,Caption,,0,0,600,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} can actually
-Dialogue: 0,0:00:08.91,0:00:09.11,Caption,,0,0,600,,if you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} actually
-Dialogue: 0,0:00:09.11,0:00:09.39,Caption,,0,0,600,,if you can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:09.39,0:00:09.57,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}solve{\c&H00FFFFFF\fscx100\fscy100} people's
-Dialogue: 0,0:00:09.57,0:00:10.01,Caption,,0,0,600,,solve {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people's{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:10.01,0:00:10.31,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}problems{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:10.31,0:00:10.99,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} way more
-Dialogue: 0,0:00:10.99,0:00:11.17,Caption,,0,0,600,,that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}way{\c&H00FFFFFF\fscx100\fscy100} more
-Dialogue: 0,0:00:11.17,0:00:11.45,Caption,,0,0,600,,that's way {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:11.45,0:00:11.75,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}valuable.{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:11.75,0:00:11.87,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think that ends up
-Dialogue: 0,0:00:11.87,0:00:12.17,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} that ends up
-Dialogue: 0,0:00:12.17,0:00:12.43,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} ends up
-Dialogue: 0,0:00:12.43,0:00:12.55,Caption,,0,0,600,,I think that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ends{\c&H00FFFFFF\fscx100\fscy100} up
-Dialogue: 0,0:00:12.55,0:00:12.77,Caption,,0,0,600,,I think that ends {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:12.77,0:00:13.11,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} being a way
-Dialogue: 0,0:00:13.11,0:00:13.31,Caption,,0,0,600,,actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}being{\c&H00FFFFFF\fscx100\fscy100} a way
-Dialogue: 0,0:00:13.31,0:00:13.39,Caption,,0,0,600,,actually being {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} way
-Dialogue: 0,0:00:13.39,0:00:13.53,Caption,,0,0,600,,actually being a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}way{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:13.53,0:00:13.59,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} I see a lot of YC
-Dialogue: 0,0:00:13.59,0:00:13.73,Caption,,0,0,600,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} see a lot of YC
-Dialogue: 0,0:00:13.73,0:00:13.83,Caption,,0,0,600,,that I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}see{\c&H00FFFFFF\fscx100\fscy100} a lot of YC
-Dialogue: 0,0:00:13.83,0:00:13.89,Caption,,0,0,600,,that I see {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot of YC
-Dialogue: 0,0:00:13.89,0:00:13.95,Caption,,0,0,600,,that I see a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100} of YC
-Dialogue: 0,0:00:13.95,0:00:14.09,Caption,,0,0,600,,that I see a lot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} YC
-Dialogue: 0,0:00:14.09,0:00:14.65,Caption,,0,0,600,,that I see a lot of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}YC{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:14.65,0:00:14.97,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}companies{\c&H00FFFFFF\fscx100\fscy100} now get the
-Dialogue: 0,0:00:14.97,0:00:15.27,Caption,,0,0,600,,companies {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} get the
-Dialogue: 0,0:00:15.27,0:00:15.39,Caption,,0,0,600,,companies now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100} the
-Dialogue: 0,0:00:15.39,0:00:15.61,Caption,,0,0,600,,companies now get {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:15.61,0:00:15.83,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}first{\c&H00FFFFFF\fscx100\fscy100} couple of
-Dialogue: 0,0:00:15.83,0:00:15.93,Caption,,0,0,600,,first {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}couple{\c&H00FFFFFF\fscx100\fscy100} of
-Dialogue: 0,0:00:15.93,0:00:16.31,Caption,,0,0,600,,first couple {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:16.31,0:00:16.91,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}customers.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.00,0:00:00.48,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} can you be like a
+Dialogue: 0,0:00:00.48,0:00:00.60,Caption,,0,0,450,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} you be like a
+Dialogue: 0,0:00:00.60,0:00:00.74,Caption,,0,0,450,,So can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} be like a
+Dialogue: 0,0:00:00.74,0:00:00.98,Caption,,0,0,450,,So can you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100} like a
+Dialogue: 0,0:00:00.98,0:00:01.10,Caption,,0,0,450,,So can you be {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:01.10,0:00:01.26,Caption,,0,0,450,,So can you be like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.26,0:00:01.86,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}forward-deployed{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.86,0:00:02.04,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}engineer{\c&H00FFFFFF\fscx100\fscy100} that just
+Dialogue: 0,0:00:02.04,0:00:02.20,Caption,,0,0,450,,engineer {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} just
+Dialogue: 0,0:00:02.20,0:00:02.48,Caption,,0,0,450,,engineer that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.48,0:00:02.84,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}solves{\c&H00FFFFFF\fscx100\fscy100} problems for
+Dialogue: 0,0:00:02.84,0:00:02.98,Caption,,0,0,450,,solves {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}problems{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:02.98,0:00:03.24,Caption,,0,0,450,,solves problems {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.24,0:00:03.77,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people?{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.77,0:00:03.87,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think it used to be
+Dialogue: 0,0:00:03.87,0:00:03.99,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} it used to be
+Dialogue: 0,0:00:03.99,0:00:04.19,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} used to be
+Dialogue: 0,0:00:04.19,0:00:04.29,Caption,,0,0,450,,I think it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}used{\c&H00FFFFFF\fscx100\fscy100} to be
+Dialogue: 0,0:00:04.29,0:00:04.39,Caption,,0,0,450,,I think it used {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} be
+Dialogue: 0,0:00:04.39,0:00:04.51,Caption,,0,0,450,,I think it used to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.51,0:00:04.61,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} you could just
+Dialogue: 0,0:00:04.61,0:00:04.77,Caption,,0,0,450,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} could just
+Dialogue: 0,0:00:04.77,0:00:04.95,Caption,,0,0,450,,that you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}could{\c&H00FFFFFF\fscx100\fscy100} just
+Dialogue: 0,0:00:04.95,0:00:05.35,Caption,,0,0,450,,that you could {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.35,0:00:05.47,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}build{\c&H00FFFFFF\fscx100\fscy100} some software
+Dialogue: 0,0:00:05.47,0:00:05.85,Caption,,0,0,450,,build {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100} software
+Dialogue: 0,0:00:05.85,0:00:06.17,Caption,,0,0,450,,build some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}software{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.17,0:00:06.27,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}put{\c&H00FFFFFF\fscx100\fscy100} it out there and
+Dialogue: 0,0:00:06.27,0:00:06.39,Caption,,0,0,450,,put {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} out there and
+Dialogue: 0,0:00:06.39,0:00:06.55,Caption,,0,0,450,,put it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out{\c&H00FFFFFF\fscx100\fscy100} there and
+Dialogue: 0,0:00:06.55,0:00:06.69,Caption,,0,0,450,,put it out {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:06.69,0:00:06.85,Caption,,0,0,450,,put it out there {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.85,0:00:07.01,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100} would use it.
+Dialogue: 0,0:00:07.01,0:00:07.21,Caption,,0,0,450,,people {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}would{\c&H00FFFFFF\fscx100\fscy100} use it.
+Dialogue: 0,0:00:07.21,0:00:07.41,Caption,,0,0,450,,people would {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}use{\c&H00FFFFFF\fscx100\fscy100} it.
+Dialogue: 0,0:00:07.41,0:00:07.81,Caption,,0,0,450,,people would use {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.81,0:00:07.95,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think now
+Dialogue: 0,0:00:07.95,0:00:08.31,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} now
+Dialogue: 0,0:00:08.31,0:00:08.73,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.73,0:00:08.81,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you can actually
+Dialogue: 0,0:00:08.81,0:00:08.91,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} can actually
+Dialogue: 0,0:00:08.91,0:00:09.11,Caption,,0,0,450,,if you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} actually
+Dialogue: 0,0:00:09.11,0:00:09.39,Caption,,0,0,450,,if you can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.39,0:00:09.57,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}solve{\c&H00FFFFFF\fscx100\fscy100} people's
+Dialogue: 0,0:00:09.57,0:00:10.01,Caption,,0,0,450,,solve {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people's{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.01,0:00:10.31,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}problems{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.31,0:00:10.99,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} way more
+Dialogue: 0,0:00:10.99,0:00:11.17,Caption,,0,0,450,,that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}way{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:11.17,0:00:11.45,Caption,,0,0,450,,that's way {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.45,0:00:11.75,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}valuable.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.75,0:00:11.87,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think that ends up
+Dialogue: 0,0:00:11.87,0:00:12.17,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} that ends up
+Dialogue: 0,0:00:12.17,0:00:12.43,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} ends up
+Dialogue: 0,0:00:12.43,0:00:12.55,Caption,,0,0,450,,I think that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ends{\c&H00FFFFFF\fscx100\fscy100} up
+Dialogue: 0,0:00:12.55,0:00:12.77,Caption,,0,0,450,,I think that ends {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.77,0:00:13.11,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} being a way
+Dialogue: 0,0:00:13.11,0:00:13.31,Caption,,0,0,450,,actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}being{\c&H00FFFFFF\fscx100\fscy100} a way
+Dialogue: 0,0:00:13.31,0:00:13.39,Caption,,0,0,450,,actually being {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} way
+Dialogue: 0,0:00:13.39,0:00:13.53,Caption,,0,0,450,,actually being a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}way{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.53,0:00:13.59,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} I see a lot of YC
+Dialogue: 0,0:00:13.59,0:00:13.73,Caption,,0,0,450,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} see a lot of YC
+Dialogue: 0,0:00:13.73,0:00:13.83,Caption,,0,0,450,,that I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}see{\c&H00FFFFFF\fscx100\fscy100} a lot of YC
+Dialogue: 0,0:00:13.83,0:00:13.89,Caption,,0,0,450,,that I see {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot of YC
+Dialogue: 0,0:00:13.89,0:00:13.95,Caption,,0,0,450,,that I see a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100} of YC
+Dialogue: 0,0:00:13.95,0:00:14.09,Caption,,0,0,450,,that I see a lot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} YC
+Dialogue: 0,0:00:14.09,0:00:14.65,Caption,,0,0,450,,that I see a lot of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}YC{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.65,0:00:14.97,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}companies{\c&H00FFFFFF\fscx100\fscy100} now get the
+Dialogue: 0,0:00:14.97,0:00:15.27,Caption,,0,0,450,,companies {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} get the
+Dialogue: 0,0:00:15.27,0:00:15.39,Caption,,0,0,450,,companies now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:15.39,0:00:15.61,Caption,,0,0,450,,companies now get {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.61,0:00:15.83,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}first{\c&H00FFFFFF\fscx100\fscy100} couple of
+Dialogue: 0,0:00:15.83,0:00:15.93,Caption,,0,0,450,,first {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}couple{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:15.93,0:00:16.31,Caption,,0,0,450,,first couple {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.31,0:00:16.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}customers.{\c&H00FFFFFF\fscx100\fscy100}

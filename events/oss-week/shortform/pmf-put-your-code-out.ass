@@ -7,42 +7,123 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Hang Huang (InsForge)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Code gets reverse
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}engineered anyway. Put
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}it out there.”
-Dialogue: 0,0:00:00.00,0:00:01.82,Caption,,0,0,0,,I would definitely vouch
-Dialogue: 0,0:00:01.82,0:00:03.16,Caption,,0,0,0,,for open source.
-Dialogue: 0,0:00:03.16,0:00:05.20,Caption,,0,0,0,,You guys probably using
-Dialogue: 0,0:00:05.20,0:00:06.08,Caption,,0,0,0,,something or something
-Dialogue: 0,0:00:06.08,0:00:07.60,Caption,,0,0,0,,REA recently right
-Dialogue: 0,0:00:07.60,0:00:10.02,Caption,,0,0,0,,reverse engineer so it's
-Dialogue: 0,0:00:10.02,0:00:11.20,Caption,,0,0,0,,already happening even
-Dialogue: 0,0:00:11.20,0:00:12.08,Caption,,0,0,0,,though if your closed
-Dialogue: 0,0:00:12.08,0:00:12.96,Caption,,0,0,0,,source or open source
-Dialogue: 0,0:00:12.96,0:00:13.84,Caption,,0,0,0,,doesn't really matter
-Dialogue: 0,0:00:13.84,0:00:14.70,Caption,,0,0,0,,why don't you put your
-Dialogue: 0,0:00:14.70,0:00:15.82,Caption,,0,0,0,,code out there so people
-Dialogue: 0,0:00:15.82,0:00:17.46,Caption,,0,0,0,,can just feel some you
-Dialogue: 0,0:00:17.46,0:00:19.24,Caption,,0,0,0,,know trust it gave you
-Dialogue: 0,0:00:19.24,0:00:20.20,Caption,,0,0,0,,some initial traction so
-Dialogue: 0,0:00:20.20,0:00:21.64,Caption,,0,0,0,,you can better find a
-Dialogue: 0,0:00:21.64,0:00:23.62,Caption,,0,0,0,,market fit It's like as
-Dialogue: 0,0:00:23.62,0:00:24.24,Caption,,0,0,0,,a developer
-Dialogue: 0,0:00:24.24,0:00:25.32,Caption,,0,0,0,,if I see this project is
-Dialogue: 0,0:00:25.32,0:00:25.72,Caption,,0,0,0,,open source
-Dialogue: 0,0:00:25.72,0:00:27.28,Caption,,0,0,0,,I'll give it a try
-Dialogue: 0,0:00:27.28,0:00:28.50,Caption,,0,0,0,,I'll self-host it
-Dialogue: 0,0:00:28.50,0:00:29.52,Caption,,0,0,0,,and if it is good
-Dialogue: 0,0:00:29.52,0:00:30.50,Caption,,0,0,0,,then I'm going to
-Dialogue: 0,0:00:30.50,0:00:31.08,Caption,,0,0,0,,contribute to this
-Dialogue: 0,0:00:31.08,0:00:31.98,Caption,,0,0,0,,project. That's how you
-Dialogue: 0,0:00:31.98,0:00:33.46,Caption,,0,0,0,,get your first few so
-Dialogue: 0,0:00:33.46,0:00:34.72,Caption,,0,0,0,,it's much better than a
-Dialogue: 0,0:00:34.72,0:00:35.92,Caption,,0,0,0,,closed source version
+Dialogue: 0,0:00:00.00,0:00:00.66,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} would definitely
+Dialogue: 0,0:00:00.66,0:00:00.94,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}would{\c&H00FFFFFF\fscx100\fscy100} definitely
+Dialogue: 0,0:00:00.94,0:00:01.44,Caption,,0,0,450,,I would {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}definitely{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.44,0:00:01.82,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vouch{\c&H00FFFFFF\fscx100\fscy100} for open source.
+Dialogue: 0,0:00:01.82,0:00:02.32,Caption,,0,0,450,,vouch {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} open source.
+Dialogue: 0,0:00:02.32,0:00:02.56,Caption,,0,0,450,,vouch for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source.
+Dialogue: 0,0:00:02.56,0:00:03.16,Caption,,0,0,450,,vouch for open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.16,0:00:03.34,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}You{\c&H00FFFFFF\fscx100\fscy100} guys probably
+Dialogue: 0,0:00:03.34,0:00:03.68,Caption,,0,0,450,,You {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}guys{\c&H00FFFFFF\fscx100\fscy100} probably
+Dialogue: 0,0:00:03.68,0:00:04.72,Caption,,0,0,450,,You guys {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}probably{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.84,0:00:05.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}using{\c&H00FFFFFF\fscx100\fscy100} something or
+Dialogue: 0,0:00:05.20,0:00:05.36,Caption,,0,0,450,,using {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100} or
+Dialogue: 0,0:00:05.36,0:00:05.70,Caption,,0,0,450,,using something {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.70,0:00:06.08,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100} REA recently
+Dialogue: 0,0:00:06.08,0:00:06.68,Caption,,0,0,450,,something {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}REA{\c&H00FFFFFF\fscx100\fscy100} recently
+Dialogue: 0,0:00:06.68,0:00:06.98,Caption,,0,0,450,,something REA {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}recently{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.98,0:00:07.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}right{\c&H00FFFFFF\fscx100\fscy100} reverse engineer
+Dialogue: 0,0:00:07.60,0:00:07.94,Caption,,0,0,450,,right {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}reverse{\c&H00FFFFFF\fscx100\fscy100} engineer
+Dialogue: 0,0:00:07.94,0:00:08.94,Caption,,0,0,450,,right reverse {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}engineer{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.94,0:00:09.70,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} it's already
+Dialogue: 0,0:00:09.70,0:00:10.02,Caption,,0,0,450,,so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} already
+Dialogue: 0,0:00:10.02,0:00:10.54,Caption,,0,0,450,,so it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}already{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.54,0:00:11.00,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}happening{\c&H00FFFFFF\fscx100\fscy100} even though
+Dialogue: 0,0:00:11.00,0:00:11.20,Caption,,0,0,450,,happening {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}even{\c&H00FFFFFF\fscx100\fscy100} though
+Dialogue: 0,0:00:11.20,0:00:11.38,Caption,,0,0,450,,happening even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}though{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.38,0:00:11.52,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} your closed source
+Dialogue: 0,0:00:11.52,0:00:11.86,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} closed source
+Dialogue: 0,0:00:11.86,0:00:12.08,Caption,,0,0,450,,if your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}closed{\c&H00FFFFFF\fscx100\fscy100} source
+Dialogue: 0,0:00:12.08,0:00:12.30,Caption,,0,0,450,,if your closed {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.30,0:00:12.52,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100} open source
+Dialogue: 0,0:00:12.52,0:00:12.74,Caption,,0,0,450,,or {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source
+Dialogue: 0,0:00:12.74,0:00:12.96,Caption,,0,0,450,,or open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.96,0:00:13.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}doesn't{\c&H00FFFFFF\fscx100\fscy100} really matter
+Dialogue: 0,0:00:13.28,0:00:13.58,Caption,,0,0,450,,doesn't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} matter
+Dialogue: 0,0:00:13.58,0:00:13.84,Caption,,0,0,450,,doesn't really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}matter{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.84,0:00:13.96,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}why{\c&H00FFFFFF\fscx100\fscy100} don't you put your
+Dialogue: 0,0:00:13.96,0:00:14.10,Caption,,0,0,450,,why {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}don't{\c&H00FFFFFF\fscx100\fscy100} you put your
+Dialogue: 0,0:00:14.10,0:00:14.30,Caption,,0,0,450,,why don't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} put your
+Dialogue: 0,0:00:14.30,0:00:14.50,Caption,,0,0,450,,why don't you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}put{\c&H00FFFFFF\fscx100\fscy100} your
+Dialogue: 0,0:00:14.50,0:00:14.70,Caption,,0,0,450,,why don't you put {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.70,0:00:14.90,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}code{\c&H00FFFFFF\fscx100\fscy100} out there so
+Dialogue: 0,0:00:14.90,0:00:15.10,Caption,,0,0,450,,code {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out{\c&H00FFFFFF\fscx100\fscy100} there so
+Dialogue: 0,0:00:15.10,0:00:15.30,Caption,,0,0,450,,code out {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there{\c&H00FFFFFF\fscx100\fscy100} so
+Dialogue: 0,0:00:15.30,0:00:15.52,Caption,,0,0,450,,code out there {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.52,0:00:15.82,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100} can just feel
+Dialogue: 0,0:00:15.82,0:00:16.48,Caption,,0,0,450,,people {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} just feel
+Dialogue: 0,0:00:16.48,0:00:16.84,Caption,,0,0,450,,people can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} feel
+Dialogue: 0,0:00:16.84,0:00:17.16,Caption,,0,0,450,,people can just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}feel{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.16,0:00:17.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100} you know trust it
+Dialogue: 0,0:00:17.32,0:00:17.46,Caption,,0,0,450,,some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} know trust it
+Dialogue: 0,0:00:17.46,0:00:17.96,Caption,,0,0,450,,some you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100} trust it
+Dialogue: 0,0:00:17.96,0:00:18.74,Caption,,0,0,450,,some you know {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trust{\c&H00FFFFFF\fscx100\fscy100} it
+Dialogue: 0,0:00:18.74,0:00:18.94,Caption,,0,0,450,,some you know trust {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.94,0:00:19.10,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}gave{\c&H00FFFFFF\fscx100\fscy100} you some initial
+Dialogue: 0,0:00:19.10,0:00:19.24,Caption,,0,0,450,,gave {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} some initial
+Dialogue: 0,0:00:19.24,0:00:19.60,Caption,,0,0,450,,gave you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100} initial
+Dialogue: 0,0:00:19.60,0:00:19.92,Caption,,0,0,450,,gave you some {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}initial{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.92,0:00:20.12,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}traction{\c&H00FFFFFF\fscx100\fscy100} so you can
+Dialogue: 0,0:00:20.12,0:00:20.20,Caption,,0,0,450,,traction {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} you can
+Dialogue: 0,0:00:20.20,0:00:20.34,Caption,,0,0,450,,traction so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} can
+Dialogue: 0,0:00:20.34,0:00:20.62,Caption,,0,0,450,,traction so you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.62,0:00:20.92,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}better{\c&H00FFFFFF\fscx100\fscy100} find a market
+Dialogue: 0,0:00:20.92,0:00:21.32,Caption,,0,0,450,,better {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}find{\c&H00FFFFFF\fscx100\fscy100} a market
+Dialogue: 0,0:00:21.32,0:00:21.64,Caption,,0,0,450,,better find {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} market
+Dialogue: 0,0:00:21.64,0:00:21.90,Caption,,0,0,450,,better find a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}market{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.90,0:00:22.46,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}fit{\c&H00FFFFFF\fscx100\fscy100} It's like as a
+Dialogue: 0,0:00:22.46,0:00:22.70,Caption,,0,0,450,,fit {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} like as a
+Dialogue: 0,0:00:22.70,0:00:23.50,Caption,,0,0,450,,fit It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} as a
+Dialogue: 0,0:00:23.50,0:00:23.62,Caption,,0,0,450,,fit It's like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:23.62,0:00:23.92,Caption,,0,0,450,,fit It's like as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.92,0:00:24.24,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}developer{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.24,0:00:24.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} I see this project
+Dialogue: 0,0:00:24.32,0:00:24.52,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} see this project
+Dialogue: 0,0:00:24.52,0:00:24.72,Caption,,0,0,450,,if I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}see{\c&H00FFFFFF\fscx100\fscy100} this project
+Dialogue: 0,0:00:24.72,0:00:25.00,Caption,,0,0,450,,if I see {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} project
+Dialogue: 0,0:00:25.00,0:00:25.12,Caption,,0,0,450,,if I see this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}project{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.12,0:00:25.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} open source
+Dialogue: 0,0:00:25.32,0:00:25.50,Caption,,0,0,450,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source
+Dialogue: 0,0:00:25.50,0:00:25.72,Caption,,0,0,450,,is open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.72,0:00:26.80,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I'll{\c&H00FFFFFF\fscx100\fscy100} give it a try
+Dialogue: 0,0:00:26.80,0:00:26.96,Caption,,0,0,450,,I'll {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}give{\c&H00FFFFFF\fscx100\fscy100} it a try
+Dialogue: 0,0:00:26.96,0:00:27.08,Caption,,0,0,450,,I'll give {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} a try
+Dialogue: 0,0:00:27.08,0:00:27.16,Caption,,0,0,450,,I'll give it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} try
+Dialogue: 0,0:00:27.16,0:00:27.28,Caption,,0,0,450,,I'll give it a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}try{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.28,0:00:27.50,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I'll{\c&H00FFFFFF\fscx100\fscy100} self-host it
+Dialogue: 0,0:00:27.50,0:00:27.96,Caption,,0,0,450,,I'll {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}self-host{\c&H00FFFFFF\fscx100\fscy100} it
+Dialogue: 0,0:00:27.96,0:00:28.50,Caption,,0,0,450,,I'll self-host {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.50,0:00:28.64,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} if it is good
+Dialogue: 0,0:00:28.64,0:00:28.68,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} it is good
+Dialogue: 0,0:00:28.68,0:00:28.80,Caption,,0,0,450,,and if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} is good
+Dialogue: 0,0:00:28.80,0:00:29.04,Caption,,0,0,450,,and if it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} good
+Dialogue: 0,0:00:29.04,0:00:29.52,Caption,,0,0,450,,and if it is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}good{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.52,0:00:29.64,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}then{\c&H00FFFFFF\fscx100\fscy100} I'm going to
+Dialogue: 0,0:00:29.64,0:00:29.90,Caption,,0,0,450,,then {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I'm{\c&H00FFFFFF\fscx100\fscy100} going to
+Dialogue: 0,0:00:29.90,0:00:30.08,Caption,,0,0,450,,then I'm {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:30.08,0:00:30.50,Caption,,0,0,450,,then I'm going {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.50,0:00:30.68,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}contribute{\c&H00FFFFFF\fscx100\fscy100} to this
+Dialogue: 0,0:00:30.68,0:00:30.80,Caption,,0,0,450,,contribute {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} this
+Dialogue: 0,0:00:30.80,0:00:31.08,Caption,,0,0,450,,contribute to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.08,0:00:31.50,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}project.{\c&H00FFFFFF\fscx100\fscy100} That's how
+Dialogue: 0,0:00:31.50,0:00:31.70,Caption,,0,0,450,,project. {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}That's{\c&H00FFFFFF\fscx100\fscy100} how
+Dialogue: 0,0:00:31.70,0:00:31.82,Caption,,0,0,450,,project. That's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.82,0:00:31.98,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} get your first few
+Dialogue: 0,0:00:31.98,0:00:32.16,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100} your first few
+Dialogue: 0,0:00:32.16,0:00:32.44,Caption,,0,0,450,,you get {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} first few
+Dialogue: 0,0:00:32.44,0:00:32.64,Caption,,0,0,450,,you get your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}first{\c&H00FFFFFF\fscx100\fscy100} few
+Dialogue: 0,0:00:32.64,0:00:33.16,Caption,,0,0,450,,you get your first {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}few{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.16,0:00:33.46,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} it's much better
+Dialogue: 0,0:00:33.46,0:00:33.76,Caption,,0,0,450,,so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} much better
+Dialogue: 0,0:00:33.76,0:00:34.00,Caption,,0,0,450,,so it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}much{\c&H00FFFFFF\fscx100\fscy100} better
+Dialogue: 0,0:00:34.00,0:00:34.26,Caption,,0,0,450,,so it's much {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}better{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:34.26,0:00:34.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100} a closed source
+Dialogue: 0,0:00:34.60,0:00:34.72,Caption,,0,0,450,,than {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} closed source
+Dialogue: 0,0:00:34.72,0:00:35.12,Caption,,0,0,450,,than a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}closed{\c&H00FFFFFF\fscx100\fscy100} source
+Dialogue: 0,0:00:35.12,0:00:35.52,Caption,,0,0,450,,than a closed {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:35.52,0:00:35.92,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}version{\c&H00FFFFFF\fscx100\fscy100}
