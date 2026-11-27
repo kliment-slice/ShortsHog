@@ -1,135 +1,135 @@
 [Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
-PlayResY: 1920
+PlayResY: 1440
 WrapStyle: 2
 ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} actually
-Dialogue: 0,0:00:00.20,0:00:00.45,Caption,,0,0,600,,It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:00.45,0:00:00.65,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}interesting{\c&H00FFFFFF\fscx100\fscy100} that
-Dialogue: 0,0:00:00.65,0:00:00.77,Caption,,0,0,600,,interesting {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:00.77,0:00:01.09,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100} open core
-Dialogue: 0,0:00:01.09,0:00:01.33,Caption,,0,0,600,,you're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} core
-Dialogue: 0,0:00:01.33,0:00:01.61,Caption,,0,0,600,,you're open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}core{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:01.61,0:00:01.83,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} we tried open
-Dialogue: 0,0:00:01.83,0:00:02.29,Caption,,0,0,600,,because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} tried open
-Dialogue: 0,0:00:02.29,0:00:02.55,Caption,,0,0,600,,because we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}tried{\c&H00FFFFFF\fscx100\fscy100} open
-Dialogue: 0,0:00:02.55,0:00:02.79,Caption,,0,0,600,,because we tried {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:02.79,0:00:02.93,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}core{\c&H00FFFFFF\fscx100\fscy100} and it really
-Dialogue: 0,0:00:02.93,0:00:03.03,Caption,,0,0,600,,core {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} it really
-Dialogue: 0,0:00:03.03,0:00:03.19,Caption,,0,0,600,,core and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} really
-Dialogue: 0,0:00:03.19,0:00:03.37,Caption,,0,0,600,,core and it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:03.37,0:00:03.63,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}didn't{\c&H00FFFFFF\fscx100\fscy100} work for us
-Dialogue: 0,0:00:03.63,0:00:03.79,Caption,,0,0,600,,didn't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100} for us
-Dialogue: 0,0:00:03.79,0:00:04.03,Caption,,0,0,600,,didn't work {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} us
-Dialogue: 0,0:00:04.03,0:00:04.29,Caption,,0,0,600,,didn't work for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}us{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:04.29,0:00:04.39,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} it didn't work
-Dialogue: 0,0:00:04.39,0:00:04.53,Caption,,0,0,600,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} didn't work
-Dialogue: 0,0:00:04.53,0:00:04.83,Caption,,0,0,600,,and it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}didn't{\c&H00FFFFFF\fscx100\fscy100} work
-Dialogue: 0,0:00:04.83,0:00:05.37,Caption,,0,0,600,,and it didn't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:05.37,0:00:06.10,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:06.10,0:00:06.30,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} what customers
-Dialogue: 0,0:00:06.30,0:00:06.70,Caption,,0,0,600,,really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100} customers
-Dialogue: 0,0:00:06.70,0:00:06.96,Caption,,0,0,600,,really what {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}customers{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:06.96,0:00:07.14,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} they're buying
-Dialogue: 0,0:00:07.14,0:00:07.48,Caption,,0,0,600,,think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they're{\c&H00FFFFFF\fscx100\fscy100} buying
-Dialogue: 0,0:00:07.48,0:00:07.78,Caption,,0,0,600,,think they're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}buying{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:07.78,0:00:07.94,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} like 24/7 on-call
-Dialogue: 0,0:00:07.94,0:00:08.22,Caption,,0,0,600,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} 24/7 on-call
-Dialogue: 0,0:00:08.22,0:00:09.08,Caption,,0,0,600,,is like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}24/7{\c&H00FFFFFF\fscx100\fscy100} on-call
-Dialogue: 0,0:00:09.08,0:00:09.64,Caption,,0,0,600,,is like 24/7 {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on-call{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:09.64,0:00:10.30,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}SRE{\c&H00FFFFFF\fscx100\fscy100} support at one
-Dialogue: 0,0:00:10.30,0:00:10.71,Caption,,0,0,600,,SRE {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}support{\c&H00FFFFFF\fscx100\fscy100} at one
-Dialogue: 0,0:00:10.71,0:00:10.85,Caption,,0,0,600,,SRE support {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} one
-Dialogue: 0,0:00:10.85,0:00:11.07,Caption,,0,0,600,,SRE support at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}one{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:11.07,0:00:11.25,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}point{\c&H00FFFFFF\fscx100\fscy100} we were
-Dialogue: 0,0:00:11.25,0:00:11.33,Caption,,0,0,600,,point {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} were
-Dialogue: 0,0:00:11.33,0:00:11.57,Caption,,0,0,600,,point we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:11.57,0:00:12.15,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}literally{\c&H00FFFFFF\fscx100\fscy100} debugging
-Dialogue: 0,0:00:12.15,0:00:12.57,Caption,,0,0,600,,literally {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}debugging{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:12.57,0:00:13.05,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people's{\c&H00FFFFFF\fscx100\fscy100} setups of
-Dialogue: 0,0:00:13.05,0:00:13.87,Caption,,0,0,600,,people's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}setups{\c&H00FFFFFF\fscx100\fscy100} of
-Dialogue: 0,0:00:13.87,0:00:14.17,Caption,,0,0,600,,people's setups {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:14.17,0:00:14.63,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} through like
-Dialogue: 0,0:00:14.63,0:00:14.85,Caption,,0,0,600,,like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}through{\c&H00FFFFFF\fscx100\fscy100} like
-Dialogue: 0,0:00:14.85,0:00:15.39,Caption,,0,0,600,,like through {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:15.39,0:00:15.77,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pictures{\c&H00FFFFFF\fscx100\fscy100} taken of a
-Dialogue: 0,0:00:15.77,0:00:15.97,Caption,,0,0,600,,pictures {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}taken{\c&H00FFFFFF\fscx100\fscy100} of a
-Dialogue: 0,0:00:15.97,0:00:16.07,Caption,,0,0,600,,pictures taken {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} a
-Dialogue: 0,0:00:16.07,0:00:16.43,Caption,,0,0,600,,pictures taken of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:16.43,0:00:17.29,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}screen{\c&H00FFFFFF\fscx100\fscy100} Because their
-Dialogue: 0,0:00:17.29,0:00:17.55,Caption,,0,0,600,,screen {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Because{\c&H00FFFFFF\fscx100\fscy100} their
-Dialogue: 0,0:00:17.55,0:00:18.77,Caption,,0,0,600,,screen Because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}their{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:18.77,0:00:18.95,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}policies{\c&H00FFFFFF\fscx100\fscy100} were so
-Dialogue: 0,0:00:18.95,0:00:19.11,Caption,,0,0,600,,policies {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100} so
-Dialogue: 0,0:00:19.11,0:00:19.55,Caption,,0,0,600,,policies were {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:19.55,0:00:19.87,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}strict{\c&H00FFFFFF\fscx100\fscy100} that they
-Dialogue: 0,0:00:19.87,0:00:20.11,Caption,,0,0,600,,strict {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} they
-Dialogue: 0,0:00:20.11,0:00:20.67,Caption,,0,0,600,,strict that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:20.67,0:00:20.99,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}weren't{\c&H00FFFFFF\fscx100\fscy100} allowed to
-Dialogue: 0,0:00:20.99,0:00:21.29,Caption,,0,0,600,,weren't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}allowed{\c&H00FFFFFF\fscx100\fscy100} to
-Dialogue: 0,0:00:21.29,0:00:22.07,Caption,,0,0,600,,weren't allowed {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:22.07,0:00:22.47,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}take{\c&H00FFFFFF\fscx100\fscy100} screenshots.
-Dialogue: 0,0:00:22.47,0:00:22.75,Caption,,0,0,600,,take {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}screenshots.{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:22.75,0:00:22.83,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} it was really
-Dialogue: 0,0:00:22.83,0:00:22.87,Caption,,0,0,600,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} was really
-Dialogue: 0,0:00:22.87,0:00:23.25,Caption,,0,0,600,,So it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} really
-Dialogue: 0,0:00:23.25,0:00:23.55,Caption,,0,0,600,,So it was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:23.55,0:00:23.80,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}painful.{\c&H00FFFFFF\fscx100\fscy100} But that
-Dialogue: 0,0:00:23.80,0:00:24.70,Caption,,0,0,600,,painful. {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}But{\c&H00FFFFFF\fscx100\fscy100} that
-Dialogue: 0,0:00:24.70,0:00:25.04,Caption,,0,0,600,,painful. But {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:25.04,0:00:25.24,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think was very hard
-Dialogue: 0,0:00:25.24,0:00:25.82,Caption,,0,0,600,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} was very hard
-Dialogue: 0,0:00:25.82,0:00:26.02,Caption,,0,0,600,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} very hard
-Dialogue: 0,0:00:26.02,0:00:26.20,Caption,,0,0,600,,I think was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}very{\c&H00FFFFFF\fscx100\fscy100} hard
-Dialogue: 0,0:00:26.20,0:00:26.34,Caption,,0,0,600,,I think was very {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}hard{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:26.34,0:00:26.42,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} us to make work
-Dialogue: 0,0:00:26.42,0:00:26.52,Caption,,0,0,600,,for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}us{\c&H00FFFFFF\fscx100\fscy100} to make work
-Dialogue: 0,0:00:26.52,0:00:26.64,Caption,,0,0,600,,for us {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} make work
-Dialogue: 0,0:00:26.64,0:00:26.84,Caption,,0,0,600,,for us to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}make{\c&H00FFFFFF\fscx100\fscy100} work
-Dialogue: 0,0:00:26.84,0:00:26.98,Caption,,0,0,600,,for us to make {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:26.98,0:00:27.14,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} actually when we
-Dialogue: 0,0:00:27.14,0:00:27.30,Caption,,0,0,600,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} when we
-Dialogue: 0,0:00:27.30,0:00:27.40,Caption,,0,0,600,,and actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}when{\c&H00FFFFFF\fscx100\fscy100} we
-Dialogue: 0,0:00:27.40,0:00:27.54,Caption,,0,0,600,,and actually when {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:27.54,0:00:27.80,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} pivoted to only
-Dialogue: 0,0:00:27.80,0:00:28.14,Caption,,0,0,600,,just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pivoted{\c&H00FFFFFF\fscx100\fscy100} to only
-Dialogue: 0,0:00:28.14,0:00:28.66,Caption,,0,0,600,,just pivoted {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} only
-Dialogue: 0,0:00:28.66,0:00:28.94,Caption,,0,0,600,,just pivoted to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}only{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:28.94,0:00:29.14,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}focusing{\c&H00FFFFFF\fscx100\fscy100} on cloud for
-Dialogue: 0,0:00:29.14,0:00:29.44,Caption,,0,0,600,,focusing {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on{\c&H00FFFFFF\fscx100\fscy100} cloud for
-Dialogue: 0,0:00:29.44,0:00:29.62,Caption,,0,0,600,,focusing on {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}cloud{\c&H00FFFFFF\fscx100\fscy100} for
-Dialogue: 0,0:00:29.62,0:00:29.84,Caption,,0,0,600,,focusing on cloud {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:29.84,0:00:30.58,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}monetization{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:30.58,0:00:30.72,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} went way better.
-Dialogue: 0,0:00:30.72,0:00:30.90,Caption,,0,0,600,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}went{\c&H00FFFFFF\fscx100\fscy100} way better.
-Dialogue: 0,0:00:30.90,0:00:31.18,Caption,,0,0,600,,that went {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}way{\c&H00FFFFFF\fscx100\fscy100} better.
-Dialogue: 0,0:00:31.18,0:00:32.43,Caption,,0,0,600,,that went way {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}better.{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:32.49,0:00:32.73,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Gave{\c&H00FFFFFF\fscx100\fscy100} away the open
-Dialogue: 0,0:00:32.73,0:00:32.87,Caption,,0,0,600,,Gave {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}away{\c&H00FFFFFF\fscx100\fscy100} the open
-Dialogue: 0,0:00:32.87,0:00:33.13,Caption,,0,0,600,,Gave away {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} open
-Dialogue: 0,0:00:33.13,0:00:33.27,Caption,,0,0,600,,Gave away the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:33.27,0:00:33.49,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} for free
-Dialogue: 0,0:00:33.49,0:00:33.75,Caption,,0,0,600,,source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} free
-Dialogue: 0,0:00:33.75,0:00:34.14,Caption,,0,0,600,,source for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}free{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:34.14,0:00:34.90,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} that still
-Dialogue: 0,0:00:34.90,0:00:35.20,Caption,,0,0,600,,but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} still
-Dialogue: 0,0:00:35.20,0:00:35.62,Caption,,0,0,600,,but that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}still{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:35.62,0:00:36.04,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}generated{\c&H00FFFFFF\fscx100\fscy100} word of
-Dialogue: 0,0:00:36.04,0:00:36.16,Caption,,0,0,600,,generated {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}word{\c&H00FFFFFF\fscx100\fscy100} of
-Dialogue: 0,0:00:36.16,0:00:36.44,Caption,,0,0,600,,generated word {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:36.44,0:00:36.72,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}mouth{\c&H00FFFFFF\fscx100\fscy100} and usage for
-Dialogue: 0,0:00:36.72,0:00:37.36,Caption,,0,0,600,,mouth {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} usage for
-Dialogue: 0,0:00:37.36,0:00:37.54,Caption,,0,0,600,,mouth and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}usage{\c&H00FFFFFF\fscx100\fscy100} for
-Dialogue: 0,0:00:37.54,0:00:37.70,Caption,,0,0,600,,mouth and usage {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
-Dialogue: 0,0:00:37.70,0:00:37.92,Caption,,0,0,600,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}our{\c&H00FFFFFF\fscx100\fscy100} cloud as well.
-Dialogue: 0,0:00:37.92,0:00:38.10,Caption,,0,0,600,,our {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}cloud{\c&H00FFFFFF\fscx100\fscy100} as well.
-Dialogue: 0,0:00:38.10,0:00:38.20,Caption,,0,0,600,,our cloud {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} well.
-Dialogue: 0,0:00:38.20,0:00:38.91,Caption,,0,0,600,,our cloud as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}well.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} actually
+Dialogue: 0,0:00:00.20,0:00:00.45,Caption,,0,0,450,,It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.45,0:00:00.65,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}interesting{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:00.65,0:00:00.77,Caption,,0,0,450,,interesting {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.77,0:00:01.09,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100} open core
+Dialogue: 0,0:00:01.09,0:00:01.33,Caption,,0,0,450,,you're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} core
+Dialogue: 0,0:00:01.33,0:00:01.61,Caption,,0,0,450,,you're open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}core{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.61,0:00:01.83,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} we tried open
+Dialogue: 0,0:00:01.83,0:00:02.29,Caption,,0,0,450,,because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} tried open
+Dialogue: 0,0:00:02.29,0:00:02.55,Caption,,0,0,450,,because we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}tried{\c&H00FFFFFF\fscx100\fscy100} open
+Dialogue: 0,0:00:02.55,0:00:02.79,Caption,,0,0,450,,because we tried {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.79,0:00:02.93,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}core{\c&H00FFFFFF\fscx100\fscy100} and it really
+Dialogue: 0,0:00:02.93,0:00:03.03,Caption,,0,0,450,,core {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} it really
+Dialogue: 0,0:00:03.03,0:00:03.19,Caption,,0,0,450,,core and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} really
+Dialogue: 0,0:00:03.19,0:00:03.37,Caption,,0,0,450,,core and it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.37,0:00:03.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}didn't{\c&H00FFFFFF\fscx100\fscy100} work for us
+Dialogue: 0,0:00:03.63,0:00:03.79,Caption,,0,0,450,,didn't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100} for us
+Dialogue: 0,0:00:03.79,0:00:04.03,Caption,,0,0,450,,didn't work {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} us
+Dialogue: 0,0:00:04.03,0:00:04.29,Caption,,0,0,450,,didn't work for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}us{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.29,0:00:04.39,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} it didn't work
+Dialogue: 0,0:00:04.39,0:00:04.53,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} didn't work
+Dialogue: 0,0:00:04.53,0:00:04.83,Caption,,0,0,450,,and it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}didn't{\c&H00FFFFFF\fscx100\fscy100} work
+Dialogue: 0,0:00:04.83,0:00:05.37,Caption,,0,0,450,,and it didn't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.37,0:00:06.10,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.10,0:00:06.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} what customers
+Dialogue: 0,0:00:06.30,0:00:06.70,Caption,,0,0,450,,really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100} customers
+Dialogue: 0,0:00:06.70,0:00:06.96,Caption,,0,0,450,,really what {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}customers{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.96,0:00:07.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} they're buying
+Dialogue: 0,0:00:07.14,0:00:07.48,Caption,,0,0,450,,think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they're{\c&H00FFFFFF\fscx100\fscy100} buying
+Dialogue: 0,0:00:07.48,0:00:07.78,Caption,,0,0,450,,think they're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}buying{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.78,0:00:07.94,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} like 24/7 on-call
+Dialogue: 0,0:00:07.94,0:00:08.22,Caption,,0,0,450,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} 24/7 on-call
+Dialogue: 0,0:00:08.22,0:00:09.08,Caption,,0,0,450,,is like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}24/7{\c&H00FFFFFF\fscx100\fscy100} on-call
+Dialogue: 0,0:00:09.08,0:00:09.64,Caption,,0,0,450,,is like 24/7 {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on-call{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.64,0:00:10.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}SRE{\c&H00FFFFFF\fscx100\fscy100} support at one
+Dialogue: 0,0:00:10.30,0:00:10.71,Caption,,0,0,450,,SRE {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}support{\c&H00FFFFFF\fscx100\fscy100} at one
+Dialogue: 0,0:00:10.71,0:00:10.85,Caption,,0,0,450,,SRE support {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} one
+Dialogue: 0,0:00:10.85,0:00:11.07,Caption,,0,0,450,,SRE support at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}one{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.07,0:00:11.25,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}point{\c&H00FFFFFF\fscx100\fscy100} we were
+Dialogue: 0,0:00:11.25,0:00:11.33,Caption,,0,0,450,,point {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} were
+Dialogue: 0,0:00:11.33,0:00:11.57,Caption,,0,0,450,,point we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.57,0:00:12.15,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}literally{\c&H00FFFFFF\fscx100\fscy100} debugging
+Dialogue: 0,0:00:12.15,0:00:12.57,Caption,,0,0,450,,literally {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}debugging{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.57,0:00:13.05,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people's{\c&H00FFFFFF\fscx100\fscy100} setups of
+Dialogue: 0,0:00:13.05,0:00:13.87,Caption,,0,0,450,,people's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}setups{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:13.87,0:00:14.17,Caption,,0,0,450,,people's setups {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.17,0:00:14.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} through like
+Dialogue: 0,0:00:14.63,0:00:14.85,Caption,,0,0,450,,like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}through{\c&H00FFFFFF\fscx100\fscy100} like
+Dialogue: 0,0:00:14.85,0:00:15.39,Caption,,0,0,450,,like through {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.39,0:00:15.77,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pictures{\c&H00FFFFFF\fscx100\fscy100} taken of a
+Dialogue: 0,0:00:15.77,0:00:15.97,Caption,,0,0,450,,pictures {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}taken{\c&H00FFFFFF\fscx100\fscy100} of a
+Dialogue: 0,0:00:15.97,0:00:16.07,Caption,,0,0,450,,pictures taken {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:16.07,0:00:16.43,Caption,,0,0,450,,pictures taken of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.43,0:00:17.29,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}screen{\c&H00FFFFFF\fscx100\fscy100} Because their
+Dialogue: 0,0:00:17.29,0:00:17.55,Caption,,0,0,450,,screen {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Because{\c&H00FFFFFF\fscx100\fscy100} their
+Dialogue: 0,0:00:17.55,0:00:18.77,Caption,,0,0,450,,screen Because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}their{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.77,0:00:18.95,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}policies{\c&H00FFFFFF\fscx100\fscy100} were so
+Dialogue: 0,0:00:18.95,0:00:19.11,Caption,,0,0,450,,policies {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}were{\c&H00FFFFFF\fscx100\fscy100} so
+Dialogue: 0,0:00:19.11,0:00:19.55,Caption,,0,0,450,,policies were {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.55,0:00:19.87,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}strict{\c&H00FFFFFF\fscx100\fscy100} that they
+Dialogue: 0,0:00:19.87,0:00:20.11,Caption,,0,0,450,,strict {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} they
+Dialogue: 0,0:00:20.11,0:00:20.67,Caption,,0,0,450,,strict that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.67,0:00:20.99,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}weren't{\c&H00FFFFFF\fscx100\fscy100} allowed to
+Dialogue: 0,0:00:20.99,0:00:21.29,Caption,,0,0,450,,weren't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}allowed{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:21.29,0:00:22.07,Caption,,0,0,450,,weren't allowed {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.07,0:00:22.47,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}take{\c&H00FFFFFF\fscx100\fscy100} screenshots.
+Dialogue: 0,0:00:22.47,0:00:22.75,Caption,,0,0,450,,take {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}screenshots.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.75,0:00:22.83,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} it was really
+Dialogue: 0,0:00:22.83,0:00:22.87,Caption,,0,0,450,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} was really
+Dialogue: 0,0:00:22.87,0:00:23.25,Caption,,0,0,450,,So it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} really
+Dialogue: 0,0:00:23.25,0:00:23.55,Caption,,0,0,450,,So it was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.55,0:00:23.80,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}painful.{\c&H00FFFFFF\fscx100\fscy100} But that
+Dialogue: 0,0:00:23.80,0:00:24.70,Caption,,0,0,450,,painful. {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}But{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:24.70,0:00:25.04,Caption,,0,0,450,,painful. But {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.04,0:00:25.24,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think was very hard
+Dialogue: 0,0:00:25.24,0:00:25.82,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} was very hard
+Dialogue: 0,0:00:25.82,0:00:26.02,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} very hard
+Dialogue: 0,0:00:26.02,0:00:26.20,Caption,,0,0,450,,I think was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}very{\c&H00FFFFFF\fscx100\fscy100} hard
+Dialogue: 0,0:00:26.20,0:00:26.34,Caption,,0,0,450,,I think was very {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}hard{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.34,0:00:26.42,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} us to make work
+Dialogue: 0,0:00:26.42,0:00:26.52,Caption,,0,0,450,,for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}us{\c&H00FFFFFF\fscx100\fscy100} to make work
+Dialogue: 0,0:00:26.52,0:00:26.64,Caption,,0,0,450,,for us {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} make work
+Dialogue: 0,0:00:26.64,0:00:26.84,Caption,,0,0,450,,for us to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}make{\c&H00FFFFFF\fscx100\fscy100} work
+Dialogue: 0,0:00:26.84,0:00:26.98,Caption,,0,0,450,,for us to make {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.98,0:00:27.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} actually when we
+Dialogue: 0,0:00:27.14,0:00:27.30,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actually{\c&H00FFFFFF\fscx100\fscy100} when we
+Dialogue: 0,0:00:27.30,0:00:27.40,Caption,,0,0,450,,and actually {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}when{\c&H00FFFFFF\fscx100\fscy100} we
+Dialogue: 0,0:00:27.40,0:00:27.54,Caption,,0,0,450,,and actually when {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.54,0:00:27.80,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} pivoted to only
+Dialogue: 0,0:00:27.80,0:00:28.14,Caption,,0,0,450,,just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pivoted{\c&H00FFFFFF\fscx100\fscy100} to only
+Dialogue: 0,0:00:28.14,0:00:28.66,Caption,,0,0,450,,just pivoted {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} only
+Dialogue: 0,0:00:28.66,0:00:28.94,Caption,,0,0,450,,just pivoted to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}only{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.94,0:00:29.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}focusing{\c&H00FFFFFF\fscx100\fscy100} on cloud for
+Dialogue: 0,0:00:29.14,0:00:29.44,Caption,,0,0,450,,focusing {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on{\c&H00FFFFFF\fscx100\fscy100} cloud for
+Dialogue: 0,0:00:29.44,0:00:29.62,Caption,,0,0,450,,focusing on {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}cloud{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:29.62,0:00:29.84,Caption,,0,0,450,,focusing on cloud {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.84,0:00:30.58,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}monetization{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.58,0:00:30.72,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} went way better.
+Dialogue: 0,0:00:30.72,0:00:30.90,Caption,,0,0,450,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}went{\c&H00FFFFFF\fscx100\fscy100} way better.
+Dialogue: 0,0:00:30.90,0:00:31.18,Caption,,0,0,450,,that went {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}way{\c&H00FFFFFF\fscx100\fscy100} better.
+Dialogue: 0,0:00:31.18,0:00:32.43,Caption,,0,0,450,,that went way {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}better.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:32.49,0:00:32.73,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Gave{\c&H00FFFFFF\fscx100\fscy100} away the open
+Dialogue: 0,0:00:32.73,0:00:32.87,Caption,,0,0,450,,Gave {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}away{\c&H00FFFFFF\fscx100\fscy100} the open
+Dialogue: 0,0:00:32.87,0:00:33.13,Caption,,0,0,450,,Gave away {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} open
+Dialogue: 0,0:00:33.13,0:00:33.27,Caption,,0,0,450,,Gave away the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.27,0:00:33.49,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} for free
+Dialogue: 0,0:00:33.49,0:00:33.75,Caption,,0,0,450,,source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} free
+Dialogue: 0,0:00:33.75,0:00:34.14,Caption,,0,0,450,,source for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}free{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:34.14,0:00:34.90,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} that still
+Dialogue: 0,0:00:34.90,0:00:35.20,Caption,,0,0,450,,but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} still
+Dialogue: 0,0:00:35.20,0:00:35.62,Caption,,0,0,450,,but that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}still{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:35.62,0:00:36.04,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}generated{\c&H00FFFFFF\fscx100\fscy100} word of
+Dialogue: 0,0:00:36.04,0:00:36.16,Caption,,0,0,450,,generated {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}word{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:36.16,0:00:36.44,Caption,,0,0,450,,generated word {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:36.44,0:00:36.72,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}mouth{\c&H00FFFFFF\fscx100\fscy100} and usage for
+Dialogue: 0,0:00:36.72,0:00:37.36,Caption,,0,0,450,,mouth {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} usage for
+Dialogue: 0,0:00:37.36,0:00:37.54,Caption,,0,0,450,,mouth and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}usage{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:37.54,0:00:37.70,Caption,,0,0,450,,mouth and usage {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:37.70,0:00:37.92,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}our{\c&H00FFFFFF\fscx100\fscy100} cloud as well.
+Dialogue: 0,0:00:37.92,0:00:38.10,Caption,,0,0,450,,our {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}cloud{\c&H00FFFFFF\fscx100\fscy100} as well.
+Dialogue: 0,0:00:38.10,0:00:38.20,Caption,,0,0,450,,our cloud {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} well.
+Dialogue: 0,0:00:38.20,0:00:38.91,Caption,,0,0,450,,our cloud as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}well.{\c&H00FFFFFF\fscx100\fscy100}

@@ -7,38 +7,103 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Agents triage every
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}incoming PR and issue
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}for security”
-Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,0,,Yesterday
-Dialogue: 0,0:00:00.20,0:00:01.38,Caption,,0,0,0,,we did a launch for our
-Dialogue: 0,0:00:01.38,0:00:02.20,Caption,,0,0,0,,open source project
-Dialogue: 0,0:00:02.20,0:00:03.82,Caption,,0,0,0,,Beacon, and we got like
-Dialogue: 0,0:00:03.82,0:00:05.58,Caption,,0,0,0,,an influx of dozens and
-Dialogue: 0,0:00:05.58,0:00:06.82,Caption,,0,0,0,,dozens of PRs and
-Dialogue: 0,0:00:06.82,0:00:07.48,Caption,,0,0,0,,issues.
-Dialogue: 0,0:00:07.48,0:00:09.69,Caption,,0,0,0,,And we have a security
-Dialogue: 0,0:00:09.69,0:00:11.53,Caption,,0,0,0,,agent and kind of like a
-Dialogue: 0,0:00:11.53,0:00:13.63,Caption,,0,0,0,,code verification agent
-Dialogue: 0,0:00:13.63,0:00:14.49,Caption,,0,0,0,,try to put out like a
-Dialogue: 0,0:00:14.49,0:00:15.99,Caption,,0,0,0,,remediation for the
-Dialogue: 0,0:00:15.99,0:00:17.77,Caption,,0,0,0,,issue, try to do like a
-Dialogue: 0,0:00:17.77,0:00:18.77,Caption,,0,0,0,,security stress test on
-Dialogue: 0,0:00:18.77,0:00:21.01,Caption,,0,0,0,,the PR content.
-Dialogue: 0,0:00:21.01,0:00:21.98,Caption,,0,0,0,,And then also look at
-Dialogue: 0,0:00:21.98,0:00:23.34,Caption,,0,0,0,,the author of the issue
-Dialogue: 0,0:00:23.34,0:00:25.10,Caption,,0,0,0,,or the PR to understand
-Dialogue: 0,0:00:25.10,0:00:26.08,Caption,,0,0,0,,trustworthiness.
-Dialogue: 0,0:00:26.18,0:00:27.66,Caption,,0,0,0,,And so we're trying to
-Dialogue: 0,0:00:27.66,0:00:29.36,Caption,,0,0,0,,build systems to like
-Dialogue: 0,0:00:29.36,0:00:30.46,Caption,,0,0,0,,really automatically
-Dialogue: 0,0:00:30.46,0:00:32.21,Caption,,0,0,0,,determine like what are
-Dialogue: 0,0:00:32.21,0:00:33.89,Caption,,0,0,0,,meaningful issues or
-Dialogue: 0,0:00:33.89,0:00:34.48,Caption,,0,0,0,,PRs.
+Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Yesterday{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.20,0:00:00.34,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} did a launch for
+Dialogue: 0,0:00:00.34,0:00:00.52,Caption,,0,0,450,,we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}did{\c&H00FFFFFF\fscx100\fscy100} a launch for
+Dialogue: 0,0:00:00.52,0:00:00.86,Caption,,0,0,450,,we did {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} launch for
+Dialogue: 0,0:00:00.86,0:00:01.00,Caption,,0,0,450,,we did a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}launch{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:01.00,0:00:01.14,Caption,,0,0,450,,we did a launch {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.14,0:00:01.38,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}our{\c&H00FFFFFF\fscx100\fscy100} open source
+Dialogue: 0,0:00:01.38,0:00:01.60,Caption,,0,0,450,,our {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source
+Dialogue: 0,0:00:01.60,0:00:01.98,Caption,,0,0,450,,our open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.98,0:00:02.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}project{\c&H00FFFFFF\fscx100\fscy100} Beacon
+Dialogue: 0,0:00:02.20,0:00:03.08,Caption,,0,0,450,,project {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Beacon{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.08,0:00:03.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} we got like an
+Dialogue: 0,0:00:03.20,0:00:03.42,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} got like an
+Dialogue: 0,0:00:03.42,0:00:03.68,Caption,,0,0,450,,and we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}got{\c&H00FFFFFF\fscx100\fscy100} like an
+Dialogue: 0,0:00:03.68,0:00:03.82,Caption,,0,0,450,,and we got {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} an
+Dialogue: 0,0:00:03.82,0:00:04.10,Caption,,0,0,450,,and we got like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.10,0:00:04.56,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}influx{\c&H00FFFFFF\fscx100\fscy100} of dozens and
+Dialogue: 0,0:00:04.56,0:00:05.12,Caption,,0,0,450,,influx {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} dozens and
+Dialogue: 0,0:00:05.12,0:00:05.30,Caption,,0,0,450,,influx of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}dozens{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:05.30,0:00:05.58,Caption,,0,0,450,,influx of dozens {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.58,0:00:05.90,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}dozens{\c&H00FFFFFF\fscx100\fscy100} of PRs and
+Dialogue: 0,0:00:05.90,0:00:06.30,Caption,,0,0,450,,dozens {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} PRs and
+Dialogue: 0,0:00:06.30,0:00:06.50,Caption,,0,0,450,,dozens of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}PRs{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:06.50,0:00:06.82,Caption,,0,0,450,,dozens of PRs {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.82,0:00:07.48,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}issues.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.48,0:00:07.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} we have a security
+Dialogue: 0,0:00:07.60,0:00:08.08,Caption,,0,0,450,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} have a security
+Dialogue: 0,0:00:08.08,0:00:08.71,Caption,,0,0,450,,And we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} a security
+Dialogue: 0,0:00:08.71,0:00:09.11,Caption,,0,0,450,,And we have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} security
+Dialogue: 0,0:00:09.11,0:00:09.69,Caption,,0,0,450,,And we have a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}security{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.69,0:00:10.51,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agent{\c&H00FFFFFF\fscx100\fscy100} and kind of like
+Dialogue: 0,0:00:10.51,0:00:10.67,Caption,,0,0,450,,agent {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} kind of like
+Dialogue: 0,0:00:10.67,0:00:10.81,Caption,,0,0,450,,agent and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100} of like
+Dialogue: 0,0:00:10.81,0:00:10.99,Caption,,0,0,450,,agent and kind {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} like
+Dialogue: 0,0:00:10.99,0:00:11.11,Caption,,0,0,450,,agent and kind of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.11,0:00:11.53,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} code verification
+Dialogue: 0,0:00:11.53,0:00:12.17,Caption,,0,0,450,,a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}code{\c&H00FFFFFF\fscx100\fscy100} verification
+Dialogue: 0,0:00:12.17,0:00:12.93,Caption,,0,0,450,,a code {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}verification{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.93,0:00:13.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agent{\c&H00FFFFFF\fscx100\fscy100} try to put out
+Dialogue: 0,0:00:13.63,0:00:13.73,Caption,,0,0,450,,agent {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}try{\c&H00FFFFFF\fscx100\fscy100} to put out
+Dialogue: 0,0:00:13.73,0:00:13.87,Caption,,0,0,450,,agent try {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} put out
+Dialogue: 0,0:00:13.87,0:00:14.03,Caption,,0,0,450,,agent try to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}put{\c&H00FFFFFF\fscx100\fscy100} out
+Dialogue: 0,0:00:14.03,0:00:14.23,Caption,,0,0,450,,agent try to put {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.23,0:00:14.29,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} a remediation for
+Dialogue: 0,0:00:14.29,0:00:14.49,Caption,,0,0,450,,like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} remediation for
+Dialogue: 0,0:00:14.49,0:00:15.25,Caption,,0,0,450,,like a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}remediation{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:15.25,0:00:15.57,Caption,,0,0,450,,like a remediation {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.57,0:00:15.99,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} issue
+Dialogue: 0,0:00:15.99,0:00:16.73,Caption,,0,0,450,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}issue{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.73,0:00:16.89,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}try{\c&H00FFFFFF\fscx100\fscy100} to do like a
+Dialogue: 0,0:00:16.89,0:00:17.21,Caption,,0,0,450,,try {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} do like a
+Dialogue: 0,0:00:17.21,0:00:17.39,Caption,,0,0,450,,try to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} like a
+Dialogue: 0,0:00:17.39,0:00:17.49,Caption,,0,0,450,,try to do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:17.49,0:00:17.77,Caption,,0,0,450,,try to do like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.77,0:00:18.07,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}security{\c&H00FFFFFF\fscx100\fscy100} stress test
+Dialogue: 0,0:00:18.07,0:00:18.37,Caption,,0,0,450,,security {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}stress{\c&H00FFFFFF\fscx100\fscy100} test
+Dialogue: 0,0:00:18.37,0:00:18.55,Caption,,0,0,450,,security stress {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}test{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.55,0:00:18.77,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on{\c&H00FFFFFF\fscx100\fscy100} the PR content.
+Dialogue: 0,0:00:18.77,0:00:19.99,Caption,,0,0,450,,on {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} PR content.
+Dialogue: 0,0:00:19.99,0:00:20.47,Caption,,0,0,450,,on the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}PR{\c&H00FFFFFF\fscx100\fscy100} content.
+Dialogue: 0,0:00:20.47,0:00:21.01,Caption,,0,0,450,,on the PR {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}content.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.01,0:00:21.07,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} then also look at
+Dialogue: 0,0:00:21.07,0:00:21.31,Caption,,0,0,450,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}then{\c&H00FFFFFF\fscx100\fscy100} also look at
+Dialogue: 0,0:00:21.31,0:00:21.61,Caption,,0,0,450,,And then {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}also{\c&H00FFFFFF\fscx100\fscy100} look at
+Dialogue: 0,0:00:21.61,0:00:21.86,Caption,,0,0,450,,And then also {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}look{\c&H00FFFFFF\fscx100\fscy100} at
+Dialogue: 0,0:00:21.86,0:00:21.98,Caption,,0,0,450,,And then also look {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.98,0:00:22.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} author of the
+Dialogue: 0,0:00:22.32,0:00:22.76,Caption,,0,0,450,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}author{\c&H00FFFFFF\fscx100\fscy100} of the
+Dialogue: 0,0:00:22.76,0:00:22.94,Caption,,0,0,450,,the author {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:22.94,0:00:23.22,Caption,,0,0,450,,the author of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.22,0:00:23.34,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}issue{\c&H00FFFFFF\fscx100\fscy100} or the PR to
+Dialogue: 0,0:00:23.34,0:00:23.46,Caption,,0,0,450,,issue {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100} the PR to
+Dialogue: 0,0:00:23.46,0:00:23.80,Caption,,0,0,450,,issue or {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} PR to
+Dialogue: 0,0:00:23.80,0:00:24.50,Caption,,0,0,450,,issue or the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}PR{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:24.50,0:00:24.88,Caption,,0,0,450,,issue or the PR {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.88,0:00:25.10,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}understand{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.10,0:00:26.08,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trustworthiness.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.18,0:00:26.42,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} so we're trying to
+Dialogue: 0,0:00:26.42,0:00:26.94,Caption,,0,0,450,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} we're trying to
+Dialogue: 0,0:00:26.94,0:00:27.18,Caption,,0,0,450,,And so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we're{\c&H00FFFFFF\fscx100\fscy100} trying to
+Dialogue: 0,0:00:27.18,0:00:27.32,Caption,,0,0,450,,And so we're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trying{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:27.32,0:00:27.66,Caption,,0,0,450,,And so we're trying {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.66,0:00:28.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}build{\c&H00FFFFFF\fscx100\fscy100} systems to like
+Dialogue: 0,0:00:28.60,0:00:28.88,Caption,,0,0,450,,build {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}systems{\c&H00FFFFFF\fscx100\fscy100} to like
+Dialogue: 0,0:00:28.88,0:00:29.08,Caption,,0,0,450,,build systems {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} like
+Dialogue: 0,0:00:29.08,0:00:29.36,Caption,,0,0,450,,build systems to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.36,0:00:29.92,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} automatically
+Dialogue: 0,0:00:29.92,0:00:30.46,Caption,,0,0,450,,really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}automatically{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.46,0:00:31.33,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}determine{\c&H00FFFFFF\fscx100\fscy100} like what
+Dialogue: 0,0:00:31.33,0:00:31.49,Caption,,0,0,450,,determine {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} what
+Dialogue: 0,0:00:31.49,0:00:31.83,Caption,,0,0,450,,determine like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:31.83,0:00:32.21,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100} meaningful issues
+Dialogue: 0,0:00:32.21,0:00:33.07,Caption,,0,0,450,,are {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}meaningful{\c&H00FFFFFF\fscx100\fscy100} issues
+Dialogue: 0,0:00:33.07,0:00:33.41,Caption,,0,0,450,,are meaningful {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}issues{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.41,0:00:33.89,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100} PRs.
+Dialogue: 0,0:00:33.89,0:00:34.48,Caption,,0,0,450,,or {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}PRs.{\c&H00FFFFFF\fscx100\fscy100}

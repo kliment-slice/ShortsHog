@@ -1,0 +1,103 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}The{\c&H00FFFFFF\fscx100\fscy100} only exception is
+Dialogue: 0,0:00:00.14,0:00:00.50,Caption,,0,0,450,,The {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}only{\c&H00FFFFFF\fscx100\fscy100} exception is
+Dialogue: 0,0:00:00.50,0:00:00.76,Caption,,0,0,450,,The only {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}exception{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:00.76,0:00:00.96,Caption,,0,0,450,,The only exception {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.96,0:00:01.56,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} what you're
+Dialogue: 0,0:00:01.56,0:00:01.70,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100} you're
+Dialogue: 0,0:00:01.70,0:00:02.06,Caption,,0,0,450,,if what {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.06,0:00:02.42,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}building{\c&H00FFFFFF\fscx100\fscy100} has to do
+Dialogue: 0,0:00:02.42,0:00:02.58,Caption,,0,0,450,,building {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}has{\c&H00FFFFFF\fscx100\fscy100} to do
+Dialogue: 0,0:00:02.58,0:00:02.70,Caption,,0,0,450,,building has {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} do
+Dialogue: 0,0:00:02.70,0:00:02.86,Caption,,0,0,450,,building has to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.86,0:00:03.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}with{\c&H00FFFFFF\fscx100\fscy100} compute
+Dialogue: 0,0:00:03.28,0:00:03.94,Caption,,0,0,450,,with {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}compute{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.94,0:00:04.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} probably not
+Dialogue: 0,0:00:04.20,0:00:04.50,Caption,,0,0,450,,it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}probably{\c&H00FFFFFF\fscx100\fscy100} not
+Dialogue: 0,0:00:04.50,0:00:05.00,Caption,,0,0,450,,it's probably {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.00,0:00:05.22,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100} that you
+Dialogue: 0,0:00:05.22,0:00:05.36,Caption,,0,0,450,,something {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:05.36,0:00:05.64,Caption,,0,0,450,,something that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.64,0:00:06.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}want{\c&H00FFFFFF\fscx100\fscy100} or that you have
+Dialogue: 0,0:00:06.30,0:00:06.76,Caption,,0,0,450,,want {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100} that you have
+Dialogue: 0,0:00:06.76,0:00:07.04,Caption,,0,0,450,,want or {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} you have
+Dialogue: 0,0:00:07.04,0:00:07.92,Caption,,0,0,450,,want or that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} have
+Dialogue: 0,0:00:07.92,0:00:08.08,Caption,,0,0,450,,want or that you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.08,0:00:08.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} open source
+Dialogue: 0,0:00:08.32,0:00:08.60,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source
+Dialogue: 0,0:00:08.60,0:00:09.31,Caption,,0,0,450,,to open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.32,0:00:09.50,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} like for us
+Dialogue: 0,0:00:09.50,0:00:09.62,Caption,,0,0,450,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} for us
+Dialogue: 0,0:00:09.62,0:00:09.92,Caption,,0,0,450,,So like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} us
+Dialogue: 0,0:00:09.92,0:00:10.64,Caption,,0,0,450,,So like for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}us{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.64,0:00:10.90,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}anyone{\c&H00FFFFFF\fscx100\fscy100} can go run CI.
+Dialogue: 0,0:00:10.90,0:00:11.12,Caption,,0,0,450,,anyone {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} go run CI.
+Dialogue: 0,0:00:11.12,0:00:11.66,Caption,,0,0,450,,anyone can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}go{\c&H00FFFFFF\fscx100\fscy100} run CI.
+Dialogue: 0,0:00:11.66,0:00:12.04,Caption,,0,0,450,,anyone can go {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}run{\c&H00FFFFFF\fscx100\fscy100} CI.
+Dialogue: 0,0:00:12.04,0:00:12.20,Caption,,0,0,450,,anyone can go run {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}CI.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.20,0:00:12.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}You{\c&H00FFFFFF\fscx100\fscy100} can run it on your
+Dialogue: 0,0:00:12.28,0:00:12.40,Caption,,0,0,450,,You {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} run it on your
+Dialogue: 0,0:00:12.40,0:00:12.50,Caption,,0,0,450,,You can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}run{\c&H00FFFFFF\fscx100\fscy100} it on your
+Dialogue: 0,0:00:12.50,0:00:12.58,Caption,,0,0,450,,You can run {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100} on your
+Dialogue: 0,0:00:12.58,0:00:12.66,Caption,,0,0,450,,You can run it {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on{\c&H00FFFFFF\fscx100\fscy100} your
+Dialogue: 0,0:00:12.66,0:00:12.94,Caption,,0,0,450,,You can run it on {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.94,0:00:13.44,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}laptop{\c&H00FFFFFF\fscx100\fscy100} But what you
+Dialogue: 0,0:00:13.44,0:00:13.80,Caption,,0,0,450,,laptop {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}But{\c&H00FFFFFF\fscx100\fscy100} what you
+Dialogue: 0,0:00:13.80,0:00:13.90,Caption,,0,0,450,,laptop But {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}what{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:13.90,0:00:14.12,Caption,,0,0,450,,laptop But what {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.12,0:00:14.40,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} need is you
+Dialogue: 0,0:00:14.40,0:00:14.68,Caption,,0,0,450,,really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}need{\c&H00FFFFFF\fscx100\fscy100} is you
+Dialogue: 0,0:00:14.68,0:00:14.88,Caption,,0,0,450,,really need {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:14.88,0:00:15.02,Caption,,0,0,450,,really need is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.02,0:00:15.12,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}need{\c&H00FFFFFF\fscx100\fscy100} a lot of servers.
+Dialogue: 0,0:00:15.12,0:00:15.20,Caption,,0,0,450,,need {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot of servers.
+Dialogue: 0,0:00:15.20,0:00:15.30,Caption,,0,0,450,,need a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100} of servers.
+Dialogue: 0,0:00:15.30,0:00:15.62,Caption,,0,0,450,,need a lot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} servers.
+Dialogue: 0,0:00:15.62,0:00:15.90,Caption,,0,0,450,,need a lot of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}servers.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.90,0:00:16.00,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}You{\c&H00FFFFFF\fscx100\fscy100} need a lot of
+Dialogue: 0,0:00:16.00,0:00:16.06,Caption,,0,0,450,,You {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}need{\c&H00FFFFFF\fscx100\fscy100} a lot of
+Dialogue: 0,0:00:16.06,0:00:16.16,Caption,,0,0,450,,You need {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot of
+Dialogue: 0,0:00:16.16,0:00:16.30,Caption,,0,0,450,,You need a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:16.30,0:00:16.48,Caption,,0,0,450,,You need a lot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.48,0:00:17.23,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vCPUs{\c&H00FFFFFF\fscx100\fscy100} you know
+Dialogue: 0,0:00:17.23,0:00:17.35,Caption,,0,0,450,,vCPUs {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} know
+Dialogue: 0,0:00:17.35,0:00:17.91,Caption,,0,0,450,,vCPUs you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.91,0:00:18.21,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}inherently{\c&H00FFFFFF\fscx100\fscy100} you want it
+Dialogue: 0,0:00:18.21,0:00:18.37,Caption,,0,0,450,,inherently {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} want it
+Dialogue: 0,0:00:18.37,0:00:18.45,Caption,,0,0,450,,inherently you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}want{\c&H00FFFFFF\fscx100\fscy100} it
+Dialogue: 0,0:00:18.45,0:00:18.57,Caption,,0,0,450,,inherently you want {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.57,0:00:18.67,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} be hosted but you
+Dialogue: 0,0:00:18.67,0:00:19.01,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100} hosted but you
+Dialogue: 0,0:00:19.01,0:00:19.74,Caption,,0,0,450,,to be {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}hosted{\c&H00FFFFFF\fscx100\fscy100} but you
+Dialogue: 0,0:00:19.74,0:00:19.84,Caption,,0,0,450,,to be hosted {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} you
+Dialogue: 0,0:00:19.84,0:00:19.94,Caption,,0,0,450,,to be hosted but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.94,0:00:20.16,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} self-host right so
+Dialogue: 0,0:00:20.16,0:00:20.68,Caption,,0,0,450,,can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}self-host{\c&H00FFFFFF\fscx100\fscy100} right so
+Dialogue: 0,0:00:20.68,0:00:21.06,Caption,,0,0,450,,can self-host {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}right{\c&H00FFFFFF\fscx100\fscy100} so
+Dialogue: 0,0:00:21.06,0:00:21.80,Caption,,0,0,450,,can self-host right {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.80,0:00:22.02,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}yeah{\c&H00FFFFFF\fscx100\fscy100} I think compute
+Dialogue: 0,0:00:22.02,0:00:22.28,Caption,,0,0,450,,yeah {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think compute
+Dialogue: 0,0:00:22.28,0:00:23.06,Caption,,0,0,450,,yeah I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} compute
+Dialogue: 0,0:00:23.06,0:00:23.28,Caption,,0,0,450,,yeah I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}compute{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.28,0:00:23.62,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} still something
+Dialogue: 0,0:00:23.62,0:00:24.24,Caption,,0,0,450,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}still{\c&H00FFFFFF\fscx100\fscy100} something
+Dialogue: 0,0:00:24.24,0:00:24.44,Caption,,0,0,450,,is still {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.44,0:00:24.58,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} you want to pay
+Dialogue: 0,0:00:24.58,0:00:24.74,Caption,,0,0,450,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} want to pay
+Dialogue: 0,0:00:24.74,0:00:24.82,Caption,,0,0,450,,that you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}want{\c&H00FFFFFF\fscx100\fscy100} to pay
+Dialogue: 0,0:00:24.82,0:00:24.96,Caption,,0,0,450,,that you want {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} pay
+Dialogue: 0,0:00:24.96,0:00:25.24,Caption,,0,0,450,,that you want to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pay{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.24,0:00:25.86,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} generally
+Dialogue: 0,0:00:25.86,0:00:26.14,Caption,,0,0,450,,for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}generally{\c&H00FFFFFF\fscx100\fscy100}

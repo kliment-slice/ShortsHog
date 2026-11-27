@@ -7,32 +7,69 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“LiteLLM was compromised
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}through a stolen CLI
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}token”
-Dialogue: 0,0:00:00.00,0:00:01.60,Caption,,0,0,0,,The attack vector today
-Dialogue: 0,0:00:01.60,0:00:03.86,Caption,,0,0,0,,though, is more prolific
-Dialogue: 0,0:00:03.86,0:00:04.78,Caption,,0,0,0,,than ever of these
-Dialogue: 0,0:00:04.78,0:00:05.50,Caption,,0,0,0,,supply chain attacks
-Dialogue: 0,0:00:05.50,0:00:06.90,Caption,,0,0,0,,and we saw that with
-Dialogue: 0,0:00:06.90,0:00:08.30,Caption,,0,0,0,,LiteLLM today
-Dialogue: 0,0:00:08.30,0:00:09.22,Caption,,0,0,0,,which was pretty
-Dialogue: 0,0:00:09.22,0:00:09.52,Caption,,0,0,0,,sophisticated.
-Dialogue: 0,0:00:09.52,0:00:11.13,Caption,,0,0,0,,They compromised
-Dialogue: 0,0:00:11.13,0:00:12.53,Caption,,0,0,0,,multiple different core
-Dialogue: 0,0:00:12.53,0:00:13.35,Caption,,0,0,0,,contributors to the
-Dialogue: 0,0:00:13.35,0:00:15.41,Caption,,0,0,0,,project by basically
-Dialogue: 0,0:00:15.41,0:00:17.17,Caption,,0,0,0,,getting access to an
-Dialogue: 0,0:00:17.17,0:00:19.46,Caption,,0,0,0,,OAuth CLI token
-Dialogue: 0,0:00:19.46,0:00:20.46,Caption,,0,0,0,,using that to create a
-Dialogue: 0,0:00:20.46,0:00:21.74,Caption,,0,0,0,,new release.
-Dialogue: 0,0:00:21.74,0:00:22.94,Caption,,0,0,0,,and then even like
-Dialogue: 0,0:00:22.94,0:00:23.94,Caption,,0,0,0,,hacking another user to
-Dialogue: 0,0:00:23.94,0:00:25.12,Caption,,0,0,0,,approve the release
+Dialogue: 0,0:00:00.00,0:00:00.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}The{\c&H00FFFFFF\fscx100\fscy100} attack vector
+Dialogue: 0,0:00:00.28,0:00:00.76,Caption,,0,0,450,,The {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}attack{\c&H00FFFFFF\fscx100\fscy100} vector
+Dialogue: 0,0:00:00.76,0:00:01.36,Caption,,0,0,450,,The attack {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vector{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.36,0:00:01.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}today{\c&H00FFFFFF\fscx100\fscy100} though
+Dialogue: 0,0:00:01.60,0:00:01.94,Caption,,0,0,450,,today {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}though{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.94,0:00:03.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} more prolific than
+Dialogue: 0,0:00:03.32,0:00:03.56,Caption,,0,0,450,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} prolific than
+Dialogue: 0,0:00:03.56,0:00:03.86,Caption,,0,0,450,,is more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}prolific{\c&H00FFFFFF\fscx100\fscy100} than
+Dialogue: 0,0:00:03.86,0:00:04.06,Caption,,0,0,450,,is more prolific {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.06,0:00:04.24,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ever{\c&H00FFFFFF\fscx100\fscy100} of these supply
+Dialogue: 0,0:00:04.24,0:00:04.50,Caption,,0,0,450,,ever {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} these supply
+Dialogue: 0,0:00:04.50,0:00:04.78,Caption,,0,0,450,,ever of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}these{\c&H00FFFFFF\fscx100\fscy100} supply
+Dialogue: 0,0:00:04.78,0:00:05.00,Caption,,0,0,450,,ever of these {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}supply{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.00,0:00:05.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}chain{\c&H00FFFFFF\fscx100\fscy100} attacks
+Dialogue: 0,0:00:05.28,0:00:05.50,Caption,,0,0,450,,chain {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}attacks{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.50,0:00:05.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} we saw that with
+Dialogue: 0,0:00:05.60,0:00:05.76,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}we{\c&H00FFFFFF\fscx100\fscy100} saw that with
+Dialogue: 0,0:00:05.76,0:00:05.94,Caption,,0,0,450,,and we {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}saw{\c&H00FFFFFF\fscx100\fscy100} that with
+Dialogue: 0,0:00:05.94,0:00:06.20,Caption,,0,0,450,,and we saw {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} with
+Dialogue: 0,0:00:06.20,0:00:06.90,Caption,,0,0,450,,and we saw that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}with{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.90,0:00:07.56,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}LiteLLM{\c&H00FFFFFF\fscx100\fscy100} today
+Dialogue: 0,0:00:07.56,0:00:08.30,Caption,,0,0,450,,LiteLLM {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}today{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.30,0:00:08.44,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}which{\c&H00FFFFFF\fscx100\fscy100} was pretty
+Dialogue: 0,0:00:08.44,0:00:08.60,Caption,,0,0,450,,which {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} pretty
+Dialogue: 0,0:00:08.60,0:00:09.22,Caption,,0,0,450,,which was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pretty{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.22,0:00:09.52,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sophisticated.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.52,0:00:10.12,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}They{\c&H00FFFFFF\fscx100\fscy100} compromised
+Dialogue: 0,0:00:10.12,0:00:11.13,Caption,,0,0,450,,They {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}compromised{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.13,0:00:11.51,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}multiple{\c&H00FFFFFF\fscx100\fscy100} different
+Dialogue: 0,0:00:11.51,0:00:12.03,Caption,,0,0,450,,multiple {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}different{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.03,0:00:12.53,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}core{\c&H00FFFFFF\fscx100\fscy100} contributors to
+Dialogue: 0,0:00:12.53,0:00:12.81,Caption,,0,0,450,,core {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}contributors{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:12.81,0:00:12.91,Caption,,0,0,450,,core contributors {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.91,0:00:13.35,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} project by
+Dialogue: 0,0:00:13.35,0:00:14.05,Caption,,0,0,450,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}project{\c&H00FFFFFF\fscx100\fscy100} by
+Dialogue: 0,0:00:14.05,0:00:15.05,Caption,,0,0,450,,the project {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}by{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.05,0:00:15.41,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}basically{\c&H00FFFFFF\fscx100\fscy100} getting
+Dialogue: 0,0:00:15.41,0:00:16.11,Caption,,0,0,450,,basically {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}getting{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.11,0:00:16.55,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}access{\c&H00FFFFFF\fscx100\fscy100} to an OAuth CLI
+Dialogue: 0,0:00:16.55,0:00:16.99,Caption,,0,0,450,,access {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} an OAuth CLI
+Dialogue: 0,0:00:16.99,0:00:17.17,Caption,,0,0,450,,access to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100} OAuth CLI
+Dialogue: 0,0:00:17.17,0:00:18.01,Caption,,0,0,450,,access to an {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}OAuth{\c&H00FFFFFF\fscx100\fscy100} CLI
+Dialogue: 0,0:00:18.01,0:00:18.55,Caption,,0,0,450,,access to an OAuth {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}CLI{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.55,0:00:19.46,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}token{\c&H00FFFFFF\fscx100\fscy100} using that to
+Dialogue: 0,0:00:19.46,0:00:19.68,Caption,,0,0,450,,token {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}using{\c&H00FFFFFF\fscx100\fscy100} that to
+Dialogue: 0,0:00:19.68,0:00:19.86,Caption,,0,0,450,,token using {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:19.86,0:00:20.26,Caption,,0,0,450,,token using that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.26,0:00:20.38,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}create{\c&H00FFFFFF\fscx100\fscy100} a new release.
+Dialogue: 0,0:00:20.38,0:00:20.46,Caption,,0,0,450,,create {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} new release.
+Dialogue: 0,0:00:20.46,0:00:21.02,Caption,,0,0,450,,create a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}new{\c&H00FFFFFF\fscx100\fscy100} release.
+Dialogue: 0,0:00:21.02,0:00:21.74,Caption,,0,0,450,,create a new {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}release.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.74,0:00:21.90,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} then even like
+Dialogue: 0,0:00:21.90,0:00:22.24,Caption,,0,0,450,,and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}then{\c&H00FFFFFF\fscx100\fscy100} even like
+Dialogue: 0,0:00:22.24,0:00:22.68,Caption,,0,0,450,,and then {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}even{\c&H00FFFFFF\fscx100\fscy100} like
+Dialogue: 0,0:00:22.68,0:00:22.94,Caption,,0,0,450,,and then even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.94,0:00:23.18,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}hacking{\c&H00FFFFFF\fscx100\fscy100} another user
+Dialogue: 0,0:00:23.18,0:00:23.44,Caption,,0,0,450,,hacking {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}another{\c&H00FFFFFF\fscx100\fscy100} user
+Dialogue: 0,0:00:23.44,0:00:23.62,Caption,,0,0,450,,hacking another {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}user{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.62,0:00:23.94,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} approve the release
+Dialogue: 0,0:00:23.94,0:00:24.10,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}approve{\c&H00FFFFFF\fscx100\fscy100} the release
+Dialogue: 0,0:00:24.10,0:00:24.52,Caption,,0,0,450,,to approve {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} release
+Dialogue: 0,0:00:24.52,0:00:25.12,Caption,,0,0,450,,to approve the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}release{\c&H00FFFFFF\fscx100\fscy100}

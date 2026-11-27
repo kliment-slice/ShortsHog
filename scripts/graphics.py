@@ -198,21 +198,24 @@ class SummaryBand:
         fn, fr = font("Bold", st["summary_name_size"]), font("SemiBold", st["summary_role_size"])
         name = f"- {name}" if name else ""  # its own line under the quote: "- Name, role at company"
         role = f", {role}" if name and role else ""
+        ns, rs = st["summary_name_size"], st["summary_role_size"]
+        while name and fn.getlength(name) + fr.getlength(role) > room_w and rs > 20:  # a long role: shrink to fit
+            ns, rs = ns - 1, rs - 1
+            fn, fr = font("Bold", ns), font("SemiBold", rs)
         bw = int(fn.getlength(name) + fr.getlength(role)) if name else 0
         bh = max(st["summary_name_size"], st["summary_role_size"]) if name else 0
         if bw > room_w:
             print(f"[{tag}] WARNING: the name and role are wider than the band")
         below = (st["summary_byline_below"] + bh) if name else 0
         best = None
-        # first try breaking only after punctuation (the quote's own phrasing), then any balanced break
-        for strict in (True, False):
-            if best:
-                break
+        def search(strict: bool):
+            """(size, (cost, lines, widths)) of the biggest size with a layout; strict: breaks only after punctuation."""
             for size in range(st["summary_size_max"], st["summary_size_min"] - 1, -2):  # the biggest that fits
                 f = font(st["summary_weight"], size)
                 space = f.getlength(" ")
                 ws = [f.getlength(x) for x in words]
                 lh = int(size * st["summary_leading"])
+                found = None
                 for n in range(1, st["summary_max_lines"] + 1):
                     if lh * (n - 1) + size + below > room_h:
                         break
@@ -229,10 +232,18 @@ class SummaryBand:
                         if strict and punct:
                             continue
                         cost = ragged + st["summary_break_penalty"] * punct
-                        if best is None or cost < best[0]:
-                            best = (cost, lines, widths)
-                if best:
-                    break
+                        if found is None or cost < found[0]:
+                            found = (cost, lines, widths)
+                if found:
+                    return size, found
+            return None
+
+        # the quote's own phrasing (breaks after punctuation) wins unless it costs more than a little size
+        loose, tight = search(False), search(True)
+        pick = tight if tight and (not loose or tight[0] >= st["summary_strict_min"] * loose[0]) else loose
+        size, best = pick if pick else (st["summary_size_min"], None)
+        f = font(st["summary_weight"], size)
+        space, lh = f.getlength(" "), int(size * st["summary_leading"])
         if not best:
             print(f"[{tag}] WARNING: the summary doesn't fit the band without a widow even at {size}px")
             f = font(st["summary_weight"], size)

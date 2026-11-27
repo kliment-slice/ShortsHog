@@ -1,7 +1,7 @@
 # ShortsHog
 
 Turns PostHog panel recordings into a recognizable, dynamic video format: a long-form 16:9 edit
-per panel, then 9:16 portrait shorts from its key moments. Driven by Claude Code slash commands.
+per panel, then 3:4 portrait shorts from its key moments. Driven by Claude Code slash commands.
 
 ## Tools
 
@@ -21,7 +21,8 @@ per panel, then 9:16 portrait shorts from its key moments. Driven by Claude Code
 /new-event      map cameras, mics and panels
 /transcribe     sync audio, mix, transcribe, label speakers
 /longform       16:9 edit: tight cuts, question tags, anchor cards, captions
-/shortform      the few anchors that pass the bar, as hook-first 9:16 shorts
+/shortform      the few anchors that pass the bar, as hook-first 3:4 shorts
+/post           the X post for each short: copy, thumbnail, title, description, settings
 ```
 
 Style and pacing live in `FORMAT.md`; how it all fits together is in `CLAUDE.md`.

@@ -7,33 +7,88 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00DFB32B}Tom Piccirello (PostHog)
-Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“More junk PRs than
-Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}ever: AI one-shots them
-Dialogue: 3,0:00:01.36,0:00:04.86,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}at incredible speed”
-Dialogue: 0,0:00:00.00,0:00:01.64,Caption,,0,0,0,,There are more crap PRs
-Dialogue: 0,0:00:01.64,0:00:02.46,Caption,,0,0,0,,from the public than
-Dialogue: 0,0:00:02.46,0:00:03.72,Caption,,0,0,0,,ever, There was always
-Dialogue: 0,0:00:03.72,0:00:05.30,Caption,,0,0,0,,crap, but the speed at
-Dialogue: 0,0:00:05.30,0:00:07.06,Caption,,0,0,0,,which you can one-shot
-Dialogue: 0,0:00:07.06,0:00:08.14,Caption,,0,0,0,,crap is incredible.
-Dialogue: 0,0:00:09.00,0:00:09.66,Caption,,0,0,0,,I know Mitchell
-Dialogue: 0,0:00:09.66,0:00:11.68,Caption,,0,0,0,,Hashimoto has an open
-Dialogue: 0,0:00:11.68,0:00:13.30,Caption,,0,0,0,,source project for
-Dialogue: 0,0:00:13.30,0:00:15.25,Caption,,0,0,0,,exactly this to
-Dialogue: 0,0:00:16.10,0:00:17.04,Caption,,0,0,0,,effectively only allow
-Dialogue: 0,0:00:17.04,0:00:17.60,Caption,,0,0,0,,contributors who have a
-Dialogue: 0,0:00:17.60,0:00:18.80,Caption,,0,0,0,,certain trust rating
-Dialogue: 0,0:00:19.11,0:00:20.19,Caption,,0,0,0,,really the problem is
-Dialogue: 0,0:00:20.19,0:00:21.67,Caption,,0,0,0,,like it's easy to put up
-Dialogue: 0,0:00:21.67,0:00:22.75,Caption,,0,0,0,,a PR but now that you're
-Dialogue: 0,0:00:22.75,0:00:23.59,Caption,,0,0,0,,putting work on the
-Dialogue: 0,0:00:23.59,0:00:24.84,Caption,,0,0,0,,maintainers and they
-Dialogue: 0,0:00:24.84,0:00:25.72,Caption,,0,0,0,,need to put an actual
-Dialogue: 0,0:00:25.72,0:00:26.81,Caption,,0,0,0,,work to look at it
+Dialogue: 0,0:00:00.00,0:00:00.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}There{\c&H00FFFFFF\fscx100\fscy100} are more crap
+Dialogue: 0,0:00:00.14,0:00:00.46,Caption,,0,0,450,,There {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100} more crap
+Dialogue: 0,0:00:00.46,0:00:00.96,Caption,,0,0,450,,There are {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} crap
+Dialogue: 0,0:00:00.96,0:00:01.34,Caption,,0,0,450,,There are more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}crap{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.34,0:00:01.64,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}PRs{\c&H00FFFFFF\fscx100\fscy100} from the public
+Dialogue: 0,0:00:01.64,0:00:01.74,Caption,,0,0,450,,PRs {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}from{\c&H00FFFFFF\fscx100\fscy100} the public
+Dialogue: 0,0:00:01.74,0:00:02.04,Caption,,0,0,450,,PRs from {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} public
+Dialogue: 0,0:00:02.04,0:00:02.20,Caption,,0,0,450,,PRs from the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}public{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.20,0:00:02.46,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100} ever
+Dialogue: 0,0:00:02.46,0:00:03.08,Caption,,0,0,450,,than {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ever{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.08,0:00:03.22,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}There{\c&H00FFFFFF\fscx100\fscy100} was always crap
+Dialogue: 0,0:00:03.22,0:00:03.42,Caption,,0,0,450,,There {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}was{\c&H00FFFFFF\fscx100\fscy100} always crap
+Dialogue: 0,0:00:03.42,0:00:03.72,Caption,,0,0,450,,There was {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}always{\c&H00FFFFFF\fscx100\fscy100} crap
+Dialogue: 0,0:00:03.72,0:00:04.06,Caption,,0,0,450,,There was always {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}crap{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.06,0:00:04.68,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} the speed at which
+Dialogue: 0,0:00:04.68,0:00:05.04,Caption,,0,0,450,,but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} speed at which
+Dialogue: 0,0:00:05.04,0:00:05.16,Caption,,0,0,450,,but the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}speed{\c&H00FFFFFF\fscx100\fscy100} at which
+Dialogue: 0,0:00:05.16,0:00:05.30,Caption,,0,0,450,,but the speed {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} which
+Dialogue: 0,0:00:05.30,0:00:05.42,Caption,,0,0,450,,but the speed at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}which{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.42,0:00:05.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} can one-shot crap
+Dialogue: 0,0:00:05.60,0:00:06.46,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} one-shot crap
+Dialogue: 0,0:00:06.46,0:00:07.06,Caption,,0,0,450,,you can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}one-shot{\c&H00FFFFFF\fscx100\fscy100} crap
+Dialogue: 0,0:00:07.06,0:00:07.30,Caption,,0,0,450,,you can one-shot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}crap{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.30,0:00:07.72,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} incredible.
+Dialogue: 0,0:00:07.72,0:00:08.14,Caption,,0,0,450,,is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}incredible.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.00,0:00:09.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} know Mitchell
+Dialogue: 0,0:00:09.14,0:00:09.44,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100} Mitchell
+Dialogue: 0,0:00:09.44,0:00:09.66,Caption,,0,0,450,,I know {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Mitchell{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.66,0:00:10.88,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Hashimoto{\c&H00FFFFFF\fscx100\fscy100} has an open
+Dialogue: 0,0:00:10.88,0:00:11.14,Caption,,0,0,450,,Hashimoto {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}has{\c&H00FFFFFF\fscx100\fscy100} an open
+Dialogue: 0,0:00:11.14,0:00:11.52,Caption,,0,0,450,,Hashimoto has {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100} open
+Dialogue: 0,0:00:11.52,0:00:11.68,Caption,,0,0,450,,Hashimoto has an {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.68,0:00:12.10,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} project for
+Dialogue: 0,0:00:12.10,0:00:12.42,Caption,,0,0,450,,source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}project{\c&H00FFFFFF\fscx100\fscy100} for
+Dialogue: 0,0:00:12.42,0:00:13.30,Caption,,0,0,450,,source project {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.30,0:00:13.68,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}exactly{\c&H00FFFFFF\fscx100\fscy100} this to
+Dialogue: 0,0:00:13.68,0:00:14.00,Caption,,0,0,450,,exactly {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:14.00,0:00:15.25,Caption,,0,0,450,,exactly this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.10,0:00:16.36,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}effectively{\c&H00FFFFFF\fscx100\fscy100} only allow
+Dialogue: 0,0:00:16.36,0:00:16.60,Caption,,0,0,450,,effectively {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}only{\c&H00FFFFFF\fscx100\fscy100} allow
+Dialogue: 0,0:00:16.60,0:00:17.04,Caption,,0,0,450,,effectively only {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}allow{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.04,0:00:17.18,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}contributors{\c&H00FFFFFF\fscx100\fscy100} who have
+Dialogue: 0,0:00:17.18,0:00:17.32,Caption,,0,0,450,,contributors {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}who{\c&H00FFFFFF\fscx100\fscy100} have
+Dialogue: 0,0:00:17.32,0:00:17.40,Caption,,0,0,450,,contributors who {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.40,0:00:17.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} certain trust
+Dialogue: 0,0:00:17.60,0:00:18.00,Caption,,0,0,450,,a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}certain{\c&H00FFFFFF\fscx100\fscy100} trust
+Dialogue: 0,0:00:18.00,0:00:18.36,Caption,,0,0,450,,a certain {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}trust{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.36,0:00:18.80,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}rating{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.11,0:00:19.25,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} the problem is
+Dialogue: 0,0:00:19.25,0:00:19.55,Caption,,0,0,450,,really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} problem is
+Dialogue: 0,0:00:19.55,0:00:19.87,Caption,,0,0,450,,really the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}problem{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:19.87,0:00:20.19,Caption,,0,0,450,,really the problem {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.19,0:00:20.95,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} it's easy to put
+Dialogue: 0,0:00:20.95,0:00:21.23,Caption,,0,0,450,,like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} easy to put
+Dialogue: 0,0:00:21.23,0:00:21.33,Caption,,0,0,450,,like it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}easy{\c&H00FFFFFF\fscx100\fscy100} to put
+Dialogue: 0,0:00:21.33,0:00:21.45,Caption,,0,0,450,,like it's easy {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} put
+Dialogue: 0,0:00:21.45,0:00:21.57,Caption,,0,0,450,,like it's easy to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}put{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.57,0:00:21.67,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100} a PR but now that
+Dialogue: 0,0:00:21.67,0:00:21.93,Caption,,0,0,450,,up {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} PR but now that
+Dialogue: 0,0:00:21.93,0:00:22.11,Caption,,0,0,450,,up a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}PR{\c&H00FFFFFF\fscx100\fscy100} but now that
+Dialogue: 0,0:00:22.11,0:00:22.25,Caption,,0,0,450,,up a PR {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}but{\c&H00FFFFFF\fscx100\fscy100} now that
+Dialogue: 0,0:00:22.25,0:00:22.41,Caption,,0,0,450,,up a PR but {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:22.41,0:00:22.49,Caption,,0,0,450,,up a PR but now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.49,0:00:22.75,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100} putting work on
+Dialogue: 0,0:00:22.75,0:00:23.03,Caption,,0,0,450,,you're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}putting{\c&H00FFFFFF\fscx100\fscy100} work on
+Dialogue: 0,0:00:23.03,0:00:23.21,Caption,,0,0,450,,you're putting {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100} on
+Dialogue: 0,0:00:23.21,0:00:23.31,Caption,,0,0,450,,you're putting work {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.31,0:00:23.59,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} maintainers and
+Dialogue: 0,0:00:23.59,0:00:24.45,Caption,,0,0,450,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}maintainers{\c&H00FFFFFF\fscx100\fscy100} and
+Dialogue: 0,0:00:24.45,0:00:24.68,Caption,,0,0,450,,the maintainers {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.68,0:00:24.84,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they{\c&H00FFFFFF\fscx100\fscy100} need to put an
+Dialogue: 0,0:00:24.84,0:00:24.94,Caption,,0,0,450,,they {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}need{\c&H00FFFFFF\fscx100\fscy100} to put an
+Dialogue: 0,0:00:24.94,0:00:25.04,Caption,,0,0,450,,they need {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} put an
+Dialogue: 0,0:00:25.04,0:00:25.16,Caption,,0,0,450,,they need to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}put{\c&H00FFFFFF\fscx100\fscy100} an
+Dialogue: 0,0:00:25.16,0:00:25.44,Caption,,0,0,450,,they need to put {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:25.44,0:00:25.72,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}actual{\c&H00FFFFFF\fscx100\fscy100} work to look at
+Dialogue: 0,0:00:25.72,0:00:25.97,Caption,,0,0,450,,actual {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}work{\c&H00FFFFFF\fscx100\fscy100} to look at
+Dialogue: 0,0:00:25.97,0:00:26.15,Caption,,0,0,450,,actual work {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} look at
+Dialogue: 0,0:00:26.15,0:00:26.33,Caption,,0,0,450,,actual work to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}look{\c&H00FFFFFF\fscx100\fscy100} at
+Dialogue: 0,0:00:26.33,0:00:26.49,Caption,,0,0,450,,actual work to look {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.49,0:00:26.81,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it{\c&H00FFFFFF\fscx100\fscy100}

@@ -40,3 +40,6 @@ events/*/overlays/*
 
 # API keys (PIXABAY_API_KEY, PEXELS_API_KEY)
 .env
+
+# post thumbnails are rendered from the shorts (shortform.py --thumb); the sheets are kept
+events/*/posts/*.jpg

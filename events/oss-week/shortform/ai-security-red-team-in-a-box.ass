@@ -7,35 +7,91 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H00B3DA43}Matt Lenhard (Vectoral)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“GitHub already has
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}repos for exploiting
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}your favorite AI tool”
-Dialogue: 0,0:00:00.00,0:00:01.14,Caption,,0,0,0,,I think the attacks have
-Dialogue: 0,0:00:01.14,0:00:03.38,Caption,,0,0,0,,really ratcheted up and
-Dialogue: 0,0:00:03.38,0:00:04.02,Caption,,0,0,0,,something I would
-Dialogue: 0,0:00:04.02,0:00:05.36,Caption,,0,0,0,,encourage people in this
-Dialogue: 0,0:00:05.36,0:00:06.38,Caption,,0,0,0,,like room to do is like
-Dialogue: 0,0:00:06.38,0:00:07.99,Caption,,0,0,0,,go go to GitHub and look
-Dialogue: 0,0:00:07.99,0:00:09.87,Caption,,0,0,0,,up your favorite AI
-Dialogue: 0,0:00:09.87,0:00:10.47,Caption,,0,0,0,,tool, whether it's like
-Dialogue: 0,0:00:10.47,0:00:11.71,Caption,,0,0,0,,a coding agent
-Dialogue: 0,0:00:11.71,0:00:12.65,Caption,,0,0,0,,an AI assistant
-Dialogue: 0,0:00:12.65,0:00:13.08,Caption,,0,0,0,,whatever.
-Dialogue: 0,0:00:13.08,0:00:13.72,Caption,,0,0,0,,There's probably like
-Dialogue: 0,0:00:13.72,0:00:15.04,Caption,,0,0,0,,three repos set up right
-Dialogue: 0,0:00:15.04,0:00:17.04,Caption,,0,0,0,,now for how to exploit
-Dialogue: 0,0:00:17.04,0:00:18.24,Caption,,0,0,0,,them, how to manage an
-Dialogue: 0,0:00:18.24,0:00:19.14,Caption,,0,0,0,,account pool
-Dialogue: 0,0:00:19.14,0:00:20.06,Caption,,0,0,0,,how to rotate
-Dialogue: 0,0:00:20.06,0:00:20.46,Caption,,0,0,0,,credentials.
-Dialogue: 0,0:00:20.59,0:00:22.03,Caption,,0,0,0,,kind of like your own
-Dialogue: 0,0:00:22.03,0:00:23.01,Caption,,0,0,0,,I don't know
-Dialogue: 0,0:00:23.01,0:00:25.49,Caption,,0,0,0,,AI red team in a box for
-Dialogue: 0,0:00:25.49,0:00:26.80,Caption,,0,0,0,,specific agents.
+Dialogue: 0,0:00:00.00,0:00:00.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think the attacks
+Dialogue: 0,0:00:00.14,0:00:00.30,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} the attacks
+Dialogue: 0,0:00:00.30,0:00:00.68,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} attacks
+Dialogue: 0,0:00:00.68,0:00:00.86,Caption,,0,0,450,,I think the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}attacks{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.86,0:00:01.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} really ratcheted
+Dialogue: 0,0:00:01.14,0:00:01.58,Caption,,0,0,450,,have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} ratcheted
+Dialogue: 0,0:00:01.58,0:00:02.12,Caption,,0,0,450,,have really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ratcheted{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.12,0:00:02.44,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100} and something I
+Dialogue: 0,0:00:02.44,0:00:03.38,Caption,,0,0,450,,up {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} something I
+Dialogue: 0,0:00:03.38,0:00:03.52,Caption,,0,0,450,,up and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}something{\c&H00FFFFFF\fscx100\fscy100} I
+Dialogue: 0,0:00:03.52,0:00:03.64,Caption,,0,0,450,,up and something {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.64,0:00:04.02,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}would{\c&H00FFFFFF\fscx100\fscy100} encourage people
+Dialogue: 0,0:00:04.02,0:00:04.30,Caption,,0,0,450,,would {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}encourage{\c&H00FFFFFF\fscx100\fscy100} people
+Dialogue: 0,0:00:04.30,0:00:04.50,Caption,,0,0,450,,would encourage {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}people{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.50,0:00:04.70,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} this like room to
+Dialogue: 0,0:00:04.70,0:00:05.36,Caption,,0,0,450,,in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}this{\c&H00FFFFFF\fscx100\fscy100} like room to
+Dialogue: 0,0:00:05.36,0:00:05.60,Caption,,0,0,450,,in this {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} room to
+Dialogue: 0,0:00:05.60,0:00:05.72,Caption,,0,0,450,,in this like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}room{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:05.72,0:00:05.82,Caption,,0,0,450,,in this like room {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.82,0:00:06.02,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} is like go go to
+Dialogue: 0,0:00:06.02,0:00:06.18,Caption,,0,0,450,,do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100} like go go to
+Dialogue: 0,0:00:06.18,0:00:06.38,Caption,,0,0,450,,do is {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} go go to
+Dialogue: 0,0:00:06.38,0:00:06.64,Caption,,0,0,450,,do is like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}go{\c&H00FFFFFF\fscx100\fscy100} go to
+Dialogue: 0,0:00:06.64,0:00:06.83,Caption,,0,0,450,,do is like go {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}go{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:06.83,0:00:07.25,Caption,,0,0,450,,do is like go go {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.25,0:00:07.67,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}GitHub{\c&H00FFFFFF\fscx100\fscy100} and look up
+Dialogue: 0,0:00:07.67,0:00:07.85,Caption,,0,0,450,,GitHub {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} look up
+Dialogue: 0,0:00:07.85,0:00:07.99,Caption,,0,0,450,,GitHub and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}look{\c&H00FFFFFF\fscx100\fscy100} up
+Dialogue: 0,0:00:07.99,0:00:08.17,Caption,,0,0,450,,GitHub and look {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.17,0:00:08.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} favorite AI tool
+Dialogue: 0,0:00:08.63,0:00:09.45,Caption,,0,0,450,,your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}favorite{\c&H00FFFFFF\fscx100\fscy100} AI tool
+Dialogue: 0,0:00:09.45,0:00:09.87,Caption,,0,0,450,,your favorite {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}AI{\c&H00FFFFFF\fscx100\fscy100} tool
+Dialogue: 0,0:00:09.87,0:00:10.13,Caption,,0,0,450,,your favorite AI {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}tool{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.13,0:00:10.23,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whether{\c&H00FFFFFF\fscx100\fscy100} it's like a
+Dialogue: 0,0:00:10.23,0:00:10.39,Caption,,0,0,450,,whether {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} like a
+Dialogue: 0,0:00:10.39,0:00:10.47,Caption,,0,0,450,,whether it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:10.47,0:00:10.73,Caption,,0,0,450,,whether it's like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.73,0:00:11.17,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}coding{\c&H00FFFFFF\fscx100\fscy100} agent
+Dialogue: 0,0:00:11.17,0:00:11.71,Caption,,0,0,450,,coding {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agent{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.71,0:00:11.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100} AI assistant
+Dialogue: 0,0:00:11.91,0:00:12.31,Caption,,0,0,450,,an {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}AI{\c&H00FFFFFF\fscx100\fscy100} assistant
+Dialogue: 0,0:00:12.31,0:00:12.65,Caption,,0,0,450,,an AI {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}assistant{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.65,0:00:13.08,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whatever.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.08,0:00:13.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}There's{\c&H00FFFFFF\fscx100\fscy100} probably like
+Dialogue: 0,0:00:13.28,0:00:13.46,Caption,,0,0,450,,There's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}probably{\c&H00FFFFFF\fscx100\fscy100} like
+Dialogue: 0,0:00:13.46,0:00:13.72,Caption,,0,0,450,,There's probably {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.72,0:00:14.04,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}three{\c&H00FFFFFF\fscx100\fscy100} repos set up
+Dialogue: 0,0:00:14.04,0:00:14.44,Caption,,0,0,450,,three {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}repos{\c&H00FFFFFF\fscx100\fscy100} set up
+Dialogue: 0,0:00:14.44,0:00:14.60,Caption,,0,0,450,,three repos {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}set{\c&H00FFFFFF\fscx100\fscy100} up
+Dialogue: 0,0:00:14.60,0:00:14.80,Caption,,0,0,450,,three repos set {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}up{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.80,0:00:15.04,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}right{\c&H00FFFFFF\fscx100\fscy100} now for how to
+Dialogue: 0,0:00:15.04,0:00:15.32,Caption,,0,0,450,,right {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} for how to
+Dialogue: 0,0:00:15.32,0:00:16.10,Caption,,0,0,450,,right now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} how to
+Dialogue: 0,0:00:16.10,0:00:16.24,Caption,,0,0,450,,right now for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:16.24,0:00:16.60,Caption,,0,0,450,,right now for how {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.60,0:00:17.04,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}exploit{\c&H00FFFFFF\fscx100\fscy100} them
+Dialogue: 0,0:00:17.04,0:00:17.50,Caption,,0,0,450,,exploit {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}them{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.50,0:00:17.60,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100} to manage an
+Dialogue: 0,0:00:17.60,0:00:17.86,Caption,,0,0,450,,how {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} manage an
+Dialogue: 0,0:00:17.86,0:00:18.00,Caption,,0,0,450,,how to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}manage{\c&H00FFFFFF\fscx100\fscy100} an
+Dialogue: 0,0:00:18.00,0:00:18.24,Caption,,0,0,450,,how to manage {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.24,0:00:18.62,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}account{\c&H00FFFFFF\fscx100\fscy100} pool
+Dialogue: 0,0:00:18.62,0:00:19.14,Caption,,0,0,450,,account {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}pool{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.14,0:00:19.22,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}how{\c&H00FFFFFF\fscx100\fscy100} to rotate
+Dialogue: 0,0:00:19.22,0:00:19.50,Caption,,0,0,450,,how {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} rotate
+Dialogue: 0,0:00:19.50,0:00:20.06,Caption,,0,0,450,,how to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}rotate{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.06,0:00:20.46,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}credentials.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.59,0:00:20.69,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100} of like your own
+Dialogue: 0,0:00:20.69,0:00:20.87,Caption,,0,0,450,,kind {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} like your own
+Dialogue: 0,0:00:20.87,0:00:21.07,Caption,,0,0,450,,kind of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100} your own
+Dialogue: 0,0:00:21.07,0:00:21.41,Caption,,0,0,450,,kind of like {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}your{\c&H00FFFFFF\fscx100\fscy100} own
+Dialogue: 0,0:00:21.41,0:00:22.03,Caption,,0,0,450,,kind of like your {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}own{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.03,0:00:22.09,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} don't know
+Dialogue: 0,0:00:22.09,0:00:22.23,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}don't{\c&H00FFFFFF\fscx100\fscy100} know
+Dialogue: 0,0:00:22.23,0:00:23.01,Caption,,0,0,450,,I don't {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}know{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.01,0:00:23.27,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}AI{\c&H00FFFFFF\fscx100\fscy100} red team in a box
+Dialogue: 0,0:00:23.27,0:00:23.51,Caption,,0,0,450,,AI {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}red{\c&H00FFFFFF\fscx100\fscy100} team in a box
+Dialogue: 0,0:00:23.51,0:00:23.63,Caption,,0,0,450,,AI red {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}team{\c&H00FFFFFF\fscx100\fscy100} in a box
+Dialogue: 0,0:00:23.63,0:00:23.73,Caption,,0,0,450,,AI red team {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} a box
+Dialogue: 0,0:00:23.73,0:00:24.11,Caption,,0,0,450,,AI red team in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} box
+Dialogue: 0,0:00:24.11,0:00:24.77,Caption,,0,0,450,,AI red team in a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}box{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.77,0:00:25.49,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} specific agents.
+Dialogue: 0,0:00:25.49,0:00:26.61,Caption,,0,0,450,,for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}specific{\c&H00FFFFFF\fscx100\fscy100} agents.
+Dialogue: 0,0:00:26.61,0:00:26.80,Caption,,0,0,450,,for specific {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents.{\c&H00FFFFFF\fscx100\fscy100}

@@ -6,6 +6,13 @@ date: 2026-10-21
 content: content/OSS_WEEK          # raw footage folder, relative to the repo root
 fps:             # output fps for renders and Resolve timelines; default 23.976
 caption_highlight: lemon   # the word being said in the shorts' captions (FORMAT.md "## Short form")
+social:                          # X upload form defaults for every short's post (FORMAT.md "## Social posts")
+  category: Technology            # "How would you describe your video?": the closest tech category X lists
+  call_to_action:                 # none; or {label: "Visit site", url: "https://..."}
+  embed: true                     # Allow playback in embedded Posts
+  download: false                 # Allow video to be downloaded
+  content_restrictions: none
+  geo: none                       # Geo-restrictions: None, or {include: [..]} / {exclude: [..]}
 
 # Every camera and mic on the shared timeline. Paths are relative to `content`.
 # `align.py sync` fills start (timeline second of the file's t=0), duration, sync_peak.
@@ -114,11 +121,11 @@ panels:
   start: 80                        # 1:20
   end: 1655                        # 27:35
   audience:  # b-roll filmed during this panel (clip creation times on cam1's clock), steady stretches of the
-             # room listening; shortform.py cuts them in. x = crop centre (fraction of the width)
+             # room listening; shortform.py cuts them in. x = crop centre (fraction of the width). Not clip 1
+             # at 6.8 s: in 9:16 it shows a phone, or Tim talking into the mic over someone else's audio
   - {clip: "B-roll/10_21_2026 PostHog B-roll 4.MP4", in: 33.2, x: 0.5}    # attentive faces, close
   - {clip: "B-roll/10_21_2026 PostHog B-roll 6.MP4", in: 0.2, x: 0.3}     # listeners side on
   - {clip: "B-roll/10_21_2026 PostHog B-roll 4.MP4", in: 18.5, x: 0.5}    # the GTM slide over the room and panel
-  - {clip: "B-roll/10_21_2026 PostHog B-roll 1.MP4", in: 6.8, x: 0.68}    # the GTM slide, the panel (crop keeps out a phone)
   - {clip: "B-roll/10_21_2026 PostHog B-roll 4.MP4", in: 11.8, x: 0.42}   # the room from the side
   - {clip: "B-roll/10_21_2026 PostHog B-roll 6.MP4", in: 3.2, x: 0.55}    # the back rows
 - id: ai-security
@@ -138,6 +145,13 @@ panels:
   mic_speakers: {}
   start: 1675                      # 27:55, hosts' intro
   end: 2965                        # 49:25
+  audience:  # b-roll filmed during this panel (clips 12, 14, 16: the AI & Security slide and panel in shot;
+             # 9 to 11 still show the GTM slide, 15 has phones out), steady stretches of the room listening
+  - {clip: "B-roll 2/10_21_2026 PostHog B-roll 14.MP4", in: 2.0, x: 0.35}   # the AI & Security slide over the panel and room
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 16.MP4", in: 15.0, x: 0.5}     # listeners facing the panel
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 12.MP4", in: 10.8, x: 0.5}     # the room
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 16.MP4", in: 15.0, x: 0.75}    # listeners from the side
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 12.MP4", in: 4.5, x: 0.3}      # rows of listeners
 - id: pmf
   title: "Finding PMF through Open Source"
   granola_meeting: "Lessons from Open Source DevTools Founders w/ PostHog, Cline and more"
@@ -154,6 +168,14 @@ panels:
   mic_speakers: {}
   start: 2985                      # 49:45, host's intro
   end: 4125                        # 68:45
+  audience:  # b-roll filmed during this panel (clips 17 to 22; not 18 at 5 s, where the room is laughing at something
+             # else, nor 19 at 9 s, a panelist talking, nor 22 at 12 s and 23, a man standing in front), the room listening
+  - {clip: "B-roll 2/10_21_2026 PostHog B-roll 19.MP4", in: 21.0, x: 0.3}    # the PMF slide over the panel and room
+  - {clip: "B-roll 2/10_21_2026 PostHog B-roll 21.MP4", in: 0.5, x: 0.5}    # the room from the balcony
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 20.MP4", in: 12.8, x: 0.45}    # listeners
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 17.MP4", in: 1.2, x: 0.4}      # listeners from the side
+  - {clip: "B-roll/10_21_2026 PostHog B-roll 17.MP4", in: 7.2, x: 0.6}      # the room
+  - {clip: "B-roll 2/10_21_2026 PostHog B-roll 22.MP4", in: 0.0, x: 0.5}    # the room, wide
 
 # Transcript fixes, applied after every transcription (scripts/fix_words.py)
 corrections:

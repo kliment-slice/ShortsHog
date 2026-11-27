@@ -7,22 +7,44 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“Bug bounties are next
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}to die”
-Dialogue: 0,0:00:00.00,0:00:00.94,Caption,,0,0,0,,You mentioned bug
-Dialogue: 0,0:00:00.94,0:00:02.19,Caption,,0,0,0,,bounties.
-Dialogue: 0,0:00:02.27,0:00:03.15,Caption,,0,0,0,,Maybe my hot take is
-Dialogue: 0,0:00:03.15,0:00:04.13,Caption,,0,0,0,,that those are also
-Dialogue: 0,0:00:04.13,0:00:05.53,Caption,,0,0,0,,going to be dead?
-Dialogue: 0,0:00:05.53,0:00:06.23,Caption,,0,0,0,,Because it's just so
-Dialogue: 0,0:00:06.23,0:00:08.77,Caption,,0,0,0,,cheap now to run Strix
-Dialogue: 0,0:00:08.77,0:00:09.57,Caption,,0,0,0,,for example
-Dialogue: 0,0:00:09.57,0:00:12.26,Caption,,0,0,0,,out of the box on any
-Dialogue: 0,0:00:12.26,0:00:13.60,Caption,,0,0,0,,open source model
+Dialogue: 0,0:00:00.00,0:00:00.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}You{\c&H00FFFFFF\fscx100\fscy100} mentioned bug
+Dialogue: 0,0:00:00.30,0:00:00.76,Caption,,0,0,450,,You {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}mentioned{\c&H00FFFFFF\fscx100\fscy100} bug
+Dialogue: 0,0:00:00.76,0:00:00.94,Caption,,0,0,450,,You mentioned {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}bug{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.94,0:00:02.19,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}bounties.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.27,0:00:02.45,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Maybe{\c&H00FFFFFF\fscx100\fscy100} my hot take is
+Dialogue: 0,0:00:02.45,0:00:02.69,Caption,,0,0,450,,Maybe {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}my{\c&H00FFFFFF\fscx100\fscy100} hot take is
+Dialogue: 0,0:00:02.69,0:00:02.87,Caption,,0,0,450,,Maybe my {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}hot{\c&H00FFFFFF\fscx100\fscy100} take is
+Dialogue: 0,0:00:02.87,0:00:03.01,Caption,,0,0,450,,Maybe my hot {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}take{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:03.01,0:00:03.15,Caption,,0,0,450,,Maybe my hot take {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.15,0:00:03.49,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} those are also
+Dialogue: 0,0:00:03.49,0:00:03.65,Caption,,0,0,450,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}those{\c&H00FFFFFF\fscx100\fscy100} are also
+Dialogue: 0,0:00:03.65,0:00:03.89,Caption,,0,0,450,,that those {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}are{\c&H00FFFFFF\fscx100\fscy100} also
+Dialogue: 0,0:00:03.89,0:00:04.13,Caption,,0,0,450,,that those are {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}also{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:04.13,0:00:04.19,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100} to be dead?
+Dialogue: 0,0:00:04.19,0:00:04.27,Caption,,0,0,450,,going {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} be dead?
+Dialogue: 0,0:00:04.27,0:00:04.53,Caption,,0,0,450,,going to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100} dead?
+Dialogue: 0,0:00:04.53,0:00:05.53,Caption,,0,0,450,,going to be {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}dead?{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.53,0:00:05.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Because{\c&H00FFFFFF\fscx100\fscy100} it's just so
+Dialogue: 0,0:00:05.63,0:00:05.79,Caption,,0,0,450,,Because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} just so
+Dialogue: 0,0:00:05.79,0:00:05.99,Caption,,0,0,450,,Because it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} so
+Dialogue: 0,0:00:05.99,0:00:06.23,Caption,,0,0,450,,Because it's just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.23,0:00:06.45,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}cheap{\c&H00FFFFFF\fscx100\fscy100} now to run
+Dialogue: 0,0:00:06.45,0:00:06.77,Caption,,0,0,450,,cheap {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100} to run
+Dialogue: 0,0:00:06.77,0:00:07.87,Caption,,0,0,450,,cheap now {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} run
+Dialogue: 0,0:00:07.87,0:00:08.41,Caption,,0,0,450,,cheap now to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}run{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.41,0:00:08.77,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Strix{\c&H00FFFFFF\fscx100\fscy100} for example
+Dialogue: 0,0:00:08.77,0:00:09.11,Caption,,0,0,450,,Strix {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} example
+Dialogue: 0,0:00:09.11,0:00:09.57,Caption,,0,0,450,,Strix for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}example{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.57,0:00:09.67,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}out{\c&H00FFFFFF\fscx100\fscy100} of the box on any
+Dialogue: 0,0:00:09.67,0:00:09.75,Caption,,0,0,450,,out {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} the box on any
+Dialogue: 0,0:00:09.75,0:00:10.17,Caption,,0,0,450,,out of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} box on any
+Dialogue: 0,0:00:10.17,0:00:11.08,Caption,,0,0,450,,out of the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}box{\c&H00FFFFFF\fscx100\fscy100} on any
+Dialogue: 0,0:00:11.08,0:00:11.54,Caption,,0,0,450,,out of the box {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}on{\c&H00FFFFFF\fscx100\fscy100} any
+Dialogue: 0,0:00:11.54,0:00:12.26,Caption,,0,0,450,,out of the box on {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}any{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.26,0:00:12.44,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source model
+Dialogue: 0,0:00:12.44,0:00:12.94,Caption,,0,0,450,,open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} model
+Dialogue: 0,0:00:12.94,0:00:13.60,Caption,,0,0,450,,open source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}model{\c&H00FFFFFF\fscx100\fscy100}

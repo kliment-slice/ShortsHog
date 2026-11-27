@@ -7,44 +7,112 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Caption,RoundHog Bold,62,&H00FFFFFF,&H00FFFFFF,&H2E151515,&H2E151515,0,0,0,0,100,100,0,0,3,14,0,2,60,60,210,1
-Style: Tag,RoundHog SemiBold,34,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,12,0,8,0,0,0,1
-Style: Card,RoundHog Bold,46,&H00FFFFFF,&H00FFFFFF,&H1F151515,&H1F151515,0,0,0,0,100,100,0,0,3,16,0,8,0,0,0,1
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,70)\fad(180,220)\fnRoundHog SemiBold\fs32\c&H001CCEFF}Justin D'Souza (Asymptote Labs)
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,132)\fad(180,220)}“The value is in
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,196)\fad(180,220)}remediation, not
-Dialogue: 3,0:00:01.70,0:00:05.20,Card,,0,0,0,,{\an8\pos(540,260)\fad(180,220)}detection”
-Dialogue: 0,0:00:00.00,0:00:01.46,Caption,,0,0,0,,I think where the value
-Dialogue: 0,0:00:01.46,0:00:02.70,Caption,,0,0,0,,accrues is really just
-Dialogue: 0,0:00:02.70,0:00:03.35,Caption,,0,0,0,,around remediation.
-Dialogue: 0,0:00:03.43,0:00:05.55,Caption,,0,0,0,,So it's not really any
-Dialogue: 0,0:00:05.55,0:00:07.03,Caption,,0,0,0,,more around detection.
-Dialogue: 0,0:00:07.08,0:00:08.94,Caption,,0,0,0,,It's also true that
-Dialogue: 0,0:00:08.94,0:00:09.82,Caption,,0,0,0,,there's more
-Dialogue: 0,0:00:10.02,0:00:10.44,Caption,,0,0,0,,vulnerabilities than
-Dialogue: 0,0:00:10.44,0:00:11.84,Caption,,0,0,0,,ever before like they're
-Dialogue: 0,0:00:11.84,0:00:12.78,Caption,,0,0,0,,kind of exponentially
-Dialogue: 0,0:00:12.78,0:00:13.07,Caption,,0,0,0,,growing
-Dialogue: 0,0:00:13.07,0:00:13.97,Caption,,0,0,0,,It's cheaper than ever
-Dialogue: 0,0:00:13.97,0:00:15.30,Caption,,0,0,0,,to have, Claude Code as
-Dialogue: 0,0:00:15.30,0:00:17.14,Caption,,0,0,0,,a security reviewer or
-Dialogue: 0,0:00:17.14,0:00:18.22,Caption,,0,0,0,,to use, an open model as
-Dialogue: 0,0:00:18.22,0:00:19.26,Caption,,0,0,0,,a security reviewer.
-Dialogue: 0,0:00:19.59,0:00:20.33,Caption,,0,0,0,,But I think it's
-Dialogue: 0,0:00:20.33,0:00:21.05,Caption,,0,0,0,,inevitable that there's
-Dialogue: 0,0:00:21.05,0:00:21.89,Caption,,0,0,0,,always going to be
-Dialogue: 0,0:00:21.89,0:00:22.66,Caption,,0,0,0,,vulnerabilities that
-Dialogue: 0,0:00:22.66,0:00:23.48,Caption,,0,0,0,,whether they're low
-Dialogue: 0,0:00:23.48,0:00:24.06,Caption,,0,0,0,,severity or high
-Dialogue: 0,0:00:24.06,0:00:24.30,Caption,,0,0,0,,severity
-Dialogue: 0,0:00:24.30,0:00:26.16,Caption,,0,0,0,,get merged in at some
-Dialogue: 0,0:00:26.16,0:00:27.70,Caption,,0,0,0,,point and deployed.
-Dialogue: 0,0:00:27.70,0:00:28.72,Caption,,0,0,0,,And so for every
-Dialogue: 0,0:00:28.72,0:00:29.12,Caption,,0,0,0,,enterprise
-Dialogue: 0,0:00:29.12,0:00:30.12,Caption,,0,0,0,,I think it's a lot more
-Dialogue: 0,0:00:30.12,0:00:31.36,Caption,,0,0,0,,about investing in
-Dialogue: 0,0:00:31.36,0:00:32.84,Caption,,0,0,0,,infrastructure to
-Dialogue: 0,0:00:32.84,0:00:34.44,Caption,,0,0,0,,remediate a lot faster.
+Dialogue: 0,0:00:00.00,0:00:00.20,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think where the
+Dialogue: 0,0:00:00.20,0:00:00.80,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} where the
+Dialogue: 0,0:00:00.80,0:00:00.92,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}where{\c&H00FFFFFF\fscx100\fscy100} the
+Dialogue: 0,0:00:00.92,0:00:01.24,Caption,,0,0,450,,I think where {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.24,0:00:01.46,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}value{\c&H00FFFFFF\fscx100\fscy100} accrues is
+Dialogue: 0,0:00:01.46,0:00:01.74,Caption,,0,0,450,,value {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}accrues{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:01.74,0:00:01.96,Caption,,0,0,450,,value accrues {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:01.96,0:00:02.24,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} just around
+Dialogue: 0,0:00:02.24,0:00:02.70,Caption,,0,0,450,,really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} around
+Dialogue: 0,0:00:02.70,0:00:03.00,Caption,,0,0,450,,really just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}around{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.00,0:00:03.35,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}remediation.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.43,0:00:03.51,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}So{\c&H00FFFFFF\fscx100\fscy100} it's not really any
+Dialogue: 0,0:00:03.51,0:00:03.75,Caption,,0,0,450,,So {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} not really any
+Dialogue: 0,0:00:03.75,0:00:04.63,Caption,,0,0,450,,So it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} really any
+Dialogue: 0,0:00:04.63,0:00:05.29,Caption,,0,0,450,,So it's not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}really{\c&H00FFFFFF\fscx100\fscy100} any
+Dialogue: 0,0:00:05.29,0:00:05.55,Caption,,0,0,450,,So it's not really {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}any{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.55,0:00:05.81,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} around detection.
+Dialogue: 0,0:00:05.81,0:00:06.25,Caption,,0,0,450,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}around{\c&H00FFFFFF\fscx100\fscy100} detection.
+Dialogue: 0,0:00:06.25,0:00:07.03,Caption,,0,0,450,,more around {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}detection.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.08,0:00:07.38,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} also true that
+Dialogue: 0,0:00:07.38,0:00:07.64,Caption,,0,0,450,,It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}also{\c&H00FFFFFF\fscx100\fscy100} true that
+Dialogue: 0,0:00:07.64,0:00:07.96,Caption,,0,0,450,,It's also {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}true{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:07.96,0:00:08.94,Caption,,0,0,450,,It's also true {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:08.94,0:00:09.34,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there's{\c&H00FFFFFF\fscx100\fscy100} more
+Dialogue: 0,0:00:09.34,0:00:09.82,Caption,,0,0,450,,there's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.02,0:00:10.26,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vulnerabilities{\c&H00FFFFFF\fscx100\fscy100} than
+Dialogue: 0,0:00:10.26,0:00:10.44,Caption,,0,0,450,,vulnerabilities {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.44,0:00:10.80,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ever{\c&H00FFFFFF\fscx100\fscy100} before like
+Dialogue: 0,0:00:10.80,0:00:11.26,Caption,,0,0,450,,ever {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}before{\c&H00FFFFFF\fscx100\fscy100} like
+Dialogue: 0,0:00:11.26,0:00:11.44,Caption,,0,0,450,,ever before {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}like{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.44,0:00:11.84,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they're{\c&H00FFFFFF\fscx100\fscy100} kind of
+Dialogue: 0,0:00:11.84,0:00:11.94,Caption,,0,0,450,,they're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}kind{\c&H00FFFFFF\fscx100\fscy100} of
+Dialogue: 0,0:00:11.94,0:00:12.38,Caption,,0,0,450,,they're kind {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:12.38,0:00:12.78,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}exponentially{\c&H00FFFFFF\fscx100\fscy100} growing
+Dialogue: 0,0:00:12.78,0:00:13.07,Caption,,0,0,450,,exponentially {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}growing{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.07,0:00:13.39,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}It's{\c&H00FFFFFF\fscx100\fscy100} cheaper than ever
+Dialogue: 0,0:00:13.39,0:00:13.55,Caption,,0,0,450,,It's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}cheaper{\c&H00FFFFFF\fscx100\fscy100} than ever
+Dialogue: 0,0:00:13.55,0:00:13.75,Caption,,0,0,450,,It's cheaper {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}than{\c&H00FFFFFF\fscx100\fscy100} ever
+Dialogue: 0,0:00:13.75,0:00:13.97,Caption,,0,0,450,,It's cheaper than {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}ever{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.97,0:00:14.31,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} have Claude Code
+Dialogue: 0,0:00:14.31,0:00:14.72,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have{\c&H00FFFFFF\fscx100\fscy100} Claude Code
+Dialogue: 0,0:00:14.72,0:00:14.95,Caption,,0,0,450,,to have {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Claude{\c&H00FFFFFF\fscx100\fscy100} Code
+Dialogue: 0,0:00:14.95,0:00:15.18,Caption,,0,0,450,,to have Claude {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Code{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.18,0:00:15.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} a security reviewer
+Dialogue: 0,0:00:15.30,0:00:15.64,Caption,,0,0,450,,as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} security reviewer
+Dialogue: 0,0:00:15.64,0:00:15.98,Caption,,0,0,450,,as a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}security{\c&H00FFFFFF\fscx100\fscy100} reviewer
+Dialogue: 0,0:00:15.98,0:00:17.00,Caption,,0,0,450,,as a security {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}reviewer{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.00,0:00:17.14,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100} to use
+Dialogue: 0,0:00:17.14,0:00:17.28,Caption,,0,0,450,,or {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} use
+Dialogue: 0,0:00:17.28,0:00:17.52,Caption,,0,0,450,,or to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}use{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:17.52,0:00:17.70,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}an{\c&H00FFFFFF\fscx100\fscy100} open model as a
+Dialogue: 0,0:00:17.70,0:00:17.96,Caption,,0,0,450,,an {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} model as a
+Dialogue: 0,0:00:17.96,0:00:18.14,Caption,,0,0,450,,an open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}model{\c&H00FFFFFF\fscx100\fscy100} as a
+Dialogue: 0,0:00:18.14,0:00:18.22,Caption,,0,0,450,,an open model {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}as{\c&H00FFFFFF\fscx100\fscy100} a
+Dialogue: 0,0:00:18.22,0:00:18.48,Caption,,0,0,450,,an open model as {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:18.48,0:00:18.76,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}security{\c&H00FFFFFF\fscx100\fscy100} reviewer.
+Dialogue: 0,0:00:18.76,0:00:19.26,Caption,,0,0,450,,security {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}reviewer.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:19.59,0:00:19.69,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}But{\c&H00FFFFFF\fscx100\fscy100} I think it's
+Dialogue: 0,0:00:19.69,0:00:19.83,Caption,,0,0,450,,But {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think it's
+Dialogue: 0,0:00:19.83,0:00:19.93,Caption,,0,0,450,,But I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} it's
+Dialogue: 0,0:00:19.93,0:00:20.33,Caption,,0,0,450,,But I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.33,0:00:20.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}inevitable{\c&H00FFFFFF\fscx100\fscy100} that
+Dialogue: 0,0:00:20.63,0:00:20.75,Caption,,0,0,450,,inevitable {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:20.75,0:00:21.05,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}there's{\c&H00FFFFFF\fscx100\fscy100} always going
+Dialogue: 0,0:00:21.05,0:00:21.21,Caption,,0,0,450,,there's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}always{\c&H00FFFFFF\fscx100\fscy100} going
+Dialogue: 0,0:00:21.21,0:00:21.29,Caption,,0,0,450,,there's always {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}going{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:21.29,0:00:21.41,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} be vulnerabilities
+Dialogue: 0,0:00:21.41,0:00:21.89,Caption,,0,0,450,,to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}be{\c&H00FFFFFF\fscx100\fscy100} vulnerabilities
+Dialogue: 0,0:00:21.89,0:00:22.23,Caption,,0,0,450,,to be {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}vulnerabilities{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:22.23,0:00:22.66,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that{\c&H00FFFFFF\fscx100\fscy100} whether they're
+Dialogue: 0,0:00:22.66,0:00:22.84,Caption,,0,0,450,,that {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whether{\c&H00FFFFFF\fscx100\fscy100} they're
+Dialogue: 0,0:00:22.84,0:00:23.14,Caption,,0,0,450,,that whether {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}they're{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:23.14,0:00:23.48,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}low{\c&H00FFFFFF\fscx100\fscy100} severity or high
+Dialogue: 0,0:00:23.48,0:00:23.62,Caption,,0,0,450,,low {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}severity{\c&H00FFFFFF\fscx100\fscy100} or high
+Dialogue: 0,0:00:23.62,0:00:23.74,Caption,,0,0,450,,low severity {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}or{\c&H00FFFFFF\fscx100\fscy100} high
+Dialogue: 0,0:00:23.74,0:00:24.06,Caption,,0,0,450,,low severity or {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}high{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.06,0:00:24.30,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}severity{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:24.30,0:00:25.42,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}get{\c&H00FFFFFF\fscx100\fscy100} merged in at some
+Dialogue: 0,0:00:25.42,0:00:25.64,Caption,,0,0,450,,get {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}merged{\c&H00FFFFFF\fscx100\fscy100} in at some
+Dialogue: 0,0:00:25.64,0:00:25.74,Caption,,0,0,450,,get merged {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} at some
+Dialogue: 0,0:00:25.74,0:00:25.94,Caption,,0,0,450,,get merged in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}at{\c&H00FFFFFF\fscx100\fscy100} some
+Dialogue: 0,0:00:25.94,0:00:26.16,Caption,,0,0,450,,get merged in at {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}some{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:26.16,0:00:26.28,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}point{\c&H00FFFFFF\fscx100\fscy100} and deployed.
+Dialogue: 0,0:00:26.28,0:00:26.66,Caption,,0,0,450,,point {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}and{\c&H00FFFFFF\fscx100\fscy100} deployed.
+Dialogue: 0,0:00:26.66,0:00:27.70,Caption,,0,0,450,,point and {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}deployed.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:27.70,0:00:27.84,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}And{\c&H00FFFFFF\fscx100\fscy100} so for every
+Dialogue: 0,0:00:27.84,0:00:28.06,Caption,,0,0,450,,And {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} for every
+Dialogue: 0,0:00:28.06,0:00:28.34,Caption,,0,0,450,,And so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} every
+Dialogue: 0,0:00:28.34,0:00:28.72,Caption,,0,0,450,,And so for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}every{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:28.72,0:00:29.12,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}enterprise{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.12,0:00:29.24,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}I{\c&H00FFFFFF\fscx100\fscy100} think it's a lot
+Dialogue: 0,0:00:29.24,0:00:29.36,Caption,,0,0,450,,I {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}think{\c&H00FFFFFF\fscx100\fscy100} it's a lot
+Dialogue: 0,0:00:29.36,0:00:29.48,Caption,,0,0,450,,I think {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} a lot
+Dialogue: 0,0:00:29.48,0:00:29.64,Caption,,0,0,450,,I think it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot
+Dialogue: 0,0:00:29.64,0:00:29.84,Caption,,0,0,450,,I think it's a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:29.84,0:00:30.12,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}more{\c&H00FFFFFF\fscx100\fscy100} about investing
+Dialogue: 0,0:00:30.12,0:00:30.70,Caption,,0,0,450,,more {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}about{\c&H00FFFFFF\fscx100\fscy100} investing
+Dialogue: 0,0:00:30.70,0:00:30.90,Caption,,0,0,450,,more about {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}investing{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:30.90,0:00:31.36,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}in{\c&H00FFFFFF\fscx100\fscy100} infrastructure to
+Dialogue: 0,0:00:31.36,0:00:31.94,Caption,,0,0,450,,in {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}infrastructure{\c&H00FFFFFF\fscx100\fscy100} to
+Dialogue: 0,0:00:31.94,0:00:32.84,Caption,,0,0,450,,in infrastructure {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:32.84,0:00:33.26,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}remediate{\c&H00FFFFFF\fscx100\fscy100} a lot
+Dialogue: 0,0:00:33.26,0:00:33.38,Caption,,0,0,450,,remediate {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} lot
+Dialogue: 0,0:00:33.38,0:00:33.84,Caption,,0,0,450,,remediate a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}lot{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:33.84,0:00:34.44,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}faster.{\c&H00FFFFFF\fscx100\fscy100}

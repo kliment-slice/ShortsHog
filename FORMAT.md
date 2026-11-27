@@ -8,12 +8,12 @@ Someone scrolling past should recognise a ShortsHog video in the first second.
 Rules every short must follow. `/select` and `/shortform` apply them; edit freely.
 
 ## Frame
-- Shorts (`/shortform`): 9:16 portrait, 1080x1920 (the "## Short form" block)
+- Shorts (`/shortform`): 3:4 portrait, 1080x1440 (the "## Short form" block)
 - Legacy `/select` + `/cut` path only: 9:16, 1080x1920
 - Frame rate matches the cameras (event.yaml `fps` overrides)
 
 ## Length
-- `/shortform` (9:16): at most 45s, target 25-40s. Never sped up. If keeping the setup and the
+- `/shortform` (3:4): at most 45s, target 25-40s. Never sped up. If keeping the setup and the
   qualifier needs more than 45s, trim to a tighter self-contained range or reject it
   (`rejected: too long for 45s`). shortform.py refuses to render anything over 45s
 - Legacy `/select` + `/cut` (9:16): target 30-60s, hard max 75s
@@ -53,7 +53,7 @@ Rules every short must follow. `/select` and `/shortform` apply them; edit freel
 - B-roll: 2-4s, never in the first 3s, mic audio keeps playing underneath
 
 ## Captions (legacy `/cut` only)
-The 9:16 `/select` + `/cut` path's captions. `scripts/cut.py` reads this block. The 9:16 room shorts and the
+The 9:16 `/select` + `/cut` path's captions. `scripts/cut.py` reads this block. The 3:4 room shorts and the
 long form use RoundHog captions from the "## Long form" and "## Short form" blocks instead.
 ```yaml
 font: Helvetica Neue
@@ -172,7 +172,8 @@ name_colors: ["#FF5C1C", "#FFCE1C", "#2BB3DF", "#43DAB3", "#A0CA21", "#FF474D", 
 ```
 
 ## Short form
-9:16 portrait shorts (`/shortform`, `scripts/shortform.py`). Same look as the long form
+3:4 portrait shorts (`/shortform`, `scripts/shortform.py`). 3:4 rather than 9:16: on X the full-screen
+player letterboxes it, so its buttons and the post text sit on the bars, not on the summary or captions. Same look as the long form
 (grade, RoundHog, brand colours, wipe), speaker-first framing.
 
 ### Selection: quality over quantity
@@ -235,10 +236,10 @@ long form only.
   short, never in the last shot. `react: [{at, who, for?}]` hand-picks one (same rules but audibility);
   `auto_react: false` turns them off.
 ```yaml
-size: [1080, 1920]          # 9:16
+size: [1080, 1440]          # 3:4: on X, the full-screen player letterboxes it, so its buttons sit on the bars
 # --- framing: speaker fills ~2/3 of the frame, eyes on the upper third line
 close_face_mult: 6.0        # close-up height = face height x this
-eye_line: 0.43              # eyes this far down the frame: the top fifth is the summary, so the
+eye_line: 0.42              # eyes this far down the frame: the top fifth is the summary, so the
                             # rule of thirds applies to the picture under it
 max_zoom: 1.8               # 1080p source: crop never smaller than 1/max_zoom of its height
 anchor_face_mult: 4.5       # tighter close-up through the hook (the anchor sentence), capped by max_zoom
@@ -276,33 +277,34 @@ summary_height: 0.20        # of the frame height, the same on every short
 summary_colors: [green, blue, cobalt, coral, tangerine, purple, violet, corn_blue]   # white text reads on these
 title_color: green
 summary_logo: assets/posthog-logo-white.png
-summary_logo_height: 48
-summary_logo_top: 36
-summary_logo_gap: 20
-summary_margin: 56
+summary_logo_height: 38
+summary_logo_top: 28
+summary_logo_gap: 16
+summary_margin: 46
 summary_weight: ExtraBold
-summary_size_max: 72        # capped, so 2- and 3-line quotes look alike
-summary_size_min: 46
+summary_size_max: 64        # capped, so 2- and 3-line quotes look alike
+summary_size_min: 38
 summary_leading: 1.16
-summary_bottom_pad: 28
+summary_bottom_pad: 22
 summary_highlight_alpha: 0.30
-summary_highlight_pad: 9
-summary_highlight_radius: 12
+summary_highlight_pad: 8
+summary_highlight_radius: 10
 # --- the band is alive: the footage behind it, blurred and washed in the brand colour (summary_tint_alpha),
 #     so movement shows through; it eases into the picture over summary_fade px instead of a hard edge.
 #     The quote's words rise in one after another from frame 1, then the highlighter wipes in; the
 #     byline follows and leaves at summary_byline_seconds
 summary_tint_alpha: 0.65
 summary_blur: 32
-summary_fade: 48
+summary_fade: 36
 summary_reveal_stagger: 0.035   # s between one word and the next
 summary_reveal_dur: 0.28
-summary_reveal_rise: 14         # px
+summary_reveal_rise: 11         # px
 summary_highlight_dur: 0.45
 summary_byline_seconds: 5.0     # always gone by then
 summary_byline_fade: 0.35
 summary_compact_height: 0.15   # then the band closes like a drawer to this, the quote and logo shrinking with it
 summary_collapse_dur: 0.5
+thumb_at: 3.0              # s: the post thumbnail (shortform.py --thumb): band open with the name, speaker landed
 # the quote's lines are balanced: 2 or 3 of them, every line two words or more and at least summary_min_line
 # of the longest (no orphans or widows), breaking after punctuation where it can; the biggest size that fits.
 # Then "- Name, role at company" in dark text on its own line under the quote: black at an alpha, so it takes
@@ -310,11 +312,12 @@ summary_collapse_dur: 0.5
 summary_max_lines: 3
 summary_min_line: 0.55
 summary_break_penalty: 0.15  # cost of a line break that isn't after a comma or full stop
-summary_name_size: 36
-summary_role_size: 36
+summary_strict_min: 0.85     # breaks after punctuation win unless their size is under this share of the best
+summary_name_size: 30
+summary_role_size: 30
 summary_name_alpha: 0.72
 summary_role_alpha: 0.55
-summary_byline_below: 18    # px between the quote and the name under it
+summary_byline_below: 20    # px between the quote and the name under it
 # frosted strap settings shared with the long-gone title box
 title_blur: 28              # frost: gaussian sigma on the footage behind the strap
 title_tint: "#151515"
@@ -343,14 +346,14 @@ strap_rise: 14              # px it rises as it fades in
 #     (caption_pop over caption_pop_ms). On the lower third line: many people watch muted, so they sit
 #     where the eye already is, under the speaker's chin, never over the mouth
 caption_font: RoundHog Bold
-caption_size: 64
+caption_size: 60
 caption_max_chars: 22
 caption_outline: 6
 caption_shadow: 2          # a soft drop under the outline: the line often sits on a light sweater or wall
 caption_highlight: lemon
 caption_pop: 1.05
 caption_pop_ms: 90
-caption_margin_v: 600       # px from the bottom to the captions' baseline: the lower third line (2/3 down)
+caption_margin_v: 450       # px from the bottom to the captions' baseline: the lower third line (2/3 down), clear of X's post text
 # --- audience cutaways: the room listening, filmed during this panel (event.yaml panel `audience`:
 #     b-roll clip, in point, crop centre), cut in over the speaker's audio at a sentence start, never
 #     over the opening, the strap, a graphic or the last seconds. `audience: false` in a spec turns them off
@@ -379,6 +382,32 @@ overlay_fade_in: 0.22       # fade and slide up in (150 to 300 ms)
 overlay_fade_out: 0.18
 overlay_slide: 28           # px travelled while it fades in
 overlay_margin: 40          # px from the frame edge
+```
+
+## Social posts
+Each short gets a post (`/post`, `scripts/post.py`): a sheet in `events/<event>/posts/<id>.md` laid out in
+the order of X's upload form, plus a caption-free thumbnail (`<id>.jpg`, `shortform.py --thumb`). Nothing
+is posted automatically: the sheet is for pasting in by hand.
+
+- **Post text** ("What's happening?", spec `post.text`): the speaker's point, claim first, in PostHog's voice
+  (the `copy-writing-for-dummies` skill): specific, with the real number or story from the clip, no hedge
+  words (helps, empowers, unlock, seamless), no emoji, no hashtags, American English. Quote the speaker
+  only with their exact words, and never make the claim stronger than they said it (keep "for us",
+  "I think"). Name them and their company. Under 280 characters (a link counts as 23).
+- **Title** (spec `post.title`, default the short's `headline` or `anchor`): the claim, sentence case,
+  70 characters at most.
+- **Description** (spec `post.description`, default "Name, role at Company, at the <panel> panel,
+  <event>."): who and where, 200 characters at most.
+- **Media settings** from event.yaml `social` (category, call to action, embedding, downloads, geo).
+- No em dashes or middots anywhere; `post.py` fails on them, on anything over a limit, and on a video X
+  won't take.
+```yaml
+x_text_max: 280
+x_link_len: 23             # X counts every link as this many characters
+x_title_max: 70
+x_description_max: 200
+x_video_max_seconds: 140   # X's limit for most accounts
+x_video_max_mb: 512
 ```
 
 ## Tile short

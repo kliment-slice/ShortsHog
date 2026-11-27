@@ -1,4 +1,4 @@
-"""Cut 9:16 portrait shorts in the ShortsHog look: claim (the hook), context, evidence, payoff.
+"""Cut 3:4 portrait shorts in the ShortsHog look: claim (the hook), context, evidence, payoff.
 
     .venv/bin/python scripts/shortform.py <event> <panel> [--id SHORT_ID ...] [--plan-only]
 
@@ -529,10 +529,12 @@ class ClipReader:
         self.proc.wait()
 
 
-def audience_cutaways(spec: dict, p: dict, words: list, tl, dur: float, st: dict, quiet: list, tag: str) -> list:
+def audience_cutaways(spec: dict, p: dict, words: list, tl, dur: float, st: dict, quiet: list, tag: str,
+                      n: int = 0) -> list:
     """[{t0, t1, clip, in, x}]: the room listening, cut in at sentence starts across the short. Clips come
     from event.yaml panel `audience` (b-roll filmed during this panel), each used once, rotated per short.
-    `quiet`: [(S0, S1)] spans where no cutaway may land (the opening, the strap, graphics, reactions)."""
+    `quiet`: [(S0, S1)] spans where no cutaway may land (the opening, the strap, graphics, reactions).
+    `n`: the short's place in the story file, so neighbouring shorts start on different clips."""
     pool = p.get("audience") or []
     if spec.get("audience") is False or not pool or dur < st["audience_min_short"]:
         return []
@@ -548,7 +550,9 @@ def audience_cutaways(spec: dict, p: dict, words: list, tl, dur: float, st: dict
         free = [s for s in ok if all(abs(s - x) >= st["audience_gap"] for x in picks)]
         if free:
             picks.append(min(free, key=lambda s: abs(s - frac * dur)))
-    rot = sum(map(ord, tag))
+    from math import gcd
+    step = next(s for s in range(st["audience_max"], st["audience_max"] + len(pool) + 1) if gcd(s, len(pool)) == 1)
+    rot = n * step  # a step coprime with the pool size, so the shorts walk through every clip
     out = []
     for k, s in enumerate(sorted(picks)):
         c = pool[(rot + k) % len(pool)]
@@ -559,7 +563,7 @@ def audience_cutaways(spec: dict, p: dict, words: list, tl, dur: float, st: dict
 # ---------------------------------------------------------------- render
 
 def render(ev: dict, edir: Path, p: dict, spec: dict, plan_only: bool, replace: bool = False,
-           clean: bool = False) -> Path:
+           clean: bool = False, thumb_at: float | None = None) -> Path:
     st = style()
     out_w, out_h = st["size"]
     fps = output_fps(ev)
@@ -797,7 +801,9 @@ def render(ev: dict, edir: Path, p: dict, spec: dict, plan_only: bool, replace: 
             [(x[0], x[1] + st["strap_fade"]) for x in straps] + \
             [(g["start"] - 0.5, g["end"] + 0.5) for g in graphics] + \
             [(x["start"], x["end"]) for x in pans] + [(x[0], x[1]) for x in reacts]
-    crowd = audience_cutaways(spec, p, words, tl, dur, st, quiet, tag)
+    order = [s["id"] for s in (YAML(typ="safe").load((edir / "longform" / f"{p['id']}.story.yaml").read_text()) or {})
+             .get("shorts") or [] if not s.get("rejected")]
+    crowd = audience_cutaways(spec, p, words, tl, dur, st, quiet, tag, order.index(tag) if tag in order else 0)
     for c in crowd:
         print(f"[{tag}] audience cutaway {c['t0']:.2f}-{c['t1']:.2f}s: {c['clip']} from {c['in']:.1f}s")
 
@@ -848,6 +854,23 @@ def render(ev: dict, edir: Path, p: dict, spec: dict, plan_only: bool, replace: 
         print(f"[{tag}] note: {dur:.1f}s is outside the {lo_t}-{hi_t}s target")
     if plan_only:
         return out_dir / f"{tag}.plan.json"
+
+    if thumb_at is not None:  # one frame for the post's thumbnail: the band and the speaker, no captions
+        S = min(max(0.0, thumb_at), dur - 1 / fps)
+        if any(c["t0"] - 0.2 <= S < c["t1"] + 0.2 for c in crowd):
+            print(f"[{tag}] WARNING: the thumbnail at {S:.1f}s is in an audience cutaway; pick another `thumb_at`")
+        t_src = tl.to_src(S)
+        dec = lf.Decoder(ev, "cam2", pstart + t_src, 0.5, fps, size, st.get("grade") or "")
+        frame = lf.warp(dec.at(pstart + t_src), frame_rect(S, t_src), out_w, out_h)
+        dec.close()
+        if title:
+            title.draw(frame, S)
+        post_dir = edir / "posts"
+        post_dir.mkdir(exist_ok=True)
+        out = post_dir / f"{tag}.jpg"
+        cv2.imwrite(str(out), frame, [cv2.IMWRITE_JPEG_QUALITY, 92])
+        print(f"[{tag}] thumbnail at {S:.2f}s -> {out.relative_to(edir)}")
+        return out
 
     with tempfile.TemporaryDirectory() as tmp:
         full = ed.audio()
@@ -929,6 +952,8 @@ def main():
     ap.add_argument("--replace", action="store_true", help="place every anchor graphic again")
     ap.add_argument("--clean", action="store_true",
                     help="render <id>.clean.mp4 with no text on screen (no captions, name tags or anchor card)")
+    ap.add_argument("--thumb", action="store_true",
+                    help="write only the post thumbnail, events/<event>/posts/<id>.jpg (spec post.thumb_at, default thumb_at)")
     args = ap.parse_args()
     edir = event_dir(args.event)
     ev = load_event(edir)
@@ -938,7 +963,8 @@ def main():
     if not specs:
         sys.exit("no shorts with a hook in the story file (or none match --id)")
     for spec in specs:
-        render(ev, edir, p, spec, args.plan_only, args.replace, args.clean)
+        thumb = ((spec.get("post") or {}).get("thumb_at", style()["thumb_at"])) if args.thumb else None
+        render(ev, edir, p, spec, args.plan_only, args.replace, args.clean, thumb)
     save_positions(edir / "longform" / f"{p['id']}.story.yaml", specs)
 
 

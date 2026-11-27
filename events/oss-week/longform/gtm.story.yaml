@@ -73,6 +73,11 @@ shorts:
     anchor: "Giving away Nintendo 64s flopped. You can't bribe your customers."
     title_key: "You can't bribe your customers."
     color: violet
+    post:
+      text: |-
+        Before PostHog, Tim Glaser's team tried to get users for another dev tool by giving away Nintendo 64s.
+
+        It literally did not work. "You can't actually bribe your customers."
     hook: you can't actually bribe your customers. You do actually have to like provide some value of some sort.
     from: we were building another type of dev tool
     to: it literally did not work.
@@ -92,6 +97,11 @@ shorts:
     anchor: "Issues are worth more than pull requests"
     title_key: "worth more than pull requests"
     color: blue
+    post:
+      text: |-
+        Alex Jung (Unikraft): the most valuable thing open source gives them is issues, not pull requests.
+
+        An issue is a prompt to fix something, written by someone who hit the problem. A vibe-coded PR from a stranger is much harder to trust, even with tests.
     from: "I think definitely the most valuable thing"
     to: "even if you might have substantial tests."
     skip:
@@ -104,6 +114,11 @@ shorts:
     anchor: "If Claude can build it in a day, why would anyone pay you for it?"
     title_key: "why would anyone pay you for it?"
     color: green
+    post:
+      text: |-
+        If you can build something in a day with Claude, why would anyone pay you for it?
+
+        Tim Glaser (PostHog) says AI raised the bar for software people will buy, and "how defensible is this thing" now decides what's worth selling.
     hook: if you can build something in a day with Claude, like, why would anyone else pay you for that, right?
     from: they can do the same thing
     to: what software makes sense to kind of try to sell.
@@ -150,6 +165,12 @@ shorts:
     anchor: "A few hundred dollars of Twitter ads to GitHub got the first 100 stars"
     title_key: "the first 100 stars"
     color: purple
+    post:
+      text: |-
+        PostHog's first 100 GitHub stars came from a couple hundred bucks of Twitter ads that just linked to the repo.
+
+        Tim Glaser: it didn't feel like an ad. So by the Hacker News launch, PostHog already looked like a project with traction.
+      title: "How a few hundred dollars of Twitter ads got PostHog's first 100 stars"
     from: "we were in YC, we just pivoted"
     to: "It's totally kind of net new."
     hook: it was some of our best converting ads, just like a link to our GitHub,
@@ -162,6 +183,11 @@ shorts:
     anchor: "The first users were students, found through university workshops"
     title_key: "students,"
     color: corn_blue
+    post:
+      text: |-
+        Unikraft's first users were students.
+
+        Alex Jung: the team came out of academia, ran workshops at universities, and people learned the kernel while taking their operating systems course.
     from: "we started off as research."
     to: "they were taking that course."
     hook: some of the first users were students, actually.
@@ -183,6 +209,11 @@ shorts:
     anchor: "Launch often: every new feature and every raise got its own launch"
     title_key: "Launch often:"
     color: tangerine
+    post:
+      text: |-
+        Alex Jung's go-to-market advice: launch often.
+
+        Unikraft ran launch weeks for new features, launched again every time it raised, and sometimes ended the week with an in-person event. "You don't have to launch once."
     from: "so we launch often, or at least at the beginning"
     to: "That worked really well."
     hook: launching often, I think, and having these campaigns, they work quite well in terms of bringing people in.
@@ -207,6 +238,11 @@ shorts:
     anchor: "Few people self-host PostHog, but knowing they can builds trust"
     title_key: "builds trust"
     color: cobalt
+    post:
+      text: |-
+        Very few people self-host PostHog. Tim Glaser says that's fine: knowing they can is what makes them trust the cloud product.
+
+        His caveat: if you're not building an engineering tool, the benefit is much smaller.
     from: "Yeah, I think for us, it's a trust thing"
     to: "the benefit is obviously much, much less."
     hook: very few people self-host PostHog, people like the fact that they can and that actually increases the trust in our cloud product
@@ -223,6 +259,11 @@ shorts:
     anchor: "For us, open source's value has been feedback, not contributions"
     title_key: "feedback, not contributions"
     color: green
+    post:
+      text: |-
+        PostHog has never had really substantial code contributions from its community, says Tim Glaser.
+
+        For them, the value of open source is feedback: they'd rather hear what's wrong and build the fix themselves.
     from: "One that I used to hear more is that the value of open source"
     to: "other people can implement stuff in our software."
     hook: We've never had really substantial contributions from the community, but for us, it's always been more about feedback.
@@ -232,6 +273,11 @@ shorts:
     anchor: "Open core failed for PostHog. Charging only for the cloud worked."
     title_key: "Charging only for the cloud worked."
     color: corn_blue
+    post:
+      text: |-
+        PostHog tried open core. It didn't work: customers thought they were buying 24/7 on-call SRE support, and the team ended up debugging setups from photos of screens.
+
+        Charging only for the cloud went way better, says Tim Glaser.
     parts:  # "...it didn't work because" + "really what customers think they're buying is 24/7 SRE support"
       - {from: "it's actually interesting that you're open core", to: "and it didn't work because"}
       - {from: "really what customers think they're buying", to: "word of mouth and usage for our cloud as well."}
@@ -242,6 +288,11 @@ shorts:
     anchor: "In-person events beat AI-written outbound"
     title_key: "beat AI-written outbound"
     color: coral
+    post:
+      text: |-
+        "I don't like getting AI slop in my inbox."
+
+        Alex Jung (Unikraft) says in-person events, where you talk with real people, now matter more than outbound. He'd had a thousand emails since that morning.
     from: "I don't like getting AI slop in my inbox."
     to: "It's going to continue to grow like that."
     hook: I think it's actually more important to have, like, physical, in-present events than actually all this outbound stuff.
@@ -251,6 +302,11 @@ shorts:
     anchor: "Maintaining software isn't free, and with AI it literally costs you"
     title_key: "literally costs you"
     color: tangerine
+    post:
+      text: |-
+        It's not free to maintain software, says Alex Jung, and with AI it literally costs you something.
+
+        Even Cloudflare's blog post on its latest rewrite had a whole section on who's going to maintain it.
     from: "I think there's a big question about maintainability."
     to: "Who's going to maintain this, right?"
     hook: It's not free to maintain software.
@@ -266,6 +322,11 @@ shorts:
     anchor: "Distribution is a moat. Find a hook that stands out."
     title_key: "Distribution is a moat."
     color: cobalt
+    post:
+      text: |-
+        Distribution is a moat, and Tim Glaser thinks it's gotten much harder: the internet is noisier.
+
+        Blogs, Twitter, or "the crazy branding stuff that we do" all work for the same reason. They stand out.
     from: "I think distribution is a moat"
     to: "a hook that kind of makes sense and it's different."
     hook: I think distribution is a moat, and I think it has gotten much harder,
@@ -275,6 +336,11 @@ shorts:
     anchor: "Be a forward-deployed engineer: solve people's problems for them"
     title_key: "forward-deployed engineer:"
     color: violet
+    post:
+      text: |-
+        It used to be enough to build software and put it out there. Now, says Tim Glaser, solving people's problems for them is way more valuable.
+
+        It's how he sees a lot of YC companies get their first customers.
     from: "I think it used to be that you could just build some software"
     to: "get the first couple of customers."
     hook: So can you be like a forward-deployed engineer that just solves problems for people?

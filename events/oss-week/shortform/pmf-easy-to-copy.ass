@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1440
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,RoundHog Bold,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,2,2,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}Especially{\c&H00FFFFFF\fscx100\fscy100} right now
+Dialogue: 0,0:00:00.32,0:00:00.44,Caption,,0,0,450,,Especially {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}right{\c&H00FFFFFF\fscx100\fscy100} now
+Dialogue: 0,0:00:00.44,0:00:00.76,Caption,,0,0,450,,Especially right {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}now{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:00.76,0:00:00.90,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}because{\c&H00FFFFFF\fscx100\fscy100} of the AI
+Dialogue: 0,0:00:00.90,0:00:01.16,Caption,,0,0,450,,because {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} the AI
+Dialogue: 0,0:00:01.16,0:00:01.64,Caption,,0,0,450,,because of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} AI
+Dialogue: 0,0:00:01.64,0:00:02.14,Caption,,0,0,450,,because of the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}AI{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:02.14,0:00:02.58,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}agents{\c&H00FFFFFF\fscx100\fscy100} even if you're
+Dialogue: 0,0:00:02.58,0:00:02.76,Caption,,0,0,450,,agents {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}even{\c&H00FFFFFF\fscx100\fscy100} if you're
+Dialogue: 0,0:00:02.76,0:00:02.78,Caption,,0,0,450,,agents even {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} you're
+Dialogue: 0,0:00:02.78,0:00:03.00,Caption,,0,0,450,,agents even if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.00,0:00:03.22,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} open source
+Dialogue: 0,0:00:03.22,0:00:03.44,Caption,,0,0,450,,not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}open{\c&H00FFFFFF\fscx100\fscy100} source
+Dialogue: 0,0:00:03.44,0:00:03.64,Caption,,0,0,450,,not open {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:03.64,0:00:03.84,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it's{\c&H00FFFFFF\fscx100\fscy100} so easy to copy
+Dialogue: 0,0:00:03.84,0:00:04.12,Caption,,0,0,450,,it's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}so{\c&H00FFFFFF\fscx100\fscy100} easy to copy
+Dialogue: 0,0:00:04.12,0:00:04.40,Caption,,0,0,450,,it's so {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}easy{\c&H00FFFFFF\fscx100\fscy100} to copy
+Dialogue: 0,0:00:04.40,0:00:04.94,Caption,,0,0,450,,it's so easy {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} copy
+Dialogue: 0,0:00:04.94,0:00:05.26,Caption,,0,0,450,,it's so easy to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}copy{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:05.26,0:00:05.50,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}whatever{\c&H00FFFFFF\fscx100\fscy100} you have.
+Dialogue: 0,0:00:05.50,0:00:05.76,Caption,,0,0,450,,whatever {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} have.
+Dialogue: 0,0:00:05.76,0:00:06.29,Caption,,0,0,450,,whatever you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}have.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:06.29,0:00:06.45,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} that's the case
+Dialogue: 0,0:00:06.45,0:00:06.65,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}that's{\c&H00FFFFFF\fscx100\fscy100} the case
+Dialogue: 0,0:00:06.65,0:00:06.87,Caption,,0,0,450,,if that's {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} case
+Dialogue: 0,0:00:06.87,0:00:07.05,Caption,,0,0,450,,if that's the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}case{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.05,0:00:07.29,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} just do the right
+Dialogue: 0,0:00:07.29,0:00:07.49,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} do the right
+Dialogue: 0,0:00:07.49,0:00:07.61,Caption,,0,0,450,,you just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} the right
+Dialogue: 0,0:00:07.61,0:00:07.77,Caption,,0,0,450,,you just do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} right
+Dialogue: 0,0:00:07.77,0:00:07.97,Caption,,0,0,450,,you just do the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}right{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:07.97,0:00:08.15,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}thing{\c&H00FFFFFF\fscx100\fscy100} for a company
+Dialogue: 0,0:00:08.15,0:00:08.25,Caption,,0,0,450,,thing {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} a company
+Dialogue: 0,0:00:08.25,0:00:08.61,Caption,,0,0,450,,thing for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} company
+Dialogue: 0,0:00:08.61,0:00:09.33,Caption,,0,0,450,,thing for a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}company{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:09.33,0:00:10.07,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}if{\c&H00FFFFFF\fscx100\fscy100} closed source is
+Dialogue: 0,0:00:10.07,0:00:10.31,Caption,,0,0,450,,if {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}closed{\c&H00FFFFFF\fscx100\fscy100} source is
+Dialogue: 0,0:00:10.31,0:00:10.57,Caption,,0,0,450,,if closed {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}source{\c&H00FFFFFF\fscx100\fscy100} is
+Dialogue: 0,0:00:10.57,0:00:10.77,Caption,,0,0,450,,if closed source {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}is{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:10.77,0:00:11.17,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}the{\c&H00FFFFFF\fscx100\fscy100} most useful way
+Dialogue: 0,0:00:11.17,0:00:11.45,Caption,,0,0,450,,the {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}most{\c&H00FFFFFF\fscx100\fscy100} useful way
+Dialogue: 0,0:00:11.45,0:00:11.73,Caption,,0,0,450,,the most {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}useful{\c&H00FFFFFF\fscx100\fscy100} way
+Dialogue: 0,0:00:11.73,0:00:11.99,Caption,,0,0,450,,the most useful {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}way{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:11.99,0:00:12.23,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} you to find a PMF
+Dialogue: 0,0:00:12.23,0:00:12.39,Caption,,0,0,450,,for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} to find a PMF
+Dialogue: 0,0:00:12.39,0:00:12.63,Caption,,0,0,450,,for you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}to{\c&H00FFFFFF\fscx100\fscy100} find a PMF
+Dialogue: 0,0:00:12.63,0:00:12.73,Caption,,0,0,450,,for you to {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}find{\c&H00FFFFFF\fscx100\fscy100} a PMF
+Dialogue: 0,0:00:12.73,0:00:12.81,Caption,,0,0,450,,for you to find {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}a{\c&H00FFFFFF\fscx100\fscy100} PMF
+Dialogue: 0,0:00:12.81,0:00:13.35,Caption,,0,0,450,,for you to find a {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}PMF{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:13.35,0:00:13.57,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}then{\c&H00FFFFFF\fscx100\fscy100} just go for it.
+Dialogue: 0,0:00:13.57,0:00:13.73,Caption,,0,0,450,,then {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} go for it.
+Dialogue: 0,0:00:13.73,0:00:13.89,Caption,,0,0,450,,then just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}go{\c&H00FFFFFF\fscx100\fscy100} for it.
+Dialogue: 0,0:00:13.89,0:00:14.07,Caption,,0,0,450,,then just go {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}for{\c&H00FFFFFF\fscx100\fscy100} it.
+Dialogue: 0,0:00:14.07,0:00:14.73,Caption,,0,0,450,,then just go for {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}it.{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:14.79,0:00:14.89,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}If{\c&H00FFFFFF\fscx100\fscy100} you're not sure
+Dialogue: 0,0:00:14.89,0:00:15.13,Caption,,0,0,450,,If {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you're{\c&H00FFFFFF\fscx100\fscy100} not sure
+Dialogue: 0,0:00:15.13,0:00:15.35,Caption,,0,0,450,,If you're {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}not{\c&H00FFFFFF\fscx100\fscy100} sure
+Dialogue: 0,0:00:15.35,0:00:15.53,Caption,,0,0,450,,If you're not {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}sure{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:15.53,0:00:15.63,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}you{\c&H00FFFFFF\fscx100\fscy100} can just do both
+Dialogue: 0,0:00:15.63,0:00:15.79,Caption,,0,0,450,,you {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}can{\c&H00FFFFFF\fscx100\fscy100} just do both
+Dialogue: 0,0:00:15.79,0:00:15.99,Caption,,0,0,450,,you can {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}just{\c&H00FFFFFF\fscx100\fscy100} do both
+Dialogue: 0,0:00:15.99,0:00:16.57,Caption,,0,0,450,,you can just {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}do{\c&H00FFFFFF\fscx100\fscy100} both
+Dialogue: 0,0:00:16.57,0:00:16.73,Caption,,0,0,450,,you can just do {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}both{\c&H00FFFFFF\fscx100\fscy100}
+Dialogue: 0,0:00:16.73,0:00:16.91,Caption,,0,0,450,,{\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}of{\c&H00FFFFFF\fscx100\fscy100} them.
+Dialogue: 0,0:00:16.91,0:00:17.26,Caption,,0,0,450,,of {\c&H001CCEFF\fscx100\fscy100\t(0,90,\fscx105\fscy105)}them.{\c&H00FFFFFF\fscx100\fscy100}
